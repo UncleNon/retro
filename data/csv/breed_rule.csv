@@ -26,3 +26,311 @@ BRD-0211,special,MON-011,MON-016,MON-021,109,1,14,判乳器と宿帳の膜が無
 BRD-0212,special,MON-014,MON-020,MON-028,115,1,16,名を囲う灯と無銘灯が役名だけを抜く影へ反転する hidden light recipe
 BRD-0213,special,MON-015,MON-027,MON-029,113,1,16,鍵棚の巣作りと badge 棚の蟻害が棚渡り害獣へまとまる hidden archive recipe
 BRD-0214,special,MON-009,MON-017,MON-027,111,1,15,印食いと札穴甲片が標章害獣 line の裏口になる hidden numbered-edge recipe
+BRD-1001,family,family:slime,family:slime,MON-470,50,0,10,slime×slime→slime: 同系統で上位スライム
+BRD-1002,family,family:slime,family:beast,MON-030,50,0,10,slime×beast→beast: 獣側が支配
+BRD-1003,family,family:slime,family:bird,MON-099,50,0,10,slime×bird→bird: 鳥側が支配
+BRD-1004,family,family:slime,family:plant,MON-141,50,0,10,slime×plant→plant: 植物側が支配
+BRD-1005,family,family:slime,family:magic,MON-260,50,0,10,slime×magic→magic: 魔性側が支配
+BRD-1006,family,family:slime,family:material,MON-200,50,0,10,slime×material→material: 器物側が支配
+BRD-1007,family,family:slime,family:undead,MON-320,50,0,10,slime×undead→undead: 不死側が支配
+BRD-1008,family,family:slime,family:dragon,MON-370,50,0,10,slime×dragon→dragon: 竜側が支配
+BRD-1009,family,family:slime,family:divine,MON-420,50,0,10,slime×divine→divine: 聖性側が支配
+BRD-1010,family,family:beast,family:slime,MON-030,50,0,10,beast×slime→beast: 獣側が支配
+BRD-1011,family,family:beast,family:beast,MON-030,50,0,10,beast×beast→beast: 同系統で上位獣
+BRD-1012,family,family:beast,family:bird,MON-099,50,0,10,beast×bird→bird: 鳥側が支配
+BRD-1013,family,family:beast,family:plant,MON-141,50,0,10,beast×plant→plant: 植物側が支配
+BRD-1014,family,family:beast,family:magic,MON-260,50,0,10,beast×magic→magic: 魔性側が支配
+BRD-1015,family,family:beast,family:material,MON-030,50,0,10,beast×material→beast: 獣側が血統維持
+BRD-1016,family,family:beast,family:undead,MON-320,50,0,10,beast×undead→undead: 不死側が支配
+BRD-1017,family,family:beast,family:dragon,MON-370,50,0,10,beast×dragon→dragon: 竜側が支配
+BRD-1018,family,family:beast,family:divine,MON-420,50,0,10,beast×divine→divine: 聖性側が支配
+BRD-1019,family,family:bird,family:slime,MON-099,50,0,10,bird×slime→bird: 鳥側が支配
+BRD-1020,family,family:bird,family:beast,MON-099,50,0,10,bird×beast→bird: 鳥側が支配
+BRD-1021,family,family:bird,family:bird,MON-099,50,0,10,bird×bird→bird: 同系統で上位鳥
+BRD-1022,family,family:bird,family:plant,MON-141,50,0,10,bird×plant→plant: 植物側が支配
+BRD-1023,family,family:bird,family:magic,MON-260,50,0,10,bird×magic→magic: 魔性側が支配
+BRD-1024,family,family:bird,family:material,MON-200,50,0,10,bird×material→material: 器物側が支配
+BRD-1025,family,family:bird,family:undead,MON-320,50,0,10,bird×undead→undead: 不死側が支配
+BRD-1026,family,family:bird,family:dragon,MON-370,50,0,10,bird×dragon→dragon: 竜側が支配
+BRD-1027,family,family:bird,family:divine,MON-420,50,0,10,bird×divine→divine: 聖性側が支配
+BRD-1028,family,family:plant,family:slime,MON-141,50,0,10,plant×slime→plant: 植物側が支配
+BRD-1029,family,family:plant,family:beast,MON-141,50,0,10,plant×beast→plant: 植物側が支配
+BRD-1030,family,family:plant,family:bird,MON-141,50,0,10,plant×bird→plant: 植物側が支配
+BRD-1031,family,family:plant,family:plant,MON-141,50,0,10,plant×plant→plant: 同系統で上位植物
+BRD-1032,family,family:plant,family:magic,MON-260,50,0,10,plant×magic→magic: 魔性側が支配
+BRD-1033,family,family:plant,family:material,MON-200,50,0,10,plant×material→material: 器物側が支配
+BRD-1034,family,family:plant,family:undead,MON-320,50,0,10,plant×undead→undead: 不死側が支配
+BRD-1035,family,family:plant,family:dragon,MON-370,50,0,10,plant×dragon→dragon: 竜側が支配
+BRD-1036,family,family:plant,family:divine,MON-420,50,0,10,plant×divine→divine: 聖性側が支配
+BRD-1037,family,family:magic,family:slime,MON-260,50,0,10,magic×slime→magic: 魔性側が支配
+BRD-1038,family,family:magic,family:beast,MON-260,50,0,10,magic×beast→magic: 魔性側が支配
+BRD-1039,family,family:magic,family:bird,MON-260,50,0,10,magic×bird→magic: 魔性側が支配
+BRD-1040,family,family:magic,family:plant,MON-260,50,0,10,magic×plant→magic: 魔性側が支配
+BRD-1041,family,family:magic,family:magic,MON-260,50,0,10,magic×magic→magic: 同系統で上位魔性
+BRD-1042,family,family:magic,family:material,MON-200,50,0,10,magic×material→material: 器物側の呪性化
+BRD-1043,family,family:magic,family:undead,MON-320,50,0,10,magic×undead→undead: 不死側が支配
+BRD-1044,family,family:magic,family:dragon,MON-370,50,0,10,magic×dragon→dragon: 竜側が支配
+BRD-1045,family,family:magic,family:divine,MON-420,50,0,10,magic×divine→divine: 聖性側が支配
+BRD-1046,family,family:material,family:slime,MON-200,50,0,10,material×slime→material: 器物側が支配
+BRD-1047,family,family:material,family:beast,MON-030,50,0,10,material×beast→beast: 獣側が器物化
+BRD-1048,family,family:material,family:bird,MON-200,50,0,10,material×bird→material: 器物側が支配
+BRD-1049,family,family:material,family:plant,MON-200,50,0,10,material×plant→material: 器物側が支配
+BRD-1050,family,family:material,family:magic,MON-260,50,0,10,material×magic→magic: 魔性側が器物を取込
+BRD-1051,family,family:material,family:material,MON-200,50,0,10,material×material→material: 同系統で上位器物
+BRD-1052,family,family:material,family:undead,MON-320,50,0,10,material×undead→undead: 不死側が支配
+BRD-1053,family,family:material,family:dragon,MON-370,50,0,10,material×dragon→dragon: 竜側が支配
+BRD-1054,family,family:material,family:divine,MON-420,50,0,10,material×divine→divine: 聖性側が支配
+BRD-1055,family,family:undead,family:slime,MON-320,50,0,10,undead×slime→undead: 不死側が支配
+BRD-1056,family,family:undead,family:beast,MON-320,50,0,10,undead×beast→undead: 不死側が支配
+BRD-1057,family,family:undead,family:bird,MON-320,50,0,10,undead×bird→undead: 不死側が支配
+BRD-1058,family,family:undead,family:plant,MON-320,50,0,10,undead×plant→undead: 不死側が支配
+BRD-1059,family,family:undead,family:magic,MON-320,50,0,10,undead×magic→undead: 不死側が支配
+BRD-1060,family,family:undead,family:material,MON-320,50,0,10,undead×material→undead: 不死側が支配
+BRD-1061,family,family:undead,family:undead,MON-320,50,0,10,undead×undead→undead: 同系統で上位不死
+BRD-1062,family,family:undead,family:dragon,MON-370,50,0,10,undead×dragon→dragon: 竜側が支配
+BRD-1063,family,family:undead,family:divine,MON-420,50,0,10,undead×divine→divine: 聖性側が支配
+BRD-1064,family,family:dragon,family:slime,MON-370,50,0,10,dragon×slime→dragon: 竜側が支配
+BRD-1065,family,family:dragon,family:beast,MON-370,50,0,10,dragon×beast→dragon: 竜側が支配
+BRD-1066,family,family:dragon,family:bird,MON-370,50,0,10,dragon×bird→dragon: 竜側が支配
+BRD-1067,family,family:dragon,family:plant,MON-370,50,0,10,dragon×plant→dragon: 竜側が支配
+BRD-1068,family,family:dragon,family:magic,MON-370,50,0,10,dragon×magic→dragon: 竜側が支配
+BRD-1069,family,family:dragon,family:material,MON-370,50,0,10,dragon×material→dragon: 竜側が支配
+BRD-1070,family,family:dragon,family:undead,MON-370,50,0,10,dragon×undead→dragon: 竜側が支配
+BRD-1071,family,family:dragon,family:dragon,MON-370,50,0,10,dragon×dragon→dragon: 同系統で上位竜
+BRD-1072,family,family:dragon,family:divine,MON-420,50,0,10,dragon×divine→divine: 聖性側が支配
+BRD-1073,family,family:divine,family:slime,MON-420,50,0,10,divine×slime→divine: 聖性側が支配
+BRD-1074,family,family:divine,family:beast,MON-420,50,0,10,divine×beast→divine: 聖性側が支配
+BRD-1075,family,family:divine,family:bird,MON-420,50,0,10,divine×bird→divine: 聖性側が支配
+BRD-1076,family,family:divine,family:plant,MON-420,50,0,10,divine×plant→divine: 聖性側が支配
+BRD-1077,family,family:divine,family:magic,MON-420,50,0,10,divine×magic→divine: 聖性側が支配
+BRD-1078,family,family:divine,family:material,MON-420,50,0,10,divine×material→divine: 聖性側が支配
+BRD-1079,family,family:divine,family:undead,MON-420,50,0,10,divine×undead→divine: 聖性側が支配
+BRD-1080,family,family:divine,family:dragon,MON-420,50,0,10,divine×dragon→divine: 聖性側が支配
+BRD-1081,family,family:divine,family:divine,MON-420,50,0,10,divine×divine→divine: 同系統で上位聖
+BRD-2001,special,MON-030,MON-006,MON-047,100,1,10,鈴羊+石耳兎→肉狼: 牧畜獣の食物連鎖 Step1
+BRD-2002,special,MON-047,MON-034,MON-065,105,1,14,肉狼+仔馬→岩熊: 獣の頂点への道 Step2
+BRD-2003,special,MON-065,MON-048,MON-080,110,1,18,岩熊+鉄牛→門熊(B): 境界山の支配者 Step3→B
+BRD-2004,special,MON-032,MON-044,MON-052,100,1,10,茅鼠+帯守宮→斑大狐: 小さき者の合成 Step1
+BRD-2005,special,MON-052,MON-035,MON-071,105,1,14,斑大狐+土竜→闇狐: 古祠の化け物 Step2
+BRD-2006,special,MON-071,MON-053,MON-084,110,1,18,闇狐+灰山犬→残名狐(B): 回廊に名を喰う九尾 Step3→B
+BRD-2007,special,MON-031,MON-045,MON-048,100,1,10,山羊+猪→鉄牛: 牧畜獣の純粋合成 Step1
+BRD-2008,special,MON-048,MON-057,MON-070,105,1,14,鉄牛+荒馬→命馬: 命綱を纏う馬 Step2
+BRD-2009,special,MON-070,MON-062,MON-081,110,1,18,命馬+霜犬→双銘馬(B): 二つの家名を持つ銘馬 Step3→B
+BRD-2010,special,MON-033,MON-039,MON-051,100,1,10,札狐+墨兎→筋山猫: 名札の血を持つ獣 Step1
+BRD-2011,special,MON-051,MON-056,MON-066,105,1,14,筋山猫+影兎→門豹: 門紋を持つ豹 Step2
+BRD-2012,special,MON-066,MON-050,MON-082,110,1,18,門豹+雲鹿→雷光豹(B): 塔前の黒豹 Step3→B
+BRD-2013,special,MON-036,MON-037,MON-055,100,1,10,首輪狸+骨蜘蛛→爪穴熊: 腐食系の融合 Step1
+BRD-2014,special,MON-055,MON-046,MON-072,105,1,14,爪穴熊+白腹貉→鉄猪: 鉱道を走る猪 Step2
+BRD-2015,special,MON-072,MON-061,MON-086,110,1,18,鉄猪+土竜王→炎猪(B): 焼継窯の炎獣 Step3→B
+BRD-2016,special,MON-038,MON-054,MON-076,105,1,14,川獺+沼鰐→川蛟: 堰を崩す水獣 Step1
+BRD-2017,special,MON-076,MON-069,MON-088,115,1,22,川蛟+泥大鰐→結界獣(A): 古門柱の守護者 Step2→A
+BRD-2018,special,MON-040,MON-050,MON-068,100,1,12,疣鹿+雲鹿→風鹿: 高原の牡鹿 Step1
+BRD-2019,special,MON-068,MON-077,MON-091,115,1,22,風鹿+鏡鹿→残響鹿(A): 回廊の角に名を宿す Step2→A
+BRD-2020,special,MON-043,MON-060,MON-058,100,1,10,赤鼬+大鼬→塩路狼 Step1
+BRD-2021,special,MON-058,MON-067,MON-079,110,1,18,塩路狼+月狼→家系狼(B): 血統証の狼 Step2→B
+BRD-2022,special,MON-079,MON-087,MON-095,120,1,30,家系狼+星狼→聖霊狼(S): 最高位の獣 5-step chain final→S
+BRD-2023,special,MON-042,MON-062,MON-085,110,1,18,乳仔牛+霜犬→形見牛(B): 弔い角の巨牛 Step2
+BRD-2024,special,MON-085,MON-090,MON-096,125,1,35,形見牛+遺言熊→万能牛王(S): 聖郭中枢の牛王 longchain→S
+BRD-2025,special,MON-080,MON-088,MON-094,120,1,28,門熊+結界獣→神木獣(A): 根門の番獣 Step5→A
+BRD-2026,special,MON-094,MON-091,MON-097,125,1,35,神木獣+残響鹿→継ぎ目獣(S): 塔深層の根源獣 final→S
+BRD-2027,special,MON-082,MON-093,MON-098,125,1,35,雷光豹+古鉄豹→原羊獅子(S): 原初の獣 7-step final→S
+BRD-2028,special,MON-081,MON-083,MON-089,115,1,22,双銘馬+戸籍獅子→白麒麟(A): 境界原の古獣 Step4→A
+BRD-2029,special,MON-084,MON-086,MON-092,115,1,22,残名狐+炎猪→焔獅子(A): 審問台の焔 Step4→A
+BRD-2030,special,MON-092,MON-089,MON-095,125,1,35,焔獅子+白麒麟→聖霊狼(S): 別ルート→S
+BRD-2031,special,MON-099,MON-100,MON-111,100,1,10,穀雀+文鳩→札鶺鴒: 鳥の情報系融合 Step1
+BRD-2032,special,MON-111,MON-112,MON-121,105,1,14,札鶺鴒+風隼→囮啄木鳥: 封印杭の刻み Step2
+BRD-2033,special,MON-121,MON-114,MON-123,110,1,18,囮啄木鳥+境目鳶→封陣鷲(C→B bridge): 山稜門の翼 Step3
+BRD-2034,special,MON-123,MON-125,MON-129,115,1,22,封陣鷲+契り鷹→嵐隼(B): 門前荒地の嵐 Step4→B
+BRD-2035,special,MON-101,MON-102,MON-115,100,1,10,欠皿鶫+夜百舌→曇鷺: 弔い系鳥の融合 Step1
+BRD-2036,special,MON-115,MON-105,MON-122,105,1,14,曇鷺+串鷺→〆鷺: 弔い水路の大鷺 Step2
+BRD-2037,special,MON-122,MON-118,MON-130,110,1,18,〆鷺+雨燕→失名鷲(B): 残響回廊の翼 Step3→B
+BRD-2038,special,MON-104,MON-116,MON-124,105,1,14,葦梟+帳梟→契約梟: 法台夜番の梟 Step1
+BRD-2039,special,MON-124,MON-128,MON-133,110,1,18,契約梟+銘郭公→風雪梟(B): 天文台の眼 Step2→B
+BRD-2040,special,MON-129,MON-134,MON-135,120,1,28,嵐隼+契約鷲→残名鷹(A): 回廊上空の狩人 Step5→A
+BRD-2041,special,MON-130,MON-132,MON-136,120,1,28,失名鷲+霊鐘鴉→審判鷲(A): 法台上空の裁き Step5→A
+BRD-2042,special,MON-135,MON-136,MON-139,125,1,35,残名鷹+審判鷲→天道烏(S): 塔頂の始まりの烏 7-step→S
+BRD-2043,special,MON-133,MON-137,MON-140,125,1,35,風雪梟+原始梟→聖灰鳳凰(S): 白泥境界の鳳凰 →S
+BRD-2044,special,MON-103,MON-107,MON-117,100,1,10,屋根燕+垣根鵙→使い鳩 Step1
+BRD-2045,special,MON-117,MON-113,MON-126,105,1,14,使い鳩+告げ長鳥→風巻鳥: 塔外壁の螺旋 Step2
+BRD-2046,special,MON-126,MON-119,MON-131,110,1,18,風巻鳥+門鵜→発見鳶(B): 審問塔の眼 Step3→B
+BRD-2047,special,MON-106,MON-108,MON-113,100,1,10,灰雲雀+墨千鳥→告げ長鳥: 記録系鳥の融合 Step1
+BRD-2048,special,MON-110,MON-120,MON-127,105,1,14,欠片星四十雀+霞雀→伏燕: 黒布巡礼の燕 Step2
+BRD-2049,special,MON-127,MON-109,MON-138,115,1,22,伏燕+凪海鳥→天津鷺(A): 聖水路の鷺 Step3→A
+BRD-2050,special,MON-141,MON-142,MON-153,100,1,10,糠露+菱草→毒消し童: 台所と水田の知恵 Step1
+BRD-2051,special,MON-153,MON-147,MON-154,105,1,14,毒消し童+綿茸→茸帽子: 墓守小屋の大茸 Step2
+BRD-2052,special,MON-154,MON-162,MON-164,105,1,14,茸帽子+注連草→眠り根: 墓底の根精 Step3
+BRD-2053,special,MON-164,MON-163,MON-174,110,1,18,眠り根+祠苔→脈根(B): 門底の地脈根 Step4→B
+BRD-2054,special,MON-143,MON-148,MON-157,100,1,10,麦拳+刈萱→葦黴: 畑と湿地の交差 Step1
+BRD-2055,special,MON-157,MON-155,MON-166,105,1,14,葦黴+蔦葛→蔓潜り: 門裂の蔓精 Step2
+BRD-2056,special,MON-166,MON-161,MON-171,110,1,18,蔓潜り+角実草→寄生木草(B): 門裂の名喰い Step3→B
+BRD-2057,special,MON-144,MON-149,MON-156,100,1,10,仏芹+墓杉→花束精: 弔いの花 Step1
+BRD-2058,special,MON-156,MON-162,MON-172,110,1,18,花束精+注連草→泣花園(B): 残響回廊の園 Step2→B
+BRD-2059,special,MON-145,MON-150,MON-159,100,1,10,黴童+畦菜→梔子花: 蔵と耕地の印 Step1
+BRD-2060,special,MON-159,MON-165,MON-169,105,1,14,梔子花+印草→花喰草: 名を吸う花 Step2
+BRD-2061,special,MON-169,MON-170,MON-176,110,1,18,花喰草+床羊歯→菌糸柱(B): 記録聖堂の菌糸 Step3→B
+BRD-2062,special,MON-174,MON-171,MON-177,115,1,22,脈根+寄生木草→神木杉(A): 根門の守り Step5→A
+BRD-2063,special,MON-172,MON-178,MON-183,125,1,35,泣花園+記憶花→聖霊花(S): 世界の境を繋ぐ花 →S
+BRD-2064,special,MON-176,MON-179,MON-180,120,1,28,菌糸柱+刻印木→大樹根(A): 塔底の世界樹 Step5→A
+BRD-2065,special,MON-177,MON-180,MON-182,125,1,35,神木杉+大樹根→太根木(S): 門柱の大木 7-step→S
+BRD-2066,special,MON-146,MON-151,MON-158,100,1,10,土手花+星蔓→夫婦杉: 牧畜の結び Step1
+BRD-2067,special,MON-158,MON-160,MON-168,105,1,14,夫婦杉+宿木童→古木森: 星映しの森精 Step2
+BRD-2068,special,MON-168,MON-167,MON-173,110,1,18,古木森+降ろし草→鉄松(B): 炉門の松精 Step3→B
+BRD-2069,special,MON-173,MON-175,MON-181,115,1,22,鉄松+薙蔓→残響花(A): 回廊の花精 Step4→A
+BRD-2070,special,MON-181,MON-178,MON-184,125,1,35,残響花+記憶花→原始茸(S): 聖郭底の始まりの茸 →S
+BRD-2071,special,MON-200,MON-202,MON-215,100,1,10,割瓶+釘鼠→金槌虫: 鍛冶場の器物融合 Step1
+BRD-2072,special,MON-215,MON-205,MON-214,105,1,14,金槌虫+擂粉木虫→鋤牛: 耕作の重器物 Step2
+BRD-2073,special,MON-214,MON-219,MON-234,110,1,18,鋤牛+石臼蛇→継石(C): 境界壁の石型 Step3
+BRD-2074,special,MON-234,MON-220,MON-237,110,1,18,継石+扉蟹→柱蟹(B): 回廊遺構の蟹 Step4→B
+BRD-2075,special,MON-201,MON-204,MON-216,100,1,10,皿童+箒兎→機織蜘蛛: 帳場の器物系 Step1
+BRD-2076,special,MON-216,MON-223,MON-226,105,1,14,機織蜘蛛+巻物蟲→帳簿蜥蜴: 役所の記録型 Step2
+BRD-2077,special,MON-226,MON-227,MON-239,110,1,18,帳簿蜥蜴+印亀→壁童(B): 法院回廊の童子 Step3→B
+BRD-2078,special,MON-203,MON-206,MON-222,100,1,10,壺蜘蛛+籠蟲→鎖芋虫: 封印柱の器物 Step1
+BRD-2079,special,MON-222,MON-225,MON-229,105,1,14,鎖芋虫+錠甲虫→封印鈴: 境界柱の鐘虫 Step2
+BRD-2080,special,MON-229,MON-232,MON-236,110,1,18,封印鈴+鐘烏→框蜥蜴(B): 門敷居の試し Step3→B
+BRD-2081,special,MON-207,MON-208,MON-221,100,1,10,鈴雀+灯蝸牛→笛蛇: 弔い道の管楽器 Step1
+BRD-2082,special,MON-221,MON-213,MON-235,105,1,14,笛蛇+鐘蝉→神楽鈴: 祠の浮遊虫 Step2
+BRD-2083,special,MON-235,MON-233,MON-243,110,1,18,神楽鈴+扉守宮→封印鎌(B): 封門機構の刈取り Step3→B
+BRD-2084,special,MON-237,MON-238,MON-242,115,1,22,柱蟹+楣石→扉壁王(B): 門番塔の巨大器物 Step5
+BRD-2085,special,MON-242,MON-240,MON-247,120,1,28,扉壁王+錠蛇→閂王(A): 深門の閂 Step6→A
+BRD-2086,special,MON-239,MON-236,MON-244,115,1,22,壁童+框蜥蜴→鍵大明神(A): 封門中枢の鍵神 Step4→A
+BRD-2087,special,MON-243,MON-241,MON-245,115,1,22,封印鎌+敷居鮫→封印陣(A): 境界紋の蛇環 Step4→A
+BRD-2088,special,MON-244,MON-245,MON-248,120,1,28,鍵大明神+封印陣→扉鏡(A): 鏡門の反射盤 Step5→A
+BRD-2089,special,MON-247,MON-250,MON-251,125,1,35,閂王+門壁心→塔石人(S): 塔基部の化身 →S
+BRD-2090,special,MON-248,MON-246,MON-252,125,1,35,扉鏡+境界標→門枠巨人(S): 世界門の枠 →S
+BRD-2091,special,MON-249,MON-250,MON-253,125,1,35,封印輪+門壁心→封塔心(S): 塔深層の意志 →S
+BRD-2092,special,MON-209,MON-210,MON-218,100,1,10,茶碗蛙+鉄土竜→砧守宮: 洗い場の器物 Step1
+BRD-2093,special,MON-218,MON-224,MON-230,105,1,14,砧守宮+鍋兜蟹→標蟹: 石段の標章蟹 Step2
+BRD-2094,special,MON-230,MON-231,MON-238,110,1,18,標蟹+判子虫→楣石(B): 門上部の重石 Step3→B
+BRD-2095,special,MON-211,MON-212,MON-228,100,1,10,鎌蜻蛉+鍵蜥蜴→墨石蛇 Step1
+BRD-2096,special,MON-228,MON-233,MON-240,110,1,18,墨石蛇+扉守宮→錠蛇(B): 封門の閂蛇 Step2→B
+BRD-2097,special,MON-246,MON-249,MON-254,120,1,28,境界標+封印輪→掲示板(S): 聖郭の全記録 →S
+BRD-2098,special,MON-252,MON-253,MON-255,130,1,40,門枠巨人+封塔心→世界扉(S): 根源門の化身 ultimate→S
+BRD-2099,special,MON-260,MON-262,MON-272,100,1,10,人魂子+墨玉→印影: 査定場の浮遊印 Step1
+BRD-2100,special,MON-272,MON-271,MON-282,105,1,14,印影+滲み棒→名写し: 台帳から名が浮く Step2
+BRD-2101,special,MON-282,MON-283,MON-299,110,1,18,名写し+台帳影→書換霊(B): 法台の記録改竄 Step3→B
+BRD-2102,special,MON-261,MON-264,MON-275,100,1,10,塵旋風+影鼠→影鳥: 影から影へ Step1
+BRD-2103,special,MON-275,MON-268,MON-285,105,1,14,影鳥+影蝶→影操り: 門回廊の糸影 Step2
+BRD-2104,special,MON-285,MON-274,MON-294,110,1,18,影操り+幾何紋→影身(B): 影が実体を持つ Step3→B
+BRD-2105,special,MON-265,MON-266,MON-279,100,1,10,虚ろ火+反響虫→木霊棒: 洞穴の反響 Step1
+BRD-2106,special,MON-279,MON-288,MON-292,110,1,18,木霊棒+声玉→木霊声(B): 死者の記憶声 Step2→B
+BRD-2107,special,MON-263,MON-269,MON-278,100,1,10,鏡罅+白玉→月影: 光の融合 Step1
+BRD-2108,special,MON-278,MON-287,MON-293,110,1,18,月影+写鏡→写身(B): 鏡像の独立 Step2→B
+BRD-2109,special,MON-267,MON-270,MON-277,100,1,10,湯気玉+砂煙→火雀: 竈の残り火 Step1
+BRD-2110,special,MON-277,MON-281,MON-286,105,1,14,火雀+火花蝶→印火: 境界柱の紋炎 Step2
+BRD-2111,special,MON-286,MON-289,MON-297,110,1,18,印火+紋針→封印紋(B): 封門の光陣 Step3→B
+BRD-2112,special,MON-280,MON-273,MON-291,105,1,14,書紋蛇+節目面→録玉: 塩庫の記録珠 Step1
+BRD-2113,special,MON-291,MON-290,MON-296,110,1,18,録玉+霧影→反響壁(B): 回廊の声壁 Step2→B
+BRD-2114,special,MON-292,MON-295,MON-305,120,1,28,木霊声+残名火→残響主(A): 全残響を統べる主 Step4→A
+BRD-2115,special,MON-293,MON-294,MON-300,115,1,22,写身+影身→門光(A): 世界門の境界光 Step4→A
+BRD-2116,special,MON-297,MON-296,MON-301,115,1,22,封印紋+反響壁→世界罅(A): 次元の裂け目 Step4→A
+BRD-2117,special,MON-299,MON-298,MON-303,115,1,22,書換霊+残響目→名重(A): 名の重力 Step4→A
+BRD-2118,special,MON-300,MON-301,MON-307,125,1,35,門光+世界罅→静寂(S): 白泥の沈黙 6-step→S
+BRD-2119,special,MON-303,MON-305,MON-308,125,1,35,名重+残響主→数え主(S): 全てを数える化身 →S
+BRD-2120,special,MON-302,MON-304,MON-309,125,1,35,継光+境界目→名の重さ(S): 全名の重力 →S
+BRD-2121,special,MON-308,MON-309,MON-310,130,1,40,数え主+名の重さ→世界残響(S): 究極の残響 ultimate→S
+BRD-2122,special,MON-300,MON-306,MON-302,120,1,28,門光+門声→継光(A): 世界縫合光 bridge recipe
+BRD-2123,special,MON-301,MON-303,MON-304,120,1,28,世界罅+名重→境界目(A): 深門の観測光 bridge recipe
+BRD-2124,special,MON-320,MON-322,MON-330,100,1,10,干鼠+蝉殻→骨拾い: 残骸の融合 Step1
+BRD-2125,special,MON-330,MON-331,MON-338,105,1,14,骨拾い+墓犬→名簿歩き: 消された名の歩行 Step2
+BRD-2126,special,MON-338,MON-339,MON-348,110,1,18,名簿歩き+消し文字→不明閻魔(B): 判定不能の霊格 Step3→B
+BRD-2127,special,MON-321,MON-324,MON-332,100,1,10,干し案山子+褪色雀→殻蓑虫: 位牌片の殻 Step1
+BRD-2128,special,MON-332,MON-334,MON-346,110,1,18,殻蓑虫+錆鎧虫→残名鎧(B): 回廊壁の武者 Step2→B
+BRD-2129,special,MON-323,MON-325,MON-333,100,1,10,干蛙+骨籠→忘れ牛: 忘却の獣霊 Step1
+BRD-2130,special,MON-333,MON-336,MON-347,110,1,18,忘れ牛+朽馬→記憶箱船(B): 弔い布の運搬 Step2→B
+BRD-2131,special,MON-326,MON-327,MON-337,100,1,10,朽蛇+錆蝶→回廊蟹: 骨甲羅の残骸 Step1
+BRD-2132,special,MON-337,MON-335,MON-342,105,1,14,回廊蟹+幽霊猫→道標骸骨: 忘れ道の案内 Step2
+BRD-2133,special,MON-342,MON-344,MON-349,110,1,18,道標骸骨+朧鴉→餓者髑髏(B): 集合骨の巨体 Step3→B
+BRD-2134,special,MON-328,MON-329,MON-343,100,1,10,空首鶏+枯葉土竜→葬儀人形: 代弔いの形 Step1
+BRD-2135,special,MON-343,MON-345,MON-350,110,1,18,葬儀人形+記録墓守→重ね棺(B): 未完弔いの重棺 Step2→B
+BRD-2136,special,MON-340,MON-341,MON-351,110,1,18,戸籍幽霊+印刷影→積み名簿(B): 判定残りの記録霊 Step2→B
+BRD-2137,special,MON-348,MON-351,MON-353,120,1,28,不明閻魔+積み名簿→証明なき王(A): 記録が残らぬ王 Step5→A
+BRD-2138,special,MON-349,MON-350,MON-354,120,1,28,餓者髑髏+重ね棺→葬霊柱(A): 千名の墓碑柱 Step5→A
+BRD-2139,special,MON-346,MON-347,MON-352,115,1,22,残名鎧+記憶箱船→忘れ路群(A): 集合忘却 Step4→A
+BRD-2140,special,MON-352,MON-355,MON-357,125,1,35,忘れ路群+無銘群星→不銘録(S): 記録拒否の化身 →S
+BRD-2141,special,MON-353,MON-356,MON-359,125,1,35,証明なき王+墓地記憶→消す者(S): 名の抹消者 →S
+BRD-2142,special,MON-354,MON-355,MON-358,125,1,35,葬霊柱+無銘群星→無縁仏(S): 弔い拒絶の万霊 →S
+BRD-2143,special,MON-370,MON-371,MON-378,100,1,10,小石蜥蜴+筆井守→縄張り飛竜: 竜種の序盤融合 Step1
+BRD-2144,special,MON-378,MON-380,MON-386,105,1,14,縄張り飛竜+岩竜→鱗紋蛇身: 封印門の蛇竜 Step2
+BRD-2145,special,MON-386,MON-388,MON-394,110,1,18,鱗紋蛇身+封印蛇→長老竜(B): 世界の歴史を刻む Step3→B
+BRD-2146,special,MON-372,MON-374,MON-381,100,1,10,涼蛇+瓦蜥蜴→毒蛇竜: 墓水路の毒竜 Step1
+BRD-2147,special,MON-381,MON-385,MON-391,105,1,14,毒蛇竜+門竜→時蛇: 門時計の砂鱗 Step2
+BRD-2148,special,MON-391,MON-392,MON-398,110,1,18,時蛇+歴史飛竜→銘刻竜(B): 法碑の裁き Step3→B
+BRD-2149,special,MON-373,MON-375,MON-383,100,1,10,岩守宮+鱗蛹→川竜: 灌漑路の竜 Step1
+BRD-2150,special,MON-383,MON-384,MON-393,105,1,14,川竜+煙竜→鉄竜: 炉跡の鉄鱗 Step2
+BRD-2151,special,MON-393,MON-387,MON-397,110,1,18,鉄竜+地竜→命竜(B): 転生を待つ竜 Step3→B
+BRD-2152,special,MON-376,MON-377,MON-382,100,1,10,追跡蜥蜴+蛟仔→碑文飛竜: 門柱の竜 Step1
+BRD-2153,special,MON-382,MON-379,MON-389,105,1,14,碑文飛竜+印翼竜→霧翼竜: 星読みの翼 Step2
+BRD-2154,special,MON-389,MON-390,MON-395,110,1,18,霧翼竜+玉竜→秘玉竜(B): 天文碑の星鱗 Step3→B
+BRD-2155,special,MON-394,MON-396,MON-401,115,1,22,長老竜+回廊竜→神話竜王(B): 門冠の竜王 Step4
+BRD-2156,special,MON-398,MON-399,MON-402,120,1,28,銘刻竜+千年蛇竜→古代王者(A): 滅びの鱗 Step5→A
+BRD-2157,special,MON-395,MON-400,MON-403,120,1,28,秘玉竜+幻惑竜→無限蛇竜(A): 尾環の星輪 Step5→A
+BRD-2158,special,MON-397,MON-404,MON-405,120,1,28,命竜+滅亡竜→世界竜(A): 地図鱗の大竜 Step5→A
+BRD-2159,special,MON-401,MON-402,MON-408,125,1,35,神話竜王+古代王者→脊椎竜(S): 世界骨の始原 →S
+BRD-2160,special,MON-403,MON-406,MON-409,125,1,35,無限蛇竜+原始竜→深淵竜(S): 塔最深層の虚 →S
+BRD-2161,special,MON-405,MON-407,MON-410,125,1,35,世界竜+月夜竜→原初王竜(S): 創世の卵を抱く →S
+BRD-2162,special,MON-408,MON-409,MON-411,130,1,40,脊椎竜+深淵竜→ほどけ竜(S): 境界崩壊の白泥鱗 ultimate→S
+BRD-2163,special,MON-420,MON-422,MON-428,100,1,10,祠兎+供え狸→門蛙: 境界水の守り Step1
+BRD-2164,special,MON-428,MON-430,MON-436,105,1,14,門蛙+守門鳥→儀式鮫: 聖池の奉納 Step2
+BRD-2165,special,MON-436,MON-439,MON-444,110,1,18,儀式鮫+門柱獣→門枠獣(B): 世界の縫い目守り Step3→B
+BRD-2166,special,MON-421,MON-424,MON-432,100,1,10,祈り雀+提灯蛍→神楽鼠: 祭壇の舞 Step1
+BRD-2167,special,MON-432,MON-434,MON-437,105,1,14,神楽鼠+賽銭虫→名守: 祠奥の名簿守り Step2
+BRD-2168,special,MON-437,MON-443,MON-446,110,1,18,名守+名鑑砦→裁判獣(B): 法台の名秤 Step3→B
+BRD-2169,special,MON-423,MON-425,MON-431,100,1,10,静亀+沈黙狐→巡礼蝸牛: 墓路の殻 Step1
+BRD-2170,special,MON-431,MON-433,MON-438,105,1,14,巡礼蝸牛+鳥居守宮→式王: 弔い台の管理者 Step2
+BRD-2171,special,MON-438,MON-442,MON-450,110,1,18,式王+祭壇石→封印門獣(B): 最終門の封じ手 Step3→B
+BRD-2172,special,MON-426,MON-427,MON-435,100,1,10,榊虫+石梟→指名鶴: 式台の名呼び Step1
+BRD-2173,special,MON-435,MON-429,MON-440,105,1,14,指名鶴+標識蛇→星座獣: 天文台の星図 Step2
+BRD-2174,special,MON-440,MON-441,MON-448,110,1,18,星座獣+結界蝶→星波(B): 天蓋門の星潮 Step3→B
+BRD-2175,special,MON-444,MON-450,MON-455,120,1,28,門枠獣+封印門獣→天門獣(A): 天蓋の星門守り Step4→A
+BRD-2176,special,MON-446,MON-449,MON-452,115,1,22,裁判獣+権限獅子→古代裁き主(A): 名の裁定 Step4→A
+BRD-2177,special,MON-448,MON-447,MON-456,115,1,22,星波+塔の僕→生命監視(A): 全記録の門核 Step4→A
+BRD-2178,special,MON-445,MON-451,MON-453,115,1,22,境界の目+深門獣→記録裁き(A): 塔法廷の判定 Step4→A
+BRD-2179,special,MON-452,MON-454,MON-457,120,1,28,古代裁き主+名の秤→門の造り手(A): 原初設計の残響 Step5→A
+BRD-2180,special,MON-453,MON-458,MON-459,120,1,28,記録裁き+最後の看守→記録聖堂(A): 名の祭壇 Step5→A
+BRD-2181,special,MON-455,MON-456,MON-460,125,1,35,天門獣+生命監視→塔の意志(S): 原初の目的 →S
+BRD-2182,special,MON-457,MON-459,MON-461,125,1,35,門の造り手+記録聖堂→世界の縫い(S): 境界を紡ぐ →S
+BRD-2183,special,MON-460,MON-462,MON-463,130,1,40,塔の意志+門の心臓→収録の神(S): 全名を収録する神 →S
+BRD-2184,special,MON-461,MON-462,MON-464,130,1,40,世界の縫い+門の心臓→最後の門(S): 世界の果ての門 ultimate→S
+BRD-2185,special,MON-455,MON-457,MON-462,120,1,28,天門獣+門の造り手→門の心臓(A): 全門の鼓動 bridge→A
+BRD-2186,special,MON-470,MON-471,MON-480,100,1,10,水溜り+泥溜り→墨溜り: 帳面の墨食い Step1
+BRD-2187,special,MON-480,MON-483,MON-489,105,1,14,墨溜り+糊溜り→名溶かし: 台帳の名消し Step2
+BRD-2188,special,MON-489,MON-490,MON-494,110,1,18,名溶かし+身分練り→門液体(B): 門の境界漏出 Step3→B
+BRD-2189,special,MON-472,MON-475,MON-481,100,1,10,樹液雫+苔泡→蝋流れ: 供物台の蝋 Step1
+BRD-2190,special,MON-481,MON-485,MON-493,105,1,14,蝋流れ+墓粘土→失名溜り: 記憶の池 Step2
+BRD-2191,special,MON-493,MON-488,MON-496,110,1,18,失名溜り+記憶壺→記憶海(B): 名の集積海 Step3→B
+BRD-2192,special,MON-473,MON-474,MON-482,100,1,10,飴練り+塩練り→樽練り: 発酵の融合 Step1
+BRD-2193,special,MON-482,MON-484,MON-492,105,1,14,樽練り+タール→境界練り: 世界の縫い目 Step2
+BRD-2194,special,MON-492,MON-491,MON-495,110,1,18,境界練り+門雫→世界の汗(B): 縫い目の滲み Step3→B
+BRD-2195,special,MON-476,MON-477,MON-486,100,1,10,灰粘土+湯溜り→洗面水: 名消しの水 Step1
+BRD-2196,special,MON-486,MON-487,MON-497,105,1,14,洗面水+光練り→継ぎ目練り: 裂け目を溶かす Step2
+BRD-2197,special,MON-497,MON-498,MON-500,115,1,22,継ぎ目練り+原海ジェル→無銘の海(A): 境界底の海 Step3→A
+BRD-2198,special,MON-494,MON-495,MON-502,120,1,28,門液体+世界汗→原始液体(A): 未分化の液体 Step4→A
+BRD-2199,special,MON-496,MON-499,MON-501,115,1,22,記憶海+古代貯水池→記憶の滝(A): 名の瀑布 Step4→A
+BRD-2200,special,MON-500,MON-502,MON-503,125,1,35,無銘海+原始液体→原初練り(S): 世界以前の無形 →S
+BRD-2201,special,MON-501,MON-499,MON-504,125,1,35,記憶滝+古代貯水池→世界の涙(S): 全喪失の涙 →S
+BRD-2202,special,MON-478,MON-479,MON-498,105,1,14,露溜り+網練り→原海ジェル: 未分化のジェル bridge recipe
+BRD-3001,mutation,family:beast,family:beast,MON-077,60,0,20,同系統獣×獣で鏡鹿への palette_shift 変異: 鏡森近接で確率上昇
+BRD-3002,mutation,family:beast,family:undead,MON-084,65,0,18,獣×不死で残名狐への aberrant 変異: 回廊世界で確率上昇
+BRD-3003,mutation,family:bird,family:magic,MON-132,65,0,18,鳥×魔性で霊鐘鴉への palette_shift 変異: 鐘楼近接で確率上昇
+BRD-3004,mutation,family:plant,family:undead,MON-172,65,0,20,植物×不死で泣花園への aberrant 変異: 残響回廊で確率上昇
+BRD-3005,mutation,family:material,family:magic,MON-235,60,0,16,器物×魔性で神楽鈴への role_shift 変異: 祠近接で確率上昇
+BRD-3006,mutation,family:undead,family:material,MON-346,65,0,20,不死×器物で残名鎧への palette_shift 変異: 回廊壁近接で確率上昇
+BRD-3007,mutation,family:dragon,family:material,MON-393,60,0,16,竜×器物で鉄竜への trait_shift 変異: 鍛冶場近接で確率上昇
+BRD-3008,mutation,family:divine,family:undead,MON-438,65,0,20,聖×不死で式王への aberrant 変異: 弔い台近接で確率上昇
+BRD-3009,mutation,family:slime,family:magic,MON-491,60,0,16,slime×魔性で門雫への palette_shift 変異: 門近接で確率上昇
+BRD-3010,mutation,family:beast,family:magic,MON-056,60,0,14,獣×魔性で影兎への role_shift 変異: 夜間配合で確率上昇
+BRD-3011,mutation,family:bird,family:undead,MON-127,60,0,16,鳥×不死で伏燕への trait_shift 変異: 巡礼路で確率上昇
+BRD-3012,mutation,family:plant,family:material,MON-167,60,0,16,植物×器物で降ろし草への role_shift 変異: 鍛冶場で確率上昇
+BRD-3013,mutation,family:magic,family:undead,MON-295,65,0,20,魔性×不死で残名火への aberrant 変異: 墓室で確率上昇
+BRD-3014,mutation,family:dragon,family:magic,MON-400,60,0,18,竜×魔性で幻惑竜への palette_shift 変異: 鏡森で確率上昇
+BRD-3015,mutation,family:divine,family:magic,MON-441,60,0,16,聖×魔性で結界蝶への trait_shift 変異: 聖域で確率上昇
+BRD-3016,mutation,family:slime,family:undead,MON-493,65,0,18,slime×不死で失名溜りへの aberrant 変異: 墓地で確率上昇
+BRD-3017,mutation,family:beast,family:divine,MON-075,60,0,16,獣×聖で封印獅子への palette_shift 変異: 関門で確率上昇
+BRD-3018,mutation,family:material,family:undead,MON-232,60,0,18,器物×不死で鐘烏への role_shift 変異: 鐘楼近接で確率上昇
+BRD-3019,mutation,family:dragon,family:undead,MON-397,65,0,22,竜×不死で命竜への aberrant 変異: 弔い大地で確率上昇
+BRD-3020,mutation,family:slime,family:plant,MON-488,60,0,16,slime×植物で記憶壺への trait_shift 変異: 失名水近接で確率上昇
+BRD-3021,mutation,family:bird,family:divine,MON-138,65,0,22,鳥×聖で天津鷺への aberrant 変異: 聖水路で確率上昇
+BRD-3022,mutation,family:plant,family:divine,MON-177,65,0,22,植物×聖で神木杉への aberrant 変異: 根門で確率上昇
+BRD-3023,mutation,family:magic,family:dragon,MON-290,60,0,18,魔性×竜で霧影への palette_shift 変異: 境界霧で確率上昇
+BRD-3024,mutation,family:undead,family:divine,MON-343,60,0,16,不死×聖で葬儀人形への role_shift 変異: 弔い台で確率上昇
+BRD-3025,mutation,family:divine,family:dragon,MON-455,70,0,28,聖×竜で天門獣への aberrant 変異: 天蓋門で確率上昇 最高難度
