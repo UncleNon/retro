@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="WorldData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/world_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+world_id = "W-001"
+slug = "veilname_fields"
+name_jp = "名伏せの野"
+name_en = "Veilname Fields"
+act = "I"
+size_class = "small"
+function_class = "echo_world"
+level_min = 6
+level_max = 14
+taboo = "外で真名を呼ばない"
+biome = "牧草地と湿地"
+power_structure = "札と柵で回る小共同体"
+dominant_families = ["beast", "bird", "plant"]
+gate_condition = "最初の門"
+notes = "最初の越境世界"

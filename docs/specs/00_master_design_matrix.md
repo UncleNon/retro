@@ -1,7 +1,7 @@
 # 00. Master Design Matrix
 
-> **ステータス**: Draft v1.0
-> **最終更新**: 2026-03-15
+> **ステータス**: Draft v2.0
+> **最終更新**: 2026-03-16
 > **目的**: 「まだ決めることが大量にある」ことを前提に、設計面を漏れなく棚卸しする
 
 ---
@@ -37,12 +37,12 @@
 |------|------|------|
 | 45歳、男女選択、無言主人公 | fixed | requirements 反映済み |
 | 家畜番、小さな村の住人 | fixed | requirements 反映済み |
-| 主人公の初期所持品 | open | 仕事道具、札、回復草など |
-| 主人公の初期所持モンスター | open | いる / いない / 半家畜状態のどれか |
-| 主人公の年齢が会話に与える差分 | next | NPC態度、選択肢 |
-| 主人公の見た目差分数 | open | 髪、服、体格、表情差分 |
-| パーティ3枠の理由付け | next | UI都合だけでなく世界側の理屈 |
-| 控え / 牧場の導線 | next | 村、塔、世界ごとの扱い |
+| 主人公の初期所持品 | fixed | systems/11: ひからび草×3、印粉札×2、仕事札、古い家畜札 |
+| 主人公の初期所持モンスター | fixed | systems/11: モクケダLv3（半家畜、仕事仲間として合流） |
+| 主人公の年齢が会話に与える差分 | fixed | systems/11: 若者=敬語、同年代=対等、長老=含み、子ども=無邪気 |
+| 主人公の見た目差分数 | fixed | systems/11: 体型2、髪型4、肌色3。顔は16×16で差が出ないため固定 |
+| パーティ3枠の理由付け | fixed | systems/11: 門が3つまでの所属印を同時に通す世界設定 |
+| 控え / 牧場の導線 | fixed | systems/11: 牧場38体、拠点でのみ入替、フィールド直接不可 |
 
 ---
 
@@ -55,17 +55,17 @@
 | 物理ダメージ式 | fixed | spec 反映済み |
 | 呪文ダメージ式 | fixed | 固定威力帯寄り |
 | 行動順式 | fixed | spd + ランダム幅 |
-| 会心率 | next | 武器なし前提で調整必要 |
-| 属性相性倍率 | next | 1.25 / 1.5 / 2.0 のどれを採るか |
-| 状態異常継続ターン | next | 乱数幅と耐性の関係 |
-| 逃走不可条件 | next | ボス、塔深部、儀式戦など |
-| 敵AIタイプ | open | 獣、知性、群れ、門守、祭司型 |
-| 複数体敵の行動連携 | open | 群れ補正、役割補完 |
-| フィールド効果 | open | 雨、濃霧、門共鳴 |
-| 戦闘内の位置概念 | open | 前衛後衛を採るか |
-| 命中 / 回避式 | open | 完全固定か簡易式か |
-| 反撃 / ガード / かばう | open | trait と紐づけるか |
-| ボスの複数段階行動 | next | endgame 向け必須 |
+| 会心率 | fixed | systems/02: base 4%、trait / personality / skill bonus、cap 25% を定義 |
+| 属性相性倍率 | fixed | systems/02: 耐性 `-2..+2` に対し `1.50 / 1.25 / 1.00 / 0.75 / 0.50` を採用 |
+| 状態異常継続ターン | fixed | systems/09: 眠り1-3、麻痺2-4、封印3T など持続帯と RES 補正を定義 |
+| 逃走不可条件 | fixed | systems/08: boss / ritual / gate_trial / surrounded / contract を定義 |
+| 敵AIタイプ | fixed | systems/08: FERAL, PACK, TERRITORIAL, INTELLIGENT, RITUAL, AMBUSH, GATE_GUARDIAN, ELDER_BOSS |
+| 複数体敵の行動連携 | fixed | systems/08: pack_role、synergy_bonus、retaliation memory まで定義 |
+| フィールド効果 | fixed | systems/09 + systems/13: 雨、濃霧、gate_pressure、mirror_glare、thin_air を定義 |
+| 戦闘内の位置概念 | fixed | 不採用。3v3の準備重視に位置概念を加えると入力量が増え、設計思想に合わない |
+| 命中 / 回避式 | fixed | systems/08: 基本命中90%。SPD差で±10%。trait・状態で追加補正。下限70% |
+| 反撃 / ガード / かばう | fixed | systems/08: trait紐付け。`反撃体質`=被物理時30%で反撃、`かばう`=trait持ち限定 |
+| ボスの複数段階行動 | fixed | systems/08 で規格化 |
 
 ---
 
@@ -79,12 +79,12 @@
 | growth curve 4種 | fixed | EARLY / STANDARD / LATE / LEGEND |
 | stat growth formula | fixed | base + cap + curve |
 | 個体差 `nature_seed` | fixed | favored / weak stat |
-| 性格補正の内部値 | next | 成長補正か戦闘補正かの比率 |
-| 性格変化条件 | open | 作戦、餌、長期運用で変えるか |
-| 忠誠度 / なつき度の変化式 | next | 行動ベースで細かく設計 |
-| 戦闘不能の長期的ペナルティ | open | 忠誠度低下だけか |
-| 牧場預け時の変化 | open | 忠誠、気質、休息 |
-| 老成 / 覚醒イベント | open | 特定高Lvで変わるか |
+| 性格補正の内部値 | fixed | systems/11: 2軸×3段階=9種。成長+戦闘の両方に微補正 |
+| 性格変化条件 | fixed | systems/11: 変化なし。性格変更は配合でのみ |
+| 忠誠度 / なつき度の変化式 | fixed | systems/11: 勝利+1、全滅-5、bait±2等。表示は文言のみ |
+| 戦闘不能の長期的ペナルティ | fixed | systems/11: 忠誠度低下のみ。長期ペナルティなし |
+| 牧場預け時の変化 | fixed | systems/11: HP/MP全回復、忠誠・気質・成長は変化なし |
+| 老成 / 覚醒イベント | fixed | systems/11: 設けない。配合による世代交代が主軸 |
 
 ---
 
@@ -101,9 +101,9 @@
 | 時間帯別テーブル | fixed | schema に反映 |
 | 天候別テーブル | fixed | schema に反映 |
 | 出現Lvレンジ | next | zone ごとの標準値必要 |
-| 先制 / 不意打ち | open | spd or field facing と連動させるか |
-| リペル / よけ鈴相当 | open | 探索系アイテムとして入れるか |
-| レア枠の保証 | open | pity を裏で入れるか |
+| 先制 / 不意打ち | fixed | systems/08: SPD比較。自パーティ平均SPD > 敵平均SPD×1.3 で先制15%、逆で不意打ち10% |
+| リペル / よけ鈴相当 | fixed | content/04: `item_field_repelash`（よけ灰）で低ランク遭遇抑制 |
+| レア枠の保証 | fixed | systems/06: recruit pity 連続失敗5回+5、8回+10。ドロップにはpityなし |
 | 塔周辺の変異出現 | next | encounter 側で持つか mutation 側で持つか |
 
 ---
@@ -119,14 +119,14 @@
 | 同系統強化ルール | fixed | family rule |
 | 特殊レシピ優先順位 | fixed | schema 反映済み |
 | 未発見レシピは答えを見せすぎない | fixed | ADR-0008 |
-| 変異率基本値 | next | 3% 前後で仮置き済み、要試算 |
-| 変異率補正条件 | next | 場所、月齢、世代、触媒 |
-| 変異種の遺伝ルール | next | どこまで持ち越すか |
-| 配合失敗 / 不完全成功 | open | 要るか不要か |
-| 禁じられた配合 | next | 世界観上必須 |
-| 血統履歴のUI表示量 | next | どこまで見せるか |
-| 牧場枠圧迫と配合導線 | next | 38体級の圧力にするか、今の200で行くか |
-| 図鑑と配合履歴の関係 | open | 既知レシピ帳、失敗記録、変異録 |
+| 変異率基本値 | fixed | systems/03 + systems/06: base 3%、通常導線は原則 12% 以下、global clamp 25% |
+| 変異率補正条件 | fixed | systems/03 + systems/06: 世代、触媒、場所、月齢、塔共鳴を定義 |
+| 変異種の遺伝ルール | fixed | systems/03: mutation class、aberrant 制約、genealogy_log、継承制約を定義 |
+| 配合失敗 / 不完全成功 | fixed | 不採用。配合は常に成功し親は消える。不可逆性が核なので中途半端な失敗は設計思想に合わない |
+| 禁じられた配合 | fixed | systems/03: forbidden class、判定順、拒否UI、story_seal / gate_key などを定義 |
+| 血統履歴のUI表示量 | fixed | systems/03: 通常画面=親2体+世代数+直近mutation+出生世界、詳細画面=4世代ツリー、以降はsummary |
+| 牧場枠圧迫と配合導線 | fixed | systems/11: 牧場38体。200体預かりは不可逆判断の圧を消すため不採用 |
+| 図鑑と配合履歴の関係 | fixed | systems/12: 図鑑=発見/所持で開示。配合履歴=テキストログ50件。変異録=図鑑内サブページ |
 
 ---
 
@@ -137,15 +137,15 @@
 | 技上限8 | fixed | requirements 反映済み |
 | スキルツリー最大3 | fixed | requirements 反映済み |
 | 固有特性2枠 | fixed | monster spec 反映 |
-| スキルカテゴリ定義 | next | 物理、呪文、補助、場、儀式、反応 |
-| 特技進化ライン | open | ギラ系のような統合をどこまで採るか |
-| 範囲指定 | next | 単体 / 全体 / 列 / ランダム |
-| 呪文MPコスト法則 | open | 係数表が必要 |
-| 状態異常特化ビルド | next | 賢さと精神の差別化確認 |
-| trait 発動優先順位 | next | 同時発動の順序 |
-| 固有特性の継承可否 | open | できる / 部分継承 / 専有 |
-| world 固有スキル | open | 世界ごとの土着技 |
-| forbidden skill combos | open | バランス崩壊の抑止 |
+| スキルカテゴリ定義 | fixed | systems/10: PHY / MAG / HEL / SUP / DEB / PAS / FLD / REA を定義 |
+| 特技進化ライン | fixed | systems/10: 物理 / 魔法 / 回復 / 状態異常の進化線を定義 |
+| 範囲指定 | fixed | systems/10: SINGLE / ALL / RANDOM / LINE / FIELD などを定義 |
+| 呪文MPコスト法則 | fixed | systems/10: power_factor × range_factor × category_factor × rank_factor |
+| 状態異常特化ビルド | fixed | systems/10: INT / RES 差分、成功率上限、ボス補正、連続ペナルティを定義 |
+| trait 発動優先順位 | fixed | systems/10 §7.2-7.3: 発動順と同時発動解決を定義 |
+| 固有特性の継承可否 | fixed | systems/10 §7.5: 種族固有固定、共有 trait のみ継承、変異 trait 例外あり |
+| world 固有スキル | fixed | systems/10 §9: テンプレと最初の4世界分の土着技を定義 |
+| forbidden skill combos | fixed | systems/10 §8: 睡眠 / 封印 / 反射 / 世界固有技の禁止組み合わせを定義 |
 
 ---
 
@@ -157,14 +157,14 @@
 | 序盤10体の詳細 | fixed | spec 反映済み |
 | 400体全体の taxonomy | fixed | content/06 で定義 |
 | rank ごとの役割 | next | 素材、戦力、儀式用など |
-| 系統ごとのシルエット原則 | next | dragon, beast, material 等 |
-| パレット数 / 制限 | next | style-bible へ移す |
-| アニメフレーム予算 | next | 2F / 3F / 4F どこまで許可 |
-| フィールドサイズ法則 | next | 16x16 統一か例外ありか |
-| 図鑑文の長さ | open | 28字 / 42字 / 2行など |
-| 生態 / 餌 / 鳴き声 | open | 図鑑の粒度 |
-| 神話モチーフの変形法則 | next | 直引用回避のために要明文化 |
-| 生活圏モチーフの歪め方 | next | 牧畜、葬送、家印、塔と接続 |
+| 系統ごとのシルエット原則 | fixed | art/01 + content/06: family ごとの一次形、禁止しがちな型、モチーフ相性を定義 |
+| パレット数 / 制限 | fixed | art/01, art/02 で規格化 |
+| アニメフレーム予算 | fixed | art/01, art/02 で規格化 |
+| フィールドサイズ法則 | fixed | art/02 で battle / field / icon 規格化 |
+| 図鑑文の長さ | fixed | content/05: 標準型28-44字（2行）。短文型18-28字（1行） |
+| 生態 / 餌 / 鳴き声 | fixed | 図鑑文に生態+逸話+違和感を含む。鳴き声はSE1種/系統。餌は好物baitとして表現 |
+| 神話モチーフの変形法則 | fixed | content/06: 神話は役割、姿勢、禁忌構図だけ抽出し、生活圏へ縮退させる |
+| 生活圏モチーフの歪め方 | fixed | content/06: 牧畜、葬送、家印、記録、塔との交差で変形法則を定義済み |
 
 ---
 
@@ -176,14 +176,14 @@
 | 塔前荒地の数値 | fixed | spec 反映済み |
 | 世界カテゴリ | fixed | 自然 / 文明 / 異質 / 隠し |
 | 拠点ランクと街道規格 | fixed | worlds/06 で定義 |
-| 20+世界の配分 | next | 各カテゴリの具体数 |
-| 各世界の禁忌テンプレ | next | “名前 / 所属 / 継ぎ子 / 改名” の変奏 |
-| 各世界の政治体制 | open | 王国、都市国家、神権など |
-| 各世界の経済構造 | open | 家畜、鉱石、信仰税など |
-| ダンジョン typology | next | 洞窟、塔、墓所、水路、根脈 |
-| ショートカット設計 | next | 周回前提の近道ルール |
-| ランダムダンジョンの深度法則 | open | 何階から変質するか |
-| ワープ / 一本道 / 暗闇の使用頻度 | open | ストレス管理が必要 |
+| 20+世界の配分 | fixed | worlds/05 で定義済み |
+| 各世界の禁忌テンプレ | fixed | worlds/08: taboo axis と world sheet template で変奏ルールを定義済み |
+| 各世界の政治体制 | fixed | worlds/05 + story/02: 21世界に個別の支配構造を定義済み |
+| 各世界の経済構造 | fixed | worlds/05 + story/06: 世界ごとの生産・通商・税制を歴史と連動で定義済み |
+| ダンジョン typology | fixed | worlds/04: 生活圏 / 儀式 / 生態 / 制度 / 深層 / 周回 の型を定義済み |
+| ショートカット設計 | fixed | worlds/04 + worlds/06: 隠し導線、短い迂回、安全路/危険路の規格あり |
+| ランダムダンジョンの深度法則 | fixed | worlds/04: 5F以降でギミック追加、10F以降で空気差分、15F以降で encounter table 差替 |
+| ワープ / 一本道 / 暗闇の使用頻度 | fixed | worlds/04: 序盤=一本道+簡易ワープ+隠し通路。中盤以降=スイッチ+暗がり。終盤=記録参照謎解き |
 | 門ごとの反応条件テンプレ | next | キーアイテム、ランク、系統、記録 |
 
 ---
@@ -194,11 +194,11 @@
 |------|------|------|
 | 開始村レイアウト | fixed | spec 反映済み |
 | 1世界あたりの拠点数 | fixed | 1〜3 |
-| 町の大きさランク | next | 小 / 中 / 大 の tile 基準 |
-| 町ごとの必須施設 | next | 宿、道具、牧場、記録、門関連 |
-| 日常感を出すオブジェクト数 | open | 洗濯物、桶、焼印台、納屋道具 |
-| NPCの巡回パターン | open | 朝昼夜 / 固定 / 雨天差分 |
-| 生活音 / 環境音 | open | 畜舎音、井戸、風、塔沈黙 |
+| 町の大きさランク | fixed | worlds/06: hamlet / village / town / city の tile・画面数を定義済み |
+| 町ごとの必須施設 | fixed | worlds/06: 宿、道具、牧場、記録、儀礼、公共施設の必須度を定義済み |
+| 日常感を出すオブジェクト数 | fixed | worlds/06: hamlet 12-22, village 20-36, town 34-58, city 56-96 |
+| NPCの巡回パターン | fixed | content/07: 固定/巡回/朝昼夜/天候差分を20NPCで定義 |
+| 生活音 / 環境音 | fixed | art/03: 14種のアンビエント + 塔深度別の段階的減衰規則 |
 
 ---
 
@@ -210,13 +210,13 @@
 | 失踪共通項 | fixed | 名前 / 所属 / 家系の揺らぎ |
 | 5幕構成 | fixed | 03_world_and_story |
 | 54個の伏線バンク | fixed | 03_world_and_story |
-| 世界別の伏線配置表 | next | どの世界に何を置くか |
-| NPC別の伏線担務 | next | だれが何を匂わせるか |
-| 図鑑文と伏線の接続表 | next | 何番が何を指すか |
-| 塔内部の演出段階 | next | 光、温度、無音、囁き、反復 |
-| 無言主人公の選択肢トーン | next | 反応パターンを定義 |
-| 初回プレイで気づく伏線量 | open | 30%前後が目安か |
-| 2周目 / 裏ストーリーで見え方が変わる仕掛け | open | セーブ跨ぎ or 記憶のみ |
+| 世界別の伏線配置表 | fixed | story/03: 54 clue を world 単位へ割当済み。world sheets で具体化を継続 |
+| NPC別の伏線担務 | fixed | content/03 + content/07: linked clue と喋れない理由 / 口が緩む条件まで定義 |
+| 図鑑文と伏線の接続表 | fixed | story/03 + content/08: clue media と world-by-world clue visibility を定義 |
+| 塔内部の演出段階 | fixed | worlds/02: 前庭→前室→札廊→階段室→門の間の演出段階を定義 |
+| 無言主人公の選択肢トーン | fixed | content/05: 態度5種、字数帯、媒体別ルールを定義 |
+| 初回プレイで気づく伏線量 | fixed | 54件中、初回で seen 可能なのは約30件（56%）。resolved は20件（37%）を目標 |
+| 2周目 / 裏ストーリーで見え方が変わる仕掛け | fixed | 記憶のみ（セーブ跨ぎなし）。postgame解放後に過去世界の会話差分で再読可能 |
 
 ---
 
@@ -226,14 +226,14 @@
 |------|------|------|
 | 携行20枠 | fixed | spec 反映済み |
 | 同一アイテム99個上限 | fixed | requirements 反映済み |
-| 所持金上限 | open | 99999 か 999999 か |
-| 回復アイテム価格帯 | next | 序盤表が必要 |
-| 勧誘アイテム価格帯 | next | 成功率とのバランス |
-| 配合触媒価格帯 | next | どこで希少にするか |
-| 宿代 / セーブ代 / 蘇生費 | open | 世界観と連動 |
-| 売値係数 | open | 一律0.5でよいか |
-| 図鑑 / 記録 / 情報の購入 | open | 情報屋の経済 |
-| money sink 設計 | next | 終盤でも金が余らない構造 |
+| 所持金上限 | fixed | 99999。6桁は表示幅を圧迫し、5桁で十分な経済圧を維持 |
+| 回復アイテム価格帯 | fixed | content/04 で実表定義。最安20〜最高360 |
+| 勧誘アイテム価格帯 | fixed | content/04 で実表定義。最安55〜最高460 |
+| 配合触媒価格帯 | fixed | content/04 で実表定義。最安150〜最高400 |
+| 宿代 / セーブ代 / 蘇生費 | fixed | 宿代=世界Lv帯×3。セーブ無料。蘇生=HP回復中級の1.5倍 |
+| 売値係数 | fixed | systems/04: 通常0.45、bait 0.35、触媒0.25、記録0.20。一律ではない |
+| 図鑑 / 記録 / 情報の購入 | fixed | content/04: record_item カテゴリ 85〜220。情報屋は記録品経由 |
+| money sink 設計 | fixed | systems/04: 恒常sink比率定義済み。消耗品35%+bait25%+触媒20%+宿10%+情報10% |
 
 ---
 
@@ -245,14 +245,14 @@
 | 説明帯2行 | fixed | requirements 反映済み |
 | 数値中心HP/MP表示 | fixed | spec 反映済み |
 | 4コマンド戦闘レイアウト | fixed | requirements 反映済み |
-| テキスト速度既定値 | next | 実測が必要 |
-| フォント字幅表 | next | 日本語可読性検証要 |
-| バーチャルパッドサイズ既定値 | next | iPhone 実機前提 |
-| 片手 / 両手モード | open | 要るか |
-| ダンジョン簡易マップ表示量 | next | 探索済みのみか |
-| 図鑑フィルタ項目 | open | 系統、属性、世界、変異、配合済み |
-| 配合履歴の見せ方 | next | 系譜ツリー or 文字列履歴 |
-| 町 / 村 UI の案内密度 | open | 看板、アイコン、会話誘導 |
+| テキスト速度既定値 | fixed | systems/12 で規格化 |
+| フォント字幅表 | fixed | art/04 + systems/12 で規格化 |
+| バーチャルパッドサイズ既定値 | fixed | art/05 + systems/12 で logical touch 規格化 |
+| 片手 / 両手モード | fixed | systems/12: v1非対応。将来検討 |
+| ダンジョン簡易マップ表示量 | fixed | systems/12: 設定OFF既定。探索済みのみ。右上4×4tiles |
+| 図鑑フィルタ項目 | fixed | systems/12: 系統/ランク/発見状態。ソートは番号/ランク/系統 |
+| 配合履歴の見せ方 | fixed | systems/12: テキストログ最新50件。系譜ツリーはendgame解放 |
+| 町 / 村 UI の案内密度 | fixed | systems/12: 施設名看板+1タイルシンボル。初回のみNPC案内 |
 
 ---
 
@@ -262,13 +262,13 @@
 |------|------|------|
 | niji → Nano Banana → Grok | fixed | requirements 反映済み |
 | Aseprite で手仕上げ | fixed | requirements 反映済み |
-| prompt metadata 管理 | next | 生成日、seed、モデル版 |
-| style-bible の独立文書 | next | パレット、縁、サイズ、禁止事項 |
-| UIパーツ一式の style-bible | next | 枠、カーソル、余白、点滅 |
-| BGMカテゴリ表 | open | 村、塔、門、戦闘、配合、裏 |
-| SE辞書 | open | 攻撃、配合、門反応、札、記録 |
-| テキストトーンガイド | next | 村人、官僚、宗教、放浪者の文体差 |
-| AI文生成レビュールール | next | 禁止語、既存IP類似回避、口調統一 |
+| prompt metadata 管理 | fixed | art/02, systems/05 の registry 規格で定義 |
+| style-bible の独立文書 | fixed | art/01, art/02, art/04, art/05, art/06, art/07 に分割済み |
+| UIパーツ一式の style-bible | fixed | art/04 + art/05 で規格化 |
+| BGMカテゴリ表 | fixed | art/03: 16カテゴリ、世界別楽器傾向、切替ルール |
+| SE辞書 | fixed | art/03: メニュー8種+バトル24種+フィールド12種+システム7種+配合5種+アンビエント14種 |
+| テキストトーンガイド | fixed | content/05 で定義済み |
+| AI文生成レビュールール | fixed | content/05 で定義済み |
 
 ---
 
@@ -282,8 +282,8 @@
 | breed rule schema | fixed | systems spec |
 | テレメトリイベント | next | REQ-001 後半で詳細化 |
 | コンテンツ検証器 | next | 未参照ID、重複ID、欠損画像 |
-| balance sandbox | open | 数式確認用シミュレータ |
-| prompt registry | open | asset provenance と連動 |
+| balance sandbox | next | 数式確認用シミュレータ。実装フェーズで作成 |
+| prompt registry | fixed | systems/05 + art/02: asset_registry.csv に generator/version/seed/approved を管理 |
 
 ---
 
@@ -298,8 +298,8 @@
 | battle tempo 計測 | next | 1戦20〜45秒 |
 | 勧誘のストレス計測 | next | 10〜15分で1体 |
 | 配合の前進感テスト | next | 1回で達成感が出るか |
-| AI asset provenance check | open | 生成元管理 |
-| legal similarity review | open | 類似意匠チェックルール |
+| AI asset provenance check | fixed | systems/05 + art/02: asset_registry.csv で全生成物を追跡 |
+| legal similarity review | fixed | art/02: IP similarity screening 手順を production spec に定義 |
 
 ---
 

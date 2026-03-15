@@ -1,0 +1,37 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install gdtoolkit
+        run: python -m pip install --upgrade pip gdtoolkit
+
+      - name: Lint GDScript
+        run: python tools/qa/lint.py
+
+      - name: Check GDScript formatting
+        run: python tools/qa/format.py --check
+
+      - name: Build resources from CSV
+        run: python tools/data/build_resources.py --check
+
+      - name: Run Python tests
+        run: python tools/qa/test.py
+
+      - name: Godot smoke
+        run: python tools/qa/godot_smoke.py --allow-missing

@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/item_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+item_id = "item_heal_bundleleaf"
+slug = "bundleleaf"
+name_jp = "束薬葉"
+name_en = "Bundled Leaf"
+item_kind = "consumable"
+subtype = "heal_hp"
+price = 55
+sell_price = 27
+target_scope = "ally_single"
+effect_key = "heal_hp"
+effect_value = "55"
+tags = ["heal", "field"]
+description = "標準的な回復薬葉"

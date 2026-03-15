@@ -1,0 +1,9 @@
+rule_id,rule_type,parent_a_key,parent_b_key,child_monster_id,priority,special_recipe_bonus,lv_requirement,notes
+BRD-0001,special,MON-001,MON-002,MON-005,100,1,10,モクケダ + タグツツキ -> マヨイカカシ
+BRD-0002,special,MON-003,MON-006,MON-007,100,1,10,ヨモギナメ + イワミミ -> シメリガサ
+BRD-0003,special,MON-004,MON-008,MON-009,100,1,10,カゴホネズミ + ユビガラス -> シルシクイ
+BRD-0004,special,MON-001,MON-001,MON-001,90,0,10,同系統強化
+BRD-0005,special,MON-002,MON-008,MON-010,110,1,12,Vertical Slice の到達目標
+BRD-0101,family,beast,bird,MON-005,50,0,10,序盤 bridge ルール
+BRD-0102,family,plant,beast,MON-007,50,0,10,湿地側の特殊化
+BRD-0103,family,material,bird,MON-009,50,0,10,印を食う魔性化

@@ -1,0 +1,6 @@
+zone_id,world_id,name_jp,encounter_min_steps,encounter_max_steps,terrain_rate,time_band,weather,notes
+ZONE-VIL-TOWER,W-001,塔前荒地,12,20,1.0,any,clear,開始村から塔へ続く外縁地帯
+ZONE-W01-GATE,W-001,継札の門前,14,22,1.0,day,clear,門前の穏やかな草地
+ZONE-W01-FIELD,W-001,鈴鳴きの放牧地,12,20,1.0,day,clear,最初の主探索フィールド
+ZONE-W01-MARSH,W-001,湿名の葦原,10,18,1.25,dusk,fog,状態異常が増える湿地
+ZONE-W01-SHRINE,W-001,裏柵の祠,10,16,1.1,night,clear,小ダンジョン相当

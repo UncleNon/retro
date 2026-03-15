@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/item_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+item_id = "item_field_chalktag"
+slug = "chalktag"
+name_jp = "印粉札"
+name_en = "Chalk Tag"
+item_kind = "consumable"
+subtype = "field"
+price = 60
+sell_price = 30
+target_scope = "party"
+effect_key = "reveal_path"
+effect_value = "1"
+tags = ["field", "record"]
+description = "道標をしばらく見やすくする"

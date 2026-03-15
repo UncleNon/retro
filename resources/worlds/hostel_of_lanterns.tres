@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="WorldData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/world_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+world_id = "W-003"
+slug = "hostel_of_lanterns"
+name_jp = "継灯の宿場"
+name_en = "Hostel of Lanterns"
+act = "I"
+size_class = "medium"
+function_class = "social_world"
+level_min = 14
+level_max = 22
+taboo = "本名で泊まらない"
+biome = "街道宿場"
+power_structure = "宿場商会自治"
+dominant_families = ["bird", "material", "magic"]
+gate_condition = "序盤ランク解放"
+notes = "宿帳と灯で所属を管理する"

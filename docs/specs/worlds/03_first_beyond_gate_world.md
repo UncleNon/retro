@@ -6,6 +6,8 @@
 > - `docs/specs/worlds/02_tower_outer_and_inner_spec.md`
 > - `docs/specs/content/01_vertical_slice_monsters.md`
 > - `docs/specs/content/02_initial_skill_set.md`
+> - `docs/specs/content/08_starting_region_ecology_and_monster_web.md`
+> - `docs/specs/story/10_starting_arc_engagement_playbook.md`
 > - `docs/requirements/03_world_and_story.md`
 
 ---

@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/item_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+item_id = "item_mp_bitterdew"
+slug = "bitterdew"
+name_jp = "苦露瓶"
+name_en = "Bitter Dew"
+item_kind = "consumable"
+subtype = "heal_mp"
+price = 72
+sell_price = 36
+target_scope = "ally_single"
+effect_key = "heal_mp"
+effect_value = "20"
+tags = ["mp", "field"]
+description = "苦い露でMPを回復"

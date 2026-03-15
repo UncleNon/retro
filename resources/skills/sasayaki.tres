@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-017"
+slug = "sasayaki"
+name_jp = "ささやき"
+name_en = "Whisper"
+category = "status"
+element = "dark"
+mp_cost = 3
+target_scope = "single"
+formula_key = "S2"
+base_power = 0
+base_rate = 52
+tags = ["status", "magic", "bell"]
+battle_role = "CONTROL"
+effect_text = "fear か hushed を狙う"

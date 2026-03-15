@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="WorldData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/world_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+world_id = "W-004"
+slug = "tagged_headland"
+name_jp = "札差しの岬"
+name_en = "Tagged Headland"
+act = "I"
+size_class = "medium"
+function_class = "judgment_world"
+level_min = 18
+level_max = 24
+taboo = "所属札のない者は越境不可"
+biome = "断崖と関所"
+power_structure = "関所官と海商"
+dominant_families = ["material", "divine"]
+gate_condition = "G→F級"
+notes = "通行札で人と荷を裁く"

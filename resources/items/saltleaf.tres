@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/item_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+item_id = "item_cure_saltleaf"
+slug = "saltleaf"
+name_jp = "塩葉"
+name_en = "Salt Leaf"
+item_kind = "consumable"
+subtype = "cure"
+price = 35
+sell_price = 17
+target_scope = "ally_single"
+effect_key = "cure_status"
+effect_value = "poison"
+tags = ["cure", "village"]
+description = "毒を鎮める塩葉"

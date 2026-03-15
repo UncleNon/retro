@@ -495,6 +495,77 @@ final_recruit_rate = clamp(recruit_score, 1, 90)
 | `learn_value` | int | 習得レベル等 |
 | `skill_id` | string | スキルID |
 
+### `skill_master.csv`
+
+| カラム | 型 | 説明 |
+|--------|----|------|
+| `skill_id` | string | スキルID |
+| `slug` | string | 英字識別子 |
+| `name_jp` | string | 日本語名 |
+| `name_en` | string | 英語名 |
+| `category` | enum | physical / magic / status / recover / setup / utility |
+| `element` | string | 属性キー |
+| `mp_cost` | int | MP消費 |
+| `target_scope` | string | single / spread / ally_single / self 等 |
+| `formula_key` | string | ダメージ / 効果計算キー |
+| `base_power` | int | 基礎威力 |
+| `base_rate` | int | 命中 / 付与率等 |
+| `tags` | string | `|` 区切りタグ |
+| `battle_role` | string | AI評価ラベル |
+| `effect_text` | string | 短い効果説明 |
+
+### `item_master.csv`
+
+| カラム | 型 | 説明 |
+|--------|----|------|
+| `item_id` | string | アイテムID |
+| `slug` | string | 英字識別子 |
+| `name_jp` | string | 日本語名 |
+| `name_en` | string | 英語名 |
+| `item_kind` | string | heal / mp / cure / bait / field / record / catalyst 等 |
+| `subtype` | string | 補助分類 |
+| `price` | int | 店売り価格 |
+| `sell_price` | int | 売値 |
+| `target_scope` | string | single / party / field 等 |
+| `effect_key` | string | 実効果キー |
+| `effect_value` | string | 数値または複合値 |
+| `tags` | string | `|` 区切りタグ |
+| `description` | string | 説明帯テキスト |
+
+### `world_master.csv`
+
+| カラム | 型 | 説明 |
+|--------|----|------|
+| `world_id` | string | 世界ID |
+| `slug` | string | 英字識別子 |
+| `name_jp` | string | 日本語名 |
+| `name_en` | string | 英語名 |
+| `act` | string | 幕 |
+| `size_class` | enum | small / medium / large |
+| `function_class` | string | `echo_world` など世界機能 |
+| `level_min` | int | 推奨最低Lv |
+| `level_max` | int | 推奨最高Lv |
+| `taboo` | string | その世界の禁忌 |
+| `biome` | string | 地形・環境 |
+| `power_structure` | string | 支配構造 |
+| `dominant_families` | string | `|` 区切り family |
+| `gate_condition` | string | 解放条件メモ |
+| `notes` | string | 備考 |
+
+### `zone_master.csv`
+
+| カラム | 型 | 説明 |
+|--------|----|------|
+| `zone_id` | string | ゾーンID |
+| `world_id` | string | 所属世界 |
+| `name_jp` | string | 日本語名 |
+| `encounter_min_steps` | int | 最短遭遇歩数 |
+| `encounter_max_steps` | int | 最長遭遇歩数 |
+| `terrain_rate` | float | 地形補正 |
+| `time_band` | enum | any / day / dusk / night |
+| `weather` | enum | any / clear / rain / fog |
+| `notes` | string | 備考 |
+
 ### `encounter_table.csv`
 
 | カラム | 型 | 説明 |

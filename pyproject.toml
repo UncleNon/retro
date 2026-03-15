@@ -1,0 +1,11 @@
+[project]
+name = "project-retro-tooling"
+version = "0.1.0"
+description = "Local tooling for Project RETRO"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+  "gdtoolkit>=4.2.0,<5",
+]

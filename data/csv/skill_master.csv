@@ -1,0 +1,37 @@
+skill_id,slug,name_jp,name_en,category,element,mp_cost,target_scope,formula_key,base_power,base_rate,tags,battle_role,effect_text
+SKL-001,taiatari,たいあたり,Body Slam,physical,none,0,single,P1,100,0,starter|single|physical|beast,SAFE_POKE,基準単体打撃
+SKL-002,tsuibamu,ついばむ,Peck,physical,wind,0,single,P2,105,0,starter|single|physical|bird,RUSH_OPEN,鳥系の基準先手技
+SKL-003,hikkaku,ひっかく,Claw,physical,dark,0,single,P2,100,0,starter|single|physical|beast,SAFE_POKE,会心が少し出やすい軽打
+SKL-004,kajiru,かじる,Gnaw,physical,earth,2,single,P3,110,15,single|physical|material|beast,BREAK_DEF,防御を崩しやすい噛みつき
+SKL-005,chiisana_tsuno,ちいさなつの,Tiny Horn,physical,earth,2,single,P3,115,20,single|physical|beast,BREAK_DEF,softened を狙う突き
+SKL-006,tsutsuku,つつく,Stab Peck,physical,wind,1,single,P1,95,0,single|physical|bird|tag,RUSH_OPEN,印付き相手に強い
+SKL-007,kasurikizu,かすりきず,Graze,physical,none,1,single,P2,80,0,single|physical|starter,SAFE_POKE,低威力だが削り向き
+SKL-008,tobinoku,とびのく,Hop Back,physical,wind,3,self_to_single,P4,75,0,single|physical|escape|bird,RUSH_OPEN,攻撃後に回避を上げる
+SKL-009,mimiuchi,みみうち,Ear Jab,physical,none,2,single,P2,85,28,single|physical|status|beast,CONTROL,hushed を狙う
+SKL-010,shirushiubai,しるしうばい,Mark Ripper,physical,dark,4,single,P2,90,0,single|physical|mark|tag,PAYOFF,marked を回収して伸びる
+SKL-011,kioku_no_hizume,きおくのひづめ,Memory Hoof,physical,light,5,single,P5,135,0,single|physical|divine|tower_reactive,PAYOFF,瀕死付近で鋭くなる重打
+SKL-012,ashimoto_kuzushi,あしもとくずし,Trip Break,physical,earth,3,single,P2,90,65,single|physical|setup,BREAK_DEF,素早さを落とす
+SKL-013,susuhaki,すすはき,Soot Breath,status,dark,2,single,S2,0,48,status|soot|starter,CONTROL,soot を付与する
+SKL-014,dokukona,どくこな,Poison Dust,status,poison,3,single,S1,0,55,status|plant|starter,STATUS_SETUP,毒を付与する
+SKL-015,nemurigona,ねむりごな,Sleep Dust,status,none,5,single,S1,0,44,status|plant|fog,STATUS_SETUP,眠りを狙う
+SKL-016,mayowaseru,まよわせる,Lead Astray,status,dark,4,single,S1,0,42,status|material|fog,CONTROL,混乱を狙う
+SKL-017,sasayaki,ささやき,Whisper,status,dark,3,single,S2,0,52,status|magic|bell,CONTROL,fear か hushed を狙う
+SKL-018,fuuin,ふういん,Seal Word,status,light,4,single,S1,0,46,status|magic|mark,CONTROL,補助と呪文を封じる
+SKL-019,kuragari_hane,くらがりはね,Darkwing Haze,magic,dark,5,spread,M2,10,30,spread|fixed_magic|status|bird,CONTROL,全体小ダメージと soot
+SKL-020,mimizarari_no_suzu,みみざわりの鈴,Harsh Bell,status,none,4,spread,S2,0,35,spread|status|bell,CONTROL,全体に hushed
+SKL-021,kusa_no_shizuku,くさのしずく,Herb Drop,recover,water,3,ally_single,H1,16,0,recover|plant|starter|herb,ALLY_SUSTAIN,単体小回復
+SKL-022,shimeri,しめり,Dampen,setup,water,3,ally_single,B3,0,0,setup|plant|water,ALLY_SUSTAIN,wet を付与する
+SKL-023,yawarakai_kabe,やわらかいかべ,Soft Wall,setup,earth,4,ally_single,B3,0,0,setup|plant|material,ALLY_SUSTAIN,guard_shell を張る
+SKL-024,kabaidate,かばいだて,Brace,setup,none,2,ally_single,B1,0,0,setup|single,ALLY_SUSTAIN,守備を上げる
+SKL-025,kosurinaoshi,こすりなおし,Rub Clean,recover,light,3,ally_single,H2,10,0,recover|setup|tag,ALLY_SUSTAIN,小回復と軽状態解除
+SKL-026,numeri,ぬめり,Slime Coat,setup,water,3,single,B2,0,95,status|setup|plant,BREAK_DEF,素早さを下げる
+SKL-027,hoshimizu,ほしみず,Star Water,recover,light,5,ally_single,H1,12,0,recover|divine|tower_reactive,ALLY_SUSTAIN,HP小回復とMP回復
+SKL-028,miyaburu,みやぶる,Appraise,utility,light,2,single,U1,0,100,mark|setup|starter,SCOUT_SUPPORT,marked を付ける
+SKL-029,nusumimiru,ぬすみみる,Peek Sneak,utility,dark,3,single,U1,0,100,mark|recruit|material,SCOUT_SUPPORT,勧誘率を押し上げる
+SKL-030,hikari_no_manazashi,ひかりのまなざし,Light Gaze,utility,light,4,single,U1,0,100,mark|divine|tower_reactive,SCOUT_SUPPORT,長めの marked を付ける
+SKL-031,insho_no_mi,いんしょうのみ,Seal Nibble,utility,dark,5,single,U2,12,100,mark|payoff|magic,PAYOFF,marked かバフを食う
+SKL-032,shizuka_na_yobigoe,しずかなよびごえ,Quiet Call,utility,none,4,single,R1,10,100,recruit|bell|setup,SCOUT_SUPPORT,勧誘率を上げる
+SKL-033,subayaku_nigeru,すばやくにげる,Quick Escape,utility,wind,2,self,F1,40,100,escape|starter,FIELD_LINK,離脱補助
+SKL-034,kizamikaze,きざみかぜ,Shred Wind,magic,wind,4,spread,M2,14,100,spread|fixed_magic|bird|fog,RUSH_OPEN,全体小ダメージ
+SKL-035,makitsukitsuru,まきつきつる,Twining Vine,status,earth,4,single,S1,0,50,status|plant|earth,STATUS_SETUP,足止めを狙う
+SKL-036,nibui_hikari,にぶいひかり,Dull Light,setup,light,3,single,B2,0,92,setup|light|mark,BREAK_DEF,INT と RES を崩す

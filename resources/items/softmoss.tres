@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/item_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+item_id = "item_heal_softmoss"
+slug = "softmoss"
+name_jp = "やわ苔包み"
+name_en = "Soft Moss Bundle"
+item_kind = "consumable"
+subtype = "heal_hp"
+price = 36
+sell_price = 18
+target_scope = "ally_single"
+effect_key = "heal_hp"
+effect_value = "35"
+tags = ["heal", "marsh"]
+description = "湿った苔でHPを回復"

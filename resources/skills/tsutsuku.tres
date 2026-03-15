@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-006"
+slug = "tsutsuku"
+name_jp = "つつく"
+name_en = "Stab Peck"
+category = "physical"
+element = "wind"
+mp_cost = 1
+target_scope = "single"
+formula_key = "P1"
+base_power = 95
+base_rate = 0
+tags = ["single", "physical", "bird", "tag"]
+battle_role = "RUSH_OPEN"
+effect_text = "印付き相手に強い"

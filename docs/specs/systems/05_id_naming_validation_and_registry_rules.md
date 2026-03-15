@@ -33,12 +33,12 @@
 | Map | `MAP-XXX-###` | `MAP-VIL-001` |
 | NPC | `NPC-XXX-###` | `NPC-VIL-004` |
 | Quest/Event (ドキュメントID) | `EVT-XXX-###` | `EVT-VIL-002` |
-| Event Flag (コード内) | `EVT_XXX_###_desc` | `EVT_VIL_010_TAG_TRACE_FOUND` |
-
-> **注**: ドキュメント上のIDにはハイフン区切りを使用する。GDScript等コード内のイベントフラグは snake_case（アンダースコア区切り）を使用する。これはGDScriptの命名規約に準拠するためである。
+| Event Flag (コード内) | `EVT_XXX_###_DESC` | `EVT_VIL_010_TAG_TRACE_FOUND` |
 | Breed Rule | `BRD-####` | `BRD-0104` |
 | Loot Table | `LUT-###` | `LUT-007` |
 | Prompt | `PRM-XXX-###` | `PRM-MON-001` |
+
+> **注**: ドキュメント上のIDにはハイフン区切りを使用する。GDScript 等コード内のイベントフラグは `UPPER_SNAKE_CASE` を使用する。ドキュメントID とランタイム flag 名は別物として扱う。
 
 ---
 

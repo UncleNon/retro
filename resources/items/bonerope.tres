@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/item_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+item_id = "item_field_bonerope"
+slug = "bonerope"
+name_jp = "骨縄"
+name_en = "Bone Rope"
+item_kind = "consumable"
+subtype = "field"
+price = 80
+sell_price = 40
+target_scope = "party"
+effect_key = "escape_dungeon"
+effect_value = "1"
+tags = ["field", "escape"]
+description = "危険地帯から脱出する"

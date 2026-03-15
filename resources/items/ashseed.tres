@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/item_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+item_id = "item_catalyst_ashseed"
+slug = "ashseed"
+name_jp = "灰種"
+name_en = "Ash Seed"
+item_kind = "consumable"
+subtype = "catalyst"
+price = 150
+sell_price = 75
+target_scope = "breed"
+effect_key = "mutation_bonus"
+effect_value = "2"
+tags = ["catalyst", "breed"]
+description = "配合時の mutation を少し押し上げる"

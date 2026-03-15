@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="WorldData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/world_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+world_id = "W-002"
+slug = "ashmilk_vale"
+name_jp = "灰乳の谷"
+name_en = "Ashmilk Vale"
+act = "I"
+size_class = "small"
+function_class = "echo_world"
+level_min = 10
+level_max = 18
+taboo = "母系印が薄い者を家に入れない"
+biome = "石灰谷と乾草台地"
+power_structure = "母屋中心の牧畜共同体"
+dominant_families = ["beast", "material"]
+gate_condition = "灰印片"
+notes = "乳と印で家系を測る"

@@ -23,26 +23,26 @@
 ## 13.2 マイルストーン計画
 
 ### Phase 0: 基盤整備
-- [ ] リポジトリ構造整理
-- [ ] `docs/requirements/` を source of truth に固定し、`docs/design/` をアーカイブ扱いにする
-- [ ] CI/CDパイプライン構築
-- [ ] Godot 4.4 プロジェクトセットアップ（ネイティブ2D, Pixel Perfect設定）
-- [ ] エディタプラグイン（CSVインポーター）作成
-- [ ] 共通基盤システム実装（GameManager, SaveSystem, AudioManager, InputManager）
-- [ ] GdUnit4テストフレームワーク導入
-- [ ] Git LFS設定
-- [ ] `retro-claude/tools/palette-remap/` を repo-root の `tools/palette-remap/` に移設
-- [ ] iOSエクスポート → TestFlight までの技術スパイク
-- [ ] ローカルセーブ / オートセーブ / 異常終了復帰の技術スパイク
+- [x] リポジトリ構造整理
+- [x] `docs/requirements/` を source of truth に固定し、`docs/design/` をアーカイブ扱いにする
+- [x] CI/CDパイプライン構築（baseline）
+- [x] Godot 4.4 プロジェクトセットアップ（ネイティブ2D, Pixel Perfect設定）
+- [x] エディタプラグイン（CSVインポーター）作成
+- [x] 共通基盤システム実装（GameManager, SaveSystem, AudioManager, InputManager）
+- [ ] GdUnit4テストフレームワーク導入（実テスト追加前の本統合）
+- [x] Git LFS設定
+- [x] `retro-claude/tools/palette-remap/` を repo-root の `tools/palette-remap/` に移設
+- [x] iOSエクスポート前提条件の技術スパイク（blocked report 生成まで）
+- [x] ローカルセーブ / オートセーブ / 異常終了復帰の技術スパイク
 - [ ] iCloud連携用GDExtension調査・プロトタイプ
 
 ### Phase 1: コアループ実証（Vertical Slice）
 - [ ] モンスター10体分のデータ作成
 - [ ] バトルシステム（3v3、UIまで）
 - [ ] 配合システム（基本配合、UIまで）
-- [ ] フィールド移動（1マップ）
+- [x] フィールド移動（1マップ）
 - [ ] エンカウント→バトル→勝利の一連のフロー
-- [ ] 仮アセット（プレースホルダー）で動作確認
+- [x] 仮アセット（プレースホルダー）で動作確認
 - [ ] **成果物: 「5分間遊べるプロトタイプ」**
 
 ### Phase Gate: 初回リリーススコープ確定
@@ -53,13 +53,18 @@
 - [ ] 初回リリースは日本語先行で出すことを前提に、英語対応は後続フェーズへ分離する
 
 ### Phase 2: 世界観・データ設計
-- [ ] 世界の詳細設計（20+世界の定義書作成）
-- [ ] 歴史年表の詳細化
+- [x] 世界の詳細設計（21 mainline worlds + `W-022+` reserved deep regions の定義書作成）
+- [x] 歴史年表の詳細化
 - [ ] モンスター400体の設計（データ定義・配合テーブル）
-- [ ] ストーリープロット策定
+- [x] ストーリープロット策定
 - [ ] NPC設計
 - [ ] アイテム・スキル設計
 - [ ] **成果物: 完全な設計ドキュメント群**
+
+注記:
+
+- `docs/specs/worlds/09〜13`, `docs/specs/story/01〜10` により、Initial Release を支える world / story / history の canonical baseline は作成済み
+- ここで未完了として残しているのは、400体の個票、全世界分の NPC 実表、後半 item / skill / loot の完全 roster など、量産と実データ化の層
 
 ### Phase 3: コンテンツ実装・前半
 - [ ] 世界1〜10の実装（マップ、ダンジョン、NPC、イベント）
@@ -70,7 +75,7 @@
 - [ ] サウンド前半
 
 ### Phase 4: コンテンツ実装・後半
-- [ ] 世界11〜20の実装
+- [ ] 世界11〜21の実装
 - [ ] モンスター残り200体のアセット生成・統合
 - [ ] メインストーリー後半
 - [ ] トーナメントC〜スターフォール
@@ -106,15 +111,25 @@
 
 ### 日常の開発フロー
 ```
-1. GitHub Issueでタスクを確認
-2. feature ブランチを切る
-3. 実装
-4. ローカルでテスト実行
-5. コミット・プッシュ
-6. CI自動実行
-7. CI通過を確認
-8. develop にマージ
+1. `docs/plans/REQ-xxx...` と `REQ-xxx-progress.md` で対象セッションを確認
+2. セッション境界と受け入れ基準を確認
+3. 実装（必要なら short-lived branch）
+4. `tools/qa/` と `tools/data/build_resources.py --check` でローカル確認
+5. 触った source-of-truth 文書を同ターンで同期
+6. review handoff を作る
+7. レビュー後にコミット・プッシュ
 ```
+
+Session 04 以降のローカル最低確認:
+
+- `python tools/qa/lint.py`
+- `python tools/qa/format.py --check`
+- `python tools/data/build_resources.py --check`
+- `python tools/qa/test.py`
+- `python tools/qa/godot_smoke.py`
+- `python tools/qa/save_smoke.py`
+- `python tools/qa/field_smoke.py`
+- `python tools/qa/ios_export_smoke.py`
 
 ### ADR（Architecture Decision Records）
 - 重要な設計判断はADRとして文書化
@@ -152,6 +167,7 @@ docs/
 - Source of Truth同期チェック（seisan-kun方式）
 - ドキュメントのレビューはPRと一緒に
 - 現行設計は `docs/requirements/` と `docs/adr/` を基準にし、`docs/design/` は参照専用アーカイブとして扱う
+- 実装順と完了状態は `docs/plans/REQ-001-progress.md` を更新して追う
 
 ---
 

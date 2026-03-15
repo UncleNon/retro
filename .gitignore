@@ -2,3 +2,12 @@
 node_modules/
 .env
 .env.local
+
+# Godot
+.godot/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/

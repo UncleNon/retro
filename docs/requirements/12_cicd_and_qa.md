@@ -13,26 +13,26 @@
 
 ## 12.2 ブランチ戦略
 
-### ブランチモデル
+### 現在の運用
 ```
-main（本番リリース用）
-  ├── develop（開発統合ブランチ）
-  │   ├── feat/monster-system     # 機能ブランチ
-  │   ├── feat/battle-ui          # 機能ブランチ
-  │   ├── fix/damage-calc         # バグ修正
-  │   └── data/monster-batch-001  # データ投入
-  └── release/v1.0（リリース準備）
+main（canonical branch）
+  ├── feat/*
+  ├── fix/*
+  ├── data/*
+  └── session/*
 ```
 
 ### ブランチルール
 | ルール | 内容 |
 |--------|------|
-| **main** | 直接プッシュ禁止。release or hotfixからのみマージ |
-| **develop** | 日常の統合先。feature→developはPR必須 |
-| **feature** | `feat/`プレフィックス。develop から切る |
-| **fix** | `fix/`プレフィックス。バグ修正用 |
-| **data** | `data/`プレフィックス。データ投入用 |
-| **release** | `release/`プレフィックス。リリース準備 |
+| **main** | source of truth。長期ブランチは増やしすぎない |
+| **feat** | 機能実装用。必要時のみ切る |
+| **fix** | バグ修正用 |
+| **data** | データ投入 / 生成物更新用 |
+| **session** | `REQ-xxx Session N` の分割実装用 |
+
+- `develop` 常設は、複数人並行や release cadence が必要になってから導入する
+- 現段階では `main + short-lived branch` を正とする
 
 ---
 
@@ -40,57 +40,33 @@ main（本番リリース用）
 
 ### GitHub Actions ワークフロー
 
-#### ci.yml（PR・push時）
+#### 現在の `ci.yml` baseline
 ```yaml
 jobs:
-  # 1. コードチェック
-  code-check:
-    - GDScript構文チェック（godot --headless --check-only）
-    - コーディング規約チェック（gdlint）
-    - 静的解析（gdlint / GDScript Toolkit）
-
-  # 2. ユニットテスト
-  unit-test:
-    - バトル計算テスト
-    - 配合ロジックテスト
-    - セーブ/ロードテスト
-    - モンスターデータ整合性テスト
-
-  # 3. データ検証
-  data-validation:
-    - マスターデータCSVの整合性チェック
-    - 配合テーブルの循環参照チェック
-    - 全モンスターの必須フィールド検証
-    - テキストIDの重複チェック
-    - Initial Release は日本語テキスト必須チェック
-    - 英語テキストは対応フェーズ以降に欠損チェック
-
-  # 4. アセット検証
-  asset-validation:
-    - スプライトサイズ検証
-    - パレット準拠チェック
-    - ファイル命名規則チェック
-
-  # 5. ビルド
-  build:
-    - Godotプロジェクトのimport / scene load smoke
-    - headless or desktop export validation
-    - ビルドサイズチェック（上限300MB）
-
-  # 6. iOSリリース検証
-  ios-release-validation:
-    - macOS runner 上でのみ実行
-    - Godot export templates のバージョン固定確認
-    - Provisioning Profile / 証明書 / App Store Connect APIキーの存在確認
-    - 署名付きiOSエクスポート（release/* or manual dispatch）
-
-  # 7. セキュリティ
-  security-scan:
-    - ハードコードされたシークレット検出
-    - GDExtension依存の脆弱性チェック
+  baseline:
+    - checkout（LFS有効）
+    - setup-python 3.11
+    - pip install gdtoolkit
+    - python tools/qa/lint.py
+    - python tools/qa/format.py --check
+    - python tools/data/build_resources.py --check
+    - python tools/qa/test.py
+    - python tools/qa/godot_smoke.py --allow-missing
 ```
 
-#### deploy-testflight.yml（releaseブランチ）
+### baseline の意味
+- Session 02 時点の最小品質ゲートを先に固定する
+- `gdlint`, `gdformat`, `data build`, Python unit test, Godot smoke の入口を用意する
+- CI runner 上の Godot 本体導入は、現時点では optional 扱いで `--allow-missing` を使う
+
+### 今後追加するジョブ
+- GdUnit4 による Godot 側ユニットテスト
+- scene load / save-load / battle loop 統合テスト
+- asset registry / localization validator
+- iOS export smoke
+- release / TestFlight deploy
+
+#### deploy-testflight.yml（tag push / optional release branch）
 ```yaml
 jobs:
   build-and-deploy:
@@ -138,15 +114,28 @@ jobs:
 | **BattleManager** | 行動順決定、逃走判定、勝敗判定 |
 | **ScoutSystem** | スカウト成功率計算 |
 
-※テストフレームワーク: **GdUnit4**（Godot用ユニットテストフレームワーク）
+※テストフレームワーク:
+- Session 02 時点の実働: Python `unittest` でデータパイプラインを検証
+- Godot 側の正式なユニットテスト基盤は **GdUnit4** を採用予定とし、`tests/gdunit/` を canonical 受け皿にする
 
 ### 統合テスト対象
 | テスト対象 | テスト内容 |
 |-----------|-----------|
 | **バトル→経験値→レベルアップ** | 一連のフロー |
 | **配合→新モンスター→スキル継承** | 配合の全体フロー |
-| **セーブ→ロード→状態復元** | データの完全な往復 |
+| **セーブ→ロード→状態復元** | manual / autosave / recovery の往復 |
 | **シーン遷移→状態保持** | シーン間でのデータ保持 |
+
+### Session 04 で追加した smoke
+| コマンド | 役割 |
+|---------|------|
+| `python tools/qa/save_smoke.py` | SaveSystem の manual / autosave / dirty shutdown recovery を headless Godot で確認 |
+| `python tools/qa/ios_export_smoke.py` | iOS export の前提条件を検査し、`export/ios/` に report を出力 |
+
+### Session 05 で追加した smoke
+| コマンド | 役割 |
+|---------|------|
+| `python tools/qa/field_smoke.py` | 開始村から塔前荒地までの移動、調査、遭遇導線を headless Godot で確認 |
 
 ### データ検証テスト
 | テスト対象 | テスト内容 |
@@ -168,11 +157,22 @@ jobs:
 
 ## 12.5 品質ゲート
 
-### マージ条件（develop → main）
-- [ ] 全ユニットテスト合格
+### マージ条件（現時点）
+- [ ] `python tools/qa/lint.py` 合格
+- [ ] `python tools/qa/format.py --check` 合格
+- [ ] `python tools/data/build_resources.py --check` 合格
+- [ ] `python tools/qa/test.py` 合格
+- [ ] `python tools/qa/godot_smoke.py` がローカルでは合格、CI では少なくとも fail-safe に動く
+- [ ] `python tools/qa/save_smoke.py` がローカルで合格
+- [ ] `python tools/qa/field_smoke.py` がローカルで合格
+- [ ] `python tools/qa/ios_export_smoke.py` が report を生成し、blocker が可視化されている
+
+### 将来のマージ条件（拡張後）
+- [ ] GdUnit4 テスト合格
 - [ ] 全データ検証合格
 - [ ] 全アセット検証合格
 - [ ] ビルド成功
+- [ ] iOS export smoke が blocker なし
 - [ ] セキュリティスキャン合格
 - [ ] プレイテスト合格（リリース時のみ）
 
@@ -223,15 +223,15 @@ jobs:
 
 ### リリースフロー
 ```
-1. develop の全テスト合格を確認
-2. release/vX.Y ブランチを切る
+1. releasable commit（通常は `main`、必要なら short-lived `release/*`）の全テスト合格を確認
+2. 必要な場合のみ `release/vX.Y.Z` の凍結ブランチを切る
 3. リリースノート作成
 4. 最終プレイテスト
-5. main にマージ
-6. タグ付け（vX.Y.Z）
-7. CI/CD → TestFlight自動デプロイ
-8. TestFlightで最終確認
-9. App Store審査提出
+5. 配布対象 commit にタグ付け（`vX.Y.Z`）
+6. CI/CD → tag build から TestFlight 自動デプロイ
+7. TestFlight で最終確認
+8. optional release branch を使った場合のみ `main` へ戻す
+9. App Store 審査提出
 ```
 
 ### バージョニング

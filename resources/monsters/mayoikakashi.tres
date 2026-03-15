@@ -1,0 +1,33 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-005"
+slug = "mayoikakashi"
+name_jp = "マヨイカカシ"
+name_en = "Mayoikakashi"
+family = "material"
+rank = "D"
+size_class = "M"
+motif_group = "object"
+motif_source = "案山子 + 道標 + 迷い道"
+silhouette_type = "tall"
+palette_id = "pal_scare_sign"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 68
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 28, "mp": 14, "atk": 14, "def": 15, "spd": 10, "int": 13, "res": 14}
+cap_stats = {"hp": 196, "mp": 108, "atk": 132, "def": 138, "spd": 96, "int": 116, "res": 120}
+base_recruit = 22
+scoutable = true
+personality_bias = "solemn"
+trait_1 = "みちまどい"
+trait_2 = "混乱微付与"
+loot_table_id = "LUT-005"
+prompt_id = "PRM-MON-005"
+notes = "特殊配合の最初の到達点"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 1, "thunder": 0, "light": 0, "dark": 1, "poison": 0, "sleep": 1, "paralysis": 0, "confusion": 1, "seal": 0, "fear": 1, "instant_death": -1}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-006"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-016"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-010"}, {"learn_type": "level", "learn_value": 9, "skill_id": "SKL-020"}, {"learn_type": "level", "learn_value": 14, "skill_id": "SKL-036"}]

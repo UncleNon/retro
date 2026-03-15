@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-010"
+slug = "shirushiubai"
+name_jp = "しるしうばい"
+name_en = "Mark Ripper"
+category = "physical"
+element = "dark"
+mp_cost = 4
+target_scope = "single"
+formula_key = "P2"
+base_power = 90
+base_rate = 0
+tags = ["single", "physical", "mark", "tag"]
+battle_role = "PAYOFF"
+effect_text = "marked を回収して伸びる"

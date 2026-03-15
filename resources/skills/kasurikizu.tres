@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-007"
+slug = "kasurikizu"
+name_jp = "かすりきず"
+name_en = "Graze"
+category = "physical"
+element = "none"
+mp_cost = 1
+target_scope = "single"
+formula_key = "P2"
+base_power = 80
+base_rate = 0
+tags = ["single", "physical", "starter"]
+battle_role = "SAFE_POKE"
+effect_text = "低威力だが削り向き"

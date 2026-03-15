@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-009"
+slug = "mimiuchi"
+name_jp = "みみうち"
+name_en = "Ear Jab"
+category = "physical"
+element = "none"
+mp_cost = 2
+target_scope = "single"
+formula_key = "P2"
+base_power = 85
+base_rate = 28
+tags = ["single", "physical", "status", "beast"]
+battle_role = "CONTROL"
+effect_text = "hushed を狙う"

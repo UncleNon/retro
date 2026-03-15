@@ -1,0 +1,25 @@
+; Engine configuration file.
+; Project RETRO canonical Godot entrypoint.
+config_version=5
+
+[application]
+config/name="Project RETRO"
+run/main_scene="res://scenes/main/app_root.tscn"
+config/features=PackedStringArray("4.4")
+config/icon="res://icon.svg"
+
+[autoload]
+GameManager="*res://scripts/core/game_manager.gd"
+SaveSystem="*res://scripts/save/save_system.gd"
+AudioManager="*res://scripts/audio/audio_manager.gd"
+InputManager="*res://scripts/input/input_manager.gd"
+
+[display]
+window/size/viewport_width=160
+window/size/viewport_height=144
+window/stretch/mode="viewport"
+window/stretch/aspect="keep"
+window/stretch/scale_mode="integer"
+
+[rendering]
+textures/canvas_textures/default_texture_filter=0

@@ -31,36 +31,43 @@
 
 ## 11.2 プロジェクト構成
 
+`Project RETRO` の canonical runtime root は repo root とする。`project/` のような別ルートは切らない。
+
 ```
-project/
+repo-root/
+├── project.godot          # Godot canonical entrypoint
+├── icon.svg               # 仮アイコン
 ├── scenes/
-│   ├── main/              # メインシーン（起動・ルーティング）
-│   ├── title/             # タイトル画面
-│   ├── field/             # フィールド探索
-│   ├── battle/            # バトル画面
-│   ├── menu/              # メニュー画面群
-│   └── loading/           # ローディング
+│   ├── main/              # 起動・ルーティング
+│   ├── title/
+│   ├── field/
+│   ├── battle/
+│   ├── menu/
+│   └── loading/
 ├── scripts/
-│   ├── core/              # ゲーム基盤（GameManager, SaveSystem, etc.）
-│   ├── monster/           # モンスター関連（データ, 配合, 図鑑）
-│   ├── battle/            # バトルシステム
-│   ├── ui/                # UI管理
-│   ├── tournament/        # トーナメント
-│   ├── dungeon/           # ダンジョン生成
-│   ├── audio/             # オーディオ管理
-│   ├── world/             # ワールド管理・シーン遷移
-│   ├── npc/               # NPC・会話システム
-│   ├── item/              # アイテムシステム
-│   ├── localization/      # ローカライズシステム
-│   ├── save/              # セーブ・iCloud同期
-│   ├── input/             # 入力管理（バーチャルパッド）
-│   └── utils/             # ユーティリティ
+│   ├── main/              # app_root など起動シーン用
+│   ├── core/              # GameManager 等の基盤
+│   ├── data/              # Resource クラス定義
+│   ├── monster/
+│   ├── battle/
+│   ├── ui/
+│   ├── tournament/
+│   ├── dungeon/
+│   ├── audio/
+│   ├── world/
+│   ├── npc/
+│   ├── item/
+│   ├── localization/
+│   ├── save/
+│   ├── input/
+│   └── utils/
 ├── resources/
-│   ├── monsters/          # 400体分のMonsterData（.tres）
-│   ├── skills/            # スキルツリー定義
-│   ├── items/             # アイテム定義
-│   ├── worlds/            # 世界定義
-│   └── breeding_table/    # 配合テーブル
+│   ├── monsters/          # 生成済み MonsterData .tres
+│   ├── skills/            # 生成済み SkillData .tres
+│   ├── items/             # 生成済み ItemData .tres
+│   ├── worlds/            # 生成済み WorldData .tres
+│   ├── encounters/        # 生成済み EncounterZoneData .tres
+│   └── breeding/          # 生成済み BreedRuleData .tres
 ├── assets/
 │   ├── sprites/
 │   │   ├── monsters/
@@ -74,16 +81,30 @@ project/
 │   │   └── jingles/
 │   ├── fonts/
 │   └── tilemaps/
-├── addons/                # Godotプラグイン（エディタ拡張等）
-│   └── csv_importer/      # CSVインポーター
+├── addons/
+│   └── csv_importer/      # editor plugin の受け皿
 ├── data/
-│   ├── csv/               # マスターデータCSV
-│   └── localization/      # 翻訳テキスト（CSV/JSON）
-├── tests/                 # GdUnit4テスト
-├── export/                # エクスポート設定
-├── project.godot          # プロジェクト設定
-└── .gdignore
+│   ├── csv/               # canonical master CSV
+│   ├── generated/         # build manifest 等の生成物
+│   └── localization/
+├── tests/
+│   ├── python/            # パイプライン / スキーマ検証
+│   └── gdunit/            # Godot 側テストの受け皿
+├── tools/
+│   ├── palette-remap/     # パレット変換の canonical path
+│   ├── data/              # CSV → Resource build
+│   └── qa/                # lint / format / smoke / unit wrappers
+├── export/
+├── docs/                  # source of truth docs
+├── retro-claude/          # 参照用旧資産（.gdignore）
+├── retro-codex/           # 参照用旧資産（.gdignore）
+└── legacy-root-assets/    # 旧 root Assets の退避先（.gdignore）
 ```
+
+### 参照用ディレクトリの扱い
+- `docs/`, `retro-claude/`, `retro-codex/`, `legacy-root-assets/`, `tools/` には `.gdignore` を置き、Godot import 対象から外す
+- 旧Unity系資産は削除せず、参照専用として隔離する
+- 実装先は repo root 配下の lowercase ディレクトリに統一する
 
 ---
 
@@ -138,107 +159,133 @@ GameManager（Autoload・全体統括）
     └── HUDManager
 ```
 
+### Session 01 時点の最小 Autoload
+- `GameManager`
+- `SaveSystem`
+- `AudioManager`
+- `InputManager`
+
+これらは空プロジェクト起動と今後の依存注入先を固定するための最小 shell として先に置く。
+
 ---
 
 ## 11.4 データ管理
 
 ### マスターデータ パイプライン
 ```
-CSVファイル（人間が編集可能）
+data/csv/*.csv
     ↓
-エディタプラグイン（CSVインポーター）
+tools/data/build_resources.py
     ↓
-Godot Resource（.tres）（ゲームが読み込む）
+resources/{monsters,skills,items,worlds,encounters,breeding}/*.tres
     ↓
-ランタイムデータ（ゲーム中に参照）
+data/generated/resource_manifest.json
+    ↓
+ランタイム読み込み
 ```
 
+- Session 03 の canonical build entrypoint は `tools/data/build_resources.py`
+- `addons/csv_importer/` は editor plugin 化の受け皿として残すが、現時点の正は build script
+- build は `monster_master.csv`, `monster_resistance.csv`, `monster_learnset.csv`, `skill_master.csv`, `item_master.csv`, `world_master.csv`, `zone_master.csv`, `encounter_table.csv`, `breed_rule.csv` を読む
+
 ### マスターデータ一覧
-| データ | 形式 | レコード数 |
-|--------|------|-----------|
-| モンスターマスター | CSV → Resource | 400 |
-| スキルツリー | CSV → Resource | 100+ |
-| 技・特技 | CSV → Resource | 300+ |
-| 配合テーブル（家系） | CSV → Resource | 81 |
-| 配合テーブル（特殊） | CSV → Resource | 200〜400 |
-| アイテム | CSV → Resource | 100+ |
-| 世界定義 | CSV → Resource | 20+ |
-| NPC | CSV → Resource | 200+ |
-| テキスト | CSV/JSON | 数千 |
+| データ | 形式 | 初期状態 |
+|--------|------|----------|
+| モンスターマスター | CSV → Resource | Session 03 で 10体 seed |
+| 技・特技 | CSV → Resource | Session 03 で 36種 seed |
+| アイテム | CSV → Resource | Session 03 で 16種 seed |
+| 世界定義 | CSV → Resource | Session 03 で 4世界 seed |
+| エンカウント | CSV → Resource | Session 03 で 5ゾーン seed |
+| 配合ルール | CSV → Resource | Session 03 で 12ルール seed |
+| NPC | CSV → Resource | 今後追加 |
+| テキスト | CSV/JSON | 今後追加 |
 
 ### Godot Resource 定義例（MonsterData）
 ```gdscript
-class_name MonsterData
 extends Resource
 
-@export var id: String
+@export var monster_id: String
+@export var slug: String
 @export var name_jp: String
 @export var name_en: String
-@export var family: MonsterFamily
-@export var element: Element
-@export var rank: MonsterRank
-@export var growth_type: GrowthType
-@export var sprite_size: int
-
-# ステータス（Lv1基準）
-@export var base_hp: int
-@export var base_mp: int
-@export var base_atk: int
-@export var base_def: int
-@export var base_spd: int
-@export var base_int: int
-@export var base_res: int
-
-# 属性耐性
+@export var family: String
+@export var rank: String
+@export var size_class: String
+@export var motif_group: String
+@export var motif_source: String
+@export var silhouette_type: String
+@export var palette_id: String
+@export var field_sprite_px: int
+@export var battle_sprite_px: int
+@export var base_level_cap: int
+@export var growth_curve_id: String
+@export var base_stats: Dictionary
+@export var cap_stats: Dictionary
+@export var base_recruit: int
+@export var scoutable: bool
+@export var personality_bias: String
+@export var trait_1: String
+@export var trait_2: String
+@export var loot_table_id: String
+@export var prompt_id: String
+@export var notes: String
 @export var resistances: Dictionary
-
-# スキルツリー
-@export var skill_trees: Array[SkillTreeData]
-
-# 図鑑
-@export_multiline var description_jp: String
-@export_multiline var description_en: String
-
-enum MonsterFamily { SLIME, BEAST, BIRD, PLANT, MAGIC, MATERIAL, UNDEAD, DRAGON, DIVINE }
-enum Element { NONE, FIRE, WATER, WIND, EARTH, THUNDER, LIGHT, DARK }
-enum MonsterRank { E, D, C, B, A, S }
-enum GrowthType { EARLY, NORMAL, LATE, SPECIAL }
+@export var learnset: Array
 ```
 
-### ランタイムデータ（セーブデータ）
+### ランタイムデータ（Session 04 baseline）
+Session 04 時点では、セーブは `Resource` 直列化ではなく **versioned JSON payload** を canonical とする。
+
 ```gdscript
-class_name SaveData
-extends Resource
-
-# プレイヤー情報
-@export var player_name: String
-@export var player_gender: int       # 0=男, 1=女
-@export var gold: int
-@export var play_time: float
-@export var story_chapter: int
-@export var tournament_rank: int
-
-# モンスター
-@export var party: Array[MonsterSaveData]   # 最大3体
-@export var ranch: Array[MonsterSaveData]   # 最大200体
-@export var pokedex: Array[bool]            # 400枠
-@export var mutation_log: Array[bool]       # 変異種発見記録
-
-# インベントリ
-@export var inventory: Array[ItemSaveData]
-@export var key_items: Array[ItemSaveData]
-
-# 世界・進行
-@export var current_scene: String
-@export var current_position: Vector2
-@export var world_unlocked: Array[bool]
-@export var event_flags: Dictionary
-
-# 統計
-@export var total_battles: int
-@export var total_breedings: int
-@export var total_mutations: int
+{
+  "schema_version": "0.2.0",
+  "player": {
+    "name": "",
+    "gold": 0,
+    "play_time_seconds": 0,
+    "current_scene": "res://scenes/main/app_root.tscn",
+    "current_position": {"x": 0, "y": 0}
+  },
+  "party": [],
+  "ranch": [],
+  "inventory": [],
+  "vault": [],
+  "progress": {
+    "main": {
+      "act": 1,
+      "chapter": 0,
+      "story_complete": false,
+      "postgame_open": false,
+      "true_name_awareness": 0,
+      "silence_broken": false
+    }
+  },
+  "worlds": {},
+  "gates": {},
+  "npcs": {},
+  "clues": {},
+  "codex": {
+    "monster_count_seen": 0,
+    "monster_count_recruited": 0,
+    "recipe_count_known": 0,
+    "recipe_count_resolved": 0,
+    "mutation_count_seen": 0
+  },
+  "stats": {
+    "total_battles": 0,
+    "total_wins": 0,
+    "total_recruits": 0,
+    "total_breeds": 0,
+    "total_mutations": 0,
+    "tower_entries": 0,
+    "worlds_cleared": 0,
+    "clues_logged": 0
+  }
+}
 ```
+
+- キー構造の正は `docs/specs/systems/07_progress_flags_and_save_state_model.md`
+- 将来的に `Resource` ラッパーや binary save へ移る場合も、この payload shape を先に守る
 
 ---
 
@@ -249,21 +296,52 @@ extends Resource
 |------|------|
 | **手動セーブ** | 3スロット |
 | **オートセーブ** | 1スロット（マップ遷移・バトル終了時） |
-| **保存形式** | JSON（暗号化） |
-| **保存先** | OS.get_user_data_dir() |
-| **暗号化** | AES-256（Godot Crypto APIまたはGDExtension） |
+| **異常終了復帰** | `session.lock.json` + `recovery.save.json` で検知 / 復旧 |
+| **保存形式** | versioned JSON envelope |
+| **保存先** | `user://saves` |
+| **クラウド同期** | 不採用。Phase 0 では採否判定材料だけ残す |
 | **iCloud同期** | 候補: iOS CloudKit経由（Phase 0スパイク通過時のみ v1対象） |
 
 - **原則**: ローカルセーブ単独で完結する構成を維持し、クラウド同期の有無でゲーム本編の成立を左右させない
 
-### セキュリティ
-- **暗号化キー**: ハードコード禁止。iOS Keychainに保管（GDExtension経由）
-- **データ整合性**: チェックサム付き（改ざん検知）
-- **バックアップ**: ローカルバックアップを標準とし、iCloud採用時のみクラウドバックアップを追加
-- **チート対策**:
-  - セーブデータの署名検証
-  - 異常値検出（ステータス上限チェック等）
-  - メモリ上の重要値を難読化
+### Session 04 実装 baseline
+
+#### 保存ファイル
+```
+user://saves/
+├── slot_01.save.json
+├── slot_02.save.json
+├── slot_03.save.json
+├── autosave.save.json
+├── recovery.save.json
+├── save_index.json
+└── session.lock.json
+```
+
+#### Envelope 構造
+```json
+{
+  "schema_version": "0.2.0",
+  "saved_at_utc": "2026-03-15T12:00:00Z",
+  "save_kind": "manual | autosave",
+  "slot_id": 1,
+  "payload": { "...normalized save payload..." }
+}
+```
+
+#### 復帰の流れ
+1. bootstrap 時に `session.lock.json` の残存を確認
+2. lock が残っていれば dirty shutdown 扱いにする
+3. `recovery.save.json` があれば復帰候補として提示できる状態にする
+4. clean shutdown 時は session lock を消す
+
+### 将来の hardening 候補
+- 改ざん検知用 checksum / signature
+- iOS Keychain と連携した鍵管理
+- 暗号化 save
+- iCloud / CloudKit バックアップ
+
+これらは **今の baseline では未採用** とし、save loop を固めた後に別判断で入れる。
 
 ### iCloud同期フロー（採用時）
 ```
@@ -283,6 +361,19 @@ iCloudへアップロード（バックグラウンド、GDExtension経由）
 - iCloud (CloudKit)、Keychain、GameCenter（将来）等
 - オープンソースのGodot iOSプラグインを活用 or 自作
 - Phase 0で「ローカルのみ出荷」と「iCloud対応」の両方を比較し、実装コストに対して価値が見合うか判断する
+
+### Session 04 iOSスパイク結果
+- ローカル検証環境:
+  - Godot editor: `4.6.1.stable`
+  - Xcode: `26.3`
+- 2026-03-15 時点の blockers:
+  - Godot export templates が未導入
+  - `export_presets.cfg` が未作成
+  - codesigning identity が未設定
+- canonical report:
+  - `export/ios/ios_export_smoke_report.json`
+  - `export/ios/ios_export_smoke_report.md`
+- したがって、**iOS export は「前提条件未充足のため blocked」** と判断する
 
 ---
 

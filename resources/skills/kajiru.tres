@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-004"
+slug = "kajiru"
+name_jp = "かじる"
+name_en = "Gnaw"
+category = "physical"
+element = "earth"
+mp_cost = 2
+target_scope = "single"
+formula_key = "P3"
+base_power = 110
+base_rate = 15
+tags = ["single", "physical", "material", "beast"]
+battle_role = "BREAK_DEF"
+effect_text = "防御を崩しやすい噛みつき"

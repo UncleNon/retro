@@ -19,6 +19,9 @@
 
 ## 2. reveal tier
 
+この `T1〜T5` は clue 単位の粒度であり、`story/01_story_bible.md` や
+`story/04_main_story_beats_and_world_sequence.md` の物語段階そのものとは 1:1 で対応しない。
+
 | tier | 説明 |
 |------|------|
 | `T1` | 単なる違和感 |
@@ -93,7 +96,7 @@
 ## 4. 運用ルール
 
 - `seen` は missable でも `resolved` は missable にしない
-- 1世界で真相を2つ以上確定させない
+- 1世界で真相を2つ以上確定させない。ただし `terminal_world` では、同一決着線上の複数 clue を束ねてよい
 - 同一 clue を同一媒体で繰り返しすぎない
 - 主要真相は最低3媒体で冗長化する
 

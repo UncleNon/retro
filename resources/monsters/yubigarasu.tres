@@ -1,0 +1,33 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-008"
+slug = "yubigarasu"
+name_jp = "ユビガラス"
+name_en = "Yubigarasu"
+family = "bird"
+rank = "D"
+size_class = "S"
+motif_group = "animal"
+motif_source = "烏 + 指差し + 噂"
+silhouette_type = "tall"
+palette_id = "pal_crow_ink"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 69
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 23, "mp": 13, "atk": 15, "def": 9, "spd": 16, "int": 14, "res": 11}
+cap_stats = {"hp": 170, "mp": 102, "atk": 146, "def": 92, "spd": 144, "int": 122, "res": 98}
+base_recruit = 21
+scoutable = true
+personality_bias = "sharp"
+trait_1 = "よびよせ声"
+trait_2 = "闇微耐性"
+loot_table_id = "LUT-008"
+prompt_id = "PRM-MON-008"
+notes = "囁きと暗がりを運ぶ情報系鳥類"
+resistances = {"fire": 0, "water": 0, "wind": 1, "earth": 0, "thunder": -1, "light": 0, "dark": 1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 1, "seal": 0, "fear": 0, "instant_death": -1}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-006"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-017"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-019"}, {"learn_type": "level", "learn_value": 8, "skill_id": "SKL-010"}, {"learn_type": "level", "learn_value": 14, "skill_id": "SKL-032"}]

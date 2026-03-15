@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-011"
+slug = "kioku_no_hizume"
+name_jp = "きおくのひづめ"
+name_en = "Memory Hoof"
+category = "physical"
+element = "light"
+mp_cost = 5
+target_scope = "single"
+formula_key = "P5"
+base_power = 135
+base_rate = 0
+tags = ["single", "physical", "divine", "tower_reactive"]
+battle_role = "PAYOFF"
+effect_text = "瀕死付近で鋭くなる重打"

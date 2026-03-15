@@ -1,0 +1,53 @@
+{
+  "checked_at_utc": "2026-03-15T12:20:42.375609+00:00",
+  "status": "blocked",
+  "project_root": "/Users/yuki/projects/retro",
+  "project_file_present": true,
+  "tooling": {
+    "godot": {
+      "found": true,
+      "path": "/opt/homebrew/bin/godot",
+      "version_exit_code": 0,
+      "version_output": "4.6.1.stable.official.14d19694e"
+    },
+    "xcodebuild": {
+      "found": true,
+      "path": "/usr/bin/xcodebuild",
+      "version_exit_code": 0,
+      "version_output": "Xcode 26.3\nBuild version 17C529"
+    },
+    "security": {
+      "found": true
+    }
+  },
+  "export_templates": {
+    "directories": [],
+    "entries": [],
+    "available": false
+  },
+  "export_presets": {
+    "exists": false,
+    "ios_preset_present": false,
+    "path": "/Users/yuki/projects/retro/export_presets.cfg"
+  },
+  "codesigning": {
+    "tool_found": true,
+    "command_exit_code": 0,
+    "identity_count": 0,
+    "raw_output": "0 valid identities found"
+  },
+  "blockers": [
+    "Godot export templates が未導入",
+    "`export_presets.cfg` が未作成",
+    "codesigning identity が未設定"
+  ],
+  "warnings": [
+    "ローカル検証は Godot 4.6.1 editor 上で実施"
+  ],
+  "next_steps": [
+    "Godot export templates をインストールする",
+    "`export_presets.cfg` に iOS preset を追加する",
+    "Apple Developer Program の署名証明書 / Provisioning Profile を用意する",
+    "iCloud は local save loop が安定した後に別スパイクで評価する"
+  ]
+}

@@ -81,6 +81,7 @@
 
 | family | 相性が良い主モチーフ | 注意点 |
 |--------|----------------------|--------|
+| `slime` | `weather`, `abstract`, `corporeal` | 定番の雫シルエットに戻ると既視感が強すぎる |
 | `beast` | `animal`, `pastoral`, `corporeal` | ただの獣に戻りやすい |
 | `bird` | `animal`, `weather`, `bureaucratic` | generic コウモリ悪魔化を避ける |
 | `plant` | `plant`, `funerary`, `weather` | 花一本の記号化を避ける |
@@ -107,31 +108,38 @@
 
 ## 6. 変形法則
 
-### 6.1 動物由来
+### 6.1 スライム由来
+
+- 本作の `slime` はマスコット的な雫ではなく、`乳膜`, `塩ゼリー`, `煤泥`, `墓水の膜`, `帳面インクのにじみ` など `残留物が生き物化したもの` として設計する
+- 左右対称の滴型より、`垂れ`, `偏り`, `染み`, `薄膜` を優先する
+- `gate-touched` や `record-bent` と相性が良く、門の湿り気、札の糊、焼け跡の粘りを body language にできる
+- 既存JRPG直系の「丸い青スライム」は禁止。色も `乳白`, `鈍灰`, `藍墨`, `塩緑` を主に使う
+
+### 6.2 動物由来
 
 - 家畜なら `首 / 耳 / 足首 / 角` に管理の痕を入れる
 - 野生動物なら `環境適応` と `人間社会の痕跡` を同時に持たせる
 - 群れで認識される動物は、`数えるための印` を入れる
 
-### 6.2 植物由来
+### 6.3 植物由来
 
 - 食用、薬用、供物用の区別を持たせる
 - 根、葉、種、花のどこに人格があるかを先に決める
 - 湿気、腐葉、灰、供養具のどれかと接続する
 
-### 6.3 道具由来
+### 6.4 道具由来
 
 - 道具単体ではなく `使われた履歴` を持たせる
 - 壊れ、修繕、名前書き、煤、血でなく `生活の摩耗` を優先する
 - 顔を置くより先に `どう動くか` を決める
 
-### 6.4 神話由来
+### 6.5 神話由来
 
 - 固有名詞を借りない
 - 神話の `役割`, `姿勢`, `禁忌構図`, `祭祀関係` を抽出して再構成する
 - 生活圏へ縮退させる。大英雄ではなく村の棚や祠に落とす
 
-### 6.5 抽象由来
+### 6.6 抽象由来
 
 - 何を可視化した存在かを一文で言えるようにする
 - 抽象だけでは弱いので、必ず `身体` か `道具` を与える
@@ -145,14 +153,15 @@
 
 | family | 目標体数 |
 |--------|---------:|
-| `beast` | 72 |
-| `bird` | 44 |
-| `plant` | 46 |
-| `material` | 58 |
-| `magic` | 52 |
-| `undead` | 40 |
-| `dragon` | 42 |
-| `divine` | 46 |
+| `slime` | 35 |
+| `beast` | 55 |
+| `bird` | 40 |
+| `plant` | 40 |
+| `magic` | 45 |
+| `material` | 40 |
+| `undead` | 45 |
+| `dragon` | 50 |
+| `divine` | 50 |
 
 ### 7.2 world participation ルール
 
@@ -171,6 +180,23 @@
 | A | 42 |
 | S | 26 |
 
+### 7.4 ontology class ルール
+
+family とは別に、各個体は `ontology_class` を持つ。これにより「どういう存在なのか」を世界観側で追跡できる。
+
+| `ontology_class` | 内容 | 主に出る場所 |
+|------------------|------|--------------|
+| `wildborn` | 世界分岐後に安定化した在来個体 | 生活圏、通常フィールド |
+| `gate_touched` | 門や継ぎ目の影響を受け、形質や挙動がずれた個体 | 塔周辺、境界地帯、Hungry worlds |
+| `bred_line` | 人間の配合・選抜・飼養で固定された系統 | 牧場、闘技会、市場、名家の囲い |
+| `record_bent` | 名札、印章、帳簿、家印などの記録物に反応する個体 | social / material worlds |
+| `remnant_bearing` | 失踪者や場所の残響を薄く宿す個体 | fracture / terminal worlds, 深層イベント |
+
+- 1世界につき最低2 class を混在させる
+- `remnant_bearing` は roster 全体の `10%` を超えない
+- `slime`, `magic`, `undead` は `record_bent` や `remnant_bearing` を持ちやすい
+- `beast`, `plant`, `bird` は `wildborn` を基礎にし、必要な世界だけ `gate_touched` を被せる
+
 ---
 
 ## 8. モンスター1体の必須設計項目
@@ -184,9 +210,12 @@
 - `motif_group`
 - `motif_source`
 - `secondary_motif_group`
+- `ontology_class`
 - `world_context`
 - `taboo_link`
 - `lore_hook`
+- `resonance_grade`
+- `human_pressure_tags`
 
 ### 8.2 運用側
 
@@ -211,13 +240,63 @@
 
 ## 9. Prompt Architecture
 
+### 9.0 Prompt Design Rules
+
+以下のルールはすべてのモンスタープロンプトに適用される。
+
+#### Output specification rules
+
+- Always specify exact pixel size for the target sprite (e.g., "32x32 pixels")
+- Always specify "transparent background"
+- Always specify "1px black outline" or "1px darkest-color outline"
+- Always specify "top-left lighting"
+- Always specify "no anti-aliasing, no dithering, no gradient, no smooth shading"
+- Always specify "readable at 1x scale" (the sprite must be identifiable at native resolution)
+
+#### Composition rules
+
+- The creature should fill 70-85% of the canvas area
+- Major visual read should come from 3 shape masses maximum
+- Interior detail should use flat color fills, not texture noise
+- The silhouette alone must identify the family type
+
+#### Color specification rules
+
+- E-D rank: specify "4-6 color limited palette"
+- C-B rank: specify "5-8 color limited palette"
+- A-S rank: specify "6-10 color limited palette"
+- Always name 2-3 dominant color tones (e.g., "muted brown and bone", "cold grey-blue and pale gold")
+- Reserve one "accent color" for the element/attribute marker
+
+#### Motif integration rules
+
+- Primary motif comes first in the description
+- Secondary motif (pastoral/funerary/bureaucratic/gatebound etc.) is woven as a visual detail, not stated abstractly
+- The motif should be described as a physical feature, not a concept (e.g., "burnt ear tag" not "livestock ownership concept")
+- World context appears as material texture or wear pattern, not as narrative text
+
+#### What NOT to include in prompts
+
+- Character names
+- Story spoilers or plot points
+- Abstract game mechanics ("this monster has high DEF")
+- References to existing IPs by name
+- Multiple creatures in one prompt
+- Complex poses or action scenes (keep idle/standing pose)
+
+#### Tool-specific suffix rules
+
+- For niji 7: append `--ar 1:1 --niji 7`
+- For Nano Banana: describe the grid layout if requesting sprite sheet
+- For GPT Image: no special suffix needed, but add "pixel art style" emphasis
+
 ### 9.1 構造
 
 各モンスターのプロンプトは、以下の6ブロックで構成する。
 
 1. `Invariant`
 2. `Body`
-3. `Lore`
+3. `Lore Context`
 4. `Pixel Constraints`
 5. `Negative`
 6. `Edit Notes`
@@ -225,32 +304,32 @@
 ### 9.2 `Invariant`
 
 ```text
-pixel art, transparent background, no anti-aliasing, 1px outline, top-left light,
-gbc-inspired limited palette, readable at 1x, strong silhouette, no text, no logo,
-no trademark, no existing IP resemblance
+pixel art, {battle_sprite_px}x{battle_sprite_px} battle sprite, transparent background,
+1px black outline, top-left lighting, no anti-aliasing, no dithering, no gradient,
+no smooth shading, gbc-inspired limited palette, readable at 1x, no text, no logo
 ```
 
 ### 9.3 `Body`
 
 ```text
-family: {family}, rank: {rank}, silhouette: {silhouette_type},
-motif: {motif_source}, secondary motif: {secondary_motif_group},
-battle sprite size: {battle_sprite_px}px, field sprite size: {field_sprite_px}px
+{specific creature description with primary motif first, physical details,
+silhouette type, and idle/standing pose},
+{rank-appropriate color count} color palette, dominant tones: {2-3 named color tones},
+accent color: {element/attribute accent color}
 ```
 
-### 9.4 `Lore`
+### 9.4 `Lore Context`
 
 ```text
-This creature belongs to a dark pastoral fantasy world where names, lineage, ownership,
-gate rituals, and village taboo leave visible marks on living beings.
-It should suggest: {world_context}. It must imply: {taboo_link}.
+{1-2 short visual cues described as physical textures, marks, or wear patterns
+that connect the creature to the world — not narrative or backstory}
 ```
 
 ### 9.5 `Pixel Constraints`
 
 ```text
-use 4-8 colors only, avoid texture noise, keep major read in three shape masses,
-do not over-detail interior pixels, no smooth shading, no modern glossy rendering
+{color count} color palette, fill 70-85% canvas, 3 shape masses maximum,
+flat interior fills, strong silhouette read, no texture noise, no smooth shading
 ```
 
 ### 9.6 `Negative`
@@ -267,6 +346,37 @@ do not create busy background, no weapons unless the motif requires it
 change only: {delta_request}. keep silhouette, palette logic, outline thickness,
 lighting, and motif hierarchy unchanged.
 ```
+
+Example: `change only: darken the horn tips to charcoal black. keep silhouette, palette logic, outline thickness, lighting, and motif hierarchy unchanged.`
+
+### 9.8 Prompt Phrase Bank
+
+実際のプロンプトで使える具体的な描写フレーズ集。
+
+#### Village / pastoral marks
+
+- "burnt ear tag", "faded brand mark on hide", "frayed rope collar", "tally notch on horn"
+- "dried mud on hooves", "straw stuck in fur", "barn-dust patina"
+
+#### Record / name / seal marks
+
+- "scratched name plate hanging from neck", "ink-stained claws", "wax seal impression on shell"
+- "faded registry stamp on flank", "carved tally marks on bone"
+
+#### Funeral / mourning marks
+
+- "wilted flower crown", "ash-dusted surface", "hollow eye sockets with dim glow"
+- "wrapped in thin burial cloth strips", "incense-smoke colored wisps"
+
+#### Gate / tower / boundary marks
+
+- "stone-carved pattern on shoulder", "one eye reflecting distant light", "geometric cracks along spine"
+- "moss pattern matching tower masonry", "cold metallic sheen on horns"
+
+#### Texture descriptors for pixel art
+
+- "rough wool texture in flat pixel clusters", "smooth chitin in 2-tone shading"
+- "translucent membrane with single highlight pixel", "cracked stone surface in 3 values"
 
 ---
 

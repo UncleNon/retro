@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/item_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+item_id = "item_record_rubbingset"
+slug = "rubbingset"
+name_jp = "拓本具"
+name_en = "Rubbing Kit"
+item_kind = "consumable"
+subtype = "record"
+price = 85
+sell_price = 42
+target_scope = "party"
+effect_key = "clue_log"
+effect_value = "1"
+tags = ["record", "clue"]
+description = "碑文や札を記録する"

@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-030"
+slug = "hikari_no_manazashi"
+name_jp = "ひかりのまなざし"
+name_en = "Light Gaze"
+category = "utility"
+element = "light"
+mp_cost = 4
+target_scope = "single"
+formula_key = "U1"
+base_power = 0
+base_rate = 100
+tags = ["mark", "divine", "tower_reactive"]
+battle_role = "SCOUT_SUPPORT"
+effect_text = "長めの marked を付ける"

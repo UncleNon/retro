@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-028"
+slug = "miyaburu"
+name_jp = "みやぶる"
+name_en = "Appraise"
+category = "utility"
+element = "light"
+mp_cost = 2
+target_scope = "single"
+formula_key = "U1"
+base_power = 0
+base_rate = 100
+tags = ["mark", "setup", "starter"]
+battle_role = "SCOUT_SUPPORT"
+effect_text = "marked を付ける"

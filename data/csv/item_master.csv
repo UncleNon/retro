@@ -1,0 +1,15 @@
+item_id,slug,name_jp,name_en,item_kind,subtype,price,sell_price,target_scope,effect_key,effect_value,tags,description
+item_heal_dryherb,dryherb,ひからび草,Dry Herb,consumable,heal_hp,20,10,ally_single,heal_hp,20,heal|village,干した薬草でHPを少し回復
+item_heal_softmoss,softmoss,やわ苔包み,Soft Moss Bundle,consumable,heal_hp,36,18,ally_single,heal_hp,35,heal|marsh,湿った苔でHPを回復
+item_heal_bundleleaf,bundleleaf,束薬葉,Bundled Leaf,consumable,heal_hp,55,27,ally_single,heal_hp,55,heal|field,標準的な回復薬葉
+item_mp_clearwater,clearwater,透き水,Clear Water,consumable,heal_mp,45,22,ally_single,heal_mp,12,mp|village,澄んだ水でMPを少し回復
+item_mp_bitterdew,bitterdew,苦露瓶,Bitter Dew,consumable,heal_mp,72,36,ally_single,heal_mp,20,mp|field,苦い露でMPを回復
+item_cure_saltleaf,saltleaf,塩葉,Salt Leaf,consumable,cure,35,17,ally_single,cure_status,poison,cure|village,毒を鎮める塩葉
+item_cure_focussalt,focussalt,澄塩,Focus Salt,consumable,cure,60,30,ally_single,cure_status,seal|hushed,cure|ritual,封印や沈黙をほどく塩
+item_bait_drycrumb,drycrumb,乾き餌,Dry Crumb,consumable,bait,55,27,enemy_single,recruit_bonus,8,bait|starter,乾いた餌で少し気を引く
+item_bait_smokedfat,smokedfat,燻脂餌,Smoked Fat Bait,consumable,bait,120,60,enemy_single,recruit_bonus,16,bait|field,燻した脂で勧誘補助
+item_bait_bellgrain,bellgrain,鈴穀餌,Bellgrain Bait,consumable,bait,160,80,enemy_single,recruit_bonus,22,bait|beast|bird,獣と鳥が好む鈴穀
+item_field_bonerope,bonerope,骨縄,Bone Rope,consumable,field,80,40,party,escape_dungeon,1,field|escape,危険地帯から脱出する
+item_field_chalktag,chalktag,印粉札,Chalk Tag,consumable,field,60,30,party,reveal_path,1,field|record,道標をしばらく見やすくする
+item_record_rubbingset,rubbingset,拓本具,Rubbing Kit,consumable,record,85,42,party,clue_log,1,record|clue,碑文や札を記録する
+item_catalyst_ashseed,ashseed,灰種,Ash Seed,consumable,catalyst,150,75,breed,mutation_bonus,2,catalyst|breed,配合時の mutation を少し押し上げる

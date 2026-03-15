@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-029"
+slug = "nusumimiru"
+name_jp = "ぬすみみる"
+name_en = "Peek Sneak"
+category = "utility"
+element = "dark"
+mp_cost = 3
+target_scope = "single"
+formula_key = "U1"
+base_power = 0
+base_rate = 100
+tags = ["mark", "recruit", "material"]
+battle_role = "SCOUT_SUPPORT"
+effect_text = "勧誘率を押し上げる"

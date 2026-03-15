@@ -1,0 +1,23 @@
+repos:
+  - repo: local
+    hooks:
+      - id: retro-python-tests
+        name: retro-python-tests
+        entry: python3 tools/qa/test.py
+        language: system
+        pass_filenames: false
+      - id: retro-gdscript-lint
+        name: retro-gdscript-lint
+        entry: python3 tools/qa/lint.py
+        language: system
+        pass_filenames: false
+      - id: retro-gdscript-format-check
+        name: retro-gdscript-format-check
+        entry: python3 tools/qa/format.py --check
+        language: system
+        pass_filenames: false
+      - id: retro-data-build-check
+        name: retro-data-build-check
+        entry: python3 tools/data/build_resources.py --check
+        language: system
+        pass_filenames: false

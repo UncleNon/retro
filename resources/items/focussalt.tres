@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/item_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+item_id = "item_cure_focussalt"
+slug = "focussalt"
+name_jp = "澄塩"
+name_en = "Focus Salt"
+item_kind = "consumable"
+subtype = "cure"
+price = 60
+sell_price = 30
+target_scope = "ally_single"
+effect_key = "cure_status"
+effect_value = "seal|hushed"
+tags = ["cure", "ritual"]
+description = "封印や沈黙をほどく塩"

@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-008"
+slug = "tobinoku"
+name_jp = "とびのく"
+name_en = "Hop Back"
+category = "physical"
+element = "wind"
+mp_cost = 3
+target_scope = "self_to_single"
+formula_key = "P4"
+base_power = 75
+base_rate = 0
+tags = ["single", "physical", "escape", "bird"]
+battle_role = "RUSH_OPEN"
+effect_text = "攻撃後に回避を上げる"

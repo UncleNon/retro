@@ -1,0 +1,52 @@
+// Monster Chronicle Master Palette (32 colors)
+// GBC互換パレット — Phase 0で確定する。以下はプレースホルダー。
+// Lospec.com から GBC互換パレットを選定後、このファイルを差し替えること。
+// Format: #RRGGBB (1 line per color)
+
+// === BG Palette 0: Town (4 colors) ===
+#0F380F
+#306230
+#8BAC0F
+#9BBC0F
+
+// === BG Palette 1: Forest (4 colors) ===
+#1B2632
+#2B4F3B
+#5A8C5A
+#A8D8A8
+
+// === BG Palette 2: Cave (4 colors) ===
+#1B1B2F
+#3B3B5C
+#7B7BA8
+#C8C8E8
+
+// === BG Palette 3: Volcano (4 colors) ===
+#2B0F0F
+#5C1A1A
+#B83B3B
+#E88B5C
+
+// === BG Palette 4: Ice (4 colors) ===
+#0F1B2B
+#1A3B5C
+#5C8BAC
+#A8D8E8
+
+// === BG Palette 5: UI (4 colors) ===
+#0F0F0F
+#3B3B3B
+#8B8B8B
+#F8F8F8
+
+// === BG Palette 6: Desert (4 colors) ===
+#3B2B0F
+#8B6B2B
+#D8B85C
+#F8E8A8
+
+// === BG Palette 7: Dark/Abyss (4 colors) ===
+#0F0F1B
+#1B1B3B
+#3B3B6B
+#5C5CA8

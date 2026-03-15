@@ -1,0 +1,33 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-009"
+slug = "shirushikui"
+name_jp = "シルシクイ"
+name_en = "Shirushikui"
+family = "magic"
+rank = "D"
+size_class = "S"
+motif_group = "astral"
+motif_source = "印章 + 守宮 + ひび割れ"
+silhouette_type = "serpentine"
+palette_id = "pal_seal_crack"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 72
+growth_curve_id = "LATE"
+base_stats = {"hp": 19, "mp": 18, "atk": 10, "def": 10, "spd": 14, "int": 17, "res": 16}
+cap_stats = {"hp": 148, "mp": 142, "atk": 96, "def": 98, "spd": 132, "int": 150, "res": 144}
+base_recruit = 18
+scoutable = true
+personality_bias = "calculating"
+trait_1 = "封印爪"
+trait_2 = "印食い"
+loot_table_id = "LUT-009"
+prompt_id = "PRM-MON-009"
+notes = "封印と印回収の魔性枠"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 1, "dark": 1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 1, "fear": 0, "instant_death": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-003"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-018"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-031"}, {"learn_type": "level", "learn_value": 9, "skill_id": "SKL-028"}, {"learn_type": "level", "learn_value": 15, "skill_id": "SKL-036"}]

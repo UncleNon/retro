@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/item_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+item_id = "item_bait_drycrumb"
+slug = "drycrumb"
+name_jp = "乾き餌"
+name_en = "Dry Crumb"
+item_kind = "consumable"
+subtype = "bait"
+price = 55
+sell_price = 27
+target_scope = "enemy_single"
+effect_key = "recruit_bonus"
+effect_value = "8"
+tags = ["bait", "starter"]
+description = "乾いた餌で少し気を引く"

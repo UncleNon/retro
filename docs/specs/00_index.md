@@ -44,6 +44,16 @@
 | [systems/05_id_naming_validation_and_registry_rules.md](./systems/05_id_naming_validation_and_registry_rules.md) | ID、slug、registry、命名と validation のルール |
 | [systems/06_randomness_policy_and_probability_budgets.md](./systems/06_randomness_policy_and_probability_budgets.md) | 確率を許す場所、禁止する場所、確率帯、救済、streak 制御 |
 | [systems/07_progress_flags_and_save_state_model.md](./systems/07_progress_flags_and_save_state_model.md) | 進行フラグ、門状態、NPC phase、セーブ構造 |
+| [systems/08_enemy_ai_and_encounter_design.md](./systems/08_enemy_ai_and_encounter_design.md) | 敵AI 8類型、決定木、ボスフェーズ、先制/不意打ち、敵スケーリング |
+| [systems/09_status_ailments_and_field_effects.md](./systems/09_status_ailments_and_field_effects.md) | 12状態異常、持続、耐性式、フィールド効果、地形ハザード |
+| [systems/10_skill_taxonomy_and_full_initial_catalog.md](./systems/10_skill_taxonomy_and_full_initial_catalog.md) | スキル体系、MP計算式、進化ライン、60-80スキルカタログ、trait |
+| [systems/11_protagonist_party_and_ranch_rules.md](./systems/11_protagonist_party_and_ranch_rules.md) | 主人公初期状態、パーティ3枠、牧場38体、忠誠度、性格9種 |
+| [systems/12_ui_screen_catalog_and_input_rules.md](./systems/12_ui_screen_catalog_and_input_rules.md) | 全画面レイアウト、入力体系、仮想パッド、テキスト速度、設定 |
+| [systems/13_boss_gatekeeper_and_field_modifier_rules.md](./systems/13_boss_gatekeeper_and_field_modifier_rules.md) | ボス分類、phase、telegraph、場効果、門守戦の規格 |
+| [systems/14_item_shop_loot_and_service_contract.md](./systems/14_item_shop_loot_and_service_contract.md) | item / shop / loot / service / reward の canonical 契約 |
+| [systems/15_save_migration_and_compatibility_policy.md](./systems/15_save_migration_and_compatibility_policy.md) | schema version、migration、backup、rollback、互換運用 |
+| [systems/16_monster_canonical_package_and_pipeline.md](./systems/16_monster_canonical_package_and_pipeline.md) | モンスター1体を concept / art / data / asset で束ねる canonical package |
+| [systems/17_encounter_authoring_and_balance_sandbox.md](./systems/17_encounter_authoring_and_balance_sandbox.md) | zone / pack / rarity / scouting pressure / route pair を扱う遭遇設計 sandbox |
 
 ---
 
@@ -56,6 +66,11 @@
 | [story/03_foreshadow_allocation_map.md](./story/03_foreshadow_allocation_map.md) | 50+伏線を媒体、世界、幕、回収時期へ割り当てる台帳 |
 | [story/04_main_story_beats_and_world_sequence.md](./story/04_main_story_beats_and_world_sequence.md) | 20+世界を跨ぐ本編の進行骨格 |
 | [story/05_real_incident_inspiration_policy.md](./story/05_real_incident_inspiration_policy.md) | 実在の神隠し譚、未解決事件、共同体伝承の抽象化ルール |
+| [story/06_millennial_geopolitics_and_personages.md](./story/06_millennial_geopolitics_and_personages.md) | 大分裂以後1000年の政治史、国家形成、事件、傑物、現行勢力図 |
+| [story/07_starting_village_incident_and_silence_matrix.md](./story/07_starting_village_incident_and_silence_matrix.md) | 開始村9件失踪の内訳、沈黙回路、主人公年齢との接続 |
+| [story/08_historical_texture_research_ingestion.md](./story/08_historical_texture_research_ingestion.md) | 実在史料の構造を設定へ抽象化して入れるための research-to-lore 変換規則 |
+| [story/09_silence_economy_and_powerbrokers.md](./story/09_silence_economy_and_powerbrokers.md) | 勢力ごとの沈黙、口止め、金、物流、改竄実務の運用具体 |
+| [story/10_starting_arc_engagement_playbook.md](./story/10_starting_arc_engagement_playbook.md) | 開始村〜`W-005` を飽きさせず引っ張るための問い設計、帰村ショック、人物泥設計 |
 
 ---
 
@@ -69,6 +84,8 @@
 | [content/04_initial_items_and_shops.md](./content/04_initial_items_and_shops.md) | 初期アイテム群、価格、店棚、レアリティ、用途 |
 | [content/05_text_tone_and_lore_delivery_rules.md](./content/05_text_tone_and_lore_delivery_rules.md) | テキストの文体、無言主人公、媒体ごとの情報量、AIレビュー方針 |
 | [content/06_monster_taxonomy_and_motif_rules.md](./content/06_monster_taxonomy_and_motif_rules.md) | 400体のモチーフ配分、変形法則、prompt metadata |
+| [content/07_starting_village_full_npc_catalog.md](./content/07_starting_village_full_npc_catalog.md) | 開始村20人NPC完全カタログ（座標、巡回、会話フェーズ、伏線担務） |
+| [content/08_starting_region_ecology_and_monster_web.md](./content/08_starting_region_ecology_and_monster_web.md) | 開始村〜`W-005` の生態系、食物連鎖、違法利用、地形修正案、怪物 draft |
 
 ---
 
@@ -82,6 +99,13 @@
 | [worlds/04_dungeon_template_catalog.md](./worlds/04_dungeon_template_catalog.md) | ダンジョン archetype、gimmick、長さ、禁止事項 |
 | [worlds/05_world_catalog_and_budget.md](./worlds/05_world_catalog_and_budget.md) | 初回リリース20+世界の配分、役割、予算、解放順 |
 | [worlds/06_settlement_layout_and_route_rules.md](./worlds/06_settlement_layout_and_route_rules.md) | 村、町、都市、聖域、市場、街道の数値規格と量産ルール |
+| [worlds/07_world_sheet_contract.md](./worlds/07_world_sheet_contract.md) | 1世界を concrete detail へ落とすための canonical world sheet schema |
+| [worlds/08_world_sheet_template_and_variation_rules.md](./worlds/08_world_sheet_template_and_variation_rules.md) | 21世界を同じ密度で量産するための template と variation 軸 |
+| [worlds/09_act_i_world_sheets.md](./worlds/09_act_i_world_sheets.md) | Act I 4世界の concrete world sheet 集 |
+| [worlds/10_act_ii_world_sheets.md](./worlds/10_act_ii_world_sheets.md) | Act II 5世界の concrete world sheet 集 |
+| [worlds/11_act_iii_world_sheets.md](./worlds/11_act_iii_world_sheets.md) | Act III 5世界の concrete world sheet 集 |
+| [worlds/12_act_iv_world_sheets.md](./worlds/12_act_iv_world_sheets.md) | Act IV 5世界の concrete world sheet 集 |
+| [worlds/13_act_v_world_sheets.md](./worlds/13_act_v_world_sheets.md) | Act V 2世界の concrete world sheet 集、本編決着と終止符 |
 
 ---
 
@@ -90,6 +114,14 @@
 | ファイル | 役割 |
 |---------|------|
 | [art/01_style_bible.md](./art/01_style_bible.md) | 視覚哲学、パレット、アウトライン、UI、タイル、生成禁止事項 |
+| [art/02_monster_sprite_production_manual.md](./art/02_monster_sprite_production_manual.md) | 400体量産向けの canonical monster sprite production manual |
+| [art/03_sound_design_bible.md](./art/03_sound_design_bible.md) | BGM 16カテゴリ、SE 70種辞書、アンビエント、塔/門の音響設計、AI生成方針 |
+| [art/04_ui_font_and_component_rules.md](./art/04_ui_font_and_component_rules.md) | UIの文字セル、説明帯、window、cursor、mobile touch の簡潔規格 |
+| [art/05_ui_sprite_production_manual.md](./art/05_ui_sprite_production_manual.md) | UI/HUD sprite, font, window, icon, touch layout の production manual |
+| [art/06_sound_design_production_manual.md](./art/06_sound_design_production_manual.md) | BGM / SE / jingle の production manual と export 基準 |
+| [art/07_character_sprite_production_manual.md](./art/07_character_sprite_production_manual.md) | 主人公とNPCの16x16 character sprite production manual |
+| [art/08_asset_provenance_and_ai_generation_registry.md](./art/08_asset_provenance_and_ai_generation_registry.md) | prompt, seed, review, IP, edit log を追う provenance 契約 |
+| [art/09_tileset_and_map_art_production_manual.md](./art/09_tileset_and_map_art_production_manual.md) | タイルセット、建材、地面、門、マップオブジェクトの production manual |
 
 ---
 
@@ -100,10 +132,16 @@
 - `systems/01`
 - `systems/02`
 - `systems/06`
+- `systems/08`
+- `systems/09`
+- `systems/10`
+- `systems/13`
+- `systems/17`
 
 ### 配合や図鑑を触る前
 
 - `systems/03`
+- `systems/16`
 - `content/01`
 - `content/06`
 - `systems/07`
@@ -113,7 +151,18 @@
 - `worlds/01`
 - `worlds/04`
 - `worlds/06`
+- `worlds/07`
+- `worlds/08`
+- `worlds/09`
+- `worlds/10`
+- `worlds/11`
+- `worlds/12`
+- `worlds/13`
 - `content/03`
+- `content/07`
+- `content/08`
+- `systems/11`
+- `systems/17`
 
 ### ストーリーやテキストを触る前
 
@@ -122,7 +171,23 @@
 - `story/03`
 - `story/04`
 - `story/05`
+- `story/08`
+- `story/09`
+- `story/10`
 - `content/05`
+
+### アセット量産を触る前
+
+- `art/01`
+- `art/02`
+- `art/03`
+- `art/04`
+- `art/05`
+- `art/06`
+- `art/07`
+- `art/08`
+- `art/09`
+- `content/06`
 
 ---
 

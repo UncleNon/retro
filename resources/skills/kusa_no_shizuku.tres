@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-021"
+slug = "kusa_no_shizuku"
+name_jp = "くさのしずく"
+name_en = "Herb Drop"
+category = "recover"
+element = "water"
+mp_cost = 3
+target_scope = "ally_single"
+formula_key = "H1"
+base_power = 16
+base_rate = 0
+tags = ["recover", "plant", "starter", "herb"]
+battle_role = "ALLY_SUSTAIN"
+effect_text = "単体小回復"

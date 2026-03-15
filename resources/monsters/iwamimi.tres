@@ -1,0 +1,33 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-006"
+slug = "iwamimi"
+name_jp = "イワミミ"
+name_en = "Iwamimi"
+family = "beast"
+rank = "E"
+size_class = "S"
+motif_group = "animal"
+motif_source = "野うさぎ + 石耳 + 崖"
+silhouette_type = "tall"
+palette_id = "pal_hare_stone"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 64
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 21, "mp": 7, "atk": 13, "def": 9, "spd": 17, "int": 7, "res": 9}
+cap_stats = {"hp": 152, "mp": 56, "atk": 128, "def": 96, "spd": 154, "int": 72, "res": 88}
+base_recruit = 27
+scoutable = true
+personality_bias = "swift"
+trait_1 = "先手気味"
+trait_2 = "風微耐性"
+loot_table_id = "LUT-006"
+prompt_id = "PRM-MON-006"
+notes = "序盤の先制アタッカー"
+resistances = {"fire": 0, "water": 0, "wind": 1, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-003"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-008"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-009"}, {"learn_type": "level", "learn_value": 8, "skill_id": "SKL-007"}, {"learn_type": "level", "learn_value": 13, "skill_id": "SKL-033"}]

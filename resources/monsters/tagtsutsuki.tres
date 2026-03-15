@@ -1,0 +1,33 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-002"
+slug = "tagtsutsuki"
+name_jp = "タグツツキ"
+name_en = "Tagtsutsuki"
+family = "bird"
+rank = "E"
+size_class = "S"
+motif_group = "animal"
+motif_source = "啄木鳥 + 名札 + 木杭"
+silhouette_type = "tall"
+palette_id = "pal_tag_bird"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 63
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 20, "mp": 10, "atk": 11, "def": 8, "spd": 15, "int": 9, "res": 9}
+cap_stats = {"hp": 150, "mp": 70, "atk": 120, "def": 92, "spd": 142, "int": 88, "res": 90}
+base_recruit = 30
+scoutable = true
+personality_bias = "restless"
+trait_1 = "ついばみ上手"
+trait_2 = "回避微増"
+loot_table_id = "LUT-002"
+prompt_id = "PRM-MON-002"
+notes = "名前や印を削る序盤鳥系"
+resistances = {"fire": 0, "water": 0, "wind": 1, "earth": 0, "thunder": -1, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 1, "seal": 0, "fear": 0, "instant_death": -1}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-002"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-007"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-028"}, {"learn_type": "level", "learn_value": 6, "skill_id": "SKL-032"}, {"learn_type": "level", "learn_value": 11, "skill_id": "SKL-034"}]

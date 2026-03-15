@@ -1,0 +1,33 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-010"
+slug = "toumorinoko"
+name_jp = "トウモリノコ"
+name_en = "Toumorinoko"
+family = "divine"
+rank = "C"
+size_class = "M"
+motif_group = "myth"
+motif_source = "子牛 + 門番像 + 星目"
+silhouette_type = "wide"
+palette_id = "pal_gate_calf"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 76
+growth_curve_id = "LATE"
+base_stats = {"hp": 30, "mp": 18, "atk": 16, "def": 16, "spd": 12, "int": 15, "res": 16}
+cap_stats = {"hp": 228, "mp": 136, "atk": 154, "def": 148, "spd": 118, "int": 132, "res": 138}
+base_recruit = 12
+scoutable = true
+personality_bias = "watchful"
+trait_1 = "門前反応"
+trait_2 = "光闇微耐性"
+loot_table_id = "LUT-010"
+prompt_id = "PRM-MON-010"
+notes = "門と共鳴する最初の上位目標"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 1, "thunder": 0, "light": 1, "dark": 1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 1, "instant_death": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-001"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-030"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-011"}, {"learn_type": "level", "learn_value": 10, "skill_id": "SKL-024"}, {"learn_type": "level", "learn_value": 16, "skill_id": "SKL-027"}]

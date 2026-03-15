@@ -1,0 +1,5 @@
+world_id,slug,name_jp,name_en,act,size_class,function_class,level_min,level_max,taboo,biome,power_structure,dominant_families,gate_condition,notes
+W-001,veilname_fields,名伏せの野,Veilname Fields,I,small,echo_world,6,14,外で真名を呼ばない,牧草地と湿地,札と柵で回る小共同体,beast|bird|plant,最初の門,最初の越境世界
+W-002,ashmilk_vale,灰乳の谷,Ashmilk Vale,I,small,echo_world,10,18,母系印が薄い者を家に入れない,石灰谷と乾草台地,母屋中心の牧畜共同体,beast|material,灰印片,乳と印で家系を測る
+W-003,hostel_of_lanterns,継灯の宿場,Hostel of Lanterns,I,medium,social_world,14,22,本名で泊まらない,街道宿場,宿場商会自治,bird|material|magic,序盤ランク解放,宿帳と灯で所属を管理する
+W-004,tagged_headland,札差しの岬,Tagged Headland,I,medium,judgment_world,18,24,所属札のない者は越境不可,断崖と関所,関所官と海商,material|divine,G→F級,通行札で人と荷を裁く

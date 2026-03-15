@@ -40,15 +40,30 @@
 | 数式 / スキーマ | [../specs/systems/01_numeric_rules_and_master_schema.md](../specs/systems/01_numeric_rules_and_master_schema.md) | レベル、成長、勧誘、遭遇、配合、CSV列定義 |
 | 乱数ポリシー | [../specs/systems/06_randomness_policy_and_probability_budgets.md](../specs/systems/06_randomness_policy_and_probability_budgets.md) | 確率を許す場所、禁止する場所、救済方針 |
 | 進行フラグ / セーブ | [../specs/systems/07_progress_flags_and_save_state_model.md](../specs/systems/07_progress_flags_and_save_state_model.md) | 章、世界、門、NPC、clue、save state の管理 |
+| 遭遇設計 sandbox | [../specs/systems/17_encounter_authoring_and_balance_sandbox.md](../specs/systems/17_encounter_authoring_and_balance_sandbox.md) | zone purpose、pack composition、scouting pressure、route pair、sandbox 検証 |
+| モンスター canonical package | [../specs/systems/16_monster_canonical_package_and_pipeline.md](../specs/systems/16_monster_canonical_package_and_pipeline.md) | monster を concept / art / data / asset で束ねる正本契約 |
 | 初期モンスター | [../specs/content/01_vertical_slice_monsters.md](../specs/content/01_vertical_slice_monsters.md) | 序盤10体の詳細、数値、プロンプト |
 | モチーフ設計 | [../specs/content/06_monster_taxonomy_and_motif_rules.md](../specs/content/06_monster_taxonomy_and_motif_rules.md) | 400体のモチーフ配分、変形法則、命名、prompt metadata |
 | 初期アイテム / 店 | [../specs/content/04_initial_items_and_shops.md](../specs/content/04_initial_items_and_shops.md) | 回復、餌、触媒、記録物、店棚の実表 |
+| モンスター sprite production | [../specs/art/02_monster_sprite_production_manual.md](../specs/art/02_monster_sprite_production_manual.md) | サイズ、透過、目、輪郭、アニメ、prompt、export の canonical manual |
+| UI font / component 規格 | [../specs/art/04_ui_font_and_component_rules.md](../specs/art/04_ui_font_and_component_rules.md) | フォント、説明帯、window、cursor、mobile touch の簡潔規格 |
+| UI/HUD sprite production | [../specs/art/05_ui_sprite_production_manual.md](../specs/art/05_ui_sprite_production_manual.md) | UI asset と HUD の exhaustive production manual |
+| asset provenance / AI registry | [../specs/art/08_asset_provenance_and_ai_generation_registry.md](../specs/art/08_asset_provenance_and_ai_generation_registry.md) | prompt, seed, review, IP, edit log を追う provenance 契約 |
+| tileset / map art production | [../specs/art/09_tileset_and_map_art_production_manual.md](../specs/art/09_tileset_and_map_art_production_manual.md) | 地面、建材、装飾、塔、門、マップ用アートの production manual |
 | ストーリー聖書 | [../specs/story/01_story_bible.md](../specs/story/01_story_bible.md) | canonical truth、世界法則、5幕構成 |
 | 伏線台帳 | [../specs/story/03_foreshadow_allocation_map.md](../specs/story/03_foreshadow_allocation_map.md) | 54件の伏線配置と回収先 |
 | 事件参照ポリシー | [../specs/story/05_real_incident_inspiration_policy.md](../specs/story/05_real_incident_inspiration_policy.md) | 神隠し、失踪、共同体伝承を抽象化して使うためのルール |
+| 歴史 texture 変換 | [../specs/story/08_historical_texture_research_ingestion.md](../specs/story/08_historical_texture_research_ingestion.md) | 実在史料を制度、物、言葉、生活癖へ変換する research 運用 |
+| 沈黙経済 / 勢力運用 | [../specs/story/09_silence_economy_and_powerbrokers.md](../specs/story/09_silence_economy_and_powerbrokers.md) | faction ごとの口止め、物流、日銭、改竄実務 |
 | 世界配分表 | [../specs/worlds/05_world_catalog_and_budget.md](../specs/worlds/05_world_catalog_and_budget.md) | 21世界の機能、禁忌、予算 |
 | 開始村レイアウト | [../specs/worlds/01_starting_village_layout.md](../specs/worlds/01_starting_village_layout.md) | 村と塔周辺の寸法、座標、導線 |
 | 拠点量産規格 | [../specs/worlds/06_settlement_layout_and_route_rules.md](../specs/worlds/06_settlement_layout_and_route_rules.md) | 村、町、都市、街道の数値規格と導線ルール |
+| world sheet 契約 | [../specs/worlds/07_world_sheet_contract.md](../specs/worlds/07_world_sheet_contract.md) | 個別世界仕様が満たすべき concrete schema と責務分担 |
+| world sheet テンプレ | [../specs/worlds/08_world_sheet_template_and_variation_rules.md](../specs/worlds/08_world_sheet_template_and_variation_rules.md) | 21世界を個別詳細へ落とすための必須項目と variation 軸 |
+| Act I / II / III / IV / V 個票 | [../specs/worlds/09_act_i_world_sheets.md](../specs/worlds/09_act_i_world_sheets.md) / [../specs/worlds/10_act_ii_world_sheets.md](../specs/worlds/10_act_ii_world_sheets.md) / [../specs/worlds/11_act_iii_world_sheets.md](../specs/worlds/11_act_iii_world_sheets.md) / [../specs/worlds/12_act_iv_world_sheets.md](../specs/worlds/12_act_iv_world_sheets.md) / [../specs/worlds/13_act_v_world_sheets.md](../specs/worlds/13_act_v_world_sheets.md) | world sheet を concrete に埋めた実例集 |
+| ボス / 門守 / 場効果 | [../specs/systems/13_boss_gatekeeper_and_field_modifier_rules.md](../specs/systems/13_boss_gatekeeper_and_field_modifier_rules.md) | phase, telegraph, field modifier, boss reward の規格 |
+| item / shop / loot 契約 | [../specs/systems/14_item_shop_loot_and_service_contract.md](../specs/systems/14_item_shop_loot_and_service_contract.md) | item, shop, loot, service, reward の canonical 契約 |
+| save migration / 互換 | [../specs/systems/15_save_migration_and_compatibility_policy.md](../specs/systems/15_save_migration_and_compatibility_policy.md) | schema_version, migration, backup, rollback の運用基準 |
 | 予算 / DoD | [../specs/02_content_budget_and_definition_of_done.md](../specs/02_content_budget_and_definition_of_done.md) | 量産時の完了条件と必要数 |
 
 ---
