@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-086"
+slug = "kaerimichi_no_shirube"
+name_jp = "かえりみちのしるべ"
+name_en = "Path Home Marker"
+category = "utility"
+element = "light"
+mp_cost = 4
+target_scope = "field"
+formula_key = "F1"
+base_power = 0
+base_rate = 100
+tags = ["field", "world", "W-001"]
+battle_role = "FIELD_LINK"
+effect_text = "かえりみちをしるす"

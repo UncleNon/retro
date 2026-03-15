@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/item_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+item_id = "item_buff_quicksap"
+slug = "quicksap"
+name_jp = "疾樹液"
+name_en = "Quick Sap"
+item_kind = "consumable"
+subtype = "buff"
+price = 80
+sell_price = 40
+target_scope = "ally_single"
+effect_key = "buff_spd"
+effect_value = "3"
+tags = ["buff", "battle"]
+description = "3ターン素早さを上げる"

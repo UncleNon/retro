@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-069"
+slug = "doro_wani"
+name_jp = "ドロワニ"
+name_en = "Doro Wani"
+family = "beast"
+rank = "C"
+size_class = "M"
+motif_group = "animal"
+secondary_motif_group = "gatebound"
+motif_source = "大鰐 + 泥甲 + 河口"
+ontology_class = "wildborn"
+silhouette_type = "wide"
+palette_id = "pal_mud_gator"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 70
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 32, "mp": 9, "atk": 17, "def": 18, "spd": 7, "int": 8, "res": 11}
+cap_stats = {"hp": 238, "mp": 72, "atk": 158, "def": 164, "spd": 74, "int": 70, "res": 100}
+base_recruit = 12
+scoutable = true
+personality_bias = "patient"
+battle_role = "tank"
+trait_1 = "泥纏い"
+trait_2 = "水耐性"
+loot_table_id = "LUT-069"
+prompt_id = "PRM-MON-069"
+notes = "河口の泥で甲羅のように固まった大鰐"
+resistances = {"fire": 0, "water": 0, "wind": 1, "earth": -1, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": 0, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": -1, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-046"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-057"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-023"}]

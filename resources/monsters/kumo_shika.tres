@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-050"
+slug = "kumo_shika"
+name_jp = "クモシカ"
+name_en = "Kumo Shika"
+family = "beast"
+rank = "D"
+size_class = "S"
+motif_group = "animal"
+secondary_motif_group = "pastoral"
+motif_source = "鹿 + 雲紋 + 霧谷"
+ontology_class = "wildborn"
+silhouette_type = "tall"
+palette_id = "pal_cloud_deer"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 70
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 24, "mp": 12, "atk": 14, "def": 12, "spd": 16, "int": 10, "res": 12}
+cap_stats = {"hp": 182, "mp": 88, "atk": 134, "def": 112, "spd": 148, "int": 86, "res": 108}
+base_recruit = 18
+scoutable = true
+personality_bias = "gentle"
+battle_role = "bait_specialist"
+trait_1 = "霧隠れ"
+trait_2 = "風耐性"
+loot_table_id = "LUT-050"
+prompt_id = "PRM-MON-050"
+notes = "霧谷で雲のような紋を浮かべる鹿"
+resistances = {"fire": -1, "water": 1, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": -1, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-008"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-083"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-087"}]

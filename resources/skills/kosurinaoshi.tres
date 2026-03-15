@@ -15,6 +15,6 @@ target_scope = "ally_single"
 formula_key = "H2"
 base_power = 10
 base_rate = 0
-tags = ["recover", "setup", "tag"]
+tags = ["recover", "setup", "tag", "evo_to:SKL-067"]
 battle_role = "ALLY_SUSTAIN"
 effect_text = "小回復と軽状態解除"

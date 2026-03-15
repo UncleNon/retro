@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-020"
+slug = "mumeibotaru"
+name_jp = "ムメイボタル"
+name_en = "Mumeibotaru"
+family = "magic"
+rank = "D"
+size_class = "S"
+motif_group = "ritual"
+secondary_motif_group = "funerary"
+motif_source = "無銘墓板 + 蛍火 + 空の供物台"
+ontology_class = "remnant_bearing"
+silhouette_type = "floating"
+palette_id = "pal_grave_glow"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 71
+growth_curve_id = "LATE"
+base_stats = {"hp": 20, "mp": 16, "atk": 9, "def": 8, "spd": 15, "int": 15, "res": 14}
+cap_stats = {"hp": 156, "mp": 130, "atk": 90, "def": 86, "spd": 146, "int": 138, "res": 130}
+base_recruit = 20
+scoutable = true
+personality_bias = "haunted"
+battle_role = "bait_specialist"
+trait_1 = "名残火"
+trait_2 = "在否ゆらし"
+loot_table_id = "LUT-020"
+prompt_id = "PRM-MON-020"
+notes = "名だけが残る墓の上にだけ灯る淡い墓苑蛍"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 1, "dark": 1, "poison": 0, "sleep": 1, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 1, "blind": 0, "charm": 1, "mark": 0, "hush": 1}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-017"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-032"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-018"}, {"learn_type": "level", "learn_value": 9, "skill_id": "SKL-021"}, {"learn_type": "level", "learn_value": 14, "skill_id": "SKL-019"}]

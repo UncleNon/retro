@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="EncounterZoneData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/encounter_zone_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+zone_id = "ZONE-W07-HALL"
+world_id = "W-007"
+name_jp = "祖棚廊"
+encounter_min_steps = 10
+encounter_max_steps = 18
+terrain_rate = 1.15
+time_band = "dusk"
+weather = "clear"
+notes = "祖棚と役名棚が並ぶ回廊"
+entries = [{"slot": 1, "monster_id": "MON-027", "weight": 20, "min_lv": 28, "max_lv": 30, "time_band": "dusk", "weather": "clear"}, {"slot": 2, "monster_id": "MON-028", "weight": 25, "min_lv": 28, "max_lv": 30, "time_band": "dusk", "weather": "clear"}, {"slot": 3, "monster_id": "MON-029", "weight": 20, "min_lv": 28, "max_lv": 30, "time_band": "dusk", "weather": "clear"}, {"slot": 4, "monster_id": "MON-020", "weight": 10, "min_lv": 28, "max_lv": 29, "time_band": "dusk", "weather": "clear"}, {"slot": 5, "monster_id": "MON-015", "weight": 10, "min_lv": 28, "max_lv": 29, "time_band": "dusk", "weather": "clear"}, {"slot": 6, "monster_id": "MON-019", "weight": 15, "min_lv": 29, "max_lv": 30, "time_band": "dusk", "weather": "clear"}]

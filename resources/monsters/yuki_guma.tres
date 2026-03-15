@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-073"
+slug = "yuki_guma"
+name_jp = "ユキグマ"
+name_en = "Yuki Guma"
+family = "beast"
+rank = "C"
+size_class = "M"
+motif_group = "animal"
+secondary_motif_group = "pastoral"
+motif_source = "熊 + 雪 + 冬名杭"
+ontology_class = "gate_touched"
+silhouette_type = "wide"
+palette_id = "pal_snow_bear"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 74
+growth_curve_id = "LATE"
+base_stats = {"hp": 36, "mp": 10, "atk": 17, "def": 17, "spd": 8, "int": 9, "res": 13}
+cap_stats = {"hp": 260, "mp": 78, "atk": 160, "def": 156, "spd": 78, "int": 76, "res": 114}
+base_recruit = 10
+scoutable = true
+personality_bias = "patient"
+battle_role = "tank"
+trait_1 = "雪纏い"
+trait_2 = "水耐性"
+loot_table_id = "LUT-073"
+prompt_id = "PRM-MON-073"
+notes = "冬名杭の近くで冬眠する白い巨熊"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": -1, "dark": 2, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 1, "fear": 0, "instant_death": 0, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-046"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-057"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-079"}]

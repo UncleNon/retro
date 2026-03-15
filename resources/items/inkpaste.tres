@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/item_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+item_id = "item_record_inkpaste"
+slug = "inkpaste"
+name_jp = "墨膏"
+name_en = "Ink Paste"
+item_kind = "consumable"
+subtype = "record"
+price = 140
+sell_price = 70
+target_scope = "party"
+effect_key = "ledger_check"
+effect_value = "1"
+tags = ["record", "clue"]
+description = "台帳や役名札の削り直し痕を浮かせる墨膏"

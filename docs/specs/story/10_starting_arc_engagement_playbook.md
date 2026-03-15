@@ -1,13 +1,14 @@
 # 10. Starting Arc Engagement Playbook
 
 > **ステータス**: Draft v1.0
-> **最終更新**: 2026-03-15
+> **最終更新**: 2026-03-16
 > **役割**: 開始村から `W-005` までを、`深い設定` と `止めどころのない推進力` の両方で成立させるための構造設計
 > **参照元**:
 > - `docs/specs/story/01_story_bible.md`
 > - `docs/specs/story/03_foreshadow_allocation_map.md`
 > - `docs/specs/story/04_main_story_beats_and_world_sequence.md`
 > - `docs/specs/story/07_starting_village_incident_and_silence_matrix.md`
+> - `docs/specs/story/14_cross_system_echo_and_discovery_lattice.md`
 > - `docs/specs/content/07_starting_village_full_npc_catalog.md`
 > - `docs/specs/content/08_starting_region_ecology_and_monster_web.md`
 
@@ -39,6 +40,16 @@
 3. 緊張は `死ぬか` だけでなく `帰ってきたとき誰かとの関係が戻らないか` で作る
 4. 驚きは新語投下でなく、既出の `札 / 鈴 / 灰 / 宿灯 / 通行証 / 墓板` の意味が変わる形で出す
 5. 村人も各世界の主要人物も、完全な善意でも完全な悪意でも動かさない
+
+### 2.2 発見のいい塩梅 contract
+
+| rule | 実装上の意味 |
+|------|--------------|
+| `first hit looks local` | 最初の違和感はその土地固有の小物や生態に見せる |
+| `second hit changes category` | 2 回目は monster なら物へ、物なら会話へ、会話なら map prop へ移す |
+| `third hit is optional` | 3 回目は secret, breed, codex 2 行目など任意層へ置く |
+| `no instant confirmation` | 同じ世界の同じ会話塊で relation を確定させない |
+| `system before genealogy` | `血縁でした` より `同じ圧力で似た傷を負っている` を先に出す |
 
 ---
 

@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-051"
+slug = "suji_hyou"
+name_jp = "スジヒョウ"
+name_en = "Suji Hyou"
+family = "beast"
+rank = "D"
+size_class = "S"
+motif_group = "animal"
+secondary_motif_group = "gatebound"
+motif_source = "山猫 + 筋模様 + 崖道"
+ontology_class = "wildborn"
+silhouette_type = "tall"
+palette_id = "pal_stripe_lynx"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 67
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 22, "mp": 9, "atk": 18, "def": 9, "spd": 18, "int": 8, "res": 8}
+cap_stats = {"hp": 168, "mp": 70, "atk": 166, "def": 88, "spd": 162, "int": 74, "res": 78}
+base_recruit = 16
+scoutable = true
+personality_bias = "sharp"
+battle_role = "striker"
+trait_1 = "夜目"
+trait_2 = "闇微耐性"
+loot_table_id = "LUT-051"
+prompt_id = "PRM-MON-051"
+notes = "崖道を音もなく走る筋模様の山猫"
+resistances = {"fire": 0, "water": 0, "wind": 1, "earth": 0, "thunder": -1, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": -1, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-003"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-081"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-033"}]

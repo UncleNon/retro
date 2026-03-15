@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/item_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+item_id = "item_field_silentcloth"
+slug = "silentcloth"
+name_jp = "無音布"
+name_en = "Silent Cloth"
+item_kind = "consumable"
+subtype = "field"
+price = 130
+sell_price = 65
+target_scope = "party"
+effect_key = "reduce_reaction"
+effect_value = "1"
+tags = ["field", "explore"]
+description = "鐘や呼び返しの反応を軽減する"

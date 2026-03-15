@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/item_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+item_id = "item_catalyst_bloodchalk"
+slug = "bloodchalk"
+name_jp = "血白墨"
+name_en = "Blood Chalk"
+item_kind = "consumable"
+subtype = "catalyst"
+price = 260
+sell_price = 130
+target_scope = "breed"
+effect_key = "family_bonus"
+effect_value = "1"
+tags = ["catalyst", "breed", "material", "undead"]
+description = "物質や不死の条件補助"

@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/item_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+item_id = "item_catalyst_namewax"
+slug = "namewax"
+name_jp = "名蝋"
+name_en = "Name Wax"
+item_kind = "consumable"
+subtype = "catalyst"
+price = 220
+sell_price = 110
+target_scope = "breed"
+effect_key = "inherit_protect"
+effect_value = "1"
+tags = ["catalyst", "breed"]
+description = "継承候補を1件保護する"

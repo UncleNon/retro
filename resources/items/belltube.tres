@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/item_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+item_id = "item_record_belltube"
+slug = "belltube"
+name_jp = "鈴筒"
+name_en = "Bell Tube"
+item_kind = "consumable"
+subtype = "record"
+price = 160
+sell_price = 80
+target_scope = "party"
+effect_key = "bell_clue"
+effect_value = "1"
+tags = ["record", "clue"]
+description = "借り鈴と宿灯の音孔差まで拾う鈴筒"

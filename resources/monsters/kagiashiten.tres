@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-015"
+slug = "kagiashiten"
+name_jp = "カギアシテン"
+name_en = "Kagiashiten"
+family = "material"
+rank = "D"
+size_class = "M"
+motif_group = "tool"
+secondary_motif_group = "household"
+motif_source = "鍵紐 + 屋根裏獣 + 紙片"
+ontology_class = "wildborn"
+silhouette_type = "round"
+palette_id = "pal_key_loft"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 70
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 26, "mp": 9, "atk": 13, "def": 13, "spd": 12, "int": 10, "res": 10}
+cap_stats = {"hp": 190, "mp": 74, "atk": 128, "def": 126, "spd": 114, "int": 92, "res": 96}
+base_recruit = 20
+scoutable = true
+personality_bias = "skittish"
+battle_role = "bait_specialist"
+trait_1 = "ひもあつめ"
+trait_2 = "閂ずらし"
+loot_table_id = "LUT-015"
+prompt_id = "PRM-MON-015"
+notes = "鍵紐と紙片で巣を作る宿場屋根裏の盗み足"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 1, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 1, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 1, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-004"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-029"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-033"}, {"learn_type": "level", "learn_value": 8, "skill_id": "SKL-012"}, {"learn_type": "level", "learn_value": 14, "skill_id": "SKL-028"}]

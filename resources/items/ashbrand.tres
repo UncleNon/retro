@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/item_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+item_id = "item_key_ashbrand"
+slug = "ashbrand"
+name_jp = "灰印片"
+name_en = "Ash Brand Shard"
+item_kind = "key"
+subtype = "key_item"
+price = 0
+sell_price = 0
+target_scope = "none"
+effect_key = "story_flag"
+effect_value = "W-002"
+tags = ["key", "story"]
+description = "W-002の進行に必要な灰印"

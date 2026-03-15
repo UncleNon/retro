@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="EncounterZoneData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/encounter_zone_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+zone_id = "ZONE-W03-BACK"
+world_id = "W-003"
+name_jp = "裏荷庭"
+encounter_min_steps = 11
+encounter_max_steps = 18
+terrain_rate = 1.1
+time_band = "night"
+weather = "clear"
+notes = "荷抜きと密泊の裏庭動線"
+entries = [{"slot": 1, "monster_id": "MON-015", "weight": 25, "min_lv": 16, "max_lv": 18, "time_band": "night", "weather": "clear"}, {"slot": 2, "monster_id": "MON-016", "weight": 25, "min_lv": 16, "max_lv": 18, "time_band": "night", "weather": "clear"}, {"slot": 3, "monster_id": "MON-004", "weight": 15, "min_lv": 16, "max_lv": 17, "time_band": "night", "weather": "clear"}, {"slot": 4, "monster_id": "MON-008", "weight": 15, "min_lv": 16, "max_lv": 18, "time_band": "night", "weather": "clear"}, {"slot": 5, "monster_id": "MON-005", "weight": 10, "min_lv": 17, "max_lv": 18, "time_band": "night", "weather": "clear"}, {"slot": 6, "monster_id": "MON-009", "weight": 10, "min_lv": 17, "max_lv": 18, "time_band": "night", "weather": "clear"}]

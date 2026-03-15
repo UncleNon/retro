@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-019"
+slug = "ushioagito"
+name_jp = "ウシオアギト"
+name_en = "Ushioagito"
+family = "divine"
+rank = "C"
+size_class = "L"
+motif_group = "myth"
+secondary_motif_group = "gatebound"
+motif_source = "門潮 + 顎門像 + 海獣"
+ontology_class = "gate_touched"
+silhouette_type = "massive"
+palette_id = "pal_tide_maw"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 78
+growth_curve_id = "LATE"
+base_stats = {"hp": 34, "mp": 18, "atk": 17, "def": 17, "spd": 10, "int": 14, "res": 15}
+cap_stats = {"hp": 248, "mp": 140, "atk": 162, "def": 158, "spd": 102, "int": 128, "res": 134}
+base_recruit = 10
+scoutable = true
+personality_bias = "grim"
+battle_role = "tank"
+trait_1 = "潮待ち顎"
+trait_2 = "通過残り喰い"
+loot_table_id = "LUT-019"
+prompt_id = "PRM-MON-019"
+notes = "門潮の事故残滓へ寄る岬世界の大型捕食者"
+resistances = {"fire": 0, "water": 1, "wind": 0, "earth": 1, "thunder": 0, "light": 1, "dark": 1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 1, "instant_death": 0, "burn": 0, "freeze": 0, "curse": 1, "blind": -1, "charm": 0, "mark": 2, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-011"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-030"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-024"}, {"learn_type": "level", "learn_value": 10, "skill_id": "SKL-027"}, {"learn_type": "level", "learn_value": 16, "skill_id": "SKL-036"}]

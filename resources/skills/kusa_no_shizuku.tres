@@ -15,6 +15,6 @@ target_scope = "ally_single"
 formula_key = "H1"
 base_power = 16
 base_rate = 0
-tags = ["recover", "plant", "starter", "herb"]
+tags = ["recover", "plant", "starter", "herb", "evo_to:SKL-064"]
 battle_role = "ALLY_SUSTAIN"
 effect_text = "単体小回復"

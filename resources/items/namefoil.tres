@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/item_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+item_id = "item_record_namefoil"
+slug = "namefoil"
+name_jp = "名箔"
+name_en = "Name Foil"
+item_kind = "consumable"
+subtype = "record"
+price = 220
+sell_price = 110
+target_scope = "party"
+effect_key = "recipe_hint"
+effect_value = "1"
+tags = ["record", "clue"]
+description = "名札と役名札の貼り替え跡を拾う名箔"

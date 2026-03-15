@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/item_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+item_id = "item_bait_graveflour"
+slug = "graveflour"
+name_jp = "墓粉餌"
+name_en = "Grave Flour Bait"
+item_kind = "consumable"
+subtype = "bait"
+price = 210
+sell_price = 105
+target_scope = "enemy_single"
+effect_key = "recruit_bonus"
+effect_value = "24"
+tags = ["bait", "undead", "magic"]
+description = "不死と魔性が好む墓粉"

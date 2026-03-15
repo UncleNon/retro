@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/item_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+item_id = "item_key_hostellamp"
+slug = "hostellamp"
+name_jp = "宿名灯"
+name_en = "Hostel Name Lamp"
+item_kind = "key"
+subtype = "key_item"
+price = 0
+sell_price = 0
+target_scope = "none"
+effect_key = "story_flag"
+effect_value = "W-003"
+tags = ["key", "story"]
+description = "W-003の進行に必要な宿名灯"

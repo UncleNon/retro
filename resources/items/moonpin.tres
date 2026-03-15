@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/item_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+item_id = "item_field_moonpin"
+slug = "moonpin"
+name_jp = "月留め針"
+name_en = "Moon Pin"
+item_kind = "consumable"
+subtype = "field"
+price = 150
+sell_price = 75
+target_scope = "party"
+effect_key = "night_event"
+effect_value = "1"
+tags = ["field", "explore"]
+description = "夜のイベントを補助する"

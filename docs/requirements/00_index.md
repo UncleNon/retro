@@ -52,17 +52,26 @@
 | asset provenance / AI registry | [../specs/art/08_asset_provenance_and_ai_generation_registry.md](../specs/art/08_asset_provenance_and_ai_generation_registry.md) | prompt, seed, review, IP, edit log を追う provenance 契約 |
 | tileset / map art production | [../specs/art/09_tileset_and_map_art_production_manual.md](../specs/art/09_tileset_and_map_art_production_manual.md) | 地面、建材、装飾、塔、門、マップ用アートの production manual |
 | ストーリー聖書 | [../specs/story/01_story_bible.md](../specs/story/01_story_bible.md) | canonical truth、世界法則、5幕構成 |
-| 伏線台帳 | [../specs/story/03_foreshadow_allocation_map.md](../specs/story/03_foreshadow_allocation_map.md) | 54件の伏線配置と回収先 |
+| 伏線台帳 | [../specs/story/03_foreshadow_allocation_map.md](../specs/story/03_foreshadow_allocation_map.md) | 66件の伏線配置と回収先 |
 | 事件参照ポリシー | [../specs/story/05_real_incident_inspiration_policy.md](../specs/story/05_real_incident_inspiration_policy.md) | 神隠し、失踪、共同体伝承を抽象化して使うためのルール |
 | 歴史 texture 変換 | [../specs/story/08_historical_texture_research_ingestion.md](../specs/story/08_historical_texture_research_ingestion.md) | 実在史料を制度、物、言葉、生活癖へ変換する research 運用 |
 | 沈黙経済 / 勢力運用 | [../specs/story/09_silence_economy_and_powerbrokers.md](../specs/story/09_silence_economy_and_powerbrokers.md) | faction ごとの口止め、物流、日銭、改竄実務 |
+| 開始弧の引っ張り設計 | [../specs/story/10_starting_arc_engagement_playbook.md](../specs/story/10_starting_arc_engagement_playbook.md) | 開始村〜`W-005` の問い更新、帰村ショック、人間泥の構造 |
 | session / curiosity 契約 | [../specs/story/11_session_pacing_and_curiosity_contract.md](../specs/story/11_session_pacing_and_curiosity_contract.md) | `5分 / 15分 / 60分` の遊び単位、報酬拍動、メモを取りたくなる情報密度 |
+| 開始弧の関係図 / 勢力圧 | [../specs/story/12_starting_arc_relationship_and_faction_map.md](../specs/story/12_starting_arc_relationship_and_faction_map.md) | 開始村〜`W-005` の関係図、勢力圧、伏線担務の圧力線 |
+| Act II bridge の関係図 / 勢力圧 | [../specs/story/13_act_ii_bridge_relationship_and_faction_map.md](../specs/story/13_act_ii_bridge_relationship_and_faction_map.md) | `W-006〜W-007` の local front, relation edge, clue carrier を固定する台帳 |
+| cross-system echo 台帳 | [../specs/story/14_cross_system_echo_and_discovery_lattice.md](../specs/story/14_cross_system_echo_and_discovery_lattice.md) | monster, 物, map prop, 言い換え語を横断する discovery echo の正本 |
 | 世界配分表 | [../specs/worlds/05_world_catalog_and_budget.md](../specs/worlds/05_world_catalog_and_budget.md) | 21世界の機能、禁忌、予算 |
 | 開始村レイアウト | [../specs/worlds/01_starting_village_layout.md](../specs/worlds/01_starting_village_layout.md) | 村と塔周辺の寸法、座標、導線 |
 | 拠点量産規格 | [../specs/worlds/06_settlement_layout_and_route_rules.md](../specs/worlds/06_settlement_layout_and_route_rules.md) | 村、町、都市、街道の数値規格と導線ルール |
 | world sheet 契約 | [../specs/worlds/07_world_sheet_contract.md](../specs/worlds/07_world_sheet_contract.md) | 個別世界仕様が満たすべき concrete schema と責務分担 |
 | world sheet テンプレ | [../specs/worlds/08_world_sheet_template_and_variation_rules.md](../specs/worlds/08_world_sheet_template_and_variation_rules.md) | 21世界を個別詳細へ落とすための必須項目と variation 軸 |
 | Act I / II / III / IV / V 個票 | [../specs/worlds/09_act_i_world_sheets.md](../specs/worlds/09_act_i_world_sheets.md) / [../specs/worlds/10_act_ii_world_sheets.md](../specs/worlds/10_act_ii_world_sheets.md) / [../specs/worlds/11_act_iii_world_sheets.md](../specs/worlds/11_act_iii_world_sheets.md) / [../specs/worlds/12_act_iv_world_sheets.md](../specs/worlds/12_act_iv_world_sheets.md) / [../specs/worlds/13_act_v_world_sheets.md](../specs/worlds/13_act_v_world_sheets.md) | world sheet を concrete に埋めた実例集 |
+| 開始弧の map / hidden 台帳 | [../specs/worlds/14_starting_arc_map_and_secret_blueprints.md](../specs/worlds/14_starting_arc_map_and_secret_blueprints.md) | 開始村〜`W-005` の map loop, hidden route, revisit payoff を固定する台帳 |
+| Act II bridge の map / hidden 台帳 | [../specs/worlds/15_act_ii_bridge_map_and_secret_blueprints.md](../specs/worlds/15_act_ii_bridge_map_and_secret_blueprints.md) | `W-006〜W-007` の runtime zone, hidden pocket, revisit payoff を固定する台帳 |
+| 開始村 full NPC | [../specs/content/07_starting_village_full_npc_catalog.md](../specs/content/07_starting_village_full_npc_catalog.md) | 開始村20人の fear / gain / tenderness / shame と会話 phase |
+| 開始地域 ecology | [../specs/content/08_starting_region_ecology_and_monster_web.md](../specs/content/08_starting_region_ecology_and_monster_web.md) | 開始村〜`W-005` の食物連鎖、人為誤用、monster draft |
+| Act I-II monster roster | [../specs/content/09_act_i_ii_monster_expansion_and_discovery_pack.md](../specs/content/09_act_i_ii_monster_expansion_and_discovery_pack.md) | `W-002`〜`W-007` の monster data, hidden discovery, special recipe 導線 |
 | ボス / 門守 / 場効果 | [../specs/systems/13_boss_gatekeeper_and_field_modifier_rules.md](../specs/systems/13_boss_gatekeeper_and_field_modifier_rules.md) | phase, telegraph, field modifier, boss reward の規格 |
 | item / shop / loot 契約 | [../specs/systems/14_item_shop_loot_and_service_contract.md](../specs/systems/14_item_shop_loot_and_service_contract.md) | item, shop, loot, service, reward の canonical 契約 |
 | save migration / 互換 | [../specs/systems/15_save_migration_and_compatibility_policy.md](../specs/systems/15_save_migration_and_compatibility_policy.md) | schema_version, migration, backup, rollback の運用基準 |

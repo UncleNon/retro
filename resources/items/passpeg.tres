@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/item_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+item_id = "item_key_passpeg"
+slug = "passpeg"
+name_jp = "岬通行鋲"
+name_en = "Headland Pass Peg"
+item_kind = "key"
+subtype = "key_item"
+price = 0
+sell_price = 0
+target_scope = "none"
+effect_key = "story_flag"
+effect_value = "W-004"
+tags = ["key", "story"]
+description = "W-004の進行に必要な通行鋲"

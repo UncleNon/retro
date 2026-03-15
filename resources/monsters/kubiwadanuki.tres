@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-036"
+slug = "kubiwadanuki"
+name_jp = "クビワダヌキ"
+name_en = "Kubiwadanuki"
+family = "beast"
+rank = "E"
+size_class = "S"
+motif_group = "animal"
+secondary_motif_group = "pastoral"
+motif_source = "狸 + 首輪 + 村囲い"
+ontology_class = "wildborn"
+silhouette_type = "round"
+palette_id = "pal_collar_tanuki"
+field_sprite_px = 16
+battle_sprite_px = 24
+base_level_cap = 62
+growth_curve_id = "EARLY"
+base_stats = {"hp": 21, "mp": 9, "atk": 10, "def": 10, "spd": 12, "int": 10, "res": 11}
+cap_stats = {"hp": 162, "mp": 66, "atk": 108, "def": 104, "spd": 118, "int": 86, "res": 96}
+base_recruit = 34
+scoutable = true
+personality_bias = "patient"
+battle_role = "controller"
+trait_1 = "化かし気味"
+trait_2 = "混乱微耐性"
+loot_table_id = "LUT-036"
+prompt_id = "PRM-MON-036"
+notes = "村囲いの外で残飯を漁る首輪付き狸"
+resistances = {"fire": -1, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 1, "seal": 0, "fear": 1, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-001"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-016"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-029"}]

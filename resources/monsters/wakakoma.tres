@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-034"
+slug = "wakakoma"
+name_jp = "ワカコマ"
+name_en = "Wakakoma"
+family = "beast"
+rank = "E"
+size_class = "S"
+motif_group = "animal"
+secondary_motif_group = "pastoral"
+motif_source = "仔馬 + 焼印 + 草原"
+ontology_class = "wildborn"
+silhouette_type = "wide"
+palette_id = "pal_foal_brand"
+field_sprite_px = 16
+battle_sprite_px = 24
+base_level_cap = 68
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 26, "mp": 7, "atk": 12, "def": 11, "spd": 14, "int": 6, "res": 8}
+cap_stats = {"hp": 188, "mp": 58, "atk": 122, "def": 114, "spd": 138, "int": 68, "res": 86}
+base_recruit = 28
+scoutable = true
+personality_bias = "swift"
+battle_role = "tank"
+trait_1 = "野駆け"
+trait_2 = "風微耐性"
+loot_table_id = "LUT-034"
+prompt_id = "PRM-MON-034"
+notes = "脇腹に焼印を持つ草原の仔馬"
+resistances = {"fire": 0, "water": 0, "wind": 1, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": -1, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-001"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-008"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-033"}]

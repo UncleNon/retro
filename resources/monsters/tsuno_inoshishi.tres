@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-045"
+slug = "tsuno_inoshishi"
+name_jp = "ツノイノシシ"
+name_en = "Tsuno Inoshishi"
+family = "beast"
+rank = "E"
+size_class = "S"
+motif_group = "animal"
+secondary_motif_group = "pastoral"
+motif_source = "猪 + 短角 + 焼畑"
+ontology_class = "wildborn"
+silhouette_type = "wide"
+palette_id = "pal_boar_stub"
+field_sprite_px = 16
+battle_sprite_px = 24
+base_level_cap = 68
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 26, "mp": 6, "atk": 15, "def": 11, "spd": 12, "int": 6, "res": 8}
+cap_stats = {"hp": 190, "mp": 50, "atk": 138, "def": 112, "spd": 118, "int": 66, "res": 82}
+base_recruit = 22
+scoutable = true
+personality_bias = "bold"
+battle_role = "striker"
+trait_1 = "猪突"
+trait_2 = "火微耐性"
+loot_table_id = "LUT-045"
+prompt_id = "PRM-MON-045"
+notes = "焼畑の灰を被って走る短角の猪"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 1, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 1, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": -1, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-041"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-005"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-084"}]

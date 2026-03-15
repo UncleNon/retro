@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/item_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+item_id = "item_bait_starmarrow"
+slug = "starmarrow"
+name_jp = "星髄餌"
+name_en = "Star Marrow Bait"
+item_kind = "consumable"
+subtype = "bait"
+price = 320
+sell_price = 160
+target_scope = "enemy_single"
+effect_key = "recruit_bonus"
+effect_value = "26"
+tags = ["bait", "divine", "dragon"]
+description = "神獣と竜が好む星髄"

@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="EncounterZoneData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/encounter_zone_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+zone_id = "ZONE-W02-RIDGE"
+world_id = "W-002"
+name_jp = "母屋台地"
+encounter_min_steps = 12
+encounter_max_steps = 20
+terrain_rate = 1.15
+time_band = "dusk"
+weather = "clear"
+notes = "母屋が見下ろす台地"
+entries = [{"slot": 1, "monster_id": "MON-011", "weight": 25, "min_lv": 12, "max_lv": 14, "time_band": "dusk", "weather": "clear"}, {"slot": 2, "monster_id": "MON-013", "weight": 25, "min_lv": 12, "max_lv": 14, "time_band": "dusk", "weather": "clear"}, {"slot": 3, "monster_id": "MON-012", "weight": 15, "min_lv": 12, "max_lv": 14, "time_band": "dusk", "weather": "clear"}, {"slot": 4, "monster_id": "MON-008", "weight": 15, "min_lv": 13, "max_lv": 14, "time_band": "dusk", "weather": "clear"}, {"slot": 5, "monster_id": "MON-004", "weight": 10, "min_lv": 12, "max_lv": 13, "time_band": "dusk", "weather": "clear"}, {"slot": 6, "monster_id": "MON-010", "weight": 10, "min_lv": 14, "max_lv": 15, "time_band": "dusk", "weather": "clear"}]

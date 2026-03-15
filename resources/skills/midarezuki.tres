@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-044"
+slug = "midarezuki"
+name_jp = "みだれづき"
+name_en = "Wild Thrust"
+category = "physical"
+element = "earth"
+mp_cost = 7
+target_scope = "random3"
+formula_key = "P3"
+base_power = 65
+base_rate = 15
+tags = ["random", "physical", "beast", "evo_from:SKL-043"]
+battle_role = "BREAK_DEF"
+effect_text = "3回つきまくる"

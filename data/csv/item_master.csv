@@ -37,7 +37,7 @@ item_field_bonerope,bonerope,骨縄,Bone Rope,consumable,field,80,40,party,escap
 item_field_chalktag,chalktag,印粉札,Chalk Tag,consumable,field,60,30,party,reveal_path,1,field|record,道標をしばらく見やすくする
 item_field_repelash,repelash,よけ灰,Repel Ash,consumable,field,95,47,party,repel_low,1,field|explore,低ランクの遭遇を抑制する
 item_field_luremist,luremist,寄霧瓶,Lure Mist Vial,consumable,field,100,50,party,lure_family,1,field|explore,特定系統の遭遇を増やす
-item_field_silentcloth,silentcloth,無音布,Silent Cloth,consumable,field,130,65,party,reduce_reaction,1,field|explore,鐘や反応を軽減する
+item_field_silentcloth,silentcloth,無音布,Silent Cloth,consumable,field,130,65,party,reduce_reaction,1,field|explore,鐘や呼び返しの反応を軽減する
 item_field_moonpin,moonpin,月留め針,Moon Pin,consumable,field,150,75,party,night_event,1,field|explore,夜のイベントを補助する
 item_catalyst_ashseed,ashseed,灰種,Ash Seed,consumable,catalyst,150,75,breed,mutation_bonus,2,catalyst|breed,配合時の mutation を少し押し上げる
 item_catalyst_bellsalt,bellsalt,鈴塩,Bell Salt,consumable,catalyst,190,95,breed,family_bonus,1,catalyst|breed|bird|divine,鳥や神獣の特殊配合を補助する
@@ -45,11 +45,11 @@ item_catalyst_namewax,namewax,名蝋,Name Wax,consumable,catalyst,220,110,breed,
 item_catalyst_bloodchalk,bloodchalk,血白墨,Blood Chalk,consumable,catalyst,260,130,breed,family_bonus,1,catalyst|breed|material|undead,物質や不死の条件補助
 item_catalyst_starbone,starbone,星骨,Star Bone,consumable,catalyst,320,160,breed,plus_value,1,catalyst|breed,plus_value 判定を+1する
 item_catalyst_emptyseal,emptyseal,空印,Empty Seal,consumable,catalyst,400,200,breed,mutation_direct,1,catalyst|breed,mutation 方向を指定する
-item_record_rubbingset,rubbingset,拓本具,Rubbing Kit,consumable,record,85,42,party,clue_log,1,record|clue,碑文や札を記録する
-item_record_tagcase,tagcase,札筒,Tag Case,consumable,record,120,60,party,clue_hold,1,record|clue,札系の手がかりを保持する
-item_record_inkpaste,inkpaste,墨膏,Ink Paste,consumable,record,140,70,party,ledger_check,1,record|clue,台帳照合の回数を追加する
-item_record_belltube,belltube,鈴筒,Bell Tube,consumable,record,160,80,party,bell_clue,1,record|clue,鐘音の手がかりを記録する
-item_record_namefoil,namefoil,名箔,Name Foil,consumable,record,220,110,party,recipe_hint,1,record|clue,レシピヒントを1段階開示する
+item_record_rubbingset,rubbingset,拓本具,Rubbing Kit,consumable,record,85,42,party,clue_log,1,record|clue,碑文や札の削り跡を記録する
+item_record_tagcase,tagcase,札筒,Tag Case,consumable,record,120,60,party,clue_hold,1,record|clue,借り名札や通行鋲と同寸の札を収められる筒
+item_record_inkpaste,inkpaste,墨膏,Ink Paste,consumable,record,140,70,party,ledger_check,1,record|clue,台帳や役名札の削り直し痕を浮かせる墨膏
+item_record_belltube,belltube,鈴筒,Bell Tube,consumable,record,160,80,party,bell_clue,1,record|clue,借り鈴と宿灯の音孔差まで拾う鈴筒
+item_record_namefoil,namefoil,名箔,Name Foil,consumable,record,220,110,party,recipe_hint,1,record|clue,名札と役名札の貼り替え跡を拾う名箔
 item_key_borrowedtag,borrowedtag,借り名札,Borrowed Name Tag,key,key_item,0,0,none,story_flag,W-001,key|story,W-001の進行に必要な借り名札
 item_key_ashbrand,ashbrand,灰印片,Ash Brand Shard,key,key_item,0,0,none,story_flag,W-002,key|story,W-002の進行に必要な灰印
 item_key_hostellamp,hostellamp,宿名灯,Hostel Name Lamp,key,key_item,0,0,none,story_flag,W-003,key|story,W-003の進行に必要な宿名灯

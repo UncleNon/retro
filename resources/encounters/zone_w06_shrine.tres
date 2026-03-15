@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="EncounterZoneData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/encounter_zone_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+zone_id = "ZONE-W06-SHRINE"
+world_id = "W-006"
+name_jp = "沈み社"
+encounter_min_steps = 10
+encounter_max_steps = 17
+terrain_rate = 1.15
+time_band = "night"
+weather = "fog"
+notes = "符号と供え鈴が沈む半水没社"
+entries = [{"slot": 1, "monster_id": "MON-024", "weight": 20, "min_lv": 26, "max_lv": 28, "time_band": "night", "weather": "fog"}, {"slot": 2, "monster_id": "MON-025", "weight": 20, "min_lv": 26, "max_lv": 28, "time_band": "night", "weather": "fog"}, {"slot": 3, "monster_id": "MON-026", "weight": 20, "min_lv": 26, "max_lv": 28, "time_band": "night", "weather": "fog"}, {"slot": 4, "monster_id": "MON-021", "weight": 20, "min_lv": 26, "max_lv": 27, "time_band": "night", "weather": "fog"}, {"slot": 5, "monster_id": "MON-022", "weight": 10, "min_lv": 27, "max_lv": 28, "time_band": "night", "weather": "fog"}, {"slot": 6, "monster_id": "MON-023", "weight": 10, "min_lv": 28, "max_lv": 29, "time_band": "night", "weather": "fog"}]

@@ -1,7 +1,7 @@
 # 09. Act I World Sheets
 
 > **ステータス**: Draft v1.0
-> **最終更新**: 2026-03-15
+> **最終更新**: 2026-03-16
 > **役割**: Act I の 4 世界を、同じ粒度の concrete sheet として固定する
 > **参照元**:
 > - `docs/specs/worlds/03_first_beyond_gate_world.md`
@@ -11,7 +11,11 @@
 > - `docs/specs/story/04_main_story_beats_and_world_sequence.md`
 > - `docs/specs/story/06_millennial_geopolitics_and_personages.md`
 > - `docs/specs/story/10_starting_arc_engagement_playbook.md`
+> - `docs/specs/story/12_starting_arc_relationship_and_faction_map.md`
+> - `docs/specs/story/14_cross_system_echo_and_discovery_lattice.md`
 > - `docs/specs/content/08_starting_region_ecology_and_monster_web.md`
+> - `docs/specs/content/09_act_i_ii_monster_expansion_and_discovery_pack.md`
+> - `docs/specs/worlds/14_starting_arc_map_and_secret_blueprints.md`
 
 ---
 

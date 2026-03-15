@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-089"
+slug = "kiri_no_manako"
+name_jp = "きりのまなこ"
+name_en = "Fog Eye"
+category = "setup"
+element = "water"
+mp_cost = 6
+target_scope = "ally_all"
+formula_key = "B3"
+base_power = 0
+base_rate = 0
+tags = ["setup", "spread", "world", "W-004"]
+battle_role = "ALLY_SUSTAIN"
+effect_text = "霧のまなこで見とおす"

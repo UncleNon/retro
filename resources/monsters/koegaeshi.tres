@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-022"
+slug = "koegaeshi"
+name_jp = "コエガエシ"
+name_en = "Koegaeshi"
+family = "plant"
+rank = "C"
+size_class = "M"
+motif_group = "plant"
+secondary_motif_group = "funerary"
+motif_source = "風穴草 + 反響管 + 墓碑裏"
+ontology_class = "gate_touched"
+silhouette_type = "tall"
+palette_id = "pal_echo_reed"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 75
+growth_curve_id = "LATE"
+base_stats = {"hp": 27, "mp": 17, "atk": 11, "def": 12, "spd": 12, "int": 17, "res": 15}
+cap_stats = {"hp": 204, "mp": 136, "atk": 104, "def": 112, "spd": 118, "int": 154, "res": 138}
+base_recruit = 14
+scoutable = true
+personality_bias = "echoing"
+battle_role = "controller"
+trait_1 = "音節返し"
+trait_2 = "呼び止め蔓"
+loot_table_id = "LUT-022"
+prompt_id = "PRM-MON-022"
+notes = "呼び声の最後だけ返して帰路を鈍らせる墓碑蔓"
+resistances = {"fire": 0, "water": 1, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 1, "paralysis": 0, "confusion": 1, "seal": 0, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 1}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-035"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-017"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-021"}, {"learn_type": "level", "learn_value": 10, "skill_id": "SKL-015"}, {"learn_type": "level", "learn_value": 16, "skill_id": "SKL-032"}]

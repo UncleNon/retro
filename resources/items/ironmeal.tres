@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/item_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+item_id = "item_buff_ironmeal"
+slug = "ironmeal"
+name_jp = "鉄食い粉"
+name_en = "Iron Meal Dust"
+item_kind = "consumable"
+subtype = "buff"
+price = 70
+sell_price = 35
+target_scope = "ally_single"
+effect_key = "buff_atk"
+effect_value = "3"
+tags = ["buff", "battle"]
+description = "3ターン攻撃力を上げる"

@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-057"
+slug = "ibuki_uma"
+name_jp = "イブキウマ"
+name_en = "Ibuki Uma"
+family = "beast"
+rank = "D"
+size_class = "S"
+motif_group = "animal"
+secondary_motif_group = "pastoral"
+motif_source = "馬 + 息吹 + 峠風"
+ontology_class = "wildborn"
+silhouette_type = "wide"
+palette_id = "pal_breath_horse"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 70
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 28, "mp": 9, "atk": 14, "def": 12, "spd": 15, "int": 8, "res": 10}
+cap_stats = {"hp": 204, "mp": 72, "atk": 134, "def": 114, "spd": 140, "int": 74, "res": 96}
+base_recruit = 18
+scoutable = true
+personality_bias = "swift"
+battle_role = "tank"
+trait_1 = "峠息"
+trait_2 = "風耐性"
+loot_table_id = "LUT-057"
+prompt_id = "PRM-MON-057"
+notes = "峠で白い息を吐く野生の荒馬"
+resistances = {"fire": 1, "water": -1, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": 0, "freeze": -1, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-041"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-008"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-074"}]

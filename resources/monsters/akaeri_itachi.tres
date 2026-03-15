@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-043"
+slug = "akaeri_itachi"
+name_jp = "アカエリイタチ"
+name_en = "Akaeri Itachi"
+family = "beast"
+rank = "E"
+size_class = "S"
+motif_group = "animal"
+secondary_motif_group = "household"
+motif_source = "鼬 + 赤襟 + 鶏舎"
+ontology_class = "wildborn"
+silhouette_type = "tall"
+palette_id = "pal_weasel_red"
+field_sprite_px = 16
+battle_sprite_px = 24
+base_level_cap = 61
+growth_curve_id = "EARLY"
+base_stats = {"hp": 17, "mp": 7, "atk": 14, "def": 7, "spd": 17, "int": 8, "res": 7}
+cap_stats = {"hp": 132, "mp": 54, "atk": 134, "def": 82, "spd": 154, "int": 74, "res": 72}
+base_recruit = 26
+scoutable = true
+personality_bias = "restless"
+battle_role = "striker"
+trait_1 = "奇襲気味"
+trait_2 = "闇微耐性"
+loot_table_id = "LUT-043"
+prompt_id = "PRM-MON-043"
+notes = "鶏舎を荒らす赤い首筋の鼬"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 1, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-003"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-033"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-007"}]

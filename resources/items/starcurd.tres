@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/item_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+item_id = "item_mp_starcurd"
+slug = "starcurd"
+name_jp = "星酪"
+name_en = "Star Curd"
+item_kind = "consumable"
+subtype = "heal_mp"
+price = 280
+sell_price = 140
+target_scope = "ally_single"
+effect_key = "heal_mp"
+effect_value = "70"
+tags = ["mp", "rare"]
+description = "星の酪でMPを大回復"

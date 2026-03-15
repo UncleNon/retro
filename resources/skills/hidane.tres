@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-053"
+slug = "hidane"
+name_jp = "ひだね"
+name_en = "Ember"
+category = "magic"
+element = "fire"
+mp_cost = 3
+target_scope = "single"
+formula_key = "M1"
+base_power = 16
+base_rate = 100
+tags = ["single", "fixed_magic", "fire", "evo_to:SKL-054"]
+battle_role = "SAFE_POKE"
+effect_text = "ちいさな火をとばす"

@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-080"
+slug = "mahou_hansha"
+name_jp = "まほうはんしゃ"
+name_en = "Spell Mirror"
+category = "reaction"
+element = "none"
+mp_cost = 5
+target_scope = "self"
+formula_key = "R1"
+base_power = 0
+base_rate = 0
+tags = ["reaction", "reflect", "breed", "forbidden:SKL-078"]
+battle_role = "CONTROL"
+effect_text = "じゅもんをはねかえす"

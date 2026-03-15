@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-061"
+slug = "raimei"
+name_jp = "らいめい"
+name_en = "Thunder Roar"
+category = "magic"
+element = "thunder"
+mp_cost = 14
+target_scope = "spread"
+formula_key = "M2"
+base_power = 46
+base_rate = 28
+tags = ["spread", "fixed_magic", "thunder", "evo_from:SKL-060"]
+battle_role = "STATUS_SETUP"
+effect_text = "雷鳴がとどろく"

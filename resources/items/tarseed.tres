@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/item_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+item_id = "item_debuff_tarseed"
+slug = "tarseed"
+name_jp = "瀝種"
+name_en = "Tar Seed"
+item_kind = "consumable"
+subtype = "debuff"
+price = 75
+sell_price = 37
+target_scope = "enemy_single"
+effect_key = "debuff_spd"
+effect_value = "3"
+tags = ["debuff", "battle"]
+description = "敵1体の素早さを下げる"

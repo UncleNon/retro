@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-093"
+slug = "kotetsu_byou"
+name_jp = "コテツビョウ"
+name_en = "Kotetsu Byou"
+family = "beast"
+rank = "A"
+size_class = "L"
+motif_group = "animal"
+secondary_motif_group = "gatebound"
+motif_source = "豹 + 古鉄 + 塔内部"
+ontology_class = "gate_touched"
+silhouette_type = "tall"
+palette_id = "pal_ancient_panther"
+field_sprite_px = 16
+battle_sprite_px = 48
+base_level_cap = 76
+growth_curve_id = "LATE"
+base_stats = {"hp": 28, "mp": 14, "atk": 20, "def": 14, "spd": 20, "int": 14, "res": 13}
+cap_stats = {"hp": 214, "mp": 106, "atk": 186, "def": 128, "spd": 184, "int": 112, "res": 110}
+base_recruit = 0
+scoutable = false
+personality_bias = "sharp"
+battle_role = "striker"
+trait_1 = "古鉄爪"
+trait_2 = "雷耐性"
+loot_table_id = "LUT-093"
+prompt_id = "PRM-MON-093"
+notes = "塔内部を徘徊する古鉄の爪を持つ豹"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 2, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 1, "fear": 0, "instant_death": 2, "burn": 0, "freeze": 0, "curse": 1, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-045"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-060"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-080"}]

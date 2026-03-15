@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-042"
+slug = "chichiushi_ko"
+name_jp = "チチウシコ"
+name_en = "Chichiushi Ko"
+family = "beast"
+rank = "E"
+size_class = "S"
+motif_group = "animal"
+secondary_motif_group = "bureaucratic"
+motif_source = "仔牛 + 乳 + 灰印"
+ontology_class = "bred_line"
+silhouette_type = "wide"
+palette_id = "pal_milk_calf"
+field_sprite_px = 16
+battle_sprite_px = 24
+base_level_cap = 67
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 28, "mp": 7, "atk": 10, "def": 12, "spd": 9, "int": 7, "res": 10}
+cap_stats = {"hp": 194, "mp": 56, "atk": 108, "def": 118, "spd": 92, "int": 72, "res": 96}
+base_recruit = 32
+scoutable = true
+personality_bias = "calm"
+battle_role = "tank"
+trait_1 = "乳印"
+trait_2 = "光微耐性"
+loot_table_id = "LUT-042"
+prompt_id = "PRM-MON-042"
+notes = "灰乳で家系を測られる牧場の仔牛"
+resistances = {"fire": 1, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": 0, "freeze": -1, "curse": 0, "blind": 0, "charm": -1, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-001"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-025"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-028"}]

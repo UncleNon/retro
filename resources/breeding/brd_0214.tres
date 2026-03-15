@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="BreedRuleData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/breed_rule_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+rule_id = "BRD-0214"
+rule_type = "special"
+parent_a_key = "MON-009"
+parent_b_key = "MON-017"
+child_monster_id = "MON-027"
+priority = 111
+special_recipe_bonus = 1
+lv_requirement = 15
+notes = "印食いと札穴甲片が標章害獣 line の裏口になる hidden numbered-edge recipe"

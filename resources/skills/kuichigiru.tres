@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-045"
+slug = "kuichigiru"
+name_jp = "くいちぎる"
+name_en = "Tear Bite"
+category = "physical"
+element = "earth"
+mp_cost = 4
+target_scope = "single"
+formula_key = "P3"
+base_power = 125
+base_rate = 25
+tags = ["single", "physical", "beast", "evo_from:SKL-004", "evo_to:SKL-046"]
+battle_role = "BREAK_DEF"
+effect_text = "にくをくいちぎる"

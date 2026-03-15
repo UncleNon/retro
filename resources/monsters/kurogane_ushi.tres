@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-048"
+slug = "kurogane_ushi"
+name_jp = "クロガネウシ"
+name_en = "Kurogane Ushi"
+family = "beast"
+rank = "D"
+size_class = "S"
+motif_group = "animal"
+secondary_motif_group = "pastoral"
+motif_source = "雄牛 + 黒鉄 + 競り場"
+ontology_class = "bred_line"
+silhouette_type = "wide"
+palette_id = "pal_iron_bull"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 70
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 32, "mp": 8, "atk": 16, "def": 16, "spd": 9, "int": 7, "res": 11}
+cap_stats = {"hp": 226, "mp": 62, "atk": 152, "def": 144, "spd": 86, "int": 70, "res": 102}
+base_recruit = 18
+scoutable = true
+personality_bias = "bold"
+battle_role = "tank"
+trait_1 = "鉄角"
+trait_2 = "地耐性"
+loot_table_id = "LUT-048"
+prompt_id = "PRM-MON-048"
+notes = "競り場で最も高い値がつく鉄色の雄牛"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-043"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-024"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-041"}]

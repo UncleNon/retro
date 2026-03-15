@@ -15,6 +15,6 @@ target_scope = "ally_single"
 formula_key = "H1"
 base_power = 12
 base_rate = 0
-tags = ["recover", "divine", "tower_reactive"]
+tags = ["recover", "divine", "tower_reactive", "evo_to:SKL-066"]
 battle_role = "ALLY_SUSTAIN"
 effect_text = "HP小回復とMP回復"

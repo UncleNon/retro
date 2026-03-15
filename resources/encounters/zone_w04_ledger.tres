@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="EncounterZoneData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/encounter_zone_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+zone_id = "ZONE-W04-LEDGER"
+world_id = "W-004"
+name_jp = "検潮棚"
+encounter_min_steps = 12
+encounter_max_steps = 20
+terrain_rate = 1.05
+time_band = "day"
+weather = "clear"
+notes = "潮位観測台に偽装された札差し替え所"
+entries = [{"slot": 1, "monster_id": "MON-017", "weight": 25, "min_lv": 19, "max_lv": 21, "time_band": "day", "weather": "clear"}, {"slot": 2, "monster_id": "MON-018", "weight": 25, "min_lv": 19, "max_lv": 21, "time_band": "day", "weather": "clear"}, {"slot": 3, "monster_id": "MON-009", "weight": 15, "min_lv": 19, "max_lv": 20, "time_band": "day", "weather": "clear"}, {"slot": 4, "monster_id": "MON-014", "weight": 10, "min_lv": 19, "max_lv": 20, "time_band": "day", "weather": "clear"}, {"slot": 5, "monster_id": "MON-019", "weight": 25, "min_lv": 21, "max_lv": 22, "time_band": "day", "weather": "clear"}]

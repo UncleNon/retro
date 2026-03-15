@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/item_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+item_id = "item_mp_bluepith"
+slug = "bluepith"
+name_jp = "青髄片"
+name_en = "Blue Pith"
+item_kind = "consumable"
+subtype = "heal_mp"
+price = 190
+sell_price = 95
+target_scope = "ally_single"
+effect_key = "heal_mp"
+effect_value = "48"
+tags = ["mp", "rare"]
+description = "青い髄でMPを大きく回復"

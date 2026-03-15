@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-071"
+slug = "yami_gitsune"
+name_jp = "ヤミギツネ"
+name_en = "Yami Gitsune"
+family = "beast"
+rank = "C"
+size_class = "M"
+motif_group = "animal"
+secondary_motif_group = "funerary"
+motif_source = "狐 + 闇火 + 廃社"
+ontology_class = "gate_touched"
+silhouette_type = "tall"
+palette_id = "pal_dark_fox"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 72
+growth_curve_id = "LATE"
+base_stats = {"hp": 24, "mp": 14, "atk": 16, "def": 10, "spd": 17, "int": 14, "res": 13}
+cap_stats = {"hp": 184, "mp": 106, "atk": 150, "def": 96, "spd": 158, "int": 116, "res": 110}
+base_recruit = 10
+scoutable = true
+personality_bias = "cunning"
+battle_role = "controller"
+trait_1 = "闘火"
+trait_2 = "闇耐性"
+loot_table_id = "LUT-071"
+prompt_id = "PRM-MON-071"
+notes = "廃社で青い火を灯す闇狐"
+resistances = {"fire": -1, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 1, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": 0, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-081"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-053"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-077"}]

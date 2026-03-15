@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-088"
+slug = "kekkai_juu"
+name_jp = "ケッカイジュウ"
+name_en = "Kekkai Juu"
+family = "beast"
+rank = "A"
+size_class = "L"
+motif_group = "animal"
+secondary_motif_group = "gatebound"
+motif_source = "獣 + 結界 + 古門柱"
+ontology_class = "gate_touched"
+silhouette_type = "wide"
+palette_id = "pal_barrier_beast"
+field_sprite_px = 16
+battle_sprite_px = 48
+base_level_cap = 78
+growth_curve_id = "LATE"
+base_stats = {"hp": 36, "mp": 14, "atk": 20, "def": 18, "spd": 14, "int": 13, "res": 16}
+cap_stats = {"hp": 270, "mp": 106, "atk": 186, "def": 166, "spd": 132, "int": 106, "res": 136}
+base_recruit = 0
+scoutable = false
+personality_bias = "bold"
+battle_role = "tank"
+trait_1 = "結界纏い"
+trait_2 = "光耐性"
+loot_table_id = "LUT-088"
+prompt_id = "PRM-MON-088"
+notes = "古門柱を守る結界の獣"
+resistances = {"fire": 2, "water": 0, "wind": -1, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": 2, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-046"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-063"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-072"}]

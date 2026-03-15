@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-033"
+slug = "fudagitsune"
+name_jp = "フダギツネ"
+name_en = "Fudagitsune"
+family = "beast"
+rank = "E"
+size_class = "S"
+motif_group = "animal"
+secondary_motif_group = "bureaucratic"
+motif_source = "狐 + 名札 + 畦道"
+ontology_class = "record_bent"
+silhouette_type = "tall"
+palette_id = "pal_tag_fox"
+field_sprite_px = 16
+battle_sprite_px = 24
+base_level_cap = 66
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 19, "mp": 10, "atk": 13, "def": 8, "spd": 16, "int": 10, "res": 9}
+cap_stats = {"hp": 148, "mp": 72, "atk": 126, "def": 92, "spd": 148, "int": 88, "res": 86}
+base_recruit = 26
+scoutable = true
+personality_bias = "cunning"
+battle_role = "striker"
+trait_1 = "札盗み"
+trait_2 = "闇微耐性"
+loot_table_id = "LUT-033"
+prompt_id = "PRM-MON-033"
+notes = "畦道で家畜札を咥えて走る赤狐"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 1, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-003"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-029"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-013"}]

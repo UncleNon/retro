@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-075"
+slug = "fuinshishi"
+name_jp = "フウインシシ"
+name_en = "Fuinshishi"
+family = "beast"
+rank = "C"
+size_class = "M"
+motif_group = "animal"
+secondary_motif_group = "gatebound"
+motif_source = "獅子 + 封印紋 + 関門"
+ontology_class = "gate_touched"
+silhouette_type = "wide"
+palette_id = "pal_seal_lion"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 76
+growth_curve_id = "LATE"
+base_stats = {"hp": 28, "mp": 13, "atk": 18, "def": 14, "spd": 14, "int": 12, "res": 14}
+cap_stats = {"hp": 212, "mp": 98, "atk": 168, "def": 128, "spd": 132, "int": 98, "res": 120}
+base_recruit = 8
+scoutable = true
+personality_bias = "bold"
+battle_role = "tank"
+trait_1 = "封門"
+trait_2 = "光微耐性"
+loot_table_id = "LUT-075"
+prompt_id = "PRM-MON-075"
+notes = "関門に刻まれた封印紋を持つ石獅子"
+resistances = {"fire": 1, "water": -1, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": 0, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-046"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-018"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-062"}]

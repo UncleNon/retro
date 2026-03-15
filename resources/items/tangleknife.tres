@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/item_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+item_id = "item_cure_tangleknife"
+slug = "tangleknife"
+name_jp = "ほぐし刃"
+name_en = "Tangle Knife"
+item_kind = "consumable"
+subtype = "cure"
+price = 68
+sell_price = 34
+target_scope = "ally_single"
+effect_key = "cure_status"
+effect_value = "confusion"
+tags = ["cure", "field"]
+description = "混乱をほぐす刃"

@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/item_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+item_id = "item_field_repelash"
+slug = "repelash"
+name_jp = "よけ灰"
+name_en = "Repel Ash"
+item_kind = "consumable"
+subtype = "field"
+price = 95
+sell_price = 47
+target_scope = "party"
+effect_key = "repel_low"
+effect_value = "1"
+tags = ["field", "explore"]
+description = "低ランクの遭遇を抑制する"

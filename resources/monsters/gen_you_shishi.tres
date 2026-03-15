@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-098"
+slug = "gen_you_shishi"
+name_jp = "ゲンヨウシシ"
+name_en = "Gen You Shishi"
+family = "beast"
+rank = "S"
+size_class = "L"
+motif_group = "animal"
+secondary_motif_group = "pastoral"
+motif_source = "獅子 + 原羊 + 原初"
+ontology_class = "remnant_bearing"
+silhouette_type = "wide"
+palette_id = "pal_primal_lion"
+field_sprite_px = 16
+battle_sprite_px = 56
+base_level_cap = 82
+growth_curve_id = "LEGEND"
+base_stats = {"hp": 36, "mp": 17, "atk": 22, "def": 18, "spd": 16, "int": 16, "res": 17}
+cap_stats = {"hp": 272, "mp": 128, "atk": 204, "def": 166, "spd": 150, "int": 128, "res": 142}
+base_recruit = 0
+scoutable = false
+personality_bias = "bold"
+battle_role = "striker"
+trait_1 = "原初吼え"
+trait_2 = "火耐性"
+loot_table_id = "LUT-098"
+prompt_id = "PRM-MON-098"
+notes = "原初の羊と獅子が重なった始まりの獣"
+resistances = {"fire": 2, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": -1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": 2, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-055"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-042"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-068"}]

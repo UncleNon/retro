@@ -17,3 +17,12 @@ BRD-0007,special,MON-017,MON-018,MON-019,120,1,16,札検知と潮選別が噛み
 BRD-0008,special,MON-020,MON-021,MON-023,125,1,18,名残灯と無香膜から帰らない鹿が生まれる hidden grave recipe
 BRD-0104,family,slime,material,MON-011,45,0,10,Act I slime line の入口
 BRD-0105,family,magic,plant,MON-020,55,0,12,remnant light 系の橋渡し
+BRD-0206,special,MON-024,MON-025,MON-026,110,1,14,鈴結び湿地の借り鈴運び系統
+BRD-0207,special,MON-027,MON-028,MON-029,112,1,16,削名の階市の棚守り系統
+BRD-0208,special,MON-024,MON-020,MON-028,108,1,15,余り結びと名残灯が欄外の影札へ変わる
+BRD-0209,family,plant,magic,MON-024,58,0,14,湿地の符号鈴 line
+BRD-0210,family,material,magic,MON-027,60,0,16,階市の標章害獣 line
+BRD-0211,special,MON-011,MON-016,MON-021,109,1,14,判乳器と宿帳の膜が無香の閉じ膜へ繋がる hidden erasure recipe
+BRD-0212,special,MON-014,MON-020,MON-028,115,1,16,名を囲う灯と無銘灯が役名だけを抜く影へ反転する hidden light recipe
+BRD-0213,special,MON-015,MON-027,MON-029,113,1,16,鍵棚の巣作りと badge 棚の蟻害が棚渡り害獣へまとまる hidden archive recipe
+BRD-0214,special,MON-009,MON-017,MON-027,111,1,15,印食いと札穴甲片が標章害獣 line の裏口になる hidden numbered-edge recipe

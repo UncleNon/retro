@@ -15,6 +15,6 @@ target_scope = "single"
 formula_key = "S1"
 base_power = 0
 base_rate = 55
-tags = ["status", "plant", "starter"]
+tags = ["status", "plant", "starter", "forbidden:SKL-070"]
 battle_role = "STATUS_SETUP"
 effect_text = "毒を付与する"

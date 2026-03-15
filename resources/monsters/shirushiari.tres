@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-027"
+slug = "shirushiari"
+name_jp = "シルシアリ"
+name_en = "Shirushiari"
+family = "material"
+rank = "D"
+size_class = "S"
+motif_group = "tool"
+secondary_motif_group = "bureaucratic"
+motif_source = "徽章 + 蟻 + 石段"
+ontology_class = "record_bent"
+silhouette_type = "tripod"
+palette_id = "pal_badge_ant"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 75
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 30, "mp": 10, "atk": 12, "def": 17, "spd": 8, "int": 10, "res": 14}
+cap_stats = {"hp": 224, "mp": 82, "atk": 118, "def": 158, "spd": 84, "int": 94, "res": 126}
+base_recruit = 18
+scoutable = true
+personality_bias = "dutiful"
+battle_role = "tank"
+trait_1 = "段守り"
+trait_2 = "紋食い"
+loot_table_id = "LUT-027"
+prompt_id = "PRM-MON-027"
+notes = "階位章の欠けを巣へ運ぶ石段の標章蟻"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 1, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 1, "confusion": 0, "seal": 1, "fear": 1, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 2, "mark": 1, "hush": 1}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-004"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-024"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-028"}, {"learn_type": "level", "learn_value": 11, "skill_id": "SKL-012"}, {"learn_type": "level", "learn_value": 16, "skill_id": "SKL-079"}]

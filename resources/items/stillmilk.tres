@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/item_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+item_id = "item_heal_stillmilk"
+slug = "stillmilk"
+name_jp = "静乳の壺"
+name_en = "Still Milk Jar"
+item_kind = "consumable"
+subtype = "heal_hp"
+price = 165
+sell_price = 82
+target_scope = "ally_single"
+effect_key = "heal_hp"
+effect_value = "140"
+tags = ["heal", "rare"]
+description = "静かに搾った乳でHPを大回復"

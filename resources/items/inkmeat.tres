@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/item_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+item_id = "item_bait_inkmeat"
+slug = "inkmeat"
+name_jp = "墨肉片"
+name_en = "Ink Meat Morsel"
+item_kind = "consumable"
+subtype = "bait"
+price = 240
+sell_price = 120
+target_scope = "enemy_single"
+effect_key = "recruit_bonus"
+effect_value = "24"
+tags = ["bait", "material", "magic"]
+description = "物質と魔性が好む墨肉"

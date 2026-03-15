@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="BreedRuleData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/breed_rule_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+rule_id = "BRD-0213"
+rule_type = "special"
+parent_a_key = "MON-015"
+parent_b_key = "MON-027"
+child_monster_id = "MON-029"
+priority = 113
+special_recipe_bonus = 1
+lv_requirement = 16
+notes = "鍵棚の巣作りと badge 棚の蟻害が棚渡り害獣へまとまる hidden archive recipe"

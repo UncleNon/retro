@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-087"
+slug = "kodama_no_inori"
+name_jp = "こだまのいのり"
+name_en = "Echo Prayer"
+category = "magic"
+element = "wind"
+mp_cost = 6
+target_scope = "spread"
+formula_key = "M2"
+base_power = 20
+base_rate = 25
+tags = ["spread", "fixed_magic", "world", "W-002"]
+battle_role = "CONTROL"
+effect_text = "こだまが祈りをかえす"

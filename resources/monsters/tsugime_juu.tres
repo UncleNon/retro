@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-097"
+slug = "tsugime_juu"
+name_jp = "ツギメジュウ"
+name_en = "Tsugime Juu"
+family = "beast"
+rank = "S"
+size_class = "L"
+motif_group = "animal"
+secondary_motif_group = "gatebound"
+motif_source = "獣 + 継ぎ目 + 塔深層"
+ontology_class = "remnant_bearing"
+silhouette_type = "wide"
+palette_id = "pal_seam_beast"
+field_sprite_px = 16
+battle_sprite_px = 56
+base_level_cap = 84
+growth_curve_id = "LEGEND"
+base_stats = {"hp": 38, "mp": 16, "atk": 21, "def": 20, "spd": 14, "int": 16, "res": 18}
+cap_stats = {"hp": 286, "mp": 120, "atk": 196, "def": 184, "spd": 132, "int": 128, "res": 150}
+base_recruit = 0
+scoutable = false
+personality_bias = "watchful"
+battle_role = "tank"
+trait_1 = "継ぎ目纏い"
+trait_2 = "闇耐性"
+loot_table_id = "LUT-097"
+prompt_id = "PRM-MON-097"
+notes = "塔の深層で継ぎ目そのものを宿す根源の獣"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 2, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 1, "fear": 0, "instant_death": 2, "burn": 0, "freeze": 0, "curse": 1, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-044"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-081"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-072"}]

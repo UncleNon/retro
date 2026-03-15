@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-047"
+slug = "kaze_no_kuchibashi"
+name_jp = "かぜのくちばし"
+name_en = "Wind Beak"
+category = "physical"
+element = "wind"
+mp_cost = 3
+target_scope = "single"
+formula_key = "P3"
+base_power = 120
+base_rate = 0
+tags = ["single", "physical", "bird", "evo_from:SKL-002", "evo_to:SKL-048"]
+battle_role = "RUSH_OPEN"
+effect_text = "かぜをまとい つく"

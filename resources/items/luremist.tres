@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/item_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+item_id = "item_field_luremist"
+slug = "luremist"
+name_jp = "寄霧瓶"
+name_en = "Lure Mist Vial"
+item_kind = "consumable"
+subtype = "field"
+price = 100
+sell_price = 50
+target_scope = "party"
+effect_key = "lure_family"
+effect_value = "1"
+tags = ["field", "explore"]
+description = "特定系統の遭遇を増やす"

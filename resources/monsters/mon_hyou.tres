@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-066"
+slug = "mon_hyou"
+name_jp = "モンヒョウ"
+name_en = "Mon Hyou"
+family = "beast"
+rank = "C"
+size_class = "M"
+motif_group = "animal"
+secondary_motif_group = "gatebound"
+motif_source = "豹 + 門紋 + 境界林"
+ontology_class = "gate_touched"
+silhouette_type = "tall"
+palette_id = "pal_gate_leopard"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 74
+growth_curve_id = "LATE"
+base_stats = {"hp": 26, "mp": 12, "atk": 19, "def": 12, "spd": 18, "int": 11, "res": 11}
+cap_stats = {"hp": 198, "mp": 92, "atk": 176, "def": 108, "spd": 166, "int": 92, "res": 98}
+base_recruit = 10
+scoutable = true
+personality_bias = "sharp"
+battle_role = "striker"
+trait_1 = "門紋"
+trait_2 = "闇耐性"
+loot_table_id = "LUT-066"
+prompt_id = "PRM-MON-066"
+notes = "門に近い林で斑紋が変わる境界の豹"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": -1, "light": 1, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": 0, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-045"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-081"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-010"}]

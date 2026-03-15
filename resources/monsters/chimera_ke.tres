@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-078"
+slug = "chimera_ke"
+name_jp = "キメラケ"
+name_en = "Chimera Ke"
+family = "beast"
+rank = "B"
+size_class = "M"
+motif_group = "animal"
+secondary_motif_group = "bureaucratic"
+motif_source = "山羊 + 獅子 + 蛇尾 + 系譜紋"
+ontology_class = "bred_line"
+silhouette_type = "wide"
+palette_id = "pal_chimera_coat"
+field_sprite_px = 16
+battle_sprite_px = 48
+base_level_cap = 74
+growth_curve_id = "LATE"
+base_stats = {"hp": 32, "mp": 14, "atk": 20, "def": 16, "spd": 14, "int": 12, "res": 14}
+cap_stats = {"hp": 242, "mp": 106, "atk": 186, "def": 146, "spd": 132, "int": 98, "res": 118}
+base_recruit = 0
+scoutable = false
+personality_bias = "bold"
+battle_role = "striker"
+trait_1 = "三相"
+trait_2 = "闇微耐性"
+loot_table_id = "LUT-078"
+prompt_id = "PRM-MON-078"
+notes = "三つの獣の系譜が一つに継がれた合成獣"
+resistances = {"fire": 0, "water": 0, "wind": -1, "earth": 0, "thunder": 2, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 1, "confusion": 0, "seal": 0, "fear": 0, "instant_death": 1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-044"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-054"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-077"}]

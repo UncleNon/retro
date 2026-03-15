@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="EncounterZoneData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/encounter_zone_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+zone_id = "ZONE-W06-BRIDGE"
+world_id = "W-006"
+name_jp = "結縄橋"
+encounter_min_steps = 13
+encounter_max_steps = 21
+terrain_rate = 1.0
+time_band = "day"
+weather = "clear"
+notes = "結縄橋から鈴泊へ入る表導線"
+entries = [{"slot": 1, "monster_id": "MON-024", "weight": 25, "min_lv": 24, "max_lv": 25, "time_band": "day", "weather": "clear"}, {"slot": 2, "monster_id": "MON-025", "weight": 25, "min_lv": 24, "max_lv": 26, "time_band": "day", "weather": "clear"}, {"slot": 3, "monster_id": "MON-026", "weight": 20, "min_lv": 24, "max_lv": 26, "time_band": "day", "weather": "clear"}, {"slot": 4, "monster_id": "MON-003", "weight": 15, "min_lv": 24, "max_lv": 25, "time_band": "day", "weather": "clear"}, {"slot": 5, "monster_id": "MON-021", "weight": 15, "min_lv": 25, "max_lv": 26, "time_band": "day", "weather": "clear"}]

@@ -75,6 +75,9 @@
 | [story/09_silence_economy_and_powerbrokers.md](./story/09_silence_economy_and_powerbrokers.md) | 勢力ごとの沈黙、口止め、金、物流、改竄実務の運用具体 |
 | [story/10_starting_arc_engagement_playbook.md](./story/10_starting_arc_engagement_playbook.md) | 開始村〜`W-005` を飽きさせず引っ張るための問い設計、帰村ショック、人物泥設計 |
 | [story/11_session_pacing_and_curiosity_contract.md](./story/11_session_pacing_and_curiosity_contract.md) | `5分 / 15分 / 60分` の遊び単位、報酬拍動、ノート価値のある情報密度の契約 |
+| [story/12_starting_arc_relationship_and_faction_map.md](./story/12_starting_arc_relationship_and_faction_map.md) | 開始村〜`W-005` の関係図、勢力圧、伏線担務を同じ圧力線で読むための地図 |
+| [story/13_act_ii_bridge_relationship_and_faction_map.md](./story/13_act_ii_bridge_relationship_and_faction_map.md) | `W-006〜W-007` の local front, relation edge, clue carrier を Act II の橋渡し層として固定する |
+| [story/14_cross_system_echo_and_discovery_lattice.md](./story/14_cross_system_echo_and_discovery_lattice.md) | monster, 人物, 物, map prop, 婉曲語にまたがる discovery echo の配置台帳 |
 
 ---
 
@@ -90,6 +93,7 @@
 | [content/06_monster_taxonomy_and_motif_rules.md](./content/06_monster_taxonomy_and_motif_rules.md) | 400体のモチーフ配分、変形法則、prompt metadata |
 | [content/07_starting_village_full_npc_catalog.md](./content/07_starting_village_full_npc_catalog.md) | 開始村20人NPC完全カタログ（座標、巡回、会話フェーズ、伏線担務） |
 | [content/08_starting_region_ecology_and_monster_web.md](./content/08_starting_region_ecology_and_monster_web.md) | 開始村〜`W-005` の生態系、食物連鎖、違法利用、地形修正案、怪物 draft |
+| [content/09_act_i_ii_monster_expansion_and_discovery_pack.md](./content/09_act_i_ii_monster_expansion_and_discovery_pack.md) | `W-002`〜`W-007` 追加19体の runtime roster、hidden discovery、配合導線 |
 | [content/10_vertical_slice_codex_entries.md](./content/10_vertical_slice_codex_entries.md) | 序盤10体の図鑑文、説明帯、生態メモ |
 
 ---
@@ -111,6 +115,8 @@
 | [worlds/11_act_iii_world_sheets.md](./worlds/11_act_iii_world_sheets.md) | Act III 5世界の concrete world sheet 集 |
 | [worlds/12_act_iv_world_sheets.md](./worlds/12_act_iv_world_sheets.md) | Act IV 5世界の concrete world sheet 集 |
 | [worlds/13_act_v_world_sheets.md](./worlds/13_act_v_world_sheets.md) | Act V 2世界の concrete world sheet 集、本編決着と終止符 |
+| [worlds/14_starting_arc_map_and_secret_blueprints.md](./worlds/14_starting_arc_map_and_secret_blueprints.md) | 開始村〜`W-005` の map loop, hidden route, revisit payoff を固定する地図台帳 |
+| [worlds/15_act_ii_bridge_map_and_secret_blueprints.md](./worlds/15_act_ii_bridge_map_and_secret_blueprints.md) | `W-006〜W-007` の runtime zone, map loop, hidden pocket, revisit payoff を固定する地図台帳 |
 
 ---
 
@@ -170,9 +176,12 @@
 - `worlds/11`
 - `worlds/12`
 - `worlds/13`
+- `worlds/14`
+- `worlds/15`
 - `content/03`
 - `content/07`
 - `content/08`
+- `content/09`
 - `systems/11`
 - `systems/17`
 
@@ -189,6 +198,9 @@
 - `story/09`
 - `story/10`
 - `story/11`
+- `story/12`
+- `story/13`
+- `story/14`
 - `content/05`
 
 ### アセット量産を触る前

@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/item_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+item_id = "item_buff_clearash"
+slug = "clearash"
+name_jp = "透灰"
+name_en = "Clear Ash"
+item_kind = "consumable"
+subtype = "buff"
+price = 95
+sell_price = 47
+target_scope = "ally_single"
+effect_key = "buff_res"
+effect_value = "3"
+tags = ["buff", "battle"]
+description = "3ターン精神力を上げる"

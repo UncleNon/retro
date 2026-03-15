@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-062"
+slug = "hikari_no_yaiba"
+name_jp = "ひかりのやいば"
+name_en = "Light Blade"
+category = "magic"
+element = "light"
+mp_cost = 5
+target_scope = "single"
+formula_key = "M1"
+base_power = 22
+base_rate = 100
+tags = ["single", "fixed_magic", "light", "evo_to:SKL-063"]
+battle_role = "SAFE_POKE"
+effect_text = "ひかりの刃をとばす"

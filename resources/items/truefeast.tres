@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/item_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+item_id = "item_bait_truefeast"
+slug = "truefeast"
+name_jp = "真宴片"
+name_en = "True Feast Morsel"
+item_kind = "consumable"
+subtype = "bait"
+price = 460
+sell_price = 230
+target_scope = "enemy_single"
+effect_key = "recruit_bonus"
+effect_value = "32"
+tags = ["bait", "universal"]
+description = "上位汎用の勧誘餌"

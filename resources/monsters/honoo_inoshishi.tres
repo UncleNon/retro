@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-086"
+slug = "honoo_inoshishi"
+name_jp = "ホノオイノシシ"
+name_en = "Honoo Inoshishi"
+family = "beast"
+rank = "B"
+size_class = "M"
+motif_group = "animal"
+secondary_motif_group = "household"
+motif_source = "猪 + 炎 + 焼継窯"
+ontology_class = "wildborn"
+silhouette_type = "wide"
+palette_id = "pal_flame_boar"
+field_sprite_px = 16
+battle_sprite_px = 48
+base_level_cap = 72
+growth_curve_id = "LATE"
+base_stats = {"hp": 30, "mp": 10, "atk": 21, "def": 14, "spd": 12, "int": 8, "res": 10}
+cap_stats = {"hp": 226, "mp": 78, "atk": 192, "def": 128, "spd": 114, "int": 70, "res": 92}
+base_recruit = 0
+scoutable = false
+personality_bias = "bold"
+battle_role = "striker"
+trait_1 = "炎突進"
+trait_2 = "火耐性"
+loot_table_id = "LUT-086"
+prompt_id = "PRM-MON-086"
+notes = "焼継窯の炎を纏って突進する炎猪"
+resistances = {"fire": 0, "water": -1, "wind": 0, "earth": 2, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": 2, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-044"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-055"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-075"}]

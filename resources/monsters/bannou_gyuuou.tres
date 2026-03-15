@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-096"
+slug = "bannou_gyuuou"
+name_jp = "バンノウギュウオウ"
+name_en = "Bannou Gyuuou"
+family = "beast"
+rank = "S"
+size_class = "L"
+motif_group = "animal"
+secondary_motif_group = "bureaucratic"
+motif_source = "牛王 + 万能 + 聖郭中枢"
+ontology_class = "bred_line"
+silhouette_type = "wide"
+palette_id = "pal_ox_king"
+field_sprite_px = 16
+battle_sprite_px = 56
+base_level_cap = 84
+growth_curve_id = "LEGEND"
+base_stats = {"hp": 44, "mp": 14, "atk": 20, "def": 22, "spd": 8, "int": 10, "res": 20}
+cap_stats = {"hp": 326, "mp": 106, "atk": 188, "def": 200, "spd": 78, "int": 82, "res": 166}
+base_recruit = 0
+scoutable = false
+personality_bias = "calm"
+battle_role = "tank"
+trait_1 = "万能角"
+trait_2 = "地耐性"
+loot_table_id = "LUT-096"
+prompt_id = "PRM-MON-096"
+notes = "聖郭中枢に鎮座する万能の牛王"
+resistances = {"fire": 0, "water": -1, "wind": 0, "earth": 2, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 1, "fear": 0, "instant_death": 2, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-046"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-088"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-072"}]

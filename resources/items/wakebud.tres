@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/item_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+item_id = "item_cure_wakebud"
+slug = "wakebud"
+name_jp = "目覚め蕾"
+name_en = "Wake Bud"
+item_kind = "consumable"
+subtype = "cure"
+price = 42
+sell_price = 21
+target_scope = "ally_single"
+effect_key = "cure_status"
+effect_value = "sleep"
+tags = ["cure", "village"]
+description = "眠りから目覚めさせる蕾"

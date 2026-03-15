@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-078"
+slug = "hangeki"
+name_jp = "はんげき"
+name_en = "Counter Strike"
+category = "reaction"
+element = "none"
+mp_cost = 0
+target_scope = "single"
+formula_key = "R1"
+base_power = 0
+base_rate = 0
+tags = ["reaction", "counter", "breed", "forbidden:SKL-080"]
+battle_role = "SAFE_POKE"
+effect_text = "うけた力ではねかえす"

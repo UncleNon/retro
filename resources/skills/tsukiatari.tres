@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-041"
+slug = "tsukiatari"
+name_jp = "つきあたり"
+name_en = "Charge Rush"
+category = "physical"
+element = "none"
+mp_cost = 3
+target_scope = "single"
+formula_key = "P3"
+base_power = 120
+base_rate = 0
+tags = ["single", "physical", "evo_from:SKL-001", "evo_to:SKL-042"]
+battle_role = "SAFE_POKE"
+effect_text = "いきおいよく つく"

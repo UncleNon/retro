@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-072"
+slug = "tetsu_inoshishi"
+name_jp = "テツイノシシ"
+name_en = "Tetsu Inoshishi"
+family = "beast"
+rank = "C"
+size_class = "M"
+motif_group = "animal"
+secondary_motif_group = "household"
+motif_source = "猪 + 鉄皮 + 鉱道"
+ontology_class = "wildborn"
+silhouette_type = "wide"
+palette_id = "pal_iron_boar"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 70
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 30, "mp": 8, "atk": 19, "def": 16, "spd": 10, "int": 7, "res": 10}
+cap_stats = {"hp": 222, "mp": 64, "atk": 174, "def": 148, "spd": 96, "int": 66, "res": 92}
+base_recruit = 10
+scoutable = true
+personality_bias = "bold"
+battle_role = "striker"
+trait_1 = "鉄突進"
+trait_2 = "火微耐性"
+loot_table_id = "LUT-072"
+prompt_id = "PRM-MON-072"
+notes = "鉱道を走り鉄分で皮が硬化した猪"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": -1, "dark": 1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 1, "fear": 0, "instant_death": 0, "burn": 0, "freeze": 0, "curse": 1, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-044"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-075"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-041"}]

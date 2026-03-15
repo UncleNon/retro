@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-076"
+slug = "kawa_tatsu"
+name_jp = "カワタツ"
+name_en = "Kawa Tatsu"
+family = "beast"
+rank = "C"
+size_class = "M"
+motif_group = "animal"
+secondary_motif_group = "gatebound"
+motif_source = "川獺 + 蛟 + 堰"
+ontology_class = "wildborn"
+silhouette_type = "wide"
+palette_id = "pal_river_dragon_otter"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 72
+growth_curve_id = "LATE"
+base_stats = {"hp": 26, "mp": 13, "atk": 15, "def": 12, "spd": 14, "int": 13, "res": 12}
+cap_stats = {"hp": 198, "mp": 98, "atk": 142, "def": 110, "spd": 132, "int": 106, "res": 104}
+base_recruit = 10
+scoutable = true
+personality_bias = "restless"
+battle_role = "controller"
+trait_1 = "堰崩し"
+trait_2 = "水耐性"
+loot_table_id = "LUT-076"
+prompt_id = "PRM-MON-076"
+notes = "堰を崩して流れを変える蛟めいた川獣"
+resistances = {"fire": 0, "water": -1, "wind": 0, "earth": 2, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": 1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-045"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-057"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-026"}]

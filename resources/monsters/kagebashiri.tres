@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-056"
+slug = "kagebashiri"
+name_jp = "カゲバシリ"
+name_en = "Kagebashiri"
+family = "beast"
+rank = "D"
+size_class = "S"
+motif_group = "animal"
+secondary_motif_group = "gatebound"
+motif_source = "兎 + 影 + 夜道"
+ontology_class = "gate_touched"
+silhouette_type = "tall"
+palette_id = "pal_shadow_hare"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 68
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 20, "mp": 10, "atk": 14, "def": 8, "spd": 19, "int": 10, "res": 10}
+cap_stats = {"hp": 154, "mp": 76, "atk": 132, "def": 86, "spd": 170, "int": 84, "res": 92}
+base_recruit = 18
+scoutable = true
+personality_bias = "swift"
+battle_role = "striker"
+trait_1 = "影走り"
+trait_2 = "闇耐性"
+loot_table_id = "LUT-056"
+prompt_id = "PRM-MON-056"
+notes = "夜道で影だけが先に走る大兎"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-003"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-081"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-033"}]

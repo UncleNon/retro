@@ -63,7 +63,7 @@
 
 注記:
 
-- `docs/specs/worlds/09〜13`, `docs/specs/story/01〜10` により、Initial Release を支える world / story / history の canonical baseline は作成済み
+- `docs/specs/worlds/09〜14`, `docs/specs/story/01〜12`, `docs/specs/content/07〜09` により、Initial Release の前半を支える world / story / relationship / monster / map secret の canonical baseline は作成済み
 - ここで未完了として残しているのは、400体の個票、全世界分の NPC 実表、後半 item / skill / loot の完全 roster など、量産と実データ化の層
 
 ### Phase 3: コンテンツ実装・前半

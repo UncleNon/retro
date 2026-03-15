@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-074"
+slug = "rai_saru"
+name_jp = "ライサル"
+name_en = "Rai Saru"
+family = "beast"
+rank = "C"
+size_class = "M"
+motif_group = "animal"
+secondary_motif_group = "astral"
+motif_source = "猿 + 雷 + 鉄塔"
+ontology_class = "wildborn"
+silhouette_type = "tall"
+palette_id = "pal_thunder_ape"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 68
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 24, "mp": 12, "atk": 15, "def": 10, "spd": 16, "int": 14, "res": 10}
+cap_stats = {"hp": 184, "mp": 90, "atk": 142, "def": 96, "spd": 148, "int": 114, "res": 92}
+base_recruit = 12
+scoutable = true
+personality_bias = "cunning"
+battle_role = "striker"
+trait_1 = "雷掴み"
+trait_2 = "雷耐性"
+loot_table_id = "LUT-074"
+prompt_id = "PRM-MON-074"
+notes = "鉄塔に登り雷を手で掴む知恵猿"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": -1, "dark": 2, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": 0, "burn": 0, "freeze": 0, "curse": 1, "blind": -1, "charm": 0, "mark": 1, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-045"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-059"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-073"}]

@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-068"
+slug = "kaze_shika"
+name_jp = "カゼシカ"
+name_en = "Kaze Shika"
+family = "beast"
+rank = "C"
+size_class = "M"
+motif_group = "animal"
+secondary_motif_group = "pastoral"
+motif_source = "牡鹿 + 風角 + 高原"
+ontology_class = "wildborn"
+silhouette_type = "tall"
+palette_id = "pal_wind_stag"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 74
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 26, "mp": 11, "atk": 16, "def": 14, "spd": 17, "int": 10, "res": 12}
+cap_stats = {"hp": 196, "mp": 84, "atk": 152, "def": 126, "spd": 156, "int": 84, "res": 106}
+base_recruit = 10
+scoutable = true
+personality_bias = "swift"
+battle_role = "striker"
+trait_1 = "風角"
+trait_2 = "風耐性"
+loot_table_id = "LUT-068"
+prompt_id = "PRM-MON-068"
+notes = "高原で角に風を纏う牡鹿"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 1, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": 0, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-043"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-008"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-074"}]

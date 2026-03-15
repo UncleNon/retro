@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-026"
+slug = "suzuwatari"
+name_jp = "スズワタリ"
+name_en = "Suzuwatari"
+family = "bird"
+rank = "C"
+size_class = "M"
+motif_group = "animal"
+secondary_motif_group = "bureaucratic"
+motif_source = "水鳥 + 借り鈴 + 渡し舟"
+ontology_class = "gate_touched"
+silhouette_type = "tall"
+palette_id = "pal_ferry_bird"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 78
+growth_curve_id = "LATE"
+base_stats = {"hp": 28, "mp": 14, "atk": 16, "def": 10, "spd": 18, "int": 13, "res": 12}
+cap_stats = {"hp": 210, "mp": 110, "atk": 158, "def": 98, "spd": 170, "int": 118, "res": 108}
+base_recruit = 15
+scoutable = true
+personality_bias = "restless"
+battle_role = "bait_specialist"
+trait_1 = "借り鈴運び"
+trait_2 = "渡し急襲"
+loot_table_id = "LUT-026"
+prompt_id = "PRM-MON-026"
+notes = "借り鈴をくわえて家と家の符号を運ぶ渡り鳥"
+resistances = {"fire": 0, "water": 0, "wind": 1, "earth": 0, "thunder": -1, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 1, "seal": 0, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 1, "charm": 0, "mark": 1, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-002"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-006"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-032"}, {"learn_type": "level", "learn_value": 11, "skill_id": "SKL-034"}, {"learn_type": "level", "learn_value": 17, "skill_id": "SKL-074"}]

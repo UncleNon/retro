@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-077"
+slug = "kagami_shika"
+name_jp = "カガミシカ"
+name_en = "Kagami Shika"
+family = "beast"
+rank = "C"
+size_class = "M"
+motif_group = "animal"
+secondary_motif_group = "astral"
+motif_source = "鹿 + 鏡角 + 鏡森"
+ontology_class = "gate_touched"
+silhouette_type = "tall"
+palette_id = "pal_mirror_deer"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 74
+growth_curve_id = "LATE"
+base_stats = {"hp": 24, "mp": 13, "atk": 14, "def": 12, "spd": 16, "int": 14, "res": 14}
+cap_stats = {"hp": 186, "mp": 98, "atk": 134, "def": 108, "spd": 148, "int": 114, "res": 118}
+base_recruit = 8
+scoutable = true
+personality_bias = "gentle"
+battle_role = "bait_specialist"
+trait_1 = "鏡角"
+trait_2 = "光耐性"
+loot_table_id = "LUT-077"
+prompt_id = "PRM-MON-077"
+notes = "鏡森で角に像を映す鹿"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 1, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 1, "fear": 0, "instant_death": 1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 1, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-008"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-062"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-030"}]

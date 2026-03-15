@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-060"
+slug = "neri_itachi"
+name_jp = "ネリイタチ"
+name_en = "Neri Itachi"
+family = "beast"
+rank = "D"
+size_class = "S"
+motif_group = "animal"
+secondary_motif_group = "household"
+motif_source = "大鼬 + 練り革 + 皮剥ぎ場"
+ontology_class = "wildborn"
+silhouette_type = "tall"
+palette_id = "pal_tanned_weasel"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 64
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 20, "mp": 9, "atk": 16, "def": 8, "spd": 18, "int": 10, "res": 8}
+cap_stats = {"hp": 156, "mp": 70, "atk": 148, "def": 82, "spd": 162, "int": 84, "res": 78}
+base_recruit = 20
+scoutable = true
+personality_bias = "sharp"
+battle_role = "striker"
+trait_1 = "皮剥ぎ"
+trait_2 = "闇微耐性"
+loot_table_id = "LUT-060"
+prompt_id = "PRM-MON-060"
+notes = "皮革場の匂いを纏う素早い大鼬"
+resistances = {"fire": -1, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": -1, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-003"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-081"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-033"}]

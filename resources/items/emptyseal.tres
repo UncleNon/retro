@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/item_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+item_id = "item_catalyst_emptyseal"
+slug = "emptyseal"
+name_jp = "空印"
+name_en = "Empty Seal"
+item_kind = "consumable"
+subtype = "catalyst"
+price = 400
+sell_price = 200
+target_scope = "breed"
+effect_key = "mutation_direct"
+effect_value = "1"
+tags = ["catalyst", "breed"]
+description = "mutation 方向を指定する"

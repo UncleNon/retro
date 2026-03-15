@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="BreedRuleData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/breed_rule_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+rule_id = "BRD-0105"
+rule_type = "family"
+parent_a_key = "magic"
+parent_b_key = "plant"
+child_monster_id = "MON-020"
+priority = 55
+special_recipe_bonus = 0
+lv_requirement = 12
+notes = "remnant light 系の橋渡し"

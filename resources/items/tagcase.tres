@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/item_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+item_id = "item_record_tagcase"
+slug = "tagcase"
+name_jp = "札筒"
+name_en = "Tag Case"
+item_kind = "consumable"
+subtype = "record"
+price = 120
+sell_price = 60
+target_scope = "party"
+effect_key = "clue_hold"
+effect_value = "1"
+tags = ["record", "clue"]
+description = "借り名札や通行鋲と同寸の札を収められる筒"

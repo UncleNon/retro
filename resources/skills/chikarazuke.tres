@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-073"
+slug = "chikarazuke"
+name_jp = "ちからづけ"
+name_en = "Embolden"
+category = "setup"
+element = "none"
+mp_cost = 3
+target_scope = "ally_single"
+formula_key = "B1"
+base_power = 0
+base_rate = 0
+tags = ["setup", "single", "buff"]
+battle_role = "ALLY_SUSTAIN"
+effect_text = "ちからを奮いたたす"

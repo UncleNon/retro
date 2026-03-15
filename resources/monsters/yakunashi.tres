@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-028"
+slug = "yakunashi"
+name_jp = "ヤクナシ"
+name_en = "Yakunashi"
+family = "magic"
+rank = "C"
+size_class = "M"
+motif_group = "abstract"
+secondary_motif_group = "bureaucratic"
+motif_source = "役名札 + 影 + 欠番"
+ontology_class = "record_bent"
+silhouette_type = "floating"
+palette_id = "pal_blank_role"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 77
+growth_curve_id = "LATE"
+base_stats = {"hp": 24, "mp": 22, "atk": 10, "def": 11, "spd": 14, "int": 18, "res": 17}
+cap_stats = {"hp": 182, "mp": 170, "atk": 90, "def": 104, "spd": 132, "int": 168, "res": 160}
+base_recruit = 14
+scoutable = true
+personality_bias = "blank"
+battle_role = "controller"
+trait_1 = "役ぬけ"
+trait_2 = "欄あき"
+loot_table_id = "LUT-028"
+prompt_id = "PRM-MON-028"
+notes = "役名だけを抜き取り欄外の余白を増やす階市の影札"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 1, "dark": 1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 1, "seal": 1, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 1, "blind": -1, "charm": 0, "mark": 2, "hush": 1}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-017"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-018"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-031"}, {"learn_type": "level", "learn_value": 12, "skill_id": "SKL-077"}, {"learn_type": "level", "learn_value": 17, "skill_id": "SKL-072"}]

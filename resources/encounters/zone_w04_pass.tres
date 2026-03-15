@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="EncounterZoneData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/encounter_zone_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+zone_id = "ZONE-W04-PASS"
+world_id = "W-004"
+name_jp = "白札坂"
+encounter_min_steps = 14
+encounter_max_steps = 22
+terrain_rate = 1.0
+time_band = "day"
+weather = "clear"
+notes = "岬関所へ上がる検札前坂道"
+entries = [{"slot": 1, "monster_id": "MON-017", "weight": 30, "min_lv": 18, "max_lv": 20, "time_band": "day", "weather": "clear"}, {"slot": 2, "monster_id": "MON-018", "weight": 20, "min_lv": 18, "max_lv": 20, "time_band": "day", "weather": "clear"}, {"slot": 3, "monster_id": "MON-006", "weight": 15, "min_lv": 18, "max_lv": 19, "time_band": "day", "weather": "clear"}, {"slot": 4, "monster_id": "MON-008", "weight": 15, "min_lv": 18, "max_lv": 19, "time_band": "day", "weather": "clear"}, {"slot": 5, "monster_id": "MON-019", "weight": 20, "min_lv": 20, "max_lv": 21, "time_band": "day", "weather": "clear"}]

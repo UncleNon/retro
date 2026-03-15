@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/item_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+item_id = "item_debuff_dullbell"
+slug = "dullbell"
+name_jp = "鈍鈴片"
+name_en = "Dull Bell Shard"
+item_kind = "consumable"
+subtype = "debuff"
+price = 92
+sell_price = 46
+target_scope = "enemy_all"
+effect_key = "debuff_acc"
+effect_value = "3"
+tags = ["debuff", "battle"]
+description = "敵全体の命中を少し下げる"

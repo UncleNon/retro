@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-024"
+slug = "amarisuzu"
+name_jp = "アマリスズ"
+name_en = "Amarisuzu"
+family = "magic"
+rank = "D"
+size_class = "S"
+motif_group = "ritual"
+secondary_motif_group = "bureaucratic"
+motif_source = "鈴筒 + 余り結び + 湿気"
+ontology_class = "record_bent"
+silhouette_type = "floating"
+palette_id = "pal_leftover_bell"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 74
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 24, "mp": 20, "atk": 9, "def": 10, "spd": 13, "int": 17, "res": 16}
+cap_stats = {"hp": 178, "mp": 152, "atk": 88, "def": 96, "spd": 126, "int": 154, "res": 146}
+base_recruit = 19
+scoutable = true
+personality_bias = "echoing"
+battle_role = "controller"
+trait_1 = "余り結び"
+trait_2 = "符号ゆらし"
+loot_table_id = "LUT-024"
+prompt_id = "PRM-MON-024"
+notes = "余り結びと借り鈴の符号をずらす湿地の鈴膜"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 1, "poison": 0, "sleep": 1, "paralysis": 0, "confusion": 1, "seal": 1, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 1, "blind": 0, "charm": 0, "mark": 2, "hush": 2}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-017"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-020"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-028"}, {"learn_type": "level", "learn_value": 10, "skill_id": "SKL-032"}, {"learn_type": "level", "learn_value": 15, "skill_id": "SKL-036"}]

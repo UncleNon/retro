@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-029"
+slug = "tanasuberi"
+name_jp = "タナスベリ"
+name_en = "Tanasuberi"
+family = "material"
+rank = "C"
+size_class = "M"
+motif_group = "tool"
+secondary_motif_group = "bureaucratic"
+motif_source = "位牌棚 + やもり + 借り章"
+ontology_class = "record_bent"
+silhouette_type = "serpentine"
+palette_id = "pal_shelf_glide"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 79
+growth_curve_id = "LATE"
+base_stats = {"hp": 27, "mp": 14, "atk": 15, "def": 12, "spd": 16, "int": 14, "res": 13}
+cap_stats = {"hp": 206, "mp": 112, "atk": 150, "def": 118, "spd": 148, "int": 128, "res": 122}
+base_recruit = 16
+scoutable = true
+personality_bias = "nimble"
+battle_role = "bait_specialist"
+trait_1 = "棚渡り"
+trait_2 = "借り章はこび"
+loot_table_id = "LUT-029"
+prompt_id = "PRM-MON-029"
+notes = "祖棚と役名棚を滑って貸し badge を入れ替える棚守り"
+resistances = {"fire": 0, "water": 0, "wind": 1, "earth": 1, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 1, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 1, "mark": 2, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-029"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-004"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-033"}, {"learn_type": "level", "learn_value": 11, "skill_id": "SKL-031"}, {"learn_type": "level", "learn_value": 16, "skill_id": "SKL-078"}]

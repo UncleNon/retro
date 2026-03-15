@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-092"
+slug = "homura_shishi"
+name_jp = "ホムラシシ"
+name_en = "Homura Shishi"
+family = "beast"
+rank = "A"
+size_class = "L"
+motif_group = "animal"
+secondary_motif_group = "bureaucratic"
+motif_source = "獅子 + 焔 + 審問台"
+ontology_class = "gate_touched"
+silhouette_type = "wide"
+palette_id = "pal_pyre_lion"
+field_sprite_px = 16
+battle_sprite_px = 48
+base_level_cap = 82
+growth_curve_id = "LEGEND"
+base_stats = {"hp": 34, "mp": 14, "atk": 21, "def": 17, "spd": 14, "int": 13, "res": 15}
+cap_stats = {"hp": 256, "mp": 106, "atk": 196, "def": 156, "spd": 132, "int": 106, "res": 128}
+base_recruit = 0
+scoutable = false
+personality_bias = "bold"
+battle_role = "striker"
+trait_1 = "焔纏い"
+trait_2 = "火耐性"
+loot_table_id = "LUT-092"
+prompt_id = "PRM-MON-092"
+notes = "審問台で焔を纏う裁きの獅子"
+resistances = {"fire": 0, "water": -1, "wind": 0, "earth": 2, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 1, "fear": 0, "instant_death": 2, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-044"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-055"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-072"}]

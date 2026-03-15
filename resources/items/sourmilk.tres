@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/item_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+item_id = "item_bait_sourmilk"
+slug = "sourmilk"
+name_jp = "酸乳餌"
+name_en = "Sour Milk Bait"
+item_kind = "consumable"
+subtype = "bait"
+price = 180
+sell_price = 90
+target_scope = "enemy_single"
+effect_key = "recruit_bonus"
+effect_value = "22"
+tags = ["bait", "beast", "plant"]
+description = "獣と植物が好む酸乳"

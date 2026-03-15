@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/item_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+item_id = "item_cure_warmbone"
+slug = "warmbone"
+name_jp = "温骨札"
+name_en = "Warm Bone Tag"
+item_kind = "consumable"
+subtype = "cure"
+price = 90
+sell_price = 45
+target_scope = "ally_single"
+effect_key = "cure_status"
+effect_value = "freeze|paralysis"
+tags = ["cure", "field"]
+description = "凍えや麻痺を温めて解く"

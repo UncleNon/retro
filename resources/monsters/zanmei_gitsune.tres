@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-084"
+slug = "zanmei_gitsune"
+name_jp = "ザンメイギツネ"
+name_en = "Zanmei Gitsune"
+family = "beast"
+rank = "B"
+size_class = "M"
+motif_group = "animal"
+secondary_motif_group = "funerary"
+motif_source = "狐 + 残名 + 回廊"
+ontology_class = "remnant_bearing"
+silhouette_type = "tall"
+palette_id = "pal_remnant_fox"
+field_sprite_px = 16
+battle_sprite_px = 48
+base_level_cap = 76
+growth_curve_id = "LATE"
+base_stats = {"hp": 24, "mp": 15, "atk": 17, "def": 11, "spd": 18, "int": 15, "res": 14}
+cap_stats = {"hp": 186, "mp": 112, "atk": 160, "def": 102, "spd": 166, "int": 122, "res": 116}
+base_recruit = 0
+scoutable = false
+personality_bias = "cunning"
+battle_role = "controller"
+trait_1 = "残名喰い"
+trait_2 = "闇耐性"
+loot_table_id = "LUT-084"
+prompt_id = "PRM-MON-084"
+notes = "残響回廊で消えた名を喰う九尾に近い狐"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 2, "dark": -1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 1, "fear": 0, "instant_death": 1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-045"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-077"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-010"}]

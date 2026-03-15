@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/item_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+item_id = "item_cure_duskthread"
+slug = "duskthread"
+name_jp = "暮糸包み"
+name_en = "Dusk Thread Wrap"
+item_kind = "consumable"
+subtype = "cure"
+price = 120
+sell_price = 60
+target_scope = "ally_single"
+effect_key = "cure_status"
+effect_value = "any2"
+tags = ["cure", "rare"]
+description = "二つの状態異常を同時に解除"

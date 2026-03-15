@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-061"
+slug = "tsuchi_mogura_ou"
+name_jp = "ツチモグラオウ"
+name_en = "Tsuchi Mogura Ou"
+family = "beast"
+rank = "D"
+size_class = "S"
+motif_group = "animal"
+secondary_motif_group = "funerary"
+motif_source = "大土竜 + 王冠 + 地脈"
+ontology_class = "wildborn"
+silhouette_type = "round"
+palette_id = "pal_king_mole"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 68
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 26, "mp": 9, "atk": 13, "def": 16, "spd": 8, "int": 10, "res": 12}
+cap_stats = {"hp": 194, "mp": 70, "atk": 128, "def": 142, "spd": 80, "int": 86, "res": 106}
+base_recruit = 20
+scoutable = true
+personality_bias = "patient"
+battle_role = "tank"
+trait_1 = "地脈探り"
+trait_2 = "地耐性"
+loot_table_id = "LUT-061"
+prompt_id = "PRM-MON-061"
+notes = "地脈に沿って大穴を穿つ王冠模様の大土竜"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-043"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-012"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-083"}]

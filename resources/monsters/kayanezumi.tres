@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-032"
+slug = "kayanezumi"
+name_jp = "カヤネズミ"
+name_en = "Kayanezumi"
+family = "beast"
+rank = "E"
+size_class = "S"
+motif_group = "animal"
+secondary_motif_group = "household"
+motif_source = "野鼠 + 茅 + 穀倉"
+ontology_class = "wildborn"
+silhouette_type = "round"
+palette_id = "pal_straw_mouse"
+field_sprite_px = 16
+battle_sprite_px = 24
+base_level_cap = 60
+growth_curve_id = "EARLY"
+base_stats = {"hp": 16, "mp": 6, "atk": 10, "def": 8, "spd": 18, "int": 9, "res": 7}
+cap_stats = {"hp": 128, "mp": 48, "atk": 102, "def": 86, "spd": 156, "int": 78, "res": 72}
+base_recruit = 36
+scoutable = true
+personality_bias = "cunning"
+battle_role = "bait_specialist"
+trait_1 = "穀かじり"
+trait_2 = "逃走上手"
+loot_table_id = "LUT-032"
+prompt_id = "PRM-MON-032"
+notes = "納屋の穀袋に住む茅色の小鼠"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 1, "seal": 0, "fear": 1, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-004"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-033"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-029"}]

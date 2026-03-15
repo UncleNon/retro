@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-071"
+slug = "fukai_nemuri"
+name_jp = "ふかいねむり"
+name_en = "Deep Slumber"
+category = "status"
+element = "none"
+mp_cost = 8
+target_scope = "single"
+formula_key = "S1"
+base_power = 0
+base_rate = 48
+tags = ["status", "plant", "evo_from:SKL-015", "forbidden:SKL-076"]
+battle_role = "STATUS_SETUP"
+effect_text = "ふかいねむりにおちる"

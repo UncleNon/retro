@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-062"
+slug = "shimo_yamainu"
+name_jp = "シモヤマイヌ"
+name_en = "Shimo Yamainu"
+family = "beast"
+rank = "D"
+size_class = "S"
+motif_group = "animal"
+secondary_motif_group = "pastoral"
+motif_source = "山犬 + 霜 + 冬営地"
+ontology_class = "bred_line"
+silhouette_type = "tall"
+palette_id = "pal_frost_hound"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 69
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 24, "mp": 10, "atk": 15, "def": 12, "spd": 14, "int": 9, "res": 12}
+cap_stats = {"hp": 180, "mp": 76, "atk": 142, "def": 110, "spd": 132, "int": 78, "res": 106}
+base_recruit = 18
+scoutable = true
+personality_bias = "bold"
+battle_role = "striker"
+trait_1 = "霜纏い"
+trait_2 = "水微耐性"
+loot_table_id = "LUT-062"
+prompt_id = "PRM-MON-062"
+notes = "冬営地の番犬として飼われた霜毛の山犬"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": -1, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-045"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-057"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-084"}]

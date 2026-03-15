@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-066"
+slug = "tsuki_no_shizuku"
+name_jp = "つきのしずく"
+name_en = "Moon Drop"
+category = "recover"
+element = "light"
+mp_cost = 8
+target_scope = "ally_single"
+formula_key = "H1"
+base_power = 22
+base_rate = 0
+tags = ["recover", "divine", "evo_from:SKL-027"]
+battle_role = "ALLY_SUSTAIN"
+effect_text = "つきの光がしみる"

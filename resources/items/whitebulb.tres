@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/item_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+item_id = "item_heal_whitebulb"
+slug = "whitebulb"
+name_jp = "白球根"
+name_en = "White Bulb"
+item_kind = "consumable"
+subtype = "heal_hp"
+price = 110
+sell_price = 55
+target_scope = "ally_single"
+effect_key = "heal_hp"
+effect_value = "100"
+tags = ["heal", "uncommon"]
+description = "白い球根でHPを大きく回復"

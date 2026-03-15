@@ -15,6 +15,6 @@ target_scope = "spread"
 formula_key = "M2"
 base_power = 14
 base_rate = 100
-tags = ["spread", "fixed_magic", "bird", "fog"]
+tags = ["spread", "fixed_magic", "bird", "fog", "evo_to:SKL-049"]
 battle_role = "RUSH_OPEN"
 effect_text = "全体小ダメージ"

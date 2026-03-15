@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-080"
+slug = "mon_guma"
+name_jp = "モングマ"
+name_en = "Mon Guma"
+family = "beast"
+rank = "B"
+size_class = "M"
+motif_group = "animal"
+secondary_motif_group = "gatebound"
+motif_source = "熊 + 門痕 + 境界山"
+ontology_class = "gate_touched"
+silhouette_type = "wide"
+palette_id = "pal_gate_bear"
+field_sprite_px = 16
+battle_sprite_px = 48
+base_level_cap = 78
+growth_curve_id = "LATE"
+base_stats = {"hp": 38, "mp": 11, "atk": 19, "def": 19, "spd": 8, "int": 9, "res": 14}
+cap_stats = {"hp": 282, "mp": 86, "atk": 178, "def": 172, "spd": 78, "int": 74, "res": 120}
+base_recruit = 0
+scoutable = false
+personality_bias = "bold"
+battle_role = "tank"
+trait_1 = "門纏い"
+trait_2 = "地耐性"
+loot_table_id = "LUT-080"
+prompt_id = "PRM-MON-080"
+notes = "門の痕が背中に焼き付いた境界山の大熊"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": -1, "dark": 2, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": 1, "burn": 0, "freeze": 0, "curse": 1, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-046"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-088"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-079"}]
