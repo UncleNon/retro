@@ -1,3 +1,5 @@
+> **Archived**: このディレクトリは旧Unity設計のアーカイブ。現行の source of truth は `docs/requirements/`。
+
 # Monster Chronicle（モンスタークロニクル）
 
 DQMリスペクト × GBドット絵 × モバイルRPG

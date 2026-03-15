@@ -8,6 +8,9 @@
 > - `docs/specs/worlds/07_world_sheet_contract.md`
 > - `docs/specs/story/04_main_story_beats_and_world_sequence.md`
 > - `docs/specs/story/03_foreshadow_allocation_map.md`
+> - `docs/specs/story/10_starting_arc_engagement_playbook.md`
+> - `docs/specs/story/11_session_pacing_and_curiosity_contract.md`
+> - `docs/specs/content/08_starting_region_ecology_and_monster_web.md`
 
 ---
 
@@ -62,6 +65,14 @@
 - `record_objects`
 - `npc_roster_min`
 - `return_visit_delta`
+- `local_answer`
+- `bigger_question`
+
+### 2.5 child surfaces
+
+- `story_hook_surface`
+- `ecology_surface`
+- `runtime_row`
 
 ---
 
@@ -157,8 +168,61 @@ cross_world_echoes:
   - W-###
   - W-###
 
+gate_condition:
+  gate_condition_type: story_flag|item|rank|family_resonance|record_count|ritual_state|composite
+  visible_surface: ""
+  backend_requirements:
+    required_flag: ""
+    required_item: ""
+    required_rank: ""
+    required_family_resonance: ""
+    required_record_count: 0
+  fail_feedback: ""
+  success_shift: ""
+
 return_visit_delta: ""
 ```
+
+### 5.1 gate condition templates
+
+`gate_condition` は free text の感想欄でなく、進行設計の契約として使う。
+
+| `gate_condition_type` | 何を要求するか | 向いている world |
+|-----------------------|----------------|------------------|
+| `story_flag` | 世界内事件の解決、主要 actor の phase 進行 | すべて。最も基本 |
+| `item` | key item, writ, seal, rubbing, ritual object | early echo / material worlds |
+| `rank` | 闘技、通行資格、公的序列 | judgment worlds |
+| `family_resonance` | 特定 family / ontology の同伴や提示 | pastoral, gatebound, fracture |
+| `record_count` | 台帳、拓本、clue log の累積 | ledger / ritual / terminal |
+| `ritual_state` | 誓詞、弔い、鐘、供物の正しい手順 | ritual worlds |
+| `composite` | 上記 2 つ以上の組み合わせ | Act IV-V, terminal worlds |
+
+### 5.2 act 別の複雑さ上限
+
+| Act | 基本形 | 禁止 |
+|-----|--------|------|
+| I | `story_flag` 単独、または `story_flag + item` | 3条件以上の複合 |
+| II | 単独 or 2条件 | missable clue 前提 |
+| III | 2条件中心 | UI だけ見ないと解けない不可視条件 |
+| IV | 2条件 + visible surface を強く出す | lore を知らないと理不尽になる鍵探し |
+| V | `composite` 可。ただし本編完結に必須の条件は再確認導線を必ず置く | RNG 依存、rare spawn 依存 |
+
+### 5.3 visible surface rule
+
+どの gate も、プレイヤーに `何を試されているか` の表面を先に見せる。
+
+| surface | 例 |
+|---------|----|
+| `資格` | 門札、階位章、通行検査台 |
+| `記録` | 拓本台、帳場、照合棚 |
+| `血統 / family` | 柵、焼印台、共鳴柱 |
+| `儀礼` | 鐘、供物台、逆誓詞、灰匙 |
+
+ルール:
+
+- backend requirement は hidden でも、visible surface は hidden にしない
+- fail feedback は `世界語彙` で返す
+- success shift は `listening -> awakened -> stable` のどこが進むかを書き残す
 
 ---
 

@@ -24,9 +24,9 @@
 | 勝敗は準備で決まる | fixed | 4コマンド + 作戦AI |
 | 確率は局所、長期は決定論 | fixed | 勧誘、変異のみ揺らぎ |
 | 初回体験はレトロ、補助はオプション | fixed | UI / UX 基準 |
-| 1セッションの理想プレイ時間 | fixed | systems/01 §13: 5分/15分/60分の体験設計と報酬間隔を定義 |
-| プレイヤー心理の報酬点 | fixed | systems/01 §14: 10種の報酬イベント、演出カテゴリ、大報酬30分保証を定義 |
-| “ノートを取りたくなる”情報量 | fixed | systems/01 §15: 配合/図鑑/門/弱点のヒント粒度を定義。答えは教えず手がかりを与える |
+| 1セッションの理想プレイ時間 | fixed | systems/01 §13 + story/11: 数値 target と `micro/short/medium` の体験単位を両方定義 |
+| プレイヤー心理の報酬点 | fixed | systems/01 §14 + story/11: 報酬イベントと reward heartbeat を接続 |
+| “ノートを取りたくなる”情報量 | fixed | systems/01 §15 + story/11: 情報開示ポリシーと notebook trigger 条件を接続 |
 | 乱数の許容範囲の共通ポリシー | fixed | systems/06 で定義 |
 
 ---
@@ -100,11 +100,11 @@
 | 地形別 `terrain_rate` | fixed | spec 反映済み |
 | 時間帯別テーブル | fixed | schema に反映 |
 | 天候別テーブル | fixed | schema に反映 |
-| 出現Lvレンジ | fixed | systems/01 §9: 開始村Lv1–4からPostgame Lv70–90まで、World tier +4 の標準テーブルを定義 |
+| 出現Lvレンジ | fixed | systems/01 §9 + systems/17 §6.7: 世界帯と zone purpose の両方で切る |
 | 先制 / 不意打ち | fixed | systems/08: SPD比較。自パーティ平均SPD > 敵平均SPD×1.3 で先制15%、逆で不意打ち10% |
 | リペル / よけ鈴相当 | fixed | content/04: `item_field_repelash`（よけ灰）で低ランク遭遇抑制 |
 | レア枠の保証 | fixed | systems/06: recruit pity 連続失敗5回+5、8回+10。ドロップにはpityなし |
-| 塔周辺の変異出現 | fixed | systems/01 §9: encounter 側で管理。塔前+1%、塔内+2%、門隣接+3%。配合変異とは独立判定 |
+| 塔周辺の変異出現 | fixed | systems/17 §6.8 + systems/16: `tower_touched` / `mutation_only` を proximity band で管理 |
 
 ---
 
@@ -156,7 +156,7 @@
 | モチーフ配分比 | fixed | spec 反映済み |
 | 序盤10体の詳細 | fixed | spec 反映済み |
 | 400体全体の taxonomy | fixed | content/06 で定義 |
-| rank ごとの役割 | fixed | content/06 §7.5: E=学習/基盤、D=主力/橋渡し、C=特殊出力、B=配合専用/チェーン結果、A=多世代到達点、S=頂点レシピ |
+| rank ごとの役割 | fixed | content/06 §5.1: encounter, recruit/breed, lore burden を rank ごとに定義 |
 | 系統ごとのシルエット原則 | fixed | art/01 + content/06: family ごとの一次形、禁止しがちな型、モチーフ相性を定義 |
 | パレット数 / 制限 | fixed | art/01, art/02 で規格化 |
 | アニメフレーム予算 | fixed | art/01, art/02 で規格化 |
@@ -184,7 +184,7 @@
 | ショートカット設計 | fixed | worlds/04 + worlds/06: 隠し導線、短い迂回、安全路/危険路の規格あり |
 | ランダムダンジョンの深度法則 | fixed | worlds/04: 5F以降でギミック追加、10F以降で空気差分、15F以降で encounter table 差替 |
 | ワープ / 一本道 / 暗闇の使用頻度 | fixed | worlds/04: 序盤=一本道+簡易ワープ+隠し通路。中盤以降=スイッチ+暗がり。終盤=記録参照謎解き |
-| 門ごとの反応条件テンプレ | fixed | worlds/05 §3.5: 全21門の条件型と具体条件を定義。story_flag/arena_rank/key_item/clue_count/family_resonance/compositeの6型 |
+| 門ごとの反応条件テンプレ | fixed | worlds/08 §5.1-5.3 + systems/04: `story_flag/item/rank/family_resonance/record_count/ritual_state/composite` を規格化 |
 
 ---
 
@@ -280,9 +280,9 @@
 | マスタースキーマ定義 | fixed | systems spec |
 | encounter table schema | fixed | systems spec |
 | breed rule schema | fixed | systems spec |
-| テレメトリイベント | next | REQ-001 後半で詳細化 |
-| コンテンツ検証器 | next | 未参照ID、重複ID、欠損画像 |
-| balance sandbox | next | 数式確認用シミュレータ。実装フェーズで作成 |
+| テレメトリイベント | fixed | systems/17 §13: encounter authoring 用 event contract を定義 |
+| コンテンツ検証器 | fixed | systems/17 §12 + systems/05: hard fail / warning / registry validation を定義 |
+| balance sandbox | fixed | systems/17 §11: encounter sandbox の input / output / pass target / fail 判定を定義 |
 | prompt registry | fixed | systems/05 + art/02: asset_registry.csv に generator/version/seed/approved を管理 |
 
 ---
@@ -292,12 +292,12 @@
 | 項目 | 状態 | メモ |
 |------|------|------|
 | REQ-001 リスク登録簿 | fixed | plans に作成済み |
-| セーブ破損テスト | next | 最優先 |
-| iOS export smoke | next | 最優先 |
-| フォント可読性テスト | next | 最優先 |
-| battle tempo 計測 | next | 1戦20〜45秒 |
-| 勧誘のストレス計測 | next | 10〜15分で1体 |
-| 配合の前進感テスト | next | 1回で達成感が出るか |
+| セーブ破損テスト | fixed | systems/18 §3.1: truncation, schema drift, midwrite crash, partial registry を smoke 化 |
+| iOS export smoke | fixed | systems/18 §3.2: build, launch, input, save/load, audio, suspend/resume を smoke 化 |
+| フォント可読性テスト | fixed | systems/18 §3.3: dialogue, item list, battle log, mobile touch で readability smoke を定義 |
+| battle tempo 計測 | fixed | systems/18 §4.1: 序盤通常戦 median `20〜45秒`, p90 `<=60秒` を target 化 |
+| 勧誘のストレス計測 | fixed | systems/18 §4.2: onboarding first recruit `10〜15分` と telemetry を定義 |
+| 配合の前進感テスト | fixed | systems/18 §4.3: 初回配合後の visible progress と 3回以内の前進条件を定義 |
 | AI asset provenance check | fixed | systems/05 + art/02: asset_registry.csv で全生成物を追跡 |
 | legal similarity review | fixed | art/02: IP similarity screening 手順を production spec に定義 |
 

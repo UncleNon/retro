@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="WorldData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/world_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+world_id = "W-006"
+slug = "bellknot_marsh"
+name_jp = "鈴結びの湿地"
+name_en = "Bellknot Marsh"
+act = "II"
+size_class = "medium"
+function_class = "ritual_world"
+level_min = 24
+level_max = 30
+taboo = "結び目を解くと存在が薄まる"
+biome = "湿地と浅水と結縄橋"
+power_structure = "巫者集落"
+dominant_families = ["plant", "bird", "magic"]
+gate_condition = "記録品条件"
+notes = "鈴と結縄で生者と不在者を数える"

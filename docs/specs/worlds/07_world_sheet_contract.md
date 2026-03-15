@@ -9,9 +9,12 @@
 > - `docs/specs/story/03_foreshadow_allocation_map.md`
 > - `docs/specs/story/04_main_story_beats_and_world_sequence.md`
 > - `docs/specs/story/06_millennial_geopolitics_and_personages.md`
+> - `docs/specs/story/10_starting_arc_engagement_playbook.md`
+> - `docs/specs/story/11_session_pacing_and_curiosity_contract.md`
 > - `docs/specs/worlds/05_world_catalog_and_budget.md`
 > - `docs/specs/worlds/06_settlement_layout_and_route_rules.md`
 > - `docs/specs/worlds/08_world_sheet_template_and_variation_rules.md`
+> - `docs/specs/content/08_starting_region_ecology_and_monster_web.md`
 
 ---
 
@@ -42,6 +45,18 @@
 - 原初世界や上位存在の断定
 
 これらは `content/*`, `systems/*`, `individual world detail docs` に逃がす。
+
+### 2.3 child surfaces
+
+world sheet は 1 枚で世界を完結させない。以下の child surface を前提にする。
+
+| child surface | 役割 |
+|---------------|------|
+| `story hook surface` | foreshadow, return shock, local answer / bigger question, research texture を保持する |
+| `ecology surface` | gate state, habitat revision, illegal use, food web, monster misuse を保持する |
+| `runtime row` | `world_master.csv` に落とす最小 runtime 属性だけを保持する |
+
+runtime row は world sheet の要約であり、world sheet の代替ではない。
 
 ---
 
@@ -231,7 +246,7 @@ world sheet は上位文書を上書きしない。
 | `monster_law` | モンスターの法的位置 |
 | `boss_lesson` | ボスが教えること |
 | `clue_ids` | 接続 clue |
-| `gate_condition` | 門条件 |
+| `gate_condition` | 門条件。`worlds/08` の canonical block に従う |
 | `post_clear_shift` | クリア後の変化 |
 
 ---

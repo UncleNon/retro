@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="WorldData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/world_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+world_id = "W-013"
+slug = "unregistered_vine_terraces"
+name_jp = "無籍の葡萄段"
+name_en = "Unregistered Vine Terraces"
+act = "III"
+size_class = "small"
+function_class = "social_world"
+level_min = 40
+level_max = 46
+taboo = "名がないと収穫に載らない"
+biome = "段々畑と石垣"
+power_structure = "地主と無籍層"
+dominant_families = ["plant", "beast"]
+gate_condition = "witness flag"
+notes = "無籍労働者が棚畑を支える"

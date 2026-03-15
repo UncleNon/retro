@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="WorldData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/world_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+world_id = "W-010"
+slug = "salt_archive_storehouse"
+name_jp = "群書の塩庫"
+name_en = "Archive Salt Storehouse"
+act = "III"
+size_class = "medium"
+function_class = "material_world"
+level_min = 34
+level_max = 40
+taboo = "台帳を濡らすと所属が変わる"
+biome = "塩庫と運河と倉荷場"
+power_structure = "倉庫組合"
+dominant_families = ["material", "magic"]
+gate_condition = "記録印"
+notes = "記録と塩が同じ倉で保存される"

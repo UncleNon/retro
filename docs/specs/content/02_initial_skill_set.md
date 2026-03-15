@@ -248,7 +248,7 @@
 |------|--------------------------|
 | `ガンガン` | `physical`, `fixed_magic`, `PAYOFF` |
 | `いろいろ` | `starter`, `mark`, `status`, `recover` |
-| `いのちだいじに` | `recover`, `ALLY_SUSTAIN`, `CONTROL` |
+| `命を守れ` | `recover`, `ALLY_SUSTAIN`, `CONTROL` |
 | `さくせんなし` | MP 0 の通常攻撃を優先 |
 
 ### AI上の個別例外

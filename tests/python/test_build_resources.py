@@ -20,9 +20,11 @@ class BuildResourcesTest(unittest.TestCase):
         self.assertEqual(result["counts"]["monsters"], 10)
         self.assertEqual(result["counts"]["skills"], 36)
         self.assertEqual(result["counts"]["items"], 14)
-        self.assertEqual(result["counts"]["worlds"], 4)
+        self.assertEqual(result["counts"]["worlds"], 21)
         self.assertEqual(result["counts"]["encounters"], 5)
         self.assertEqual(result["counts"]["breeding"], 8)
+        self.assertIn("W-001", result["manifest"]["worlds"])
+        self.assertIn("W-021", result["manifest"]["worlds"])
 
     def test_invalid_skill_reference_fails_validation(self) -> None:
         with tempfile.TemporaryDirectory() as temp_dir:

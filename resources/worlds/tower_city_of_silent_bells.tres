@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="WorldData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/world_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+world_id = "W-019"
+slug = "tower_city_of_silent_bells"
+name_jp = "閉鐘の塔都"
+name_en = "Tower City Of Silent Bells"
+act = "IV"
+size_class = "medium"
+function_class = "judgment_world"
+level_min = 54
+level_max = 60
+taboo = "閉じた鐘の名を呼ぶな"
+biome = "門都と鐘楼と橋都"
+power_structure = "塔管理局前線都市"
+dominant_families = ["divine", "material", "magic"]
+gate_condition = "D→C級"
+notes = "鐘が鳴らなくなった門都"

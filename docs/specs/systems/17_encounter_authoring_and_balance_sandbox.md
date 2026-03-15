@@ -281,6 +281,48 @@ zone は少なくとも以下 4 指標で authoring する。
 - `boss_echo_mechanic` 任意
 - `sandbox_target_profile`
 
+### 6.7 `recommended_level_band` 契約
+
+world sheet 側の `recommended_level_band` を正とし、各 zone はそこから相対オフセットで band を切る。
+
+| `zone_purpose` | lower offset | upper offset | 説明 |
+|----------------|-------------:|-------------:|------|
+| `approach` | `-2` | `0` | 世界導入。新種は見せるが即詰みを避ける |
+| `main_route` | `0` | `+1` | その世界の標準戦 |
+| `safe_route` | `-1` | `0` | 安定導線。bait や回復を節約しやすい |
+| `danger_route` | `+1` | `+3` | greed を誘う枝。rare / clue / shortcut と交換 |
+| `resource_loop` | `0` | `+2` | 周回前提。scout / catalyst の欲を乗せてよい |
+| `clue_pocket` | `0` | `+1` | 物語証拠の周辺。情報を厚くし、難度は上げすぎない |
+| `boss_approach` | `+2` | `+4` | ボス文法の予習。消耗は増やすが壊滅は狙わない |
+| `post_clear_revisit` | `+2` | `+6` | 再訪差分。main clear 後の上振れ帯 |
+
+補足:
+
+- level は `1` 未満にしない
+- zone 内の通常 pack の level spread は `3` 以内
+- elite pack だけが zone upper を `+2` まで超えてよい
+- recruit を強く誘う個体は、原則 `zone lower 〜 mid` に置く
+
+### 6.8 tower-adjacent anomaly / mutation 出現ポリシー
+
+`tower_touched` と `mutation_only` は雰囲気用の記号でなく、距離と gate state に応じて段階的に増やす。
+
+| proximity band | 代表 zone | `tower_touched` 目安 | `mutation_only` 目安 | ルール |
+|----------------|-----------|---------------------:|---------------------:|--------|
+| `trace` | 塔が遠景に見える生活圏 | `0%〜3%` | `0%` | 違和感だけ見せる |
+| `fringe` | 塔前荒地、門外縁 | `3%〜8%` | `0%〜2%` | 夜 / 天候 / elite row 限定で mutation を許可 |
+| `gate_front` | 門前、boss approach | `8%〜16%` | `2%〜6%` | telegraph つき。通常生態を消さない |
+| `rupture` | fracture 世界の境界区画 | `12%〜22%` | `4%〜10%` | 明確に異常圧を感じさせてよい |
+| `deep_gate` | terminal / postgame 深部 | `18%〜30%` | `8%〜16%` | mainline でも終盤のみ。早期多用禁止 |
+
+authoring rule:
+
+- `mutation_only` を本編必須進行の収穫源にしない
+- `tower_touched + mutation_only` の合計 row 比率は、通常 world では `30%` を超えない
+- boss approach にも `native` pack を最低 1 系統残す
+- anomaly pack の drop は main progress で必須にしない
+- `tower_touched` は clue / mood の補強、`mutation_only` は rare greed の補強として使い分ける
+
 ---
 
 ## 7. Rarity Bands

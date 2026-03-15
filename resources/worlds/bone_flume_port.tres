@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="WorldData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/world_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+world_id = "W-012"
+slug = "bone_flume_port"
+name_jp = "骨樋の港"
+name_en = "Bone Flume Port"
+act = "III"
+size_class = "large"
+function_class = "material_world"
+level_min = 38
+level_max = 44
+taboo = "弔い前の骨も貨物扱い"
+biome = "港湾と水門と荷場"
+power_structure = "港湾商会連合"
+dominant_families = ["material", "undead", "bird"]
+gate_condition = "E→D級"
+notes = "骨と荷が同じ樋を流れる港"

@@ -8,3 +8,15 @@ W-006,bellknot_marsh,鈴結びの湿地,Bellknot Marsh,II,medium,ritual_world,24
 W-007,erased_name_steps,削名の階市,Erased Name Steps,II,medium,social_world,26,32,生まれ名を口にすると罰,垂直市街と石段,階位商人寡頭制,material|magic,F→E級,役名と階位が生まれ名より強い社会
 W-008,brandring_pasture,獣印の放牧環,Brandring Pasture,II,small,material_world,28,34,印なき獣は存在しない扱い,放牧環状地,大牧主の私権支配,beast|material,family_resonance,所有印で人と獣の存在を裁く
 W-009,foster_snowfield,仮親の雪原,Foster Snowfield,II,large,fracture_world,30,36,継子は冬名を持てない,雪原と凍林と風穴,分家と本家の二重秩序,beast|undead|divine,証拠束,冬名と夏名が養親線と実親線で割れる
+W-010,salt_archive_storehouse,群書の塩庫,Archive Salt Storehouse,III,medium,material_world,34,40,台帳を濡らすと所属が変わる,塩庫と運河と倉荷場,倉庫組合,material|magic,記録印,記録と塩が同じ倉で保存される
+W-011,reverse_vow_monastery,逆誓の修院,Reverse Vow Monastery,III,medium,ritual_world,36,42,誓詞順を違えると所属反転,石庭と回廊と鐘楼,修院自治,divine|undead|magic,W-010 条件,誓いを逆に唱える修院世界
+W-012,bone_flume_port,骨樋の港,Bone Flume Port,III,large,material_world,38,44,弔い前の骨も貨物扱い,港湾と水門と荷場,港湾商会連合,material|undead|bird,E→D級,骨と荷が同じ樋を流れる港
+W-013,unregistered_vine_terraces,無籍の葡萄段,Unregistered Vine Terraces,III,small,social_world,40,46,名がないと収穫に載らない,段々畑と石垣,地主と無籍層,plant|beast,witness flag,無籍労働者が棚畑を支える
+W-014,mirrorwood_of_no_return,返らずの鏡森,Mirrorwood Of No Return,III,medium,fracture_world,42,48,水面に本名を映すな,樹海と鏡石と湧水,森番文化,magic|divine|plant,magic 共鳴,鏡像の所属が本体を上書きする
+W-015,blackcloth_pilgrim_road,黒布の巡礼路,Blackcloth Pilgrim Road,IV,medium,ritual_world,46,52,顔を晒した弔いは拒まれる,巡礼路と風穴,巡礼団規律,divine|undead,黒布所持,弔い布で顔を隠して進む
+W-016,kintsugi_forge_soil,焼継の鍛土,Kintsugi Forge Soil,IV,small,material_world,48,54,継ぎ足した名は炉に通せ,灰土と炉床,職人組と家督制度,material|dragon,鍛印証拠,割れた器と血統を同じ理屈で継ぐ
+W-017,corridor_of_lingering_names,残名の回廊,Corridor Of Lingering Names,IV,large,fracture_world,50,56,先に呼ばれた名に返事するな,回廊と空室と階段墓,旧管理施設遺構,magic|undead|divine,記録数条件,名だけ先に届く残響回廊
+W-018,dual_seal_tribunal,二署の法台,Dual Seal Tribunal,IV,medium,social_world,52,58,一人に二つの印を持たせるな,法院と役所と市場,法官と記録官の対立統治,material|magic,expose flag,二つの役所が矛盾した所属を発行する
+W-019,tower_city_of_silent_bells,閉鐘の塔都,Tower City Of Silent Bells,IV,medium,judgment_world,54,60,閉じた鐘の名を呼ぶな,門都と鐘楼と橋都,塔管理局前線都市,divine|material|magic,D→C級,鐘が鳴らなくなった門都
+W-020,cathedral_of_continuance,継ぎ止めの聖郭,Cathedral Of Continuance,V,large,terminal_world,58,64,名を整えれば罪は消えると信じる,聖郭と記録聖堂,複合支配体制,divine|material|undead,main.act >= 5,継ぎ足しを正当化してきた聖郭
+W-021,edge_of_unraveling,ほどけの縁,Edge Of Unraveling,V,medium,terminal_world,60,68,持ち込んだ定義が先に壊れる,白泥と境界原と静音域,無主 / 境界観測の仮座のみ残る,divine|magic|dragon,本編終盤,名も所属も持ち込めない境界世界

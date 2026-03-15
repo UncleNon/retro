@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="WorldData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/world_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+world_id = "W-020"
+slug = "cathedral_of_continuance"
+name_jp = "継ぎ止めの聖郭"
+name_en = "Cathedral Of Continuance"
+act = "V"
+size_class = "large"
+function_class = "terminal_world"
+level_min = 58
+level_max = 64
+taboo = "名を整えれば罪は消えると信じる"
+biome = "聖郭と記録聖堂"
+power_structure = "複合支配体制"
+dominant_families = ["divine", "material", "undead"]
+gate_condition = "main.act >= 5"
+notes = "継ぎ足しを正当化してきた聖郭"

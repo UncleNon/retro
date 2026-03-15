@@ -54,6 +54,7 @@
 | [systems/15_save_migration_and_compatibility_policy.md](./systems/15_save_migration_and_compatibility_policy.md) | schema version、migration、backup、rollback、互換運用 |
 | [systems/16_monster_canonical_package_and_pipeline.md](./systems/16_monster_canonical_package_and_pipeline.md) | モンスター1体を concept / art / data / asset で束ねる canonical package |
 | [systems/17_encounter_authoring_and_balance_sandbox.md](./systems/17_encounter_authoring_and_balance_sandbox.md) | zone / pack / rarity / scouting pressure / route pair を扱う遭遇設計 sandbox |
+| [systems/18_playtest_measurement_and_smoke_contract.md](./systems/18_playtest_measurement_and_smoke_contract.md) | save/export/readability の smoke と battle/recruit/breed の体感計測契約 |
 
 ---
 
@@ -71,6 +72,7 @@
 | [story/08_historical_texture_research_ingestion.md](./story/08_historical_texture_research_ingestion.md) | 実在史料の構造を設定へ抽象化して入れるための research-to-lore 変換規則 |
 | [story/09_silence_economy_and_powerbrokers.md](./story/09_silence_economy_and_powerbrokers.md) | 勢力ごとの沈黙、口止め、金、物流、改竄実務の運用具体 |
 | [story/10_starting_arc_engagement_playbook.md](./story/10_starting_arc_engagement_playbook.md) | 開始村〜`W-005` を飽きさせず引っ張るための問い設計、帰村ショック、人物泥設計 |
+| [story/11_session_pacing_and_curiosity_contract.md](./story/11_session_pacing_and_curiosity_contract.md) | `5分 / 15分 / 60分` の遊び単位、報酬拍動、ノート価値のある情報密度の契約 |
 
 ---
 
@@ -130,8 +132,6 @@
 | [art/90_monster_sprite_production_spec_legacy.md](./art/90_monster_sprite_production_spec_legacy.md) | 旧版モンスタースプライト制作仕様（art/02 に統合済み） |
 | [art/91_monster_sprite_prompt_and_output_spec_legacy.md](./art/91_monster_sprite_prompt_and_output_spec_legacy.md) | 旧版プロンプト・出力仕様（art/02 + content/06 に統合済み） |
 
-> **注**: `art/04_tileset_and_map_art_production_manual.md` は旧番号。正は `art/09_tileset_and_map_art_production_manual.md`。
-
 ---
 
 ## 8. 実装前の最低確認
@@ -180,9 +180,12 @@
 - `story/03`
 - `story/04`
 - `story/05`
+- `story/06`
+- `story/07`
 - `story/08`
 - `story/09`
 - `story/10`
+- `story/11`
 - `content/05`
 
 ### アセット量産を触る前

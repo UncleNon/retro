@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="WorldData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/world_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+world_id = "W-017"
+slug = "corridor_of_lingering_names"
+name_jp = "残名の回廊"
+name_en = "Corridor Of Lingering Names"
+act = "IV"
+size_class = "large"
+function_class = "fracture_world"
+level_min = 50
+level_max = 56
+taboo = "先に呼ばれた名に返事するな"
+biome = "回廊と空室と階段墓"
+power_structure = "旧管理施設遺構"
+dominant_families = ["magic", "undead", "divine"]
+gate_condition = "記録数条件"
+notes = "名だけ先に届く残響回廊"

@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="WorldData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/world_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+world_id = "W-015"
+slug = "blackcloth_pilgrim_road"
+name_jp = "黒布の巡礼路"
+name_en = "Blackcloth Pilgrim Road"
+act = "IV"
+size_class = "medium"
+function_class = "ritual_world"
+level_min = 46
+level_max = 52
+taboo = "顔を晒した弔いは拒まれる"
+biome = "巡礼路と風穴"
+power_structure = "巡礼団規律"
+dominant_families = ["divine", "undead"]
+gate_condition = "黒布所持"
+notes = "弔い布で顔を隠して進む"

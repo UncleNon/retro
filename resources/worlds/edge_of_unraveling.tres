@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="WorldData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/world_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+world_id = "W-021"
+slug = "edge_of_unraveling"
+name_jp = "ほどけの縁"
+name_en = "Edge Of Unraveling"
+act = "V"
+size_class = "medium"
+function_class = "terminal_world"
+level_min = 60
+level_max = 68
+taboo = "持ち込んだ定義が先に壊れる"
+biome = "白泥と境界原と静音域"
+power_structure = "無主 / 境界観測の仮座のみ残る"
+dominant_families = ["divine", "magic", "dragon"]
+gate_condition = "本編終盤"
+notes = "名も所属も持ち込めない境界世界"

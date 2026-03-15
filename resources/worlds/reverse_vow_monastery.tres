@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="WorldData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/world_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+world_id = "W-011"
+slug = "reverse_vow_monastery"
+name_jp = "逆誓の修院"
+name_en = "Reverse Vow Monastery"
+act = "III"
+size_class = "medium"
+function_class = "ritual_world"
+level_min = 36
+level_max = 42
+taboo = "誓詞順を違えると所属反転"
+biome = "石庭と回廊と鐘楼"
+power_structure = "修院自治"
+dominant_families = ["divine", "undead", "magic"]
+gate_condition = "W-010 条件"
+notes = "誓いを逆に唱える修院世界"

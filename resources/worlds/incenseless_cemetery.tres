@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="WorldData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/world_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+world_id = "W-005"
+slug = "incenseless_cemetery"
+name_jp = "香なしの墓苑"
+name_en = "Incenseless Cemetery"
+act = "II"
+size_class = "small"
+function_class = "ritual_world"
+level_min = 22
+level_max = 28
+taboo = "名を残すと戻ると信じる"
+biome = "石墓と苔と水脈"
+power_structure = "墓守と記録寺"
+dominant_families = ["undead", "plant"]
+gate_condition = "供養品奉納"
+notes = "香を焚かない弔いで死と失踪の境目を管理する"

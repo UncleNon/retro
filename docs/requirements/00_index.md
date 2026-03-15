@@ -41,6 +41,7 @@
 | 乱数ポリシー | [../specs/systems/06_randomness_policy_and_probability_budgets.md](../specs/systems/06_randomness_policy_and_probability_budgets.md) | 確率を許す場所、禁止する場所、救済方針 |
 | 進行フラグ / セーブ | [../specs/systems/07_progress_flags_and_save_state_model.md](../specs/systems/07_progress_flags_and_save_state_model.md) | 章、世界、門、NPC、clue、save state の管理 |
 | 遭遇設計 sandbox | [../specs/systems/17_encounter_authoring_and_balance_sandbox.md](../specs/systems/17_encounter_authoring_and_balance_sandbox.md) | zone purpose、pack composition、scouting pressure、route pair、sandbox 検証 |
+| playtest / smoke 契約 | [../specs/systems/18_playtest_measurement_and_smoke_contract.md](../specs/systems/18_playtest_measurement_and_smoke_contract.md) | save, export, readability の smoke と battle/recruit/breed 計測 |
 | モンスター canonical package | [../specs/systems/16_monster_canonical_package_and_pipeline.md](../specs/systems/16_monster_canonical_package_and_pipeline.md) | monster を concept / art / data / asset で束ねる正本契約 |
 | 初期モンスター | [../specs/content/01_vertical_slice_monsters.md](../specs/content/01_vertical_slice_monsters.md) | 序盤10体の詳細、数値、プロンプト |
 | モチーフ設計 | [../specs/content/06_monster_taxonomy_and_motif_rules.md](../specs/content/06_monster_taxonomy_and_motif_rules.md) | 400体のモチーフ配分、変形法則、命名、prompt metadata |
@@ -55,6 +56,7 @@
 | 事件参照ポリシー | [../specs/story/05_real_incident_inspiration_policy.md](../specs/story/05_real_incident_inspiration_policy.md) | 神隠し、失踪、共同体伝承を抽象化して使うためのルール |
 | 歴史 texture 変換 | [../specs/story/08_historical_texture_research_ingestion.md](../specs/story/08_historical_texture_research_ingestion.md) | 実在史料を制度、物、言葉、生活癖へ変換する research 運用 |
 | 沈黙経済 / 勢力運用 | [../specs/story/09_silence_economy_and_powerbrokers.md](../specs/story/09_silence_economy_and_powerbrokers.md) | faction ごとの口止め、物流、日銭、改竄実務 |
+| session / curiosity 契約 | [../specs/story/11_session_pacing_and_curiosity_contract.md](../specs/story/11_session_pacing_and_curiosity_contract.md) | `5分 / 15分 / 60分` の遊び単位、報酬拍動、メモを取りたくなる情報密度 |
 | 世界配分表 | [../specs/worlds/05_world_catalog_and_budget.md](../specs/worlds/05_world_catalog_and_budget.md) | 21世界の機能、禁忌、予算 |
 | 開始村レイアウト | [../specs/worlds/01_starting_village_layout.md](../specs/worlds/01_starting_village_layout.md) | 村と塔周辺の寸法、座標、導線 |
 | 拠点量産規格 | [../specs/worlds/06_settlement_layout_and_route_rules.md](../specs/worlds/06_settlement_layout_and_route_rules.md) | 村、町、都市、街道の数値規格と導線ルール |

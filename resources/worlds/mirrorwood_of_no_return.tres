@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="WorldData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/world_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+world_id = "W-014"
+slug = "mirrorwood_of_no_return"
+name_jp = "返らずの鏡森"
+name_en = "Mirrorwood Of No Return"
+act = "III"
+size_class = "medium"
+function_class = "fracture_world"
+level_min = 42
+level_max = 48
+taboo = "水面に本名を映すな"
+biome = "樹海と鏡石と湧水"
+power_structure = "森番文化"
+dominant_families = ["magic", "divine", "plant"]
+gate_condition = "magic 共鳴"
+notes = "鏡像の所属が本体を上書きする"

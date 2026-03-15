@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="WorldData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/world_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+world_id = "W-007"
+slug = "erased_name_steps"
+name_jp = "削名の階市"
+name_en = "Erased Name Steps"
+act = "II"
+size_class = "medium"
+function_class = "social_world"
+level_min = 26
+level_max = 32
+taboo = "生まれ名を口にすると罰"
+biome = "垂直市街と石段"
+power_structure = "階位商人寡頭制"
+dominant_families = ["material", "magic"]
+gate_condition = "F→E級"
+notes = "役名と階位が生まれ名より強い社会"

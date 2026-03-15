@@ -503,7 +503,7 @@ resolved_service_price(service, shop) =
 
 - `registry_id` 未付番の active row
 - `slug` が canonical ID と意味的に乖離しすぎている
-- `record_item` が `carry` bucket だが、永続知識側アイテムが未定義
+- `record_item` が `carry` bucket だが、対応する `record_log` 側の永続知識 item / flag / codex entry のいずれも定義されていない
 - 同一 world 内で price multiplier が極端にばらつく
 - `price_override` が多すぎて profile で吸収可能な調整を壊している
 - 同一報酬 source に bundle が乱立し、source 粒度の設計が崩れている

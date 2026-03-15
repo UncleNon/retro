@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="WorldData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/world_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+world_id = "W-016"
+slug = "kintsugi_forge_soil"
+name_jp = "焼継の鍛土"
+name_en = "Kintsugi Forge Soil"
+act = "IV"
+size_class = "small"
+function_class = "material_world"
+level_min = 48
+level_max = 54
+taboo = "継ぎ足した名は炉に通せ"
+biome = "灰土と炉床"
+power_structure = "職人組と家督制度"
+dominant_families = ["material", "dragon"]
+gate_condition = "鍛印証拠"
+notes = "割れた器と血統を同じ理屈で継ぐ"

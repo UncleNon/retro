@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="WorldData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/world_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+world_id = "W-009"
+slug = "foster_snowfield"
+name_jp = "仮親の雪原"
+name_en = "Foster Snowfield"
+act = "II"
+size_class = "large"
+function_class = "fracture_world"
+level_min = 30
+level_max = 36
+taboo = "継子は冬名を持てない"
+biome = "雪原と凍林と風穴"
+power_structure = "分家と本家の二重秩序"
+dominant_families = ["beast", "undead", "divine"]
+gate_condition = "証拠束"
+notes = "冬名と夏名が養親線と実親線で割れる"

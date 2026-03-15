@@ -949,12 +949,12 @@ Contents:
 | Row | Text | Description |
 |-----|------|-------------|
 | 0 | [Monster 1 name] | Monster name header |
-| 1 | ガンガンいこうぜ | Attack-focused AI |
-| 2 | バッチリがんばれ | Balanced AI |
-| 3 | いのちだいじに | Heal-focused AI |
-| 4 | じゅもんつかうな | Physical-only AI |
-| 5 | サポートたのむぞ | Support-focused AI |
-| 6 | めいれいさせろ | Manual control |
+| 1 | 全力で攻めろ | Attack-focused AI |
+| 2 | まかせた | Balanced AI |
+| 3 | 命を守れ | Heal-focused AI |
+| 4 | 力だけで戦え | Physical-only AI |
+| 5 | 援護を頼む | Support-focused AI |
+| 6 | 直接指示 | Manual control |
 
 The player cycles through monsters with left/right input. The monster name at the top changes. The cursor selects a strategy for the currently displayed monster.
 
@@ -976,11 +976,11 @@ When the player selects `どうぐ`, an item list window appears.
 
 Items that cannot be used in battle are displayed in disabled text color (`#606060`) and cannot be selected.
 
-### 7.4 Direct Command Submenu (めいれいさせろ)
+### 7.4 Direct Command Submenu (直接指示)
 
-When `めいれいさせろ` is active for a monster, selecting `たたかう` opens per-monster command selection.
+When `直接指示` is active for a monster, selecting `たたかう` opens per-monster command selection.
 
-For each monster with `めいれいさせろ` active, a command window appears sequentially:
+For each monster with `直接指示` active, a command window appears sequentially:
 
 | Property | Value |
 |----------|-------|

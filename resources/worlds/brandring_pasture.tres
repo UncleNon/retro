@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="WorldData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/world_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+world_id = "W-008"
+slug = "brandring_pasture"
+name_jp = "獣印の放牧環"
+name_en = "Brandring Pasture"
+act = "II"
+size_class = "small"
+function_class = "material_world"
+level_min = 28
+level_max = 34
+taboo = "印なき獣は存在しない扱い"
+biome = "放牧環状地"
+power_structure = "大牧主の私権支配"
+dominant_families = ["beast", "material"]
+gate_condition = "family_resonance"
+notes = "所有印で人と獣の存在を裁く"
