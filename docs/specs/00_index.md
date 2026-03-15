@@ -55,6 +55,8 @@
 | [systems/16_monster_canonical_package_and_pipeline.md](./systems/16_monster_canonical_package_and_pipeline.md) | モンスター1体を concept / art / data / asset で束ねる canonical package |
 | [systems/17_encounter_authoring_and_balance_sandbox.md](./systems/17_encounter_authoring_and_balance_sandbox.md) | zone / pack / rarity / scouting pressure / route pair を扱う遭遇設計 sandbox |
 | [systems/18_playtest_measurement_and_smoke_contract.md](./systems/18_playtest_measurement_and_smoke_contract.md) | save/export/readability の smoke と battle/recruit/breed の体感計測契約 |
+| [systems/20_battle_implementation_blueprint.md](./systems/20_battle_implementation_blueprint.md) | バトルのステートマシン、ターン解決、AI、UI接続のGodot実装設計 |
+| [systems/21_breeding_implementation_blueprint.md](./systems/21_breeding_implementation_blueprint.md) | 配合のレシピ判定、継承、変異、UIフロー、永続化のGodot実装設計 |
 
 ---
 
@@ -88,6 +90,7 @@
 | [content/06_monster_taxonomy_and_motif_rules.md](./content/06_monster_taxonomy_and_motif_rules.md) | 400体のモチーフ配分、変形法則、prompt metadata |
 | [content/07_starting_village_full_npc_catalog.md](./content/07_starting_village_full_npc_catalog.md) | 開始村20人NPC完全カタログ（座標、巡回、会話フェーズ、伏線担務） |
 | [content/08_starting_region_ecology_and_monster_web.md](./content/08_starting_region_ecology_and_monster_web.md) | 開始村〜`W-005` の生態系、食物連鎖、違法利用、地形修正案、怪物 draft |
+| [content/10_vertical_slice_codex_entries.md](./content/10_vertical_slice_codex_entries.md) | 序盤10体の図鑑文、説明帯、生態メモ |
 
 ---
 

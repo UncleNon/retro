@@ -12,26 +12,75 @@ SKL-010,shirushiubai,しるしうばい,Mark Ripper,physical,dark,4,single,P2,90
 SKL-011,kioku_no_hizume,きおくのひづめ,Memory Hoof,physical,light,5,single,P5,135,0,single|physical|divine|tower_reactive,PAYOFF,瀕死付近で鋭くなる重打
 SKL-012,ashimoto_kuzushi,あしもとくずし,Trip Break,physical,earth,3,single,P2,90,65,single|physical|setup,BREAK_DEF,素早さを落とす
 SKL-013,susuhaki,すすはき,Soot Breath,status,dark,2,single,S2,0,48,status|soot|starter,CONTROL,soot を付与する
-SKL-014,dokukona,どくこな,Poison Dust,status,poison,3,single,S1,0,55,status|plant|starter,STATUS_SETUP,毒を付与する
+SKL-014,dokukona,どくこな,Poison Dust,status,poison,3,single,S1,0,55,status|plant|starter|forbidden:SKL-070,STATUS_SETUP,毒を付与する
 SKL-015,nemurigona,ねむりごな,Sleep Dust,status,none,5,single,S1,0,44,status|plant|fog,STATUS_SETUP,眠りを狙う
 SKL-016,mayowaseru,まよわせる,Lead Astray,status,dark,4,single,S1,0,42,status|material|fog,CONTROL,混乱を狙う
 SKL-017,sasayaki,ささやき,Whisper,status,dark,3,single,S2,0,52,status|magic|bell,CONTROL,fear か hushed を狙う
 SKL-018,fuuin,ふういん,Seal Word,status,light,4,single,S1,0,46,status|magic|mark,CONTROL,補助と呪文を封じる
-SKL-019,kuragari_hane,くらがりはね,Darkwing Haze,magic,dark,5,spread,M2,10,30,spread|fixed_magic|status|bird,CONTROL,全体小ダメージと soot
+SKL-019,kuragari_hane,くらがりはね,Darkwing Haze,magic,dark,5,spread,M2,10,30,spread|fixed_magic|status|bird|evo_to:SKL-051,CONTROL,全体小ダメージと soot
 SKL-020,mimizarari_no_suzu,みみざわりの鈴,Harsh Bell,status,none,4,spread,S2,0,35,spread|status|bell,CONTROL,全体に hushed
-SKL-021,kusa_no_shizuku,くさのしずく,Herb Drop,recover,water,3,ally_single,H1,16,0,recover|plant|starter|herb,ALLY_SUSTAIN,単体小回復
+SKL-021,kusa_no_shizuku,くさのしずく,Herb Drop,recover,water,3,ally_single,H1,16,0,recover|plant|starter|herb|evo_to:SKL-064,ALLY_SUSTAIN,単体小回復
 SKL-022,shimeri,しめり,Dampen,setup,water,3,ally_single,B3,0,0,setup|plant|water,ALLY_SUSTAIN,wet を付与する
 SKL-023,yawarakai_kabe,やわらかいかべ,Soft Wall,setup,earth,4,ally_single,B3,0,0,setup|plant|material,ALLY_SUSTAIN,guard_shell を張る
 SKL-024,kabaidate,かばいだて,Brace,setup,none,2,ally_single,B1,0,0,setup|single,ALLY_SUSTAIN,守備を上げる
-SKL-025,kosurinaoshi,こすりなおし,Rub Clean,recover,light,3,ally_single,H2,10,0,recover|setup|tag,ALLY_SUSTAIN,小回復と軽状態解除
+SKL-025,kosurinaoshi,こすりなおし,Rub Clean,recover,light,3,ally_single,H2,10,0,recover|setup|tag|evo_to:SKL-067,ALLY_SUSTAIN,小回復と軽状態解除
 SKL-026,numeri,ぬめり,Slime Coat,setup,water,3,single,B2,0,95,status|setup|plant,BREAK_DEF,素早さを下げる
-SKL-027,hoshimizu,ほしみず,Star Water,recover,light,5,ally_single,H1,12,0,recover|divine|tower_reactive,ALLY_SUSTAIN,HP小回復とMP回復
+SKL-027,hoshimizu,ほしみず,Star Water,recover,light,5,ally_single,H1,12,0,recover|divine|tower_reactive|evo_to:SKL-066,ALLY_SUSTAIN,HP小回復とMP回復
 SKL-028,miyaburu,みやぶる,Appraise,utility,light,2,single,U1,0,100,mark|setup|starter,SCOUT_SUPPORT,marked を付ける
 SKL-029,nusumimiru,ぬすみみる,Peek Sneak,utility,dark,3,single,U1,0,100,mark|recruit|material,SCOUT_SUPPORT,勧誘率を押し上げる
 SKL-030,hikari_no_manazashi,ひかりのまなざし,Light Gaze,utility,light,4,single,U1,0,100,mark|divine|tower_reactive,SCOUT_SUPPORT,長めの marked を付ける
 SKL-031,insho_no_mi,いんしょうのみ,Seal Nibble,utility,dark,5,single,U2,12,100,mark|payoff|magic,PAYOFF,marked かバフを食う
 SKL-032,shizuka_na_yobigoe,しずかなよびごえ,Quiet Call,utility,none,4,single,R1,10,100,recruit|bell|setup,SCOUT_SUPPORT,勧誘率を上げる
 SKL-033,subayaku_nigeru,すばやくにげる,Quick Escape,utility,wind,2,self,F1,40,100,escape|starter,FIELD_LINK,離脱補助
-SKL-034,kizamikaze,きざみかぜ,Shred Wind,magic,wind,4,spread,M2,14,100,spread|fixed_magic|bird|fog,RUSH_OPEN,全体小ダメージ
+SKL-034,kizamikaze,きざみかぜ,Shred Wind,magic,wind,4,spread,M2,14,100,spread|fixed_magic|bird|fog|evo_to:SKL-049,RUSH_OPEN,全体小ダメージ
 SKL-035,makitsukitsuru,まきつきつる,Twining Vine,status,earth,4,single,S1,0,50,status|plant|earth,STATUS_SETUP,足止めを狙う
 SKL-036,nibui_hikari,にぶいひかり,Dull Light,setup,light,3,single,B2,0,92,setup|light|mark,BREAK_DEF,INT と RES を崩す
+SKL-041,tsukiatari,つきあたり,Charge Rush,physical,none,3,single,P3,120,0,single|physical|evo_from:SKL-001|evo_to:SKL-042,SAFE_POKE,いきおいよく つく
+SKL-042,sutemi_no_ichigeki,すてみのいちげき,Reckless Blow,physical,none,6,single,P5,155,0,single|physical|evo_from:SKL-041,PAYOFF,いのちがけの一撃
+SKL-043,surudoi_tsuno,するどいつの,Sharp Horn,physical,earth,4,single,P3,130,30,single|physical|beast|evo_from:SKL-005|evo_to:SKL-044,BREAK_DEF,つのを深くさす
+SKL-044,midarezuki,みだれづき,Wild Thrust,physical,earth,7,random3,P3,65,15,random|physical|beast|evo_from:SKL-043,BREAK_DEF,3回つきまくる
+SKL-045,kuichigiru,くいちぎる,Tear Bite,physical,earth,4,single,P3,125,25,single|physical|beast|evo_from:SKL-004|evo_to:SKL-046,BREAK_DEF,にくをくいちぎる
+SKL-046,honekudaki,ほねくだき,Bone Crush,physical,earth,7,single,P5,145,40,single|physical|beast|evo_from:SKL-045,BREAK_DEF,ほねごとかみくだく
+SKL-047,kaze_no_kuchibashi,かぜのくちばし,Wind Beak,physical,wind,3,single,P3,120,0,single|physical|bird|evo_from:SKL-002|evo_to:SKL-048,RUSH_OPEN,かぜをまとい つく
+SKL-048,shinkuu_no_tsubasa,しんくうのつばさ,Vacuum Wing,physical,wind,7,spread,P3,85,0,spread|physical|bird|evo_from:SKL-047,RUSH_OPEN,真空のつばさで薙ぐ
+SKL-049,kamaitachi,かまいたち,Razor Gale,magic,wind,7,spread,M2,28,100,spread|fixed_magic|evo_from:SKL-034|evo_to:SKL-050,RUSH_OPEN,するどいかぜが走る
+SKL-050,shinkuuha,しんくうは,Vacuum Blade,magic,wind,12,spread,M2,52,100,spread|fixed_magic|evo_from:SKL-049,RUSH_OPEN,真空のやいばが裂く
+SKL-051,yoru_no_habataki,よるのはばたき,Night Flutter,magic,dark,8,spread,M2,24,35,spread|fixed_magic|status|bird|evo_from:SKL-019|evo_to:SKL-052,CONTROL,やみのはばたき
+SKL-052,yami_no_arashi,やみのあらし,Dark Storm,magic,dark,14,spread,M2,48,40,spread|fixed_magic|status|evo_from:SKL-051,CONTROL,闇が渦を巻く
+SKL-053,hidane,ひだね,Ember,magic,fire,3,single,M1,16,100,single|fixed_magic|fire|evo_to:SKL-054,SAFE_POKE,ちいさな火をとばす
+SKL-054,honoo_no_iki,ほのおのいき,Fire Breath,magic,fire,8,spread,M2,26,100,spread|fixed_magic|fire|evo_from:SKL-053|evo_to:SKL-055,RUSH_OPEN,ほのおを はきだす
+SKL-055,rengoku,れんごく,Inferno,magic,fire,14,spread,M2,56,100,spread|fixed_magic|fire|evo_from:SKL-054,RUSH_OPEN,すべてを焼きつくす
+SKL-056,mizu_no_tama,みずのたま,Aqua Orb,magic,water,3,single,M1,15,20,single|fixed_magic|water|evo_to:SKL-057,SAFE_POKE,水の玉をぶつける
+SKL-057,uzushio,うずしお,Whirlpool,magic,water,8,spread,M2,24,30,spread|fixed_magic|water|evo_from:SKL-056|evo_to:SKL-058,RUSH_OPEN,水流がうずをまく
+SKL-058,kouzui,こうずい,Deluge,magic,water,13,spread,M2,50,40,spread|fixed_magic|water|evo_from:SKL-057,RUSH_OPEN,大水が すべてのむ
+SKL-059,inabikari,いなびかり,Spark,magic,thunder,4,single,M1,18,15,single|fixed_magic|thunder|evo_to:SKL-060,STATUS_SETUP,いなずまが走る
+SKL-060,ikazuchi,いかずち,Thunderbolt,magic,thunder,8,single,M2,36,22,single|fixed_magic|thunder|evo_from:SKL-059|evo_to:SKL-061,STATUS_SETUP,かみなりがうつ
+SKL-061,raimei,らいめい,Thunder Roar,magic,thunder,14,spread,M2,46,28,spread|fixed_magic|thunder|evo_from:SKL-060,STATUS_SETUP,雷鳴がとどろく
+SKL-062,hikari_no_yaiba,ひかりのやいば,Light Blade,magic,light,5,single,M1,22,100,single|fixed_magic|light|evo_to:SKL-063,SAFE_POKE,ひかりの刃をとばす
+SKL-063,seinaru_hikari,せいなるひかり,Sacred Light,magic,light,10,spread,M2,38,100,spread|fixed_magic|light|evo_from:SKL-062,RUSH_OPEN,聖なるひかりが降る
+SKL-064,midori_no_shizuku,みどりのしずく,Verdant Drop,recover,water,5,ally_single,H1,32,0,recover|plant|evo_from:SKL-021|evo_to:SKL-065,ALLY_SUSTAIN,みどりのしずくで癒す
+SKL-065,inochi_no_shizuku,いのちのしずく,Life Drop,recover,water,10,ally_all,H1,28,0,recover|plant|evo_from:SKL-064,ALLY_SUSTAIN,いのちの水がおちる
+SKL-066,tsuki_no_shizuku,つきのしずく,Moon Drop,recover,light,8,ally_single,H1,22,0,recover|divine|evo_from:SKL-027,ALLY_SUSTAIN,つきの光がしみる
+SKL-067,arainagashi,あらいながし,Rinse Away,recover,light,5,ally_single,H2,18,0,recover|setup|evo_from:SKL-025|evo_to:SKL-068,ALLY_SUSTAIN,あらいながして清める
+SKL-068,ooharai,おおはらい,Grand Purge,recover,light,10,ally_all,H2,12,0,recover|setup|evo_from:SKL-067,ALLY_SUSTAIN,すべてのけがれを祓う
+SKL-069,moudoku,もうどく,Vile Toxin,status,none,5,single,S1,0,60,status|plant|evo_from:SKL-014|evo_to:SKL-070,STATUS_SETUP,猛毒がからだをむしばむ
+SKL-070,shi_no_doku,しのどく,Death Venom,status,dark,8,single,S1,0,50,status|plant|evo_from:SKL-069|forbidden:SKL-014,STATUS_SETUP,死の毒がまわる
+SKL-071,fukai_nemuri,ふかいねむり,Deep Slumber,status,none,8,single,S1,0,48,status|plant|evo_from:SKL-015|forbidden:SKL-076,STATUS_SETUP,ふかいねむりにおちる
+SKL-072,dai_fuuin,だいふういん,Grand Seal,status,light,8,spread,S1,0,38,spread|status|evo_from:SKL-018|forbidden:SKL-071,CONTROL,大いなる封印をかける
+SKL-073,chikarazuke,ちからづけ,Embolden,setup,none,3,ally_single,B1,0,0,setup|single|buff,ALLY_SUSTAIN,ちからを奮いたたす
+SKL-074,hayame_no_uta,はやめのうた,Hastening Song,setup,wind,5,ally_all,B1,0,0,setup|spread|buff|bird,ALLY_SUSTAIN,はやめの歌をうたう
+SKL-075,honoo_no_kabe,ほのおのかべ,Fire Wall,setup,fire,6,field,B3,0,0,setup|field|fire,ALLY_SUSTAIN,炎の壁が場をつつむ
+SKL-076,amai_iki,あまいいき,Sweet Breath,status,none,6,spread,S1,0,36,spread|status|forbidden:SKL-071,STATUS_SETUP,あまいいきをはく
+SKL-077,noroi_no_kotoba,のろいのことば,Curse Words,status,dark,5,single,S1,0,50,single|status|curse|breed,STATUS_SETUP,のろいの言葉をはく
+SKL-078,hangeki,はんげき,Counter Strike,reaction,none,0,single,R1,0,0,reaction|counter|breed|forbidden:SKL-080,SAFE_POKE,うけた力ではねかえす
+SKL-079,migawari,みがわり,Decoy Guard,reaction,none,3,ally_single,R1,0,0,reaction|guard,ALLY_SUSTAIN,なかまをかばう
+SKL-080,mahou_hansha,まほうはんしゃ,Spell Mirror,reaction,none,5,self,R1,0,0,reaction|reflect|breed|forbidden:SKL-078,CONTROL,じゅもんをはねかえす
+SKL-081,shinobiyoru_kage,しのびよるかげ,Creeping Shadow,reaction,dark,0,single,M1,8,40,reaction|status|world,CONTROL,影がうごめく
+SKL-082,taimatsu,たいまつ,Torch,utility,fire,1,field,F1,0,100,field|explore,FIELD_LINK,あたりを照らす
+SKL-083,kagiwake,かぎわけ,Scent Track,utility,none,2,self,F1,0,100,field|explore|beast,FIELD_LINK,においをかぎわける
+SKL-084,tooboe,とおぼえ,Howl,utility,none,2,field,F1,0,100,field|explore|beast,FIELD_LINK,とおくにひびく
+SKL-085,shizukesa,しずけさ,Silence,utility,light,3,field,F1,0,100,field|explore,FIELD_LINK,あたりが静まりかえる
+SKL-086,kaerimichi_no_shirube,かえりみちのしるべ,Path Home Marker,utility,light,4,field,F1,0,100,field|world|W-001,FIELD_LINK,かえりみちをしるす
+SKL-087,kodama_no_inori,こだまのいのり,Echo Prayer,magic,wind,6,spread,M2,20,25,spread|fixed_magic|world|W-002,CONTROL,こだまが祈りをかえす
+SKL-088,tsuchi_ni_kaesu,つちにかえす,Return to Earth,physical,earth,5,single,P3,120,0,single|physical|world|W-003,BREAK_DEF,つちへとかえす
+SKL-089,kiri_no_manako,きりのまなこ,Fog Eye,setup,water,6,ally_all,B3,0,0,setup|spread|world|W-004,ALLY_SUSTAIN,霧のまなこで見とおす

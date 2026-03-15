@@ -7,3 +7,13 @@ BRD-0005,special,MON-002,MON-008,MON-010,110,1,12,Vertical Slice の到達目標
 BRD-0101,family,beast,bird,MON-005,50,0,10,序盤 bridge ルール
 BRD-0102,family,plant,beast,MON-007,50,0,10,湿地側の特殊化
 BRD-0103,family,material,bird,MON-009,50,0,10,印を食う魔性化
+BRD-0201,special,MON-011,MON-012,MON-013,105,1,12,灰乳の谷の婚礼荒らし系統
+BRD-0202,special,MON-014,MON-015,MON-016,105,1,12,宿場の帳場汚し系統
+BRD-0203,special,MON-017,MON-018,MON-019,110,1,14,岬の関所捕食者系統
+BRD-0204,special,MON-020,MON-021,MON-022,110,1,14,墓苑の残響蔓系統
+BRD-0205,special,MON-022,MON-019,MON-023,120,1,16,門筋へ逸れる稀少鹿への深い配合線
+BRD-0006,special,MON-011,MON-013,MON-016,105,1,12,灰乳と灰印から宿帳を食う膜が生まれる hidden recipe
+BRD-0007,special,MON-017,MON-018,MON-019,120,1,16,札検知と潮選別が噛み合う岬 apex recipe
+BRD-0008,special,MON-020,MON-021,MON-023,125,1,18,名残灯と無香膜から帰らない鹿が生まれる hidden grave recipe
+BRD-0104,family,slime,material,MON-011,45,0,10,Act I slime line の入口
+BRD-0105,family,magic,plant,MON-020,55,0,12,remnant light 系の橋渡し

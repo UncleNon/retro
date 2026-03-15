@@ -16,7 +16,7 @@ DEFAULT_OUTPUT_DIR = REPO_ROOT / "resources"
 MANIFEST_PATH = REPO_ROOT / "data" / "generated" / "resource_manifest.json"
 MANAGED_RESOURCE_DIRS = ("monsters", "skills", "items", "worlds", "encounters", "breeding")
 
-FAMILIES = {"beast", "bird", "plant", "material", "magic", "undead", "dragon", "divine"}
+FAMILIES = {"slime", "beast", "bird", "plant", "material", "magic", "undead", "dragon", "divine"}
 RANKS = {"E", "D", "C", "B", "A", "S"}
 SIZE_CLASSES = {"S", "M", "L"}
 GROWTH_CURVES = {"EARLY", "STANDARD", "LATE", "LEGEND"}
