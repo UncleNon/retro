@@ -5,6 +5,7 @@
 > **参照元**:
 > - `docs/specs/worlds/05_world_catalog_and_budget.md`
 > - `docs/specs/worlds/06_settlement_layout_and_route_rules.md`
+> - `docs/specs/worlds/07_world_sheet_contract.md`
 > - `docs/specs/story/04_main_story_beats_and_world_sequence.md`
 > - `docs/specs/story/03_foreshadow_allocation_map.md`
 

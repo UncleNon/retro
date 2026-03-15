@@ -11,6 +11,7 @@
 > - `docs/specs/story/06_millennial_geopolitics_and_personages.md`
 > - `docs/specs/worlds/05_world_catalog_and_budget.md`
 > - `docs/specs/worlds/06_settlement_layout_and_route_rules.md`
+> - `docs/specs/worlds/08_world_sheet_template_and_variation_rules.md`
 
 ---
 

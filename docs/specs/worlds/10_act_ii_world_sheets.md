@@ -10,6 +10,8 @@
 > - `docs/specs/story/04_main_story_beats_and_world_sequence.md`
 > - `docs/specs/story/06_millennial_geopolitics_and_personages.md`
 > - `docs/specs/story/08_historical_texture_research_ingestion.md`
+> - `docs/specs/story/10_starting_arc_engagement_playbook.md`
+> - `docs/specs/content/08_starting_region_ecology_and_monster_web.md`
 
 ---
 

@@ -7,6 +7,8 @@
 > - `docs/specs/story/01_story_bible.md`
 > - `docs/specs/story/02_culture_faction_matrix.md`
 > - `docs/specs/story/04_main_story_beats_and_world_sequence.md`
+> - `docs/specs/story/08_historical_texture_research_ingestion.md`
+> - `docs/specs/story/09_silence_economy_and_powerbrokers.md`
 > - `docs/specs/worlds/05_world_catalog_and_budget.md`
 
 ---

@@ -1,7 +1,7 @@
 # 詳細設計インデックス
 
-> **ステータス**: Draft v1.0
-> **最終更新**: 2026-03-15
+> **ステータス**: Draft v1.1
+> **最終更新**: 2026-03-16
 > **役割**: `docs/requirements/` と `docs/adr/` を、実装可能な粒度の数値・表・台帳へ接続する入口
 
 ---
@@ -122,6 +122,15 @@
 | [art/07_character_sprite_production_manual.md](./art/07_character_sprite_production_manual.md) | 主人公とNPCの16x16 character sprite production manual |
 | [art/08_asset_provenance_and_ai_generation_registry.md](./art/08_asset_provenance_and_ai_generation_registry.md) | prompt, seed, review, IP, edit log を追う provenance 契約 |
 | [art/09_tileset_and_map_art_production_manual.md](./art/09_tileset_and_map_art_production_manual.md) | タイルセット、建材、地面、門、マップオブジェクトの production manual |
+
+### Legacy（参照のみ、正とはしない）
+
+| ファイル | 役割 |
+|---------|------|
+| [art/90_monster_sprite_production_spec_legacy.md](./art/90_monster_sprite_production_spec_legacy.md) | 旧版モンスタースプライト制作仕様（art/02 に統合済み） |
+| [art/91_monster_sprite_prompt_and_output_spec_legacy.md](./art/91_monster_sprite_prompt_and_output_spec_legacy.md) | 旧版プロンプト・出力仕様（art/02 + content/06 に統合済み） |
+
+> **注**: `art/04_tileset_and_map_art_production_manual.md` は旧番号。正は `art/09_tileset_and_map_art_production_manual.md`。
 
 ---
 
