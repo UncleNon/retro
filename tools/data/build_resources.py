@@ -23,6 +23,11 @@ GROWTH_CURVES = {"EARLY", "STANDARD", "LATE", "LEGEND"}
 TIME_BANDS = {"any", "day", "dusk", "night"}
 WEATHER_TYPES = {"any", "clear", "rain", "fog"}
 RULE_TYPES = {"family", "special", "mutation"}
+MOTIF_GROUPS = {"animal", "plant", "tool", "ritual", "weather", "myth", "corporeal", "abstract"}
+SECONDARY_MOTIF_GROUPS = {"household", "pastoral", "funerary", "bureaucratic", "astral", "gatebound"}
+ONTOLOGY_CLASSES = {"wildborn", "gate_touched", "bred_line", "record_bent", "remnant_bearing"}
+SILHOUETTE_TYPES = {"round", "wide", "tall", "serpentine", "floating", "tripod", "massive"}
+BATTLE_ROLES = {"striker", "tank", "healer", "controller", "bait_specialist", "mutation_key"}
 
 
 class ValidationError(RuntimeError):
@@ -183,7 +188,12 @@ def build_all(csv_dir: Path, output_dir: Path) -> dict[str, Any]:
         validate_enum(row["family"], FAMILIES, f"{monster_id}.family")
         validate_enum(row["rank"], RANKS, f"{monster_id}.rank")
         validate_enum(row["size_class"], SIZE_CLASSES, f"{monster_id}.size_class")
+        validate_enum(row["motif_group"], MOTIF_GROUPS, f"{monster_id}.motif_group")
+        validate_enum(row["secondary_motif_group"], SECONDARY_MOTIF_GROUPS, f"{monster_id}.secondary_motif_group")
+        validate_enum(row["ontology_class"], ONTOLOGY_CLASSES, f"{monster_id}.ontology_class")
+        validate_enum(row["silhouette_type"], SILHOUETTE_TYPES, f"{monster_id}.silhouette_type")
         validate_enum(row["growth_curve_id"], GROWTH_CURVES, f"{monster_id}.growth_curve_id")
+        validate_enum(row["battle_role"], BATTLE_ROLES, f"{monster_id}.battle_role")
 
         resistance_row = resistance_map.get(monster_id)
         if resistance_row is None:
@@ -198,7 +208,9 @@ def build_all(csv_dir: Path, output_dir: Path) -> dict[str, Any]:
             "rank": row["rank"].strip(),
             "size_class": row["size_class"].strip(),
             "motif_group": row["motif_group"].strip(),
+            "secondary_motif_group": row["secondary_motif_group"].strip(),
             "motif_source": row["motif_source"].strip(),
+            "ontology_class": row["ontology_class"].strip(),
             "silhouette_type": row["silhouette_type"].strip(),
             "palette_id": row["palette_id"].strip(),
             "field_sprite_px": parse_int(row["field_sprite_px"]),
@@ -226,6 +238,7 @@ def build_all(csv_dir: Path, output_dir: Path) -> dict[str, Any]:
             "base_recruit": parse_int(row["base_recruit"]),
             "scoutable": parse_bool(row["scoutable"]),
             "personality_bias": row["personality_bias"].strip(),
+            "battle_role": row["battle_role"].strip(),
             "trait_1": row["trait_1"].strip(),
             "trait_2": row["trait_2"].strip(),
             "loot_table_id": row["loot_table_id"].strip(),
@@ -246,6 +259,13 @@ def build_all(csv_dir: Path, output_dir: Path) -> dict[str, Any]:
                 "seal": parse_int(resistance_row["seal"]),
                 "fear": parse_int(resistance_row["fear"]),
                 "instant_death": parse_int(resistance_row["instant_death"]),
+                "burn": parse_int(resistance_row["burn"]),
+                "freeze": parse_int(resistance_row["freeze"]),
+                "curse": parse_int(resistance_row["curse"]),
+                "blind": parse_int(resistance_row["blind"]),
+                "charm": parse_int(resistance_row["charm"]),
+                "mark": parse_int(resistance_row["mark"]),
+                "hush": parse_int(resistance_row["hush"]),
             },
             "learnset": [
                 {
