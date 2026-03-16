@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-VIL-015"
+scope_id = "VIL"
+name_jp = "ゴンタ"
+name_en = "Gonta"
+role = "畜舎の手伝い"
+dark_role = "ドモンの甥。梁の傷を数えてしまった"
+x = 32
+y = 29
+facing = "left"
+npc_type = "minor"
+phase_count = 1
+clue_ids = []
+shop_id = ""
+service_id = ""
+personality_note = "素直だが怖がり"
+initial_dialogue_jp = "おじさんが黙ってるとき、僕も黙るようにしてる。"
+notes = "開始村"

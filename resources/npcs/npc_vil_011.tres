@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-VIL-011"
+scope_id = "VIL"
+name_jp = "フウ"
+name_en = "Fuu"
+role = "乳搾り手"
+dark_role = "家畜が塔側を見ないことに気づいている"
+x = 27
+y = 28
+facing = "right"
+npc_type = "minor"
+phase_count = 4
+clue_ids = ["CL-003"]
+shop_id = ""
+service_id = ""
+personality_note = "観察力がある若者"
+initial_dialogue_jp = "あの子たち、柵の北だけは毛を擦らないの。不思議でしょ。"
+notes = "開始村"

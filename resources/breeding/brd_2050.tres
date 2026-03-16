@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="BreedRuleData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/breed_rule_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+rule_id = "BRD-2050"
+rule_type = "special"
+parent_a_key = "MON-141"
+parent_b_key = "MON-142"
+child_monster_id = "MON-153"
+priority = 100
+special_recipe_bonus = 1
+lv_requirement = 10
+notes = "糠露+菱草→毒消し童: 台所と水田の知恵 Step1"

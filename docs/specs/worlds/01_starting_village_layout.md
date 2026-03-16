@@ -21,12 +21,20 @@
 
 | 項目 | 値 |
 |------|----|
-| マップID | `MAP-VIL-001` |
+| 仕様マップID | `MAP-VIL-001` |
+| runtime field_id | `FIELD-VIL-001` |
 | 画面解像度 | `20 x 18 tiles` |
 | 村全体サイズ | `96 x 64 tiles` |
 | 1タイル | `8 x 8 px` |
 | 実ピクセルサイズ | `768 x 512 px` |
 | スクロール方式 | 4方向、1画面ずつではなく連続スクロール |
+
+### Session 05 runtime canonical source
+
+- narrative / layout spec の canonical ID は引き続き `MAP-VIL-001`
+- runtime の field contract は `FIELD-VIL-001` とし、`MAP-VIL-001` の導線を data-driven に実装する
+- runtime authority は `field_scene_master.csv`, `field_rect_master.csv`, `field_point_master.csv`, `field_trigger_master.csv`, `field_interaction_master.csv`
+- `field_scene_master` が目的文、intro、gate reaction、battle followup を持ち、`rect / point / trigger / interaction` master が geometry と story fact の carrier を担う
 
 ---
 

@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-248"
+slug = "nigeru_kaze"
+name_jp = "にげるかぜ"
+name_en = "Escape Gust"
+category = "utility"
+element = "wind"
+mp_cost = 3
+target_scope = "self"
+formula_key = "F1"
+base_power = 50
+base_rate = 100
+tags = ["escape", "wind"]
+battle_role = "FIELD_LINK"
+effect_text = "風にのって離脱する"

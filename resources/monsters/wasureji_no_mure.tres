@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-352"
+slug = "wasureji_no_mure"
+name_jp = "ワスレジノムレ"
+name_en = "Wasureji no Mure"
+family = "undead"
+rank = "A"
+size_class = "L"
+motif_group = "abstract"
+secondary_motif_group = "gatebound"
+motif_source = "忘れ路 + 群集 + 集合忘却"
+ontology_class = "remnant_bearing"
+silhouette_type = "massive"
+palette_id = "pal_mass_forget"
+field_sprite_px = 16
+battle_sprite_px = 48
+base_level_cap = 80
+growth_curve_id = "LEGEND"
+base_stats = {"hp": 32, "mp": 18, "atk": 17, "def": 16, "spd": 14, "int": 17, "res": 18}
+cap_stats = {"hp": 246, "mp": 140, "atk": 160, "def": 148, "spd": 132, "int": 142, "res": 152}
+base_recruit = 0
+scoutable = false
+personality_bias = "blank"
+battle_role = "controller"
+trait_1 = "集合忘却"
+trait_2 = "闇耐性"
+loot_table_id = "loot_monster_wasureji_no_mure"
+prompt_id = "PRM-MON-352"
+notes = "村一つ分の忘れられた名が群れとなり路を歩く集合体"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": -2, "dark": 2, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 2, "instant_death": 1, "burn": 0, "freeze": 0, "curse": 1, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

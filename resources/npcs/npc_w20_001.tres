@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W20-001"
+scope_id = "W-020"
+name_jp = "シュロウ"
+name_en = "Shurou"
+role = "正本聖堂の上席書記"
+dark_role = "村人失踪の処理帳を一部自分で継ぎ直した"
+x = 36
+y = 22
+facing = "down"
+npc_type = "key"
+phase_count = 5
+clue_ids = ["CL-050", "CL-051", "CL-052"]
+shop_id = ""
+service_id = ""
+personality_note = "知性的で苦悩する良心"
+initial_dialogue_jp = "正本は正しい。……正しくなるように、直したからだ。"
+notes = "継ぎ止めの聖郭"

@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-141"
+slug = "tsuyu_konuka"
+name_jp = "ツユコヌカ"
+name_en = "Tsuyu Konuka"
+family = "plant"
+rank = "E"
+size_class = "S"
+motif_group = "plant"
+secondary_motif_group = "household"
+motif_source = "糠 + 露 + 台所甕"
+ontology_class = "wildborn"
+silhouette_type = "round"
+palette_id = "pal_dew_bran"
+field_sprite_px = 16
+battle_sprite_px = 24
+base_level_cap = 64
+growth_curve_id = "EARLY"
+base_stats = {"hp": 20, "mp": 12, "atk": 8, "def": 10, "spd": 10, "int": 12, "res": 12}
+cap_stats = {"hp": 154, "mp": 88, "atk": 86, "def": 100, "spd": 96, "int": 100, "res": 106}
+base_recruit = 32
+scoutable = true
+personality_bias = "patient"
+battle_role = "healer"
+trait_1 = "糠漬け"
+trait_2 = "水微耐性"
+loot_table_id = "loot_monster_tsuyu_konuka"
+prompt_id = "PRM-MON-141"
+notes = "台所の甕で露を集める糠の精"
+resistances = {"fire": -1, "water": 1, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": -1, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-021"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-026"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-022"}]

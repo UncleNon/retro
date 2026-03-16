@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W20-011"
+scope_id = "W-020"
+name_jp = "correction broker"
+name_en = "Correction_Broker"
+role = "帳簿修正仲介人"
+dark_role = "系譜補修の裏取引を仲介する"
+x = 24
+y = 26
+facing = "up"
+npc_type = "minor"
+phase_count = 2
+clue_ids = ["CL-052"]
+shop_id = ""
+service_id = ""
+personality_note = "名前を明かさない。影の仲介者"
+initial_dialogue_jp = "名前は要らない。……直してほしい帳面があるなら、見せろ。"
+notes = "継ぎ止めの聖郭"

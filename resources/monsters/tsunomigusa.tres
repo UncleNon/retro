@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-161"
+slug = "tsunomigusa"
+name_jp = "ツノミグサ"
+name_en = "Tsunomigusa"
+family = "plant"
+rank = "D"
+size_class = "S"
+motif_group = "plant"
+secondary_motif_group = "household"
+motif_source = "角実 + 草 + 鍛冶裏"
+ontology_class = "wildborn"
+silhouette_type = "tall"
+palette_id = "pal_horn_seed"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 66
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 20, "mp": 10, "atk": 14, "def": 10, "spd": 13, "int": 10, "res": 10}
+cap_stats = {"hp": 156, "mp": 78, "atk": 134, "def": 98, "spd": 124, "int": 86, "res": 90}
+base_recruit = 22
+scoutable = true
+personality_bias = "bold"
+battle_role = "striker"
+trait_1 = "角実弾"
+trait_2 = "火微耐性"
+loot_table_id = "loot_monster_tsunomigusa"
+prompt_id = "PRM-MON-161"
+notes = "鍛冶場の裏で角のような実を飛ばす草"
+resistances = {"fire": -1, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": -1, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-005"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-053"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-033"}]

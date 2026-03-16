@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-347"
+slug = "kioku_hakobune"
+name_jp = "キオクハコブネ"
+name_en = "Kioku Hakobune"
+family = "undead"
+rank = "B"
+size_class = "M"
+motif_group = "tool"
+secondary_motif_group = "funerary"
+motif_source = "記憶 + 箱船 + 弔い布"
+ontology_class = "remnant_bearing"
+silhouette_type = "wide"
+palette_id = "pal_memory_ark"
+field_sprite_px = 16
+battle_sprite_px = 48
+base_level_cap = 78
+growth_curve_id = "LATE"
+base_stats = {"hp": 32, "mp": 16, "atk": 14, "def": 16, "spd": 9, "int": 14, "res": 16}
+cap_stats = {"hp": 242, "mp": 124, "atk": 136, "def": 146, "spd": 88, "int": 116, "res": 138}
+base_recruit = 0
+scoutable = false
+personality_bias = "mournful"
+battle_role = "tank"
+trait_1 = "記憶運び"
+trait_2 = "光微耐性"
+loot_table_id = "loot_monster_kioku_hakobune"
+prompt_id = "PRM-MON-347"
+notes = "弔い布で包まれた記憶を運ぶ箱船型の残響体"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 1, "dark": 1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 1, "instant_death": 1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

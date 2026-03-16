@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-304"
+slug = "raijin_no_mon"
+name_jp = "らいじんのもん"
+name_en = "Thunder Gate"
+category = "magic"
+element = "thunder"
+mp_cost = 14
+target_scope = "spread"
+formula_key = "M2"
+base_power = 48
+base_rate = 28
+tags = ["spread", "fixed_magic", "thunder", "gate_special", "tower_reactive", "status"]
+battle_role = "STATUS_SETUP"
+effect_text = "雷神の門が開く"

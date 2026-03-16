@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-354"
+slug = "sourei_hashira"
+name_jp = "ソウレイバシラ"
+name_en = "Sourei Bashira"
+family = "undead"
+rank = "A"
+size_class = "L"
+motif_group = "corporeal"
+secondary_motif_group = "funerary"
+motif_source = "葬霊 + 柱 + 千名墓碑"
+ontology_class = "remnant_bearing"
+silhouette_type = "massive"
+palette_id = "pal_funeral_pillar"
+field_sprite_px = 16
+battle_sprite_px = 48
+base_level_cap = 82
+growth_curve_id = "LEGEND"
+base_stats = {"hp": 36, "mp": 16, "atk": 17, "def": 18, "spd": 10, "int": 14, "res": 17}
+cap_stats = {"hp": 274, "mp": 124, "atk": 162, "def": 166, "spd": 98, "int": 116, "res": 144}
+base_recruit = 0
+scoutable = false
+personality_bias = "grim"
+battle_role = "tank"
+trait_1 = "千名守り"
+trait_2 = "闇耐性"
+loot_table_id = "loot_monster_sourei_hashira"
+prompt_id = "PRM-MON-354"
+notes = "千名分の墓碑が一本の柱と化した葬霊"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": -2, "dark": 2, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 2, "instant_death": 2, "burn": 0, "freeze": 0, "curse": 1, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

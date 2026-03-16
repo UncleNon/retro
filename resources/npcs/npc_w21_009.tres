@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W21-009"
+scope_id = "W-021"
+name_jp = "テッカ"
+name_en = "Tekka"
+role = "骨車泊の運び屋"
+dark_role = "遺留品と白泥試料を高値で売る"
+x = 20
+y = 22
+facing = "down"
+npc_type = "minor"
+phase_count = 2
+clue_ids = []
+shop_id = ""
+service_id = ""
+personality_note = "逞しく欲深い"
+initial_dialogue_jp = "ここの泥は高く売れる。……なぜかって？　溶けた名前が混じってるからさ。"
+notes = "ほどけの縁・FAC-06 camp"

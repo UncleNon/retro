@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-166"
+slug = "ganseki_hou"
+name_jp = "がんせきほう"
+name_en = "Boulder Cannon"
+category = "magic"
+element = "earth"
+mp_cost = 9
+target_scope = "single"
+formula_key = "M1"
+base_power = 36
+base_rate = 100
+tags = ["single", "fixed_magic", "earth"]
+battle_role = "BREAK_DEF"
+effect_text = "巨岩を撃ちだす"

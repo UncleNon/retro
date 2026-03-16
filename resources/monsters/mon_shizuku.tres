@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-491"
+slug = "mon_shizuku"
+name_jp = "モンシズク"
+name_en = "Mon Shizuku"
+family = "slime"
+rank = "C"
+size_class = "S"
+motif_group = "weather"
+secondary_motif_group = "gatebound"
+motif_source = "門 + 雫 + 境界漏れ"
+ontology_class = "gate_touched"
+silhouette_type = "floating"
+palette_id = "pal_gate_drop"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 76
+growth_curve_id = "LATE"
+base_stats = {"hp": 20, "mp": 17, "atk": 10, "def": 10, "spd": 14, "int": 17, "res": 16}
+cap_stats = {"hp": 156, "mp": 134, "atk": 96, "def": 96, "spd": 132, "int": 142, "res": 138}
+base_recruit = 12
+scoutable = true
+personality_bias = "haunted"
+battle_role = "controller"
+trait_1 = "門漏れ"
+trait_2 = "光微耐性"
+loot_table_id = "loot_monster_mon_shizuku"
+prompt_id = "PRM-MON-491"
+notes = "門の境界から漏れ出た雫が意志を持つ液体"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 1, "dark": -1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

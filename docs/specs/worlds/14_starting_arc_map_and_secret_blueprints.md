@@ -2,13 +2,14 @@
 
 > **ステータス**: Draft v1.0
 > **最終更新**: 2026-03-16
-> **役割**: `W-002〜W-005` の map topology, route pair, hidden pocket, state change を concrete blueprint として固定する
+> **役割**: `開始村〜W-005` の map topology, route pair, hidden pocket, state change を concrete blueprint として固定する
 > **参照元**:
 > - `docs/specs/worlds/05_world_catalog_and_budget.md`
 > - `docs/specs/worlds/09_act_i_world_sheets.md`
 > - `docs/specs/worlds/10_act_ii_world_sheets.md`
 > - `docs/specs/content/08_starting_region_ecology_and_monster_web.md`
 > - `docs/specs/content/09_act_i_ii_monster_expansion_and_discovery_pack.md`
+> - `docs/specs/content/11_item_history_and_monster_resonance_matrix.md`
 > - `docs/specs/story/12_starting_arc_relationship_and_faction_map.md`
 > - `docs/specs/story/14_cross_system_echo_and_discovery_lattice.md`
 
@@ -41,7 +42,28 @@
 
 ---
 
-## 3. `W-002` 灰乳の谷
+## 3. `Prologue / 開始村`
+
+### 3.1 field provenance placements
+
+| field | spot | tied item | 何が見えるか | どの pressure へ返るか | inspect seed |
+|-------|------|-----------|--------------|------------------------|-------------|
+| `FIELD-VIL-001` | 記録小屋の削れた家畜札 | `item_key_borrowedtag`, `item_record_rubbingset` | 牛印の下に人名の横画が残り、札穴も二度使われている | `SV-05` の人札と畜札の混線が、生活物の修繕として隠される | `牛の印の下に、人名の横画だけが薄く残っている。` |
+| `FIELD-VIL-001` | 外された表札跡 | `item_key_borrowedtag` | 戸口の木肌だけ色が違い、削り跡が二層以上重なる | `SV-09` だけでなく古い失踪処理まで `空き家` へ押し込まれている | `戸口の木肌だけ色が違う。空き家は一度でできていない。` |
+| `FIELD-VIL-001` | 墓地の空碑 | `item_key_memorialoffering`, `item_key_gravesalt` | 刻みかけの一画と乾いた塩だけが残る | `SV-03`, `SV-07`, `SV-09` の未決着が一つの碑へ畳まれる | `死者とも不在者とも決めきれなかった名の置き場に見える。` |
+| `FIELD-VIL-001` | 雑貨棚 / 手当所の薬棚 | `item_heal_dryherb`, `item_mp_clearwater`, `item_record_rubbingset` | 冬越しの薬草、澄み水、写し道具が同じ商い圏で回る | 日常物の棚に `借り名の冬`, `数え直し`, `写し直し` の実務が混ざっている | `澄み水と拓本具が同じ棚にある。診るのは傷だけじゃない。` |
+
+### 3.2 ambient carriers
+
+| carrier | 何を漏らすか | delayed payoff |
+|---------|--------------|----------------|
+| 記録番 | `整理` という言い換えで札の混線を処理する | `W-018` の台帳優先 logic |
+| 墓守 | `待つ` を死でも帰還でもない第三の扱いで保つ | `W-005` の空碑運用 |
+| 道具屋 / 手当所 | 干し草薬、澄み水、拓本具が生活物として売られる | 事件の痕跡が店棚へ吸収される恐さ |
+
+---
+
+## 4. `W-002` 灰乳の谷
 
 ### 3.1 map roster
 
@@ -72,6 +94,14 @@
 | `SEC-W02-03` | inspect | `灰塚見張り台` | 夕方にだけ登れる | 直系から外された子の灰塚台帳断片 |
 | `SEC-W02-04` | encounter | `判乳盆` 夜再訪 | `判乳鉢` 調査後 | `チチススリ` の濃い群れ |
 
+### 3.3.1 item provenance placements
+
+| map | spot | tied item | 何が見えるか | どの pressure へ返るか | inspect seed |
+|-----|------|-----------|--------------|------------------------|-------------|
+| `MAP-W02-002` | 第一母屋の冷灰棚 | `item_heal_stillmilk` | 直系用だけ壺口が白布で封じられている | care が selection と同じ棚で配られる | `白布の結びだけ新しい。誰に飲ませる壺か、最初から決まっている。` |
+| `MAP-W02-004` | 発酵桶の影 | `item_bait_sourmilk` | 判乳残りを酸ませた餌桶が獣番の私札つきで置かれる | 判定残滓がそのまま monster bait になる | `乳の残りを獣へ回した匂いがする。谷では余り物にも順番がある。` |
+| `MAP-W02-006` | 裏龕の灰盤 | `item_key_ashbrand` | 灰印片だけ三色灰で囲われて保管される | 一片の印が家順を動かす | `灰の色が三度重ねられている。これ一枚で、娘の行き先まで変わる。` |
+
 ### 3.4 clear 後 state shift
 
 - `継乳棚` に空き slot が増え、婚礼停止が風景に出る
@@ -79,7 +109,7 @@
 
 ---
 
-## 4. `W-003` 継灯の宿場
+## 5. `W-003` 継灯の宿場
 
 ### 4.1 map roster
 
@@ -112,6 +142,14 @@
 | `SEC-W03-03` | inspect | `裏帳格子庫` | 焼け残り帳面を読む | 役名再利用の痕跡 |
 | `SEC-W03-04` | encounter | `門灯中庭` | `裏帳` 発見後に再訪 | `トモシガ` が名の近い灯を囲う演出 |
 
+### 4.3.1 item provenance placements
+
+| map | spot | tied item | 何が見えるか | どの pressure へ返るか | inspect seed |
+|-----|------|-----------|--------------|------------------------|-------------|
+| `MAP-W03-001` | 門前の喉桶台 | `item_mp_clearwater` | 宿帳改め前だけ水差しが満たされ、客名の代わりに灯番号で呼ばれる | 回復と検査が同じ儀礼になる | `水を飲む前に、名ではなく灯番号を聞かれる。喉を潤す順まで帳面のうちだ。` |
+| `MAP-W03-003` | 奥灯棚 | `item_key_hostellamp` | 返ってこない客の灯だけ煤色が濃い | refuge に見える宿が検査場でもある | `煤の濃い灯は、帰らなかった客の分だという。消さずに残すのは、待つためではない。` |
+| `MAP-W03-004` | 代書机の抽斗 | `item_record_tagcase` | 借り名札, 宿鍵札, 通行鋲が一つの case 規格へ収まる | provisional identity の同寸文化 | `札も鋲も同じ深さで収まる。違う名目のものを、同じ手つきで隠せる。` |
+
 ### 4.4 clear 後 state shift
 
 - 表路の灯色が少し揃い、重複灯番号が禁止された結果だけが visible になる
@@ -119,7 +157,7 @@
 
 ---
 
-## 5. `W-004` 札差しの岬
+## 6. `W-004` 札差しの岬
 
 ### 5.1 map roster
 
@@ -153,6 +191,14 @@
 | `SEC-W04-03` | inspect | `門潮割れ目` | 雨夜のみ | 門事故を神罰扱いした古記録 |
 | `SEC-W04-04` | encounter | `東桟橋封門` | 黒札会話後 | `サシミサゴ` 先読み飛来 |
 
+### 5.3.1 item provenance placements
+
+| map | spot | tied item | 何が見えるか | どの pressure へ返るか | inspect seed |
+|-----|------|-----------|--------------|------------------------|-------------|
+| `MAP-W04-002` | peg board | `item_key_passpeg` | peg 一本ごとに `通す / 待たせる / 黒へ回す` の溝色が違う | 通行順が選別順でもある | `同じ peg なのに、削れ方が違う。通された数より、待たせた数の方が深く残っている。` |
+| `MAP-W04-003` | 塩鈴籠 | `item_catalyst_bellsalt` | 検潮用の塩と借り鈴補修塩が同じ籠へ混ぜて置かれる | bell-route が触媒商売へ転化している | `潮を見る塩と、鈴を継ぐ塩が一つの籠に入っている。ここでは通すことも商品だ。` |
+| `MAP-W04-010` | 退避杭 | `item_field_bonerope` | 舟子の縄だけ骨樋搬送と同じ返し結びを持つ | 物流と逃がし運用が同じ技法で回る | `逃がし舟の縄が、遺骨運びと同じ手で結ばれている。渡す先が違うだけだ。` |
+
 ### 5.4 clear 後 state shift
 
 - `裏舟発着場` が visible になり、制度の裏口が消えていないと分かる
@@ -160,7 +206,7 @@
 
 ---
 
-## 6. `W-005` 香なしの墓苑
+## 7. `W-005` 香なしの墓苑
 
 ### 6.1 map roster
 
@@ -191,6 +237,14 @@
 | `SEC-W05-03` | inspect | `灰水路` の水門 | 夜霧時のみ | `カオリナシ` が香を奪う演出 |
 | `SEC-W05-04` | encounter | `無銘納骨穴` 前 | 呼び声イベント 3 件後 | `カエラズジカ` silhouette |
 
+### 6.3.1 item provenance placements
+
+| map | spot | tied item | 何が見えるか | どの pressure へ返るか | inspect seed |
+|-----|------|-----------|--------------|------------------------|-------------|
+| `MAP-W05-002` | 湿石の手当棚 | `item_heal_softmoss` | 待ち器の横だけ柔苔包みが積まれ、閉じた者の棚には置かれない | `待つ / 閉じる` が healing 分配にも出る | `柔苔包みは、待つ家の器のそばにだけ置かれている。手当てにも順番がある。` |
+| `MAP-W05-005` | 粉灯壺と供物束棚 | `item_bait_graveflour`, `item_key_memorialoffering` | 残響 bait と代用供物が同じ小屋で売られる | grief と商売の境界が溶ける | `呼び戻す粉と、閉じるための供物が並んでいる。ここでは未練も商品のうちだ。` |
+| `MAP-W05-006` | 閉じ盆 | `item_key_gravesalt` | 閉じ塩だけが納骨穴の前で湿らず保たれている | 七灰葬の最後が story key 化している | `塩だけが湿らない。閉じるために置かれたものは、妙に長持ちする。` |
+
 ### 6.4 clear 後 state shift
 
 - 一部の墓へ小さな香皿が戻るが、教義自体は崩れず `例外処理` として片づけられる
@@ -198,7 +252,7 @@
 
 ---
 
-## 7. Secret Ledger
+## 8. Secret Ledger
 
 | secret_id | world | reward type | 主 reward | clue 接続 |
 |-----------|-------|-------------|-----------|-----------|
@@ -211,7 +265,7 @@
 | `SEC-W05-01` | `W-005` | market proof | 無煙供香札 | `CL-018` を補強 |
 | `SEC-W05-02` | `W-005` | emotional residue | 待ち器祭壇 | `CL-017` を補強 |
 
-## 8. Ambient Echo Ledger
+## 9. Ambient Echo Ledger
 
 | world | place | echo seed | delayed payoff |
 |-------|-------|-----------|----------------|

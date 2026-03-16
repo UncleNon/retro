@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-430"
+slug = "shumon_tori"
+name_jp = "シュモントリ"
+name_en = "Shumon Tori"
+family = "divine"
+rank = "D"
+size_class = "S"
+motif_group = "animal"
+secondary_motif_group = "gatebound"
+motif_source = "守門鳥 + 門番 + 石柱"
+ontology_class = "gate_touched"
+silhouette_type = "tall"
+palette_id = "pal_gate_bird"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 70
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 22, "mp": 13, "atk": 14, "def": 10, "spd": 16, "int": 13, "res": 12}
+cap_stats = {"hp": 168, "mp": 100, "atk": 134, "def": 96, "spd": 148, "int": 106, "res": 102}
+base_recruit = 20
+scoutable = true
+personality_bias = "sharp"
+battle_role = "striker"
+trait_1 = "門番翼"
+trait_2 = "風微耐性"
+loot_table_id = "loot_monster_shumon_tori"
+prompt_id = "PRM-MON-430"
+notes = "門の石柱に止まり通行者を見張る鳥"
+resistances = {"fire": 0, "water": 0, "wind": 1, "earth": 0, "thunder": 0, "light": 0, "dark": -1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": 0, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

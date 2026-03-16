@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-333"
+slug = "wasure_ushi"
+name_jp = "ワスレウシ"
+name_en = "Wasure Ushi"
+family = "undead"
+rank = "D"
+size_class = "M"
+motif_group = "animal"
+secondary_motif_group = "pastoral"
+motif_source = "牛 + 忘却 + 焼印跡"
+ontology_class = "remnant_bearing"
+silhouette_type = "wide"
+palette_id = "pal_forgot_ox"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 70
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 28, "mp": 8, "atk": 14, "def": 14, "spd": 9, "int": 8, "res": 12}
+cap_stats = {"hp": 204, "mp": 62, "atk": 132, "def": 128, "spd": 86, "int": 70, "res": 104}
+base_recruit = 18
+scoutable = true
+personality_bias = "calm"
+battle_role = "tank"
+trait_1 = "忘れ印"
+trait_2 = "混乱微耐性"
+loot_table_id = "loot_monster_wasure_ushi"
+prompt_id = "PRM-MON-333"
+notes = "焼印が消えかけ誰の所有か忘れられた牛の霊"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": -1, "dark": 1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 1, "seal": 0, "fear": 1, "instant_death": 0, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

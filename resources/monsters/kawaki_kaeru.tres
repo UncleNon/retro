@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-323"
+slug = "kawaki_kaeru"
+name_jp = "カワキカエル"
+name_en = "Kawaki Kaeru"
+family = "undead"
+rank = "E"
+size_class = "S"
+motif_group = "corporeal"
+secondary_motif_group = "funerary"
+motif_source = "干蛙 + 渇き + 供物台跡"
+ontology_class = "remnant_bearing"
+silhouette_type = "round"
+palette_id = "pal_dry_frog"
+field_sprite_px = 16
+battle_sprite_px = 24
+base_level_cap = 61
+growth_curve_id = "EARLY"
+base_stats = {"hp": 17, "mp": 10, "atk": 8, "def": 9, "spd": 12, "int": 10, "res": 10}
+cap_stats = {"hp": 130, "mp": 68, "atk": 80, "def": 88, "spd": 116, "int": 82, "res": 88}
+base_recruit = 28
+scoutable = true
+personality_bias = "mournful"
+battle_role = "healer"
+trait_1 = "乾き声"
+trait_2 = "水微耐性"
+loot_table_id = "loot_monster_kawaki_kaeru"
+prompt_id = "PRM-MON-323"
+notes = "供物台のそばで乾いたまま鳴き続ける蛙"
+resistances = {"fire": 0, "water": 1, "wind": 0, "earth": 0, "thunder": 0, "light": -1, "dark": 1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 1, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 1, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

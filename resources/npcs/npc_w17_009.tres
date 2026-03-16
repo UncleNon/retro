@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W17-009"
+scope_id = "W-017"
+name_jp = "ツトム"
+name_en = "Tsutomu"
+role = "遺留品整理人"
+dark_role = "品の分類と保管を担当する"
+x = 26
+y = 22
+facing = "down"
+npc_type = "minor"
+phase_count = 2
+clue_ids = ["CL-042"]
+shop_id = ""
+service_id = ""
+personality_note = "真面目で悲しみを抑える"
+initial_dialogue_jp = "同じ人の品が三つの部屋に分かれてる。……どれが本当の持ち主だ？"
+notes = "残名の回廊"

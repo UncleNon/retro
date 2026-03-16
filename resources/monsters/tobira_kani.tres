@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-220"
+slug = "tobira_kani"
+name_jp = "トビラガニ"
+name_en = "Tobira Gani"
+family = "material"
+rank = "D"
+size_class = "M"
+motif_group = "tool"
+secondary_motif_group = "gatebound"
+motif_source = "扉 + 蟹 + 関所"
+ontology_class = "gate_touched"
+silhouette_type = "wide"
+palette_id = "pal_door_crab"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 70
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 28, "mp": 9, "atk": 12, "def": 16, "spd": 9, "int": 8, "res": 12}
+cap_stats = {"hp": 204, "mp": 72, "atk": 120, "def": 146, "spd": 90, "int": 74, "res": 108}
+base_recruit = 18
+scoutable = true
+personality_bias = "sturdy"
+battle_role = "tank"
+trait_1 = "扉挟み"
+trait_2 = "闇微耐性"
+loot_table_id = "loot_monster_tobira_kani"
+prompt_id = "PRM-MON-220"
+notes = "関所の扉に擬態して通行者を挟む蟹"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 1, "hush": 0}
+learnset = []

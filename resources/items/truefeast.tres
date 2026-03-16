@@ -15,5 +15,5 @@ sell_price = 230
 target_scope = "enemy_single"
 effect_key = "recruit_bonus"
 effect_value = "32"
-tags = ["bait", "universal"]
-description = "上位汎用の勧誘餌"
+tags = ["bait", "universal", "lore_arena_spectacle", "event_h1013"]
+description = "見世物門競で勝者だけに撒かれた真宴の切れ端"

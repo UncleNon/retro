@@ -1,6 +1,8 @@
 extends Node
 
-const SAVE_SCHEMA_VERSION := "0.2.0"
+const GameManagerScript = preload("res://scripts/core/game_manager.gd")
+
+const SAVE_SCHEMA_VERSION := "0.3.0"
 const SLOT_COUNT := 3
 const SAVE_ROOT := "user://saves"
 const INDEX_FILE_NAME := "save_index.json"
@@ -97,7 +99,7 @@ func _create_default_save_data() -> Dictionary:
 		"player":
 		{
 			"name": "",
-			"gold": 0,
+			"gold": 80,
 			"play_time_seconds": 0,
 			"current_scene": "res://scenes/main/app_root.tscn",
 			"current_position": {"x": 0, "y": 0},
@@ -121,6 +123,7 @@ func _create_default_save_data() -> Dictionary:
 		"worlds": {},
 		"gates": {},
 		"npcs": {},
+		"npc_phases": {},
 		"clues": {},
 		"codex":
 		{
@@ -129,7 +132,18 @@ func _create_default_save_data() -> Dictionary:
 			"recipe_count_known": 0,
 			"recipe_count_resolved": 0,
 			"mutation_count_seen": 0,
+			"seen_ids": [],
+			"recruited_ids": [],
+			"known_recipe_ids": [],
+			"resolved_recipe_ids": [],
 		},
+		"breeding":
+		{
+			"history": [],
+			"known_rule_ids": [],
+			"resolved_rule_ids": [],
+		},
+		"adventure_log": [],
 		"stats":
 		{
 			"total_battles": 0,
@@ -221,6 +235,22 @@ func _coalesce_save_data(save_data: Dictionary) -> Dictionary:
 func _normalize_save_data(save_data: Dictionary) -> Dictionary:
 	var normalized := _create_default_save_data()
 	_merge_nested(normalized, save_data)
+	_fold_legacy_npc_phase_map(normalized)
+	var game_manager = _get_game_manager()
+	var owns_game_manager := false
+	if game_manager == null:
+		game_manager = GameManagerScript.new()
+		owns_game_manager = true
+	if game_manager != null:
+		game_manager.call("bootstrap")
+		var normalized_by_repository: Variant = game_manager.call(
+			"normalize_save_payload", normalized
+		)
+		if normalized_by_repository is Dictionary:
+			normalized = Dictionary(normalized_by_repository)
+	if owns_game_manager and game_manager != null:
+		game_manager.free()
+	normalized["npc_phases"] = _derive_npc_phase_map(Dictionary(normalized.get("npcs", {})))
 	normalized["schema_version"] = SAVE_SCHEMA_VERSION
 	return normalized
 
@@ -232,6 +262,43 @@ func _merge_nested(base_value: Dictionary, incoming_value: Dictionary) -> void:
 			_merge_nested(base_value[key], incoming_item)
 		else:
 			base_value[key] = incoming_item
+
+
+func _fold_legacy_npc_phase_map(payload: Dictionary) -> void:
+	var npc_states: Dictionary = Dictionary(payload.get("npcs", {})).duplicate(true)
+	var npc_phases: Dictionary = Dictionary(payload.get("npc_phases", {}))
+	for npc_id_variant in npc_phases.keys():
+		var npc_id := String(npc_id_variant)
+		if npc_id.is_empty():
+			continue
+		if npc_states.has(npc_id):
+			continue
+		npc_states[npc_id] = {"phase": int(npc_phases.get(npc_id_variant, 0))}
+	payload["npcs"] = npc_states
+
+
+func _derive_npc_phase_map(npc_states: Dictionary) -> Dictionary:
+	var npc_phases := {}
+	for npc_id_variant in npc_states.keys():
+		var npc_id := String(npc_id_variant)
+		if npc_id.is_empty():
+			continue
+		var npc_state: Dictionary = Dictionary(npc_states.get(npc_id_variant, {}))
+		npc_phases[npc_id] = int(npc_state.get("phase", 0))
+	return npc_phases
+
+
+func _get_game_manager() -> Node:
+	var tree = null
+	if is_inside_tree():
+		tree = get_tree()
+	if tree == null:
+		var main_loop = Engine.get_main_loop()
+		if main_loop is SceneTree:
+			tree = main_loop
+	if tree == null:
+		return null
+	return tree.root.get_node_or_null("GameManager")
 
 
 func _build_envelope(payload: Dictionary, save_kind: String, slot_id: int) -> Dictionary:
@@ -334,13 +401,27 @@ func _write_json_atomic(path: String, payload: Dictionary) -> bool:
 
 	file.store_string(JSON.stringify(payload, "\t") + "\n")
 	file.flush()
+	file.close()
 	file = null
 
 	_remove_file(path)
 	var rename_result := DirAccess.rename_absolute(temp_path, path)
-	if rename_result != OK:
+	if rename_result == OK:
+		return true
+
+	var temp_contents := FileAccess.get_file_as_string(temp_path)
+	if temp_contents.is_empty() and not FileAccess.file_exists(temp_path):
 		push_error("failed to move temp save into place: %s" % path)
 		return false
+
+	var final_file := FileAccess.open(path, FileAccess.WRITE)
+	if final_file == null:
+		push_error("failed to open fallback save path for write: %s" % path)
+		return false
+	final_file.store_string(temp_contents)
+	final_file.flush()
+	final_file.close()
+	_remove_file(temp_path)
 	return true
 
 

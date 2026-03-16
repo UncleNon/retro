@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-336"
+slug = "kuchiha_uma"
+name_jp = "クチハウマ"
+name_en = "Kuchiha Uma"
+family = "undead"
+rank = "D"
+size_class = "M"
+motif_group = "animal"
+secondary_motif_group = "pastoral"
+motif_source = "馬 + 朽葉 + 廃厩舎"
+ontology_class = "remnant_bearing"
+silhouette_type = "wide"
+palette_id = "pal_rot_horse"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 72
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 26, "mp": 9, "atk": 15, "def": 12, "spd": 13, "int": 8, "res": 11}
+cap_stats = {"hp": 196, "mp": 70, "atk": 142, "def": 108, "spd": 124, "int": 72, "res": 96}
+base_recruit = 18
+scoutable = true
+personality_bias = "calm"
+battle_role = "tank"
+trait_1 = "朽ち蹄"
+trait_2 = "地微耐性"
+loot_table_id = "loot_monster_kuchiha_uma"
+prompt_id = "PRM-MON-336"
+notes = "廃厩舎に繋がれたまま朽ちていく馬の残響"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 1, "thunder": 0, "light": -1, "dark": 1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 1, "instant_death": 0, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-235"
+slug = "senkoku_kuzushi"
+name_jp = "せんこくくずし"
+name_en = "War Break"
+category = "setup"
+element = "none"
+mp_cost = 7
+target_scope = "spread"
+formula_key = "B2"
+base_power = 0
+base_rate = 70
+tags = ["setup", "debuff", "atk", "spread"]
+battle_role = "BREAK_DEF"
+effect_text = "全体のATKを下げる"

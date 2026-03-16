@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-290"
+slug = "kiri_kage"
+name_jp = "キリカゲ"
+name_en = "Kiri Kage"
+family = "magic"
+rank = "C"
+size_class = "M"
+motif_group = "weather"
+secondary_motif_group = "gatebound"
+motif_source = "霧影 + 霧体 + 境界霧"
+ontology_class = "gate_touched"
+silhouette_type = "floating"
+palette_id = "pal_mist_shadow"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 74
+growth_curve_id = "LATE"
+base_stats = {"hp": 23, "mp": 17, "atk": 11, "def": 10, "spd": 16, "int": 17, "res": 15}
+cap_stats = {"hp": 176, "mp": 134, "atk": 106, "def": 98, "spd": 150, "int": 150, "res": 134}
+base_recruit = 12
+scoutable = true
+personality_bias = "gentle"
+battle_role = "controller"
+trait_1 = "霧隠し"
+trait_2 = "水微耐性"
+loot_table_id = "loot_monster_kiri_kage"
+prompt_id = "PRM-MON-290"
+notes = "境界霧の中で影だけが霧のように漂う存在"
+resistances = {"fire": 0, "water": 1, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

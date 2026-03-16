@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="BreedRuleData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/breed_rule_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+rule_id = "BRD-2137"
+rule_type = "special"
+parent_a_key = "MON-348"
+parent_b_key = "MON-351"
+child_monster_id = "MON-353"
+priority = 120
+special_recipe_bonus = 1
+lv_requirement = 28
+notes = "不明閻魔+積み名簿→証明なき王(A): 記録が残らぬ王 Step5→A"

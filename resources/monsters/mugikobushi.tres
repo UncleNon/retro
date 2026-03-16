@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-143"
+slug = "mugikobushi"
+name_jp = "ムギコブシ"
+name_en = "Mugikobushi"
+family = "plant"
+rank = "E"
+size_class = "S"
+motif_group = "plant"
+secondary_motif_group = "pastoral"
+motif_source = "麦 + 拳 + 畑境"
+ontology_class = "wildborn"
+silhouette_type = "tall"
+palette_id = "pal_wheat_fist"
+field_sprite_px = 16
+battle_sprite_px = 24
+base_level_cap = 66
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 22, "mp": 8, "atk": 12, "def": 11, "spd": 11, "int": 8, "res": 10}
+cap_stats = {"hp": 166, "mp": 62, "atk": 118, "def": 108, "spd": 106, "int": 76, "res": 92}
+base_recruit = 28
+scoutable = true
+personality_bias = "bold"
+battle_role = "striker"
+trait_1 = "穂打ち"
+trait_2 = "地微耐性"
+loot_table_id = "loot_monster_mugikobushi"
+prompt_id = "PRM-MON-143"
+notes = "畑の境で穂を拳のように振る麦の精"
+resistances = {"fire": -1, "water": 0, "wind": 0, "earth": 1, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": -1, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-005"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-004"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-033"}]

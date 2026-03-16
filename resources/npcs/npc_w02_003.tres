@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W02-003"
+scope_id = "W-002"
+name_jp = "トガ"
+name_en = "Toga"
+role = "灰挽き男"
+dark_role = "濃灰粉を裏で売り判定を揺らす"
+x = 35
+y = 30
+facing = "right"
+npc_type = "key"
+phase_count = 3
+clue_ids = ["CL-012"]
+shop_id = ""
+service_id = ""
+personality_note = "卑屈だが頭が切れる"
+initial_dialogue_jp = "灰の濃さなんて匙加減だ。誰もそれを言わないだけさ。"
+notes = "灰乳の谷"

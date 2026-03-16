@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-263"
+slug = "haichi_kae"
+name_jp = "はいちかえ"
+name_en = "Position Swap"
+category = "utility"
+element = "wind"
+mp_cost = 3
+target_scope = "ally_single"
+formula_key = "U1"
+base_power = 0
+base_rate = 100
+tags = ["utility", "swap", "tactical"]
+battle_role = "ALLY_SUSTAIN"
+effect_text = "味方と位置を入替える"

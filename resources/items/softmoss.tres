@@ -15,5 +15,5 @@ sell_price = 18
 target_scope = "ally_single"
 effect_key = "heal_hp"
 effect_value = "35"
-tags = ["heal", "marsh"]
-description = "湿った苔でHPを回復"
+tags = ["heal", "marsh", "lore_waiting_grave", "event_h1002"]
+description = "待ち墓の石縁で育つ柔苔を巻いた応急包み"

@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W04-004"
+scope_id = "W-004"
+name_jp = "マツホ"
+name_en = "Matsuho"
+role = "夜漁の女"
+dark_role = "黒札の人間を対岸へ運び名も聞かない"
+x = 20
+y = 28
+facing = "up"
+npc_type = "key"
+phase_count = 4
+clue_ids = ["CL-057"]
+shop_id = ""
+service_id = ""
+personality_note = "肝が据わっていて情に厚い"
+initial_dialogue_jp = "夜の海は名前なんて聞かない。……私もな。"
+notes = "札差しの岬"

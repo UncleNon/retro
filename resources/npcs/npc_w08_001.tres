@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W08-001"
+scope_id = "W-008"
+name_jp = "ドグマ"
+name_en = "Doguma"
+role = "焼印頭"
+dark_role = "人の仮所属へ獣印規格を流用した"
+x = 30
+y = 18
+facing = "down"
+npc_type = "key"
+phase_count = 4
+clue_ids = ["CL-023", "CL-024"]
+shop_id = ""
+service_id = ""
+personality_note = "冷徹で効率主義"
+initial_dialogue_jp = "印があるから数えられる。なければ最初から居ない。……それだけだ。"
+notes = "獣印の放牧環"

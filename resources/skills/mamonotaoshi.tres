@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-249"
+slug = "mamonotaoshi"
+name_jp = "まものたおし"
+name_en = "Beast Lure"
+category = "utility"
+element = "none"
+mp_cost = 3
+target_scope = "field"
+formula_key = "F1"
+base_power = 0
+base_rate = 100
+tags = ["field", "explore", "encounter_up"]
+battle_role = "FIELD_LINK"
+effect_text = "魔物を引き寄せる"

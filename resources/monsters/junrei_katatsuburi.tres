@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-431"
+slug = "junrei_katatsuburi"
+name_jp = "ジュンレイカタツブリ"
+name_en = "Junrei Katatsuburi"
+family = "divine"
+rank = "D"
+size_class = "S"
+motif_group = "animal"
+secondary_motif_group = "funerary"
+motif_source = "巡礼蝸牛 + 供物 + 墓路"
+ontology_class = "wildborn"
+silhouette_type = "round"
+palette_id = "pal_pilgrim_snail"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 72
+growth_curve_id = "LATE"
+base_stats = {"hp": 28, "mp": 12, "atk": 9, "def": 16, "spd": 6, "int": 11, "res": 15}
+cap_stats = {"hp": 204, "mp": 92, "atk": 88, "def": 142, "spd": 68, "int": 92, "res": 132}
+base_recruit = 18
+scoutable = true
+personality_bias = "patient"
+battle_role = "tank"
+trait_1 = "巡礼殻"
+trait_2 = "水耐性"
+loot_table_id = "loot_monster_junrei_katatsuburi"
+prompt_id = "PRM-MON-431"
+notes = "墓路を巡礼する殻に供物を載せた蝸牛"
+resistances = {"fire": 0, "water": 1, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": -1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": 0, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

@@ -15,5 +15,5 @@ sell_price = 27
 target_scope = "ally_single"
 effect_key = "heal_hp"
 effect_value = "55"
-tags = ["heal", "field"]
-description = "標準的な回復薬葉"
+tags = ["heal", "field", "lore_hostel_route", "event_h1003"]
+description = "灯番路の宿継ぎ衆が束ねる旅薬葉"

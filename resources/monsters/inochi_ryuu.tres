@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-397"
+slug = "inochi_ryuu"
+name_jp = "イノチリュウ"
+name_en = "Inochi Ryuu"
+family = "dragon"
+rank = "B"
+size_class = "M"
+motif_group = "myth"
+secondary_motif_group = "funerary"
+motif_source = "命竜 + 弔い角 + 転生鱗"
+ontology_class = "remnant_bearing"
+silhouette_type = "wide"
+palette_id = "pal_life_dragon"
+field_sprite_px = 16
+battle_sprite_px = 48
+base_level_cap = 78
+growth_curve_id = "LATE"
+base_stats = {"hp": 30, "mp": 16, "atk": 17, "def": 15, "spd": 14, "int": 15, "res": 16}
+cap_stats = {"hp": 228, "mp": 124, "atk": 162, "def": 138, "spd": 132, "int": 126, "res": 136}
+base_recruit = 0
+scoutable = false
+personality_bias = "gentle"
+battle_role = "healer"
+trait_1 = "転生鱗"
+trait_2 = "光微耐性"
+loot_table_id = "loot_monster_inochi_ryuu"
+prompt_id = "PRM-MON-397"
+notes = "弔いの角を持ち転生を待つ鱗の竜"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 1, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": 0, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

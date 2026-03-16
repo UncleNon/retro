@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="BreedRuleData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/breed_rule_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+rule_id = "BRD-2132"
+rule_type = "special"
+parent_a_key = "MON-337"
+parent_b_key = "MON-335"
+child_monster_id = "MON-342"
+priority = 105
+special_recipe_bonus = 1
+lv_requirement = 14
+notes = "回廊蟹+幽霊猫→道標骸骨: 忘れ道の案内 Step2"

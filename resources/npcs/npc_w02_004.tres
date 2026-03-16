@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W02-004"
+scope_id = "W-002"
+name_jp = "ユナ"
+name_en = "Yuna"
+role = "谷下の娘"
+dark_role = "自分の灰印片に姉の幼名も記される"
+x = 18
+y = 32
+facing = "up"
+npc_type = "key"
+phase_count = 4
+clue_ids = ["CL-012"]
+shop_id = ""
+service_id = ""
+personality_note = "芯が強く反骨心がある"
+initial_dialogue_jp = "私の印に姉の名が混じってる。……どういう意味か、分かるでしょ。"
+notes = "灰乳の谷"

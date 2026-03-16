@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-VIL-007"
+scope_id = "VIL"
+name_jp = "ヒサメ"
+name_en = "Hisame"
+role = "糸売り婆"
+dark_role = "家印布と門の文様が同じ寸法比"
+x = 39
+y = 34
+facing = "right"
+npc_type = "minor"
+phase_count = 4
+clue_ids = ["CL-003"]
+shop_id = ""
+service_id = ""
+personality_note = "手仕事の間に断片を漏らす"
+initial_dialogue_jp = "この糸目の規則を崩すと布が解ける。昔からそう。"
+notes = "開始村"

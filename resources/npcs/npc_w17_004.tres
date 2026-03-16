@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W17-004"
+scope_id = "W-017"
+name_jp = "セグ"
+name_en = "Segu"
+role = "聴取clerk"
+dark_role = "echoの濃さを数字へ潰して上申する"
+x = 28
+y = 24
+facing = "up"
+npc_type = "key"
+phase_count = 3
+clue_ids = ["CL-043"]
+shop_id = ""
+service_id = ""
+personality_note = "事務的で良心との闘い"
+initial_dialogue_jp = "数字にすれば報告できる。……数字にならない分は、切り捨てる。"
+notes = "残名の回廊"

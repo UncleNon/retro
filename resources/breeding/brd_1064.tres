@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="BreedRuleData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/breed_rule_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+rule_id = "BRD-1064"
+rule_type = "family"
+parent_a_key = "family:dragon"
+parent_b_key = "family:slime"
+child_monster_id = "MON-370"
+priority = 50
+special_recipe_bonus = 0
+lv_requirement = 10
+notes = "dragon×slime→dragon: 竜側が支配"

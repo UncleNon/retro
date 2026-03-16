@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="BreedRuleData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/breed_rule_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+rule_id = "BRD-3014"
+rule_type = "mutation"
+parent_a_key = "family:dragon"
+parent_b_key = "family:magic"
+child_monster_id = "MON-400"
+priority = 60
+special_recipe_bonus = 0
+lv_requirement = 18
+notes = "竜×魔性で幻惑竜への palette_shift 変異: 鏡森で確率上昇"

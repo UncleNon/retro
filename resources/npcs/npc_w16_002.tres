@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W16-002"
+scope_id = "W-016"
+name_jp = "ユド"
+name_en = "Yudo"
+role = "若い炉守"
+dark_role = "父の系譜補修も器修理と同じ粉でやった"
+x = 22
+y = 24
+facing = "right"
+npc_type = "key"
+phase_count = 3
+clue_ids = ["CL-039"]
+shop_id = ""
+service_id = ""
+personality_note = "真面目だが父への複雑な感情"
+initial_dialogue_jp = "父の工房を継ぐのが夢だった。……父の系譜も、俺が継いでしまった。"
+notes = "焼継の鍛土"

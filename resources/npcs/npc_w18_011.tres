@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W18-011"
+scope_id = "W-018"
+name_jp = "ゴウダ"
+name_en = "Gouda"
+role = "闘技場管理人"
+dark_role = "法台都市の闘技場を仕切る"
+x = 42
+y = 12
+facing = "left"
+npc_type = "arena"
+phase_count = 2
+clue_ids = []
+shop_id = "shop_w18_arena"
+service_id = "service_w18_arena_entry"
+personality_note = "厳格で公正を信じる"
+initial_dialogue_jp = "闘技場では印は関係ない。……強いか弱いか、それだけだ。"
+notes = "二署の法台・闘技場"

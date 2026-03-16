@@ -1,7 +1,7 @@
 # 12. CI/CD・品質保証
 
 > **ステータス**: Draft v1.0
-> **最終更新**: 2026-03-15
+> **最終更新**: 2026-03-16
 
 ---
 
@@ -51,19 +51,21 @@ jobs:
     - python tools/qa/format.py --check
     - python tools/data/build_resources.py --check
     - python tools/qa/test.py
+    - python tools/qa/gdunit_smoke.py --allow-missing
+    - python tools/qa/runtime_smokes.py --allow-missing
     - python tools/qa/godot_smoke.py --allow-missing
+    - python tools/qa/ios_export_smoke.py
 ```
 
 ### baseline の意味
 - Session 02 時点の最小品質ゲートを先に固定する
-- `gdlint`, `gdformat`, `data build`, Python unit test, Godot smoke の入口を用意する
-- CI runner 上の Godot 本体導入は、現時点では optional 扱いで `--allow-missing` を使う
+- `gdlint`, `gdformat`, `data build`, Python unit test, GdUnit smoke, runtime smoke, Godot smoke, iOS export report の入口を用意する
+- CI runner 上の Godot / GdUnit plugin は、現時点では optional 扱いで `--allow-missing` を使う
+- `ios_export_smoke.py` は fail-fast gate ではなく report 生成を主目的とする
 
 ### 今後追加するジョブ
-- GdUnit4 による Godot 側ユニットテスト
 - scene load / save-load / battle loop 統合テスト
 - asset registry / localization validator
-- iOS export smoke
 - release / TestFlight deploy
 
 #### deploy-testflight.yml（tag push / optional release branch）
@@ -116,7 +118,8 @@ jobs:
 
 ※テストフレームワーク:
 - Session 02 時点の実働: Python `unittest` でデータパイプラインを検証
-- Godot 側の正式なユニットテスト基盤は **GdUnit4** を採用予定とし、`tests/gdunit/` を canonical 受け皿にする
+- Godot 側の正式なユニットテスト基盤は **GdUnit4** を採用し、`tests/gdunit/` を canonical 受け皿にする
+- Session 08 baseline では `tests/gdunit/*.gd` と `tools/qa/gdunit_smoke.py` を追加し、plugin 導入済み環境で command line 実行できる形に揃える
 
 ### 統合テスト対象
 | テスト対象 | テスト内容 |
@@ -136,6 +139,19 @@ jobs:
 | コマンド | 役割 |
 |---------|------|
 | `python tools/qa/field_smoke.py` | 開始村から塔前荒地までの移動、調査、遭遇導線を headless Godot で確認 |
+
+### Session 08 で追加した smoke
+| コマンド | 役割 |
+|---------|------|
+| `python tools/qa/save_smoke.py` | SaveSystem の manual / autosave / dirty shutdown recovery を headless Godot で確認 |
+| `python tools/qa/battle_smoke.py` | battle scene の戦術変更、直接指示、どうぐ消費、勝利遷移を headless Godot で確認 |
+| `python tools/qa/resource_registry_smoke.py` | manifest から encounter / monster resource が引けることを headless Godot で確認 |
+| `python tools/qa/session07_runtime_smoke.py` | app root の menu runtime が初期 gold、party/ranch/inventory の基本状態、battle/recruit の行動ログを保持することを headless Godot で確認 |
+| `python tools/qa/app_root_facility_interaction_smoke.py` | field の施設 NPC から `preview -> confirm -> item purchase / party restore` が app runtime 経由で成立し、gold / inventory / party resource と facility 行動ログが更新されることを headless Godot で確認 |
+| `python tools/qa/app_root_battle_transition_smoke.py` | field -> battle -> field の遷移、input lock、result 反映を headless Godot で確認 |
+| `python tools/qa/session08_vertical_slice_smoke.py` | field encounter -> battle -> breeding -> gate awakening -> reload 復帰までの vertical slice を headless Godot で確認 |
+| `python tools/qa/runtime_smokes.py` | `save / registry / session04 / session07 / field / battle / facility / app transition / session08 vertical slice` をまとめて実行する入口 |
+| `python tools/qa/local_baseline.py --allow-missing` | generated resource を再生成したうえで `data build / python test / gdunit / runtime smokes / godot smoke / ios export smoke` をまとめて実行する入口 |
 
 ### データ検証テスト
 | テスト対象 | テスト内容 |
@@ -162,9 +178,11 @@ jobs:
 - [ ] `python tools/qa/format.py --check` 合格
 - [ ] `python tools/data/build_resources.py --check` 合格
 - [ ] `python tools/qa/test.py` 合格
+- [ ] `python tools/qa/local_baseline.py` がローカルで合格
+- [ ] `python tools/qa/runtime_smokes.py` がローカルで合格
 - [ ] `python tools/qa/godot_smoke.py` がローカルでは合格、CI では少なくとも fail-safe に動く
-- [ ] `python tools/qa/save_smoke.py` がローカルで合格
 - [ ] `python tools/qa/field_smoke.py` がローカルで合格
+- [ ] `python tools/qa/session08_vertical_slice_smoke.py` がローカルで合格
 - [ ] `python tools/qa/ios_export_smoke.py` が report を生成し、blocker が可視化されている
 
 ### 将来のマージ条件（拡張後）

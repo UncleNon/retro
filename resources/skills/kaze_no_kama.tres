@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-107"
+slug = "kaze_no_kama"
+name_jp = "かぜのかま"
+name_en = "Wind Scythe"
+category = "physical"
+element = "wind"
+mp_cost = 5
+target_scope = "single"
+formula_key = "P3"
+base_power = 125
+base_rate = 0
+tags = ["single", "physical", "wind"]
+battle_role = "RUSH_OPEN"
+effect_text = "風の刃で斬る"

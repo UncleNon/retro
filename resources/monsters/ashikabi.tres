@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-157"
+slug = "ashikabi"
+name_jp = "アシカビ"
+name_en = "Ashikabi"
+family = "plant"
+rank = "D"
+size_class = "S"
+motif_group = "plant"
+secondary_motif_group = "pastoral"
+motif_source = "葦 + 黴 + 湿地牧"
+ontology_class = "wildborn"
+silhouette_type = "tall"
+palette_id = "pal_reed_mold"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 69
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 23, "mp": 12, "atk": 13, "def": 11, "spd": 13, "int": 11, "res": 11}
+cap_stats = {"hp": 174, "mp": 94, "atk": 126, "def": 104, "spd": 124, "int": 92, "res": 98}
+base_recruit = 22
+scoutable = true
+personality_bias = "patient"
+battle_role = "striker"
+trait_1 = "葦刺し"
+trait_2 = "水微耐性"
+loot_table_id = "loot_monster_ashikabi"
+prompt_id = "PRM-MON-157"
+notes = "湿地の牧場で葦を刺すように伸びる黴精"
+resistances = {"fire": -1, "water": 1, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": -1, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-005"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-035"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-056"}]

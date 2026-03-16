@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-257"
+slug = "tenkou_sousa"
+name_jp = "てんこうそうさ"
+name_en = "Weather Shift"
+category = "utility"
+element = "wind"
+mp_cost = 5
+target_scope = "field"
+formula_key = "F1"
+base_power = 0
+base_rate = 100
+tags = ["utility", "field", "weather"]
+battle_role = "FIELD_LINK"
+effect_text = "天候を操作する"

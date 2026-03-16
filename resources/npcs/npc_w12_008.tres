@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W12-008"
+scope_id = "W-012"
+name_jp = "マサル"
+name_en = "Masaru"
+role = "港の道具屋"
+dark_role = "航海用品と積荷道具を売る"
+x = 38
+y = 16
+facing = "down"
+npc_type = "merchant"
+phase_count = 2
+clue_ids = []
+shop_id = "shop_w12_general"
+service_id = ""
+personality_note = "陽気で港を愛する"
+initial_dialogue_jp = "港は全部を受け入れる。……受け入れすぎかもしれないけどな。"
+notes = "骨樋の港・道具屋"

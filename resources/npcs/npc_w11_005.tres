@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W11-005"
+scope_id = "W-011"
+name_jp = "ジュンペイ"
+name_en = "Junpei"
+role = "修道見習い"
+dark_role = "修院内の派閥争いに巻き込まれている"
+x = 36
+y = 16
+facing = "down"
+npc_type = "minor"
+phase_count = 2
+clue_ids = []
+shop_id = ""
+service_id = ""
+personality_note = "真面目だが疑問を持ち始めた"
+initial_dialogue_jp = "順唱か逆唱か。……どちらが正しいかより、なぜ二つあるかが気になる。"
+notes = "逆誓の修院"

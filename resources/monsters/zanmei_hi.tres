@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-295"
+slug = "zanmei_hi"
+name_jp = "ザンメイヒ"
+name_en = "Zanmei Hi"
+family = "magic"
+rank = "B"
+size_class = "M"
+motif_group = "abstract"
+secondary_motif_group = "funerary"
+motif_source = "残名火 + 記名炎 + 墓室"
+ontology_class = "remnant_bearing"
+silhouette_type = "floating"
+palette_id = "pal_remnant_fire"
+field_sprite_px = 16
+battle_sprite_px = 48
+base_level_cap = 74
+growth_curve_id = "LATE"
+base_stats = {"hp": 24, "mp": 20, "atk": 12, "def": 10, "spd": 14, "int": 20, "res": 17}
+cap_stats = {"hp": 184, "mp": 154, "atk": 114, "def": 98, "spd": 132, "int": 178, "res": 146}
+base_recruit = 0
+scoutable = false
+personality_bias = "haunted"
+battle_role = "controller"
+trait_1 = "残名燃え"
+trait_2 = "火微耐性"
+loot_table_id = "loot_monster_zanmei_hi"
+prompt_id = "PRM-MON-295"
+notes = "墓室で消えた名前が炎として燃え続ける存在"
+resistances = {"fire": 1, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": 1, "burn": 0, "freeze": 0, "curse": 1, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

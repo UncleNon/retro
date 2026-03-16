@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-192"
+slug = "zetsubou_no_me"
+name_jp = "ぜつぼうのめ"
+name_en = "Despair Gaze"
+category = "status"
+element = "dark"
+mp_cost = 10
+target_scope = "spread"
+formula_key = "S1"
+base_power = 0
+base_rate = 35
+tags = ["spread", "status", "fear", "curse", "breed"]
+battle_role = "CONTROL"
+effect_text = "絶望の視線で全体を蝕む"

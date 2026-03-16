@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-385"
+slug = "mon_tatsu"
+name_jp = "モンタツ"
+name_en = "Mon Tatsu"
+family = "dragon"
+rank = "D"
+size_class = "S"
+motif_group = "myth"
+secondary_motif_group = "gatebound"
+motif_source = "門竜 + 境界 + 通行管理"
+ontology_class = "gate_touched"
+silhouette_type = "serpentine"
+palette_id = "pal_gate_wyrm"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 74
+growth_curve_id = "LATE"
+base_stats = {"hp": 24, "mp": 14, "atk": 14, "def": 12, "spd": 14, "int": 13, "res": 13}
+cap_stats = {"hp": 184, "mp": 108, "atk": 134, "def": 108, "spd": 132, "int": 106, "res": 112}
+base_recruit = 14
+scoutable = true
+personality_bias = "watchful"
+battle_role = "controller"
+trait_1 = "門息"
+trait_2 = "光微耐性"
+loot_table_id = "loot_monster_mon_tatsu"
+prompt_id = "PRM-MON-385"
+notes = "門の近くで通行者を吐息で確かめる蛇身の門竜"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 1, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

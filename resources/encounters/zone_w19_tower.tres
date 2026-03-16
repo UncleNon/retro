@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="EncounterZoneData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/encounter_zone_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+zone_id = "ZONE-W19-TOWER"
+world_id = "W-019"
+name_jp = "鐘楼通り"
+encounter_min_steps = 12
+encounter_max_steps = 20
+terrain_rate = 1.1
+bgm_id = "BGM-W019-FIELD"
+is_dungeon = false
+time_band = "day"
+weather = "clear"
+notes = "鳴らなくなった鐘楼の街路"
+entries = [{"slot": 1, "monster_id": "MON-439", "weight": 20, "min_lv": 73, "max_lv": 76, "time_band": "day", "weather": "clear"}, {"slot": 2, "monster_id": "MON-297", "weight": 20, "min_lv": 73, "max_lv": 76, "time_band": "day", "weather": "clear"}, {"slot": 3, "monster_id": "MON-446", "weight": 15, "min_lv": 74, "max_lv": 76, "time_band": "day", "weather": "clear"}, {"slot": 4, "monster_id": "MON-236", "weight": 15, "min_lv": 73, "max_lv": 75, "time_band": "day", "weather": "clear"}, {"slot": 5, "monster_id": "MON-229", "weight": 15, "min_lv": 74, "max_lv": 76, "time_band": "day", "weather": "clear"}, {"slot": 6, "monster_id": "MON-450", "weight": 15, "min_lv": 75, "max_lv": 77, "time_band": "day", "weather": "clear"}]

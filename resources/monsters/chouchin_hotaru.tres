@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-424"
+slug = "chouchin_hotaru"
+name_jp = "チョウチンホタル"
+name_en = "Chouchin Hotaru"
+family = "divine"
+rank = "E"
+size_class = "S"
+motif_group = "ritual"
+secondary_motif_group = "astral"
+motif_source = "提灯蛍 + 星祭 + 参道"
+ontology_class = "gate_touched"
+silhouette_type = "floating"
+palette_id = "pal_lantern_firefly"
+field_sprite_px = 16
+battle_sprite_px = 24
+base_level_cap = 60
+growth_curve_id = "EARLY"
+base_stats = {"hp": 14, "mp": 14, "atk": 7, "def": 6, "spd": 14, "int": 14, "res": 12}
+cap_stats = {"hp": 110, "mp": 96, "atk": 72, "def": 70, "spd": 128, "int": 108, "res": 100}
+base_recruit = 32
+scoutable = true
+personality_bias = "gentle"
+battle_role = "healer"
+trait_1 = "灯し火"
+trait_2 = "光微耐性"
+loot_table_id = "loot_monster_chouchin_hotaru"
+prompt_id = "PRM-MON-424"
+notes = "参道で提灯のように光る星祭の蛍"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 1, "dark": -1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": 0, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

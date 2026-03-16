@@ -1,0 +1,7 @@
+key,text
+scope.VIL.name,開始村
+scope.TWR.name,塔前
+gate.GATE-001.name,最初の門
+gate.GATE-021.name,終端の門
+clue.CL-001.label,外された表札
+clue.CL-066.label,門が整理状態へ反応する

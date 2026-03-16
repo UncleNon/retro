@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W19-011"
+scope_id = "W-019"
+name_jp = "ゲンタ"
+name_en = "Genta"
+role = "rank宿の主人"
+dark_role = "冒険者向けの宿を営む"
+x = 22
+y = 22
+facing = "left"
+npc_type = "minor"
+phase_count = 2
+clue_ids = []
+shop_id = ""
+service_id = ""
+personality_note = "豪快で客商売に長ける"
+initial_dialogue_jp = "rank が高い奴ほど静かだ。……帰ってこない奴を見てきたからな。"
+notes = "閉鐘の塔都"

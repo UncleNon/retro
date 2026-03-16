@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-322"
+slug = "karaga_mushi"
+name_jp = "カラガムシ"
+name_en = "Karaga Mushi"
+family = "undead"
+rank = "E"
+size_class = "S"
+motif_group = "corporeal"
+secondary_motif_group = "pastoral"
+motif_source = "蝉殻 + 空牙 + 牧柵"
+ontology_class = "remnant_bearing"
+silhouette_type = "round"
+palette_id = "pal_husk_shell"
+field_sprite_px = 16
+battle_sprite_px = 24
+base_level_cap = 60
+growth_curve_id = "EARLY"
+base_stats = {"hp": 15, "mp": 9, "atk": 8, "def": 8, "spd": 15, "int": 9, "res": 9}
+cap_stats = {"hp": 118, "mp": 64, "atk": 82, "def": 84, "spd": 138, "int": 78, "res": 84}
+base_recruit = 30
+scoutable = true
+personality_bias = "still"
+battle_role = "bait_specialist"
+trait_1 = "殻鳴り"
+trait_2 = "毒微耐性"
+loot_table_id = "loot_monster_karaga_mushi"
+prompt_id = "PRM-MON-322"
+notes = "脱皮殻だけが歩き出した牧場の虫"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": -1, "dark": 1, "poison": 1, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 1, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-428"
+slug = "kaimon_gaeru"
+name_jp = "カイモンガエル"
+name_en = "Kaimon Gaeru"
+family = "divine"
+rank = "D"
+size_class = "S"
+motif_group = "myth"
+secondary_motif_group = "gatebound"
+motif_source = "門蛙 + 境界水 + 門扉跡"
+ontology_class = "gate_touched"
+silhouette_type = "round"
+palette_id = "pal_gate_frog"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 70
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 24, "mp": 14, "atk": 11, "def": 12, "spd": 12, "int": 13, "res": 14}
+cap_stats = {"hp": 178, "mp": 106, "atk": 106, "def": 108, "spd": 114, "int": 106, "res": 118}
+base_recruit = 20
+scoutable = true
+personality_bias = "watchful"
+battle_role = "controller"
+trait_1 = "門水"
+trait_2 = "水微耐性"
+loot_table_id = "loot_monster_kaimon_gaeru"
+prompt_id = "PRM-MON-428"
+notes = "門扉跡の水溜まりに棲み境界を見守る蛙"
+resistances = {"fire": 0, "water": 1, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": -1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": 0, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

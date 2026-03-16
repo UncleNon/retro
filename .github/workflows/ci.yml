@@ -33,5 +33,14 @@ jobs:
       - name: Run Python tests
         run: python tools/qa/test.py
 
+      - name: GdUnit smoke
+        run: python tools/qa/gdunit_smoke.py --allow-missing
+
+      - name: Runtime smokes
+        run: python tools/qa/runtime_smokes.py --allow-missing
+
       - name: Godot smoke
         run: python tools/qa/godot_smoke.py --allow-missing
+
+      - name: iOS export smoke
+        run: python tools/qa/ios_export_smoke.py

@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-107"
+slug = "kakine_mozuya"
+name_jp = "カキネモズヤ"
+name_en = "Kakine Mozuya"
+family = "bird"
+rank = "E"
+size_class = "S"
+motif_group = "animal"
+secondary_motif_group = "pastoral"
+motif_source = "鵙 + 垣根 + 境界木"
+ontology_class = "wildborn"
+silhouette_type = "tall"
+palette_id = "pal_hedge_butcher"
+field_sprite_px = 16
+battle_sprite_px = 24
+base_level_cap = 64
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 19, "mp": 8, "atk": 14, "def": 8, "spd": 15, "int": 8, "res": 8}
+cap_stats = {"hp": 148, "mp": 62, "atk": 132, "def": 88, "spd": 140, "int": 76, "res": 80}
+base_recruit = 26
+scoutable = true
+personality_bias = "sharp"
+battle_role = "striker"
+trait_1 = "境界守り"
+trait_2 = "風微耐性"
+loot_table_id = "loot_monster_kakine_mozuya"
+prompt_id = "PRM-MON-107"
+notes = "垣根の境界木で縄張りを張る鵙"
+resistances = {"fire": 0, "water": 0, "wind": 1, "earth": 0, "thunder": -1, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": -1, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-002"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-003"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-008"}]

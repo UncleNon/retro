@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W10-007"
+scope_id = "W-010"
+name_jp = "ミソノ"
+name_en = "Misono"
+role = "運河沿いの薬師"
+dark_role = "塩と水で傷を治す"
+x = 34
+y = 28
+facing = "left"
+npc_type = "healer"
+phase_count = 2
+clue_ids = []
+shop_id = "shop_w10_clinic"
+service_id = "service_w10_restoration"
+personality_note = "穏やかで知識が広い"
+initial_dialogue_jp = "塩水は傷を洗う。……帳面の傷は、洗っても消えないけどね。"
+notes = "群書の塩庫・回復"

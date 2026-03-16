@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-198"
+slug = "chuuchiyu"
+name_jp = "ちゅうちゆ"
+name_en = "Mid Heal"
+category = "recover"
+element = "light"
+mp_cost = 7
+target_scope = "ally_single"
+formula_key = "H1"
+base_power = 36
+base_rate = 0
+tags = ["recover", "light"]
+battle_role = "ALLY_SUSTAIN"
+effect_text = "中程度の回復"

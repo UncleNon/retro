@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W21-005"
+scope_id = "W-021"
+name_jp = "カジ"
+name_en = "Kaji_W21"
+role = "開始村の家族代表"
+dark_role = "せめて誰を待っていたか確定したい"
+x = 34
+y = 22
+facing = "down"
+npc_type = "key"
+phase_count = 4
+clue_ids = ["CL-054"]
+shop_id = ""
+service_id = ""
+personality_note = "静かな覚悟"
+initial_dialogue_jp = "戻ってきてほしい。……でも、終わってほしいとも思う。両方、本当だ。"
+notes = "ほどけの縁。開始村カジと同一人物"

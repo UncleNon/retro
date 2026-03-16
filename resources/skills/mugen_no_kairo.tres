@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-307"
+slug = "mugen_no_kairo"
+name_jp = "むげんのかいろう"
+name_en = "Endless Corridor"
+category = "setup"
+element = "dark"
+mp_cost = 10
+target_scope = "field"
+formula_key = "B3"
+base_power = 0
+base_rate = 0
+tags = ["setup", "field", "gate_special", "tower_reactive", "dark"]
+battle_role = "CONTROL"
+effect_text = "無限回廊に閉じこめる"

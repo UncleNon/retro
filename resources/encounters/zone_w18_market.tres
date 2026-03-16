@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="EncounterZoneData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/encounter_zone_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+zone_id = "ZONE-W18-MARKET"
+world_id = "W-018"
+name_jp = "二重印の市場"
+encounter_min_steps = 10
+encounter_max_steps = 18
+terrain_rate = 1.1
+bgm_id = "BGM-W018-FIELD"
+is_dungeon = false
+time_band = "dusk"
+weather = "clear"
+notes = "二重印章で取引される市場"
+entries = [{"slot": 1, "monster_id": "MON-282", "weight": 20, "min_lv": 70, "max_lv": 72, "time_band": "dusk", "weather": "clear"}, {"slot": 2, "monster_id": "MON-299", "weight": 20, "min_lv": 70, "max_lv": 72, "time_band": "dusk", "weather": "clear"}, {"slot": 3, "monster_id": "MON-489", "weight": 15, "min_lv": 70, "max_lv": 72, "time_band": "dusk", "weather": "clear"}, {"slot": 4, "monster_id": "MON-446", "weight": 15, "min_lv": 71, "max_lv": 73, "time_band": "dusk", "weather": "clear"}, {"slot": 5, "monster_id": "MON-231", "weight": 15, "min_lv": 70, "max_lv": 72, "time_band": "dusk", "weather": "clear"}, {"slot": 6, "monster_id": "MON-490", "weight": 15, "min_lv": 72, "max_lv": 73, "time_band": "dusk", "weather": "clear"}]

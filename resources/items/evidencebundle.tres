@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/item_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+item_id = "item_key_evidencebundle"
+slug = "evidencebundle"
+name_jp = "証拠束"
+name_en = "Evidence Bundle"
+item_kind = "key"
+subtype = "key_item"
+price = 0
+sell_price = 0
+target_scope = "none"
+effect_key = "story_flag"
+effect_value = "GATE-009"
+tags = ["key", "gate", "lore_winter_name_war", "event_h1007"]
+description = "冬名札と養親誓紙を束ねた証拠束"

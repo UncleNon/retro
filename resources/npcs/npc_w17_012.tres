@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W17-012"
+scope_id = "W-017"
+name_jp = "ミホ"
+name_en = "Miho"
+role = "遺族の娘"
+dark_role = "母に連れられて通う子ども"
+x = 24
+y = 20
+facing = "down"
+npc_type = "mob"
+phase_count = 1
+clue_ids = []
+shop_id = ""
+service_id = ""
+personality_note = "大人しくて聡明"
+initial_dialogue_jp = "お母さんがお父さんの声を聞きに来てる。……私には、聞こえない。"
+notes = "残名の回廊"

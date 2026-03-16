@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="BreedRuleData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/breed_rule_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+rule_id = "BRD-3012"
+rule_type = "mutation"
+parent_a_key = "family:plant"
+parent_b_key = "family:material"
+child_monster_id = "MON-167"
+priority = 60
+special_recipe_bonus = 0
+lv_requirement = 16
+notes = "植物×器物で降ろし草への role_shift 変異: 鍛冶場で確率上昇"

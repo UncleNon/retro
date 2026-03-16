@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W16-008"
+scope_id = "W-016"
+name_jp = "スエ"
+name_en = "Sue"
+role = "炉の子ども"
+dark_role = "継ぎ目の美しさに魅了されている"
+x = 32
+y = 24
+facing = "down"
+npc_type = "mob"
+phase_count = 1
+clue_ids = []
+shop_id = ""
+service_id = ""
+personality_note = "好奇心旺盛で無邪気"
+initial_dialogue_jp = "この模様、きれいでしょ？　割れたから、こうなったんだって。"
+notes = "焼継の鍛土"

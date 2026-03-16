@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-480"
+slug = "sumi_damari"
+name_jp = "スミダマリ"
+name_en = "Sumi Damari"
+family = "slime"
+rank = "D"
+size_class = "S"
+motif_group = "abstract"
+secondary_motif_group = "bureaucratic"
+motif_source = "墨 + 溜り + 帳面跡"
+ontology_class = "record_bent"
+silhouette_type = "wide"
+palette_id = "pal_ink_pool"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 70
+growth_curve_id = "LATE"
+base_stats = {"hp": 22, "mp": 16, "atk": 9, "def": 10, "spd": 12, "int": 16, "res": 14}
+cap_stats = {"hp": 166, "mp": 126, "atk": 86, "def": 96, "spd": 114, "int": 136, "res": 122}
+base_recruit = 20
+scoutable = true
+personality_bias = "calculating"
+battle_role = "controller"
+trait_1 = "墨食い"
+trait_2 = "封印微耐性"
+loot_table_id = "loot_monster_sumi_damari"
+prompt_id = "PRM-MON-480"
+notes = "帳面から溢れた墨が溜まり文字を溶かす墨の生き物"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 1, "fear": 0, "instant_death": -1, "burn": -1, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 1, "hush": 0}
+learnset = []

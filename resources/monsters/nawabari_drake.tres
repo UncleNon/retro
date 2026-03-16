@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-378"
+slug = "nawabari_drake"
+name_jp = "ナワバリドレイク"
+name_en = "Nawabari Drake"
+family = "dragon"
+rank = "D"
+size_class = "S"
+motif_group = "animal"
+secondary_motif_group = "gatebound"
+motif_source = "飛竜 + 縄張り + 境界碑"
+ontology_class = "gate_touched"
+silhouette_type = "tall"
+palette_id = "pal_territory_drake"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 70
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 26, "mp": 12, "atk": 16, "def": 12, "spd": 14, "int": 11, "res": 11}
+cap_stats = {"hp": 192, "mp": 90, "atk": 150, "def": 108, "spd": 132, "int": 88, "res": 96}
+base_recruit = 18
+scoutable = true
+personality_bias = "bold"
+battle_role = "striker"
+trait_1 = "縄張り爪"
+trait_2 = "風耐性"
+loot_table_id = "loot_monster_nawabari_drake"
+prompt_id = "PRM-MON-378"
+notes = "境界碑に爪痕を残して縄張りを刻む小型飛竜"
+resistances = {"fire": 0, "water": 0, "wind": 1, "earth": -1, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

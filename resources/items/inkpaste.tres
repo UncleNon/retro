@@ -15,5 +15,5 @@ sell_price = 70
 target_scope = "party"
 effect_key = "ledger_check"
 effect_value = "1"
-tags = ["record", "clue"]
-description = "台帳や役名札の削り直し痕を浮かせる墨膏"
+tags = ["record", "clue", "lore_double_registry", "event_h1006"]
+description = "二署台帳の食い違い痕を浮かせる墨膏"

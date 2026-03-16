@@ -15,5 +15,5 @@ sell_price = 47
 target_scope = "party"
 effect_key = "repel_low"
 effect_value = "1"
-tags = ["field", "explore"]
-description = "低ランクの遭遇を抑制する"
+tags = ["field", "explore", "lore_seven_ash", "event_h1002"]
+description = "閉じ塩を混ぜ低位の寄りを遠ざける灰"

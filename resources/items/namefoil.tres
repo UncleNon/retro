@@ -15,5 +15,5 @@ sell_price = 110
 target_scope = "party"
 effect_key = "recipe_hint"
 effect_value = "1"
-tags = ["record", "clue"]
-description = "名札と役名札の貼り替え跡を拾う名箔"
+tags = ["record", "clue", "lore_role_name", "event_h1006"]
+description = "名札と役名札の貼り替え跡を浮かせる名箔"

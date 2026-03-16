@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-498"
+slug = "motoumi_jel"
+name_jp = "モトウミジェル"
+name_en = "Motoumi Jel"
+family = "slime"
+rank = "B"
+size_class = "M"
+motif_group = "abstract"
+secondary_motif_group = "gatebound"
+motif_source = "元海 + ジェル + 溶解身分"
+ontology_class = "remnant_bearing"
+silhouette_type = "wide"
+palette_id = "pal_primal_gel"
+field_sprite_px = 16
+battle_sprite_px = 48
+base_level_cap = 78
+growth_curve_id = "LATE"
+base_stats = {"hp": 28, "mp": 19, "atk": 13, "def": 14, "spd": 12, "int": 19, "res": 18}
+cap_stats = {"hp": 216, "mp": 148, "atk": 126, "def": 128, "spd": 116, "int": 160, "res": 150}
+base_recruit = 0
+scoutable = false
+personality_bias = "blank"
+battle_role = "controller"
+trait_1 = "原初膜"
+trait_2 = "封印耐性"
+loot_table_id = "loot_monster_motoumi_jel"
+prompt_id = "PRM-MON-498"
+notes = "身分が溶けた原初のジェルのような古い液体"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 2, "fear": 0, "instant_death": 0, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 1, "hush": 0}
+learnset = []

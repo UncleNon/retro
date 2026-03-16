@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-356"
+slug = "bochi_no_kioku"
+name_jp = "ボチノキオク"
+name_en = "Bochi no Kioku"
+family = "undead"
+rank = "A"
+size_class = "L"
+motif_group = "abstract"
+secondary_motif_group = "funerary"
+motif_source = "墓地 + 記憶 + 集合追悼"
+ontology_class = "remnant_bearing"
+silhouette_type = "wide"
+palette_id = "pal_graveyard_memory"
+field_sprite_px = 16
+battle_sprite_px = 48
+base_level_cap = 82
+growth_curve_id = "LEGEND"
+base_stats = {"hp": 34, "mp": 17, "atk": 16, "def": 17, "spd": 12, "int": 16, "res": 18}
+cap_stats = {"hp": 258, "mp": 132, "atk": 152, "def": 156, "spd": 114, "int": 136, "res": 150}
+base_recruit = 0
+scoutable = false
+personality_bias = "mournful"
+battle_role = "tank"
+trait_1 = "記憶守り"
+trait_2 = "光微耐性"
+loot_table_id = "loot_monster_bochi_no_kioku"
+prompt_id = "PRM-MON-356"
+notes = "墓地そのものの記憶が一体の形を取った追悼の集合体"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 1, "dark": 1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 2, "instant_death": 1, "burn": 0, "freeze": 0, "curse": 1, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

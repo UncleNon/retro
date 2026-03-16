@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="BreedRuleData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/breed_rule_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+rule_id = "BRD-3005"
+rule_type = "mutation"
+parent_a_key = "family:material"
+parent_b_key = "family:magic"
+child_monster_id = "MON-235"
+priority = 60
+special_recipe_bonus = 0
+lv_requirement = 16
+notes = "器物×魔性で神楽鈴への role_shift 変異: 祠近接で確率上昇"

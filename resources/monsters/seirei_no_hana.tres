@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-183"
+slug = "seirei_no_hana"
+name_jp = "セイレイノハナ"
+name_en = "Seirei no Hana"
+family = "plant"
+rank = "S"
+size_class = "L"
+motif_group = "plant"
+secondary_motif_group = "astral"
+motif_source = "聖霊花 + 白泥 + 境界原"
+ontology_class = "remnant_bearing"
+silhouette_type = "tall"
+palette_id = "pal_spirit_flower"
+field_sprite_px = 16
+battle_sprite_px = 56
+base_level_cap = 82
+growth_curve_id = "LEGEND"
+base_stats = {"hp": 30, "mp": 20, "atk": 16, "def": 16, "spd": 16, "int": 20, "res": 20}
+cap_stats = {"hp": 230, "mp": 150, "atk": 150, "def": 148, "spd": 148, "int": 162, "res": 166}
+base_recruit = 0
+scoutable = false
+personality_bias = "watchful"
+battle_role = "controller"
+trait_1 = "聖霊咲き"
+trait_2 = "光耐性"
+loot_table_id = "loot_monster_seirei_no_hana"
+prompt_id = "PRM-MON-183"
+notes = "白泥境界で世界の境を花で繋ぐ聖霊の花精"
+resistances = {"fire": -1, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 2, "dark": -1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 1, "fear": 0, "instant_death": 2, "burn": -2, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 1, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-063"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-068"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-065"}]

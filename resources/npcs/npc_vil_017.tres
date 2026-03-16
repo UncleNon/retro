@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-VIL-017"
+scope_id = "VIL"
+name_jp = "コウヤ"
+name_en = "Kouya"
+role = "老大工"
+dark_role = "北道の古い杭を打ち直した経験がある"
+x = 48
+y = 20
+facing = "down"
+npc_type = "minor"
+phase_count = 2
+clue_ids = ["CL-005"]
+shop_id = ""
+service_id = ""
+personality_note = "頑固で口が悪い"
+initial_dialogue_jp = "杭を打ち直すたびに字が増える。誰が書いてるんだか。"
+notes = "開始村"

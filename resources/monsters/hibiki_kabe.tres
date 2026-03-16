@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-296"
+slug = "hibiki_kabe"
+name_jp = "ヒビキカベ"
+name_en = "Hibiki Kabe"
+family = "magic"
+rank = "B"
+size_class = "M"
+motif_group = "abstract"
+secondary_motif_group = "gatebound"
+motif_source = "反響壁 + 声壁 + 回廊"
+ontology_class = "gate_touched"
+silhouette_type = "wide"
+palette_id = "pal_echo_wall"
+field_sprite_px = 16
+battle_sprite_px = 48
+base_level_cap = 78
+growth_curve_id = "LATE"
+base_stats = {"hp": 30, "mp": 16, "atk": 13, "def": 17, "spd": 10, "int": 16, "res": 16}
+cap_stats = {"hp": 226, "mp": 124, "atk": 124, "def": 156, "spd": 96, "int": 138, "res": 138}
+base_recruit = 0
+scoutable = false
+personality_bias = "echoing"
+battle_role = "tank"
+trait_1 = "壁反響"
+trait_2 = "地微耐性"
+loot_table_id = "loot_monster_hibiki_kabe"
+prompt_id = "PRM-MON-296"
+notes = "回廊の壁面が声を蓄え反響させる壁型存在"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 1, "thunder": -1, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": 1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

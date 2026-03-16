@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="EncounterZoneData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/encounter_zone_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+zone_id = "ZONE-W09-FOREST"
+world_id = "W-009"
+name_jp = "凍林"
+encounter_min_steps = 10
+encounter_max_steps = 17
+terrain_rate = 1.2
+bgm_id = "BGM-W009-FIELD"
+is_dungeon = false
+time_band = "dusk"
+weather = "snow"
+notes = "凍りついた森林地帯"
+entries = [{"slot": 1, "monster_id": "MON-073", "weight": 20, "min_lv": 34, "max_lv": 37, "time_band": "dusk", "weather": "snow"}, {"slot": 2, "monster_id": "MON-068", "weight": 20, "min_lv": 34, "max_lv": 37, "time_band": "dusk", "weather": "snow"}, {"slot": 3, "monster_id": "MON-336", "weight": 15, "min_lv": 35, "max_lv": 37, "time_band": "dusk", "weather": "snow"}, {"slot": 4, "monster_id": "MON-333", "weight": 15, "min_lv": 34, "max_lv": 36, "time_band": "dusk", "weather": "snow"}, {"slot": 5, "monster_id": "MON-343", "weight": 15, "min_lv": 36, "max_lv": 38, "time_band": "dusk", "weather": "snow"}, {"slot": 6, "monster_id": "MON-420", "weight": 15, "min_lv": 36, "max_lv": 38, "time_band": "dusk", "weather": "snow"}]

@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-123"
+slug = "gokuenha"
+name_jp = "ごくえんは"
+name_en = "Hellfire Slash"
+category = "physical"
+element = "fire"
+mp_cost = 10
+target_scope = "single"
+formula_key = "P5"
+base_power = 160
+base_rate = 20
+tags = ["single", "physical", "fire"]
+battle_role = "PAYOFF"
+effect_text = "獄炎をまとう斬撃"

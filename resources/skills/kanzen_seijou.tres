@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-342"
+slug = "kanzen_seijou"
+name_jp = "かんぜんせいじょう"
+name_en = "Perfect Cleanse"
+category = "recover"
+element = "light"
+mp_cost = 15
+target_scope = "ally_all"
+formula_key = "H2"
+base_power = 15
+base_rate = 0
+tags = ["recover", "cure", "all", "spread", "breed"]
+battle_role = "ALLY_SUSTAIN"
+effect_text = "完全浄化と小回復"

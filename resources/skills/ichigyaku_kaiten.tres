@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-346"
+slug = "ichigyaku_kaiten"
+name_jp = "いちぎゃくかいてん"
+name_en = "Reversal Spin"
+category = "physical"
+element = "none"
+mp_cost = 6
+target_scope = "single"
+formula_key = "P3"
+base_power = 100
+base_rate = 0
+tags = ["single", "physical", "counter_bonus"]
+battle_role = "PAYOFF"
+effect_text = "被弾後に威力上昇"

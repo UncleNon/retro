@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-289"
+slug = "shin_en_no_hikari"
+name_jp = "しんえんのひかり"
+name_en = "Abyssal Light"
+category = "magic"
+element = "light"
+mp_cost = 12
+target_scope = "single"
+formula_key = "M1"
+base_power = 45
+base_rate = 0
+tags = ["single", "fixed_magic", "light", "dark", "breed", "divine"]
+battle_role = "PAYOFF"
+effect_text = "深淵より光を放つ"

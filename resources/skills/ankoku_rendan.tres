@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-118"
+slug = "ankoku_rendan"
+name_jp = "あんこくれんだん"
+name_en = "Dark Barrage"
+category = "physical"
+element = "dark"
+mp_cost = 8
+target_scope = "random4"
+formula_key = "P2"
+base_power = 45
+base_rate = 10
+tags = ["random", "physical", "dark"]
+battle_role = "CONTROL"
+effect_text = "闇をまとう4連撃"

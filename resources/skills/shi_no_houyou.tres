@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-273"
+slug = "shi_no_houyou"
+name_jp = "しのほうよう"
+name_en = "Death Embrace"
+category = "magic"
+element = "dark"
+mp_cost = 10
+target_scope = "single"
+formula_key = "M1"
+base_power = 35
+base_rate = 30
+tags = ["single", "fixed_magic", "dark", "breed", "status", "instant_death"]
+battle_role = "CONTROL"
+effect_text = "死の抱擁が包みこむ"

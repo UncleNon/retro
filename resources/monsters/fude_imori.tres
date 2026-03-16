@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-371"
+slug = "fude_imori"
+name_jp = "フデイモリ"
+name_en = "Fude Imori"
+family = "dragon"
+rank = "E"
+size_class = "S"
+motif_group = "animal"
+secondary_motif_group = "bureaucratic"
+motif_source = "井守 + 筆 + 墨跡"
+ontology_class = "record_bent"
+silhouette_type = "serpentine"
+palette_id = "pal_brush_newt"
+field_sprite_px = 16
+battle_sprite_px = 24
+base_level_cap = 62
+growth_curve_id = "EARLY"
+base_stats = {"hp": 18, "mp": 12, "atk": 9, "def": 8, "spd": 12, "int": 12, "res": 10}
+cap_stats = {"hp": 138, "mp": 86, "atk": 90, "def": 84, "spd": 114, "int": 96, "res": 88}
+base_recruit = 30
+scoutable = true
+personality_bias = "calculating"
+battle_role = "controller"
+trait_1 = "墨這い"
+trait_2 = "水微耐性"
+loot_table_id = "loot_monster_fude_imori"
+prompt_id = "PRM-MON-371"
+notes = "墨跡のような模様を持ち湿地を這う井守"
+resistances = {"fire": 0, "water": 1, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

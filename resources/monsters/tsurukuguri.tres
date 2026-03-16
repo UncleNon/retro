@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-166"
+slug = "tsurukuguri"
+name_jp = "ツルクグリ"
+name_en = "Tsurukuguri"
+family = "plant"
+rank = "C"
+size_class = "M"
+motif_group = "plant"
+secondary_motif_group = "gatebound"
+motif_source = "蔓 + 潜り + 門裂"
+ontology_class = "gate_touched"
+silhouette_type = "tall"
+palette_id = "pal_vine_creep"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 76
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 26, "mp": 14, "atk": 14, "def": 14, "spd": 13, "int": 13, "res": 13}
+cap_stats = {"hp": 198, "mp": 108, "atk": 134, "def": 128, "spd": 124, "int": 108, "res": 114}
+base_recruit = 12
+scoutable = true
+personality_bias = "patient"
+battle_role = "tank"
+trait_1 = "門潜り蔓"
+trait_2 = "地耐性"
+loot_table_id = "loot_monster_tsurukuguri"
+prompt_id = "PRM-MON-166"
+notes = "門の裂け目を蔓で潜り抜ける蔓精"
+resistances = {"fire": -1, "water": 0, "wind": 0, "earth": 1, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": -1, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-043"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-035"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-024"}]

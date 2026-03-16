@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-426"
+slug = "sakaki_mushi"
+name_jp = "サカキムシ"
+name_en = "Sakaki Mushi"
+family = "divine"
+rank = "E"
+size_class = "S"
+motif_group = "plant"
+secondary_motif_group = "funerary"
+motif_source = "榊虫 + 神枝 + 供物棚"
+ontology_class = "wildborn"
+silhouette_type = "round"
+palette_id = "pal_sacred_bug"
+field_sprite_px = 16
+battle_sprite_px = 24
+base_level_cap = 62
+growth_curve_id = "EARLY"
+base_stats = {"hp": 16, "mp": 10, "atk": 9, "def": 9, "spd": 12, "int": 11, "res": 11}
+cap_stats = {"hp": 122, "mp": 72, "atk": 86, "def": 86, "spd": 112, "int": 88, "res": 90}
+base_recruit = 30
+scoutable = true
+personality_bias = "patient"
+battle_role = "bait_specialist"
+trait_1 = "神枝食い"
+trait_2 = "光微耐性"
+loot_table_id = "loot_monster_sakaki_mushi"
+prompt_id = "PRM-MON-426"
+notes = "榊の枝に棲みつき供物棚を守る虫"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 1, "dark": -1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": 0, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

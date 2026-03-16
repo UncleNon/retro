@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-270"
+slug = "suna_kemuri"
+name_jp = "スナケムリ"
+name_en = "Suna Kemuri"
+family = "magic"
+rank = "E"
+size_class = "S"
+motif_group = "weather"
+secondary_motif_group = "pastoral"
+motif_source = "砂煙 + 旋風 + 乾草地"
+ontology_class = "wildborn"
+silhouette_type = "floating"
+palette_id = "pal_sand_smoke"
+field_sprite_px = 16
+battle_sprite_px = 24
+base_level_cap = 61
+growth_curve_id = "EARLY"
+base_stats = {"hp": 16, "mp": 10, "atk": 10, "def": 6, "spd": 16, "int": 9, "res": 9}
+cap_stats = {"hp": 126, "mp": 78, "atk": 98, "def": 72, "spd": 148, "int": 80, "res": 84}
+base_recruit = 30
+scoutable = true
+personality_bias = "restless"
+battle_role = "striker"
+trait_1 = "砂嵐"
+trait_2 = "地微耐性"
+loot_table_id = "loot_monster_suna_kemuri"
+prompt_id = "PRM-MON-270"
+notes = "乾草地で砂を巻いて走る小旋風"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 1, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

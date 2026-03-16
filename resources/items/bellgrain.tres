@@ -15,5 +15,5 @@ sell_price = 80
 target_scope = "enemy_single"
 effect_key = "recruit_bonus"
 effect_value = "22"
-tags = ["bait", "beast", "bird"]
-description = "獣と鳥が好む鈴穀"
+tags = ["bait", "beast", "bird", "lore_bell_route", "event_h1003"]
+description = "借り鈴置場の穀を混ぜ鳥獣を誘う餌"

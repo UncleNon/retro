@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W09-012"
+scope_id = "W-009"
+name_jp = "ワタル"
+name_en = "Wataru"
+role = "飼育係"
+dark_role = "雪原の獣を預かり育てる"
+x = 34
+y = 30
+facing = "left"
+npc_type = "breeder"
+phase_count = 2
+clue_ids = []
+shop_id = "shop_w09_breeder"
+service_id = "service_w09_breeding"
+personality_note = "無口で獣に詳しい"
+initial_dialogue_jp = "獣は名前で呼ばなくても寄ってくる。……人間は、そうもいかない。"
+notes = "仮親の雪原・牧場"

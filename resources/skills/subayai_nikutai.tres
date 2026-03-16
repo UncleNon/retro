@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-261"
+slug = "subayai_nikutai"
+name_jp = "すばやいにくたい"
+name_en = "Quick Body"
+category = "utility"
+element = "wind"
+mp_cost = 3
+target_scope = "self"
+formula_key = "B1"
+base_power = 0
+base_rate = 0
+tags = ["utility", "self_buff", "spd"]
+battle_role = "RUSH_OPEN"
+effect_text = "自身のSPDを大幅に上げる"

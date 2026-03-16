@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W09-006"
+scope_id = "W-009"
+name_jp = "ゲンシロウ"
+name_en = "Genshirou"
+role = "分家書記"
+dark_role = "本家と分家の帳面を管理する"
+x = 44
+y = 18
+facing = "right"
+npc_type = "minor"
+phase_count = 2
+clue_ids = ["CL-026"]
+shop_id = ""
+service_id = ""
+personality_note = "几帳面だが良心に悩む"
+initial_dialogue_jp = "帳面には一人分の枠しかない。……名前が二つある人は、どうすればいい？"
+notes = "仮親の雪原"

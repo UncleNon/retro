@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="EncounterZoneData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/encounter_zone_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+zone_id = "ZONE-W16-GATE"
+world_id = "W-016"
+name_jp = "鍛土入口"
+encounter_min_steps = 14
+encounter_max_steps = 22
+terrain_rate = 1.0
+bgm_id = "BGM-W016-FIELD"
+is_dungeon = false
+time_band = "day"
+weather = "clear"
+notes = "焼継の鍛土への入口"
+entries = [{"slot": 1, "monster_id": "MON-215", "weight": 20, "min_lv": 60, "max_lv": 62, "time_band": "day", "weather": "clear"}, {"slot": 2, "monster_id": "MON-234", "weight": 20, "min_lv": 60, "max_lv": 62, "time_band": "day", "weather": "clear"}, {"slot": 3, "monster_id": "MON-393", "weight": 15, "min_lv": 60, "max_lv": 62, "time_band": "day", "weather": "clear"}, {"slot": 4, "monster_id": "MON-236", "weight": 15, "min_lv": 61, "max_lv": 62, "time_band": "day", "weather": "clear"}, {"slot": 5, "monster_id": "MON-380", "weight": 15, "min_lv": 60, "max_lv": 62, "time_band": "day", "weather": "clear"}, {"slot": 6, "monster_id": "MON-010", "weight": 15, "min_lv": 62, "max_lv": 63, "time_band": "day", "weather": "clear"}]

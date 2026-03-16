@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W05-005"
+scope_id = "W-005"
+name_jp = "コズエ"
+name_en = "Kozue"
+role = "灰水路の番人"
+dark_role = "墓地の水路を管理する"
+x = 28
+y = 28
+facing = "down"
+npc_type = "minor"
+phase_count = 2
+clue_ids = []
+shop_id = ""
+service_id = ""
+personality_note = "寡黙で責任感が強い"
+initial_dialogue_jp = "水は上から下へ流れる。名前もそうだ。……上へは戻らない。"
+notes = "香なしの墓苑"

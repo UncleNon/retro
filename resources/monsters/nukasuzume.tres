@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-152"
+slug = "nukasuzume"
+name_jp = "ヌカスズメ"
+name_en = "Nukasuzume"
+family = "plant"
+rank = "E"
+size_class = "S"
+motif_group = "plant"
+secondary_motif_group = "household"
+motif_source = "糠 + 雀 + 穀倉床"
+ontology_class = "wildborn"
+silhouette_type = "round"
+palette_id = "pal_chaff_sprite"
+field_sprite_px = 16
+battle_sprite_px = 24
+base_level_cap = 62
+growth_curve_id = "EARLY"
+base_stats = {"hp": 18, "mp": 10, "atk": 10, "def": 9, "spd": 13, "int": 10, "res": 10}
+cap_stats = {"hp": 140, "mp": 74, "atk": 100, "def": 92, "spd": 124, "int": 84, "res": 88}
+base_recruit = 32
+scoutable = true
+personality_bias = "restless"
+battle_role = "healer"
+trait_1 = "糠撒き"
+trait_2 = "地微耐性"
+loot_table_id = "loot_monster_nukasuzume"
+prompt_id = "PRM-MON-152"
+notes = "穀倉の床で糠を撒き散らす穀精"
+resistances = {"fire": -1, "water": 0, "wind": 0, "earth": 1, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": -1, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-021"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-004"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-028"}]

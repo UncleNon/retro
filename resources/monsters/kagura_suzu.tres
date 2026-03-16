@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-235"
+slug = "kagura_suzu"
+name_jp = "カグラスズ"
+name_en = "Kagura Suzu"
+family = "material"
+rank = "C"
+size_class = "M"
+motif_group = "ritual"
+secondary_motif_group = "gatebound"
+motif_source = "神楽鈴 + 振り子虫 + 祠"
+ontology_class = "gate_touched"
+silhouette_type = "floating"
+palette_id = "pal_kagura_bell"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 74
+growth_curve_id = "LATE"
+base_stats = {"hp": 24, "mp": 16, "atk": 12, "def": 11, "spd": 14, "int": 16, "res": 14}
+cap_stats = {"hp": 184, "mp": 126, "atk": 118, "def": 104, "spd": 132, "int": 138, "res": 122}
+base_recruit = 12
+scoutable = true
+personality_bias = "echoing"
+battle_role = "controller"
+trait_1 = "神鈴振り"
+trait_2 = "光微耐性"
+loot_table_id = "loot_monster_kagura_suzu"
+prompt_id = "PRM-MON-235"
+notes = "祠で神楽鈴を振って門を呼ぶ浮遊虫"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 1, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 1, "hush": 0}
+learnset = []

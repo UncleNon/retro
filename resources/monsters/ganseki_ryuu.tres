@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-380"
+slug = "ganseki_ryuu"
+name_jp = "ガンセキリュウ"
+name_en = "Ganseki Ryuu"
+family = "dragon"
+rank = "D"
+size_class = "M"
+motif_group = "animal"
+secondary_motif_group = "pastoral"
+motif_source = "岩竜 + 石灰 + 牧壁"
+ontology_class = "wildborn"
+silhouette_type = "wide"
+palette_id = "pal_boulder_dragon"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 72
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 28, "mp": 10, "atk": 14, "def": 16, "spd": 9, "int": 8, "res": 12}
+cap_stats = {"hp": 206, "mp": 78, "atk": 134, "def": 142, "spd": 88, "int": 72, "res": 104}
+base_recruit = 16
+scoutable = true
+personality_bias = "patient"
+battle_role = "tank"
+trait_1 = "岩甲ら"
+trait_2 = "地耐性"
+loot_table_id = "loot_monster_ganseki_ryuu"
+prompt_id = "PRM-MON-380"
+notes = "牧壁に擬態し石灰色の甲羅を持つ岩竜"
+resistances = {"fire": 0, "water": -1, "wind": 0, "earth": 2, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

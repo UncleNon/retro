@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-472"
+slug = "jueki_shizuku"
+name_jp = "ジュエキシズク"
+name_en = "Jueki Shizuku"
+family = "slime"
+rank = "E"
+size_class = "S"
+motif_group = "plant"
+secondary_motif_group = "funerary"
+motif_source = "樹液 + 雫 + 古木"
+ontology_class = "wildborn"
+silhouette_type = "round"
+palette_id = "pal_sap_drop"
+field_sprite_px = 16
+battle_sprite_px = 24
+base_level_cap = 60
+growth_curve_id = "EARLY"
+base_stats = {"hp": 18, "mp": 14, "atk": 7, "def": 8, "spd": 10, "int": 13, "res": 12}
+cap_stats = {"hp": 134, "mp": 96, "atk": 72, "def": 82, "spd": 94, "int": 102, "res": 98}
+base_recruit = 30
+scoutable = true
+personality_bias = "meek"
+battle_role = "healer"
+trait_1 = "樹液膜"
+trait_2 = "毒微耐性"
+loot_table_id = "loot_monster_jueki_shizuku"
+prompt_id = "PRM-MON-472"
+notes = "古木から垂れた樹液が雫の形で動き出した生き物"
+resistances = {"fire": -1, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 1, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": -1, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

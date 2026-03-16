@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W04-012"
+scope_id = "W-004"
+name_jp = "シマ"
+name_en = "Shima"
+role = "積荷改めの女"
+dark_role = "荷物と人の扱いの差に疑問を持つ"
+x = 34
+y = 26
+facing = "right"
+npc_type = "minor"
+phase_count = 1
+clue_ids = []
+shop_id = ""
+service_id = ""
+personality_note = "手際がよく観察力がある"
+initial_dialogue_jp = "荷には全部札が付く。人にも。……同じだろ、やってることは。"
+notes = "札差しの岬"

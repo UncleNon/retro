@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W02-008"
+scope_id = "W-002"
+name_jp = "コガネ"
+name_en = "Kogane"
+role = "谷下の子ども"
+dark_role = "薄印を気にせず遊ぶ"
+x = 16
+y = 34
+facing = "down"
+npc_type = "mob"
+phase_count = 1
+clue_ids = []
+shop_id = ""
+service_id = ""
+personality_note = "屈託がない"
+initial_dialogue_jp = "おねえちゃんの印、きれいな色だよ？　なんでダメなの？"
+notes = "灰乳の谷"

@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-175"
+slug = "kusanagi_tsuru"
+name_jp = "クサナギツル"
+name_en = "Kusanagi Tsuru"
+family = "plant"
+rank = "B"
+size_class = "M"
+motif_group = "plant"
+secondary_motif_group = "astral"
+motif_source = "薙蔓 + 剣草 + 塔外壁"
+ontology_class = "gate_touched"
+silhouette_type = "tall"
+palette_id = "pal_blade_vine"
+field_sprite_px = 16
+battle_sprite_px = 48
+base_level_cap = 74
+growth_curve_id = "LATE"
+base_stats = {"hp": 24, "mp": 14, "atk": 20, "def": 10, "spd": 16, "int": 14, "res": 12}
+cap_stats = {"hp": 186, "mp": 106, "atk": 186, "def": 96, "spd": 148, "int": 114, "res": 100}
+base_recruit = 0
+scoutable = false
+personality_bias = "bold"
+battle_role = "striker"
+trait_1 = "薙払い蔓"
+trait_2 = "風耐性"
+loot_table_id = "loot_monster_kusanagi_tsuru"
+prompt_id = "PRM-MON-175"
+notes = "塔の外壁を薙ぐように伸びる剣蔓の精"
+resistances = {"fire": -1, "water": 0, "wind": 1, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": 1, "burn": -1, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-043"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-074"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-008"}]

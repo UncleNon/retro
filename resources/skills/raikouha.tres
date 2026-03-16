@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-115"
+slug = "raikouha"
+name_jp = "らいこうは"
+name_en = "Lightning Edge"
+category = "physical"
+element = "thunder"
+mp_cost = 7
+target_scope = "single"
+formula_key = "P3"
+base_power = 140
+base_rate = 25
+tags = ["single", "physical", "thunder"]
+battle_role = "BREAK_DEF"
+effect_text = "雷光をまとう一太刀"

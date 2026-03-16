@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-VIL-013"
+scope_id = "VIL"
+name_jp = "ツキヨ"
+name_en = "Tsukiyo"
+role = "道具屋の婆"
+dark_role = "村外の品に混じる異世界の痕跡を知る"
+x = 50
+y = 34
+facing = "down"
+npc_type = "merchant"
+phase_count = 2
+clue_ids = []
+shop_id = "shop_vil_general"
+service_id = ""
+personality_note = "商売熱心だが古い品には妙に詳しい"
+initial_dialogue_jp = "いらっしゃい。……その札？　前の仕入れに混じってたんだよ。"
+notes = "開始村道具屋"

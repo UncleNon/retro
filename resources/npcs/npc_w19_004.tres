@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W19-004"
+scope_id = "W-019"
+name_jp = "ゼキ"
+name_en = "Zeki"
+role = "裏輸送舟の主"
+dark_role = "rank不足者を夜に運ぶ"
+x = 20
+y = 28
+facing = "up"
+npc_type = "key"
+phase_count = 3
+clue_ids = ["CL-049"]
+shop_id = ""
+service_id = ""
+personality_note = "肝が据わって金に執着"
+initial_dialogue_jp = "夜の舟は名前を聞かない。……戻ってこない奴もいるけどな。"
+notes = "閉鐘の塔都"

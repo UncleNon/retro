@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-VIL-019"
+scope_id = "VIL"
+name_jp = "ユキエ"
+name_en = "Yukie"
+role = "カジの義母"
+dark_role = "失踪した息子のことを語らない"
+x = 70
+y = 37
+facing = "down"
+npc_type = "minor"
+phase_count = 2
+clue_ids = ["CL-001"]
+shop_id = ""
+service_id = ""
+personality_note = "寡黙で表情が薄い"
+initial_dialogue_jp = "……。あの子のことは聞かないで。"
+notes = "開始村"

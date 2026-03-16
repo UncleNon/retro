@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-442"
+slug = "saidan_ishi"
+name_jp = "サイダンイシ"
+name_en = "Saidan Ishi"
+family = "divine"
+rank = "C"
+size_class = "M"
+motif_group = "myth"
+secondary_motif_group = "funerary"
+motif_source = "祭壇石 + 供物台 + 古代式場"
+ontology_class = "wildborn"
+silhouette_type = "wide"
+palette_id = "pal_altar_stone"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 80
+growth_curve_id = "LATE"
+base_stats = {"hp": 32, "mp": 12, "atk": 14, "def": 18, "spd": 6, "int": 10, "res": 16}
+cap_stats = {"hp": 240, "mp": 94, "atk": 134, "def": 164, "spd": 66, "int": 84, "res": 138}
+base_recruit = 8
+scoutable = true
+personality_bias = "calm"
+battle_role = "tank"
+trait_1 = "祭壇守り"
+trait_2 = "地耐性"
+loot_table_id = "loot_monster_saidan_ishi"
+prompt_id = "PRM-MON-442"
+notes = "古代の式場で供物台として鎮座する意志ある石"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 1, "thunder": 0, "light": 0, "dark": -1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": 0, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

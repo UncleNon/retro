@@ -9,6 +9,7 @@
 > - `docs/specs/story/12_starting_arc_relationship_and_faction_map.md`
 > - `docs/specs/story/13_act_ii_bridge_relationship_and_faction_map.md`
 > - `docs/specs/content/09_act_i_ii_monster_expansion_and_discovery_pack.md`
+> - `docs/specs/content/11_item_history_and_monster_resonance_matrix.md`
 > - `docs/specs/worlds/14_starting_arc_map_and_secret_blueprints.md`
 > - `docs/specs/worlds/15_act_ii_bridge_map_and_secret_blueprints.md`
 

@@ -1,9 +1,10 @@
 extends Node2D
 
-const Layout = preload("res://scripts/world/starting_village_layout.gd")
-
 const COLOR_GRASS := Color("6a8f5d")
 const COLOR_PATH := Color("a18869")
+const COLOR_PATH_NORTH := Color("95785e")
+const COLOR_PATH_APPROACH := Color("7d6552")
+const COLOR_LOT := Color("739566")
 const COLOR_BUILDING := Color("6f5a47")
 const COLOR_ROOF := Color("8b6c57")
 const COLOR_FENCE := Color("4b3f34")
@@ -11,80 +12,78 @@ const COLOR_WELL := Color("647b8a")
 const COLOR_GRAVE := Color("8c8c8c")
 const COLOR_TOWER := Color("4b4f5d")
 const COLOR_TOWER_SHADOW := Color("2d3038")
+const COLOR_TOWER_CAP := Color("5a6070")
+
+var _layout = null
 
 
 func _ready() -> void:
 	queue_redraw()
 
 
+func configure(layout) -> void:
+	_layout = layout
+	queue_redraw()
+
+
 func _draw() -> void:
-	draw_rect(Rect2(Vector2.ZERO, Layout.MAP_PIXEL_SIZE), COLOR_GRASS)
-	_draw_zone(Layout.SOUTH_ROAD, COLOR_PATH)
-	_draw_zone(Layout.PLAZA, COLOR_PATH)
-	_draw_zone(Layout.NORTH_ROAD, COLOR_PATH.darkened(0.08))
-	_draw_zone(Layout.TOWER_APPROACH_ZONE, COLOR_PATH.darkened(0.18))
-	_draw_zone(Layout.GRAVEYARD, COLOR_GRAVE.darkened(0.18))
-
-	_draw_lot(Layout.HERO_HOME)
-	_draw_lot(Layout.BARN)
-	_draw_lot(Layout.ELDER_HOME)
-	_draw_lot(Layout.RECORD_SHED)
-	_draw_building(Layout.BUILDING_BODIES["hero_home"])
-	_draw_building(Layout.BUILDING_BODIES["barn"])
-	_draw_building(Layout.BUILDING_BODIES["elder_home"])
-	_draw_building(Layout.BUILDING_BODIES["record_shed"])
-
-	_draw_fences()
-	_draw_zone(Layout.WELL, COLOR_WELL)
-	_draw_tower()
+	if _layout == null:
+		return
+	draw_rect(Rect2(Vector2.ZERO, _layout.map_pixel_size), COLOR_GRASS)
+	for rect_row in _layout.get_rect_rows():
+		_draw_rect_row(rect_row)
 	_draw_markers()
 
 
+func _draw_rect_row(rect_row: Dictionary) -> void:
+	var rect: Rect2i = rect_row.get("rect", Rect2i())
+	var rect_kind := String(rect_row.get("rect_kind", ""))
+	var color_key := String(rect_row.get("draw_color_key", ""))
+	match rect_kind:
+		"terrain", "landmark":
+			_draw_zone(rect, _color_for_key(color_key))
+		"lot":
+			_draw_zone(rect, COLOR_LOT)
+		"building":
+			_draw_zone(rect, COLOR_BUILDING)
+		"roof":
+			_draw_zone(rect, COLOR_ROOF)
+		"fence":
+			_draw_zone(rect, COLOR_FENCE)
+		"tower":
+			_draw_zone(rect, _color_for_key(color_key))
+
+
 func _draw_zone(rect: Rect2i, color: Color) -> void:
-	draw_rect(Rect2(rect.position * Layout.TILE_SIZE, rect.size * Layout.TILE_SIZE), color)
-
-
-func _draw_lot(rect: Rect2i) -> void:
-	draw_rect(
-		Rect2(rect.position * Layout.TILE_SIZE, rect.size * Layout.TILE_SIZE),
-		COLOR_GRASS.lightened(0.05)
-	)
-
-
-func _draw_building(rect: Rect2i) -> void:
-	var base_rect := Rect2(rect.position * Layout.TILE_SIZE, rect.size * Layout.TILE_SIZE)
-	draw_rect(base_rect, COLOR_BUILDING)
-	draw_rect(
-		Rect2(base_rect.position, Vector2(base_rect.size.x, Layout.TILE_SIZE * 2)), COLOR_ROOF
-	)
-
-
-func _draw_fences() -> void:
-	for rect in Layout.FENCE_BLOCKERS:
-		_draw_zone(rect, COLOR_FENCE)
-
-
-func _draw_tower() -> void:
-	var tower_position := Vector2(
-		float((Layout.TOWER_CENTER_TILE.x - 9) * Layout.TILE_SIZE),
-		float((Layout.TOWER_CENTER_TILE.y - 14) * Layout.TILE_SIZE)
-	)
-	var tower_size := Vector2(18 * Layout.TILE_SIZE, 28 * Layout.TILE_SIZE)
-	draw_rect(Rect2(tower_position + Vector2(8, 8), tower_size), COLOR_TOWER_SHADOW)
-	draw_rect(Rect2(tower_position, tower_size), COLOR_TOWER)
-	draw_rect(
-		Rect2(
-			Vector2(float((Layout.TOWER_CENTER_TILE.x - 2) * Layout.TILE_SIZE), 0.0),
-			Vector2(4 * Layout.TILE_SIZE, 4 * Layout.TILE_SIZE)
-		),
-		COLOR_TOWER_SHADOW.lightened(0.08)
-	)
+	draw_rect(Rect2(rect.position * _layout.tile_size, rect.size * _layout.tile_size), color)
 
 
 func _draw_markers() -> void:
-	for point in Layout.INSPECT_POINTS.values():
-		var world_point := Layout.tile_to_world(point) - Vector2(2, 2)
-		draw_rect(Rect2(world_point, Vector2(4, 4)), Color("f4d35e"))
+	for point_row in _layout.get_point_rows():
+		var point_tile: Vector2i = point_row.get("tile", Vector2i.ZERO)
+		var point_kind := String(point_row.get("point_kind", ""))
+		if point_kind == "inspect":
+			var world_point: Vector2 = _layout.tile_to_world(point_tile) - Vector2(2, 2)
+			draw_rect(Rect2(world_point, Vector2(4, 4)), Color("f4d35e"))
+		elif point_kind == "npc":
+			draw_circle(_layout.tile_to_world(point_tile), 3.0, Color("db5461"))
+		elif point_kind == "facility":
+			draw_circle(_layout.tile_to_world(point_tile), 3.0, Color("6dd3ce"))
 
-	for point in Layout.NPC_POINTS.values():
-		draw_circle(Layout.tile_to_world(point), 3.0, Color("db5461"))
+
+func _color_for_key(color_key: String) -> Color:
+	var palette := {
+		"path": COLOR_PATH,
+		"path_north": COLOR_PATH_NORTH,
+		"path_approach": COLOR_PATH_APPROACH,
+		"lot": COLOR_LOT,
+		"building": COLOR_BUILDING,
+		"roof": COLOR_ROOF,
+		"fence": COLOR_FENCE,
+		"well": COLOR_WELL,
+		"grave": COLOR_GRAVE.darkened(0.18),
+		"tower": COLOR_TOWER,
+		"tower_shadow": COLOR_TOWER_SHADOW,
+		"tower_cap": COLOR_TOWER_CAP,
+	}
+	return Color(palette.get(color_key, COLOR_GRASS))

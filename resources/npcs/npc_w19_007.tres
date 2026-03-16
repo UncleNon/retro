@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W19-007"
+scope_id = "W-019"
+name_jp = "コマチ"
+name_en = "Komachi"
+role = "前線の道具屋"
+dark_role = "封鎖都市用の装備を売る"
+x = 28
+y = 20
+facing = "left"
+npc_type = "merchant"
+phase_count = 2
+clue_ids = []
+shop_id = "shop_w19_general"
+service_id = ""
+personality_note = "商売上手で現実主義"
+initial_dialogue_jp = "ここの品は丈夫に作ってある。……壊れやすい場所だからな。"
+notes = "閉鐘の塔都・道具屋"

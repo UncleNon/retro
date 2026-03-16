@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-181"
+slug = "zankyou_bana"
+name_jp = "ザンキョウバナ"
+name_en = "Zankyou Bana"
+family = "plant"
+rank = "A"
+size_class = "L"
+motif_group = "plant"
+secondary_motif_group = "funerary"
+motif_source = "残響花 + 回廊 + 名呼び"
+ontology_class = "remnant_bearing"
+silhouette_type = "wide"
+palette_id = "pal_echo_bloom"
+field_sprite_px = 16
+battle_sprite_px = 48
+base_level_cap = 78
+growth_curve_id = "LATE"
+base_stats = {"hp": 26, "mp": 18, "atk": 14, "def": 13, "spd": 16, "int": 18, "res": 17}
+cap_stats = {"hp": 200, "mp": 136, "atk": 134, "def": 118, "spd": 148, "int": 146, "res": 142}
+base_recruit = 0
+scoutable = false
+personality_bias = "echoing"
+battle_role = "controller"
+trait_1 = "残響咲き"
+trait_2 = "闇微耐性"
+loot_table_id = "loot_monster_zankyou_bana"
+prompt_id = "PRM-MON-181"
+notes = "残響回廊で呼ばれた名に応えて咲く花精"
+resistances = {"fire": -1, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": 2, "burn": -1, "freeze": 0, "curse": 1, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-051"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-077"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-066"}]

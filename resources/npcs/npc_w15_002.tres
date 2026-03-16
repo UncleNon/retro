@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W15-002"
+scope_id = "W-015"
+name_jp = "コノエ"
+name_en = "Konoe"
+role = "布縫い女"
+dark_role = "未登録縁者にも家名を裏縫いする"
+x = 22
+y = 24
+facing = "right"
+npc_type = "key"
+phase_count = 3
+clue_ids = ["CL-038"]
+shop_id = ""
+service_id = ""
+personality_note = "手先が器用で情に厚い"
+initial_dialogue_jp = "裏に縫うのは家名。……登録されてない人にも、縫ってあげたい。"
+notes = "黒布の巡礼路"

@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-266"
+slug = "hibiki_mushi"
+name_jp = "ヒビキムシ"
+name_en = "Hibiki Mushi"
+family = "magic"
+rank = "E"
+size_class = "S"
+motif_group = "abstract"
+secondary_motif_group = "pastoral"
+motif_source = "反響虫 + 風穴 + 牧崖"
+ontology_class = "wildborn"
+silhouette_type = "round"
+palette_id = "pal_echo_bug"
+field_sprite_px = 16
+battle_sprite_px = 24
+base_level_cap = 62
+growth_curve_id = "EARLY"
+base_stats = {"hp": 17, "mp": 10, "atk": 9, "def": 8, "spd": 14, "int": 11, "res": 10}
+cap_stats = {"hp": 130, "mp": 78, "atk": 94, "def": 82, "spd": 132, "int": 90, "res": 90}
+base_recruit = 28
+scoutable = true
+personality_bias = "curious"
+battle_role = "controller"
+trait_1 = "音返し"
+trait_2 = "風微耐性"
+loot_table_id = "loot_monster_hibiki_mushi"
+prompt_id = "PRM-MON-266"
+notes = "牧崖の風穴で音を返す小さな虫"
+resistances = {"fire": 0, "water": 0, "wind": 1, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

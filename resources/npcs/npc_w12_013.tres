@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W12-013"
+scope_id = "W-012"
+name_jp = "カナメ"
+name_en = "Kaname"
+role = "闘技場受付"
+dark_role = "港の闘技場を運営する"
+x = 42
+y = 28
+facing = "right"
+npc_type = "arena"
+phase_count = 2
+clue_ids = []
+shop_id = "shop_w12_arena"
+service_id = "service_w12_arena_entry"
+personality_note = "テキパキしている"
+initial_dialogue_jp = "腕試しかい？　ここは港だ。強さより、荷を守れるかが大事だよ。"
+notes = "骨樋の港・闘技場"

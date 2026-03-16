@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-269"
+slug = "sousei_no_hane"
+name_jp = "そうせいのはね"
+name_en = "Genesis Wing"
+category = "magic"
+element = "wind"
+mp_cost = 10
+target_scope = "spread"
+formula_key = "M2"
+base_power = 36
+base_rate = 0
+tags = ["spread", "fixed_magic", "wind", "breed", "bird"]
+battle_role = "RUSH_OPEN"
+effect_text = "創世の羽ばたき"

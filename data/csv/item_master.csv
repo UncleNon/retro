@@ -1,58 +1,63 @@
 item_id,slug,name_jp,name_en,item_kind,subtype,price,sell_price,target_scope,effect_key,effect_value,tags,description
-item_heal_dryherb,dryherb,ひからび草,Dry Herb,consumable,heal_hp,20,10,ally_single,heal_hp,20,heal|village,干した薬草でHPを少し回復
-item_heal_softmoss,softmoss,やわ苔包み,Soft Moss Bundle,consumable,heal_hp,36,18,ally_single,heal_hp,35,heal|marsh,湿った苔でHPを回復
-item_heal_bundleleaf,bundleleaf,束薬葉,Bundled Leaf,consumable,heal_hp,55,27,ally_single,heal_hp,55,heal|field,標準的な回復薬葉
-item_heal_fatbroth,fatbroth,脂の煮汁,Fat Broth,consumable,heal_hp,78,39,ally_single,heal_hp,75,heal|uncommon,脂の煮汁でHPを回復
+item_heal_dryherb,dryherb,ひからび草,Dry Herb,consumable,heal_hp,20,10,ally_single,heal_hp,20,heal|village|lore_borrowed_name|event_h1001,借り名の冬から干し継がれる常備薬草
+item_heal_softmoss,softmoss,やわ苔包み,Soft Moss Bundle,consumable,heal_hp,36,18,ally_single,heal_hp,35,heal|marsh|lore_waiting_grave|event_h1002,待ち墓の石縁で育つ柔苔を巻いた応急包み
+item_heal_bundleleaf,bundleleaf,束薬葉,Bundled Leaf,consumable,heal_hp,55,27,ally_single,heal_hp,55,heal|field|lore_hostel_route|event_h1003,灯番路の宿継ぎ衆が束ねる旅薬葉
+item_heal_fatbroth,fatbroth,脂の煮汁,Fat Broth,consumable,heal_hp,78,39,ally_single,heal_hp,75,heal|uncommon|lore_maternal_judgment|event_h1004,乳灰争いの家で煮継がれた濃脂の汁
 item_heal_whitebulb,whitebulb,白球根,White Bulb,consumable,heal_hp,110,55,ally_single,heal_hp,100,heal|uncommon,白い球根でHPを大きく回復
-item_heal_stillmilk,stillmilk,静乳の壺,Still Milk Jar,consumable,heal_hp,165,82,ally_single,heal_hp,140,heal|rare,静かに搾った乳でHPを大回復
+item_heal_stillmilk,stillmilk,静乳の壺,Still Milk Jar,consumable,heal_hp,165,82,ally_single,heal_hp,140,heal|rare|lore_maternal_judgment|event_h1004,判母衆が直系の夜だけ配る静乳
 item_heal_embersap,embersap,燠樹液,Ember Sap,consumable,heal_hp,240,120,ally_single,heal_hp,220,heal|rare,燻った樹液でHPを大回復
 item_heal_blackfeast,blackfeast,黒盛り皿,Black Feast Plate,consumable,heal_hp,360,180,ally_single,heal_hp,320,heal|relic,黒い盛り皿でHPを全回復
-item_mp_clearwater,clearwater,透き水,Clear Water,consumable,heal_mp,45,22,ally_single,heal_mp,12,mp|village,澄んだ水でMPを少し回復
-item_mp_bitterdew,bitterdew,苦露瓶,Bitter Dew,consumable,heal_mp,72,36,ally_single,heal_mp,20,mp|field,苦い露でMPを回復
-item_mp_milksalt,milksalt,乳塩湯,Milk Salt Bath,consumable,heal_mp,98,49,ally_single,heal_mp,28,mp|uncommon,乳塩の湯でMPを回復
-item_mp_silentwax,silentwax,無音蝋,Silent Wax,consumable,heal_mp,130,65,ally_single,heal_mp,36,mp|uncommon,音を吸う蝋でMPを回復
+item_mp_clearwater,clearwater,透き水,Clear Water,consumable,heal_mp,45,22,ally_single,heal_mp,12,mp|village|lore_hostel_ledger|event_h1003,宿帳改めの前に喉を湿らせる澄み水
+item_mp_bitterdew,bitterdew,苦露瓶,Bitter Dew,consumable,heal_mp,72,36,ally_single,heal_mp,20,mp|field|lore_double_registry|event_h1006,二つの台帳を跨ぐ書記が含む苦露
+item_mp_milksalt,milksalt,乳塩湯,Milk Salt Bath,consumable,heal_mp,98,49,ally_single,heal_mp,28,mp|uncommon|lore_salt_bone_trade|event_h1008,塩骨荷を下ろす朝に啜る乳塩湯
+item_mp_silentwax,silentwax,無音蝋,Silent Wax,consumable,heal_mp,130,65,ally_single,heal_mp,36,mp|uncommon|lore_closed_bell|event_h1005,閉鐘後の祈りで灯芯ごと噛む無音蝋
 item_mp_bluepith,bluepith,青髄片,Blue Pith,consumable,heal_mp,190,95,ally_single,heal_mp,48,mp|rare,青い髄でMPを大きく回復
 item_mp_starcurd,starcurd,星酪,Star Curd,consumable,heal_mp,280,140,ally_single,heal_mp,70,mp|rare,星の酪でMPを大回復
 item_cure_saltleaf,saltleaf,塩葉,Salt Leaf,consumable,cure,35,17,ally_single,cure_status,poison,cure|village,毒を鎮める塩葉
 item_cure_wakebud,wakebud,目覚め蕾,Wake Bud,consumable,cure,42,21,ally_single,cure_status,sleep,cure|village,眠りから目覚めさせる蕾
-item_cure_focussalt,focussalt,澄塩,Focus Salt,consumable,cure,60,30,ally_single,cure_status,seal|hushed,cure|ritual,封印や沈黙をほどく塩
+item_cure_focussalt,focussalt,澄塩,Focus Salt,consumable,cure,60,30,ally_single,cure_status,seal|hushed,cure|ritual|lore_reverse_oath|event_h1009,逆誓と封札の痺れをほどく法塩
 item_cure_tangleknife,tangleknife,ほぐし刃,Tangle Knife,consumable,cure,68,34,ally_single,cure_status,confusion,cure|field,混乱をほぐす刃
-item_cure_warmbone,warmbone,温骨札,Warm Bone Tag,consumable,cure,90,45,ally_single,cure_status,freeze|paralysis,cure|field,凍えや麻痺を温めて解く
+item_cure_warmbone,warmbone,温骨札,Warm Bone Tag,consumable,cure,90,45,ally_single,cure_status,freeze|paralysis,cure|field|lore_salt_bone_trade|event_h1008,骨樋番が冷えた指を戻す温骨札
 item_cure_duskthread,duskthread,暮糸包み,Dusk Thread Wrap,consumable,cure,120,60,ally_single,cure_status,any2,cure|rare,二つの状態異常を同時に解除
-item_bait_drycrumb,drycrumb,乾き餌,Dry Crumb,consumable,bait,55,27,enemy_single,recruit_bonus,8,bait|starter,乾いた餌で少し気を引く
+item_bait_drycrumb,drycrumb,乾き餌,Dry Crumb,consumable,bait,55,27,enemy_single,recruit_bonus,8,bait|starter|lore_borrowed_name|event_h1001,借り名札の子へ余り分として渡る乾き餌
 item_bait_smokedfat,smokedfat,燻脂餌,Smoked Fat Bait,consumable,bait,120,60,enemy_single,recruit_bonus,16,bait|field,燻した脂で勧誘補助
-item_bait_bellgrain,bellgrain,鈴穀餌,Bellgrain Bait,consumable,bait,160,80,enemy_single,recruit_bonus,22,bait|beast|bird,獣と鳥が好む鈴穀
-item_bait_sourmilk,sourmilk,酸乳餌,Sour Milk Bait,consumable,bait,180,90,enemy_single,recruit_bonus,22,bait|beast|plant,獣と植物が好む酸乳
-item_bait_graveflour,graveflour,墓粉餌,Grave Flour Bait,consumable,bait,210,105,enemy_single,recruit_bonus,24,bait|undead|magic,不死と魔性が好む墓粉
-item_bait_inkmeat,inkmeat,墨肉片,Ink Meat Morsel,consumable,bait,240,120,enemy_single,recruit_bonus,24,bait|material|magic,物質と魔性が好む墨肉
-item_bait_starmarrow,starmarrow,星髄餌,Star Marrow Bait,consumable,bait,320,160,enemy_single,recruit_bonus,26,bait|divine|dragon,神獣と竜が好む星髄
-item_bait_truefeast,truefeast,真宴片,True Feast Morsel,consumable,bait,460,230,enemy_single,recruit_bonus,32,bait|universal,上位汎用の勧誘餌
+item_bait_bellgrain,bellgrain,鈴穀餌,Bellgrain Bait,consumable,bait,160,80,enemy_single,recruit_bonus,22,bait|beast|bird|lore_bell_route|event_h1003,借り鈴置場の穀を混ぜ鳥獣を誘う餌
+item_bait_sourmilk,sourmilk,酸乳餌,Sour Milk Bait,consumable,bait,180,90,enemy_single,recruit_bonus,22,bait|beast|plant|lore_maternal_judgment|event_h1004,判乳残りを酸ませ灰乳獣を寄せる餌
+item_bait_graveflour,graveflour,墓粉餌,Grave Flour Bait,consumable,bait,210,105,enemy_single,recruit_bonus,24,bait|undead|magic|lore_nameless_grave|event_h1002,無銘墓の粉灯と香残りを混ぜた餌
+item_bait_inkmeat,inkmeat,墨肉片,Ink Meat Morsel,consumable,bait,240,120,enemy_single,recruit_bonus,24,bait|material|magic|lore_double_registry|event_h1006,墨膏と屑札肉を混ぜ記号食いを誘う
+item_bait_starmarrow,starmarrow,星髄餌,Star Marrow Bait,consumable,bait,320,160,enemy_single,recruit_bonus,26,bait|divine|dragon|lore_gate_touched|event_h1013,門競時代の骨削りから作る星髄餌
+item_bait_truefeast,truefeast,真宴片,True Feast Morsel,consumable,bait,460,230,enemy_single,recruit_bonus,32,bait|universal|lore_arena_spectacle|event_h1013,見世物門競で勝者だけに撒かれた真宴の切れ端
 item_buff_ironmeal,ironmeal,鉄食い粉,Iron Meal Dust,consumable,buff,70,35,ally_single,buff_atk,3,buff|battle,3ターン攻撃力を上げる
 item_buff_hideoil,hideoil,皮油,Hide Oil,consumable,buff,70,35,ally_single,buff_def,3,buff|battle,3ターン守備力を上げる
 item_buff_quicksap,quicksap,疾樹液,Quick Sap,consumable,buff,80,40,ally_single,buff_spd,3,buff|battle,3ターン素早さを上げる
 item_buff_clearash,clearash,透灰,Clear Ash,consumable,buff,95,47,ally_single,buff_res,3,buff|battle,3ターン精神力を上げる
 item_debuff_tarseed,tarseed,瀝種,Tar Seed,consumable,debuff,75,37,enemy_single,debuff_spd,3,debuff|battle,敵1体の素早さを下げる
-item_debuff_dullbell,dullbell,鈍鈴片,Dull Bell Shard,consumable,debuff,92,46,enemy_all,debuff_acc,3,debuff|battle,敵全体の命中を少し下げる
-item_field_bonerope,bonerope,骨縄,Bone Rope,consumable,field,80,40,party,escape_dungeon,1,field|escape,危険地帯から脱出する
-item_field_chalktag,chalktag,印粉札,Chalk Tag,consumable,field,60,30,party,reveal_path,1,field|record,道標をしばらく見やすくする
-item_field_repelash,repelash,よけ灰,Repel Ash,consumable,field,95,47,party,repel_low,1,field|explore,低ランクの遭遇を抑制する
+item_debuff_dullbell,dullbell,鈍鈴片,Dull Bell Shard,consumable,debuff,92,46,enemy_all,debuff_acc,3,debuff|battle|lore_closed_bell|event_h1005,沈鐘の欠片で敵全体の狙いを鈍らせる
+item_field_bonerope,bonerope,骨縄,Bone Rope,consumable,field,80,40,party,escape_dungeon,1,field|escape|lore_salt_bone_trade|event_h1008,骨樋搬送で使う結び癖のついた退避縄
+item_field_chalktag,chalktag,印粉札,Chalk Tag,consumable,field,60,30,party,reveal_path,1,field|record|lore_borrowed_name|event_h1001,借り名札と同寸で道を残す印粉札
+item_field_repelash,repelash,よけ灰,Repel Ash,consumable,field,95,47,party,repel_low,1,field|explore|lore_seven_ash|event_h1002,閉じ塩を混ぜ低位の寄りを遠ざける灰
 item_field_luremist,luremist,寄霧瓶,Lure Mist Vial,consumable,field,100,50,party,lure_family,1,field|explore,特定系統の遭遇を増やす
-item_field_silentcloth,silentcloth,無音布,Silent Cloth,consumable,field,130,65,party,reduce_reaction,1,field|explore,鐘や呼び返しの反応を軽減する
-item_field_moonpin,moonpin,月留め針,Moon Pin,consumable,field,150,75,party,night_event,1,field|explore,夜のイベントを補助する
-item_catalyst_ashseed,ashseed,灰種,Ash Seed,consumable,catalyst,150,75,breed,mutation_bonus,2,catalyst|breed,配合時の mutation を少し押し上げる
-item_catalyst_bellsalt,bellsalt,鈴塩,Bell Salt,consumable,catalyst,190,95,breed,family_bonus,1,catalyst|breed|bird|divine,鳥や神獣の特殊配合を補助する
-item_catalyst_namewax,namewax,名蝋,Name Wax,consumable,catalyst,220,110,breed,inherit_protect,1,catalyst|breed,継承候補を1件保護する
-item_catalyst_bloodchalk,bloodchalk,血白墨,Blood Chalk,consumable,catalyst,260,130,breed,family_bonus,1,catalyst|breed|material|undead,物質や不死の条件補助
-item_catalyst_starbone,starbone,星骨,Star Bone,consumable,catalyst,320,160,breed,plus_value,1,catalyst|breed,plus_value 判定を+1する
-item_catalyst_emptyseal,emptyseal,空印,Empty Seal,consumable,catalyst,400,200,breed,mutation_direct,1,catalyst|breed,mutation 方向を指定する
-item_record_rubbingset,rubbingset,拓本具,Rubbing Kit,consumable,record,85,42,party,clue_log,1,record|clue,碑文や札の削り跡を記録する
-item_record_tagcase,tagcase,札筒,Tag Case,consumable,record,120,60,party,clue_hold,1,record|clue,借り名札や通行鋲と同寸の札を収められる筒
-item_record_inkpaste,inkpaste,墨膏,Ink Paste,consumable,record,140,70,party,ledger_check,1,record|clue,台帳や役名札の削り直し痕を浮かせる墨膏
-item_record_belltube,belltube,鈴筒,Bell Tube,consumable,record,160,80,party,bell_clue,1,record|clue,借り鈴と宿灯の音孔差まで拾う鈴筒
-item_record_namefoil,namefoil,名箔,Name Foil,consumable,record,220,110,party,recipe_hint,1,record|clue,名札と役名札の貼り替え跡を拾う名箔
-item_key_borrowedtag,borrowedtag,借り名札,Borrowed Name Tag,key,key_item,0,0,none,story_flag,W-001,key|story,W-001の進行に必要な借り名札
-item_key_ashbrand,ashbrand,灰印片,Ash Brand Shard,key,key_item,0,0,none,story_flag,W-002,key|story,W-002の進行に必要な灰印
-item_key_hostellamp,hostellamp,宿名灯,Hostel Name Lamp,key,key_item,0,0,none,story_flag,W-003,key|story,W-003の進行に必要な宿名灯
-item_key_passpeg,passpeg,岬通行鋲,Headland Pass Peg,key,key_item,0,0,none,story_flag,W-004,key|story,W-004の進行に必要な通行鋲
-item_key_gravesalt,gravesalt,墓塩,Grave Salt,key,key_item,0,0,none,story_flag,W-005,key|story,W-005の進行に必要な墓塩
-item_key_towerwrit,towerwrit,塔通牒,Tower Writ,key,key_item,0,0,none,story_flag,midgame,key|story,中盤以降の進行に必要な塔通牒
+item_field_silentcloth,silentcloth,無音布,Silent Cloth,consumable,field,130,65,party,reduce_reaction,1,field|explore|lore_closed_bell|event_h1005,閉鐘楼の布をまねて反応を鈍らせる
+item_field_moonpin,moonpin,月留め針,Moon Pin,consumable,field,150,75,party,night_event,1,field|explore|lore_last_disappearance|event_h1014,夜の数え違いを避けるため衣に留める針
+item_catalyst_ashseed,ashseed,灰種,Ash Seed,consumable,catalyst,150,75,breed,mutation_bonus,2,catalyst|breed|lore_seven_ash|event_h1002,七灰葬の灰畑で拾う変異寄りの種
+item_catalyst_bellsalt,bellsalt,鈴塩,Bell Salt,consumable,catalyst,190,95,breed,family_bonus,1,catalyst|breed|bird|divine|lore_bell_route|event_h1003,岬灯と借り鈴の塩を混ぜた継鈴触媒
+item_catalyst_namewax,namewax,名蝋,Name Wax,consumable,catalyst,220,110,breed,inherit_protect,1,catalyst|breed|lore_name_erasure|event_h1011,削った名札の蝋を溶かし継承を守る
+item_catalyst_bloodchalk,bloodchalk,血白墨,Blood Chalk,consumable,catalyst,260,130,breed,family_bonus,1,catalyst|breed|material|undead|lore_lineage_forgery|event_h1006,系譜の白墨へ血を混ぜ別門筋を呼ぶ
+item_catalyst_starbone,starbone,星骨,Star Bone,consumable,catalyst,320,160,breed,plus_value,1,catalyst|breed|lore_gate_touched|event_h1013,門潮骨を削り競技時代の伸びを寄せる
+item_catalyst_emptyseal,emptyseal,空印,Empty Seal,consumable,catalyst,400,200,breed,mutation_direct,1,catalyst|breed|lore_blank_registry|event_h1012,所属欄の空白を印に変える危うい封材
+item_record_rubbingset,rubbingset,拓本具,Rubbing Kit,consumable,record,85,42,party,clue_log,1,record|clue|lore_erasure_trace|event_h1014,削除痕を拾い直し言い換え前を残す拓本具
+item_record_tagcase,tagcase,札筒,Tag Case,consumable,record,120,60,party,clue_hold,1,record|clue|lore_border_pass|event_h1003,借り名札と通行鋲を同寸で隠せる札筒
+item_record_inkpaste,inkpaste,墨膏,Ink Paste,consumable,record,140,70,party,ledger_check,1,record|clue|lore_double_registry|event_h1006,二署台帳の食い違い痕を浮かせる墨膏
+item_record_belltube,belltube,鈴筒,Bell Tube,consumable,record,160,80,party,bell_clue,1,record|clue|lore_closed_bell|event_h1005,閉じた鐘孔の差と借り鈴の癖を拾う鈴筒
+item_record_namefoil,namefoil,名箔,Name Foil,consumable,record,220,110,party,recipe_hint,1,record|clue|lore_role_name|event_h1006,名札と役名札の貼り替え跡を浮かせる名箔
+item_key_borrowedtag,borrowedtag,借り名札,Borrowed Name Tag,key,key_item,0,0,none,story_flag,W-001,key|story|lore_borrowed_name|event_h1001,借り名の冬を生き延びた古い仮所属札
+item_key_ashbrand,ashbrand,灰印片,Ash Brand Shard,key,key_item,0,0,none,story_flag,W-002,key|story|lore_maternal_judgment|event_h1004,判乳棚で直系だけに押された灰印の欠片
+item_key_hostellamp,hostellamp,宿名灯,Hostel Name Lamp,key,key_item,0,0,none,story_flag,W-003,key|story|lore_hostel_ledger|event_h1003,灯番宿が真名客へだけ掲げた宿名灯
+item_key_passpeg,passpeg,岬通行鋲,Headland Pass Peg,key,key_item,0,0,none,story_flag,W-004,key|story|lore_border_pass|event_h1003,岬灯誓約後の検札順を刻む通行鋲
+item_key_gravesalt,gravesalt,墓塩,Grave Salt,key,key_item,0,0,none,story_flag,W-005,key|story|lore_seven_ash|event_h1002,七灰葬の最後に振る閉じ塩
+item_key_memorialoffering,memorialoffering,供養品,Memorial Offering,key,key_item,0,0,none,story_flag,GATE-005,key|gate|lore_seven_ash|event_h1002,七灰葬の不足分を埋める代用供物束
+item_key_evidencebundle,evidencebundle,証拠束,Evidence Bundle,key,key_item,0,0,none,story_flag,GATE-009,key|gate|lore_winter_name_war|event_h1007,冬名札と養親誓紙を束ねた証拠束
+item_key_recordseal,recordseal,記録印,Record Seal,key,key_item,0,0,none,story_flag,GATE-010,key|gate|lore_double_registry|event_h1006,二署照合の片側閉じに使う記録印
+item_key_blackcloth,blackcloth,黒布,Black Cloth,key,key_item,0,0,none,story_flag,GATE-015,key|gate|lore_reverse_oath|event_h1009,逆誓を抱える巡礼が肩へ巻く黒布
+item_key_forgemark,forgemark,鍛印証拠,Forge Mark Evidence,key,key_item,0,0,none,story_flag,GATE-016,key|gate|lore_forged_lineage|event_h1010,焼継印市場の真贋を割る鍛印証拠
+item_key_towerwrit,towerwrit,塔通牒,Tower Writ,key,key_item,0,0,none,story_flag,midgame,key|story|lore_gate_exam|event_h1012,通行験試令以後の門越え許可通牒

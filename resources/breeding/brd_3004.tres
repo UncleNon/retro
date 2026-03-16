@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="BreedRuleData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/breed_rule_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+rule_id = "BRD-3004"
+rule_type = "mutation"
+parent_a_key = "family:plant"
+parent_b_key = "family:undead"
+child_monster_id = "MON-172"
+priority = 65
+special_recipe_bonus = 0
+lv_requirement = 20
+notes = "植物×不死で泣花園への aberrant 変異: 残響回廊で確率上昇"

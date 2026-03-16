@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-338"
+slug = "ikusen_no_hikari"
+name_jp = "いくせんのひかり"
+name_en = "Myriad Lights"
+category = "magic"
+element = "light"
+mp_cost = 11
+target_scope = "spread"
+formula_key = "M2"
+base_power = 36
+base_rate = 100
+tags = ["spread", "fixed_magic", "light"]
+battle_role = "RUSH_OPEN"
+effect_text = "幾千の光が射す"

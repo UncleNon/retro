@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-450"
+slug = "fuuin_mon_juu"
+name_jp = "フウインモンジュウ"
+name_en = "Fuuin Mon Juu"
+family = "divine"
+rank = "B"
+size_class = "M"
+motif_group = "myth"
+secondary_motif_group = "gatebound"
+motif_source = "封印門獣 + 最終門 + 封じ手"
+ontology_class = "gate_touched"
+silhouette_type = "wide"
+palette_id = "pal_seal_gate_beast"
+field_sprite_px = 16
+battle_sprite_px = 48
+base_level_cap = 80
+growth_curve_id = "LATE"
+base_stats = {"hp": 34, "mp": 16, "atk": 18, "def": 18, "spd": 10, "int": 14, "res": 17}
+cap_stats = {"hp": 258, "mp": 124, "atk": 170, "def": 164, "spd": 98, "int": 116, "res": 142}
+base_recruit = 0
+scoutable = false
+personality_bias = "grim"
+battle_role = "tank"
+trait_1 = "封門守り"
+trait_2 = "封印耐性"
+loot_table_id = "loot_monster_fuuin_mon_juu"
+prompt_id = "PRM-MON-450"
+notes = "最終門を封じ手として守る封印の門獣"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 2, "fear": 0, "instant_death": 0, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

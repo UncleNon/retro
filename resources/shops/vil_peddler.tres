@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="ShopData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/shop_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+shop_id = "shop_vil_peddler"
+slug = "vil_peddler"
+registry_id = "SHP-VIL-003"
+name_jp = "開始村 巡回商"
+name_en = "Starting Village Peddler"
+shop_type = "field_vendor"
+scope_id = "VIL"
+zone_id = ""
+story_gate_flag = ""
+rank_gate = ""
+inventory_band = "village"
+base_price_multiplier = 1.0
+restock_clock = "return_to_hub"
+currency_type = "gold"
+status = "active"
+tags = ["merchant", "traveling"]
+notes = "keeper=NPC-VIL-018 legacy_alias=SHP-VIL-003"
+inventory_entries = [{"slot_no": 1, "item_id": "item_heal_dryherb", "unlock_flag": "", "unlock_rank": "", "stock_mode": "infinite_common", "max_stock": null, "restock_rule": "return_to_hub", "buy_limit_per_save": null, "price_override": null, "price_multiplier": 1.0, "display_priority": 10, "hidden_until_unlocked": false, "status": "active", "notes": "legacy_alias=SHP-VIL-003"}, {"slot_no": 2, "item_id": "item_mp_clearwater", "unlock_flag": "", "unlock_rank": "", "stock_mode": "infinite_common", "max_stock": null, "restock_rule": "return_to_hub", "buy_limit_per_save": null, "price_override": null, "price_multiplier": 1.0, "display_priority": 20, "hidden_until_unlocked": false, "status": "active", "notes": "legacy_alias=SHP-VIL-003"}, {"slot_no": 3, "item_id": "item_cure_focussalt", "unlock_flag": "", "unlock_rank": "", "stock_mode": "infinite_common", "max_stock": null, "restock_rule": "return_to_hub", "buy_limit_per_save": null, "price_override": null, "price_multiplier": 1.0, "display_priority": 30, "hidden_until_unlocked": false, "status": "active", "notes": "legacy_alias=SHP-VIL-003"}, {"slot_no": 4, "item_id": "item_field_chalktag", "unlock_flag": "", "unlock_rank": "", "stock_mode": "infinite_common", "max_stock": null, "restock_rule": "return_to_hub", "buy_limit_per_save": null, "price_override": null, "price_multiplier": 1.0, "display_priority": 40, "hidden_until_unlocked": false, "status": "active", "notes": "legacy_alias=SHP-VIL-003"}, {"slot_no": 5, "item_id": "item_record_rubbingset", "unlock_flag": "", "unlock_rank": "", "stock_mode": "infinite_common", "max_stock": null, "restock_rule": "return_to_hub", "buy_limit_per_save": null, "price_override": null, "price_multiplier": 1.0, "display_priority": 50, "hidden_until_unlocked": false, "status": "active", "notes": "legacy_alias=SHP-VIL-003"}]
+service_ids = []

@@ -15,5 +15,5 @@ sell_price = 10
 target_scope = "ally_single"
 effect_key = "heal_hp"
 effect_value = "20"
-tags = ["heal", "village"]
-description = "干した薬草でHPを少し回復"
+tags = ["heal", "village", "lore_borrowed_name", "event_h1001"]
+description = "借り名の冬から干し継がれる常備薬草"

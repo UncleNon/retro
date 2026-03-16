@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-111"
+slug = "fudasashi"
+name_jp = "フダサシ"
+name_en = "Fudasashi"
+family = "bird"
+rank = "D"
+size_class = "S"
+motif_group = "animal"
+secondary_motif_group = "bureaucratic"
+motif_source = "鶺鴒 + 札差し + 街道標"
+ontology_class = "record_bent"
+silhouette_type = "tall"
+palette_id = "pal_tag_wagtail"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 68
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 22, "mp": 12, "atk": 13, "def": 9, "spd": 17, "int": 12, "res": 10}
+cap_stats = {"hp": 164, "mp": 90, "atk": 128, "def": 92, "spd": 156, "int": 100, "res": 92}
+base_recruit = 22
+scoutable = true
+personality_bias = "restless"
+battle_role = "controller"
+trait_1 = "札揺らし"
+trait_2 = "風耐性"
+loot_table_id = "loot_monster_fudasashi"
+prompt_id = "PRM-MON-111"
+notes = "街道標の札を揺らして道を示す鶺鴒"
+resistances = {"fire": 0, "water": 0, "wind": 1, "earth": 0, "thunder": -1, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 1, "seal": 0, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 1, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-006"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-028"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-032"}]

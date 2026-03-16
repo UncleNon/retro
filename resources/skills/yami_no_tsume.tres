@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-109"
+slug = "yami_no_tsume"
+name_jp = "やみのつめ"
+name_en = "Shadow Claw"
+category = "physical"
+element = "dark"
+mp_cost = 5
+target_scope = "single"
+formula_key = "P3"
+base_power = 125
+base_rate = 20
+tags = ["single", "physical", "dark"]
+battle_role = "CONTROL"
+effect_text = "闇の爪でえぐる"

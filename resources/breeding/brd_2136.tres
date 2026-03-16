@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="BreedRuleData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/breed_rule_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+rule_id = "BRD-2136"
+rule_type = "special"
+parent_a_key = "MON-340"
+parent_b_key = "MON-341"
+child_monster_id = "MON-351"
+priority = 110
+special_recipe_bonus = 1
+lv_requirement = 18
+notes = "戸籍幽霊+印刷影→積み名簿(B): 判定残りの記録霊 Step2→B"

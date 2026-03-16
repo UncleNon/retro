@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-140"
+slug = "seikai_houou"
+name_jp = "セイカイホウオウ"
+name_en = "Seikai Houou"
+family = "bird"
+rank = "S"
+size_class = "L"
+motif_group = "myth"
+secondary_motif_group = "astral"
+motif_source = "鳳凰 + 聖灰 + 白泥境界"
+ontology_class = "remnant_bearing"
+silhouette_type = "wide"
+palette_id = "pal_ash_phoenix"
+field_sprite_px = 16
+battle_sprite_px = 56
+base_level_cap = 84
+growth_curve_id = "LEGEND"
+base_stats = {"hp": 34, "mp": 20, "atk": 20, "def": 16, "spd": 18, "int": 20, "res": 20}
+cap_stats = {"hp": 258, "mp": 150, "atk": 188, "def": 148, "spd": 168, "int": 158, "res": 164}
+base_recruit = 0
+scoutable = false
+personality_bias = "watchful"
+battle_role = "tank"
+trait_1 = "聖灰翼"
+trait_2 = "光耐性"
+loot_table_id = "loot_monster_seikai_houou"
+prompt_id = "PRM-MON-140"
+notes = "白泥境界で聖灰を撒いて世界の名を繋ぐ鳳凰"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 2, "dark": -1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 1, "fear": 0, "instant_death": 2, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 1, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-055"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-063"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-068"}]

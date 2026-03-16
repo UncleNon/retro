@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-147"
+slug = "kinokowata"
+name_jp = "キノコワタ"
+name_en = "Kinokowata"
+family = "plant"
+rank = "E"
+size_class = "S"
+motif_group = "plant"
+secondary_motif_group = "funerary"
+motif_source = "茸 + 綿 + 朽木墓"
+ontology_class = "wildborn"
+silhouette_type = "round"
+palette_id = "pal_cotton_shroom"
+field_sprite_px = 16
+battle_sprite_px = 24
+base_level_cap = 65
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 22, "mp": 12, "atk": 8, "def": 12, "spd": 9, "int": 11, "res": 12}
+cap_stats = {"hp": 168, "mp": 90, "atk": 84, "def": 114, "spd": 88, "int": 94, "res": 106}
+base_recruit = 28
+scoutable = true
+personality_bias = "patient"
+battle_role = "tank"
+trait_1 = "胞子綿"
+trait_2 = "毒微耐性"
+loot_table_id = "loot_monster_kinokowata"
+prompt_id = "PRM-MON-147"
+notes = "朽木の墓標に綿のように生える茸"
+resistances = {"fire": -1, "water": 0, "wind": 0, "earth": 1, "thunder": 0, "light": 0, "dark": 0, "poison": 1, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": -2, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-014"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-024"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-023"}]

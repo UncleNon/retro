@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="BreedRuleData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/breed_rule_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+rule_id = "BRD-2048"
+rule_type = "special"
+parent_a_key = "MON-110"
+parent_b_key = "MON-120"
+child_monster_id = "MON-127"
+priority = 105
+special_recipe_bonus = 1
+lv_requirement = 14
+notes = "欠片星四十雀+霞雀→伏燕: 黒布巡礼の燕 Step2"

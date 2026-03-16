@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-387"
+slug = "chi_no_ryuu"
+name_jp = "チノリュウ"
+name_en = "Chi no Ryuu"
+family = "dragon"
+rank = "C"
+size_class = "M"
+motif_group = "myth"
+secondary_motif_group = "funerary"
+motif_source = "地竜 + 骨 + 古墳"
+ontology_class = "wildborn"
+silhouette_type = "wide"
+palette_id = "pal_earth_wyrm"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 74
+growth_curve_id = "LATE"
+base_stats = {"hp": 30, "mp": 12, "atk": 17, "def": 16, "spd": 9, "int": 10, "res": 13}
+cap_stats = {"hp": 226, "mp": 94, "atk": 158, "def": 146, "spd": 88, "int": 84, "res": 112}
+base_recruit = 10
+scoutable = true
+personality_bias = "patient"
+battle_role = "tank"
+trait_1 = "地骨"
+trait_2 = "地耐性"
+loot_table_id = "loot_monster_chi_no_ryuu"
+prompt_id = "PRM-MON-387"
+notes = "古墳の下で眠り骨のような鱗を持つ地竜"
+resistances = {"fire": 0, "water": -1, "wind": 0, "earth": 2, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": 0, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

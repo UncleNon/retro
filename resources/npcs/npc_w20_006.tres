@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W20-006"
+scope_id = "W-020"
+name_jp = "タイラ"
+name_en = "Taira"
+role = "認証前廊の番人"
+dark_role = "未認証名を審問前廊で止める"
+x = 30
+y = 28
+facing = "right"
+npc_type = "minor"
+phase_count = 2
+clue_ids = ["CL-052"]
+shop_id = ""
+service_id = ""
+personality_note = "忠実だが葛藤がある"
+initial_dialogue_jp = "認証なしでは通れない。……認証を取るのに何が要るか、知ってるか？"
+notes = "継ぎ止めの聖郭"

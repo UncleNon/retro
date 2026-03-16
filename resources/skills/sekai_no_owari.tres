@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-309"
+slug = "sekai_no_owari"
+name_jp = "せかいのおわり"
+name_en = "World's End"
+category = "magic"
+element = "dark"
+mp_cost = 22
+target_scope = "spread"
+formula_key = "M2"
+base_power = 88
+base_rate = 25
+tags = ["spread", "fixed_magic", "dark", "s_rank"]
+battle_role = "CONTROL"
+effect_text = "世界の終わりを呼ぶ"

@@ -15,5 +15,5 @@ sell_price = 95
 target_scope = "breed"
 effect_key = "family_bonus"
 effect_value = "1"
-tags = ["catalyst", "breed", "bird", "divine"]
-description = "鳥や神獣の特殊配合を補助する"
+tags = ["catalyst", "breed", "bird", "divine", "lore_bell_route", "event_h1003"]
+description = "岬灯と借り鈴の塩を混ぜた継鈴触媒"

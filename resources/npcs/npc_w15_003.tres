@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W15-003"
+scope_id = "W-015"
+name_jp = "ハル"
+name_en = "Haru"
+role = "遺族の弟"
+dark_role = "借り黒布でrouteへ紛れ込んだ"
+x = 36
+y = 22
+facing = "left"
+npc_type = "key"
+phase_count = 4
+clue_ids = ["CL-037"]
+shop_id = ""
+service_id = ""
+personality_note = "若くて衝動的だが純粋"
+initial_dialogue_jp = "姉の顔を見て送りたかった。……布越しじゃ、泣けないんだ。"
+notes = "黒布の巡礼路"

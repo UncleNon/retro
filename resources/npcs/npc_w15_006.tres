@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W15-006"
+scope_id = "W-015"
+name_jp = "ヌノエ"
+name_en = "Nunoe"
+role = "黒布売りの老婆"
+dark_role = "巡礼用の黒布と供物を売る"
+x = 26
+y = 20
+facing = "right"
+npc_type = "merchant"
+phase_count = 2
+clue_ids = []
+shop_id = "shop_w15_general"
+service_id = ""
+personality_note = "物静かで敬虔"
+initial_dialogue_jp = "布は grief を隠すためじゃない。等しくするためだ。……そう教わった。"
+notes = "黒布の巡礼路・道具屋"

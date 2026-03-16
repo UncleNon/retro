@@ -1,0 +1,7 @@
+key,text
+scope.VIL.name,Starting Village
+scope.TWR.name,Tower Front
+gate.GATE-001.name,First Gate
+gate.GATE-021.name,Terminal Gate
+clue.CL-001.label,Removed Nameplate
+clue.CL-066.label,Gate Reacts To Ordered Traces

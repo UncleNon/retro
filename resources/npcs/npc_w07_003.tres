@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W07-003"
+scope_id = "W-007"
+name_jp = "ミヤ"
+name_en = "Miya"
+role = "祖棚番"
+dark_role = "先祖棚と役名棚を同じ帳面で管理"
+x = 36
+y = 24
+facing = "left"
+npc_type = "key"
+phase_count = 3
+clue_ids = ["CL-022", "CL-061"]
+shop_id = ""
+service_id = ""
+personality_note = "厳格で制度を信じている"
+initial_dialogue_jp = "棚の位置は血と役の両方で決まる。……混ぜるなと言われても、もう混ざってる。"
+notes = "削名の階市"

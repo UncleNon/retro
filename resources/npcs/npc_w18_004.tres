@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W18-004"
+scope_id = "W-018"
+name_jp = "トバ"
+name_en = "Toba"
+role = "失踪家の妻"
+dark_role = "調停料のため自分で転出印を押した"
+x = 28
+y = 28
+facing = "up"
+npc_type = "key"
+phase_count = 4
+clue_ids = ["CL-045", "CL-046"]
+shop_id = ""
+service_id = ""
+personality_note = "静かな絶望と強さ"
+initial_dialogue_jp = "夫を転出扱いにしたのは私だ。……調停料を払えなかったから。"
+notes = "二署の法台"

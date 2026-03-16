@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-VIL-020"
+scope_id = "VIL"
+name_jp = "ソラ"
+name_en = "Sora"
+role = "走り回る子ども"
+dark_role = "ヨヒラの遊び相手"
+x = 51
+y = 30
+facing = "right"
+npc_type = "mob"
+phase_count = 1
+clue_ids = []
+shop_id = ""
+service_id = ""
+personality_note = "元気だが大人の真似をする"
+initial_dialogue_jp = "ナツセばあちゃんが「数えるな」って言ってた！"
+notes = "開始村"

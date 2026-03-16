@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-135"
+slug = "zanmei_taka"
+name_jp = "ザンメイタカ"
+name_en = "Zanmei Taka"
+family = "bird"
+rank = "A"
+size_class = "L"
+motif_group = "animal"
+secondary_motif_group = "funerary"
+motif_source = "鷹 + 残名 + 回廊上空"
+ontology_class = "remnant_bearing"
+silhouette_type = "tall"
+palette_id = "pal_remnant_hawk"
+field_sprite_px = 16
+battle_sprite_px = 48
+base_level_cap = 78
+growth_curve_id = "LATE"
+base_stats = {"hp": 26, "mp": 16, "atk": 18, "def": 13, "spd": 19, "int": 16, "res": 15}
+cap_stats = {"hp": 200, "mp": 120, "atk": 170, "def": 118, "spd": 176, "int": 128, "res": 126}
+base_recruit = 0
+scoutable = false
+personality_bias = "sharp"
+battle_role = "striker"
+trait_1 = "残名狩り"
+trait_2 = "闇耐性"
+loot_table_id = "loot_monster_zanmei_taka"
+prompt_id = "PRM-MON-135"
+notes = "回廊の上空から残った名を狩る鷹"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 1, "fear": 0, "instant_death": 1, "burn": 0, "freeze": 0, "curse": 1, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-048"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-081"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-077"}]

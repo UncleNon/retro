@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-205"
+slug = "surikogi_mushi"
+name_jp = "スリコギムシ"
+name_en = "Surikogi Mushi"
+family = "material"
+rank = "E"
+size_class = "S"
+motif_group = "tool"
+secondary_motif_group = "household"
+motif_source = "擂粉木 + 甲虫 + 台所"
+ontology_class = "wildborn"
+silhouette_type = "tall"
+palette_id = "pal_pestle_bug"
+field_sprite_px = 16
+battle_sprite_px = 24
+base_level_cap = 63
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 21, "mp": 6, "atk": 12, "def": 10, "spd": 11, "int": 7, "res": 8}
+cap_stats = {"hp": 156, "mp": 50, "atk": 120, "def": 102, "spd": 108, "int": 68, "res": 82}
+base_recruit = 28
+scoutable = true
+personality_bias = "patient"
+battle_role = "tank"
+trait_1 = "すりつぶし"
+trait_2 = "地微耐性"
+loot_table_id = "loot_monster_surikogi_mushi"
+prompt_id = "PRM-MON-205"
+notes = "台所の擂鉢に棲みつき夜ごと回転する擂粉木虫"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 1, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

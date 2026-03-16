@@ -15,5 +15,5 @@ sell_price = 160
 target_scope = "enemy_single"
 effect_key = "recruit_bonus"
 effect_value = "26"
-tags = ["bait", "divine", "dragon"]
-description = "神獣と竜が好む星髄"
+tags = ["bait", "divine", "dragon", "lore_gate_touched", "event_h1013"]
+description = "門競時代の骨削りから作る星髄餌"

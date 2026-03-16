@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W04-006"
+scope_id = "W-004"
+name_jp = "ウシオ"
+name_en = "Ushio"
+role = "港医見習い"
+dark_role = "検疫と人の選別の境目を見ている"
+x = 32
+y = 24
+facing = "left"
+npc_type = "minor"
+phase_count = 2
+clue_ids = []
+shop_id = ""
+service_id = ""
+personality_note = "若くて理想主義"
+initial_dialogue_jp = "病を診るのが仕事なのに、札の色で診る順番が変わるんだ。"
+notes = "札差しの岬"

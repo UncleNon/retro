@@ -15,5 +15,5 @@ sell_price = 39
 target_scope = "ally_single"
 effect_key = "heal_hp"
 effect_value = "75"
-tags = ["heal", "uncommon"]
-description = "脂の煮汁でHPを回復"
+tags = ["heal", "uncommon", "lore_maternal_judgment", "event_h1004"]
+description = "乳灰争いの家で煮継がれた濃脂の汁"

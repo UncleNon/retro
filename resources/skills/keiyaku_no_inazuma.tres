@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-275"
+slug = "keiyaku_no_inazuma"
+name_jp = "けいやくのいなずま"
+name_en = "Covenant Bolt"
+category = "magic"
+element = "thunder"
+mp_cost = 9
+target_scope = "single"
+formula_key = "M1"
+base_power = 34
+base_rate = 25
+tags = ["single", "fixed_magic", "thunder", "divine", "breed"]
+battle_role = "STATUS_SETUP"
+effect_text = "契約の稲妻を落とす"

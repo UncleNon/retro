@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W13-007"
+scope_id = "W-013"
+name_jp = "ナズナ"
+name_en = "Nazuna"
+role = "段畑の薬草売り"
+dark_role = "棚畑の草で治療する"
+x = 32
+y = 24
+facing = "left"
+npc_type = "healer"
+phase_count = 2
+clue_ids = []
+shop_id = "shop_w13_clinic"
+service_id = "service_w13_restoration"
+personality_note = "優しく誰でも助ける"
+initial_dialogue_jp = "薬に名前は要らない。効けばいい。"
+notes = "無籍の葡萄段・回復"

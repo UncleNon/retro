@@ -1,0 +1,58 @@
+shop_id,slug,registry_id,name_jp,name_en,shop_type,scope_id,zone_id,story_gate_flag,rank_gate,inventory_band,base_price_multiplier,restock_clock,currency_type,status,tags,notes
+shop_vil_general,vil_general,SHP-VIL-001,開始村 雑貨屋,Starting Village General Store,general,VIL,,,,village,1.00,return_to_hub,gold,active,merchant,keeper=NPC-VIL-013 legacy_alias=SHP-VIL-001
+shop_vil_clinic,vil_clinic,SHP-VIL-002,開始村 手当所,Starting Village Clinic,specialist,VIL,,,,village,1.00,return_to_hub,gold,active,merchant|healer,keeper=NPC-VIL-014 legacy_alias=SHP-VIL-002
+shop_vil_peddler,vil_peddler,SHP-VIL-003,開始村 巡回商,Starting Village Peddler,field_vendor,VIL,,,,village,1.00,return_to_hub,gold,active,merchant|traveling,keeper=NPC-VIL-018 legacy_alias=SHP-VIL-003
+shop_w01_general,w01_general,SHP-W01-001,名伏せの野 雑貨屋,Veilname Fields General Store,general,W-001,,,,early,1.00,return_to_hub,gold,active,merchant,keeper=NPC-W01-009 legacy_alias=SHP-W01-001
+shop_w01_clinic,w01_clinic,SHP-W01-002,名伏せの野 手当所,Veilname Fields Clinic,specialist,W-001,,,,early,1.00,return_to_hub,gold,active,merchant|healer,keeper=NPC-W01-010 legacy_alias=SHP-W01-002
+shop_w02_general,w02_general,SHP-W02-001,灰乳の谷 雑貨屋,Ashmilk Vale General Store,general,W-002,,,,early,1.00,return_to_hub,gold,active,merchant,keeper=NPC-W02-006 legacy_alias=SHP-W02-001
+shop_w02_clinic,w02_clinic,SHP-W02-002,灰乳の谷 手当所,Ashmilk Vale Clinic,specialist,W-002,,,,early,1.00,return_to_hub,gold,active,merchant|healer,keeper=NPC-W02-007 legacy_alias=SHP-W02-002
+shop_w03_general,w03_general,SHP-W03-001,継灯の宿場 雑貨屋,Hostel of Lanterns General Store,general,W-003,,,,early,1.00,return_to_hub,gold,active,merchant,keeper=NPC-W03-008 legacy_alias=SHP-W03-001
+shop_w03_clinic,w03_clinic,SHP-W03-002,継灯の宿場 手当所,Hostel of Lanterns Clinic,specialist,W-003,,,,early,1.00,return_to_hub,gold,active,merchant|healer,keeper=NPC-W03-009 legacy_alias=SHP-W03-002
+shop_w04_general,w04_general,SHP-W04-001,札差しの岬 雑貨屋,Tagged Headland General Store,general,W-004,,,,early,1.00,return_to_hub,gold,active,merchant,keeper=NPC-W04-007 legacy_alias=SHP-W04-001
+shop_w04_clinic,w04_clinic,SHP-W04-002,札差しの岬 手当所,Tagged Headland Clinic,specialist,W-004,,,,early,1.00,return_to_hub,gold,active,merchant|healer,keeper=NPC-W04-008 legacy_alias=SHP-W04-002
+shop_w05_general,w05_general,SHP-W05-001,香なしの墓苑 雑貨屋,Incenseless Cemetery General Store,general,W-005,,,,early,1.00,return_to_hub,gold,active,merchant,keeper=NPC-W05-006 legacy_alias=SHP-W05-001
+shop_w05_clinic,w05_clinic,SHP-W05-002,香なしの墓苑 手当所,Incenseless Cemetery Clinic,specialist,W-005,,,,early,1.00,return_to_hub,gold,active,merchant|healer,keeper=NPC-W05-007 legacy_alias=SHP-W05-002
+shop_w06_general,w06_general,SHP-W06-001,鈴結びの湿地 雑貨屋,Bellknot Marsh General Store,general,W-006,,,,early,1.00,return_to_hub,gold,active,merchant,keeper=NPC-W06-006 legacy_alias=SHP-W06-001
+shop_w06_clinic,w06_clinic,SHP-W06-002,鈴結びの湿地 手当所,Bellknot Marsh Clinic,specialist,W-006,,,,early,1.00,return_to_hub,gold,active,merchant|healer,keeper=NPC-W06-007 legacy_alias=SHP-W06-002
+shop_w07_general,w07_general,SHP-W07-001,削名の階市 雑貨屋,Erased Name Steps General Store,general,W-007,,,,early,1.00,return_to_hub,gold,active,merchant,keeper=NPC-W07-008 legacy_alias=SHP-W07-001
+shop_w07_clinic,w07_clinic,SHP-W07-002,削名の階市 手当所,Erased Name Steps Clinic,specialist,W-007,,,,early,1.00,return_to_hub,gold,active,merchant|healer,keeper=NPC-W07-009 legacy_alias=SHP-W07-002
+shop_w07_breeder,w07_breeder,SHP-W07-003,削名の階市 牧場窓口,Erased Name Steps Breeding Counter,specialist,W-007,,,,early,1.00,return_to_hub,gold,active,breed|facility,keeper=NPC-W07-013 legacy_alias=SHP-W07-003
+shop_w08_general,w08_general,SHP-W08-001,獣印の放牧環 雑貨屋,Brandring Pasture General Store,general,W-008,,,,mid,1.00,return_to_hub,gold,active,merchant,keeper=NPC-W08-006 legacy_alias=SHP-W08-001
+shop_w08_clinic,w08_clinic,SHP-W08-002,獣印の放牧環 手当所,Brandring Pasture Clinic,specialist,W-008,,,,mid,1.00,return_to_hub,gold,active,merchant|healer,keeper=NPC-W08-007 legacy_alias=SHP-W08-002
+shop_w09_general,w09_general,SHP-W09-001,仮親の雪原 雑貨屋,Foster Snowfield General Store,general,W-009,,,,mid,1.00,return_to_hub,gold,active,merchant,keeper=NPC-W09-007 legacy_alias=SHP-W09-001
+shop_w09_clinic,w09_clinic,SHP-W09-002,仮親の雪原 手当所,Foster Snowfield Clinic,specialist,W-009,,,,mid,1.00,return_to_hub,gold,active,merchant|healer,keeper=NPC-W09-008 legacy_alias=SHP-W09-002
+shop_w09_breeder,w09_breeder,SHP-W09-003,仮親の雪原 牧場窓口,Foster Snowfield Breeding Counter,specialist,W-009,,,,mid,1.00,return_to_hub,gold,active,breed|facility,keeper=NPC-W09-012 legacy_alias=SHP-W09-003
+shop_w10_general,w10_general,SHP-W10-001,群書の塩庫 雑貨屋,Archive Salt Storehouse General Store,general,W-010,,,,mid,1.00,return_to_hub,gold,active,merchant,keeper=NPC-W10-006 legacy_alias=SHP-W10-001
+shop_w10_clinic,w10_clinic,SHP-W10-002,群書の塩庫 手当所,Archive Salt Storehouse Clinic,specialist,W-010,,,,mid,1.00,return_to_hub,gold,active,merchant|healer,keeper=NPC-W10-007 legacy_alias=SHP-W10-002
+shop_w11_general,w11_general,SHP-W11-001,逆誓の修院 雑貨屋,Reverse Vow Monastery General Store,general,W-011,,,,mid,1.00,return_to_hub,gold,active,merchant,keeper=NPC-W11-007 legacy_alias=SHP-W11-001
+shop_w11_clinic,w11_clinic,SHP-W11-002,逆誓の修院 手当所,Reverse Vow Monastery Clinic,specialist,W-011,,,,mid,1.00,return_to_hub,gold,active,merchant|healer,keeper=NPC-W11-008 legacy_alias=SHP-W11-002
+shop_w12_general,w12_general,SHP-W12-001,骨樋の港 雑貨屋,Bone Flume Port General Store,general,W-012,,,,mid,1.00,return_to_hub,gold,active,merchant,keeper=NPC-W12-008 legacy_alias=SHP-W12-001
+shop_w12_clinic,w12_clinic,SHP-W12-002,骨樋の港 手当所,Bone Flume Port Clinic,specialist,W-012,,,,mid,1.00,return_to_hub,gold,active,merchant|healer,keeper=NPC-W12-009 legacy_alias=SHP-W12-002
+shop_w12_arena,w12_arena,SHP-W12-003,骨樋の港 闘技受付,Bone Flume Port Arena Desk,tournament_vendor,W-012,,,,mid,1.00,return_to_hub,gold,active,arena|facility,keeper=NPC-W12-013 legacy_alias=SHP-W12-003
+shop_w12_breeder,w12_breeder,SHP-W12-004,骨樋の港 牧場窓口,Bone Flume Port Breeding Counter,specialist,W-012,,,,mid,1.00,return_to_hub,gold,active,breed|facility,keeper=NPC-W12-014 legacy_alias=SHP-W12-004
+shop_w13_general,w13_general,SHP-W13-001,無籍の葡萄段 雑貨屋,Unregistered Vine Terraces General Store,general,W-013,,,,mid,1.00,return_to_hub,gold,active,merchant,keeper=NPC-W13-006 legacy_alias=SHP-W13-001
+shop_w13_clinic,w13_clinic,SHP-W13-002,無籍の葡萄段 手当所,Unregistered Vine Terraces Clinic,specialist,W-013,,,,mid,1.00,return_to_hub,gold,active,merchant|healer,keeper=NPC-W13-007 legacy_alias=SHP-W13-002
+shop_w14_general,w14_general,SHP-W14-001,返らずの鏡森 雑貨屋,Mirrorwood Of No Return General Store,general,W-014,,,,late,1.00,return_to_hub,gold,active,merchant,keeper=NPC-W14-006 legacy_alias=SHP-W14-001
+shop_w14_clinic,w14_clinic,SHP-W14-002,返らずの鏡森 手当所,Mirrorwood Of No Return Clinic,specialist,W-014,,,,late,1.00,return_to_hub,gold,active,merchant|healer,keeper=NPC-W14-007 legacy_alias=SHP-W14-002
+shop_w14_breeder,w14_breeder,SHP-W14-003,返らずの鏡森 牧場窓口,Mirrorwood Of No Return Breeding Counter,specialist,W-014,,,,late,1.00,return_to_hub,gold,active,breed|facility,keeper=NPC-W14-010 legacy_alias=SHP-W14-003
+shop_w15_general,w15_general,SHP-W15-001,黒布の巡礼路 雑貨屋,Blackcloth Pilgrim Road General Store,general,W-015,,,,late,1.00,return_to_hub,gold,active,merchant,keeper=NPC-W15-006 legacy_alias=SHP-W15-001
+shop_w15_clinic,w15_clinic,SHP-W15-002,黒布の巡礼路 手当所,Blackcloth Pilgrim Road Clinic,specialist,W-015,,,,late,1.00,return_to_hub,gold,active,merchant|healer,keeper=NPC-W15-007 legacy_alias=SHP-W15-002
+shop_w16_general,w16_general,SHP-W16-001,焼継の鍛土 雑貨屋,Kintsugi Forge Soil General Store,general,W-016,,,,late,1.00,return_to_hub,gold,active,merchant,keeper=NPC-W16-005 legacy_alias=SHP-W16-001
+shop_w16_clinic,w16_clinic,SHP-W16-002,焼継の鍛土 手当所,Kintsugi Forge Soil Clinic,specialist,W-016,,,,late,1.00,return_to_hub,gold,active,merchant|healer,keeper=NPC-W16-006 legacy_alias=SHP-W16-002
+shop_w17_general,w17_general,SHP-W17-001,残名の回廊 雑貨屋,Corridor Of Lingering Names General Store,general,W-017,,,,late,1.00,return_to_hub,gold,active,merchant,keeper=NPC-W17-007 legacy_alias=SHP-W17-001
+shop_w17_clinic,w17_clinic,SHP-W17-002,残名の回廊 手当所,Corridor Of Lingering Names Clinic,specialist,W-017,,,,late,1.00,return_to_hub,gold,active,merchant|healer,keeper=NPC-W17-008 legacy_alias=SHP-W17-002
+shop_w17_breeder,w17_breeder,SHP-W17-003,残名の回廊 牧場窓口,Corridor Of Lingering Names Breeding Counter,specialist,W-017,,,,late,1.00,return_to_hub,gold,active,breed|facility,keeper=NPC-W17-014 legacy_alias=SHP-W17-003
+shop_w18_general,w18_general,SHP-W18-001,二署の法台 雑貨屋,Dual Seal Tribunal General Store,general,W-018,,,,late,1.00,return_to_hub,gold,active,merchant,keeper=NPC-W18-007 legacy_alias=SHP-W18-001
+shop_w18_clinic,w18_clinic,SHP-W18-002,二署の法台 手当所,Dual Seal Tribunal Clinic,specialist,W-018,,,,late,1.00,return_to_hub,gold,active,merchant|healer,keeper=NPC-W18-008 legacy_alias=SHP-W18-002
+shop_w18_arena,w18_arena,SHP-W18-003,二署の法台 闘技受付,Dual Seal Tribunal Arena Desk,tournament_vendor,W-018,,,,late,1.00,return_to_hub,gold,active,arena|facility,keeper=NPC-W18-011 legacy_alias=SHP-W18-003
+shop_w18_breeder,w18_breeder,SHP-W18-004,二署の法台 牧場窓口,Dual Seal Tribunal Breeding Counter,specialist,W-018,,,,late,1.00,return_to_hub,gold,active,breed|facility,keeper=NPC-W18-012 legacy_alias=SHP-W18-004
+shop_w19_general,w19_general,SHP-W19-001,閉鐘の塔都 雑貨屋,Tower City Of Silent Bells General Store,general,W-019,,,,endgame,1.00,return_to_hub,gold,active,merchant,keeper=NPC-W19-007 legacy_alias=SHP-W19-001
+shop_w19_clinic,w19_clinic,SHP-W19-002,閉鐘の塔都 手当所,Tower City Of Silent Bells Clinic,specialist,W-019,,,,endgame,1.00,return_to_hub,gold,active,merchant|healer,keeper=NPC-W19-008 legacy_alias=SHP-W19-002
+shop_w19_arena,w19_arena,SHP-W19-003,閉鐘の塔都 闘技受付,Tower City Of Silent Bells Arena Desk,tournament_vendor,W-019,,,,endgame,1.00,return_to_hub,gold,active,arena|facility,keeper=NPC-W19-012 legacy_alias=SHP-W19-003
+shop_w19_breeder,w19_breeder,SHP-W19-004,閉鐘の塔都 牧場窓口,Tower City Of Silent Bells Breeding Counter,specialist,W-019,,,,endgame,1.00,return_to_hub,gold,active,breed|facility,keeper=NPC-W19-013 legacy_alias=SHP-W19-004
+shop_w20_general,w20_general,SHP-W20-001,継ぎ止めの聖郭 雑貨屋,Cathedral Of Continuance General Store,general,W-020,,,,endgame,1.00,return_to_hub,gold,active,merchant,keeper=NPC-W20-009 legacy_alias=SHP-W20-001
+shop_w20_clinic,w20_clinic,SHP-W20-002,継ぎ止めの聖郭 手当所,Cathedral Of Continuance Clinic,specialist,W-020,,,,endgame,1.00,return_to_hub,gold,active,merchant|healer,keeper=NPC-W20-010 legacy_alias=SHP-W20-002
+shop_w20_arena,w20_arena,SHP-W20-003,継ぎ止めの聖郭 闘技受付,Cathedral Of Continuance Arena Desk,tournament_vendor,W-020,,,,endgame,1.00,return_to_hub,gold,active,arena|facility,keeper=NPC-W20-016 legacy_alias=SHP-W20-003
+shop_w20_breeder,w20_breeder,SHP-W20-004,継ぎ止めの聖郭 牧場窓口,Cathedral Of Continuance Breeding Counter,specialist,W-020,,,,endgame,1.00,return_to_hub,gold,active,breed|facility,keeper=NPC-W20-017 legacy_alias=SHP-W20-004
+shop_w21_general,w21_general,SHP-W21-001,ほどけの縁 雑貨屋,Edge Of Unraveling General Store,general,W-021,,,,endgame,1.00,return_to_hub,gold,active,merchant,keeper=NPC-W21-011 legacy_alias=SHP-W21-001
+shop_w21_clinic,w21_clinic,SHP-W21-002,ほどけの縁 手当所,Edge Of Unraveling Clinic,specialist,W-021,,,,endgame,1.00,return_to_hub,gold,active,merchant|healer,keeper=NPC-W21-012 legacy_alias=SHP-W21-002

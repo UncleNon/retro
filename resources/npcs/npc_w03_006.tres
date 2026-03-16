@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W03-006"
+scope_id = "W-003"
+name_jp = "イナホ"
+name_en = "Inaho"
+role = "飯炊き女"
+dark_role = "宿の賄いをしつつ客の会話を聞く"
+x = 30
+y = 26
+facing = "right"
+npc_type = "minor"
+phase_count = 2
+clue_ids = []
+shop_id = ""
+service_id = ""
+personality_note = "おしゃべりで情報通"
+initial_dialogue_jp = "あの客、寝言で本名を言ってたよ。……怖いねえ。"
+notes = "継灯の宿場"

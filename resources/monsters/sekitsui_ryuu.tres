@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-408"
+slug = "sekitsui_ryuu"
+name_jp = "セキツイリュウ"
+name_en = "Sekitsui Ryuu"
+family = "dragon"
+rank = "S"
+size_class = "L"
+motif_group = "myth"
+secondary_motif_group = "gatebound"
+motif_source = "脊椎竜 + 世界骨 + 塔核"
+ontology_class = "remnant_bearing"
+silhouette_type = "massive"
+palette_id = "pal_spine_dragon"
+field_sprite_px = 16
+battle_sprite_px = 56
+base_level_cap = 84
+growth_curve_id = "LEGEND"
+base_stats = {"hp": 40, "mp": 20, "atk": 22, "def": 20, "spd": 14, "int": 18, "res": 20}
+cap_stats = {"hp": 302, "mp": 156, "atk": 204, "def": 184, "spd": 132, "int": 148, "res": 168}
+base_recruit = 0
+scoutable = false
+personality_bias = "watchful"
+battle_role = "tank"
+trait_1 = "世界骨"
+trait_2 = "地耐性"
+loot_table_id = "loot_monster_sekitsui_ryuu"
+prompt_id = "PRM-MON-408"
+notes = "世界の脊椎そのものとして塔の核に眠る始原の竜"
+resistances = {"fire": 0, "water": -1, "wind": 0, "earth": 2, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": 1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

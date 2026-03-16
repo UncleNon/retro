@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-211"
+slug = "mankai_chiyu"
+name_jp = "まんかいちゆ"
+name_en = "Full Cure"
+category = "recover"
+element = "light"
+mp_cost = 8
+target_scope = "ally_single"
+formula_key = "H2"
+base_power = 12
+base_rate = 0
+tags = ["recover", "cure", "all"]
+battle_role = "ALLY_SUSTAIN"
+effect_text = "全ての状態異常を治す"

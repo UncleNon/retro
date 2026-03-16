@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W13-003"
+scope_id = "W-013"
+name_jp = "サッカ"
+name_en = "Sakka"
+role = "棚主司祭"
+dark_role = "chapelの名簿と収穫札の対応表を持つ"
+x = 34
+y = 20
+facing = "left"
+npc_type = "key"
+phase_count = 3
+clue_ids = ["CL-033"]
+shop_id = ""
+service_id = ""
+personality_note = "慇懃だが二枚舌"
+initial_dialogue_jp = "神は名を問わない。……でも帳面は問う。矛盾だね。"
+notes = "無籍の葡萄段"

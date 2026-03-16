@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="ServiceData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/service_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+service_id = "service_w19_arena_entry"
+slug = "w19_arena_entry"
+registry_id = "SVC-W19-ARENA"
+name_jp = "閉鐘の塔都 闘技受付"
+name_en = "Tower City Of Silent Bells Arena Entry"
+service_category = "tournament_entry"
+scope_id = "W-019"
+pricing_basis = "per_attempt"
+base_price = 200
+effect_key = "open_arena"
+effect_value = "entry"
+uses_per_reset = null
+story_gate_flag = ""
+status = "active"
+tags = ["arena", "facility"]
+notes = "keeper=NPC-W19-012 legacy_alias=SVC-W19-ARENA"

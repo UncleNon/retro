@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-340"
+slug = "koseki_yuurei"
+name_jp = "コセキユウレイ"
+name_en = "Koseki Yuurei"
+family = "undead"
+rank = "C"
+size_class = "S"
+motif_group = "abstract"
+secondary_motif_group = "bureaucratic"
+motif_source = "戸籍 + 幽霊 + 空欄"
+ontology_class = "record_bent"
+silhouette_type = "floating"
+palette_id = "pal_registry_ghost"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 76
+growth_curve_id = "LATE"
+base_stats = {"hp": 21, "mp": 17, "atk": 10, "def": 10, "spd": 14, "int": 17, "res": 16}
+cap_stats = {"hp": 160, "mp": 134, "atk": 92, "def": 94, "spd": 130, "int": 148, "res": 140}
+base_recruit = 12
+scoutable = true
+personality_bias = "blank"
+battle_role = "controller"
+trait_1 = "空欄探し"
+trait_2 = "恐怖耐性"
+loot_table_id = "loot_monster_koseki_yuurei"
+prompt_id = "PRM-MON-340"
+notes = "戸籍の空欄に宿り自分の名を探し続ける記録霊"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": -1, "dark": 1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 1, "fear": 2, "instant_death": 0, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 1, "hush": 0}
+learnset = []

@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W13-006"
+scope_id = "W-013"
+name_jp = "ブドウ"
+name_en = "Budou"
+role = "道具屋の老人"
+dark_role = "農具と季節道具を売る"
+x = 26
+y = 18
+facing = "right"
+npc_type = "merchant"
+phase_count = 2
+clue_ids = []
+shop_id = "shop_w13_general"
+service_id = ""
+personality_note = "温厚で口数が少ない"
+initial_dialogue_jp = "鎌は名前を選ばない。……使う手は選ぶけどな。"
+notes = "無籍の葡萄段・道具屋"

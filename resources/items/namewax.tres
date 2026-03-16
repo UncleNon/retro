@@ -15,5 +15,5 @@ sell_price = 110
 target_scope = "breed"
 effect_key = "inherit_protect"
 effect_value = "1"
-tags = ["catalyst", "breed"]
-description = "継承候補を1件保護する"
+tags = ["catalyst", "breed", "lore_name_erasure", "event_h1011"]
+description = "削った名札の蝋を溶かし継承を守る"

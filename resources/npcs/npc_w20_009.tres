@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W20-009"
+scope_id = "W-020"
+name_jp = "クニサダ"
+name_en = "Kunisada"
+role = "聖郭の道具屋"
+dark_role = "認証道具と巡礼装備を売る"
+x = 40
+y = 20
+facing = "right"
+npc_type = "merchant"
+phase_count = 2
+clue_ids = []
+shop_id = "shop_w20_general"
+service_id = ""
+personality_note = "商売人として洗練されている"
+initial_dialogue_jp = "聖郭の品は高い。……正統のお墨付きだからな。"
+notes = "継ぎ止めの聖郭・道具屋"

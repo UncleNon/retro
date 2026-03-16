@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-421"
+slug = "inori_suzume"
+name_jp = "イノリスズメ"
+name_en = "Inori Suzume"
+family = "divine"
+rank = "E"
+size_class = "S"
+motif_group = "ritual"
+secondary_motif_group = "funerary"
+motif_source = "祈り雀 + 反響 + 墓前石"
+ontology_class = "gate_touched"
+silhouette_type = "tall"
+palette_id = "pal_prayer_sparrow"
+field_sprite_px = 16
+battle_sprite_px = 24
+base_level_cap = 62
+growth_curve_id = "EARLY"
+base_stats = {"hp": 17, "mp": 11, "atk": 9, "def": 8, "spd": 15, "int": 11, "res": 11}
+cap_stats = {"hp": 130, "mp": 78, "atk": 88, "def": 82, "spd": 138, "int": 86, "res": 90}
+base_recruit = 28
+scoutable = true
+personality_bias = "gentle"
+battle_role = "healer"
+trait_1 = "祈り声"
+trait_2 = "光微耐性"
+loot_table_id = "loot_monster_inori_suzume"
+prompt_id = "PRM-MON-421"
+notes = "墓前石で祈りの声を反響させる雀"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 1, "dark": -1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": 0, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

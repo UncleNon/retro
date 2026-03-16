@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="BreedRuleData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/breed_rule_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+rule_id = "BRD-2064"
+rule_type = "special"
+parent_a_key = "MON-176"
+parent_b_key = "MON-179"
+child_monster_id = "MON-180"
+priority = 120
+special_recipe_bonus = 1
+lv_requirement = 28
+notes = "菌糸柱+刻印木→大樹根(A): 塔底の世界樹 Step5→A"

@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="BreedRuleData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/breed_rule_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+rule_id = "BRD-2149"
+rule_type = "special"
+parent_a_key = "MON-373"
+parent_b_key = "MON-375"
+child_monster_id = "MON-383"
+priority = 100
+special_recipe_bonus = 1
+lv_requirement = 10
+notes = "岩守宮+鱗蛹→川竜: 灌漑路の竜 Step1"

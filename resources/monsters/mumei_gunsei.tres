@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-355"
+slug = "mumei_gunsei"
+name_jp = "ムメイグンセイ"
+name_en = "Mumei Gunsei"
+family = "undead"
+rank = "A"
+size_class = "L"
+motif_group = "abstract"
+secondary_motif_group = "gatebound"
+motif_source = "無銘 + 群星 + 失われた名の天体"
+ontology_class = "remnant_bearing"
+silhouette_type = "floating"
+palette_id = "pal_nameless_stars"
+field_sprite_px = 16
+battle_sprite_px = 48
+base_level_cap = 80
+growth_curve_id = "LEGEND"
+base_stats = {"hp": 26, "mp": 22, "atk": 16, "def": 13, "spd": 18, "int": 20, "res": 19}
+cap_stats = {"hp": 202, "mp": 170, "atk": 152, "def": 118, "spd": 168, "int": 172, "res": 162}
+base_recruit = 0
+scoutable = false
+personality_bias = "haunted"
+battle_role = "controller"
+trait_1 = "無銘光"
+trait_2 = "光微耐性"
+loot_table_id = "loot_monster_mumei_gunsei"
+prompt_id = "PRM-MON-355"
+notes = "失われた名前が星のように群れ光る天体のような集合霊"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 1, "dark": 1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 1, "instant_death": 1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 1, "hush": 0}
+learnset = []

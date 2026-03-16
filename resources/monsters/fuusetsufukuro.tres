@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-133"
+slug = "fuusetsufukuro"
+name_jp = "フウセツフクロ"
+name_en = "Fuusetsufukuro"
+family = "bird"
+rank = "B"
+size_class = "M"
+motif_group = "animal"
+secondary_motif_group = "astral"
+motif_source = "梟 + 風雪 + 天文台"
+ontology_class = "gate_touched"
+silhouette_type = "round"
+palette_id = "pal_blizzard_owl"
+field_sprite_px = 16
+battle_sprite_px = 48
+base_level_cap = 78
+growth_curve_id = "LATE"
+base_stats = {"hp": 26, "mp": 16, "atk": 14, "def": 14, "spd": 14, "int": 16, "res": 16}
+cap_stats = {"hp": 200, "mp": 122, "atk": 134, "def": 128, "spd": 132, "int": 132, "res": 134}
+base_recruit = 0
+scoutable = false
+personality_bias = "watchful"
+battle_role = "controller"
+trait_1 = "風雪眼"
+trait_2 = "水耐性"
+loot_table_id = "loot_monster_fuusetsufukuro"
+prompt_id = "PRM-MON-133"
+notes = "天文台跡で風雪の中でも星を見る梟"
+resistances = {"fire": 0, "water": 1, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": 1, "burn": 0, "freeze": 1, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-049"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-089"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-085"}]

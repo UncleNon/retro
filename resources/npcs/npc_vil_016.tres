@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-VIL-016"
+scope_id = "VIL"
+name_jp = "ハナビ"
+name_en = "Hanabi"
+role = "洗い場の娘"
+dark_role = "井戸の水音が変わる夜がある"
+x = 42
+y = 33
+facing = "right"
+npc_type = "minor"
+phase_count = 1
+clue_ids = []
+shop_id = ""
+service_id = ""
+personality_note = "明るいが夜の話を嫌がる"
+initial_dialogue_jp = "夜は井戸に近づかないの。水音が……変わるから。"
+notes = "開始村"

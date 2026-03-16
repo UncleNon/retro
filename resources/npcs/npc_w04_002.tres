@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W04-002"
+scope_id = "W-004"
+name_jp = "ヘンリ"
+name_en = "Henri"
+role = "鐘番"
+dark_role = "疑い札の妻を岬から出したい"
+x = 28
+y = 12
+facing = "left"
+npc_type = "key"
+phase_count = 3
+clue_ids = ["CL-016"]
+shop_id = ""
+service_id = ""
+personality_note = "穏やかだが追い詰められている"
+initial_dialogue_jp = "鐘は嘘をつかない。……でも、鳴る順番は変えられる。"
+notes = "札差しの岬"

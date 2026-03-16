@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="BreedRuleData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/breed_rule_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+rule_id = "BRD-2055"
+rule_type = "special"
+parent_a_key = "MON-157"
+parent_b_key = "MON-155"
+child_monster_id = "MON-166"
+priority = 105
+special_recipe_bonus = 1
+lv_requirement = 14
+notes = "葦黴+蔦葛→蔓潜り: 門裂の蔓精 Step2"

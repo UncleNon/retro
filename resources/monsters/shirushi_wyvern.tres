@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-379"
+slug = "shirushi_wyvern"
+name_jp = "シルシワイバーン"
+name_en = "Shirushi Wyvern"
+family = "dragon"
+rank = "D"
+size_class = "M"
+motif_group = "animal"
+secondary_motif_group = "bureaucratic"
+motif_source = "翼竜 + 印 + 台帳紋"
+ontology_class = "record_bent"
+silhouette_type = "tall"
+palette_id = "pal_mark_wyvern"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 68
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 24, "mp": 13, "atk": 15, "def": 10, "spd": 16, "int": 12, "res": 11}
+cap_stats = {"hp": 180, "mp": 98, "atk": 142, "def": 96, "spd": 148, "int": 96, "res": 96}
+base_recruit = 18
+scoutable = true
+personality_bias = "sharp"
+battle_role = "striker"
+trait_1 = "印刻み"
+trait_2 = "風微耐性"
+loot_table_id = "loot_monster_shirushi_wyvern"
+prompt_id = "PRM-MON-379"
+notes = "翼に台帳の紋様を刻み空を巡る翼竜"
+resistances = {"fire": 0, "water": 0, "wind": 1, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

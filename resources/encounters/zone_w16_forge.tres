@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="EncounterZoneData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/encounter_zone_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+zone_id = "ZONE-W16-FORGE"
+world_id = "W-016"
+name_jp = "炉床通り"
+encounter_min_steps = 12
+encounter_max_steps = 20
+terrain_rate = 1.1
+bgm_id = "BGM-W016-FIELD"
+is_dungeon = false
+time_band = "day"
+weather = "clear"
+notes = "職人が焼継を行う炉床の通り"
+entries = [{"slot": 1, "monster_id": "MON-234", "weight": 20, "min_lv": 61, "max_lv": 63, "time_band": "day", "weather": "clear"}, {"slot": 2, "monster_id": "MON-393", "weight": 20, "min_lv": 61, "max_lv": 63, "time_band": "day", "weather": "clear"}, {"slot": 3, "monster_id": "MON-236", "weight": 15, "min_lv": 61, "max_lv": 63, "time_band": "day", "weather": "clear"}, {"slot": 4, "monster_id": "MON-215", "weight": 15, "min_lv": 61, "max_lv": 63, "time_band": "day", "weather": "clear"}, {"slot": 5, "monster_id": "MON-380", "weight": 15, "min_lv": 62, "max_lv": 64, "time_band": "day", "weather": "clear"}, {"slot": 6, "monster_id": "MON-243", "weight": 15, "min_lv": 63, "max_lv": 64, "time_band": "day", "weather": "clear"}]

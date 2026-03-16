@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-298"
+slug = "zankyou_me"
+name_jp = "ザンキョウメ"
+name_en = "Zankyou Me"
+family = "magic"
+rank = "B"
+size_class = "M"
+motif_group = "abstract"
+secondary_motif_group = "funerary"
+motif_source = "残響目 + 観測眼 + 残響回廊"
+ontology_class = "remnant_bearing"
+silhouette_type = "floating"
+palette_id = "pal_echo_eye"
+field_sprite_px = 16
+battle_sprite_px = 48
+base_level_cap = 76
+growth_curve_id = "LATE"
+base_stats = {"hp": 24, "mp": 20, "atk": 11, "def": 12, "spd": 15, "int": 20, "res": 18}
+cap_stats = {"hp": 186, "mp": 154, "atk": 106, "def": 110, "spd": 140, "int": 178, "res": 152}
+base_recruit = 0
+scoutable = false
+personality_bias = "watchful"
+battle_role = "controller"
+trait_1 = "残響視"
+trait_2 = "光微耐性"
+loot_table_id = "loot_monster_zankyou_me"
+prompt_id = "PRM-MON-298"
+notes = "残響回廊で失われた者の視線が目として浮く存在"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 1, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": 1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 1, "hush": 0}
+learnset = []

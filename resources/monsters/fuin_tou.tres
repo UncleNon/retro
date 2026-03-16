@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-253"
+slug = "fuin_tou"
+name_jp = "フウイントウ"
+name_en = "Fuuin Tou"
+family = "material"
+rank = "S"
+size_class = "L"
+motif_group = "tool"
+secondary_motif_group = "gatebound"
+motif_source = "封塔 + 心柱 + 塔深層"
+ontology_class = "remnant_bearing"
+silhouette_type = "massive"
+palette_id = "pal_seal_tower"
+field_sprite_px = 16
+battle_sprite_px = 56
+base_level_cap = 84
+growth_curve_id = "LEGEND"
+base_stats = {"hp": 36, "mp": 20, "atk": 19, "def": 20, "spd": 14, "int": 16, "res": 22}
+cap_stats = {"hp": 272, "mp": 152, "atk": 178, "def": 184, "spd": 132, "int": 128, "res": 180}
+base_recruit = 0
+scoutable = false
+personality_bias = "solemn"
+battle_role = "controller"
+trait_1 = "封塔心"
+trait_2 = "封印耐性"
+loot_table_id = "loot_monster_fuin_tou"
+prompt_id = "PRM-MON-253"
+notes = "塔深層の心柱が封印ごと動き出した塔の意志"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 2, "fear": 0, "instant_death": 2, "burn": 0, "freeze": 0, "curse": 1, "blind": 0, "charm": 0, "mark": 2, "hush": 0}
+learnset = []

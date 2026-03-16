@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="BreedRuleData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/breed_rule_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+rule_id = "BRD-2076"
+rule_type = "special"
+parent_a_key = "MON-216"
+parent_b_key = "MON-223"
+child_monster_id = "MON-226"
+priority = 105
+special_recipe_bonus = 1
+lv_requirement = 14
+notes = "機織蜘蛛+巻物蟲→帳簿蜥蜴: 役所の記録型 Step2"

@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W09-008"
+scope_id = "W-009"
+name_jp = "キサラギ"
+name_en = "Kisaragi"
+role = "雪原の医者"
+dark_role = "凍傷と心の傷を診る"
+x = 38
+y = 28
+facing = "right"
+npc_type = "healer"
+phase_count = 2
+clue_ids = []
+shop_id = "shop_w09_clinic"
+service_id = "service_w09_restoration"
+personality_note = "穏やかで経験豊富"
+initial_dialogue_jp = "凍傷は治る。……名前の凍傷は、溶かすのに時間がかかる。"
+notes = "仮親の雪原・回復"

@@ -1,11 +1,14 @@
 # 04. Initial Items And Shops
 
 > **ステータス**: Draft v1.0
-> **最終更新**: 2026-03-15
+> **最終更新**: 2026-03-16
 > **参照元**:
 > - `docs/specs/systems/04_economy_items_and_progression_rules.md`
 > - `docs/specs/systems/06_randomness_policy_and_probability_budgets.md`
 > - `docs/specs/story/01_story_bible.md`
+> - `docs/specs/story/06_millennial_geopolitics_and_personages.md`
+> - `docs/specs/story/14_cross_system_echo_and_discovery_lattice.md`
+> - `docs/specs/content/11_item_history_and_monster_resonance_matrix.md`
 
 ---
 
@@ -14,6 +17,12 @@
 - 序盤〜中盤前半で本当に使うアイテム群を実表で固定する
 - `20枠制限` の中で `回復 / 勧誘 / 探索 / 配合 / 記録` を競合させる
 - 世界観と経済を分離せず、店棚だけでもその世界の文化が見える状態にする
+
+### 1.1 歴史残渣の前提
+
+- item は `使える物` である前に、**誰かが失踪, 選別, 改竄, 相続争いをどう処理してきたか** の残りでもある
+- lore を濃く入れる対象は selected 制にし、全 item を重くしすぎない
+- item の深掘り基準は [11_item_history_and_monster_resonance_matrix.md](./11_item_history_and_monster_resonance_matrix.md) を正とする
 
 ---
 
@@ -188,6 +197,17 @@
 - `item_buff_quicksap`
 - `item_debuff_tarseed`
 
+### 3.7 序盤店棚の語り
+
+| shop | 棚の顔 | プレイヤーへ残したい印象 |
+|------|--------|--------------------------|
+| `SHOP-001` | 余り物で冬を越える村棚 | 優しさと帳外処理が分離していない |
+| `SHOP-002` | 越境前の仮設記録棚 | 塔の前でもう `記録と静音` が必要になる |
+| `SHOP-W01` | 借り札と灰の暫定棚 | 所属が仮止めで済まされる土地だと見える |
+| `SHOP-W02` | 乳灰と家印の判定棚 | healing と血筋判定が同じ素材圏にある |
+| `SHOP-W03` | 灯・鍵・帳簿の照合棚 | 宿場は保護より検査が強い |
+| `SHOP-W04` | 札・潮・通行の選別棚 | 移動の自由が already 試験化されている |
+
 ---
 
 ## 4. 運用ルール
@@ -204,3 +224,4 @@
 - 20枠制限下で回復と餌が競合するか
 - 店棚だけで世界観が見えるか
 - 触媒が強すぎて配合の発見を殺していないか
+- 歴史残渣を背負う item が各世界で `2〜4個` は見えるか

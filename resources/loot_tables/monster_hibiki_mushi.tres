@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="LootTableData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/loot_table_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+loot_table_id = "loot_monster_hibiki_mushi"
+slug = "monster_hibiki_mushi"
+registry_id = "LUT-266"
+source_type = "enemy"
+source_ref = "MON-266"
+world_id = ""
+roll_policy = "single_pick"
+roll_count_min = 1
+roll_count_max = 1
+first_clear_reward_id = ""
+status = "active"
+tags = ["magic", "E"]
+notes = "legacy_alias=LUT-266"
+entries = [{"entry_no": 1, "grant_type": "item", "grant_id": "item_mp_bitterdew", "drop_slot_type": "common", "base_drop_rate": 0.38, "quantity_min": 1, "quantity_max": 1, "weight": null, "first_clear_only": false, "unique_once": false, "condition_flag": "", "status": "active", "notes": "monster_id=MON-266"}]

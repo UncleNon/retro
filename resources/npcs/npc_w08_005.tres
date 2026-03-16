@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W08-005"
+scope_id = "W-008"
+name_jp = "クロベ"
+name_en = "Kurobe"
+role = "大牧主の番頭"
+dark_role = "配給輪の管理を仕切る"
+x = 34
+y = 16
+facing = "down"
+npc_type = "minor"
+phase_count = 2
+clue_ids = ["CL-024"]
+shop_id = ""
+service_id = ""
+personality_note = "威圧的で忠実"
+initial_dialogue_jp = "印のないものに餌を分けるのは泥棒と同じだ。"
+notes = "獣印の放牧環"

@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="ServiceData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/service_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+service_id = "service_w20_arena_entry"
+slug = "w20_arena_entry"
+registry_id = "SVC-W20-ARENA"
+name_jp = "継ぎ止めの聖郭 闘技受付"
+name_en = "Cathedral Of Continuance Arena Entry"
+service_category = "tournament_entry"
+scope_id = "W-020"
+pricing_basis = "per_attempt"
+base_price = 200
+effect_key = "open_arena"
+effect_value = "entry"
+uses_per_reset = null
+story_gate_flag = ""
+status = "active"
+tags = ["arena", "facility"]
+notes = "keeper=NPC-W20-016 legacy_alias=SVC-W20-ARENA"

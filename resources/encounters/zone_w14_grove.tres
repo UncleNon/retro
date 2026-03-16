@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="EncounterZoneData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/encounter_zone_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+zone_id = "ZONE-W14-GROVE"
+world_id = "W-014"
+name_jp = "鏡石の木立"
+encounter_min_steps = 12
+encounter_max_steps = 20
+terrain_rate = 1.1
+bgm_id = "BGM-W014-FIELD"
+is_dungeon = false
+time_band = "day"
+weather = "fog"
+notes = "鏡石が散在する樹海"
+entries = [{"slot": 1, "monster_id": "MON-287", "weight": 20, "min_lv": 53, "max_lv": 55, "time_band": "day", "weather": "fog"}, {"slot": 2, "monster_id": "MON-285", "weight": 20, "min_lv": 53, "max_lv": 55, "time_band": "day", "weather": "fog"}, {"slot": 3, "monster_id": "MON-168", "weight": 15, "min_lv": 53, "max_lv": 55, "time_band": "day", "weather": "fog"}, {"slot": 4, "monster_id": "MON-077", "weight": 15, "min_lv": 53, "max_lv": 55, "time_band": "day", "weather": "fog"}, {"slot": 5, "monster_id": "MON-160", "weight": 15, "min_lv": 54, "max_lv": 56, "time_band": "day", "weather": "fog"}, {"slot": 6, "monster_id": "MON-440", "weight": 15, "min_lv": 54, "max_lv": 56, "time_band": "day", "weather": "fog"}]

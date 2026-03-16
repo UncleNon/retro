@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-291"
+slug = "kyousei_gattai"
+name_jp = "きょうせいがったい"
+name_en = "Force Merge"
+category = "physical"
+element = "none"
+mp_cost = 12
+target_scope = "single"
+formula_key = "P5"
+base_power = 170
+base_rate = 0
+tags = ["single", "physical", "breed", "beast", "material"]
+battle_role = "PAYOFF"
+effect_text = "配合の記憶が宿る一撃"

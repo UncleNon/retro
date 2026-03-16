@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-283"
+slug = "keishou_kaifuku"
+name_jp = "けいしょうかいふく"
+name_en = "Lineage Heal"
+category = "recover"
+element = "light"
+mp_cost = 10
+target_scope = "ally_all"
+formula_key = "H1"
+base_power = 28
+base_rate = 0
+tags = ["recover", "breed", "plus_bonus", "spread"]
+battle_role = "ALLY_SUSTAIN"
+effect_text = "plus値で回復量が伸びる"

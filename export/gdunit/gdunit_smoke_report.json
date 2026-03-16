@@ -1,0 +1,41 @@
+{
+  "checked_at_utc": "2026-03-16T05:07:54.954202+00:00",
+  "status": "scaffolded_plugin_missing",
+  "allow_missing": true,
+  "project_root": "/Users/yuki/projects/retro",
+  "tests": {
+    "directory": "/Users/yuki/projects/retro/tests/gdunit",
+    "count": 4,
+    "paths": [
+      "tests/gdunit/test_breeding_service.gd",
+      "tests/gdunit/test_inventory_runtime.gd",
+      "tests/gdunit/test_monster_collection.gd",
+      "tests/gdunit/test_recruitment_service.gd"
+    ]
+  },
+  "plugin": {
+    "present": false,
+    "path": "",
+    "runtest_path": "",
+    "runtest_present": false
+  },
+  "godot": {
+    "found": true,
+    "path": "/opt/homebrew/bin/godot"
+  },
+  "runner": {
+    "attempted": false,
+    "exit_code": null,
+    "output": ""
+  },
+  "blockers": [
+    "`addons/gdUnit4` plugin が未導入"
+  ],
+  "warnings": [
+    "canonical suite は repo に追加済みだが、plugin 未導入のため未実行"
+  ],
+  "next_steps": [
+    "local Godot version と互換のある GdUnit4 plugin を `addons/gdUnit4` に導入する",
+    "plugin 導入後に `python3 tools/qa/gdunit_smoke.py` を再実行する"
+  ]
+}

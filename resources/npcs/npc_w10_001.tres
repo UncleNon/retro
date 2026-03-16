@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W10-001"
+scope_id = "W-010"
+name_jp = "カグラ"
+name_en = "Kagura"
+role = "塩庫女将"
+dark_role = "倉の湿り事故を利用して頁を差し替えた"
+x = 32
+y = 20
+facing = "down"
+npc_type = "key"
+phase_count = 4
+clue_ids = ["CL-027", "CL-065"]
+shop_id = ""
+service_id = ""
+personality_note = "やり手で情に厚い"
+initial_dialogue_jp = "塩は記録を守る。……湿気は記録を変える。同じ倉でね。"
+notes = "群書の塩庫"

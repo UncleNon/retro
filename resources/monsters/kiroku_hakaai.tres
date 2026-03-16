@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-345"
+slug = "kiroku_hakaai"
+name_jp = "キロクハカアイ"
+name_en = "Kiroku Hakaai"
+family = "undead"
+rank = "C"
+size_class = "M"
+motif_group = "abstract"
+secondary_motif_group = "funerary"
+motif_source = "記録 + 墓間 + 消え残り番号"
+ontology_class = "record_bent"
+silhouette_type = "wide"
+palette_id = "pal_record_grave"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 76
+growth_curve_id = "LATE"
+base_stats = {"hp": 27, "mp": 14, "atk": 13, "def": 14, "spd": 10, "int": 14, "res": 14}
+cap_stats = {"hp": 202, "mp": 110, "atk": 124, "def": 126, "spd": 98, "int": 122, "res": 124}
+base_recruit = 10
+scoutable = true
+personality_bias = "mournful"
+battle_role = "tank"
+trait_1 = "番号守り"
+trait_2 = "封印耐性"
+loot_table_id = "loot_monster_kiroku_hakaai"
+prompt_id = "PRM-MON-345"
+notes = "墓の間を巡り消え残った番号を守る記録の霊"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": -1, "dark": 1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 1, "fear": 1, "instant_death": 0, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 1, "hush": 0}
+learnset = []

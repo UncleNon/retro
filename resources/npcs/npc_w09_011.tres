@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W09-011"
+scope_id = "W-009"
+name_jp = "ミユキ"
+name_en = "Miyuki"
+role = "養親の娘"
+dark_role = "ソウマの義妹。兄を家族と認めている"
+x = 22
+y = 30
+facing = "right"
+npc_type = "minor"
+phase_count = 2
+clue_ids = []
+shop_id = ""
+service_id = ""
+personality_note = "明るくて兄思い"
+initial_dialogue_jp = "兄ちゃんは兄ちゃんだよ。札がなくても。"
+notes = "仮親の雪原"

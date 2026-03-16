@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-481"
+slug = "rou_nagare"
+name_jp = "ロウナガレ"
+name_en = "Rou Nagare"
+family = "slime"
+rank = "D"
+size_class = "S"
+motif_group = "corporeal"
+secondary_motif_group = "funerary"
+motif_source = "蝋 + 流れ + 供物台"
+ontology_class = "remnant_bearing"
+silhouette_type = "wide"
+palette_id = "pal_wax_flow"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 68
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 24, "mp": 14, "atk": 10, "def": 12, "spd": 10, "int": 14, "res": 14}
+cap_stats = {"hp": 178, "mp": 108, "atk": 96, "def": 108, "spd": 96, "int": 114, "res": 118}
+base_recruit = 20
+scoutable = true
+personality_bias = "still"
+battle_role = "tank"
+trait_1 = "蝋封じ"
+trait_2 = "火微耐性"
+loot_table_id = "loot_monster_rou_nagare"
+prompt_id = "PRM-MON-481"
+notes = "供物台から蝋が流れ落ち固まりながら動く蝋の生き物"
+resistances = {"fire": 1, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": -1, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

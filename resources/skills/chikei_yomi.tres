@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-252"
+slug = "chikei_yomi"
+name_jp = "ちけいよみ"
+name_en = "Terrain Read"
+category = "utility"
+element = "earth"
+mp_cost = 2
+target_scope = "field"
+formula_key = "F1"
+base_power = 0
+base_rate = 100
+tags = ["field", "explore", "map"]
+battle_role = "FIELD_LINK"
+effect_text = "地形を読みとる"

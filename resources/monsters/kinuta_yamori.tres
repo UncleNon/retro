@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-218"
+slug = "kinuta_yamori"
+name_jp = "キヌタヤモリ"
+name_en = "Kinuta Yamori"
+family = "material"
+rank = "D"
+size_class = "M"
+motif_group = "tool"
+secondary_motif_group = "household"
+motif_source = "砧 + 守宮 + 洗い場"
+ontology_class = "wildborn"
+silhouette_type = "wide"
+palette_id = "pal_anvil_gecko"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 68
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 25, "mp": 9, "atk": 13, "def": 13, "spd": 12, "int": 10, "res": 10}
+cap_stats = {"hp": 186, "mp": 70, "atk": 128, "def": 122, "spd": 116, "int": 84, "res": 94}
+base_recruit = 22
+scoutable = true
+personality_bias = "patient"
+battle_role = "controller"
+trait_1 = "布叩き"
+trait_2 = "水微耐性"
+loot_table_id = "loot_monster_kinuta_yamori"
+prompt_id = "PRM-MON-218"
+notes = "洗い場の砧に張りつき布を叩く守宮"
+resistances = {"fire": 0, "water": 1, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-233"
+slug = "tobira_yamori"
+name_jp = "トビラヤモリ"
+name_en = "Tobira Yamori"
+family = "material"
+rank = "C"
+size_class = "M"
+motif_group = "tool"
+secondary_motif_group = "gatebound"
+motif_source = "扉板 + 守宮 + 門番所"
+ontology_class = "gate_touched"
+silhouette_type = "wide"
+palette_id = "pal_door_gecko"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 74
+growth_curve_id = "LATE"
+base_stats = {"hp": 27, "mp": 12, "atk": 13, "def": 14, "spd": 13, "int": 12, "res": 13}
+cap_stats = {"hp": 204, "mp": 94, "atk": 128, "def": 130, "spd": 124, "int": 100, "res": 112}
+base_recruit = 14
+scoutable = true
+personality_bias = "nimble"
+battle_role = "controller"
+trait_1 = "扉張り付き"
+trait_2 = "闇微耐性"
+loot_table_id = "loot_monster_tobira_yamori"
+prompt_id = "PRM-MON-233"
+notes = "門番所の扉板に張りつき来訪者を監視する守宮"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 1, "hush": 0}
+learnset = []

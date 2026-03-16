@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W09-007"
+scope_id = "W-009"
+name_jp = "ハルカ"
+name_en = "Haruka"
+role = "毛皮売りの女"
+dark_role = "冬備蓄と毛皮を売る道具屋"
+x = 32
+y = 22
+facing = "left"
+npc_type = "merchant"
+phase_count = 2
+clue_ids = []
+shop_id = "shop_w09_general"
+service_id = ""
+personality_note = "逞しく商売上手"
+initial_dialogue_jp = "毛皮は命を繋ぐ。……名前は繋がなくても冬は越せる。"
+notes = "仮親の雪原・道具屋"

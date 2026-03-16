@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="ShopData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/shop_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+shop_id = "shop_w19_arena"
+slug = "w19_arena"
+registry_id = "SHP-W19-003"
+name_jp = "閉鐘の塔都 闘技受付"
+name_en = "Tower City Of Silent Bells Arena Desk"
+shop_type = "tournament_vendor"
+scope_id = "W-019"
+zone_id = ""
+story_gate_flag = ""
+rank_gate = ""
+inventory_band = "endgame"
+base_price_multiplier = 1.0
+restock_clock = "return_to_hub"
+currency_type = "gold"
+status = "active"
+tags = ["arena", "facility"]
+notes = "keeper=NPC-W19-012 legacy_alias=SHP-W19-003"
+inventory_entries = []
+service_ids = ["service_w19_arena_entry"]

@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-209"
+slug = "chawan_gaeru"
+name_jp = "チャワンガエル"
+name_en = "Chawan Gaeru"
+family = "material"
+rank = "E"
+size_class = "S"
+motif_group = "tool"
+secondary_motif_group = "household"
+motif_source = "茶碗 + 蛙 + 水瓶"
+ontology_class = "wildborn"
+silhouette_type = "wide"
+palette_id = "pal_bowl_frog"
+field_sprite_px = 16
+battle_sprite_px = 24
+base_level_cap = 62
+growth_curve_id = "EARLY"
+base_stats = {"hp": 19, "mp": 8, "atk": 9, "def": 9, "spd": 12, "int": 10, "res": 10}
+cap_stats = {"hp": 144, "mp": 62, "atk": 98, "def": 94, "spd": 118, "int": 84, "res": 90}
+base_recruit = 28
+scoutable = true
+personality_bias = "calm"
+battle_role = "healer"
+trait_1 = "碗水"
+trait_2 = "水微耐性"
+loot_table_id = "loot_monster_chawan_gaeru"
+prompt_id = "PRM-MON-209"
+notes = "水瓶の中で欠けた茶碗を被る小蛙"
+resistances = {"fire": 0, "water": 1, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

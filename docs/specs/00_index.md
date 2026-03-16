@@ -95,6 +95,9 @@
 | [content/08_starting_region_ecology_and_monster_web.md](./content/08_starting_region_ecology_and_monster_web.md) | 開始村〜`W-005` の生態系、食物連鎖、違法利用、地形修正案、怪物 draft |
 | [content/09_act_i_ii_monster_expansion_and_discovery_pack.md](./content/09_act_i_ii_monster_expansion_and_discovery_pack.md) | `W-002`〜`W-007` 追加19体の runtime roster、hidden discovery、配合導線 |
 | [content/10_vertical_slice_codex_entries.md](./content/10_vertical_slice_codex_entries.md) | 序盤10体の図鑑文、説明帯、生態メモ |
+| [content/11_item_history_and_monster_resonance_matrix.md](./content/11_item_history_and_monster_resonance_matrix.md) | item を歴史事件、勢力欲、monster ecology、店棚、hidden payoff へ接続する matrix |
+| [content/12_item_provenance_inspect_and_shop_text_pack.md](./content/12_item_provenance_inspect_and_shop_text_pack.md) | provenance item の inspect 文、repeat 差分、棚帯、売り手台詞を固定する text pack |
+| [content/13_act_i_ii_item_text_routing_ledger.md](./content/13_act_i_ii_item_text_routing_ledger.md) | `W-002`〜`W-007` の item text を point / interaction / ambient へ結ぶ routing 台帳 |
 
 ---
 

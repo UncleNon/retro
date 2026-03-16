@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-445"
+slug = "sakai_no_me"
+name_jp = "サカイノメ"
+name_en = "Sakai no Me"
+family = "divine"
+rank = "B"
+size_class = "M"
+motif_group = "abstract"
+secondary_motif_group = "gatebound"
+motif_source = "境界の目 + 監視 + 世界縫い目"
+ontology_class = "gate_touched"
+silhouette_type = "floating"
+palette_id = "pal_boundary_eye"
+field_sprite_px = 16
+battle_sprite_px = 48
+base_level_cap = 76
+growth_curve_id = "LATE"
+base_stats = {"hp": 24, "mp": 20, "atk": 14, "def": 12, "spd": 16, "int": 20, "res": 18}
+cap_stats = {"hp": 188, "mp": 156, "atk": 136, "def": 110, "spd": 148, "int": 168, "res": 152}
+base_recruit = 0
+scoutable = false
+personality_bias = "watchful"
+battle_role = "controller"
+trait_1 = "境界視"
+trait_2 = "光耐性"
+loot_table_id = "loot_monster_sakai_no_me"
+prompt_id = "PRM-MON-445"
+notes = "世界の縫い目を監視する浮遊する境界の目"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 1, "dark": -1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": 0, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

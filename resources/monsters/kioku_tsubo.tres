@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-488"
+slug = "kioku_tsubo"
+name_jp = "キオクツボ"
+name_en = "Kioku Tsubo"
+family = "slime"
+rank = "C"
+size_class = "M"
+motif_group = "abstract"
+secondary_motif_group = "funerary"
+motif_source = "記憶 + 壺 + 失名水"
+ontology_class = "remnant_bearing"
+silhouette_type = "round"
+palette_id = "pal_memory_jar"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 76
+growth_curve_id = "LATE"
+base_stats = {"hp": 24, "mp": 18, "atk": 10, "def": 12, "spd": 11, "int": 18, "res": 17}
+cap_stats = {"hp": 184, "mp": 140, "atk": 96, "def": 110, "spd": 106, "int": 150, "res": 142}
+base_recruit = 12
+scoutable = true
+personality_bias = "haunted"
+battle_role = "controller"
+trait_1 = "記憶溶かし"
+trait_2 = "封印耐性"
+loot_table_id = "loot_monster_kioku_tsubo"
+prompt_id = "PRM-MON-488"
+notes = "失った名の記憶を溶かし込んだ壺型の液体生物"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 1, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 1, "hush": 0}
+learnset = []

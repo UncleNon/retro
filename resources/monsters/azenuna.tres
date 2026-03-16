@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-150"
+slug = "azenuna"
+name_jp = "アゼヌナ"
+name_en = "Azenuna"
+family = "plant"
+rank = "E"
+size_class = "S"
+motif_group = "plant"
+secondary_motif_group = "bureaucratic"
+motif_source = "畦菜 + 名札根 + 耕地"
+ontology_class = "record_bent"
+silhouette_type = "wide"
+palette_id = "pal_paddy_greens"
+field_sprite_px = 16
+battle_sprite_px = 24
+base_level_cap = 61
+growth_curve_id = "EARLY"
+base_stats = {"hp": 17, "mp": 11, "atk": 9, "def": 9, "spd": 12, "int": 11, "res": 10}
+cap_stats = {"hp": 134, "mp": 78, "atk": 94, "def": 92, "spd": 116, "int": 88, "res": 90}
+base_recruit = 32
+scoutable = true
+personality_bias = "gentle"
+battle_role = "controller"
+trait_1 = "名札巻き"
+trait_2 = "地微耐性"
+loot_table_id = "loot_monster_azenuna"
+prompt_id = "PRM-MON-150"
+notes = "耕地の名札に根を絡ませる畦菜の精"
+resistances = {"fire": -1, "water": 0, "wind": 0, "earth": 1, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": -1, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-035"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-028"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-026"}]

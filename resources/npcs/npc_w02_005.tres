@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W02-005"
+scope_id = "W-002"
+name_jp = "ムロ"
+name_en = "Muro"
+role = "乳搾り老人"
+dark_role = "判乳鉢の縁の減りに気づいている"
+x = 26
+y = 28
+facing = "down"
+npc_type = "minor"
+phase_count = 2
+clue_ids = ["CL-055"]
+shop_id = ""
+service_id = ""
+personality_note = "温厚だが観察力がある"
+initial_dialogue_jp = "鉢の縁がね、片方だけ薄いんだ。使い方が偏ってるのさ。"
+notes = "灰乳の谷"

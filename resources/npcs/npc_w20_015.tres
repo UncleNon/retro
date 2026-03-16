@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W20-015"
+scope_id = "W-020"
+name_jp = "サダオ"
+name_en = "Sadao"
+role = "深門下郭の警備兵"
+dark_role = "聖郭の最深部を警備する"
+x = 40
+y = 6
+facing = "up"
+npc_type = "minor"
+phase_count = 2
+clue_ids = ["CL-052"]
+shop_id = ""
+service_id = ""
+personality_note = "寡黙で忠実"
+initial_dialogue_jp = "ここから先は戻れない。……俺も、もう長い。"
+notes = "継ぎ止めの聖郭"

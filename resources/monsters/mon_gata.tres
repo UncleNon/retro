@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-252"
+slug = "mon_gata"
+name_jp = "モンガタ"
+name_en = "Mon Gata"
+family = "material"
+rank = "S"
+size_class = "L"
+motif_group = "tool"
+secondary_motif_group = "gatebound"
+motif_source = "門枠 + 巨人 + 世界門"
+ontology_class = "gate_touched"
+silhouette_type = "massive"
+palette_id = "pal_gate_frame"
+field_sprite_px = 16
+battle_sprite_px = 56
+base_level_cap = 84
+growth_curve_id = "LEGEND"
+base_stats = {"hp": 40, "mp": 18, "atk": 21, "def": 20, "spd": 12, "int": 14, "res": 20}
+cap_stats = {"hp": 298, "mp": 136, "atk": 196, "def": 184, "spd": 114, "int": 114, "res": 166}
+base_recruit = 0
+scoutable = false
+personality_bias = "watchful"
+battle_role = "tank"
+trait_1 = "門枠守り"
+trait_2 = "光耐性"
+loot_table_id = "loot_monster_mon_gata"
+prompt_id = "PRM-MON-252"
+notes = "世界門の枠そのものが立ち上がった門枠の巨人"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 2, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 1, "fear": 0, "instant_death": 2, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 1, "hush": 0}
+learnset = []

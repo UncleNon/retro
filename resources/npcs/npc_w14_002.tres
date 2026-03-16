@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W14-002"
+scope_id = "W-014"
+name_jp = "アオイ"
+name_en = "Aoi"
+role = "森番"
+dark_role = "妹へ通称札を二枚持たせた"
+x = 22
+y = 24
+facing = "right"
+npc_type = "key"
+phase_count = 4
+clue_ids = ["CL-036"]
+shop_id = ""
+service_id = ""
+personality_note = "静かで妹を守ることだけ考える"
+initial_dialogue_jp = "森では本名を使うな。……妹には、二枚持たせた。念のためだ。"
+notes = "返らずの鏡森"

@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W21-011"
+scope_id = "W-021"
+name_jp = "コウジ"
+name_en = "Kouji"
+role = "白縁前営の道具屋"
+dark_role = "仮札と最低限の装備を売る"
+x = 28
+y = 16
+facing = "left"
+npc_type = "merchant"
+phase_count = 2
+clue_ids = []
+shop_id = "shop_w21_general"
+service_id = ""
+personality_note = "実務的で言葉少ない"
+initial_dialogue_jp = "ここで売れるものは少ない。……名前も印も、すぐ溶けるからな。"
+notes = "ほどけの縁・道具屋"

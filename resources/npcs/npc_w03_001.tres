@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W03-001"
+scope_id = "W-003"
+name_jp = "トモエ"
+name_en = "Tomoe"
+role = "宿の女将"
+dark_role = "溺死した息子の役名をまだ貸している"
+x = 32
+y = 24
+facing = "down"
+npc_type = "key"
+phase_count = 4
+clue_ids = ["CL-013", "CL-056"]
+shop_id = ""
+service_id = ""
+personality_note = "気丈で商売上手。息子の話だけ声が揺れる"
+initial_dialogue_jp = "お泊まりかい？　名前は……灯番号で結構だよ。"
+notes = "継灯の宿場"

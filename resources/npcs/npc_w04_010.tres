@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W04-010"
+scope_id = "W-004"
+name_jp = "ミキ"
+name_en = "Miki"
+role = "関所の子ども"
+dark_role = "札の色で人を区別する遊びをする"
+x = 30
+y = 16
+facing = "down"
+npc_type = "mob"
+phase_count = 1
+clue_ids = []
+shop_id = ""
+service_id = ""
+personality_note = "無邪気に残酷"
+initial_dialogue_jp = "白い人は上、黒い人は下！　ごっこ遊びだよ？"
+notes = "札差しの岬"

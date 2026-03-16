@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-226"
+slug = "shippuu_no_uta"
+name_jp = "しっぷうのうた"
+name_en = "Gale Hymn"
+category = "setup"
+element = "wind"
+mp_cost = 8
+target_scope = "ally_all"
+formula_key = "B1"
+base_power = 0
+base_rate = 0
+tags = ["setup", "buff", "spd", "spread", "wind"]
+battle_role = "ALLY_SUSTAIN"
+effect_text = "全体のSPDを上げる"

@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-260"
+slug = "migawari_ningyou"
+name_jp = "みがわりにんぎょう"
+name_en = "Decoy Doll"
+category = "utility"
+element = "none"
+mp_cost = 5
+target_scope = "self"
+formula_key = "B3"
+base_power = 0
+base_rate = 0
+tags = ["utility", "decoy", "material"]
+battle_role = "ALLY_SUSTAIN"
+effect_text = "身代わりを置く"

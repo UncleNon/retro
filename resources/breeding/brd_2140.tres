@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="BreedRuleData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/breed_rule_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+rule_id = "BRD-2140"
+rule_type = "special"
+parent_a_key = "MON-352"
+parent_b_key = "MON-355"
+child_monster_id = "MON-357"
+priority = 125
+special_recipe_bonus = 1
+lv_requirement = 35
+notes = "忘れ路群+無銘群星→不銘録(S): 記録拒否の化身 →S"

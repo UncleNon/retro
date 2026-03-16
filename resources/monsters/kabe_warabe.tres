@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-239"
+slug = "kabe_warabe"
+name_jp = "カベワラベ"
+name_en = "Kabe Warabe"
+family = "material"
+rank = "B"
+size_class = "M"
+motif_group = "tool"
+secondary_motif_group = "bureaucratic"
+motif_source = "壁面 + 童子 + 法院回廊"
+ontology_class = "record_bent"
+silhouette_type = "tall"
+palette_id = "pal_wall_child"
+field_sprite_px = 16
+battle_sprite_px = 48
+base_level_cap = 74
+growth_curve_id = "LATE"
+base_stats = {"hp": 26, "mp": 16, "atk": 14, "def": 14, "spd": 14, "int": 14, "res": 14}
+cap_stats = {"hp": 198, "mp": 122, "atk": 134, "def": 128, "spd": 132, "int": 116, "res": 120}
+base_recruit = 0
+scoutable = false
+personality_bias = "echoing"
+battle_role = "controller"
+trait_1 = "壁抜け"
+trait_2 = "闇微耐性"
+loot_table_id = "loot_monster_kabe_warabe"
+prompt_id = "PRM-MON-239"
+notes = "法院回廊の壁面から半身を出す童子型器物"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": 1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 1, "hush": 0}
+learnset = []

@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="EncounterZoneData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/encounter_zone_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+zone_id = "ZONE-W08-BRAND"
+world_id = "W-008"
+name_jp = "焼印場"
+encounter_min_steps = 10
+encounter_max_steps = 16
+terrain_rate = 1.2
+bgm_id = "BGM-W008-BOSS"
+is_dungeon = true
+time_band = "night"
+weather = "clear"
+notes = "印を打つ儀式の場"
+entries = [{"slot": 1, "monster_id": "MON-047", "weight": 20, "min_lv": 31, "max_lv": 34, "time_band": "night", "weather": "clear"}, {"slot": 2, "monster_id": "MON-065", "weight": 25, "min_lv": 32, "max_lv": 34, "time_band": "night", "weather": "clear"}, {"slot": 3, "monster_id": "MON-048", "weight": 15, "min_lv": 31, "max_lv": 33, "time_band": "night", "weather": "clear"}, {"slot": 4, "monster_id": "MON-214", "weight": 15, "min_lv": 32, "max_lv": 34, "time_band": "night", "weather": "clear"}, {"slot": 5, "monster_id": "MON-215", "weight": 15, "min_lv": 32, "max_lv": 34, "time_band": "night", "weather": "clear"}, {"slot": 6, "monster_id": "MON-010", "weight": 10, "min_lv": 33, "max_lv": 35, "time_band": "night", "weather": "clear"}]

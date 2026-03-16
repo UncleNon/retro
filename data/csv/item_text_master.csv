@@ -1,0 +1,23 @@
+item_text_id,item_id,text_kind,scope_id,shop_id,text_source,priority,text_jp,notes
+ITXT-001,item_heal_dryherb,menu_strip,,,ITX-VIL-04:strip,20,借り名の冬の棚,inventory provenance strip
+ITXT-002,item_mp_clearwater,menu_strip,,,ITX-VIL-05:strip,20,手当てと写しの棚,inventory provenance strip
+ITXT-003,item_bait_sourmilk,menu_strip,,,ITX-W02-02:strip,20,判乳残りの酸乳桶,inventory provenance strip
+ITXT-004,item_record_tagcase,menu_strip,,,ITX-W03-03:strip,20,同寸札の札筒,inventory provenance strip
+ITXT-005,item_catalyst_bellsalt,menu_strip,,,ITX-W04-02:strip,20,岬灯まじりの鈴塩,inventory provenance strip
+ITXT-006,item_key_memorialoffering,menu_strip,,,ITX-W05-02:strip,20,墓粉と代え供物,inventory provenance strip
+ITXT-007,item_record_belltube,menu_strip,,,ITX-W06-01:strip,20,符号読みの鈴筒,inventory provenance strip
+ITXT-008,item_field_silentcloth,menu_strip,,,ITX-W06-03:strip,20,夜渡しの無音布,inventory provenance strip
+ITXT-009,item_record_namefoil,menu_strip,,,ITX-W07-01:strip,20,貼り替え見る名箔,inventory provenance strip
+ITXT-010,item_record_inkpaste,menu_strip,,,ITX-W07-02:strip,20,両棚直しの墨膏,inventory provenance strip
+ITXT-011,item_catalyst_namewax,menu_strip,,,ITX-W07-03:strip,20,再封用の名蝋,inventory provenance strip
+ITXT-101,item_heal_dryherb,shop_voice,VIL,shop_vil_general,ITX-VIL-04:voice,10,「干し棚の品は切らせないからね。」,starting village general bark
+ITXT-102,item_mp_clearwater,shop_voice,VIL,shop_vil_clinic,ITX-VIL-05:voice,10,「診る前にまず見返すのさ。」,starting village clinic bark
+ITXT-103,item_bait_sourmilk,shop_voice,W-002,,ITX-W02-02:voice,10,「捨てるよりましだろうさ。」,ashmilk vale bark
+ITXT-104,item_record_tagcase,shop_voice,W-003,,ITX-W03-03:voice,10,「旅の身なら合う箱が要る。」,hostel bark
+ITXT-105,item_catalyst_bellsalt,shop_voice,W-004,,ITX-W04-02:voice,10,「鳥も門も音で寄るからね。」,tagged headland bark
+ITXT-106,item_key_memorialoffering,shop_voice,W-005,,ITX-W05-02:voice,10,「待つなら待つで金は要る。」,cemetery bark
+ITXT-107,item_record_belltube,shop_voice,W-006,,ITX-W06-01:voice,10,「声より鈴のほうが間違えない。」,bell marsh bark
+ITXT-108,item_field_silentcloth,shop_voice,W-006,,ITX-W06-03:voice,10,「夜渡しにゃよく売れる。」,bell marsh bark
+ITXT-109,item_record_namefoil,shop_voice,W-007,,ITX-W07-01:voice,10,「祖棚も役棚も貼り直しは同じさ。」,erased steps bark
+ITXT-110,item_record_inkpaste,shop_voice,W-007,,ITX-W07-02:voice,10,「読めりゃいい。誰の字でもね。」,erased steps bark
+ITXT-111,item_catalyst_namewax,shop_voice,W-007,,ITX-W07-03:voice,10,「通る名なら蝋は同じで足りる。」,erased steps bark

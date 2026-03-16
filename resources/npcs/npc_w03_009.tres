@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W03-009"
+scope_id = "W-003"
+name_jp = "ゲンノスケ"
+name_en = "Gennosuke"
+role = "薬湯の主人"
+dark_role = "旅の疲れを癒す湯屋を営む"
+x = 38
+y = 26
+facing = "right"
+npc_type = "healer"
+phase_count = 2
+clue_ids = []
+shop_id = "shop_w03_clinic"
+service_id = "service_w03_restoration"
+personality_note = "豪快で声が大きい"
+initial_dialogue_jp = "湯に浸かれば名前なんて忘れる。……いい意味でな。"
+notes = "継灯の宿場・回復"

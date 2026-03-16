@@ -15,5 +15,5 @@ sell_price = 130
 target_scope = "breed"
 effect_key = "family_bonus"
 effect_value = "1"
-tags = ["catalyst", "breed", "material", "undead"]
-description = "物質や不死の条件補助"
+tags = ["catalyst", "breed", "material", "undead", "lore_lineage_forgery", "event_h1006"]
+description = "系譜の白墨へ血を混ぜ別門筋を呼ぶ"

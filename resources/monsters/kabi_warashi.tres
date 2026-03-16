@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-145"
+slug = "kabi_warashi"
+name_jp = "カビワラシ"
+name_en = "Kabi Warashi"
+family = "plant"
+rank = "E"
+size_class = "S"
+motif_group = "plant"
+secondary_motif_group = "household"
+motif_source = "黴 + 童 + 蔵の隅"
+ontology_class = "wildborn"
+silhouette_type = "round"
+palette_id = "pal_mold_child"
+field_sprite_px = 16
+battle_sprite_px = 24
+base_level_cap = 60
+growth_curve_id = "EARLY"
+base_stats = {"hp": 16, "mp": 10, "atk": 9, "def": 8, "spd": 14, "int": 11, "res": 10}
+cap_stats = {"hp": 128, "mp": 72, "atk": 94, "def": 86, "spd": 132, "int": 90, "res": 88}
+base_recruit = 34
+scoutable = true
+personality_bias = "cunning"
+battle_role = "bait_specialist"
+trait_1 = "黴つき"
+trait_2 = "毒微耐性"
+loot_table_id = "loot_monster_kabi_warashi"
+prompt_id = "PRM-MON-145"
+notes = "蔵の隅で黴のように広がる小さな精"
+resistances = {"fire": -1, "water": 1, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 1, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": -2, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-014"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-029"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-026"}]

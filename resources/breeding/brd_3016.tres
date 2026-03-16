@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="BreedRuleData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/breed_rule_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+rule_id = "BRD-3016"
+rule_type = "mutation"
+parent_a_key = "family:slime"
+parent_b_key = "family:undead"
+child_monster_id = "MON-493"
+priority = 65
+special_recipe_bonus = 0
+lv_requirement = 18
+notes = "slime×不死で失名溜りへの aberrant 変異: 墓地で確率上昇"

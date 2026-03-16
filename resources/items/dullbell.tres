@@ -15,5 +15,5 @@ sell_price = 46
 target_scope = "enemy_all"
 effect_key = "debuff_acc"
 effect_value = "3"
-tags = ["debuff", "battle"]
-description = "敵全体の命中を少し下げる"
+tags = ["debuff", "battle", "lore_closed_bell", "event_h1005"]
+description = "沈鐘の欠片で敵全体の狙いを鈍らせる"

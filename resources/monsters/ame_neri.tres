@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-473"
+slug = "ame_neri"
+name_jp = "アメネリ"
+name_en = "Ame Neri"
+family = "slime"
+rank = "E"
+size_class = "S"
+motif_group = "weather"
+secondary_motif_group = "household"
+motif_source = "飴 + 練り + 火床跡"
+ontology_class = "wildborn"
+silhouette_type = "round"
+palette_id = "pal_candy_gel"
+field_sprite_px = 16
+battle_sprite_px = 24
+base_level_cap = 63
+growth_curve_id = "EARLY"
+base_stats = {"hp": 19, "mp": 11, "atk": 8, "def": 10, "spd": 10, "int": 11, "res": 11}
+cap_stats = {"hp": 142, "mp": 78, "atk": 82, "def": 92, "spd": 96, "int": 88, "res": 92}
+base_recruit = 32
+scoutable = true
+personality_bias = "meek"
+battle_role = "controller"
+trait_1 = "粘り付き"
+trait_2 = "火微耐性"
+loot_table_id = "loot_monster_ame_neri"
+prompt_id = "PRM-MON-473"
+notes = "火床跡で煮詰まった飴のような粘液生物"
+resistances = {"fire": 1, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": -1, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

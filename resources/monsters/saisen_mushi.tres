@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-434"
+slug = "saisen_mushi"
+name_jp = "サイセンムシ"
+name_en = "Saisen Mushi"
+family = "divine"
+rank = "D"
+size_class = "S"
+motif_group = "ritual"
+secondary_motif_group = "bureaucratic"
+motif_source = "賽銭虫 + 銭 + 賽銭箱"
+ontology_class = "record_bent"
+silhouette_type = "round"
+palette_id = "pal_coin_bug"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 68
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 20, "mp": 12, "atk": 10, "def": 10, "spd": 12, "int": 14, "res": 13}
+cap_stats = {"hp": 154, "mp": 92, "atk": 98, "def": 96, "spd": 114, "int": 112, "res": 108}
+base_recruit = 22
+scoutable = true
+personality_bias = "cunning"
+battle_role = "bait_specialist"
+trait_1 = "銭食い"
+trait_2 = "闇微耐性"
+loot_table_id = "loot_monster_saisen_mushi"
+prompt_id = "PRM-MON-434"
+notes = "賽銭箱に棲みつき銭を集める虫"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": 0, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

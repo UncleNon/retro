@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W09-001"
+scope_id = "W-009"
+name_jp = "フユネ"
+name_en = "Fuyune"
+role = "婚資監"
+dark_role = "若い頃自分も養親線を書き換えて嫁いだ"
+x = 36
+y = 20
+facing = "down"
+npc_type = "key"
+phase_count = 4
+clue_ids = ["CL-025", "CL-026"]
+shop_id = ""
+service_id = ""
+personality_note = "威厳があり自己矛盾を抱える"
+initial_dialogue_jp = "婚資は本家の血で量る。……私？　私は例外だった。"
+notes = "仮親の雪原"

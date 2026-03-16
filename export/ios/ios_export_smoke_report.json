@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-03-15T12:20:42.375609+00:00",
+  "checked_at_utc": "2026-03-16T05:07:59.142060+00:00",
   "status": "blocked",
   "project_root": "/Users/yuki/projects/retro",
   "project_file_present": true,
@@ -26,8 +26,8 @@
     "available": false
   },
   "export_presets": {
-    "exists": false,
-    "ios_preset_present": false,
+    "exists": true,
+    "ios_preset_present": true,
     "path": "/Users/yuki/projects/retro/export_presets.cfg"
   },
   "codesigning": {
@@ -38,7 +38,6 @@
   },
   "blockers": [
     "Godot export templates が未導入",
-    "`export_presets.cfg` が未作成",
     "codesigning identity が未設定"
   ],
   "warnings": [
@@ -46,7 +45,6 @@
   ],
   "next_steps": [
     "Godot export templates をインストールする",
-    "`export_presets.cfg` に iOS preset を追加する",
     "Apple Developer Program の署名証明書 / Provisioning Profile を用意する",
     "iCloud は local save loop が安定した後に別スパイクで評価する"
   ]

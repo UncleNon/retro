@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-471"
+slug = "doro_damari"
+name_jp = "ドロダマリ"
+name_en = "Doro Damari"
+family = "slime"
+rank = "E"
+size_class = "S"
+motif_group = "weather"
+secondary_motif_group = "pastoral"
+motif_source = "泥溜り + 田圃 + 湿り"
+ontology_class = "wildborn"
+silhouette_type = "wide"
+palette_id = "pal_mud_blob"
+field_sprite_px = 16
+battle_sprite_px = 24
+base_level_cap = 62
+growth_curve_id = "EARLY"
+base_stats = {"hp": 22, "mp": 10, "atk": 9, "def": 11, "spd": 9, "int": 10, "res": 10}
+cap_stats = {"hp": 160, "mp": 72, "atk": 86, "def": 100, "spd": 88, "int": 82, "res": 88}
+base_recruit = 34
+scoutable = true
+personality_bias = "meek"
+battle_role = "tank"
+trait_1 = "泥纏い"
+trait_2 = "地微耐性"
+loot_table_id = "loot_monster_doro_damari"
+prompt_id = "PRM-MON-471"
+notes = "田圃の泥が固まり動き出した泥の塊"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 1, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": -1, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

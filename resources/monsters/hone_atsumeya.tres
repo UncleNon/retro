@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-330"
+slug = "hone_atsumeya"
+name_jp = "ホネアツメヤ"
+name_en = "Hone Atsumeya"
+family = "undead"
+rank = "D"
+size_class = "S"
+motif_group = "corporeal"
+secondary_motif_group = "funerary"
+motif_source = "骨拾い + 籠 + 墓堀り道具"
+ontology_class = "remnant_bearing"
+silhouette_type = "tall"
+palette_id = "pal_bone_picker"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 68
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 24, "mp": 12, "atk": 13, "def": 12, "spd": 12, "int": 11, "res": 12}
+cap_stats = {"hp": 178, "mp": 90, "atk": 124, "def": 108, "spd": 114, "int": 92, "res": 104}
+base_recruit = 20
+scoutable = true
+personality_bias = "mournful"
+battle_role = "controller"
+trait_1 = "骨集め"
+trait_2 = "闇耐性"
+loot_table_id = "loot_monster_hone_atsumeya"
+prompt_id = "PRM-MON-330"
+notes = "墓地で散らばった骨を黙々と集める人型の残骸"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": -1, "dark": 1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 1, "instant_death": 0, "burn": 0, "freeze": 0, "curse": 1, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

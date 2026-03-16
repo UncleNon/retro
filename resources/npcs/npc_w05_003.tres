@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W05-003"
+scope_id = "W-005"
+name_jp = "ガエン"
+name_en = "Gaen"
+role = "供香売り"
+dark_role = "無煙供香で閉じた扱いを早める"
+x = 18
+y = 22
+facing = "left"
+npc_type = "key"
+phase_count = 3
+clue_ids = ["CL-018"]
+shop_id = ""
+service_id = ""
+personality_note = "商才があり信仰を商売にする"
+initial_dialogue_jp = "香を焚かないのが正しい弔い。……でも、焚きたい人には売るよ。"
+notes = "香なしの墓苑"

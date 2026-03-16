@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W11-001"
+scope_id = "W-011"
+name_jp = "レンカ"
+name_en = "Renka"
+role = "注釈係"
+dark_role = "順唱派へ逆誓詞の写しを渡した"
+x = 32
+y = 18
+facing = "down"
+npc_type = "key"
+phase_count = 4
+clue_ids = ["CL-029", "CL-030"]
+shop_id = ""
+service_id = ""
+personality_note = "知性的で理想主義"
+initial_dialogue_jp = "言葉の順番で開く扉がある。……順番を変えた理由は、まだ言えない。"
+notes = "逆誓の修院"

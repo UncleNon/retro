@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-241"
+slug = "shikii_same"
+name_jp = "シキイサメ"
+name_en = "Shikii Same"
+family = "material"
+rank = "B"
+size_class = "M"
+motif_group = "tool"
+secondary_motif_group = "gatebound"
+motif_source = "敷居 + 鮫 + 海門"
+ontology_class = "gate_touched"
+silhouette_type = "wide"
+palette_id = "pal_sill_shark"
+field_sprite_px = 16
+battle_sprite_px = 48
+base_level_cap = 76
+growth_curve_id = "LATE"
+base_stats = {"hp": 30, "mp": 11, "atk": 18, "def": 14, "spd": 14, "int": 10, "res": 13}
+cap_stats = {"hp": 224, "mp": 86, "atk": 168, "def": 128, "spd": 132, "int": 84, "res": 112}
+base_recruit = 0
+scoutable = false
+personality_bias = "bold"
+battle_role = "striker"
+trait_1 = "敷居噛み"
+trait_2 = "水微耐性"
+loot_table_id = "loot_monster_shikii_same"
+prompt_id = "PRM-MON-241"
+notes = "海門の敷居で待ち伏せる鮫のような扁平器物"
+resistances = {"fire": 0, "water": 1, "wind": 0, "earth": 0, "thunder": -1, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": 1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

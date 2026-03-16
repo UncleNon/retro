@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-274"
+slug = "kikai_mon"
+name_jp = "キカイモン"
+name_en = "Kikai Mon"
+family = "magic"
+rank = "D"
+size_class = "S"
+motif_group = "abstract"
+secondary_motif_group = "gatebound"
+motif_source = "幾何紋 + 光体 + 門柱"
+ontology_class = "gate_touched"
+silhouette_type = "floating"
+palette_id = "pal_geo_pattern"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 72
+growth_curve_id = "LATE"
+base_stats = {"hp": 21, "mp": 17, "atk": 10, "def": 10, "spd": 14, "int": 17, "res": 15}
+cap_stats = {"hp": 162, "mp": 134, "atk": 96, "def": 98, "spd": 132, "int": 148, "res": 136}
+base_recruit = 18
+scoutable = true
+personality_bias = "calculating"
+battle_role = "controller"
+trait_1 = "紋展開"
+trait_2 = "光微耐性"
+loot_table_id = "loot_monster_kikai_mon"
+prompt_id = "PRM-MON-274"
+notes = "門柱に刻まれた幾何紋が光って浮遊する"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 1, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 1, "hush": 0}
+learnset = []

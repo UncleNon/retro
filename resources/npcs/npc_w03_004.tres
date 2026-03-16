@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W03-004"
+scope_id = "W-003"
+name_jp = "ミレ"
+name_en = "Mire"
+role = "裏庭の寝具係"
+dark_role = "消えた客の荷から家書を抜いて読む"
+x = 28
+y = 34
+facing = "up"
+npc_type = "key"
+phase_count = 3
+clue_ids = ["CL-013"]
+shop_id = ""
+service_id = ""
+personality_note = "控えめだが好奇心が強い"
+initial_dialogue_jp = "消えた客の荷をまとめるの、私の仕事。……手紙だけは、読んじゃう。"
+notes = "継灯の宿場"

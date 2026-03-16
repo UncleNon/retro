@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W07-002"
+scope_id = "W-007"
+name_jp = "ソウジ"
+name_en = "Souji"
+role = "運び人"
+dark_role = "失った役名を取り戻したい"
+x = 28
+y = 40
+facing = "right"
+npc_type = "key"
+phase_count = 3
+clue_ids = ["CL-021", "CL-062"]
+shop_id = ""
+service_id = ""
+personality_note = "実直で不器用。階段を上がれない苦しみ"
+initial_dialogue_jp = "荷は上へ運べる。でも、俺自身は上がれない。……badge がないから。"
+notes = "削名の階市"

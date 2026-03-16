@@ -603,9 +603,12 @@ final_recruit_rate = clamp(recruit_score, 1, 90)
 | `encounter_min_steps` | int | 最短遭遇歩数 |
 | `encounter_max_steps` | int | 最長遭遇歩数 |
 | `terrain_rate` | float | 地形補正 |
-| `time_band` | enum | any / day / dusk / night |
-| `weather` | enum | any / clear / rain / fog |
+| `bgm_id` | string | zone 既定BGM |
+| `is_dungeon` | bool | dungeon zone かどうか |
 | `notes` | string | 備考 |
+
+- `time_band` / `weather` は canonical には `encounter_table.csv` 側が持つ
+- runtime の `EncounterZoneData.time_band` / `weather` は、zone row に明示値がある場合はそれを使い、ない場合は encounter row が一様なときだけ summary として導出する
 
 ### `encounter_table.csv`
 
@@ -618,7 +621,7 @@ final_recruit_rate = clamp(recruit_score, 1, 90)
 | `min_lv` | int | 最低Lv |
 | `max_lv` | int | 最高Lv |
 | `time_band` | enum | any / day / dusk / night |
-| `weather` | enum | any / clear / rain / fog |
+| `weather` | enum | any / clear / rain / fog / snow |
 
 ### `breed_rule.csv`
 
@@ -626,13 +629,314 @@ final_recruit_rate = clamp(recruit_score, 1, 90)
 |--------|----|------|
 | `rule_id` | string | ルールID |
 | `rule_type` | enum | family / special / mutation |
-| `parent_a_key` | string | 系統 or monster_id |
-| `parent_b_key` | string | 系統 or monster_id |
+| `parent_a_key` | string | `MON-xxx` または `family:<family>` |
+| `parent_b_key` | string | `MON-xxx` または `family:<family>` |
 | `child_monster_id` | string | 生成結果 |
 | `priority` | int | 高いほど先 |
 | `special_recipe_bonus` | int | `plus_value` 補正 |
 | `lv_requirement` | int | 親最低Lv条件 |
 | `notes` | string | 備考 |
+
+- legacy の bare family (`beast` など) も build は受理するが、generated resource では `family:<family>` に正規化する
+
+### `progress_gate_master.csv`
+
+| カラム | 型 | 説明 |
+|--------|----|------|
+| `gate_id` | string | 門ID (`GATE-W-001`) |
+| `world_id` | string | 対応世界 |
+| `gate_index` | int | 導線順 |
+| `gate_type` | enum | `story_flag / arena_rank / key_item / clue_count / family_resonance / composite` |
+| `visible_surface` | string | 門前で見える試験表面 |
+| `required_flag` | string | 必要な進行 flag / expression |
+| `required_item` | string | 必要な key item か予約済み `item_key_*` |
+| `required_rank` | enum | `G / F / E / D / C / B / A / S` |
+| `required_family_resonance` | string | `<family>:<min_level>` |
+| `required_record_count` | int | 必要な clue / notebook 記録数 |
+| `notes` | string | 備考 |
+
+### `clue_master.csv`
+
+| カラム | 型 | 説明 |
+|--------|----|------|
+| `clue_id` | string | 手がかりID (`CL-###`) |
+| `tier` | enum | `T1 / T2 / T3 / T4 / T5` |
+| `origin_scope_id` | string | 初出 scope (`VIL`, `TWR`, `W-###`) |
+| `origin_medium` | string | 初出媒体 |
+| `payoff_scope_id` | string | 回収先 scope または story stage |
+| `summary_jp` | string | 手がかり内容の要約 |
+| `source_doc` | string | 抽出元 doc |
+| `notes` | string | 備考 |
+
+### `master_index.csv`
+
+| カラム | 型 | 説明 |
+|--------|----|------|
+| `master_id` | string | 台帳行ID |
+| `file_path` | string | `data/csv` 配下の master 名 |
+| `primary_key_column` | string | その CSV に必須な key 列 |
+| `domain` | string | 所属ドメイン |
+| `notes` | string | 備考 |
+
+### `asset_registry.csv`
+
+| カラム | 型 | 説明 |
+|--------|----|------|
+| `asset_id` | string | 一意アセットID |
+| `revision` | int | immutable revision |
+| `asset_domain` | enum | `tileset` などの asset domain |
+| `asset_type` | enum | `sprite / sheet / icon / window / bgm / se / jingle / amb / tileset / effect / other` |
+| `owner_id` | string | asset の所有元 scope / entity |
+| `usage_context` | string | `registry_seed`, `battle`, `field` など |
+| `source_file` | string | 参照元 doc または source path |
+| `export_file` | string | export 先 path |
+| `prompt_id` | string | prompt 参照 |
+| `prompt_revision` | int | prompt revision |
+| `generator` | string | 生成手段または `manual` |
+| `generator_version` | string | 版数 |
+| `seed_or_settings` | string | 再現メモ |
+| `provenance_class` | enum | provenance class |
+| `source_asset_revision_ids` | string | parent revision IDs |
+| `manual_touch_level` | enum | 手修正深度 |
+| `manual_touch_summary` | string | 手修正概要 |
+| `edited_by_hand` | bool | 手作業有無 |
+| `license_clearance` | enum | clearance state |
+| `legal_review_state` | enum | legal review state |
+| `qa_review_state` | enum | QA review state |
+| `approval_state` | enum | approval state |
+| `approved_by` | string | approver |
+| `approved_at_utc` | string | approval timestamp |
+| `provider_terms_snapshot` | string | relied provider terms |
+| `export_sha256` | string | export hash |
+| `manifest_path` | string | provenance sidecar path |
+| `release_channel` | enum | `none / prototype / vertical_slice / internal / rc / ship` |
+| `release_blocked_reason` | string | shipping block reason |
+
+### `localization_registry.csv`
+
+| カラム | 型 | 説明 |
+|--------|----|------|
+| `registry_id` | string | 台帳行ID |
+| `key_pattern` | string | existence を保証する key または namespace |
+| `locale` | enum | `ja / en` |
+| `source_path` | string | canonical source |
+| `backing_file` | string | `data/localization` 配下の CSV 名 |
+| `status` | enum | `seed / planned / active` |
+| `notes` | string | 備考 |
+
+### `world_dependency_map.csv`
+
+| カラム | 型 | 説明 |
+|--------|----|------|
+| `scope_id` | string | scope ID (`VIL`, `TWR`, `W-###`, `FINALE`) |
+| `scope_kind` | enum | `village / tower / world / milestone` |
+| `world_id` | string | world scope のときの対応世界 |
+| `entry_gate_id` | string | その scope を開く gate |
+| `prerequisite_scope_id` | string | 直前導線の scope |
+| `notes` | string | 備考 |
+
+### `shop_master.csv`
+
+| カラム | 型 | 説明 |
+|--------|----|------|
+| `shop_id` | string | canonical shop ID (`shop_*`) |
+| `slug` | string | 人間可読 slug |
+| `registry_id` | string | legacy alias (`SHP-*`, `SHOP-*`) |
+| `shop_type` | enum | `general / field_vendor / tournament_vendor / record_vendor / specialist` |
+| `scope_id` | string | 所属 scope (`VIL`, `W-###`) |
+| `zone_id` | string | zone anchor。未使用時は空 |
+| `inventory_band` | string | inventory tier |
+| `base_price_multiplier` | float | 店全体の価格係数 |
+| `restock_clock` | enum | `none / return_to_hub / daily / story_progress` |
+| `currency_type` | enum | `gold` |
+| `status` | enum | `active / deprecated / disabled / planned` |
+
+### `shop_inventory_master.csv`
+
+| カラム | 型 | 説明 |
+|--------|----|------|
+| `shop_id` | string | `shop_master` 参照 |
+| `slot_no` | int | 同一 shop 内の表示 slot |
+| `item_id` | string | `item_master` 参照 |
+| `unlock_flag` | string | 条件付き陳列 flag |
+| `unlock_rank` | enum | arena rank gate |
+| `stock_mode` | enum | `infinite_common / daily_limited / one_time_unlock / tournament_vendor` |
+| `max_stock` | int | 在庫上限。無制限なら空 |
+| `buy_limit_per_save` | int | セーブ単位購入制限 |
+| `price_override` | int | 固定価格 override |
+| `price_multiplier` | float | 行単位の価格係数 |
+| `hidden_until_unlocked` | bool | 未解放時に隠すか |
+
+### `service_master.csv`
+
+| カラム | 型 | 説明 |
+|--------|----|------|
+| `service_id` | string | canonical service ID (`service_*`) |
+| `slug` | string | 人間可読 slug |
+| `registry_id` | string | legacy alias (`SVC-*`) |
+| `service_category` | enum | `party_restore / tournament_entry / fusion_assist` など |
+| `scope_id` | string | 提供元 scope (`VIL`, `W-###`) |
+| `pricing_basis` | enum | `flat / per_party / per_level_band / per_attempt / per_record_page` |
+| `base_price` | int | 基準価格 |
+| `effect_key` | string | runtime effect key |
+| `effect_value` | string | runtime parameter |
+| `uses_per_reset` | int | 回数制限。未使用時は `0` |
+
+### `shop_service_master.csv`
+
+| カラム | 型 | 説明 |
+|--------|----|------|
+| `shop_id` | string | `shop_master` 参照 |
+| `service_id` | string | `service_master` 参照 |
+| `unlock_flag` | string | 個別解放条件 |
+| `price_override` | int | 固定価格 override |
+| `price_multiplier` | float | 個別価格係数 |
+| `uses_per_reset_override` | int | shop 経由の回数制限 |
+
+### `loot_table_master.csv`
+
+| カラム | 型 | 説明 |
+|--------|----|------|
+| `loot_table_id` | string | canonical loot table ID (`loot_*`) |
+| `slug` | string | 人間可読 slug |
+| `registry_id` | string | legacy `LUT-###` |
+| `source_type` | enum | `enemy / boss / chest / gather / first_clear / event` |
+| `source_ref` | string | 通常は `monster_id` |
+| `roll_policy` | enum | `single_pick / weighted_multi / guaranteed_plus_weighted / first_clear_once` |
+| `roll_count_min` | int | 最小ロール数 |
+| `roll_count_max` | int | 最大ロール数 |
+| `status` | enum | `active / deprecated / disabled / planned` |
+
+### `loot_entry_master.csv`
+
+| カラム | 型 | 説明 |
+|--------|----|------|
+| `loot_table_id` | string | `loot_table_master` 参照 |
+| `entry_no` | int | 同一 table 内の順序 |
+| `grant_type` | enum | Session 03 baseline では `item` のみ |
+| `grant_id` | string | `item_id` |
+| `drop_slot_type` | enum | `common / uncommon / rare / relic / guaranteed / first_clear` |
+| `base_drop_rate` | float | `0.0-1.0` の確率 |
+| `quantity_min` | int | 最小個数 |
+| `quantity_max` | int | 最大個数 |
+| `first_clear_only` | bool | 初回限定ドロップ |
+| `unique_once` | bool | 一度だけ有効 |
+
+### `entity_alias_master.csv`
+
+| カラム | 型 | 説明 |
+|--------|----|------|
+| `entity_type` | enum | `item / shop / loot / service / reward` |
+| `alias_value` | string | legacy runtime / registry / doc alias |
+| `canonical_id` | string | 正規化先 canonical ID |
+| `alias_kind` | enum | `registry / legacy_runtime / legacy_doc / temp_migration` |
+| `active` | bool | validator が受理するか |
+| `source_doc` | string | 由来ファイル |
+
+### `field_scene_master.csv`
+
+| カラム | 型 | 説明 |
+|--------|----|------|
+| `field_id` | string | runtime field ID (`FIELD-XXX-###`) |
+| `scope_id` | string | 所属 scope (`VIL`, `TWR`, `W-###`) |
+| `world_id` | string | world anchor。開始村は `W-001` |
+| `name_jp` | string | フィールド名 |
+| `tile_size` | int | 1 タイルの pixel size |
+| `map_width` | int | 横タイル数 |
+| `map_height` | int | 縦タイル数 |
+| `start_x` / `start_y` | int | 開始位置 |
+| `default_facing` | enum | `up / down / left / right` |
+| `tower_center_x` / `tower_center_y` | int | tower 演出の中心点 |
+| `encounter_zone_id` | string | 既定の field encounter zone |
+| `first_gate_clue_id` | string | 最初の門反応を説明する clue |
+| `intro_message_1/2` | string | field 起動時の導入メッセージ |
+| `default_objective` 他 | string | objective line と post-battle / gate followup |
+| `default_interaction_message` | string | inspect fallback |
+| `notes` | string | 備考 |
+
+### `field_rect_master.csv`
+
+| カラム | 型 | 説明 |
+|--------|----|------|
+| `field_rect_id` | string | rect row ID (`FRECT-###`) |
+| `field_id` | string | `field_scene_master` 参照 |
+| `rect_id` | string | runtime rect key |
+| `rect_kind` | string | `terrain / lot / building / roof / fence / tower / trigger` など |
+| `x` / `y` | int | 左上タイル座標 |
+| `width` / `height` | int | 矩形サイズ |
+| `blocked` | bool | 侵入不可か |
+| `draw_layer` | int | 描画順 |
+| `draw_color_key` | string | debug draw の palette key |
+| `notes` | string | 備考 |
+
+### `field_point_master.csv`
+
+| カラム | 型 | 説明 |
+|--------|----|------|
+| `field_point_id` | string | point row ID (`FPOINT-###`) |
+| `field_id` | string | `field_scene_master` 参照 |
+| `point_id` | string | runtime point key |
+| `point_kind` | enum | `inspect / npc / facility` |
+| `x` / `y` | int | タイル座標 |
+| `npc_id` | string | `point_kind=npc/facility` のときの anchor NPC |
+| `notes` | string | 備考 |
+
+### `field_trigger_master.csv`
+
+| カラム | 型 | 説明 |
+|--------|----|------|
+| `field_trigger_id` | string | trigger row ID (`FTRIG-###`) |
+| `field_id` | string | `field_scene_master` 参照 |
+| `trigger_id` | string | runtime trigger key |
+| `trigger_kind` | enum | `message / encounter` |
+| `rect_id` | string | `field_rect_master.rect_id` |
+| `once_flag_key` | string | 一度きり制御用の local field flag |
+| `required_flag_key` | string | 発火前提の local field flag |
+| `message_jp` | string | 既定メッセージ |
+| `message_fallback_jp` | string | preview が組めないときの文面 |
+| `encounter_zone_id` | string | `trigger_kind=encounter` の zone |
+| `encounter_source` | string | QA / log 用タグ |
+| `notes` | string | 備考 |
+
+### `field_interaction_master.csv`
+
+| カラム | 型 | 説明 |
+|--------|----|------|
+| `field_interaction_id` | string | interaction row ID (`FINT-###`) |
+| `field_id` | string | `field_scene_master` 参照 |
+| `subject_kind` | enum | `point / rect` |
+| `subject_id` | string | `field_point_master.point_id` または `field_rect_master.rect_id` |
+| `priority` | int | 小さいほど先に採用 |
+| `condition_key` | string | `always`, `encounter_triggered`, `battle_resolved`, `first_gate_listening`, `first_crossing_open`, `flag:<key>` |
+| `message_jp` | string | field log に出す本文 |
+| `set_flag_key` | string | 成立時に立てる local field flag |
+| `clue_ids` | string | `,` 区切りの `clue_master` 参照 |
+| `facility_npc_id` | string | facility interaction の実行者 NPC |
+| `facility_kind` | enum | Session 05 baseline では `merchant / healer` |
+| `facility_source` | string | AppRoot / facility runtime が解釈する source key |
+| `transition_field_id` | string | field transition 先の `field_id`。未実装 world 先行 row も許可 |
+| `transition_point_id` | string | transition 先 field の entry point |
+| `transition_facing` | enum | `up / down / left / right` |
+| `transition_message_jp` | string | transition 時に field log へ積む文面 |
+| `notes` | string | 備考 |
+
+### `item_text_master.csv`
+
+| カラム | 型 | 説明 |
+|--------|----|------|
+| `item_text_id` | string | item text row ID (`ITXT-###`) |
+| `item_id` | string | `item_master` 参照 |
+| `text_kind` | enum | `menu_strip / shop_voice` |
+| `scope_id` | string | `world_dependency_map.scope_id` 参照。scope 差分がない場合は空 |
+| `shop_id` | string | `shop_master` 参照。shop 固有差分がない場合は空 |
+| `text_source` | string | canonical pack / routing ledger の source 名 (`ITX-W03-03:strip` など) |
+| `priority` | int | 小さいほど優先して採用 |
+| `text_jp` | string | runtime がそのまま出す canonical 短文 |
+| `notes` | string | 備考 |
+
+- `menu_strip` は inventory 説明帯や hover footer の provenance 短文に使う
+- `shop_voice` は facility preview / buy confirm の bark に使い、`shop_id` 一致を最優先、次に `scope_id` 一致、最後に generic fallback を採る
+- `shop_voice` は少なくとも `scope_id` か `shop_id` のどちらかを持たなければならない
 
 ---
 

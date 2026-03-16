@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W21-010"
+scope_id = "W-021"
+name_jp = "シノブ"
+name_en = "Shinobu"
+role = "家印小幕の老婆"
+dark_role = "家名と相続権の証拠を取り戻したい"
+x = 26
+y = 30
+facing = "right"
+npc_type = "minor"
+phase_count = 2
+clue_ids = []
+shop_id = ""
+service_id = ""
+personality_note = "頑固で家への執着が強い"
+initial_dialogue_jp = "家の印がほどける前に持ち帰りたい。……間に合うか分からないけど。"
+notes = "ほどけの縁・FAC-01/07 camp"

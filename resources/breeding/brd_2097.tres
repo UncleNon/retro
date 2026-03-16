@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="BreedRuleData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/breed_rule_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+rule_id = "BRD-2097"
+rule_type = "special"
+parent_a_key = "MON-246"
+parent_b_key = "MON-249"
+child_monster_id = "MON-254"
+priority = 120
+special_recipe_bonus = 1
+lv_requirement = 28
+notes = "境界標+封印輪→掲示板(S): 聖郭の全記録 →S"

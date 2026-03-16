@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W12-007"
+scope_id = "W-012"
+name_jp = "タイチ"
+name_en = "Taichi"
+role = "積荷仕分け人"
+dark_role = "荷と骨の仕分け基準の曖昧さに疑問"
+x = 34
+y = 28
+facing = "left"
+npc_type = "minor"
+phase_count = 2
+clue_ids = []
+shop_id = ""
+service_id = ""
+personality_note = "若くて正義感がある"
+initial_dialogue_jp = "仕分けの基準が分からない。……骨と荷物の違いって、何だ？"
+notes = "骨樋の港"

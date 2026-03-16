@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W11-008"
+scope_id = "W-011"
+name_jp = "ミョウジュ"
+name_en = "Myouju"
+role = "修院の医僧"
+dark_role = "祈りと薬で治療する"
+x = 34
+y = 26
+facing = "right"
+npc_type = "healer"
+phase_count = 2
+clue_ids = []
+shop_id = "shop_w11_clinic"
+service_id = "service_w11_restoration"
+personality_note = "穏やかで信仰深い"
+initial_dialogue_jp = "順唱で体を、逆唱で心を治す。……どちらが先かは、患者が決める。"
+notes = "逆誓の修院・回復"

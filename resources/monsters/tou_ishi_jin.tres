@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-251"
+slug = "tou_ishi_jin"
+name_jp = "トウイシジン"
+name_en = "Tou Ishi Jin"
+family = "material"
+rank = "S"
+size_class = "L"
+motif_group = "tool"
+secondary_motif_group = "gatebound"
+motif_source = "塔石 + 人型 + 塔基部"
+ontology_class = "gate_touched"
+silhouette_type = "massive"
+palette_id = "pal_tower_stone"
+field_sprite_px = 16
+battle_sprite_px = 56
+base_level_cap = 82
+growth_curve_id = "LEGEND"
+base_stats = {"hp": 38, "mp": 16, "atk": 20, "def": 22, "spd": 10, "int": 13, "res": 18}
+cap_stats = {"hp": 286, "mp": 122, "atk": 186, "def": 200, "spd": 96, "int": 106, "res": 150}
+base_recruit = 0
+scoutable = false
+personality_bias = "watchful"
+battle_role = "tank"
+trait_1 = "塔石纏い"
+trait_2 = "地耐性"
+loot_table_id = "loot_monster_tou_ishi_jin"
+prompt_id = "PRM-MON-251"
+notes = "塔基部の石材が人型に組み上がった塔そのものの化身"
+resistances = {"fire": 0, "water": -1, "wind": 0, "earth": 2, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 1, "fear": 0, "instant_death": 2, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 1, "hush": 0}
+learnset = []

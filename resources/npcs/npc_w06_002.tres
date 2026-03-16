@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W06-002"
+scope_id = "W-006"
+name_jp = "ロク"
+name_en = "Roku"
+role = "税縄計り"
+dark_role = "縄税を軽くする代わりに符号を消した"
+x = 36
+y = 24
+facing = "right"
+npc_type = "key"
+phase_count = 3
+clue_ids = ["CL-059"]
+shop_id = ""
+service_id = ""
+personality_note = "計算高く世渡り上手"
+initial_dialogue_jp = "税は縄で数える。……数が合わないのは、まあ、湿気のせいだ。"
+notes = "鈴結びの湿地"

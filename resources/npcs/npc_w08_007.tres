@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W08-007"
+scope_id = "W-008"
+name_jp = "ヤスジ"
+name_en = "Yasuji"
+role = "牧場の薬師"
+dark_role = "獣と人を同じ手で治す"
+x = 32
+y = 26
+facing = "left"
+npc_type = "healer"
+phase_count = 2
+clue_ids = []
+shop_id = "shop_w08_clinic"
+service_id = "service_w08_restoration"
+personality_note = "穏やかで区別しない"
+initial_dialogue_jp = "傷は傷だ。印があろうとなかろうと。"
+notes = "獣印の放牧環・回復"

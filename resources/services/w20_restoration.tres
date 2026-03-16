@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="ServiceData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/service_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+service_id = "service_w20_restoration"
+slug = "w20_restoration"
+registry_id = "SVC-W20-HEAL"
+name_jp = "継ぎ止めの聖郭 手当て"
+name_en = "Cathedral Of Continuance Restoration"
+service_category = "party_restore"
+scope_id = "W-020"
+pricing_basis = "per_party"
+base_price = 82
+effect_key = "restore_party"
+effect_value = "hp_mp_status"
+uses_per_reset = null
+story_gate_flag = ""
+status = "active"
+tags = ["heal", "field"]
+notes = "keeper=NPC-W20-010 legacy_alias=SVC-W20-HEAL"

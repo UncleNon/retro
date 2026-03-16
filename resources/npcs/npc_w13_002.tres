@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W13-002"
+scope_id = "W-013"
+name_jp = "ルネ"
+name_en = "Rune"
+role = "摘み子"
+dark_role = "死んだ姉の名札で三年働いている"
+x = 20
+y = 24
+facing = "right"
+npc_type = "key"
+phase_count = 4
+clue_ids = ["CL-034"]
+shop_id = ""
+service_id = ""
+personality_note = "芯が強く静かな怒り"
+initial_dialogue_jp = "この札の名前は姉のもの。……私の名前では、ここで働けない。"
+notes = "無籍の葡萄段"

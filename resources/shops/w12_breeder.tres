@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="ShopData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/shop_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+shop_id = "shop_w12_breeder"
+slug = "w12_breeder"
+registry_id = "SHP-W12-004"
+name_jp = "骨樋の港 牧場窓口"
+name_en = "Bone Flume Port Breeding Counter"
+shop_type = "specialist"
+scope_id = "W-012"
+zone_id = ""
+story_gate_flag = ""
+rank_gate = ""
+inventory_band = "mid"
+base_price_multiplier = 1.0
+restock_clock = "return_to_hub"
+currency_type = "gold"
+status = "active"
+tags = ["breed", "facility"]
+notes = "keeper=NPC-W12-014 legacy_alias=SHP-W12-004"
+inventory_entries = []
+service_ids = ["service_w12_breeding"]

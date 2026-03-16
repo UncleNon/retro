@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W15-008"
+scope_id = "W-015"
+name_jp = "シュウ"
+name_en = "Shuu"
+role = "納棺歌いの老人"
+dark_role = "葬送の歌を知る最後の世代"
+x = 32
+y = 16
+facing = "up"
+npc_type = "minor"
+phase_count = 2
+clue_ids = ["CL-037"]
+shop_id = ""
+service_id = ""
+personality_note = "枯れた声で深い知識がある"
+initial_dialogue_jp = "歌は名前を呼ばない。……でも、聞けば誰のためか分かる。"
+notes = "黒布の巡礼路"

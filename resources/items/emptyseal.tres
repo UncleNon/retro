@@ -15,5 +15,5 @@ sell_price = 200
 target_scope = "breed"
 effect_key = "mutation_direct"
 effect_value = "1"
-tags = ["catalyst", "breed"]
-description = "mutation 方向を指定する"
+tags = ["catalyst", "breed", "lore_blank_registry", "event_h1012"]
+description = "所属欄の空白を印に変える危うい封材"

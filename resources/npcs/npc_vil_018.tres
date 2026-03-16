@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-VIL-018"
+scope_id = "VIL"
+name_jp = "ミツル"
+name_en = "Mitsuru"
+role = "旅の行商人"
+dark_role = "村に定期的に来る外部者"
+x = 46
+y = 55
+facing = "up"
+npc_type = "merchant"
+phase_count = 2
+clue_ids = []
+shop_id = "shop_vil_peddler"
+service_id = ""
+personality_note = "愛想がいいが深入りしない"
+initial_dialogue_jp = "珍しいもの入ったよ。……この村、いつ来ても静かだねえ。"
+notes = "開始村・巡回商人"

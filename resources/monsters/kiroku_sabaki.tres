@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-453"
+slug = "kiroku_sabaki"
+name_jp = "キロクサバキ"
+name_en = "Kiroku Sabaki"
+family = "divine"
+rank = "A"
+size_class = "L"
+motif_group = "abstract"
+secondary_motif_group = "gatebound"
+motif_source = "記録裁き + 判定 + 塔法廷"
+ontology_class = "gate_touched"
+silhouette_type = "tall"
+palette_id = "pal_record_judge"
+field_sprite_px = 16
+battle_sprite_px = 48
+base_level_cap = 80
+growth_curve_id = "LEGEND"
+base_stats = {"hp": 30, "mp": 20, "atk": 17, "def": 16, "spd": 14, "int": 20, "res": 19}
+cap_stats = {"hp": 232, "mp": 156, "atk": 162, "def": 148, "spd": 132, "int": 168, "res": 160}
+base_recruit = 0
+scoutable = false
+personality_bias = "calculating"
+battle_role = "controller"
+trait_1 = "記録判定"
+trait_2 = "封印耐性"
+loot_table_id = "loot_monster_kiroku_sabaki"
+prompt_id = "PRM-MON-453"
+notes = "塔の法廷で記録を基に判定を下す裁きの霊格"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 2, "fear": 0, "instant_death": 0, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 1, "hush": 0}
+learnset = []

@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W21-001"
+scope_id = "W-021"
+name_jp = "イオリ"
+name_en = "Iori_W21"
+role = "閉鐘都から来た実務監"
+dark_role = "事故記録の一部を自分で削った"
+x = 30
+y = 18
+facing = "down"
+npc_type = "key"
+phase_count = 5
+clue_ids = ["CL-053", "CL-054"]
+shop_id = ""
+service_id = ""
+personality_note = "疲弊した実務家。最後の責任を取ろうとする"
+initial_dialogue_jp = "ここでは印も帳面も溶ける。……残るのは、誰を迎えに来たかだけだ。"
+notes = "ほどけの縁。W-019イオリと同一人物"

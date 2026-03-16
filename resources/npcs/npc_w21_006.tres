@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W21-006"
+scope_id = "W-021"
+name_jp = "ハクエン"
+name_en = "Hakuen"
+role = "白杭観測列の記録係"
+dark_role = "歪み反応を数字で記録する"
+x = 24
+y = 20
+facing = "right"
+npc_type = "minor"
+phase_count = 2
+clue_ids = ["CL-053"]
+shop_id = ""
+service_id = ""
+personality_note = "冷静で学究的"
+initial_dialogue_jp = "ここでは数字も溶ける。……記録する意味があるのか、もう分からない。"
+notes = "ほどけの縁・FAC-02 camp"

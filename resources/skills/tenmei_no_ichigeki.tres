@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-119"
+slug = "tenmei_no_ichigeki"
+name_jp = "てんめいのいちげき"
+name_en = "Heaven Strike"
+category = "physical"
+element = "light"
+mp_cost = 12
+target_scope = "single"
+formula_key = "P5"
+base_power = 175
+base_rate = 0
+tags = ["single", "physical", "divine", "gate_special"]
+battle_role = "PAYOFF"
+effect_text = "天命をかけた一撃"

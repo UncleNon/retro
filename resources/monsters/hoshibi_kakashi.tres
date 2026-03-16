@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-321"
+slug = "hoshibi_kakashi"
+name_jp = "ホシビカカシ"
+name_en = "Hoshibi Kakashi"
+family = "undead"
+rank = "E"
+size_class = "S"
+motif_group = "tool"
+secondary_motif_group = "funerary"
+motif_source = "案山子 + 干し火 + 褪色布"
+ontology_class = "remnant_bearing"
+silhouette_type = "tall"
+palette_id = "pal_faded_scare"
+field_sprite_px = 16
+battle_sprite_px = 24
+base_level_cap = 64
+growth_curve_id = "EARLY"
+base_stats = {"hp": 18, "mp": 10, "atk": 9, "def": 10, "spd": 10, "int": 10, "res": 10}
+cap_stats = {"hp": 136, "mp": 72, "atk": 92, "def": 96, "spd": 94, "int": 86, "res": 92}
+base_recruit = 26
+scoutable = true
+personality_bias = "still"
+battle_role = "controller"
+trait_1 = "褪色風"
+trait_2 = "混乱微付与"
+loot_table_id = "loot_monster_hoshibi_kakashi"
+prompt_id = "PRM-MON-321"
+notes = "色の抜けた布を纏い畑に立ち続ける動く案山子"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": -1, "dark": 1, "poison": 0, "sleep": 1, "paralysis": 0, "confusion": 1, "seal": 0, "fear": 1, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

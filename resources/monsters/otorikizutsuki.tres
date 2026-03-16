@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-121"
+slug = "otorikizutsuki"
+name_jp = "オトリキツツキ"
+name_en = "Otorikizutsuki"
+family = "bird"
+rank = "C"
+size_class = "S"
+motif_group = "animal"
+secondary_motif_group = "bureaucratic"
+motif_source = "啄木鳥 + 囮 + 封印杭"
+ontology_class = "record_bent"
+silhouette_type = "tall"
+palette_id = "pal_decoy_pecker"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 74
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 24, "mp": 14, "atk": 16, "def": 10, "spd": 17, "int": 13, "res": 12}
+cap_stats = {"hp": 184, "mp": 108, "atk": 150, "def": 98, "spd": 156, "int": 108, "res": 104}
+base_recruit = 15
+scoutable = true
+personality_bias = "cunning"
+battle_role = "striker"
+trait_1 = "囮刻み"
+trait_2 = "風耐性"
+loot_table_id = "loot_monster_otorikizutsuki"
+prompt_id = "PRM-MON-121"
+notes = "封印杭に偽の刻みを入れて番人を欺く啄木鳥"
+resistances = {"fire": 0, "water": 0, "wind": 1, "earth": 0, "thunder": -1, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 1, "seal": 0, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 1, "charm": 0, "mark": 1, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-047"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-010"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-029"}]

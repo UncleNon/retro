@@ -8,6 +8,7 @@
 > - `docs/specs/story/13_act_ii_bridge_relationship_and_faction_map.md`
 > - `docs/specs/story/14_cross_system_echo_and_discovery_lattice.md`
 > - `docs/specs/content/09_act_i_ii_monster_expansion_and_discovery_pack.md`
+> - `docs/specs/content/11_item_history_and_monster_resonance_matrix.md`
 > - `docs/specs/systems/17_encounter_authoring_and_balance_sandbox.md`
 
 ---
@@ -62,6 +63,14 @@
 | `SEC-W06-03` | inspect | `古符橋脚` | 夕方の引き水時だけ橋脚刻みを読める | 人名を削って符号へ彫り直した古刻み |
 | `SEC-W06-04` | encounter | `ほどけ沼` | `符号なし新鈴` を見た後に再訪 | 同じ音色で鳴る借り鈴の送り列 |
 
+### 2.4.1 item provenance placements
+
+| map | spot | tied item | 何が見えるか | どの pressure へ返るか | inspect seed |
+|-----|------|-----------|--------------|------------------------|-------------|
+| `MAP-W06-004` | 音孔見本板 | `item_record_belltube` | 人名でなく `音の癖` だけを写した見本筒が並ぶ | 音程が belonging の代理になる | `名ではなく音の傷み方で覚えている。ここでは人より先に鈴が数えられる。` |
+| `MAP-W06-006` | 穀袋台 | `item_bait_bellgrain` | 借り鈴の屑穀が餌袋へ落とし込まれている | 物流残滓が bird / beast bait へ流れる | `返された鈴の屑が、そのまま餌になる。送った数まで、獣に食わせている。` |
+| `MAP-W06-008` | 乾し縄 | `item_field_silentcloth` | 閉鐘布の模造だけが夜渡し用に高く吊られる | 静音技法が半合法の慰撫実務へ変わる | `静かにするための布なのに、値札だけはよく鳴る。誰を慰める布なのか曖昧だ。` |
+
 ### 2.5 clear 後 state shift
 
 - `税縄棚` の外に `余り` 用の小棚が増え、一本だけ色違いの戸口縄を隠さない家が出る
@@ -113,6 +122,14 @@
 | `SEC-W07-02` | route | `借り章の石段` | 階位章を買わず運び人列に紛れて登る | 一夜階位章の包みと返却札 |
 | `SEC-W07-03` | inspect | `棚位裏庫` | 先祖棚裏の控え帳を読む | 祖棚と役名棚を同じ帳面で管理した控え |
 | `SEC-W07-04` | encounter | `三十段下市` 夜再訪 | `棚位裏庫` の証拠入手後 | 死者役名の競りと、本名欄だけ削られた借り役名札 |
+
+### 3.4.1 item provenance placements
+
+| map | spot | tied item | 何が見えるか | どの pressure へ返るか | inspect seed |
+|-----|------|-----------|--------------|------------------------|-------------|
+| `MAP-W07-004` | 貼り替え机 | `item_record_namefoil` | 名箔の試し貼りが位牌札と役名 badge の両方に使われている | 祖先と労働力が同じ棚 logic で扱われる | `はがした跡の形が、位牌でも badge でも同じだ。残したいのは名前ではなく枠らしい。` |
+| `MAP-W07-009` | 湿写し台 | `item_record_inkpaste` | 祖棚控えと役名控えの両方に同じ墨膏が塗られる | 修復と改竄が同じ技術帯にある | `直すための墨と、消すための墨が区別できない。書くより先に隠し方が磨かれている。` |
+| `MAP-W07-006` | 再封小棚 | `item_catalyst_namewax` | badge 封と lineage 封の蝋片が一緒に溶かされる | `再命名` が都市の日用品へ降りている | `役名を留める蝋と、家筋を継ぐ蝋が同じ鍋で溶ける。違うのは値段だけだ。` |
 
 ### 3.5 clear 後 state shift
 

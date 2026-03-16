@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W01-007"
+scope_id = "W-001"
+name_jp = "無銘の番人"
+name_en = "Nameless Keeper"
+role = "門前の無言者"
+dark_role = "失踪者の変奏を匂わせる存在"
+x = 23
+y = 12
+facing = "down"
+npc_type = "key"
+phase_count = 2
+clue_ids = ["CL-009"]
+shop_id = ""
+service_id = ""
+personality_note = "一切喋らない。身振りだけ"
+initial_dialogue_jp = "……。"
+notes = "名伏せの野・門前演出"

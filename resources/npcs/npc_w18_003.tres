@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W18-003"
+scope_id = "W-018"
+name_jp = "マニ"
+name_en = "Mani"
+role = "伝令走り"
+dark_role = "抜頁を運んで誰の人生が消えたか知る"
+x = 40
+y = 22
+facing = "left"
+npc_type = "key"
+phase_count = 4
+clue_ids = ["CL-044", "CL-046"]
+shop_id = ""
+service_id = ""
+personality_note = "走り続けることで考えないようにしている"
+initial_dialogue_jp = "走れば届く。……何を届けてるか、考えたら走れなくなる。"
+notes = "二署の法台"

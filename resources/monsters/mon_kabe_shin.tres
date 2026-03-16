@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-250"
+slug = "mon_kabe_shin"
+name_jp = "モンカベシン"
+name_en = "Mon Kabe Shin"
+family = "material"
+rank = "A"
+size_class = "L"
+motif_group = "tool"
+secondary_motif_group = "gatebound"
+motif_source = "門壁 + 心核 + 聖郭門"
+ontology_class = "gate_touched"
+silhouette_type = "massive"
+palette_id = "pal_gate_wall_core"
+field_sprite_px = 16
+battle_sprite_px = 48
+base_level_cap = 82
+growth_curve_id = "LEGEND"
+base_stats = {"hp": 34, "mp": 16, "atk": 18, "def": 19, "spd": 12, "int": 14, "res": 17}
+cap_stats = {"hp": 256, "mp": 122, "atk": 170, "def": 174, "spd": 114, "int": 114, "res": 142}
+base_recruit = 0
+scoutable = false
+personality_bias = "watchful"
+battle_role = "tank"
+trait_1 = "門壁心"
+trait_2 = "光耐性"
+loot_table_id = "loot_monster_mon_kabe_shin"
+prompt_id = "PRM-MON-250"
+notes = "聖郭門の壁の中心に宿る核が自ら門を開閉する"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 1, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 1, "fear": 0, "instant_death": 2, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 2, "hush": 0}
+learnset = []

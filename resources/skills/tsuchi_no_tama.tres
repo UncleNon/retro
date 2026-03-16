@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-141"
+slug = "tsuchi_no_tama"
+name_jp = "つちのたま"
+name_en = "Earth Pellet"
+category = "magic"
+element = "earth"
+mp_cost = 3
+target_scope = "single"
+formula_key = "M1"
+base_power = 16
+base_rate = 100
+tags = ["single", "fixed_magic", "earth"]
+battle_role = "SAFE_POKE"
+effect_text = "土の弾を飛ばす"

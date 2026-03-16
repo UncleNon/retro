@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="ServiceData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/service_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+service_id = "service_w18_arena_entry"
+slug = "w18_arena_entry"
+registry_id = "SVC-W18-ARENA"
+name_jp = "二署の法台 闘技受付"
+name_en = "Dual Seal Tribunal Arena Entry"
+service_category = "tournament_entry"
+scope_id = "W-018"
+pricing_basis = "per_attempt"
+base_price = 180
+effect_key = "open_arena"
+effect_value = "entry"
+uses_per_reset = null
+story_gate_flag = ""
+status = "active"
+tags = ["arena", "facility"]
+notes = "keeper=NPC-W18-011 legacy_alias=SVC-W18-ARENA"

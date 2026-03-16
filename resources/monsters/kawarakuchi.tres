@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-374"
+slug = "kawarakuchi"
+name_jp = "カワラクチ"
+name_en = "Kawarakuchi"
+family = "dragon"
+rank = "E"
+size_class = "S"
+motif_group = "animal"
+secondary_motif_group = "gatebound"
+motif_source = "蜥蜴 + 瓦 + 門屋根"
+ontology_class = "gate_touched"
+silhouette_type = "wide"
+palette_id = "pal_tile_mouth"
+field_sprite_px = 16
+battle_sprite_px = 24
+base_level_cap = 64
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 19, "mp": 10, "atk": 11, "def": 10, "spd": 13, "int": 10, "res": 10}
+cap_stats = {"hp": 144, "mp": 72, "atk": 104, "def": 94, "spd": 124, "int": 82, "res": 88}
+base_recruit = 26
+scoutable = true
+personality_bias = "alert"
+battle_role = "controller"
+trait_1 = "瓦噛み"
+trait_2 = "火微耐性"
+loot_table_id = "loot_monster_kawarakuchi"
+prompt_id = "PRM-MON-374"
+notes = "門の屋根瓦に棲みつき口で瓦を齧る蜥蜴"
+resistances = {"fire": 1, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

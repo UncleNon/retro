@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W14-004"
+scope_id = "W-014"
+name_jp = "ノベ"
+name_en = "Nobe"
+role = "救出書記"
+dark_role = "本人と映りのどちらを救ったか曖昧"
+x = 28
+y = 28
+facing = "up"
+npc_type = "key"
+phase_count = 3
+clue_ids = ["CL-035"]
+shop_id = ""
+service_id = ""
+personality_note = "几帳面だが良心に悩む"
+initial_dialogue_jp = "報告書には「救出」と書いた。……本人を救ったのか映りを救ったのか、実は分からない。"
+notes = "返らずの鏡森"

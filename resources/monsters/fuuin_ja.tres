@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-388"
+slug = "fuuin_ja"
+name_jp = "フウインジャ"
+name_en = "Fuuin Ja"
+family = "dragon"
+rank = "C"
+size_class = "M"
+motif_group = "myth"
+secondary_motif_group = "gatebound"
+motif_source = "封印蛇 + 結界 + 塔基部"
+ontology_class = "gate_touched"
+silhouette_type = "serpentine"
+palette_id = "pal_seal_serpent"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 78
+growth_curve_id = "LATE"
+base_stats = {"hp": 24, "mp": 16, "atk": 15, "def": 12, "spd": 15, "int": 16, "res": 15}
+cap_stats = {"hp": 186, "mp": 126, "atk": 142, "def": 110, "spd": 140, "int": 134, "res": 130}
+base_recruit = 8
+scoutable = true
+personality_bias = "calculating"
+battle_role = "controller"
+trait_1 = "封印鱗"
+trait_2 = "封印耐性"
+loot_table_id = "loot_monster_fuuin_ja"
+prompt_id = "PRM-MON-388"
+notes = "塔基部に巻きつき封印を維持する結界の蛇竜"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 1, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 2, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

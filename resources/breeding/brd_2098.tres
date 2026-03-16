@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="BreedRuleData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/breed_rule_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+rule_id = "BRD-2098"
+rule_type = "special"
+parent_a_key = "MON-252"
+parent_b_key = "MON-253"
+child_monster_id = "MON-255"
+priority = 130
+special_recipe_bonus = 1
+lv_requirement = 40
+notes = "門枠巨人+封塔心→世界扉(S): 根源門の化身 ultimate→S"

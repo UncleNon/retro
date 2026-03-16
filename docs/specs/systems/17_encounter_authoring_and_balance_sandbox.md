@@ -106,8 +106,8 @@
 | サーフェス | 役割 |
 |------------|------|
 | `world_master.csv` | 世界単位の level band, family bias, gate 条件 |
-| `zone_master.csv` | zone ごとの歩数帯、天候、時間帯、table 紐づけ |
-| `encounter_table.csv` | zone ごとの出現 row |
+| `zone_master.csv` | zone ごとの歩数帯、BGM、dungeon flag、table 紐づけ |
+| `encounter_table.csv` | zone ごとの出現 row と時間帯 / 天候条件 |
 | `monster canonical package` | species, world presence, scoutability, battle role, recruit 基本値 |
 
 ### 4.2 この文書が定義する authoring 面
@@ -134,8 +134,10 @@ pack と sandbox case は、general registry 拡張前につき **typed snake_ca
 
 ### 4.4 export の原則
 
-- `encounter_zone_sheet` から `zone_master.csv` へ export するときは、歩数帯、時間帯、天候、notes を同期する
+- `encounter_zone_sheet` から `zone_master.csv` へ export するときは、歩数帯、BGM、dungeon flag、notes を同期する
 - `encounter_pack_sheet` は row 展開されて `encounter_table.csv` へ落ちる
+- `time_band` / `weather` は `encounter_table.csv` の row 側が canonical に持つ
+- runtime `EncounterZoneData.time_band` / `weather` は row 条件が一様な zone だけ summary を導出し、混在 zone は `any` に落とす
 - runtime 側で pack の意味が失われないよう、`notes` または別 manifest に `encounter_pack_id` を残す
 - `encounter_table.csv` だけを直接直し、pack / zone sheet を更新しない変更は drift とみなす
 

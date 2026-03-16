@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-260"
+slug = "hitodama_ko"
+name_jp = "ヒトダマコ"
+name_en = "Hitodama Ko"
+family = "magic"
+rank = "E"
+size_class = "S"
+motif_group = "abstract"
+secondary_motif_group = "funerary"
+motif_source = "人魂 + 小火 + 墓地端"
+ontology_class = "wildborn"
+silhouette_type = "floating"
+palette_id = "pal_wisp_child"
+field_sprite_px = 16
+battle_sprite_px = 24
+base_level_cap = 62
+growth_curve_id = "EARLY"
+base_stats = {"hp": 16, "mp": 12, "atk": 8, "def": 7, "spd": 14, "int": 12, "res": 11}
+cap_stats = {"hp": 128, "mp": 92, "atk": 82, "def": 78, "spd": 132, "int": 98, "res": 96}
+base_recruit = 28
+scoutable = true
+personality_bias = "haunted"
+battle_role = "bait_specialist"
+trait_1 = "揺れ火"
+trait_2 = "火微耐性"
+loot_table_id = "loot_monster_hitodama_ko"
+prompt_id = "PRM-MON-260"
+notes = "墓地の端で揺れる小さな人魂の子"
+resistances = {"fire": 1, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

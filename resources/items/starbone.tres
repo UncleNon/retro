@@ -15,5 +15,5 @@ sell_price = 160
 target_scope = "breed"
 effect_key = "plus_value"
 effect_value = "1"
-tags = ["catalyst", "breed"]
-description = "plus_value 判定を+1する"
+tags = ["catalyst", "breed", "lore_gate_touched", "event_h1013"]
+description = "門潮骨を削り競技時代の伸びを寄せる"

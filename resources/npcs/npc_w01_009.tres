@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W01-009"
+scope_id = "W-001"
+name_jp = "ゲンバ"
+name_en = "Genba"
+role = "道具屋の老爺"
+dark_role = "札の素材を売りつつ制度を支える"
+x = 30
+y = 20
+facing = "down"
+npc_type = "merchant"
+phase_count = 2
+clue_ids = []
+shop_id = "shop_w01_general"
+service_id = ""
+personality_note = "ぶっきらぼうだが親切"
+initial_dialogue_jp = "札の木は選ばないと持たない。名前と同じだ。"
+notes = "名伏せの野・道具屋"

@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="ShopData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/shop_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+shop_id = "shop_w19_general"
+slug = "w19_general"
+registry_id = "SHP-W19-001"
+name_jp = "閉鐘の塔都 雑貨屋"
+name_en = "Tower City Of Silent Bells General Store"
+shop_type = "general"
+scope_id = "W-019"
+zone_id = ""
+story_gate_flag = ""
+rank_gate = ""
+inventory_band = "endgame"
+base_price_multiplier = 1.0
+restock_clock = "return_to_hub"
+currency_type = "gold"
+status = "active"
+tags = ["merchant"]
+notes = "keeper=NPC-W19-007 legacy_alias=SHP-W19-001"
+inventory_entries = [{"slot_no": 1, "item_id": "item_heal_blackfeast", "unlock_flag": "", "unlock_rank": "", "stock_mode": "infinite_common", "max_stock": null, "restock_rule": "return_to_hub", "buy_limit_per_save": null, "price_override": null, "price_multiplier": 1.0, "display_priority": 10, "hidden_until_unlocked": false, "status": "active", "notes": "legacy_alias=SHP-W19-001"}, {"slot_no": 2, "item_id": "item_mp_starcurd", "unlock_flag": "", "unlock_rank": "", "stock_mode": "infinite_common", "max_stock": null, "restock_rule": "return_to_hub", "buy_limit_per_save": null, "price_override": null, "price_multiplier": 1.0, "display_priority": 20, "hidden_until_unlocked": false, "status": "active", "notes": "legacy_alias=SHP-W19-001"}, {"slot_no": 3, "item_id": "item_field_moonpin", "unlock_flag": "", "unlock_rank": "", "stock_mode": "infinite_common", "max_stock": null, "restock_rule": "return_to_hub", "buy_limit_per_save": null, "price_override": null, "price_multiplier": 1.0, "display_priority": 30, "hidden_until_unlocked": false, "status": "active", "notes": "legacy_alias=SHP-W19-001"}, {"slot_no": 4, "item_id": "item_bait_truefeast", "unlock_flag": "", "unlock_rank": "", "stock_mode": "infinite_common", "max_stock": null, "restock_rule": "return_to_hub", "buy_limit_per_save": null, "price_override": null, "price_multiplier": 1.0, "display_priority": 40, "hidden_until_unlocked": false, "status": "active", "notes": "legacy_alias=SHP-W19-001"}, {"slot_no": 5, "item_id": "item_catalyst_starbone", "unlock_flag": "", "unlock_rank": "", "stock_mode": "infinite_common", "max_stock": null, "restock_rule": "return_to_hub", "buy_limit_per_save": null, "price_override": null, "price_multiplier": 1.0, "display_priority": 50, "hidden_until_unlocked": false, "status": "active", "notes": "legacy_alias=SHP-W19-001"}, {"slot_no": 6, "item_id": "item_catalyst_emptyseal", "unlock_flag": "", "unlock_rank": "", "stock_mode": "infinite_common", "max_stock": null, "restock_rule": "return_to_hub", "buy_limit_per_save": null, "price_override": null, "price_multiplier": 1.0, "display_priority": 60, "hidden_until_unlocked": false, "status": "active", "notes": "legacy_alias=SHP-W19-001"}]
+service_ids = []

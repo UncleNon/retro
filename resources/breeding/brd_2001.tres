@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="BreedRuleData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/breed_rule_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+rule_id = "BRD-2001"
+rule_type = "special"
+parent_a_key = "MON-030"
+parent_b_key = "MON-006"
+child_monster_id = "MON-047"
+priority = 100
+special_recipe_bonus = 1
+lv_requirement = 10
+notes = "鈴羊+石耳兎→肉狼: 牧畜獣の食物連鎖 Step1"

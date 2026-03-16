@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W19-013"
+scope_id = "W-019"
+name_jp = "リンゴ"
+name_en = "Ringo"
+role = "飼育係"
+dark_role = "門前の獣を管理する"
+x = 38
+y = 30
+facing = "left"
+npc_type = "breeder"
+phase_count = 2
+clue_ids = []
+shop_id = "shop_w19_breeder"
+service_id = "service_w19_breeding"
+personality_note = "獣に詳しく温厚"
+initial_dialogue_jp = "門の近くの獣は耳を立てたまま眠る。……何を聞いてるのかは知らない。"
+notes = "閉鐘の塔都・牧場"

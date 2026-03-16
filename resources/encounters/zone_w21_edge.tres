@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="EncounterZoneData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/encounter_zone_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+zone_id = "ZONE-W21-EDGE"
+world_id = "W-021"
+name_jp = "白泥境界"
+encounter_min_steps = 10
+encounter_max_steps = 16
+terrain_rate = 1.4
+bgm_id = "BGM-W021-BOSS"
+is_dungeon = true
+time_band = "any"
+weather = "fog"
+notes = "全ての定義が壊れる最果て"
+entries = [{"slot": 1, "monster_id": "MON-307", "weight": 20, "min_lv": 90, "max_lv": 93, "time_band": "any", "weather": "fog"}, {"slot": 2, "monster_id": "MON-504", "weight": 20, "min_lv": 90, "max_lv": 93, "time_band": "any", "weather": "fog"}, {"slot": 3, "monster_id": "MON-411", "weight": 15, "min_lv": 90, "max_lv": 93, "time_band": "any", "weather": "fog"}, {"slot": 4, "monster_id": "MON-460", "weight": 15, "min_lv": 90, "max_lv": 93, "time_band": "any", "weather": "fog"}, {"slot": 5, "monster_id": "MON-503", "weight": 10, "min_lv": 91, "max_lv": 93, "time_band": "any", "weather": "fog"}, {"slot": 6, "monster_id": "MON-464", "weight": 20, "min_lv": 92, "max_lv": 95, "time_band": "any", "weather": "fog"}]

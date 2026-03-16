@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W10-006"
+scope_id = "W-010"
+name_jp = "ナベ"
+name_en = "Nabe"
+role = "封印具売り"
+dark_role = "台帳の封印道具と塩を売る"
+x = 24
+y = 16
+facing = "right"
+npc_type = "merchant"
+phase_count = 2
+clue_ids = []
+shop_id = "shop_w10_general"
+service_id = ""
+personality_note = "商売熱心で押しが強い"
+initial_dialogue_jp = "乾燥印、いるだろ？　湿った帳面は法的に半端者だからな。"
+notes = "群書の塩庫・道具屋"

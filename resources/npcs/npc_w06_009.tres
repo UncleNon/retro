@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W06-009"
+scope_id = "W-006"
+name_jp = "モズ"
+name_en = "Mozu"
+role = "湿地渡しの老爺"
+dark_role = "沈み社への水路を知る唯一の人"
+x = 20
+y = 30
+facing = "up"
+npc_type = "minor"
+phase_count = 2
+clue_ids = []
+shop_id = ""
+service_id = ""
+personality_note = "老練で口数少ない"
+initial_dialogue_jp = "沈み社への道は水が決める。……人が決めるもんじゃない。"
+notes = "鈴結びの湿地"

@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-146"
+slug = "dotenohana"
+name_jp = "ドテノハナ"
+name_en = "Dotenohana"
+family = "plant"
+rank = "E"
+size_class = "S"
+motif_group = "plant"
+secondary_motif_group = "pastoral"
+motif_source = "野花 + 土手 + 畦道"
+ontology_class = "wildborn"
+silhouette_type = "wide"
+palette_id = "pal_bank_bloom"
+field_sprite_px = 16
+battle_sprite_px = 24
+base_level_cap = 63
+growth_curve_id = "EARLY"
+base_stats = {"hp": 19, "mp": 11, "atk": 9, "def": 9, "spd": 12, "int": 11, "res": 11}
+cap_stats = {"hp": 148, "mp": 80, "atk": 96, "def": 94, "spd": 116, "int": 90, "res": 96}
+base_recruit = 32
+scoutable = true
+personality_bias = "gentle"
+battle_role = "controller"
+trait_1 = "花粉散らし"
+trait_2 = "風微耐性"
+loot_table_id = "loot_monster_dotenohana"
+prompt_id = "PRM-MON-146"
+notes = "畦道の土手で揺れる素朴な野花の精"
+resistances = {"fire": -1, "water": 0, "wind": 1, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": -1, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-021"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-035"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-015"}]

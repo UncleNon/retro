@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-136"
+slug = "hyouga_no_arashi"
+name_jp = "ひょうがのあらし"
+name_en = "Glacier Storm"
+category = "magic"
+element = "water"
+mp_cost = 10
+target_scope = "spread"
+formula_key = "M2"
+base_power = 38
+base_rate = 100
+tags = ["spread", "fixed_magic", "water"]
+battle_role = "RUSH_OPEN"
+effect_text = "氷河の嵐が吹く"

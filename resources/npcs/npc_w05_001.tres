@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W05-001"
+scope_id = "W-005"
+name_jp = "シズナ"
+name_en = "Shizuna"
+role = "墓守頭"
+dark_role = "空碑の一つに夫の名を刻めずにいる"
+x = 24
+y = 18
+facing = "down"
+npc_type = "key"
+phase_count = 4
+clue_ids = ["CL-017", "CL-018"]
+shop_id = ""
+service_id = ""
+personality_note = "穏やかだが芯が折れない"
+initial_dialogue_jp = "閉じた、と言うのが決まりだ。……死んだ、とは言わない。"
+notes = "香なしの墓苑"

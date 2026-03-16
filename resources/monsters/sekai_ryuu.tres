@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-405"
+slug = "sekai_ryuu"
+name_jp = "セカイリュウ"
+name_en = "Sekai Ryuu"
+family = "dragon"
+rank = "A"
+size_class = "L"
+motif_group = "myth"
+secondary_motif_group = "gatebound"
+motif_source = "世界竜 + 地図鱗 + 境界脊椎"
+ontology_class = "gate_touched"
+silhouette_type = "massive"
+palette_id = "pal_world_dragon"
+field_sprite_px = 16
+battle_sprite_px = 48
+base_level_cap = 82
+growth_curve_id = "LEGEND"
+base_stats = {"hp": 38, "mp": 17, "atk": 19, "def": 19, "spd": 12, "int": 15, "res": 17}
+cap_stats = {"hp": 286, "mp": 132, "atk": 178, "def": 174, "spd": 116, "int": 126, "res": 144}
+base_recruit = 0
+scoutable = false
+personality_bias = "watchful"
+battle_role = "tank"
+trait_1 = "世界鱗"
+trait_2 = "地耐性"
+loot_table_id = "loot_monster_sekai_ryuu"
+prompt_id = "PRM-MON-405"
+notes = "体に世界の地図を刻み境界の脊椎として横たわる竜"
+resistances = {"fire": 0, "water": -1, "wind": 0, "earth": 2, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": 0, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

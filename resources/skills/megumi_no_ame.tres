@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-201"
+slug = "megumi_no_ame"
+name_jp = "めぐみのあめ"
+name_en = "Blessing Rain"
+category = "recover"
+element = "water"
+mp_cost = 8
+target_scope = "ally_all"
+formula_key = "H1"
+base_power = 22
+base_rate = 0
+tags = ["recover", "water", "spread"]
+battle_role = "ALLY_SUSTAIN"
+effect_text = "全体に恵みの雨"

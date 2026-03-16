@@ -1,0 +1,4 @@
+key,text,notes
+system.project_name,Project RETRO,working title
+ui.gate.unready,The gate does not answer yet.,gate baseline seed
+ui.clue.logged,Clue recorded.,clue baseline seed

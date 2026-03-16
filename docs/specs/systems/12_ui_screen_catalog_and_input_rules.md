@@ -255,6 +255,11 @@
 └─────────────────────────┘
 ```
 
+- 説明帯は **選択中 item と同期** し、少なくとも `効果1行 + provenance / 用途の短文1〜2行` を返す
+- provenance の短文 source は `item_text_master.csv` の `menu_strip` を正とし、未登録 item のみ `item_master.description` へ fallback してよい
+- key item は一覧で `[K]` を付けつつ、説明帯では固有名を崩さず `大事なもの` として扱う
+- 施設 preview / buy confirm の売り手文は `item_text_master.csv` の `shop_voice` を正とし、lookup は `shop_id -> scope_id -> description fallback` の順で解決する
+
 ### 4.8 配合画面
 
 ```
@@ -309,6 +314,8 @@
 | 所持/配合済み | スプライト + 名前 + 図鑑文 |
 | フィルタ | 系統 / ランク / 発見状態 |
 | ソート | 番号 / ランク / 系統 |
+
+- 一覧カーソル移動中の説明帯は、選択中 monster の `family / rank / short lore` を返す
 
 ### 4.10 設定画面
 

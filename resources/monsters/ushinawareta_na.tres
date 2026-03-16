@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-493"
+slug = "ushinawareta_na"
+name_jp = "ウシナワレタナ"
+name_en = "Ushinawareta Na"
+family = "slime"
+rank = "C"
+size_class = "M"
+motif_group = "abstract"
+secondary_motif_group = "funerary"
+motif_source = "失われた名 + 溜り + 記憶池"
+ontology_class = "remnant_bearing"
+silhouette_type = "wide"
+palette_id = "pal_lost_name_pool"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 78
+growth_curve_id = "LATE"
+base_stats = {"hp": 26, "mp": 17, "atk": 11, "def": 13, "spd": 10, "int": 17, "res": 17}
+cap_stats = {"hp": 198, "mp": 134, "atk": 106, "def": 118, "spd": 98, "int": 144, "res": 142}
+base_recruit = 8
+scoutable = true
+personality_bias = "mournful"
+battle_role = "tank"
+trait_1 = "名の残骸"
+trait_2 = "封印耐性"
+loot_table_id = "loot_monster_ushinawareta_na"
+prompt_id = "PRM-MON-493"
+notes = "失われた名が溶け溜まった記憶の池"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 1, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 1, "hush": 0}
+learnset = []

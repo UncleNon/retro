@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W07-006"
+scope_id = "W-007"
+name_jp = "コウ"
+name_en = "Kou"
+role = "下層の代書屋"
+dark_role = "下層民の書類仕事を引き受ける"
+x = 24
+y = 44
+facing = "right"
+npc_type = "minor"
+phase_count = 2
+clue_ids = []
+shop_id = ""
+service_id = ""
+personality_note = "皮肉屋だが情がある"
+initial_dialogue_jp = "字が書けない奴の代わりに書く。……何を書くかは聞くな。"
+notes = "削名の階市"

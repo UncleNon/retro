@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W10-008"
+scope_id = "W-010"
+name_jp = "ルリ"
+name_en = "Ruri"
+role = "抄本仲買の娘"
+dark_role = "父の仕事を手伝う子ども"
+x = 22
+y = 22
+facing = "down"
+npc_type = "mob"
+phase_count = 1
+clue_ids = []
+shop_id = ""
+service_id = ""
+personality_note = "利発で大人びている"
+initial_dialogue_jp = "乾いた紙と濡れた紙、どっちが本当なの？"
+notes = "群書の塩庫"

@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W11-009"
+scope_id = "W-011"
+name_jp = "リン"
+name_en = "Rin"
+role = "鐘守の少年"
+dark_role = "鐘の音の違いに敏感"
+x = 26
+y = 22
+facing = "down"
+npc_type = "mob"
+phase_count = 1
+clue_ids = []
+shop_id = ""
+service_id = ""
+personality_note = "耳がよく素直"
+initial_dialogue_jp = "この鐘、前と音が違う。……誰かが名前を削ったんだ。"
+notes = "逆誓の修院"

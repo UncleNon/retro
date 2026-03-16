@@ -15,5 +15,5 @@ sell_price = 80
 target_scope = "party"
 effect_key = "bell_clue"
 effect_value = "1"
-tags = ["record", "clue"]
-description = "借り鈴と宿灯の音孔差まで拾う鈴筒"
+tags = ["record", "clue", "lore_closed_bell", "event_h1005"]
+description = "閉じた鐘孔の差と借り鈴の癖を拾う鈴筒"

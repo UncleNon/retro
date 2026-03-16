@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="BreedRuleData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/breed_rule_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+rule_id = "BRD-1026"
+rule_type = "family"
+parent_a_key = "family:bird"
+parent_b_key = "family:dragon"
+child_monster_id = "MON-370"
+priority = 50
+special_recipe_bonus = 0
+lv_requirement = 10
+notes = "bird×dragon→dragon: 竜側が支配"

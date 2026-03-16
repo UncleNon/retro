@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W01-006"
+scope_id = "W-001"
+name_jp = "ミシロ"
+name_en = "Mishiro"
+role = "祠番"
+dark_role = "儀式の意味を半分だけ知る"
+x = 20
+y = 8
+facing = "up"
+npc_type = "key"
+phase_count = 3
+clue_ids = ["CL-009"]
+shop_id = ""
+service_id = ""
+personality_note = "慎重で言葉を選ぶ"
+initial_dialogue_jp = "祠の奥は見ない方がいい。……理由は、半分しか知らない。"
+notes = "名伏せの野"

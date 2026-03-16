@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W06-003"
+scope_id = "W-006"
+name_jp = "ネリ"
+name_en = "Neri"
+role = "渡し舟の娘"
+dark_role = "兄の鈴筒を別家の符号で彫った"
+x = 18
+y = 28
+facing = "left"
+npc_type = "key"
+phase_count = 4
+clue_ids = ["CL-019", "CL-060"]
+shop_id = ""
+service_id = ""
+personality_note = "行動的で兄思い"
+initial_dialogue_jp = "兄の鈴を家に戻したいの。……符号が違うから、認めてもらえない。"
+notes = "鈴結びの湿地"

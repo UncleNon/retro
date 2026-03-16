@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-221"
+slug = "fue_hebi"
+name_jp = "フエヘビ"
+name_en = "Fue Hebi"
+family = "material"
+rank = "D"
+size_class = "S"
+motif_group = "tool"
+secondary_motif_group = "funerary"
+motif_source = "笛 + 蛇 + 弔い道"
+ontology_class = "wildborn"
+silhouette_type = "serpentine"
+palette_id = "pal_flute_snake"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 69
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 22, "mp": 12, "atk": 12, "def": 10, "spd": 14, "int": 13, "res": 12}
+cap_stats = {"hp": 168, "mp": 92, "atk": 118, "def": 96, "spd": 132, "int": 108, "res": 104}
+base_recruit = 20
+scoutable = true
+personality_bias = "echoing"
+battle_role = "controller"
+trait_1 = "笛息"
+trait_2 = "眠り微付与"
+loot_table_id = "loot_monster_fue_hebi"
+prompt_id = "PRM-MON-221"
+notes = "弔い道で笛の音を出す管状の蛇"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 1, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-152"
+slug = "saigo_no_hikari"
+name_jp = "さいごのひかり"
+name_en = "Final Light"
+category = "magic"
+element = "light"
+mp_cost = 18
+target_scope = "spread"
+formula_key = "M2"
+base_power = 72
+base_rate = 100
+tags = ["spread", "fixed_magic", "light", "divine", "s_rank"]
+battle_role = "RUSH_OPEN"
+effect_text = "最後の光が全てを照らす"

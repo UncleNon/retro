@@ -15,5 +15,5 @@ sell_price = 30
 target_scope = "party"
 effect_key = "reveal_path"
 effect_value = "1"
-tags = ["field", "record"]
-description = "道標をしばらく見やすくする"
+tags = ["field", "record", "lore_borrowed_name", "event_h1001"]
+description = "借り名札と同寸で道を残す印粉札"

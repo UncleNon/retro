@@ -1,6 +1,7 @@
 # Session Common Header
 
 - source of truth は `docs/requirements/` と `docs/adr/`
+- 対象 REQ の計画書を先に読む
 - 実装前に対象セッションの受け入れ基準を確認する
 - 無関係な改善へ広げない
 - 旧Unity資産や未整理ディレクトリを勝手に破壊しない
@@ -10,6 +11,6 @@
 
 参照必須:
 
-- `docs/plans/REQ-001-foundation-and-vertical-slice.md`
+- 対象 REQ の `docs/plans/REQ-xxx-*.md`
 - `docs/adr/0008-core-experience-design-principles.md`
 - `docs/adr/0009-story-mystery-architecture.md`

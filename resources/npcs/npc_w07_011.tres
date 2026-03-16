@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W07-011"
+scope_id = "W-007"
+name_jp = "タスケ"
+name_en = "Tasuke"
+role = "石段の掃除人"
+dark_role = "すべての階を行き来できる唯一の職"
+x = 38
+y = 36
+facing = "up"
+npc_type = "minor"
+phase_count = 2
+clue_ids = []
+shop_id = ""
+service_id = ""
+personality_note = "無欲で階層を俯瞰している"
+initial_dialogue_jp = "上も下も、掃くゴミは同じだよ。"
+notes = "削名の階市"

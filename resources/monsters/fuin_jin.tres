@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-245"
+slug = "fuin_jin"
+name_jp = "フウインジン"
+name_en = "Fuuin Jin"
+family = "material"
+rank = "A"
+size_class = "L"
+motif_group = "tool"
+secondary_motif_group = "gatebound"
+motif_source = "封印陣 + 蛇環 + 境界紋"
+ontology_class = "gate_touched"
+silhouette_type = "serpentine"
+palette_id = "pal_seal_array"
+field_sprite_px = 16
+battle_sprite_px = 48
+base_level_cap = 80
+growth_curve_id = "LEGEND"
+base_stats = {"hp": 28, "mp": 18, "atk": 16, "def": 17, "spd": 14, "int": 16, "res": 18}
+cap_stats = {"hp": 216, "mp": 136, "atk": 150, "def": 158, "spd": 132, "int": 128, "res": 150}
+base_recruit = 0
+scoutable = false
+personality_bias = "solemn"
+battle_role = "controller"
+trait_1 = "封陣"
+trait_2 = "封印耐性"
+loot_table_id = "loot_monster_fuin_jin"
+prompt_id = "PRM-MON-245"
+notes = "境界紋の封印陣が蛇のように巻いて展開する紋型"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 2, "fear": 0, "instant_death": 1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 2, "hush": 0}
+learnset = []

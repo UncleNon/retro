@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-134"
+slug = "keiyakuwashi"
+name_jp = "ケイヤクワシ"
+name_en = "Keiyakuwashi"
+family = "bird"
+rank = "B"
+size_class = "M"
+motif_group = "animal"
+secondary_motif_group = "gatebound"
+motif_source = "鷲 + 契約 + 聖郭"
+ontology_class = "gate_touched"
+silhouette_type = "wide"
+palette_id = "pal_covenant_eagle"
+field_sprite_px = 16
+battle_sprite_px = 48
+base_level_cap = 78
+growth_curve_id = "LATE"
+base_stats = {"hp": 30, "mp": 14, "atk": 19, "def": 14, "spd": 16, "int": 13, "res": 14}
+cap_stats = {"hp": 228, "mp": 108, "atk": 178, "def": 128, "spd": 148, "int": 106, "res": 118}
+base_recruit = 0
+scoutable = false
+personality_bias = "bold"
+battle_role = "tank"
+trait_1 = "契約翼"
+trait_2 = "光耐性"
+loot_table_id = "loot_monster_keiyakuwashi"
+prompt_id = "PRM-MON-134"
+notes = "聖郭の門で契約を守る大鷲"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 1, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 1, "fear": 0, "instant_death": 1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-046"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-062"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-079"}]

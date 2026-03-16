@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W20-003"
+scope_id = "W-020"
+name_jp = "ナギサ"
+name_en = "Nagisa"
+role = "旧二署側の照合役"
+dark_role = "失踪記録の原写しを私蔵する"
+x = 42
+y = 16
+facing = "left"
+npc_type = "key"
+phase_count = 5
+clue_ids = ["CL-051", "CL-052"]
+shop_id = ""
+service_id = ""
+personality_note = "正義感が強く粘り強い"
+initial_dialogue_jp = "本当の記録はここにある。……出せるかどうかは、まだ分からない。"
+notes = "継ぎ止めの聖郭"

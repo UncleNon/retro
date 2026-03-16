@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W03-008"
+scope_id = "W-003"
+name_jp = "タエ"
+name_en = "Tae"
+role = "道具屋の女主人"
+dark_role = "旅人向けの装備と灯油を売る"
+x = 34
+y = 18
+facing = "down"
+npc_type = "merchant"
+phase_count = 2
+clue_ids = []
+shop_id = "shop_w03_general"
+service_id = ""
+personality_note = "世話焼きで値段は正直"
+initial_dialogue_jp = "灯油は切らすなよ。暗い道で名前を呼ばれたら終わりだ。"
+notes = "継灯の宿場・道具屋"

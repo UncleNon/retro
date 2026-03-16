@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-173"
+slug = "tetsu_matsu"
+name_jp = "テツマツ"
+name_en = "Tetsu Matsu"
+family = "plant"
+rank = "B"
+size_class = "M"
+motif_group = "plant"
+secondary_motif_group = "household"
+motif_source = "鉄松 + 焼継 + 炉門"
+ontology_class = "gate_touched"
+silhouette_type = "tall"
+palette_id = "pal_iron_pine"
+field_sprite_px = 16
+battle_sprite_px = 48
+base_level_cap = 78
+growth_curve_id = "LATE"
+base_stats = {"hp": 30, "mp": 12, "atk": 18, "def": 16, "spd": 10, "int": 10, "res": 14}
+cap_stats = {"hp": 228, "mp": 94, "atk": 168, "def": 148, "spd": 96, "int": 86, "res": 120}
+base_recruit = 0
+scoutable = false
+personality_bias = "bold"
+battle_role = "tank"
+trait_1 = "鉄幹"
+trait_2 = "火耐性"
+loot_table_id = "loot_monster_tetsu_matsu"
+prompt_id = "PRM-MON-173"
+notes = "焼継の炉門の傍で鉄のように硬い幹を持つ松精"
+resistances = {"fire": 1, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": 1, "burn": -1, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-044"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-075"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-024"}]

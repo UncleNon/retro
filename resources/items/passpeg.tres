@@ -15,5 +15,5 @@ sell_price = 0
 target_scope = "none"
 effect_key = "story_flag"
 effect_value = "W-004"
-tags = ["key", "story"]
-description = "W-004の進行に必要な通行鋲"
+tags = ["key", "story", "lore_border_pass", "event_h1003"]
+description = "岬灯誓約後の検札順を刻む通行鋲"

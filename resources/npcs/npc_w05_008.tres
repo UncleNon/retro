@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W05-008"
+scope_id = "W-005"
+name_jp = "リョウ"
+name_en = "Ryou"
+role = "墓掃きの少年"
+dark_role = "空碑の数を正確に覚えている"
+x = 26
+y = 20
+facing = "down"
+npc_type = "mob"
+phase_count = 1
+clue_ids = []
+shop_id = ""
+service_id = ""
+personality_note = "素直で記憶力がいい"
+initial_dialogue_jp = "空の碑、今は十七。……先月は十六だったよ。"
+notes = "香なしの墓苑"

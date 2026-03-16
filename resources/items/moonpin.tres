@@ -15,5 +15,5 @@ sell_price = 75
 target_scope = "party"
 effect_key = "night_event"
 effect_value = "1"
-tags = ["field", "explore"]
-description = "夜のイベントを補助する"
+tags = ["field", "explore", "lore_last_disappearance", "event_h1014"]
+description = "夜の数え違いを避けるため衣に留める針"

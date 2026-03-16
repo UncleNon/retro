@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W17-011"
+scope_id = "W-017"
+name_jp = "リュウタ"
+name_en = "Ryuuta"
+role = "echo録の写し師"
+dark_role = "記録の転写を担う"
+x = 40
+y = 18
+facing = "left"
+npc_type = "minor"
+phase_count = 2
+clue_ids = ["CL-041"]
+shop_id = ""
+service_id = ""
+personality_note = "几帳面で職務に忠実"
+initial_dialogue_jp = "声を文字にするのが仕事だ。……文字にできない声もある。"
+notes = "残名の回廊"

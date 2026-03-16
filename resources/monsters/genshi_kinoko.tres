@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-184"
+slug = "genshi_kinoko"
+name_jp = "ゲンシキノコ"
+name_en = "Genshi Kinoko"
+family = "plant"
+rank = "S"
+size_class = "L"
+motif_group = "plant"
+secondary_motif_group = "funerary"
+motif_source = "原始茸 + 根源 + 聖郭底"
+ontology_class = "remnant_bearing"
+silhouette_type = "wide"
+palette_id = "pal_primal_fungus"
+field_sprite_px = 16
+battle_sprite_px = 56
+base_level_cap = 84
+growth_curve_id = "LEGEND"
+base_stats = {"hp": 36, "mp": 18, "atk": 18, "def": 18, "spd": 10, "int": 18, "res": 18}
+cap_stats = {"hp": 272, "mp": 136, "atk": 168, "def": 166, "spd": 96, "int": 146, "res": 150}
+base_recruit = 0
+scoutable = false
+personality_bias = "calm"
+battle_role = "tank"
+trait_1 = "原始胞子"
+trait_2 = "闇耐性"
+loot_table_id = "loot_monster_genshi_kinoko"
+prompt_id = "PRM-MON-184"
+notes = "聖郭の底で全ての名の残滓を胞子に宿す原始の大茸"
+resistances = {"fire": -1, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 2, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 1, "fear": 0, "instant_death": 2, "burn": -2, "freeze": 0, "curse": 1, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-044"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-070"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-072"}]

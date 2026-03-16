@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-241"
+slug = "mizu_no_kabe"
+name_jp = "みずのかべ"
+name_en = "Water Wall"
+category = "setup"
+element = "water"
+mp_cost = 5
+target_scope = "ally_all"
+formula_key = "B3"
+base_power = 0
+base_rate = 0
+tags = ["setup", "field", "water"]
+battle_role = "ALLY_SUSTAIN"
+effect_text = "水の壁で火属性を軽減"

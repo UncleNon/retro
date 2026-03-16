@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-343"
+slug = "sougi_ningyou"
+name_jp = "ソウギニンギョウ"
+name_en = "Sougi Ningyou"
+family = "undead"
+rank = "C"
+size_class = "M"
+motif_group = "ritual"
+secondary_motif_group = "funerary"
+motif_source = "葬儀人形 + 空席 + 代弔い"
+ontology_class = "remnant_bearing"
+silhouette_type = "tall"
+palette_id = "pal_funeral_doll"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 78
+growth_curve_id = "LATE"
+base_stats = {"hp": 24, "mp": 15, "atk": 13, "def": 12, "spd": 11, "int": 15, "res": 15}
+cap_stats = {"hp": 186, "mp": 118, "atk": 126, "def": 110, "spd": 106, "int": 128, "res": 130}
+base_recruit = 10
+scoutable = true
+personality_bias = "solemn"
+battle_role = "healer"
+trait_1 = "代弔い"
+trait_2 = "光微耐性"
+loot_table_id = "loot_monster_sougi_ningyou"
+prompt_id = "PRM-MON-343"
+notes = "葬儀の空席に座り弔いを代行する人形型の霊"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 1, "dark": 1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 1, "instant_death": 0, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

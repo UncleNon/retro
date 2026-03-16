@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-308"
+slug = "tenchi_soumetsu"
+name_jp = "てんちそうめつ"
+name_en = "Heaven Earth End"
+category = "magic"
+element = "none"
+mp_cost = 20
+target_scope = "spread"
+formula_key = "M2"
+base_power = 82
+base_rate = 0
+tags = ["spread", "fixed_magic", "s_rank", "gate_special"]
+battle_role = "RUSH_OPEN"
+effect_text = "天地を滅する絶技"

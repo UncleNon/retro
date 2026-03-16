@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-137"
+slug = "shinkai"
+name_jp = "しんかい"
+name_en = "Abyssal Tide"
+category = "magic"
+element = "water"
+mp_cost = 15
+target_scope = "spread"
+formula_key = "M2"
+base_power = 60
+base_rate = 100
+tags = ["spread", "fixed_magic", "water", "s_rank"]
+battle_role = "RUSH_OPEN"
+effect_text = "深海の波が飲む"

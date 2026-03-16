@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W10-009"
+scope_id = "W-010"
+name_jp = "タツミ"
+name_en = "Tatsumi"
+role = "紙乾燥塔の番人"
+dark_role = "乾燥工程で選別が行われることを知る"
+x = 40
+y = 14
+facing = "up"
+npc_type = "minor"
+phase_count = 2
+clue_ids = ["CL-028"]
+shop_id = ""
+service_id = ""
+personality_note = "寡黙で仕事に忠実"
+initial_dialogue_jp = "上に干す紙と下に落とす紙がある。……基準は俺が決めるんじゃない。"
+notes = "群書の塩庫"

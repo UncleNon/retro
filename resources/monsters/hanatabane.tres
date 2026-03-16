@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-156"
+slug = "hanatabane"
+name_jp = "ハナタバネ"
+name_en = "Hanatabane"
+family = "plant"
+rank = "D"
+size_class = "S"
+motif_group = "plant"
+secondary_motif_group = "funerary"
+motif_source = "花束 + 弔い + 墓前供花"
+ontology_class = "wildborn"
+silhouette_type = "wide"
+palette_id = "pal_bouquet_spirit"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 67
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 20, "mp": 14, "atk": 9, "def": 10, "spd": 12, "int": 14, "res": 14}
+cap_stats = {"hp": 156, "mp": 108, "atk": 88, "def": 96, "spd": 114, "int": 116, "res": 118}
+base_recruit = 22
+scoutable = true
+personality_bias = "gentle"
+battle_role = "healer"
+trait_1 = "供花香"
+trait_2 = "光微耐性"
+loot_table_id = "loot_monster_hanatabane"
+prompt_id = "PRM-MON-156"
+notes = "墓前の供花が自ら束になって歩く花精"
+resistances = {"fire": -1, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 1, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": -1, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-064"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-021"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-025"}]

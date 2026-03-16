@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W13-001"
+scope_id = "W-013"
+name_jp = "ヤト"
+name_en = "Yato"
+role = "地主"
+dark_role = "棚を拡張し中央献上を増やしたい"
+x = 28
+y = 16
+facing = "down"
+npc_type = "key"
+phase_count = 4
+clue_ids = ["CL-033", "CL-034"]
+shop_id = ""
+service_id = ""
+personality_note = "温厚だが計算高い"
+initial_dialogue_jp = "棚畑は家名で回る。……摘み手の名前？　帳面には要らない。"
+notes = "無籍の葡萄段"

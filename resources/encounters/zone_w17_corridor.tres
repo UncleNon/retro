@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="EncounterZoneData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/encounter_zone_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+zone_id = "ZONE-W17-CORRIDOR"
+world_id = "W-017"
+name_jp = "残響回廊"
+encounter_min_steps = 11
+encounter_max_steps = 18
+terrain_rate = 1.1
+bgm_id = "BGM-W017-FIELD"
+is_dungeon = false
+time_band = "day"
+weather = "clear"
+notes = "名だけが先に届く回廊"
+entries = [{"slot": 1, "monster_id": "MON-292", "weight": 20, "min_lv": 65, "max_lv": 67, "time_band": "day", "weather": "clear"}, {"slot": 2, "monster_id": "MON-346", "weight": 20, "min_lv": 65, "max_lv": 67, "time_band": "day", "weather": "clear"}, {"slot": 3, "monster_id": "MON-288", "weight": 15, "min_lv": 65, "max_lv": 67, "time_band": "day", "weather": "clear"}, {"slot": 4, "monster_id": "MON-298", "weight": 15, "min_lv": 66, "max_lv": 68, "time_band": "day", "weather": "clear"}, {"slot": 5, "monster_id": "MON-285", "weight": 15, "min_lv": 65, "max_lv": 67, "time_band": "day", "weather": "clear"}, {"slot": 6, "monster_id": "MON-351", "weight": 15, "min_lv": 67, "max_lv": 69, "time_band": "day", "weather": "clear"}]

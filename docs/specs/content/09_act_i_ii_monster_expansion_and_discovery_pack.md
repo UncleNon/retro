@@ -5,6 +5,7 @@
 > **役割**: `W-002〜W-007` に実装投入する新規 19 体を、`生態`, `勧誘欲`, `隠し導線`, `配合価値` まで含めて fixed pack 化する
 > **参照元**:
 > - `docs/specs/content/08_starting_region_ecology_and_monster_web.md`
+> - `docs/specs/content/11_item_history_and_monster_resonance_matrix.md`
 > - `docs/specs/systems/16_monster_canonical_package_and_pipeline.md`
 > - `docs/specs/systems/17_encounter_authoring_and_balance_sandbox.md`
 > - `docs/specs/story/14_cross_system_echo_and_discovery_lattice.md`
@@ -189,6 +190,17 @@
 |-------|---------------|--------------|-------------------------|----------------------|
 | `W-006` | `hushed`, `wet`, `bind`, recruit stack | `MON-024`, `MON-025`, `MON-026` | `item_record_belltube`, `item_bait_bellgrain`, `item_field_moonpin` | 人名がなくても `音 / 結び / 符号` で勧誘と追跡が成立する |
 | `W-007` | `marked -> payoff`, `seal`, `curse`, stop-move | `MON-027`, `MON-028`, `MON-029` | `item_record_namefoil`, `item_record_inkpaste`, `item_bait_inkmeat`, `item_field_silentcloth` | 役名は detached resource であり、`止める / 奪う / 見破る` の方が殴り合いより強い局面がある |
+
+### 5.5 item resonance picks
+
+| world | item | 主な対象 monster | 使って気持ちいい理由 | にじむ人間臭さ |
+|-------|------|------------------|----------------------|----------------|
+| `W-002` | `item_bait_sourmilk` | `MON-011`, `MON-012`, `MON-013` | 乳膜や灰乳残りを食う世界なので bait の由来が見た目で通る | 家の判定残りを獣相手の餌へ落とす雑さがある |
+| `W-003` | `item_mp_clearwater`, `item_record_tagcase` | `MON-014`, `MON-015`, `MON-016` | 宿名灯, 鍵札, 台帳が全部 item と monster の両方で反復する | 宿は休息の場でなく照合と保留の場所でもある |
+| `W-004` | `item_catalyst_bellsalt`, `item_key_passpeg` | `MON-017`, `MON-018`, `MON-019` | bell / pass / tide の組み合わせが bird と gate-touched に自然に効く | 通行資格を得るための道具が選別そのものも担う |
+| `W-005` | `item_bait_graveflour`, `item_cure_focussalt` | `MON-020`, `MON-021`, `MON-022`, `MON-023` | 残響種と無香処理の関係が戦術でも lore でも強い | 遺族の未練と教団の実務が同じ棚に並ぶ |
+| `W-006` | `item_record_belltube`, `item_field_silentcloth`, `item_bait_bellgrain` | `MON-024`, `MON-025`, `MON-026` | 音程, 静音, 鈴穀が湿地の移動文法ときれいに噛む | 人名の代わりに鈴と符号で人を数える気味悪さがある |
+| `W-007` | `item_bait_inkmeat`, `item_record_namefoil`, `item_catalyst_namewax` | `MON-027`, `MON-028`, `MON-029` | 棚位, badge, 役名剥離がそのまま勧誘 / 記録 / 配合に返る | 本名より `使える役名` を残したい都市の欲が露骨に出る |
 
 ---
 

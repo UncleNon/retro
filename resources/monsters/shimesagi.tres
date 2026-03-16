@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-122"
+slug = "shimesagi"
+name_jp = "シメサギ"
+name_en = "Shimesagi"
+family = "bird"
+rank = "C"
+size_class = "M"
+motif_group = "animal"
+secondary_motif_group = "funerary"
+motif_source = "鷺 + 〆 + 弔い水路"
+ontology_class = "gate_touched"
+silhouette_type = "tall"
+palette_id = "pal_close_heron"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 76
+growth_curve_id = "LATE"
+base_stats = {"hp": 28, "mp": 16, "atk": 14, "def": 12, "spd": 14, "int": 15, "res": 14}
+cap_stats = {"hp": 210, "mp": 126, "atk": 134, "def": 112, "spd": 132, "int": 128, "res": 120}
+base_recruit = 14
+scoutable = true
+personality_bias = "solemn"
+battle_role = "healer"
+trait_1 = "〆水"
+trait_2 = "水耐性"
+loot_table_id = "loot_monster_shimesagi"
+prompt_id = "PRM-MON-122"
+notes = "弔い水路の〆を告げるように立つ大鷺"
+resistances = {"fire": 0, "water": 1, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 1, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-064"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-022"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-015"}]

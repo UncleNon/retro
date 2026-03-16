@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-464"
+slug = "saigo_no_mon"
+name_jp = "サイゴノモン"
+name_en = "Saigo no Mon"
+family = "divine"
+rank = "S"
+size_class = "L"
+motif_group = "myth"
+secondary_motif_group = "gatebound"
+motif_source = "最後の門 + 終端 + 世界の果て"
+ontology_class = "remnant_bearing"
+silhouette_type = "massive"
+palette_id = "pal_final_gate"
+field_sprite_px = 16
+battle_sprite_px = 56
+base_level_cap = 84
+growth_curve_id = "LEGEND"
+base_stats = {"hp": 44, "mp": 22, "atk": 20, "def": 24, "spd": 10, "int": 18, "res": 22}
+cap_stats = {"hp": 330, "mp": 172, "atk": 188, "def": 216, "spd": 98, "int": 148, "res": 182}
+base_recruit = 0
+scoutable = false
+personality_bias = "grim"
+battle_role = "tank"
+trait_1 = "終端門"
+trait_2 = "闇耐性"
+loot_table_id = "loot_monster_saigo_no_mon"
+prompt_id = "PRM-MON-464"
+notes = "世界の果てに立つ最後の門そのものが存在となった姿"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": -1, "dark": 2, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": 0, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

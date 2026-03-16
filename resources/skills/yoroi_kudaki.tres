@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-230"
+slug = "yoroi_kudaki"
+name_jp = "よろいくだき"
+name_en = "Armor Crush"
+category = "setup"
+element = "earth"
+mp_cost = 3
+target_scope = "single"
+formula_key = "B2"
+base_power = 0
+base_rate = 90
+tags = ["setup", "debuff", "def", "earth"]
+battle_role = "BREAK_DEF"
+effect_text = "DEFを1段階下げる"

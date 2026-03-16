@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="BreedRuleData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/breed_rule_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+rule_id = "BRD-2028"
+rule_type = "special"
+parent_a_key = "MON-081"
+parent_b_key = "MON-083"
+child_monster_id = "MON-089"
+priority = 115
+special_recipe_bonus = 1
+lv_requirement = 22
+notes = "双銘馬+戸籍獅子→白麒麟(A): 境界原の古獣 Step4→A"

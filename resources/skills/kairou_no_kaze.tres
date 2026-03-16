@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-296"
+slug = "kairou_no_kaze"
+name_jp = "かいろうのかぜ"
+name_en = "Corridor Wind"
+category = "magic"
+element = "wind"
+mp_cost = 8
+target_scope = "spread"
+formula_key = "M2"
+base_power = 30
+base_rate = 0
+tags = ["spread", "fixed_magic", "wind", "gate_special", "tower_reactive"]
+battle_role = "RUSH_OPEN"
+effect_text = "回廊の風が吹き抜ける"

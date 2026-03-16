@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W15-009"
+scope_id = "W-015"
+name_jp = "アカリ"
+name_en = "Akari"
+role = "巡礼の少女"
+dark_role = "初めての巡礼で恐怖と向き合う"
+x = 24
+y = 22
+facing = "down"
+npc_type = "mob"
+phase_count = 1
+clue_ids = []
+shop_id = ""
+service_id = ""
+personality_note = "怖がりだが好奇心がある"
+initial_dialogue_jp = "顔を隠すの、怖い。……でも、隠さないともっと怖いって。"
+notes = "黒布の巡礼路"

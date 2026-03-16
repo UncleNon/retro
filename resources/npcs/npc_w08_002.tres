@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W08-002"
+scope_id = "W-008"
+name_jp = "リイサ"
+name_en = "Riisa"
+role = "若い牧童"
+dark_role = "仔獣と拾い子の札輪を一度入れ替えた"
+x = 22
+y = 24
+facing = "right"
+npc_type = "key"
+phase_count = 3
+clue_ids = ["CL-023"]
+shop_id = ""
+service_id = ""
+personality_note = "優しいが罪悪感を持つ"
+initial_dialogue_jp = "あの子を助けたかっただけ。……でも、札を替えたのは私だ。"
+notes = "獣印の放牧環"

@@ -137,6 +137,18 @@ def build_report() -> dict[str, object]:
         warnings.append("ローカル検証は Godot 4.6.1 editor 上で実施")
 
     status = "ready_for_signed_export" if not blockers else "blocked"
+    next_steps: list[str] = []
+    if not export_templates["available"]:
+        next_steps.append("Godot export templates をインストールする")
+    if not export_presets["exists"]:
+        next_steps.append("`export_presets.cfg` を追加し、iOS preset を定義する")
+    elif not export_presets["ios_preset_present"]:
+        next_steps.append("`export_presets.cfg` に iOS preset を追加する")
+    if not codesigning["tool_found"]:
+        next_steps.append("`security` コマンドを使える macOS 環境で codesigning 状態を確認する")
+    elif codesigning["identity_count"] == 0:
+        next_steps.append("Apple Developer Program の署名証明書 / Provisioning Profile を用意する")
+    next_steps.append("iCloud は local save loop が安定した後に別スパイクで評価する")
 
     return {
         "checked_at_utc": datetime.now(timezone.utc).isoformat(),
@@ -155,12 +167,7 @@ def build_report() -> dict[str, object]:
         "codesigning": codesigning,
         "blockers": blockers,
         "warnings": warnings,
-        "next_steps": [
-            "Godot export templates をインストールする",
-            "`export_presets.cfg` に iOS preset を追加する",
-            "Apple Developer Program の署名証明書 / Provisioning Profile を用意する",
-            "iCloud は local save loop が安定した後に別スパイクで評価する",
-        ],
+        "next_steps": next_steps,
     }
 
 

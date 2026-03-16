@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="EncounterZoneData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/encounter_zone_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+zone_id = "ZONE-W09-SNOW"
+world_id = "W-009"
+name_jp = "吹雪原"
+encounter_min_steps = 11
+encounter_max_steps = 18
+terrain_rate = 1.15
+bgm_id = "BGM-W009-FIELD"
+is_dungeon = false
+time_band = "day"
+weather = "snow"
+notes = "名がずれる吹雪の平原"
+entries = [{"slot": 1, "monster_id": "MON-073", "weight": 25, "min_lv": 33, "max_lv": 36, "time_band": "day", "weather": "snow"}, {"slot": 2, "monster_id": "MON-062", "weight": 20, "min_lv": 33, "max_lv": 35, "time_band": "day", "weather": "snow"}, {"slot": 3, "monster_id": "MON-333", "weight": 15, "min_lv": 33, "max_lv": 35, "time_band": "day", "weather": "snow"}, {"slot": 4, "monster_id": "MON-068", "weight": 15, "min_lv": 34, "max_lv": 36, "time_band": "day", "weather": "snow"}, {"slot": 5, "monster_id": "MON-336", "weight": 15, "min_lv": 34, "max_lv": 36, "time_band": "day", "weather": "snow"}, {"slot": 6, "monster_id": "MON-343", "weight": 10, "min_lv": 35, "max_lv": 37, "time_band": "day", "weather": "snow"}]

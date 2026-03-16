@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-304"
+slug = "kyoukai_me"
+name_jp = "キョウカイメ"
+name_en = "Kyoukai Me"
+family = "magic"
+rank = "A"
+size_class = "L"
+motif_group = "abstract"
+secondary_motif_group = "gatebound"
+motif_source = "境界目 + 観測光 + 深門"
+ontology_class = "gate_touched"
+silhouette_type = "floating"
+palette_id = "pal_boundary_eye"
+field_sprite_px = 16
+battle_sprite_px = 48
+base_level_cap = 80
+growth_curve_id = "LEGEND"
+base_stats = {"hp": 26, "mp": 22, "atk": 12, "def": 14, "spd": 16, "int": 22, "res": 18}
+cap_stats = {"hp": 200, "mp": 168, "atk": 114, "def": 128, "spd": 148, "int": 192, "res": 152}
+base_recruit = 0
+scoutable = false
+personality_bias = "watchful"
+battle_role = "controller"
+trait_1 = "境界視"
+trait_2 = "光耐性"
+loot_table_id = "loot_monster_kyoukai_me"
+prompt_id = "PRM-MON-304"
+notes = "深門で世界の境界を見つめ続ける目"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 2, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": 2, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 1, "hush": 0}
+learnset = []

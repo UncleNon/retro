@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W04-009"
+scope_id = "W-004"
+name_jp = "タカシ"
+name_en = "Takashi"
+role = "裏舟の漁師"
+dark_role = "マツホの知人。闇航路を知る"
+x = 18
+y = 30
+facing = "up"
+npc_type = "minor"
+phase_count = 2
+clue_ids = []
+shop_id = ""
+service_id = ""
+personality_note = "口数少なく警戒心が強い"
+initial_dialogue_jp = "名前を聞くな。……聞いたら、もう乗せない。"
+notes = "札差しの岬"

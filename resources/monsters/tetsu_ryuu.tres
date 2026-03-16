@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-393"
+slug = "tetsu_ryuu"
+name_jp = "テツリュウ"
+name_en = "Tetsu Ryuu"
+family = "dragon"
+rank = "C"
+size_class = "M"
+motif_group = "animal"
+secondary_motif_group = "household"
+motif_source = "鉄竜 + 鍛冶 + 炉跡"
+ontology_class = "wildborn"
+silhouette_type = "wide"
+palette_id = "pal_iron_wyrm"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 76
+growth_curve_id = "LATE"
+base_stats = {"hp": 30, "mp": 11, "atk": 18, "def": 17, "spd": 9, "int": 9, "res": 12}
+cap_stats = {"hp": 224, "mp": 86, "atk": 168, "def": 154, "spd": 88, "int": 76, "res": 106}
+base_recruit = 10
+scoutable = true
+personality_bias = "bold"
+battle_role = "striker"
+trait_1 = "鉄鱗"
+trait_2 = "火耐性"
+loot_table_id = "loot_monster_tetsu_ryuu"
+prompt_id = "PRM-MON-393"
+notes = "炉跡に棲み鉄色の鱗で身を固める竜"
+resistances = {"fire": 1, "water": -1, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": 0, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

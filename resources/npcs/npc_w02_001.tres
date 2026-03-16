@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W02-001"
+scope_id = "W-002"
+name_jp = "オオネ"
+name_en = "Oone"
+role = "第一母屋の当主"
+dark_role = "薄印の孫を別家の乳母線へ移した"
+x = 28
+y = 18
+facing = "down"
+npc_type = "key"
+phase_count = 3
+clue_ids = ["CL-011"]
+shop_id = ""
+service_id = ""
+personality_note = "威厳があり有無を言わせない"
+initial_dialogue_jp = "谷の筋は乳で決まる。それが嫌なら谷を出な。"
+notes = "灰乳の谷"

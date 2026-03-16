@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W20-007"
+scope_id = "W-020"
+name_jp = "ヤシロ"
+name_en = "Yashiro"
+role = "継印検査官"
+dark_role = "認証印の正当性を審査する"
+x = 34
+y = 12
+facing = "left"
+npc_type = "minor"
+phase_count = 2
+clue_ids = ["CL-050"]
+shop_id = ""
+service_id = ""
+personality_note = "几帳面で制度を信じる"
+initial_dialogue_jp = "印が正しければ人も正しい。……そう信じなければ、仕事にならない。"
+notes = "継ぎ止めの聖郭"

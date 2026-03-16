@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W17-003"
+scope_id = "W-017"
+name_jp = "シオ"
+name_en = "Shio"
+role = "遺族の姉"
+dark_role = "echoを聞くため偽続柄を使って通う"
+x = 38
+y = 16
+facing = "left"
+npc_type = "key"
+phase_count = 4
+clue_ids = ["CL-041", "CL-043"]
+shop_id = ""
+service_id = ""
+personality_note = "静かな執念を持つ"
+initial_dialogue_jp = "弟の声が聞こえる。……偽の続柄で入ったけど、声は本物だ。"
+notes = "残名の回廊"

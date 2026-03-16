@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="BreedRuleData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/breed_rule_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+rule_id = "BRD-3022"
+rule_type = "mutation"
+parent_a_key = "family:plant"
+parent_b_key = "family:divine"
+child_monster_id = "MON-177"
+priority = 65
+special_recipe_bonus = 0
+lv_requirement = 22
+notes = "植物×聖で神木杉への aberrant 変異: 根門で確率上昇"

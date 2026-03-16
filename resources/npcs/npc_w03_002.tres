@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W03-002"
+scope_id = "W-003"
+name_jp = "カナギ"
+name_en = "Kanagi"
+role = "厩番"
+dark_role = "客の本名を兄の字で書く"
+x = 18
+y = 30
+facing = "right"
+npc_type = "key"
+phase_count = 3
+clue_ids = ["CL-013"]
+shop_id = ""
+service_id = ""
+personality_note = "内向的で兄への複雑な感情を持つ"
+initial_dialogue_jp = "馬の世話なら任せてくれ。……帳面の字？　兄の癖が抜けないんだ。"
+notes = "継灯の宿場"

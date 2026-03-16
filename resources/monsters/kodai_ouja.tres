@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-402"
+slug = "kodai_ouja"
+name_jp = "コダイオウジャ"
+name_en = "Kodai Ouja"
+family = "dragon"
+rank = "A"
+size_class = "L"
+motif_group = "myth"
+secondary_motif_group = "gatebound"
+motif_source = "古代竜 + 滅び鱗 + 文明記録"
+ontology_class = "remnant_bearing"
+silhouette_type = "massive"
+palette_id = "pal_ancient_sovereign"
+field_sprite_px = 16
+battle_sprite_px = 48
+base_level_cap = 80
+growth_curve_id = "LEGEND"
+base_stats = {"hp": 34, "mp": 18, "atk": 20, "def": 17, "spd": 14, "int": 17, "res": 18}
+cap_stats = {"hp": 260, "mp": 140, "atk": 186, "def": 156, "spd": 132, "int": 142, "res": 150}
+base_recruit = 0
+scoutable = false
+personality_bias = "solemn"
+battle_role = "striker"
+trait_1 = "滅び鱗"
+trait_2 = "闇耐性"
+loot_table_id = "loot_monster_kodai_ouja"
+prompt_id = "PRM-MON-402"
+notes = "滅んだ文明の記録を鱗に宿す古代の竜王"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": 1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

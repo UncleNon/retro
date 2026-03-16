@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-320"
+slug = "karabune_nezumi"
+name_jp = "カラブネネズミ"
+name_en = "Karabune Nezumi"
+family = "undead"
+rank = "E"
+size_class = "S"
+motif_group = "corporeal"
+secondary_motif_group = "funerary"
+motif_source = "干鼠 + 空船 + 乾き骨"
+ontology_class = "remnant_bearing"
+silhouette_type = "round"
+palette_id = "pal_husk_mouse"
+field_sprite_px = 16
+battle_sprite_px = 24
+base_level_cap = 62
+growth_curve_id = "EARLY"
+base_stats = {"hp": 16, "mp": 8, "atk": 10, "def": 7, "spd": 14, "int": 8, "res": 8}
+cap_stats = {"hp": 126, "mp": 58, "atk": 98, "def": 78, "spd": 132, "int": 72, "res": 78}
+base_recruit = 28
+scoutable = true
+personality_bias = "still"
+battle_role = "bait_specialist"
+trait_1 = "乾き齧り"
+trait_2 = "闇微耐性"
+loot_table_id = "loot_monster_karabune_nezumi"
+prompt_id = "PRM-MON-320"
+notes = "水気を全て失い殻だけで走り回る干からびた鼠"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": -1, "dark": 1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 1, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 1, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

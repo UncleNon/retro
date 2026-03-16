@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W03-007"
+scope_id = "W-003"
+name_jp = "サブロ"
+name_en = "Saburo"
+role = "荷継ぎの若者"
+dark_role = "荷の中に異世界の札が混じることがある"
+x = 22
+y = 28
+facing = "left"
+npc_type = "minor"
+phase_count = 2
+clue_ids = []
+shop_id = ""
+service_id = ""
+personality_note = "体力自慢で単純"
+initial_dialogue_jp = "荷の中にたまに変な札が入ってる。……捨てていいのか迷うんだ。"
+notes = "継灯の宿場"

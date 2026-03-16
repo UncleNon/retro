@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="BreedRuleData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/breed_rule_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+rule_id = "BRD-2172"
+rule_type = "special"
+parent_a_key = "MON-426"
+parent_b_key = "MON-427"
+child_monster_id = "MON-435"
+priority = 100
+special_recipe_bonus = 1
+lv_requirement = 10
+notes = "榊虫+石梟→指名鶴: 式台の名呼び Step1"

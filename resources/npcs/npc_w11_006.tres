@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W11-006"
+scope_id = "W-011"
+name_jp = "ウメ"
+name_en = "Ume"
+role = "写経婆"
+dark_role = "古い経文の矛盾に気づいている"
+x = 22
+y = 20
+facing = "right"
+npc_type = "minor"
+phase_count = 2
+clue_ids = ["CL-030"]
+shop_id = ""
+service_id = ""
+personality_note = "老練で口が堅い"
+initial_dialogue_jp = "写経を五十年やると、同じ文の裏表が見えてくるよ。"
+notes = "逆誓の修院"

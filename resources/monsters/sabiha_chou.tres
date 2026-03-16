@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-327"
+slug = "sabiha_chou"
+name_jp = "サビハチョウ"
+name_en = "Sabiha Chou"
+family = "undead"
+rank = "E"
+size_class = "S"
+motif_group = "corporeal"
+secondary_motif_group = "funerary"
+motif_source = "蝶 + 錆 + 鱗粉落ち"
+ontology_class = "remnant_bearing"
+silhouette_type = "floating"
+palette_id = "pal_rust_moth"
+field_sprite_px = 16
+battle_sprite_px = 24
+base_level_cap = 60
+growth_curve_id = "EARLY"
+base_stats = {"hp": 14, "mp": 11, "atk": 7, "def": 6, "spd": 16, "int": 11, "res": 10}
+cap_stats = {"hp": 112, "mp": 76, "atk": 74, "def": 72, "spd": 142, "int": 88, "res": 86}
+base_recruit = 30
+scoutable = true
+personality_bias = "haunted"
+battle_role = "bait_specialist"
+trait_1 = "錆鱗粉"
+trait_2 = "闇微耐性"
+loot_table_id = "loot_monster_sabiha_chou"
+prompt_id = "PRM-MON-327"
+notes = "鱗粉が錆色に変わり墓苑を漂う蝶の残り"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": -1, "dark": 1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 1, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

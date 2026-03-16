@@ -15,5 +15,5 @@ sell_price = 45
 target_scope = "ally_single"
 effect_key = "cure_status"
 effect_value = "freeze|paralysis"
-tags = ["cure", "field"]
-description = "凍えや麻痺を温めて解く"
+tags = ["cure", "field", "lore_salt_bone_trade", "event_h1008"]
+description = "骨樋番が冷えた指を戻す温骨札"

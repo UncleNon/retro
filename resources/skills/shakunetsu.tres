@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-133"
+slug = "shakunetsu"
+name_jp = "しゃくねつ"
+name_en = "Scorching Blaze"
+category = "magic"
+element = "fire"
+mp_cost = 16
+target_scope = "spread"
+formula_key = "M2"
+base_power = 65
+base_rate = 100
+tags = ["spread", "fixed_magic", "fire", "s_rank"]
+battle_role = "RUSH_OPEN"
+effect_text = "灼熱が全てを焼く"

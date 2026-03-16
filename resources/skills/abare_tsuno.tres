@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-096"
+slug = "abare_tsuno"
+name_jp = "あばれつの"
+name_en = "Rampage Horn"
+category = "physical"
+element = "earth"
+mp_cost = 6
+target_scope = "single"
+formula_key = "P3"
+base_power = 135
+base_rate = 25
+tags = ["single", "physical", "beast"]
+battle_role = "BREAK_DEF"
+effect_text = "角で暴れまわる"

@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W11-002"
+scope_id = "W-011"
+name_jp = "フサ"
+name_en = "Fusa"
+role = "若い見習い"
+dark_role = "奥廊で順唱を試し一つの部屋を開けた"
+x = 24
+y = 24
+facing = "right"
+npc_type = "key"
+phase_count = 3
+clue_ids = ["CL-029"]
+shop_id = ""
+service_id = ""
+personality_note = "好奇心旺盛で怖いもの知らず"
+initial_dialogue_jp = "逆に唱えろと教わった。……でも、順に唱えたら開いた部屋があるんだ。"
+notes = "逆誓の修院"

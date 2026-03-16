@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-117"
+slug = "tsukaimabato"
+name_jp = "ツカイマバト"
+name_en = "Tsukaimabato"
+family = "bird"
+rank = "D"
+size_class = "S"
+motif_group = "animal"
+secondary_motif_group = "pastoral"
+motif_source = "間鳩 + 使い走り + 柵越え"
+ontology_class = "wildborn"
+silhouette_type = "round"
+palette_id = "pal_courier_dove"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 67
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 21, "mp": 12, "atk": 12, "def": 10, "spd": 16, "int": 11, "res": 11}
+cap_stats = {"hp": 160, "mp": 90, "atk": 118, "def": 96, "spd": 150, "int": 92, "res": 96}
+base_recruit = 22
+scoutable = true
+personality_bias = "gentle"
+battle_role = "bait_specialist"
+trait_1 = "柵越え便"
+trait_2 = "風微耐性"
+loot_table_id = "loot_monster_tsukaimabato"
+prompt_id = "PRM-MON-117"
+notes = "柵を越えて牧場の間を飛ぶ使い鳩"
+resistances = {"fire": 0, "water": 0, "wind": 1, "earth": 0, "thunder": -1, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": -1, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-002"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-032"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-029"}]

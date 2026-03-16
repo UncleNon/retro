@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-373"
+slug = "iwa_yamori"
+name_jp = "イワヤモリ"
+name_en = "Iwa Yamori"
+family = "dragon"
+rank = "E"
+size_class = "S"
+motif_group = "animal"
+secondary_motif_group = "household"
+motif_source = "守宮 + 岩 + 古壁"
+ontology_class = "wildborn"
+silhouette_type = "wide"
+palette_id = "pal_rock_gecko"
+field_sprite_px = 16
+battle_sprite_px = 24
+base_level_cap = 60
+growth_curve_id = "EARLY"
+base_stats = {"hp": 16, "mp": 8, "atk": 10, "def": 11, "spd": 13, "int": 9, "res": 10}
+cap_stats = {"hp": 124, "mp": 58, "atk": 98, "def": 100, "spd": 122, "int": 74, "res": 86}
+base_recruit = 32
+scoutable = true
+personality_bias = "patient"
+battle_role = "tank"
+trait_1 = "岩張り"
+trait_2 = "地微耐性"
+loot_table_id = "loot_monster_iwa_yamori"
+prompt_id = "PRM-MON-373"
+notes = "古い壁面に張りつき石紋を背負う守宮"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 1, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

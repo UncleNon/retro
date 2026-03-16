@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-303"
+slug = "na_omomi"
+name_jp = "ナオモミ"
+name_en = "Na Omomi"
+family = "magic"
+rank = "A"
+size_class = "L"
+motif_group = "abstract"
+secondary_motif_group = "bureaucratic"
+motif_source = "名重 + 名の重力 + 聖郭記録聖堂"
+ontology_class = "remnant_bearing"
+silhouette_type = "floating"
+palette_id = "pal_name_weight"
+field_sprite_px = 16
+battle_sprite_px = 48
+base_level_cap = 82
+growth_curve_id = "LEGEND"
+base_stats = {"hp": 30, "mp": 22, "atk": 12, "def": 15, "spd": 12, "int": 22, "res": 20}
+cap_stats = {"hp": 228, "mp": 168, "atk": 114, "def": 138, "spd": 118, "int": 192, "res": 166}
+base_recruit = 0
+scoutable = false
+personality_bias = "solemn"
+battle_role = "controller"
+trait_1 = "名重し"
+trait_2 = "封印耐性"
+loot_table_id = "loot_monster_na_omomi"
+prompt_id = "PRM-MON-303"
+notes = "聖郭記録聖堂で名前そのものの重さが実体化した存在"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 2, "fear": 0, "instant_death": 2, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 2, "hush": 0}
+learnset = []

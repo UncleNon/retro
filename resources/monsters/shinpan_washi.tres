@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-136"
+slug = "shinpan_washi"
+name_jp = "シンパンワシ"
+name_en = "Shinpan Washi"
+family = "bird"
+rank = "A"
+size_class = "L"
+motif_group = "animal"
+secondary_motif_group = "bureaucratic"
+motif_source = "鷲 + 審判 + 法台上空"
+ontology_class = "gate_touched"
+silhouette_type = "wide"
+palette_id = "pal_judge_eagle"
+field_sprite_px = 16
+battle_sprite_px = 48
+base_level_cap = 80
+growth_curve_id = "LEGEND"
+base_stats = {"hp": 30, "mp": 16, "atk": 19, "def": 16, "spd": 17, "int": 16, "res": 16}
+cap_stats = {"hp": 228, "mp": 120, "atk": 178, "def": 148, "spd": 158, "int": 128, "res": 134}
+base_recruit = 0
+scoutable = false
+personality_bias = "severe"
+battle_role = "tank"
+trait_1 = "審判翼"
+trait_2 = "光耐性"
+loot_table_id = "loot_monster_shinpan_washi"
+prompt_id = "PRM-MON-136"
+notes = "法台の上空を旋回し審判を下す大鷲"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 2, "dark": -1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 1, "fear": 0, "instant_death": 2, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 1, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-046"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-063"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-072"}]

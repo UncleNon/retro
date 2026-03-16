@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="BreedRuleData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/breed_rule_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+rule_id = "BRD-3011"
+rule_type = "mutation"
+parent_a_key = "family:bird"
+parent_b_key = "family:undead"
+child_monster_id = "MON-127"
+priority = 60
+special_recipe_bonus = 0
+lv_requirement = 16
+notes = "鳥×不死で伏燕への trait_shift 変異: 巡礼路で確率上昇"

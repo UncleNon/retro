@@ -15,5 +15,5 @@ sell_price = 105
 target_scope = "enemy_single"
 effect_key = "recruit_bonus"
 effect_value = "24"
-tags = ["bait", "undead", "magic"]
-description = "不死と魔性が好む墓粉"
+tags = ["bait", "undead", "magic", "lore_nameless_grave", "event_h1002"]
+description = "無銘墓の粉灯と香残りを混ぜた餌"

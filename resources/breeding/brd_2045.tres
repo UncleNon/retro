@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="BreedRuleData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/breed_rule_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+rule_id = "BRD-2045"
+rule_type = "special"
+parent_a_key = "MON-117"
+parent_b_key = "MON-113"
+child_monster_id = "MON-126"
+priority = 105
+special_recipe_bonus = 1
+lv_requirement = 14
+notes = "使い鳩+告げ長鳥→風巻鳥: 塔外壁の螺旋 Step2"

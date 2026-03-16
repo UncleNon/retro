@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="BreedRuleData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/breed_rule_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+rule_id = "BRD-2181"
+rule_type = "special"
+parent_a_key = "MON-455"
+parent_b_key = "MON-456"
+child_monster_id = "MON-460"
+priority = 125
+special_recipe_bonus = 1
+lv_requirement = 35
+notes = "天門獣+生命監視→塔の意志(S): 原初の目的 →S"

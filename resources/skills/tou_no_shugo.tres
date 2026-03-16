@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-297"
+slug = "tou_no_shugo"
+name_jp = "とうのしゅご"
+name_en = "Tower Guard"
+category = "setup"
+element = "earth"
+mp_cost = 10
+target_scope = "ally_all"
+formula_key = "B3"
+base_power = 0
+base_rate = 0
+tags = ["setup", "gate_special", "tower_reactive", "field"]
+battle_role = "ALLY_SUSTAIN"
+effect_text = "塔の守護を得る"

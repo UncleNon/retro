@@ -15,5 +15,5 @@ sell_price = 120
 target_scope = "enemy_single"
 effect_key = "recruit_bonus"
 effect_value = "24"
-tags = ["bait", "material", "magic"]
-description = "物質と魔性が好む墨肉"
+tags = ["bait", "material", "magic", "lore_double_registry", "event_h1006"]
+description = "墨膏と屑札肉を混ぜ記号食いを誘う"

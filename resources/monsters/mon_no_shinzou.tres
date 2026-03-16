@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-462"
+slug = "mon_no_shinzou"
+name_jp = "モンノシンゾウ"
+name_en = "Mon no Shinzou"
+family = "divine"
+rank = "S"
+size_class = "L"
+motif_group = "myth"
+secondary_motif_group = "gatebound"
+motif_source = "門の心臓 + 鼓動 + 世界脈"
+ontology_class = "remnant_bearing"
+silhouette_type = "wide"
+palette_id = "pal_gate_heart"
+field_sprite_px = 16
+battle_sprite_px = 56
+base_level_cap = 84
+growth_curve_id = "LEGEND"
+base_stats = {"hp": 40, "mp": 20, "atk": 20, "def": 22, "spd": 12, "int": 18, "res": 22}
+cap_stats = {"hp": 302, "mp": 156, "atk": 188, "def": 200, "spd": 116, "int": 148, "res": 182}
+base_recruit = 0
+scoutable = false
+personality_bias = "watchful"
+battle_role = "tank"
+trait_1 = "門の鼓動"
+trait_2 = "光耐性"
+loot_table_id = "loot_monster_mon_no_shinzou"
+prompt_id = "PRM-MON-462"
+notes = "全ての門の鼓動を司る世界脈の心臓"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 2, "dark": -1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": 0, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

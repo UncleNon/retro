@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-181"
+slug = "kusari_shibari"
+name_jp = "くさりしばり"
+name_en = "Chain Bind"
+category = "status"
+element = "earth"
+mp_cost = 6
+target_scope = "single"
+formula_key = "S1"
+base_power = 0
+base_rate = 55
+tags = ["single", "status", "material"]
+battle_role = "STATUS_SETUP"
+effect_text = "鎖で完全に封じる"

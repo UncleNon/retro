@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-206"
+slug = "kago_mushi"
+name_jp = "カゴムシ"
+name_en = "Kago Mushi"
+family = "material"
+rank = "E"
+size_class = "S"
+motif_group = "tool"
+secondary_motif_group = "household"
+motif_source = "籠 + 蟲 + 倉庫"
+ontology_class = "wildborn"
+silhouette_type = "round"
+palette_id = "pal_basket_bug"
+field_sprite_px = 16
+battle_sprite_px = 24
+base_level_cap = 60
+growth_curve_id = "EARLY"
+base_stats = {"hp": 17, "mp": 7, "atk": 9, "def": 10, "spd": 14, "int": 8, "res": 9}
+cap_stats = {"hp": 130, "mp": 52, "atk": 94, "def": 98, "spd": 132, "int": 74, "res": 84}
+base_recruit = 32
+scoutable = true
+personality_bias = "meek"
+battle_role = "controller"
+trait_1 = "編み殻"
+trait_2 = "混乱微耐性"
+loot_table_id = "loot_monster_kago_mushi"
+prompt_id = "PRM-MON-206"
+notes = "編み籠の中で蠢く小さな蟲の群れ"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 1, "seal": 0, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

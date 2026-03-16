@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W04-003"
+scope_id = "W-004"
+name_jp = "イダ"
+name_en = "Ida"
+role = "印削り職人"
+dark_role = "期限切れclean passを灰札へ化粧直し"
+x = 42
+y = 22
+facing = "right"
+npc_type = "key"
+phase_count = 3
+clue_ids = ["CL-015"]
+shop_id = ""
+service_id = ""
+personality_note = "職人気質で口が堅い"
+initial_dialogue_jp = "削りの腕がいいと、古い札も新しく見える。……それだけの話さ。"
+notes = "札差しの岬"

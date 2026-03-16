@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="BreedRuleData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/breed_rule_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+rule_id = "BRD-2047"
+rule_type = "special"
+parent_a_key = "MON-106"
+parent_b_key = "MON-108"
+child_monster_id = "MON-113"
+priority = 100
+special_recipe_bonus = 1
+lv_requirement = 10
+notes = "灰雲雀+墨千鳥→告げ長鳥: 記録系鳥の融合 Step1"

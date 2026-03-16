@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-VIL-004"
+scope_id = "VIL"
+name_jp = "ミナワ"
+name_en = "Minawa"
+role = "井戸端の女"
+dark_role = "失踪を噂に落として共同体が飲み込んだ"
+x = 44
+y = 31
+facing = "left"
+npc_type = "key"
+phase_count = 4
+clue_ids = ["CL-004", "CL-002"]
+shop_id = ""
+service_id = ""
+personality_note = "噂好きだが核心には触れない"
+initial_dialogue_jp = "♪借りた名は朝に返す……あら、何の歌だっけ。"
+notes = "開始村"

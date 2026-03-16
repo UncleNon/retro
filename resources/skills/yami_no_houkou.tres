@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-169"
+slug = "yami_no_houkou"
+name_jp = "やみのほうこう"
+name_en = "Dark Howl"
+category = "magic"
+element = "dark"
+mp_cost = 9
+target_scope = "spread"
+formula_key = "M2"
+base_power = 32
+base_rate = 30
+tags = ["spread", "fixed_magic", "dark", "beast"]
+battle_role = "CONTROL"
+effect_text = "闇の咆哮が響く"

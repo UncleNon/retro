@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="BreedRuleData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/breed_rule_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+rule_id = "BRD-2197"
+rule_type = "special"
+parent_a_key = "MON-497"
+parent_b_key = "MON-498"
+child_monster_id = "MON-500"
+priority = 115
+special_recipe_bonus = 1
+lv_requirement = 22
+notes = "継ぎ目練り+原海ジェル→無銘の海(A): 境界底の海 Step3→A"

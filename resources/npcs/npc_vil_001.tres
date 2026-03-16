@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-VIL-001"
+scope_id = "VIL"
+name_jp = "ナツセ"
+name_en = "Natsuse"
+role = "長老"
+dark_role = "塔の名を避け家単位で人を記憶する"
+x = 64
+y = 25
+facing = "down"
+npc_type = "key"
+phase_count = 4
+clue_ids = ["CL-002"]
+shop_id = ""
+service_id = ""
+personality_note = "沈黙の体現者。怒るより先に確認する"
+initial_dialogue_jp = "北は今日はやめとけ。……風が変わった。"
+notes = "開始村"

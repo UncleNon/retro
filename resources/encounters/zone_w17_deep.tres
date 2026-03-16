@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="EncounterZoneData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/encounter_zone_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+zone_id = "ZONE-W17-DEEP"
+world_id = "W-017"
+name_jp = "封鎖回廊"
+encounter_min_steps = 10
+encounter_max_steps = 16
+terrain_rate = 1.35
+bgm_id = "BGM-W017-BOSS"
+is_dungeon = true
+time_band = "night"
+weather = "fog"
+notes = "封鎖された最深部回廊"
+entries = [{"slot": 1, "monster_id": "MON-354", "weight": 20, "min_lv": 70, "max_lv": 72, "time_band": "night", "weather": "fog"}, {"slot": 2, "monster_id": "MON-351", "weight": 20, "min_lv": 70, "max_lv": 72, "time_band": "night", "weather": "fog"}, {"slot": 3, "monster_id": "MON-298", "weight": 15, "min_lv": 70, "max_lv": 72, "time_band": "night", "weather": "fog"}, {"slot": 4, "monster_id": "MON-349", "weight": 15, "min_lv": 70, "max_lv": 72, "time_band": "night", "weather": "fog"}, {"slot": 5, "monster_id": "MON-346", "weight": 15, "min_lv": 70, "max_lv": 72, "time_band": "night", "weather": "fog"}, {"slot": 6, "monster_id": "MON-010", "weight": 15, "min_lv": 71, "max_lv": 73, "time_band": "night", "weather": "fog"}]

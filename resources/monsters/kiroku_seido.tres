@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-459"
+slug = "kiroku_seido"
+name_jp = "キロクセイド"
+name_en = "Kiroku Seido"
+family = "divine"
+rank = "A"
+size_class = "L"
+motif_group = "abstract"
+secondary_motif_group = "bureaucratic"
+motif_source = "記録聖堂 + 聖域化 + 名の祭壇"
+ontology_class = "record_bent"
+silhouette_type = "wide"
+palette_id = "pal_record_cathedral"
+field_sprite_px = 16
+battle_sprite_px = 48
+base_level_cap = 82
+growth_curve_id = "LEGEND"
+base_stats = {"hp": 36, "mp": 19, "atk": 17, "def": 18, "spd": 10, "int": 18, "res": 20}
+cap_stats = {"hp": 274, "mp": 148, "atk": 162, "def": 166, "spd": 98, "int": 152, "res": 168}
+base_recruit = 0
+scoutable = false
+personality_bias = "solemn"
+battle_role = "tank"
+trait_1 = "記録聖域"
+trait_2 = "光耐性"
+loot_table_id = "loot_monster_kiroku_seido"
+prompt_id = "PRM-MON-459"
+notes = "記録そのものが聖域化した名の祭壇"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 1, "dark": -1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 1, "fear": 0, "instant_death": 0, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 1, "hush": 0}
+learnset = []

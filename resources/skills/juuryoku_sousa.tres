@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-256"
+slug = "juuryoku_sousa"
+name_jp = "じゅうりょくそうさ"
+name_en = "Gravity Shift"
+category = "utility"
+element = "earth"
+mp_cost = 6
+target_scope = "spread"
+formula_key = "B2"
+base_power = 0
+base_rate = 80
+tags = ["utility", "field", "spd_down", "earth"]
+battle_role = "CONTROL"
+effect_text = "場の重力を変える"

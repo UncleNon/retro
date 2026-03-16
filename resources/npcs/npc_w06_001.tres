@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W06-001"
+scope_id = "W-006"
+name_jp = "ハユ"
+name_en = "Hayu"
+role = "結縄婆"
+dark_role = "行方不明の娘の結びだけ切れない"
+x = 28
+y = 20
+facing = "down"
+npc_type = "key"
+phase_count = 4
+clue_ids = ["CL-019", "CL-020"]
+shop_id = ""
+service_id = ""
+personality_note = "頑固で情が深い"
+initial_dialogue_jp = "結び目は命。ほどいたら……もう、戻せない。"
+notes = "鈴結びの湿地"

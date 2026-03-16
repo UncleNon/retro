@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-110"
+slug = "kakeraboshi"
+name_jp = "カケラボシ"
+name_en = "Kakeraboshi"
+family = "bird"
+rank = "E"
+size_class = "S"
+motif_group = "animal"
+secondary_motif_group = "astral"
+motif_source = "四十雀 + 欠片星 + 屋根瓦"
+ontology_class = "wildborn"
+silhouette_type = "round"
+palette_id = "pal_chip_tit"
+field_sprite_px = 16
+battle_sprite_px = 24
+base_level_cap = 60
+growth_curve_id = "EARLY"
+base_stats = {"hp": 16, "mp": 10, "atk": 10, "def": 7, "spd": 17, "int": 11, "res": 8}
+cap_stats = {"hp": 124, "mp": 70, "atk": 100, "def": 80, "spd": 154, "int": 88, "res": 76}
+base_recruit = 34
+scoutable = true
+personality_bias = "curious"
+battle_role = "bait_specialist"
+trait_1 = "星かけら拾い"
+trait_2 = "光微耐性"
+loot_table_id = "loot_monster_kakeraboshi"
+prompt_id = "PRM-MON-110"
+notes = "屋根瓦の隙間で星の欠片のように光る四十雀"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 1, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": -1, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-002"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-029"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-030"}]

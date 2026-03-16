@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-092"
+slug = "karada_atari"
+name_jp = "からだあたり"
+name_en = "Full Tackle"
+category = "physical"
+element = "none"
+mp_cost = 4
+target_scope = "single"
+formula_key = "P3"
+base_power = 125
+base_rate = 0
+tags = ["single", "physical", "beast", "evo_from:SKL-001"]
+battle_role = "SAFE_POKE"
+effect_text = "全身でぶつかる"

@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W19-001"
+scope_id = "W-019"
+name_jp = "イオリ"
+name_en = "Iori"
+role = "実務監"
+dark_role = "中央より先に利益勘定で封鎖が動くと知る"
+x = 34
+y = 18
+facing = "down"
+npc_type = "key"
+phase_count = 4
+clue_ids = ["CL-047", "CL-048"]
+shop_id = ""
+service_id = ""
+personality_note = "冷静で責任感が強い。疲弊している"
+initial_dialogue_jp = "想定喪失率という言葉がある。……人の数を、予定として書く。"
+notes = "閉鐘の塔都"

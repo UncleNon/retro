@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-327"
+slug = "shimo"
+name_jp = "しも"
+name_en = "Frost"
+category = "magic"
+element = "water"
+mp_cost = 2
+target_scope = "single"
+formula_key = "M1"
+base_power = 11
+base_rate = 100
+tags = ["single", "fixed_magic", "water", "starter"]
+battle_role = "SAFE_POKE"
+effect_text = "薄い霜を降らせる"

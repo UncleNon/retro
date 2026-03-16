@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-344"
+slug = "oborozuki_garasu"
+name_jp = "オボロヅキガラス"
+name_en = "Oborozuki Garasu"
+family = "undead"
+rank = "C"
+size_class = "S"
+motif_group = "animal"
+secondary_motif_group = "funerary"
+motif_source = "鴉 + 朧月 + 無銘墓"
+ontology_class = "remnant_bearing"
+silhouette_type = "tall"
+palette_id = "pal_haze_crow"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 74
+growth_curve_id = "LATE"
+base_stats = {"hp": 22, "mp": 14, "atk": 14, "def": 9, "spd": 16, "int": 14, "res": 13}
+cap_stats = {"hp": 168, "mp": 108, "atk": 134, "def": 88, "spd": 146, "int": 118, "res": 114}
+base_recruit = 12
+scoutable = true
+personality_bias = "haunted"
+battle_role = "striker"
+trait_1 = "朧声"
+trait_2 = "闇耐性"
+loot_table_id = "loot_monster_oborozuki_garasu"
+prompt_id = "PRM-MON-344"
+notes = "無銘墓の上で朧月にだけ鳴く鴉の霊"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": -1, "dark": 2, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 1, "instant_death": 0, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

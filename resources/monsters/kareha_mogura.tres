@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-329"
+slug = "kareha_mogura"
+name_jp = "カレハモグラ"
+name_en = "Kareha Mogura"
+family = "undead"
+rank = "E"
+size_class = "S"
+motif_group = "corporeal"
+secondary_motif_group = "funerary"
+motif_source = "土竜 + 枯葉 + 空穴"
+ontology_class = "remnant_bearing"
+silhouette_type = "round"
+palette_id = "pal_leaf_mole"
+field_sprite_px = 16
+battle_sprite_px = 24
+base_level_cap = 65
+growth_curve_id = "EARLY"
+base_stats = {"hp": 21, "mp": 7, "atk": 10, "def": 11, "spd": 9, "int": 8, "res": 10}
+cap_stats = {"hp": 152, "mp": 52, "atk": 96, "def": 100, "spd": 88, "int": 70, "res": 90}
+base_recruit = 28
+scoutable = true
+personality_bias = "patient"
+battle_role = "tank"
+trait_1 = "枯穴掘り"
+trait_2 = "地微耐性"
+loot_table_id = "loot_monster_kareha_mogura"
+prompt_id = "PRM-MON-329"
+notes = "枯葉に包まれたまま穴を掘り続ける土竜の残骸"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 1, "thunder": 0, "light": -1, "dark": 1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 1, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

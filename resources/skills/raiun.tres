@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-146"
+slug = "raiun"
+name_jp = "らいうん"
+name_en = "Thunder Cloud"
+category = "magic"
+element = "thunder"
+mp_cost = 7
+target_scope = "spread"
+formula_key = "M2"
+base_power = 24
+base_rate = 20
+tags = ["spread", "fixed_magic", "thunder"]
+battle_role = "STATUS_SETUP"
+effect_text = "雷雲が走る"

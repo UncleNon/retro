@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-410"
+slug = "genshi_ouryuu"
+name_jp = "ゲンシオウリュウ"
+name_en = "Genshi Ouryuu"
+family = "dragon"
+rank = "S"
+size_class = "L"
+motif_group = "myth"
+secondary_motif_group = "gatebound"
+motif_source = "原初王竜 + 世界卵 + 創世残響"
+ontology_class = "remnant_bearing"
+silhouette_type = "massive"
+palette_id = "pal_primordial_king"
+field_sprite_px = 16
+battle_sprite_px = 56
+base_level_cap = 84
+growth_curve_id = "LEGEND"
+base_stats = {"hp": 42, "mp": 18, "atk": 21, "def": 22, "spd": 12, "int": 16, "res": 20}
+cap_stats = {"hp": 316, "mp": 140, "atk": 196, "def": 200, "spd": 116, "int": 132, "res": 168}
+base_recruit = 0
+scoutable = false
+personality_bias = "bold"
+battle_role = "striker"
+trait_1 = "創世鱗"
+trait_2 = "光耐性"
+loot_table_id = "loot_monster_genshi_ouryuu"
+prompt_id = "PRM-MON-410"
+notes = "世界の卵を抱え創世の残響を纏う原初の王竜"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 1, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": 1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

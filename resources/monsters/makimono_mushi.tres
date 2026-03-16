@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-223"
+slug = "makimono_mushi"
+name_jp = "マキモノムシ"
+name_en = "Makimono Mushi"
+family = "material"
+rank = "D"
+size_class = "S"
+motif_group = "tool"
+secondary_motif_group = "bureaucratic"
+motif_source = "巻物 + 蟲 + 書庫"
+ontology_class = "record_bent"
+silhouette_type = "serpentine"
+palette_id = "pal_scroll_worm"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 70
+growth_curve_id = "LATE"
+base_stats = {"hp": 23, "mp": 13, "atk": 11, "def": 11, "spd": 13, "int": 13, "res": 12}
+cap_stats = {"hp": 174, "mp": 100, "atk": 108, "def": 104, "spd": 124, "int": 110, "res": 106}
+base_recruit = 20
+scoutable = true
+personality_bias = "calculating"
+battle_role = "controller"
+trait_1 = "巻き食い"
+trait_2 = "封印微耐性"
+loot_table_id = "loot_monster_makimono_mushi"
+prompt_id = "PRM-MON-223"
+notes = "書庫で巻物を食い破りながら進む蟲"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 1, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 1, "hush": 0}
+learnset = []

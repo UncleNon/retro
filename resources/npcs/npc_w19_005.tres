@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W19-005"
+scope_id = "W-019"
+name_jp = "ノリカゼ"
+name_en = "Norikaze"
+role = "門守の古参"
+dark_role = "門での事故を最も多く見てきた"
+x = 36
+y = 14
+facing = "down"
+npc_type = "minor"
+phase_count = 2
+clue_ids = ["CL-048"]
+shop_id = ""
+service_id = ""
+personality_note = "老練で無表情"
+initial_dialogue_jp = "門で何人消えたか？　数えるのをやめた。……数え続けたら、狂う。"
+notes = "閉鐘の塔都"

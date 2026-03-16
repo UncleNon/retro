@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="EncounterZoneData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/encounter_zone_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+zone_id = "ZONE-W15-CAVE"
+world_id = "W-015"
+name_jp = "風穴祠"
+encounter_min_steps = 10
+encounter_max_steps = 18
+terrain_rate = 1.15
+bgm_id = "BGM-W015-DNG"
+is_dungeon = true
+time_band = "dusk"
+weather = "fog"
+notes = "風穴に作られた祠"
+entries = [{"slot": 1, "monster_id": "MON-350", "weight": 20, "min_lv": 58, "max_lv": 60, "time_band": "dusk", "weather": "fog"}, {"slot": 2, "monster_id": "MON-343", "weight": 20, "min_lv": 58, "max_lv": 60, "time_band": "dusk", "weather": "fog"}, {"slot": 3, "monster_id": "MON-438", "weight": 15, "min_lv": 58, "max_lv": 60, "time_band": "dusk", "weather": "fog"}, {"slot": 4, "monster_id": "MON-442", "weight": 15, "min_lv": 59, "max_lv": 61, "time_band": "dusk", "weather": "fog"}, {"slot": 5, "monster_id": "MON-127", "weight": 15, "min_lv": 58, "max_lv": 60, "time_band": "dusk", "weather": "fog"}, {"slot": 6, "monster_id": "MON-349", "weight": 15, "min_lv": 60, "max_lv": 61, "time_band": "dusk", "weather": "fog"}]

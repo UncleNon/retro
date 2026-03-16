@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-120"
+slug = "kasumi_suzume"
+name_jp = "カスミスズメ"
+name_en = "Kasumi Suzume"
+family = "bird"
+rank = "D"
+size_class = "S"
+motif_group = "animal"
+secondary_motif_group = "astral"
+motif_source = "雀 + 霞 + 星屑"
+ontology_class = "wildborn"
+silhouette_type = "round"
+palette_id = "pal_haze_sparrow"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 66
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 18, "mp": 12, "atk": 12, "def": 8, "spd": 18, "int": 12, "res": 10}
+cap_stats = {"hp": 140, "mp": 90, "atk": 116, "def": 82, "spd": 162, "int": 96, "res": 88}
+base_recruit = 24
+scoutable = true
+personality_bias = "curious"
+battle_role = "bait_specialist"
+trait_1 = "霞隠れ"
+trait_2 = "光微耐性"
+loot_table_id = "loot_monster_kasumi_suzume"
+prompt_id = "PRM-MON-120"
+notes = "霞の中で星屑のように群れる小雀"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 1, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": -1, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-002"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-029"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-030"}]

@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W01-008"
+scope_id = "W-001"
+name_jp = "コマリ"
+name_en = "Komari"
+role = "牧童の娘"
+dark_role = "借り名の期限が近い子"
+x = 32
+y = 24
+facing = "left"
+npc_type = "minor"
+phase_count = 2
+clue_ids = []
+shop_id = ""
+service_id = ""
+personality_note = "不安を隠して明るく振る舞う"
+initial_dialogue_jp = "あと七日で札が変わるの。……変わったら、前の私はどこへ行くんだろ。"
+notes = "名伏せの野"

@@ -81,6 +81,11 @@
 ## 3.5 Gate Reaction Condition Templates
 
 各門の解放条件を具体的に定義する。条件型は `story_flag` / `arena_rank` / `key_item` / `clue_count` / `family_resonance` / `composite` の6種。
+repo 上の canonical source は `data/csv/progress_gate_master.csv` とし、この表は設計要約として扱う。
+
+- repo 上の canonical row は `data/csv/progress_gate_master.csv` に置く
+- `gate_id` は `GATE-W-001` 形式、`world_id` は `W-001` 形式で 1:1 対応させる
+- `clue_count` は Session 02 baseline では notebook 記録数として `required_record_count` に格納する
 
 | Gate | 世界 | 条件型 | 具体条件 |
 |-----:|------|--------|----------|

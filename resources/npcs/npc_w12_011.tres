@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W12-011"
+scope_id = "W-012"
+name_jp = "ナツメ"
+name_en = "Natsume"
+role = "遺族の母"
+dark_role = "息子の骨箱を港で待ち続けている"
+x = 24
+y = 26
+facing = "down"
+npc_type = "minor"
+phase_count = 2
+clue_ids = []
+shop_id = ""
+service_id = ""
+personality_note = "穏やかだが疲れ切っている"
+initial_dialogue_jp = "毎日来てる。……届くかどうかも分からないけど。"
+notes = "骨樋の港"

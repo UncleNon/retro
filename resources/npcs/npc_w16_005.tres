@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W16-005"
+scope_id = "W-016"
+name_jp = "ハガネ"
+name_en = "Hagane"
+role = "炉床の道具屋"
+dark_role = "鍛造道具と修繕素材を売る"
+x = 30
+y = 20
+facing = "down"
+npc_type = "merchant"
+phase_count = 2
+clue_ids = []
+shop_id = "shop_w16_general"
+service_id = ""
+personality_note = "職人気質で口数少ない"
+initial_dialogue_jp = "いい素材は継ぎ目を選ばない。……安い素材は、選ぶけどな。"
+notes = "焼継の鍛土・道具屋"

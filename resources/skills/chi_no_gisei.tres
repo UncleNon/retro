@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-290"
+slug = "chi_no_gisei"
+name_jp = "ちのぎせい"
+name_en = "Blood Sacrifice"
+category = "recover"
+element = "dark"
+mp_cost = 0
+target_scope = "ally_all"
+formula_key = "H1"
+base_power = 35
+base_rate = 0
+tags = ["recover", "breed", "self_damage", "spread"]
+battle_role = "ALLY_SUSTAIN"
+effect_text = "自HP大幅削り全体回復"

@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-188"
+slug = "meiyaku_fuuin"
+name_jp = "めいやくふういん"
+name_en = "Covenant Seal"
+category = "status"
+element = "light"
+mp_cost = 9
+target_scope = "single"
+formula_key = "S1"
+base_power = 0
+base_rate = 60
+tags = ["single", "status", "divine", "gate_special"]
+battle_role = "CONTROL"
+effect_text = "盟約の封印をかける"

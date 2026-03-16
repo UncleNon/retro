@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-VIL-005"
+scope_id = "VIL"
+name_jp = "ヨヒラ"
+name_en = "Yohira"
+role = "子ども"
+dark_role = "大人が避ける言い回しを素で喋る"
+x = 49
+y = 28
+facing = "down"
+npc_type = "key"
+phase_count = 4
+clue_ids = ["CL-004"]
+shop_id = ""
+service_id = ""
+personality_note = "無邪気で禁句を平気で言う"
+initial_dialogue_jp = "あっちへ行くと人が減るんだって。"
+notes = "開始村"

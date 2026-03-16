@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-446"
+slug = "saiban_juu"
+name_jp = "サイバンジュウ"
+name_en = "Saiban Juu"
+family = "divine"
+rank = "B"
+size_class = "M"
+motif_group = "myth"
+secondary_motif_group = "bureaucratic"
+motif_source = "裁判獣 + 名秤 + 法台"
+ontology_class = "record_bent"
+silhouette_type = "tall"
+palette_id = "pal_judgment_beast"
+field_sprite_px = 16
+battle_sprite_px = 48
+base_level_cap = 78
+growth_curve_id = "LATE"
+base_stats = {"hp": 28, "mp": 18, "atk": 17, "def": 14, "spd": 14, "int": 18, "res": 17}
+cap_stats = {"hp": 216, "mp": 140, "atk": 162, "def": 128, "spd": 132, "int": 152, "res": 144}
+base_recruit = 0
+scoutable = false
+personality_bias = "solemn"
+battle_role = "controller"
+trait_1 = "名秤"
+trait_2 = "封印耐性"
+loot_table_id = "loot_monster_saiban_juu"
+prompt_id = "PRM-MON-446"
+notes = "法台で名を秤にかけ裁く裁判の獣"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 2, "fear": 0, "instant_death": 0, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 1, "hush": 0}
+learnset = []

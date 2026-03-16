@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W06-004"
+scope_id = "W-006"
+name_jp = "セイカ"
+name_en = "Seika"
+role = "巡回祈祷師"
+dark_role = "安い借り鈴を正式な慰撫と偽って売る"
+x = 32
+y = 16
+facing = "up"
+npc_type = "key"
+phase_count = 3
+clue_ids = ["CL-020"]
+shop_id = ""
+service_id = ""
+personality_note = "穏やかな声だが目が冷たい"
+initial_dialogue_jp = "鈴の音は魂を呼ぶ。……正式なものでなければ、届かないよ。"
+notes = "鈴結びの湿地"

@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W09-002"
+scope_id = "W-009"
+name_jp = "カスリ"
+name_en = "Kasuri"
+role = "養親の母"
+dark_role = "預かった子を一人返さず冬名で育てた"
+x = 24
+y = 28
+facing = "right"
+npc_type = "key"
+phase_count = 4
+clue_ids = ["CL-026"]
+shop_id = ""
+service_id = ""
+personality_note = "温かいが秘密を守り通す強さ"
+initial_dialogue_jp = "返すのが決まりだった。……でも、あの子は冬を越した。もう、うちの子だ。"
+notes = "仮親の雪原"

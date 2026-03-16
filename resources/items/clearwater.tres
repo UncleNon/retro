@@ -15,5 +15,5 @@ sell_price = 22
 target_scope = "ally_single"
 effect_key = "heal_mp"
 effect_value = "12"
-tags = ["mp", "village"]
-description = "澄んだ水でMPを少し回復"
+tags = ["mp", "village", "lore_hostel_ledger", "event_h1003"]
+description = "宿帳改めの前に喉を湿らせる澄み水"

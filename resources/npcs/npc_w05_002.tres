@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W05-002"
+scope_id = "W-005"
+name_jp = "マコ"
+name_en = "Mako"
+role = "若い未亡人"
+dark_role = "夫の器を毎朝一つ余分に出す"
+x = 30
+y = 24
+facing = "right"
+npc_type = "key"
+phase_count = 3
+clue_ids = ["CL-017"]
+shop_id = ""
+service_id = ""
+personality_note = "健気で静かな怒りを秘める"
+initial_dialogue_jp = "器を一つ多く出すのは癖。……待ってるわけじゃない。待ってるけど。"
+notes = "香なしの墓苑"

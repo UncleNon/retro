@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-156"
+slug = "mugen_no_yami"
+name_jp = "むげんのやみ"
+name_en = "Endless Dark"
+category = "magic"
+element = "dark"
+mp_cost = 18
+target_scope = "spread"
+formula_key = "M2"
+base_power = 70
+base_rate = 40
+tags = ["spread", "fixed_magic", "dark", "s_rank"]
+battle_role = "CONTROL"
+effect_text = "無限の闇が覆い尽くす"

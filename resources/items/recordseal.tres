@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/item_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+item_id = "item_key_recordseal"
+slug = "recordseal"
+name_jp = "記録印"
+name_en = "Record Seal"
+item_kind = "key"
+subtype = "key_item"
+price = 0
+sell_price = 0
+target_scope = "none"
+effect_key = "story_flag"
+effect_value = "GATE-010"
+tags = ["key", "gate", "lore_double_registry", "event_h1006"]
+description = "二署照合の片側閉じに使う記録印"

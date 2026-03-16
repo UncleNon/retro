@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-233"
+slug = "seishin_kudaki"
+name_jp = "せいしんくだき"
+name_en = "Spirit Crush"
+category = "setup"
+element = "dark"
+mp_cost = 3
+target_scope = "single"
+formula_key = "B2"
+base_power = 0
+base_rate = 88
+tags = ["setup", "debuff", "res", "dark"]
+battle_role = "BREAK_DEF"
+effect_text = "RESを1段階下げる"

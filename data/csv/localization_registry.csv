@@ -1,0 +1,13 @@
+entry_id,locale,key,file_name,notes
+L10N-001,ja,scope.VIL.name,ja.csv,開始村スコープ名
+L10N-002,ja,scope.TWR.name,ja.csv,塔前スコープ名
+L10N-003,ja,gate.GATE-001.name,ja.csv,最初の門ラベル
+L10N-004,ja,gate.GATE-021.name,ja.csv,終端の門ラベル
+L10N-005,ja,clue.CL-001.label,ja.csv,最初の手がかりラベル
+L10N-006,ja,clue.CL-066.label,ja.csv,終盤手がかりラベル
+L10N-007,en,scope.VIL.name,en.csv,starting village scope label
+L10N-008,en,scope.TWR.name,en.csv,tower front scope label
+L10N-009,en,gate.GATE-001.name,en.csv,first gate label
+L10N-010,en,gate.GATE-021.name,en.csv,terminal gate label
+L10N-011,en,clue.CL-001.label,en.csv,first clue label
+L10N-012,en,clue.CL-066.label,en.csv,late clue label

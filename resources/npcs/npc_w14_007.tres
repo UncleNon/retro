@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W14-007"
+scope_id = "W-014"
+name_jp = "スズカ"
+name_en = "Suzuka"
+role = "森の薬師"
+dark_role = "鏡石の影響を受けた者を治療する"
+x = 38
+y = 26
+facing = "left"
+npc_type = "healer"
+phase_count = 2
+clue_ids = []
+shop_id = "shop_w14_clinic"
+service_id = "service_w14_restoration"
+personality_note = "落ち着いていて経験豊富"
+initial_dialogue_jp = "映りの傷は薬では治らない。……でも、体の傷は治せる。"
+notes = "返らずの鏡森・回復"

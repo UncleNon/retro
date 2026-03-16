@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-126"
+slug = "kazamakidori"
+name_jp = "カザマキドリ"
+name_en = "Kazamakidori"
+family = "bird"
+rank = "C"
+size_class = "M"
+motif_group = "animal"
+secondary_motif_group = "astral"
+motif_source = "風巻鳥 + 風読み + 塔外壁"
+ontology_class = "gate_touched"
+silhouette_type = "tall"
+palette_id = "pal_gust_spiral"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 74
+growth_curve_id = "LATE"
+base_stats = {"hp": 22, "mp": 14, "atk": 15, "def": 10, "spd": 19, "int": 14, "res": 12}
+cap_stats = {"hp": 170, "mp": 108, "atk": 142, "def": 96, "spd": 174, "int": 116, "res": 104}
+base_recruit = 12
+scoutable = true
+personality_bias = "restless"
+battle_role = "striker"
+trait_1 = "風巻き"
+trait_2 = "風耐性"
+loot_table_id = "loot_monster_kazamakidori"
+prompt_id = "PRM-MON-126"
+notes = "塔の外壁を螺旋状に飛ぶ風読みの鳥"
+resistances = {"fire": 0, "water": 0, "wind": 1, "earth": 0, "thunder": -1, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": 0, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-049"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-008"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-074"}]

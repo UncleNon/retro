@@ -15,5 +15,5 @@ sell_price = 0
 target_scope = "none"
 effect_key = "story_flag"
 effect_value = "midgame"
-tags = ["key", "story"]
-description = "中盤以降の進行に必要な塔通牒"
+tags = ["key", "story", "lore_gate_exam", "event_h1012"]
+description = "通行験試令以後の門越え許可通牒"

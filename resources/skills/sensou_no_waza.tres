@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-286"
+slug = "sensou_no_waza"
+name_jp = "せんそうのわざ"
+name_en = "War Legacy"
+category = "physical"
+element = "none"
+mp_cost = 10
+target_scope = "single"
+formula_key = "P5"
+base_power = 155
+base_rate = 0
+tags = ["single", "physical", "breed", "crit_bonus"]
+battle_role = "PAYOFF"
+effect_text = "高会心の配合限定技"

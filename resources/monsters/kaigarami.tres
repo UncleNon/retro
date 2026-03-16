@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-332"
+slug = "kaigarami"
+name_jp = "カイガラミ"
+name_en = "Kaigarami"
+family = "undead"
+rank = "D"
+size_class = "S"
+motif_group = "corporeal"
+secondary_motif_group = "funerary"
+motif_source = "蓑虫殻 + 位牌片 + 骨糸"
+ontology_class = "remnant_bearing"
+silhouette_type = "round"
+palette_id = "pal_shell_wrap"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 70
+growth_curve_id = "LATE"
+base_stats = {"hp": 26, "mp": 14, "atk": 10, "def": 14, "spd": 9, "int": 13, "res": 14}
+cap_stats = {"hp": 192, "mp": 108, "atk": 98, "def": 126, "spd": 86, "int": 108, "res": 122}
+base_recruit = 18
+scoutable = true
+personality_bias = "still"
+battle_role = "tank"
+trait_1 = "殻守り"
+trait_2 = "封印微耐性"
+loot_table_id = "loot_monster_kaigarami"
+prompt_id = "PRM-MON-332"
+notes = "位牌の欠片で殻を編んだ蓑虫型の墓守"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": -1, "dark": 1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 1, "fear": 1, "instant_death": 0, "burn": 0, "freeze": 0, "curse": 1, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

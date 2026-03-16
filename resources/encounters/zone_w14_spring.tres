@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="EncounterZoneData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/encounter_zone_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+zone_id = "ZONE-W14-SPRING"
+world_id = "W-014"
+name_jp = "湧水鏡池"
+encounter_min_steps = 10
+encounter_max_steps = 18
+terrain_rate = 1.2
+bgm_id = "BGM-W014-FIELD"
+is_dungeon = false
+time_band = "dusk"
+weather = "fog"
+notes = "本名を映すなと言われる水面"
+entries = [{"slot": 1, "monster_id": "MON-285", "weight": 20, "min_lv": 54, "max_lv": 57, "time_band": "dusk", "weather": "fog"}, {"slot": 2, "monster_id": "MON-287", "weight": 20, "min_lv": 54, "max_lv": 57, "time_band": "dusk", "weather": "fog"}, {"slot": 3, "monster_id": "MON-077", "weight": 15, "min_lv": 55, "max_lv": 57, "time_band": "dusk", "weather": "fog"}, {"slot": 4, "monster_id": "MON-290", "weight": 15, "min_lv": 55, "max_lv": 57, "time_band": "dusk", "weather": "fog"}, {"slot": 5, "monster_id": "MON-168", "weight": 15, "min_lv": 54, "max_lv": 56, "time_band": "dusk", "weather": "fog"}, {"slot": 6, "monster_id": "MON-293", "weight": 15, "min_lv": 56, "max_lv": 58, "time_band": "dusk", "weather": "fog"}]

@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W14-009"
+scope_id = "W-014"
+name_jp = "ツカサ"
+name_en = "Tsukasa"
+role = "アオイの妹"
+dark_role = "通称札を二枚持つ少女"
+x = 20
+y = 22
+facing = "up"
+npc_type = "minor"
+phase_count = 2
+clue_ids = ["CL-036"]
+shop_id = ""
+service_id = ""
+personality_note = "大人しくて兄を信頼している"
+initial_dialogue_jp = "兄が二枚くれた。……一枚で足りるはずなのに。"
+notes = "返らずの鏡森"

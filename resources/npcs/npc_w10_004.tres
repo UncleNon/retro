@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W10-004"
+scope_id = "W-010"
+name_jp = "ドレイ"
+name_en = "Dorei"
+role = "港から来た未亡人"
+dark_role = "夫の別名を知りながら言えない"
+x = 28
+y = 24
+facing = "up"
+npc_type = "key"
+phase_count = 3
+clue_ids = ["CL-027"]
+shop_id = ""
+service_id = ""
+personality_note = "物静かで芯が強い"
+initial_dialogue_jp = "夫の名は転出になっている。……本当の名は、もう一つあった。"
+notes = "群書の塩庫"

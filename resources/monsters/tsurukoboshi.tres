@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-151"
+slug = "tsurukoboshi"
+name_jp = "ツルコボシ"
+name_en = "Tsurukoboshi"
+family = "plant"
+rank = "E"
+size_class = "S"
+motif_group = "plant"
+secondary_motif_group = "astral"
+motif_source = "蔓 + 小星 + 夜垣"
+ontology_class = "wildborn"
+silhouette_type = "wide"
+palette_id = "pal_vine_star"
+field_sprite_px = 16
+battle_sprite_px = 24
+base_level_cap = 60
+growth_curve_id = "EARLY"
+base_stats = {"hp": 16, "mp": 12, "atk": 8, "def": 8, "spd": 13, "int": 12, "res": 11}
+cap_stats = {"hp": 126, "mp": 86, "atk": 82, "def": 84, "spd": 126, "int": 96, "res": 92}
+base_recruit = 34
+scoutable = true
+personality_bias = "curious"
+battle_role = "bait_specialist"
+trait_1 = "星蔓"
+trait_2 = "光微耐性"
+loot_table_id = "loot_monster_tsurukoboshi"
+prompt_id = "PRM-MON-151"
+notes = "夜の垣根で小さな星のように光る蔓"
+resistances = {"fire": -1, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 1, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": -1, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-035"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-029"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-030"}]

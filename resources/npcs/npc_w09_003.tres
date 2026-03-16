@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W09-003"
+scope_id = "W-009"
+name_jp = "ソウマ"
+name_en = "Souma"
+role = "継承候補"
+dark_role = "どちらの家にも道具扱いされたくない"
+x = 40
+y = 24
+facing = "left"
+npc_type = "key"
+phase_count = 4
+clue_ids = ["CL-025"]
+shop_id = ""
+service_id = ""
+personality_note = "鬱屈としているが賢い"
+initial_dialogue_jp = "夏名も冬名も持ってる。でも、どっちの家も俺を名前じゃなくて札で呼ぶ。"
+notes = "仮親の雪原"

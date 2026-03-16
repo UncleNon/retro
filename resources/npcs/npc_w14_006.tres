@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W14-006"
+scope_id = "W-014"
+name_jp = "モリオ"
+name_en = "Morio"
+role = "映り除け布売り"
+dark_role = "鏡石対策の布と道具を売る"
+x = 26
+y = 20
+facing = "right"
+npc_type = "merchant"
+phase_count = 2
+clue_ids = []
+shop_id = "shop_w14_general"
+service_id = ""
+personality_note = "商売上手で知識がある"
+initial_dialogue_jp = "この布で鏡石を覆えば映らない。……完全じゃないけどね。"
+notes = "返らずの鏡森・道具屋"

@@ -15,5 +15,5 @@ sell_price = 0
 target_scope = "none"
 effect_key = "story_flag"
 effect_value = "W-005"
-tags = ["key", "story"]
-description = "W-005の進行に必要な墓塩"
+tags = ["key", "story", "lore_seven_ash", "event_h1002"]
+description = "七灰葬の最後に振る閉じ塩"

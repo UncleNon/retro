@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-456"
+slug = "seimei_kanshi"
+name_jp = "セイメイカンシ"
+name_en = "Seimei Kanshi"
+family = "divine"
+rank = "A"
+size_class = "L"
+motif_group = "myth"
+secondary_motif_group = "gatebound"
+motif_source = "生命監視 + 門核 + 全記録"
+ontology_class = "gate_touched"
+silhouette_type = "tall"
+palette_id = "pal_life_watcher"
+field_sprite_px = 16
+battle_sprite_px = 48
+base_level_cap = 82
+growth_curve_id = "LEGEND"
+base_stats = {"hp": 30, "mp": 20, "atk": 18, "def": 16, "spd": 16, "int": 20, "res": 20}
+cap_stats = {"hp": 232, "mp": 156, "atk": 170, "def": 148, "spd": 148, "int": 168, "res": 168}
+base_recruit = 0
+scoutable = false
+personality_bias = "watchful"
+battle_role = "controller"
+trait_1 = "全記録"
+trait_2 = "光耐性"
+loot_table_id = "loot_monster_seimei_kanshi"
+prompt_id = "PRM-MON-456"
+notes = "門の核で全ての生命を記録し監視する存在"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 1, "dark": -1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": 0, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W14-008"
+scope_id = "W-014"
+name_jp = "カエデ"
+name_en = "Kaede"
+role = "遺留品拾い"
+dark_role = "森で見つかった品を回収する"
+x = 24
+y = 30
+facing = "down"
+npc_type = "minor"
+phase_count = 2
+clue_ids = []
+shop_id = ""
+service_id = ""
+personality_note = "寡黙で仕事に忠実"
+initial_dialogue_jp = "拾ったものは全部届ける。……持ち主が分からないものが、一番多い。"
+notes = "返らずの鏡森"

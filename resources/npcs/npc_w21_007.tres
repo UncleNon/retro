@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W21-007"
+scope_id = "W-021"
+name_jp = "ソメ"
+name_en = "Some"
+role = "帳棚仮市の書記"
+dark_role = "所属断片を押さえようとする"
+x = 38
+y = 14
+facing = "left"
+npc_type = "minor"
+phase_count = 2
+clue_ids = ["CL-053"]
+shop_id = ""
+service_id = ""
+personality_note = "几帳面だが崩壊寸前"
+initial_dialogue_jp = "帳面が白くなっていく。……書いた字が消える。"
+notes = "ほどけの縁・FAC-03 camp"

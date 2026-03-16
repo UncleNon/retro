@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="EncounterZoneData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/encounter_zone_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+zone_id = "ZONE-W21-PLAIN"
+world_id = "W-021"
+name_jp = "境界原"
+encounter_min_steps = 11
+encounter_max_steps = 18
+terrain_rate = 1.1
+bgm_id = "BGM-W021-FIELD"
+is_dungeon = false
+time_band = "any"
+weather = "clear"
+notes = "名も所属も持ち込めない境界の原"
+entries = [{"slot": 1, "monster_id": "MON-460", "weight": 20, "min_lv": 86, "max_lv": 88, "time_band": "any", "weather": "clear"}, {"slot": 2, "monster_id": "MON-411", "weight": 20, "min_lv": 86, "max_lv": 88, "time_band": "any", "weather": "clear"}, {"slot": 3, "monster_id": "MON-503", "weight": 15, "min_lv": 86, "max_lv": 88, "time_band": "any", "weather": "clear"}, {"slot": 4, "monster_id": "MON-357", "weight": 15, "min_lv": 86, "max_lv": 88, "time_band": "any", "weather": "clear"}, {"slot": 5, "monster_id": "MON-300", "weight": 15, "min_lv": 87, "max_lv": 89, "time_band": "any", "weather": "clear"}, {"slot": 6, "monster_id": "MON-504", "weight": 15, "min_lv": 88, "max_lv": 90, "time_band": "any", "weather": "clear"}]

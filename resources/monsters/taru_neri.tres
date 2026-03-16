@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-482"
+slug = "taru_neri"
+name_jp = "タルネリ"
+name_en = "Taru Neri"
+family = "slime"
+rank = "D"
+size_class = "S"
+motif_group = "corporeal"
+secondary_motif_group = "household"
+motif_source = "樽 + 練り + 発酵液"
+ontology_class = "wildborn"
+silhouette_type = "round"
+palette_id = "pal_barrel_gel"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 70
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 26, "mp": 12, "atk": 10, "def": 13, "spd": 9, "int": 11, "res": 12}
+cap_stats = {"hp": 192, "mp": 92, "atk": 96, "def": 118, "spd": 86, "int": 92, "res": 104}
+base_recruit = 20
+scoutable = true
+personality_bias = "patient"
+battle_role = "tank"
+trait_1 = "発酵膜"
+trait_2 = "毒微耐性"
+loot_table_id = "loot_monster_taru_neri"
+prompt_id = "PRM-MON-482"
+notes = "樽から漏れた発酵液が練り上がり動き出した生き物"
+resistances = {"fire": -1, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 1, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": -1, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

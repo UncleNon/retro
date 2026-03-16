@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="ShopData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/shop_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+shop_id = "shop_w09_clinic"
+slug = "w09_clinic"
+registry_id = "SHP-W09-002"
+name_jp = "仮親の雪原 手当所"
+name_en = "Foster Snowfield Clinic"
+shop_type = "specialist"
+scope_id = "W-009"
+zone_id = ""
+story_gate_flag = ""
+rank_gate = ""
+inventory_band = "mid"
+base_price_multiplier = 1.0
+restock_clock = "return_to_hub"
+currency_type = "gold"
+status = "active"
+tags = ["merchant", "healer"]
+notes = "keeper=NPC-W09-008 legacy_alias=SHP-W09-002"
+inventory_entries = [{"slot_no": 1, "item_id": "item_heal_stillmilk", "unlock_flag": "", "unlock_rank": "", "stock_mode": "infinite_common", "max_stock": null, "restock_rule": "return_to_hub", "buy_limit_per_save": null, "price_override": null, "price_multiplier": 1.0, "display_priority": 10, "hidden_until_unlocked": false, "status": "active", "notes": "legacy_alias=SHP-W09-002"}, {"slot_no": 2, "item_id": "item_mp_bluepith", "unlock_flag": "", "unlock_rank": "", "stock_mode": "infinite_common", "max_stock": null, "restock_rule": "return_to_hub", "buy_limit_per_save": null, "price_override": null, "price_multiplier": 1.0, "display_priority": 20, "hidden_until_unlocked": false, "status": "active", "notes": "legacy_alias=SHP-W09-002"}, {"slot_no": 3, "item_id": "item_cure_duskthread", "unlock_flag": "", "unlock_rank": "", "stock_mode": "infinite_common", "max_stock": null, "restock_rule": "return_to_hub", "buy_limit_per_save": null, "price_override": null, "price_multiplier": 1.0, "display_priority": 30, "hidden_until_unlocked": false, "status": "active", "notes": "legacy_alias=SHP-W09-002"}, {"slot_no": 4, "item_id": "item_record_belltube", "unlock_flag": "", "unlock_rank": "", "stock_mode": "infinite_common", "max_stock": null, "restock_rule": "return_to_hub", "buy_limit_per_save": null, "price_override": null, "price_multiplier": 1.0, "display_priority": 40, "hidden_until_unlocked": false, "status": "active", "notes": "legacy_alias=SHP-W09-002"}]
+service_ids = ["service_w09_restoration"]

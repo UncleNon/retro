@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-097"
+slug = "shippo_naguri"
+name_jp = "しっぽなぐり"
+name_en = "Tail Whip"
+category = "physical"
+element = "none"
+mp_cost = 2
+target_scope = "single"
+formula_key = "P2"
+base_power = 90
+base_rate = 30
+tags = ["single", "physical", "beast"]
+battle_role = "CONTROL"
+effect_text = "尻尾でなぎはらう"

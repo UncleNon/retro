@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W07-007"
+scope_id = "W-007"
+name_jp = "フミノ"
+name_en = "Fumino"
+role = "上層の令嬢"
+dark_role = "badge の意味を疑い始めた若者"
+x = 42
+y = 16
+facing = "left"
+npc_type = "minor"
+phase_count = 2
+clue_ids = ["CL-022"]
+shop_id = ""
+service_id = ""
+personality_note = "品があるが内心反発している"
+initial_dialogue_jp = "この badge で私は上にいる。でも、下にいた頃の名前のほうが本物だった。"
+notes = "削名の階市"

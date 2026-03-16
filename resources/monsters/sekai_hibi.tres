@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-301"
+slug = "sekai_hibi"
+name_jp = "セカイヒビ"
+name_en = "Sekai Hibi"
+family = "magic"
+rank = "A"
+size_class = "L"
+motif_group = "abstract"
+secondary_motif_group = "gatebound"
+motif_source = "世界罅 + 次元裂 + 塔継ぎ目"
+ontology_class = "gate_touched"
+silhouette_type = "tall"
+palette_id = "pal_world_crack"
+field_sprite_px = 16
+battle_sprite_px = 48
+base_level_cap = 80
+growth_curve_id = "LEGEND"
+base_stats = {"hp": 26, "mp": 22, "atk": 16, "def": 12, "spd": 18, "int": 20, "res": 18}
+cap_stats = {"hp": 200, "mp": 168, "atk": 150, "def": 110, "spd": 168, "int": 178, "res": 152}
+base_recruit = 0
+scoutable = false
+personality_bias = "sharp"
+battle_role = "striker"
+trait_1 = "罅走り"
+trait_2 = "闇耐性"
+loot_table_id = "loot_monster_sekai_hibi"
+prompt_id = "PRM-MON-301"
+notes = "塔の継ぎ目から走る次元の罅が実体化した存在"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": -1, "dark": 2, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": 2, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

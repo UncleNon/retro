@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-121"
+slug = "arashi_no_tsubasa"
+name_jp = "あらしのつばさ"
+name_en = "Storm Wing"
+category = "physical"
+element = "wind"
+mp_cost = 9
+target_scope = "spread"
+formula_key = "P3"
+base_power = 90
+base_rate = 0
+tags = ["spread", "physical", "wind", "bird"]
+battle_role = "RUSH_OPEN"
+effect_text = "嵐のつばさで薙ぐ"

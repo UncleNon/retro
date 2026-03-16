@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W08-006"
+scope_id = "W-008"
+name_jp = "サヤカ"
+name_en = "Sayaka"
+role = "印鉄売り"
+dark_role = "焼印の道具と飼葉を売る"
+x = 26
+y = 20
+facing = "right"
+npc_type = "merchant"
+phase_count = 2
+clue_ids = []
+shop_id = "shop_w08_general"
+service_id = ""
+personality_note = "たくましく商売熱心"
+initial_dialogue_jp = "いい印鉄が入ったよ。……持ち主が決まる前に買いな。"
+notes = "獣印の放牧環・道具屋"

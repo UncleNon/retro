@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W16-001"
+scope_id = "W-016"
+name_jp = "サラギ"
+name_en = "Saragi"
+role = "継ぎ師"
+dark_role = "偽継ぎ文様も本物に混ぜている"
+x = 28
+y = 18
+facing = "down"
+npc_type = "key"
+phase_count = 4
+clue_ids = ["CL-039", "CL-064"]
+shop_id = ""
+service_id = ""
+personality_note = "誇り高いが境界を越えている"
+initial_dialogue_jp = "継ぎ目を見せるのが正しい。……見せてはいけない継ぎ目もある。"
+notes = "焼継の鍛土"

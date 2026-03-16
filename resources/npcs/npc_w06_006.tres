@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W06-006"
+scope_id = "W-006"
+name_jp = "タマエ"
+name_en = "Tamae"
+role = "鈴修理屋"
+dark_role = "古い鈴の音色から持ち主を推測する"
+x = 30
+y = 18
+facing = "right"
+npc_type = "merchant"
+phase_count = 2
+clue_ids = []
+shop_id = "shop_w06_general"
+service_id = ""
+personality_note = "手先が器用で話好き"
+initial_dialogue_jp = "鈴の音は一つずつ違う。修理しても、前の音には戻らないけどね。"
+notes = "鈴結びの湿地・道具屋"

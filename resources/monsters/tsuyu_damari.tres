@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-478"
+slug = "tsuyu_damari"
+name_jp = "ツユダマリ"
+name_en = "Tsuyu Damari"
+family = "slime"
+rank = "E"
+size_class = "S"
+motif_group = "weather"
+secondary_motif_group = "pastoral"
+motif_source = "露 + 溜り + 朝草"
+ontology_class = "wildborn"
+silhouette_type = "round"
+palette_id = "pal_dew_pool"
+field_sprite_px = 16
+battle_sprite_px = 24
+base_level_cap = 60
+growth_curve_id = "EARLY"
+base_stats = {"hp": 16, "mp": 14, "atk": 6, "def": 7, "spd": 12, "int": 14, "res": 12}
+cap_stats = {"hp": 120, "mp": 96, "atk": 68, "def": 76, "spd": 112, "int": 106, "res": 98}
+base_recruit = 34
+scoutable = true
+personality_bias = "gentle"
+battle_role = "healer"
+trait_1 = "露膜"
+trait_2 = "水微耐性"
+loot_table_id = "loot_monster_tsuyu_damari"
+prompt_id = "PRM-MON-478"
+notes = "朝草の上で露が集まり球体のように動く生き物"
+resistances = {"fire": 0, "water": 1, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": -1, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

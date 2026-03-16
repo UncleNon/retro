@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W03-012"
+scope_id = "W-003"
+name_jp = "モンド"
+name_en = "Mondo"
+role = "用心棒"
+dark_role = "宿場の治安を守る雇われ"
+x = 20
+y = 24
+facing = "up"
+npc_type = "minor"
+phase_count = 1
+clue_ids = []
+shop_id = ""
+service_id = ""
+personality_note = "寡黙で腕が立つ"
+initial_dialogue_jp = "名前は聞かない。それがここの礼儀だ。"
+notes = "継灯の宿場"

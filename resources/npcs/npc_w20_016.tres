@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W20-016"
+scope_id = "W-020"
+name_jp = "トモノリ"
+name_en = "Tomonori"
+role = "闘技場の聖官"
+dark_role = "聖郭付きの闘技場を運営する"
+x = 42
+y = 18
+facing = "down"
+npc_type = "arena"
+phase_count = 2
+clue_ids = []
+shop_id = "shop_w20_arena"
+service_id = "service_w20_arena_entry"
+personality_note = "威厳があり闘技を神聖視する"
+initial_dialogue_jp = "ここでの戦いは試練だ。……勝っても負けても、記録に残る。"
+notes = "継ぎ止めの聖郭・闘技場"

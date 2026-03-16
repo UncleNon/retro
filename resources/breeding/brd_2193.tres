@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="BreedRuleData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/breed_rule_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+rule_id = "BRD-2193"
+rule_type = "special"
+parent_a_key = "MON-482"
+parent_b_key = "MON-484"
+child_monster_id = "MON-492"
+priority = 105
+special_recipe_bonus = 1
+lv_requirement = 14
+notes = "樽練り+タール→境界練り: 世界の縫い目 Step2"

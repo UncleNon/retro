@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-105"
+slug = "koori_no_kiba"
+name_jp = "こおりのきば"
+name_en = "Frost Fang"
+category = "physical"
+element = "water"
+mp_cost = 5
+target_scope = "single"
+formula_key = "P3"
+base_power = 125
+base_rate = 15
+tags = ["single", "physical", "water", "beast"]
+battle_role = "BREAK_DEF"
+effect_text = "冷気をまとう牙"

@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W03-003"
+scope_id = "W-003"
+name_jp = "ホソ"
+name_en = "Hoso"
+role = "写本師兼運脚仲介"
+dark_role = "逃亡者の役名を高値で転写する"
+x = 40
+y = 20
+facing = "left"
+npc_type = "key"
+phase_count = 3
+clue_ids = ["CL-014"]
+shop_id = ""
+service_id = ""
+personality_note = "人当たりよく腹黒い"
+initial_dialogue_jp = "写しは正確に。……ただし、元が正確かは知らないよ。"
+notes = "継灯の宿場"

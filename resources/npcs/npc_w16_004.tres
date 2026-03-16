@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W16-004"
+scope_id = "W-016"
+name_jp = "カエ"
+name_en = "Kae"
+role = "素材broker"
+dark_role = "継ぎ足し図鑑の語彙を配合商へ流す"
+x = 36
+y = 16
+facing = "up"
+npc_type = "key"
+phase_count = 3
+clue_ids = ["CL-040", "CL-064"]
+shop_id = ""
+service_id = ""
+personality_note = "知的で危険な橋渡し役"
+initial_dialogue_jp = "継ぎ足しと配合は同じ言葉で語れる。……それが何を意味するか、分かるかい？"
+notes = "焼継の鍛土"

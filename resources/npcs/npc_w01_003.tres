@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W01-003"
+scope_id = "W-001"
+name_jp = "ネマ"
+name_en = "Nema"
+role = "鈴結い"
+dark_role = "鈴の音で個体を数える思想"
+x = 36
+y = 18
+facing = "left"
+npc_type = "key"
+phase_count = 3
+clue_ids = ["CL-007"]
+shop_id = ""
+service_id = ""
+personality_note = "穏やかで手仕事が好き"
+initial_dialogue_jp = "鈴を結ぶのは名前の代わり。音で誰か分かるようにね。"
+notes = "名伏せの野"

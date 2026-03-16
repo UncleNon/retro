@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-331"
+slug = "bochi_inu"
+name_jp = "ボチイヌ"
+name_en = "Bochi Inu"
+family = "undead"
+rank = "D"
+size_class = "S"
+motif_group = "animal"
+secondary_motif_group = "funerary"
+motif_source = "墓犬 + 忘れ札 + 番犬跡"
+ontology_class = "remnant_bearing"
+silhouette_type = "tall"
+palette_id = "pal_grave_dog"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 66
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 22, "mp": 10, "atk": 14, "def": 10, "spd": 14, "int": 10, "res": 11}
+cap_stats = {"hp": 168, "mp": 76, "atk": 134, "def": 96, "spd": 132, "int": 84, "res": 96}
+base_recruit = 22
+scoutable = true
+personality_bias = "haunted"
+battle_role = "striker"
+trait_1 = "墓番"
+trait_2 = "闇微耐性"
+loot_table_id = "loot_monster_bochi_inu"
+prompt_id = "PRM-MON-331"
+notes = "主人の墓を離れず番をし続ける犬の残り"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": -1, "dark": 1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 1, "instant_death": 0, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

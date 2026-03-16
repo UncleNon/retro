@@ -15,5 +15,5 @@ sell_price = 27
 target_scope = "enemy_single"
 effect_key = "recruit_bonus"
 effect_value = "8"
-tags = ["bait", "starter"]
-description = "乾いた餌で少し気を引く"
+tags = ["bait", "starter", "lore_borrowed_name", "event_h1001"]
+description = "借り名札の子へ余り分として渡る乾き餌"

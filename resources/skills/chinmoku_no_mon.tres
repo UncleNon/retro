@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-293"
+slug = "chinmoku_no_mon"
+name_jp = "ちんもくのもん"
+name_en = "Silent Gate"
+category = "setup"
+element = "none"
+mp_cost = 8
+target_scope = "field"
+formula_key = "B3"
+base_power = 0
+base_rate = 0
+tags = ["setup", "field", "gate_special", "silence"]
+battle_role = "CONTROL"
+effect_text = "場を沈黙させる門"

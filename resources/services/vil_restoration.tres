@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="ServiceData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/service_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+service_id = "service_vil_restoration"
+slug = "vil_restoration"
+registry_id = "SVC-VIL-HEAL"
+name_jp = "開始村 手当て"
+name_en = "Starting Village Restoration"
+service_category = "party_restore"
+scope_id = "VIL"
+pricing_basis = "per_party"
+base_price = 18
+effect_key = "restore_party"
+effect_value = "hp_mp_status"
+uses_per_reset = null
+story_gate_flag = ""
+status = "active"
+tags = ["heal", "field"]
+notes = "keeper=NPC-VIL-014 legacy_alias=SVC-VIL-HEAL"

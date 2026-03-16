@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W07-005"
+scope_id = "W-007"
+name_jp = "ニシカ"
+name_en = "Nishika"
+role = "badge工房の親方"
+dark_role = "階位章の鋳造を独占する"
+x = 32
+y = 20
+facing = "down"
+npc_type = "minor"
+phase_count = 2
+clue_ids = ["CL-061"]
+shop_id = ""
+service_id = ""
+personality_note = "誇り高い職人"
+initial_dialogue_jp = "badge は俺が作る。……誰に渡すかは、俺の知るところじゃない。"
+notes = "削名の階市"

@@ -15,5 +15,5 @@ sell_price = 0
 target_scope = "none"
 effect_key = "story_flag"
 effect_value = "W-002"
-tags = ["key", "story"]
-description = "W-002の進行に必要な灰印"
+tags = ["key", "story", "lore_maternal_judgment", "event_h1004"]
+description = "判乳棚で直系だけに押された灰印の欠片"

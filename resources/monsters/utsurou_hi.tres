@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-265"
+slug = "utsurou_hi"
+name_jp = "ウツロウヒ"
+name_en = "Utsurou Hi"
+family = "magic"
+rank = "E"
+size_class = "S"
+motif_group = "abstract"
+secondary_motif_group = "funerary"
+motif_source = "虚ろ火 + 灯芯 + 弔い路"
+ontology_class = "wildborn"
+silhouette_type = "floating"
+palette_id = "pal_hollow_flame"
+field_sprite_px = 16
+battle_sprite_px = 24
+base_level_cap = 65
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 18, "mp": 12, "atk": 8, "def": 7, "spd": 13, "int": 12, "res": 12}
+cap_stats = {"hp": 140, "mp": 94, "atk": 84, "def": 76, "spd": 126, "int": 100, "res": 104}
+base_recruit = 26
+scoutable = true
+personality_bias = "haunted"
+battle_role = "healer"
+trait_1 = "虚火"
+trait_2 = "火微耐性"
+loot_table_id = "loot_monster_utsurou_hi"
+prompt_id = "PRM-MON-265"
+notes = "弔い路で虚ろに灯る灯芯の火"
+resistances = {"fire": 1, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

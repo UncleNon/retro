@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W13-004"
+scope_id = "W-013"
+name_jp = "ホキ"
+name_en = "Hoki"
+role = "季節broker"
+dark_role = "借り名札の回転で大きく抜いている"
+x = 24
+y = 28
+facing = "up"
+npc_type = "key"
+phase_count = 3
+clue_ids = ["CL-034"]
+shop_id = ""
+service_id = ""
+personality_note = "口達者で抜け目がない"
+initial_dialogue_jp = "札を回すのが仕事だ。誰の名前かなんて、毎年変わるさ。"
+notes = "無籍の葡萄段"

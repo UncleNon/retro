@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W17-010"
+scope_id = "W-017"
+name_jp = "ハツエ"
+name_en = "Hatsue"
+role = "待合の老婆"
+dark_role = "三十年通い続ける遺族"
+x = 22
+y = 26
+facing = "up"
+npc_type = "minor"
+phase_count = 2
+clue_ids = []
+shop_id = ""
+service_id = ""
+personality_note = "穏やかだが止まらない"
+initial_dialogue_jp = "息子の声はまだ聞こえる。……薄くなったけど、聞こえる。"
+notes = "残名の回廊"

@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-202"
+slug = "seimei_no_hikari"
+name_jp = "せいめいのひかり"
+name_en = "Life Light"
+category = "recover"
+element = "light"
+mp_cost = 14
+target_scope = "ally_all"
+formula_key = "H1"
+base_power = 38
+base_rate = 0
+tags = ["recover", "light", "divine", "spread"]
+battle_role = "ALLY_SUSTAIN"
+effect_text = "全体を大きく回復"

@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-411"
+slug = "hodoke_ryuu"
+name_jp = "ホドケリュウ"
+name_en = "Hodoke Ryuu"
+family = "dragon"
+rank = "S"
+size_class = "L"
+motif_group = "myth"
+secondary_motif_group = "gatebound"
+motif_source = "ほどけ竜 + 境界崩壊 + 白泥鱗"
+ontology_class = "remnant_bearing"
+silhouette_type = "serpentine"
+palette_id = "pal_unravel_dragon"
+field_sprite_px = 16
+battle_sprite_px = 56
+base_level_cap = 82
+growth_curve_id = "LEGEND"
+base_stats = {"hp": 30, "mp": 24, "atk": 20, "def": 14, "spd": 22, "int": 22, "res": 22}
+cap_stats = {"hp": 232, "mp": 186, "atk": 188, "def": 128, "spd": 204, "int": 188, "res": 182}
+base_recruit = 0
+scoutable = false
+personality_bias = "blank"
+battle_role = "controller"
+trait_1 = "ほどけ鱗"
+trait_2 = "封印耐性"
+loot_table_id = "loot_monster_hodoke_ryuu"
+prompt_id = "PRM-MON-411"
+notes = "境界そのものがほどけていく白泥の鱗を持つ竜"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 2, "fear": 0, "instant_death": 1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

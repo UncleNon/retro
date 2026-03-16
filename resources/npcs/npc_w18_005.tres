@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W18-005"
+scope_id = "W-018"
+name_jp = "ヒロセ"
+name_en = "Hirose"
+role = "代書婆"
+dark_role = "庶民の書類仕事を長年引き受ける"
+x = 36
+y = 26
+facing = "down"
+npc_type = "minor"
+phase_count = 2
+clue_ids = ["CL-065"]
+shop_id = ""
+service_id = ""
+personality_note = "老練で世の中を知り尽くす"
+initial_dialogue_jp = "字を書けない人のために書く。……書いた字で人生が変わるのは、重い。"
+notes = "二署の法台"

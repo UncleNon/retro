@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-213"
+slug = "kane_semi"
+name_jp = "カネセミ"
+name_en = "Kane Semi"
+family = "material"
+rank = "E"
+size_class = "S"
+motif_group = "tool"
+secondary_motif_group = "funerary"
+motif_source = "鐘 + 蝉 + 祠垣"
+ontology_class = "wildborn"
+silhouette_type = "round"
+palette_id = "pal_bell_cicada"
+field_sprite_px = 16
+battle_sprite_px = 24
+base_level_cap = 64
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 19, "mp": 8, "atk": 10, "def": 10, "spd": 13, "int": 9, "res": 10}
+cap_stats = {"hp": 146, "mp": 58, "atk": 106, "def": 100, "spd": 128, "int": 78, "res": 90}
+base_recruit = 26
+scoutable = true
+personality_bias = "solemn"
+battle_role = "controller"
+trait_1 = "鐘鳴き"
+trait_2 = "光微耐性"
+loot_table_id = "loot_monster_kane_semi"
+prompt_id = "PRM-MON-213"
+notes = "祠垣で鐘の音色に似た声で鳴く金属蝉"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 1, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W04-007"
+scope_id = "W-004"
+name_jp = "ドウザ"
+name_en = "Douza"
+role = "潮待ち宿の主人"
+dark_role = "黒札客を密かに泊める"
+x = 24
+y = 20
+facing = "right"
+npc_type = "merchant"
+phase_count = 2
+clue_ids = []
+shop_id = "shop_w04_general"
+service_id = ""
+personality_note = "世渡り上手で二枚舌"
+initial_dialogue_jp = "泊まるなら白札側がいいよ。……灰側は、まあ、安いけどね。"
+notes = "札差しの岬・道具屋"

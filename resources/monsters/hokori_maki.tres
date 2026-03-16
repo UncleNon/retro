@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-261"
+slug = "hokori_maki"
+name_jp = "ホコリマキ"
+name_en = "Hokori Maki"
+family = "magic"
+rank = "E"
+size_class = "S"
+motif_group = "weather"
+secondary_motif_group = "household"
+motif_source = "塵旋風 + 渦 + 納屋口"
+ontology_class = "wildborn"
+silhouette_type = "floating"
+palette_id = "pal_dust_devil"
+field_sprite_px = 16
+battle_sprite_px = 24
+base_level_cap = 60
+growth_curve_id = "EARLY"
+base_stats = {"hp": 15, "mp": 10, "atk": 9, "def": 6, "spd": 16, "int": 10, "res": 10}
+cap_stats = {"hp": 120, "mp": 76, "atk": 92, "def": 72, "spd": 148, "int": 84, "res": 88}
+base_recruit = 30
+scoutable = true
+personality_bias = "restless"
+battle_role = "striker"
+trait_1 = "塵巻き"
+trait_2 = "風微耐性"
+loot_table_id = "loot_monster_hokori_maki"
+prompt_id = "PRM-MON-261"
+notes = "納屋口で渦を巻く小さな塵旋風"
+resistances = {"fire": 0, "water": 0, "wind": 1, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

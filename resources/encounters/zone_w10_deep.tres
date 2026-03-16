@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="EncounterZoneData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/encounter_zone_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+zone_id = "ZONE-W10-DEEP"
+world_id = "W-010"
+name_jp = "濡れ台帳の底"
+encounter_min_steps = 10
+encounter_max_steps = 16
+terrain_rate = 1.25
+bgm_id = "BGM-W010-BOSS"
+is_dungeon = true
+time_band = "night"
+weather = "fog"
+notes = "水で濡れた台帳が沈む最深部"
+entries = [{"slot": 1, "monster_id": "MON-291", "weight": 20, "min_lv": 40, "max_lv": 42, "time_band": "night", "weather": "fog"}, {"slot": 2, "monster_id": "MON-489", "weight": 20, "min_lv": 40, "max_lv": 42, "time_band": "night", "weather": "fog"}, {"slot": 3, "monster_id": "MON-228", "weight": 15, "min_lv": 40, "max_lv": 42, "time_band": "night", "weather": "fog"}, {"slot": 4, "monster_id": "MON-282", "weight": 15, "min_lv": 40, "max_lv": 41, "time_band": "night", "weather": "fog"}, {"slot": 5, "monster_id": "MON-480", "weight": 15, "min_lv": 41, "max_lv": 43, "time_band": "night", "weather": "fog"}, {"slot": 6, "monster_id": "MON-010", "weight": 15, "min_lv": 42, "max_lv": 43, "time_band": "night", "weather": "fog"}]

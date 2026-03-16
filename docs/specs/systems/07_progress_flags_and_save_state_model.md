@@ -1,7 +1,7 @@
 # 07. Progress Flags And Save State Model
 
 > **ステータス**: Draft v1.0
-> **最終更新**: 2026-03-15
+> **最終更新**: 2026-03-16
 > **参照元**:
 > - `docs/requirements/11_technical_architecture.md`
 > - `docs/specs/story/01_story_bible.md`
@@ -111,6 +111,10 @@
 
 ### 6.2 ゲート条件解決
 
+`progress_gate_master.csv` は `gate_id`, `world_id`, `condition_type`, `required_flag`,
+`required_item_id`, `required_rank`, `required_family_resonance`, `required_record_count`,
+`condition_summary` を持つ。
+
 `progress_gate_master` の条件は、以下の優先順で判定する。
 
 1. `required_flag`
@@ -120,6 +124,13 @@
 5. `required_record_count`
 
 ゲート開放演出は `listening -> awakened -> stable` の順で進める。
+
+実データ契約:
+
+- `gate_id` は `GATE-001` 形式を canonical とする
+- `required_flag` は `EVT_*`, `FLAG_*`, `main.*`, `world.W-###.*` の canonical progress key を使う
+- `required_family_resonance` は `<family>:<min_level>` 形式で保持する
+- `clue_count` 系 gate は Session 02 では `required_record_count` に notebook 記録数を入れて表現する
 
 ---
 
@@ -188,6 +199,21 @@
 - 新規追加フラグは既定値で補完できる構造にする
 - 削除せず非推奨化で吸収する
 
+### 9.3 Session 04 canonical payload
+
+- `gates` は `gate_id -> {revealed, listening, awakened, stable, ruptured, first_cross_complete}` の nested state とする
+- `clues` は `clue_id -> {seen, logged, resolved}` の nested state とする
+- `npcs` は `npc_id -> {phase}` の nested state とする
+- `npc_phases` は Session 04 の runtime / smoke compatibility mirror として保持してよいが、canonical authority は `npcs.{npc_id}.phase`
+- save load 時は repository で未知 ID を落とし、`stats.clues_logged` と `codex.*_count` を再計算する
+
+### 9.4 Session 05 field snapshot baseline
+
+- `worlds.starting_village` は `FIELD-VIL-001` の field-local snapshot を保持してよい
+- field snapshot は `field_id`, `player_tile`, `facing`, `flags`, `encounter_triggered`, `battle_requested`, `battle_resolved`, `first_gate_listening`, `first_crossing_open`, `logged_clue_ids` を最小集合とする
+- `flags` は `field_interaction_master.set_flag_key` / `field_trigger_master.once_flag_key|required_flag_key` で生える local fact を保持する
+- `logged_clue_ids` は field で見つけた story fact の carrier であり、save 正規化時には `clues.{clue_id}.logged` へ合流させる
+
 ---
 
 ## 10. 実績 / 統計
@@ -221,7 +247,7 @@
 |------|----|
 | main flag | `main.story_complete` |
 | world flag | `world.W-001.boss_cleared` |
-| gate flag | `gate.G-004.awakened` |
+| gate flag | `gate.GATE-004.awakened` |
 | npc phase | `npc.NPC-W01-004.phase` |
 | clue flag | `clue.CL-018.logged` |
 

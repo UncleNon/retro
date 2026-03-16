@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="BreedRuleData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/breed_rule_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+rule_id = "BRD-2027"
+rule_type = "special"
+parent_a_key = "MON-082"
+parent_b_key = "MON-093"
+child_monster_id = "MON-098"
+priority = 125
+special_recipe_bonus = 1
+lv_requirement = 35
+notes = "雷光豹+古鉄豹→原羊獅子(S): 原初の獣 7-step final→S"

@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-432"
+slug = "kagura_nezumi"
+name_jp = "カグラネズミ"
+name_en = "Kagura Nezumi"
+family = "divine"
+rank = "D"
+size_class = "S"
+motif_group = "ritual"
+secondary_motif_group = "pastoral"
+motif_source = "神楽鼠 + 舞 + 祭壇"
+ontology_class = "wildborn"
+silhouette_type = "round"
+palette_id = "pal_dance_mouse"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 66
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 18, "mp": 14, "atk": 10, "def": 8, "spd": 16, "int": 14, "res": 12}
+cap_stats = {"hp": 138, "mp": 108, "atk": 98, "def": 82, "spd": 146, "int": 112, "res": 102}
+base_recruit = 22
+scoutable = true
+personality_bias = "restless"
+battle_role = "bait_specialist"
+trait_1 = "神楽舞"
+trait_2 = "光微耐性"
+loot_table_id = "loot_monster_kagura_nezumi"
+prompt_id = "PRM-MON-432"
+notes = "祭壇で神楽を舞う小さな鼠"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 1, "dark": -1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": 0, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

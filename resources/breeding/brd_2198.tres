@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="BreedRuleData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/breed_rule_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+rule_id = "BRD-2198"
+rule_type = "special"
+parent_a_key = "MON-494"
+parent_b_key = "MON-495"
+child_monster_id = "MON-502"
+priority = 120
+special_recipe_bonus = 1
+lv_requirement = 28
+notes = "門液体+世界汗→原始液体(A): 未分化の液体 Step4→A"

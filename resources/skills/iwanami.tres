@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-142"
+slug = "iwanami"
+name_jp = "いわなみ"
+name_en = "Rock Wave"
+category = "magic"
+element = "earth"
+mp_cost = 7
+target_scope = "spread"
+formula_key = "M2"
+base_power = 26
+base_rate = 100
+tags = ["spread", "fixed_magic", "earth"]
+battle_role = "RUSH_OPEN"
+effect_text = "岩の波が押し寄せる"

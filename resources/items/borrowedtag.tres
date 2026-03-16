@@ -15,5 +15,5 @@ sell_price = 0
 target_scope = "none"
 effect_key = "story_flag"
 effect_value = "W-001"
-tags = ["key", "story"]
-description = "W-001の進行に必要な借り名札"
+tags = ["key", "story", "lore_borrowed_name", "event_h1001"]
+description = "借り名の冬を生き延びた古い仮所属札"

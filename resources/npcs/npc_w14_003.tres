@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W14-003"
+scope_id = "W-014"
+name_jp = "キリ"
+name_en = "Kiri"
+role = "鏡継ぎ職"
+dark_role = "割れた鏡石片を身代わり証拠として売る"
+x = 36
+y = 22
+facing = "left"
+npc_type = "key"
+phase_count = 3
+clue_ids = ["CL-035"]
+shop_id = ""
+service_id = ""
+personality_note = "職人気質だが金に弱い"
+initial_dialogue_jp = "鏡石は割れても映る。……何を映すかは、買い手次第だ。"
+notes = "返らずの鏡森"

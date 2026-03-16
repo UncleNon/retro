@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-099"
+slug = "kosuzume"
+name_jp = "コスズメ"
+name_en = "Kosuzume"
+family = "bird"
+rank = "E"
+size_class = "S"
+motif_group = "animal"
+secondary_motif_group = "pastoral"
+motif_source = "雀 + 穀倉 + 札紙巣"
+ontology_class = "wildborn"
+silhouette_type = "round"
+palette_id = "pal_barn_sparrow"
+field_sprite_px = 16
+battle_sprite_px = 24
+base_level_cap = 62
+growth_curve_id = "EARLY"
+base_stats = {"hp": 18, "mp": 8, "atk": 11, "def": 8, "spd": 16, "int": 9, "res": 8}
+cap_stats = {"hp": 138, "mp": 60, "atk": 112, "def": 88, "spd": 148, "int": 78, "res": 82}
+base_recruit = 32
+scoutable = true
+personality_bias = "restless"
+battle_role = "striker"
+trait_1 = "札ちらし"
+trait_2 = "風微耐性"
+loot_table_id = "loot_monster_kosuzume"
+prompt_id = "PRM-MON-099"
+notes = "納屋の札紙で巣を編む穀倉雀"
+resistances = {"fire": 0, "water": 0, "wind": 1, "earth": 0, "thunder": -1, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": -1, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-002"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-033"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-007"}]

@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-454"
+slug = "na_no_hakari"
+name_jp = "ナノハカリ"
+name_en = "Na no Hakari"
+family = "divine"
+rank = "A"
+size_class = "L"
+motif_group = "abstract"
+secondary_motif_group = "bureaucratic"
+motif_source = "名の秤 + 重さ + 聖郭奥殿"
+ontology_class = "record_bent"
+silhouette_type = "floating"
+palette_id = "pal_name_scale"
+field_sprite_px = 16
+battle_sprite_px = 48
+base_level_cap = 80
+growth_curve_id = "LEGEND"
+base_stats = {"hp": 24, "mp": 24, "atk": 16, "def": 13, "spd": 18, "int": 24, "res": 22}
+cap_stats = {"hp": 188, "mp": 186, "atk": 152, "def": 118, "spd": 168, "int": 202, "res": 182}
+base_recruit = 0
+scoutable = false
+personality_bias = "blank"
+battle_role = "controller"
+trait_1 = "名秤り"
+trait_2 = "光耐性"
+loot_table_id = "loot_monster_na_no_hakari"
+prompt_id = "PRM-MON-454"
+notes = "聖郭の奥殿で名の重さを量る浮遊する秤の霊格"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 2, "dark": -1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": 0, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

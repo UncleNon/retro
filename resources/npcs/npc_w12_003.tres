@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W12-003"
+scope_id = "W-012"
+name_jp = "ゴロ"
+name_en = "Goro"
+role = "骨洗い男"
+dark_role = "姉の骨箱の行先札を入れ替えた"
+x = 22
+y = 28
+facing = "left"
+npc_type = "key"
+phase_count = 4
+clue_ids = ["CL-032"]
+shop_id = ""
+service_id = ""
+personality_note = "粗野だが情に厚い"
+initial_dialogue_jp = "骨を洗うのは慣れた。……姉の骨だけは、まだ洗えない。"
+notes = "骨樋の港"

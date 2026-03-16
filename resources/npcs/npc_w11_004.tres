@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W11-004"
+scope_id = "W-011"
+name_jp = "サヤ"
+name_en = "Saya"
+role = "巡礼女"
+dark_role = "借りbadgeで奥回廊へ入ったことがある"
+x = 28
+y = 28
+facing = "up"
+npc_type = "key"
+phase_count = 3
+clue_ids = ["CL-030"]
+shop_id = ""
+service_id = ""
+personality_note = "静かで決意がある"
+initial_dialogue_jp = "兄のbadgeを縫い続けている。……兄はもう戻らないけど。"
+notes = "逆誓の修院"

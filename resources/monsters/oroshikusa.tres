@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-167"
+slug = "oroshikusa"
+name_jp = "オロシグサ"
+name_en = "Oroshigusa"
+family = "plant"
+rank = "C"
+size_class = "M"
+motif_group = "plant"
+secondary_motif_group = "household"
+motif_source = "降ろし草 + 薬研 + 鍛冶場"
+ontology_class = "wildborn"
+silhouette_type = "tall"
+palette_id = "pal_grater_herb"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 72
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 22, "mp": 14, "atk": 14, "def": 10, "spd": 16, "int": 14, "res": 12}
+cap_stats = {"hp": 170, "mp": 108, "atk": 134, "def": 96, "spd": 148, "int": 116, "res": 104}
+base_recruit = 14
+scoutable = true
+personality_bias = "sharp"
+battle_role = "striker"
+trait_1 = "すり降ろし"
+trait_2 = "火微耐性"
+loot_table_id = "loot_monster_oroshikusa"
+prompt_id = "PRM-MON-167"
+notes = "鍛冶場の薬研で磨かれた降ろし草の精"
+resistances = {"fire": -1, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": -1, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-043"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-053"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-033"}]

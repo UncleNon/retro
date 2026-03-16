@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W12-004"
+scope_id = "W-012"
+name_jp = "レミ"
+name_en = "Remi"
+role = "badge売り娘"
+dark_role = "偽badgeとclean cordを同じ縫場で売る"
+x = 40
+y = 24
+facing = "up"
+npc_type = "key"
+phase_count = 3
+clue_ids = ["CL-031"]
+shop_id = ""
+service_id = ""
+personality_note = "可愛らしいが商売に長ける"
+initial_dialogue_jp = "badge もcordも、縫い方は同じ。……意味が違うだけ。"
+notes = "骨樋の港"

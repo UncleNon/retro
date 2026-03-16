@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W18-006"
+scope_id = "W-018"
+name_jp = "ジンザ"
+name_en = "Jinza"
+role = "監査避け仲介"
+dark_role = "二署間の矛盾を利用して稼ぐ"
+x = 22
+y = 20
+facing = "right"
+npc_type = "minor"
+phase_count = 2
+clue_ids = ["CL-044"]
+shop_id = ""
+service_id = ""
+personality_note = "抜け目がなく愛想がいい"
+initial_dialogue_jp = "法印と記印が合わないと困るだろ？　合わせてやるよ、手数料は要るけど。"
+notes = "二署の法台"

@@ -15,5 +15,5 @@ sell_price = 36
 target_scope = "ally_single"
 effect_key = "heal_mp"
 effect_value = "20"
-tags = ["mp", "field"]
-description = "苦い露でMPを回復"
+tags = ["mp", "field", "lore_double_registry", "event_h1006"]
+description = "二つの台帳を跨ぐ書記が含む苦露"

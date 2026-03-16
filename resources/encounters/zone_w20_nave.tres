@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="EncounterZoneData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/encounter_zone_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+zone_id = "ZONE-W20-NAVE"
+world_id = "W-020"
+name_jp = "聖郭身廊"
+encounter_min_steps = 12
+encounter_max_steps = 20
+terrain_rate = 1.05
+bgm_id = "BGM-W020-FIELD"
+is_dungeon = false
+time_band = "day"
+weather = "clear"
+notes = "複合支配体制の中心広間"
+entries = [{"slot": 1, "monster_id": "MON-449", "weight": 20, "min_lv": 80, "max_lv": 82, "time_band": "day", "weather": "clear"}, {"slot": 2, "monster_id": "MON-459", "weight": 20, "min_lv": 80, "max_lv": 82, "time_band": "day", "weather": "clear"}, {"slot": 3, "monster_id": "MON-353", "weight": 15, "min_lv": 80, "max_lv": 82, "time_band": "day", "weather": "clear"}, {"slot": 4, "monster_id": "MON-452", "weight": 15, "min_lv": 80, "max_lv": 82, "time_band": "day", "weather": "clear"}, {"slot": 5, "monster_id": "MON-299", "weight": 15, "min_lv": 81, "max_lv": 83, "time_band": "day", "weather": "clear"}, {"slot": 6, "monster_id": "MON-401", "weight": 15, "min_lv": 81, "max_lv": 83, "time_band": "day", "weather": "clear"}]

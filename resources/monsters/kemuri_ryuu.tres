@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-384"
+slug = "kemuri_ryuu"
+name_jp = "ケムリリュウ"
+name_en = "Kemuri Ryuu"
+family = "dragon"
+rank = "D"
+size_class = "S"
+motif_group = "weather"
+secondary_motif_group = "household"
+motif_source = "煙竜 + 煤 + 煙突"
+ontology_class = "wildborn"
+silhouette_type = "tall"
+palette_id = "pal_smoke_wyrm"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 68
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 22, "mp": 12, "atk": 13, "def": 10, "spd": 15, "int": 12, "res": 11}
+cap_stats = {"hp": 166, "mp": 92, "atk": 126, "def": 94, "spd": 140, "int": 98, "res": 94}
+base_recruit = 20
+scoutable = true
+personality_bias = "cunning"
+battle_role = "bait_specialist"
+trait_1 = "煙隠れ"
+trait_2 = "火微耐性"
+loot_table_id = "loot_monster_kemuri_ryuu"
+prompt_id = "PRM-MON-384"
+notes = "煙突に棲みつき煤色の煙を吐く小さな竜"
+resistances = {"fire": 1, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": 1, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

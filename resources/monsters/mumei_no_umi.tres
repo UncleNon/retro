@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-500"
+slug = "mumei_no_umi"
+name_jp = "ムメイノウミ"
+name_en = "Mumei no Umi"
+family = "slime"
+rank = "A"
+size_class = "L"
+motif_group = "abstract"
+secondary_motif_group = "gatebound"
+motif_source = "無銘の海 + 溶解 + 境界底"
+ontology_class = "remnant_bearing"
+silhouette_type = "massive"
+palette_id = "pal_nameless_sea"
+field_sprite_px = 16
+battle_sprite_px = 48
+base_level_cap = 82
+growth_curve_id = "LEGEND"
+base_stats = {"hp": 34, "mp": 22, "atk": 16, "def": 14, "spd": 14, "int": 22, "res": 22}
+cap_stats = {"hp": 260, "mp": 172, "atk": 152, "def": 128, "spd": 132, "int": 186, "res": 182}
+base_recruit = 0
+scoutable = false
+personality_bias = "blank"
+battle_role = "controller"
+trait_1 = "無銘溶解"
+trait_2 = "封印耐性"
+loot_table_id = "loot_monster_mumei_no_umi"
+prompt_id = "PRM-MON-500"
+notes = "名を持たぬものが溶け合った境界の底に広がる海"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 2, "fear": 0, "instant_death": 0, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 2, "hush": 0}
+learnset = []

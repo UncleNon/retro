@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="EncounterZoneData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/encounter_zone_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+zone_id = "ZONE-W15-GATE"
+world_id = "W-015"
+name_jp = "黒布の門"
+encounter_min_steps = 14
+encounter_max_steps = 22
+terrain_rate = 1.0
+bgm_id = "BGM-W015-FIELD"
+is_dungeon = false
+time_band = "day"
+weather = "clear"
+notes = "黒布の巡礼路への入口"
+entries = [{"slot": 1, "monster_id": "MON-438", "weight": 20, "min_lv": 56, "max_lv": 58, "time_band": "day", "weather": "clear"}, {"slot": 2, "monster_id": "MON-343", "weight": 20, "min_lv": 56, "max_lv": 58, "time_band": "day", "weather": "clear"}, {"slot": 3, "monster_id": "MON-127", "weight": 15, "min_lv": 56, "max_lv": 57, "time_band": "day", "weather": "clear"}, {"slot": 4, "monster_id": "MON-431", "weight": 15, "min_lv": 56, "max_lv": 58, "time_band": "day", "weather": "clear"}, {"slot": 5, "monster_id": "MON-350", "weight": 15, "min_lv": 57, "max_lv": 58, "time_band": "day", "weather": "clear"}, {"slot": 6, "monster_id": "MON-442", "weight": 15, "min_lv": 57, "max_lv": 59, "time_band": "day", "weather": "clear"}]

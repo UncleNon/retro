@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="BreedRuleData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/breed_rule_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+rule_id = "BRD-2099"
+rule_type = "special"
+parent_a_key = "MON-260"
+parent_b_key = "MON-262"
+child_monster_id = "MON-272"
+priority = 100
+special_recipe_bonus = 1
+lv_requirement = 10
+notes = "人魂子+墨玉→印影: 査定場の浮遊印 Step1"

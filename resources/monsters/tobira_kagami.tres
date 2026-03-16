@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-248"
+slug = "tobira_kagami"
+name_jp = "トビラカガミ"
+name_en = "Tobira Kagami"
+family = "material"
+rank = "A"
+size_class = "L"
+motif_group = "tool"
+secondary_motif_group = "astral"
+motif_source = "扉鏡 + 反射盤 + 鏡門"
+ontology_class = "gate_touched"
+silhouette_type = "wide"
+palette_id = "pal_door_mirror"
+field_sprite_px = 16
+battle_sprite_px = 48
+base_level_cap = 78
+growth_curve_id = "LEGEND"
+base_stats = {"hp": 28, "mp": 18, "atk": 15, "def": 16, "spd": 14, "int": 18, "res": 16}
+cap_stats = {"hp": 216, "mp": 136, "atk": 142, "def": 148, "spd": 132, "int": 146, "res": 138}
+base_recruit = 0
+scoutable = false
+personality_bias = "watchful"
+battle_role = "controller"
+trait_1 = "鏡門守り"
+trait_2 = "光耐性"
+loot_table_id = "loot_monster_tobira_kagami"
+prompt_id = "PRM-MON-248"
+notes = "鏡門の扉に嵌め込まれた反射盤が通過者を映して判定する"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 2, "dark": -1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": 2, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 1, "hush": 0}
+learnset = []

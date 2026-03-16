@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W08-003"
+scope_id = "W-008"
+name_jp = "バセ"
+name_en = "Base"
+role = "耳notch刻み"
+dark_role = "切り欠き読みを誤魔化して配給をずらす"
+x = 36
+y = 22
+facing = "left"
+npc_type = "key"
+phase_count = 3
+clue_ids = ["CL-024"]
+shop_id = ""
+service_id = ""
+personality_note = "手先が器用で生活が苦しい"
+initial_dialogue_jp = "耳の形は一頭ずつ違う。……読み間違えることも、ある。"
+notes = "獣印の放牧環"

@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-124"
+slug = "hyouga_otoshi"
+name_jp = "ひょうがおとし"
+name_en = "Glacier Crash"
+category = "physical"
+element = "water"
+mp_cost = 10
+target_scope = "single"
+formula_key = "P5"
+base_power = 155
+base_rate = 15
+tags = ["single", "physical", "water"]
+battle_role = "BREAK_DEF"
+effect_text = "氷河を落とす一撃"

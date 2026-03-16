@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W01-005"
+scope_id = "W-001"
+name_jp = "カセ"
+name_en = "Kase"
+role = "外来の修繕屋"
+dark_role = "別世界の名隠し文化を知る"
+x = 11
+y = 27
+facing = "right"
+npc_type = "minor"
+phase_count = 2
+clue_ids = []
+shop_id = ""
+service_id = ""
+personality_note = "飄々としたよそ者"
+initial_dialogue_jp = "どこへ行っても名前の扱いは面倒だ。ここだけじゃないさ。"
+notes = "名伏せの野"

@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="EncounterZoneData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/encounter_zone_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+zone_id = "ZONE-W21-GATE"
+world_id = "W-021"
+name_jp = "白泥門"
+encounter_min_steps = 14
+encounter_max_steps = 22
+terrain_rate = 0.9
+bgm_id = "BGM-W021-FIELD"
+is_dungeon = false
+time_band = "any"
+weather = "clear"
+notes = "ほどけの縁への入口"
+entries = [{"slot": 1, "monster_id": "MON-300", "weight": 15, "min_lv": 84, "max_lv": 86, "time_band": "any", "weather": "clear"}, {"slot": 2, "monster_id": "MON-461", "weight": 15, "min_lv": 84, "max_lv": 86, "time_band": "any", "weather": "clear"}, {"slot": 3, "monster_id": "MON-503", "weight": 15, "min_lv": 84, "max_lv": 86, "time_band": "any", "weather": "clear"}, {"slot": 4, "monster_id": "MON-411", "weight": 15, "min_lv": 85, "max_lv": 87, "time_band": "any", "weather": "clear"}, {"slot": 5, "monster_id": "MON-460", "weight": 20, "min_lv": 85, "max_lv": 87, "time_band": "any", "weather": "clear"}, {"slot": 6, "monster_id": "MON-357", "weight": 20, "min_lv": 85, "max_lv": 87, "time_band": "any", "weather": "clear"}]

@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-306"
+slug = "tou_no_kaidan"
+name_jp = "とうのかいだん"
+name_en = "Tower Stair"
+category = "utility"
+element = "none"
+mp_cost = 8
+target_scope = "field"
+formula_key = "F1"
+base_power = 0
+base_rate = 100
+tags = ["utility", "gate_special", "tower_reactive", "warp"]
+battle_role = "FIELD_LINK"
+effect_text = "塔の階段を呼び出す"

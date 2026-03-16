@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-280"
+slug = "futago_no_kizuna"
+name_jp = "ふたごのきずな"
+name_en = "Twin Bond"
+category = "setup"
+element = "none"
+mp_cost = 7
+target_scope = "ally_all"
+formula_key = "B1"
+base_power = 0
+base_rate = 0
+tags = ["setup", "buff", "atk", "def", "breed"]
+battle_role = "ALLY_SUSTAIN"
+effect_text = "全体ATKとDEF小上昇"

@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W11-003"
+scope_id = "W-011"
+name_jp = "ギオ"
+name_en = "Gio"
+role = "鐘磨き"
+dark_role = "役割名刻みを抜き取っている"
+x = 38
+y = 22
+facing = "left"
+npc_type = "key"
+phase_count = 3
+clue_ids = ["CL-030"]
+shop_id = ""
+service_id = ""
+personality_note = "欲深いが腕は確か"
+initial_dialogue_jp = "鐘の音は変わらない。……刻んだ名だけが変わる。"
+notes = "逆誓の修院"

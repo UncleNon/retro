@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="BreedRuleData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/breed_rule_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+rule_id = "BRD-2065"
+rule_type = "special"
+parent_a_key = "MON-177"
+parent_b_key = "MON-180"
+child_monster_id = "MON-182"
+priority = 125
+special_recipe_bonus = 1
+lv_requirement = 35
+notes = "神木杉+大樹根→太根木(S): 門柱の大木 7-step→S"

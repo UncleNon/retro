@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W05-007"
+scope_id = "W-005"
+name_jp = "カヤ"
+name_en = "Kaya"
+role = "薬草摘みの女"
+dark_role = "墓地周辺の薬草で治療する"
+x = 34
+y = 26
+facing = "left"
+npc_type = "healer"
+phase_count = 2
+clue_ids = []
+shop_id = "shop_w05_clinic"
+service_id = "service_w05_restoration"
+personality_note = "物静かで優しい"
+initial_dialogue_jp = "墓の近くの草ほどよく効く。……理由は聞かないで。"
+notes = "香なしの墓苑・回復"

@@ -15,5 +15,5 @@ sell_price = 0
 target_scope = "none"
 effect_key = "story_flag"
 effect_value = "W-003"
-tags = ["key", "story"]
-description = "W-003の進行に必要な宿名灯"
+tags = ["key", "story", "lore_hostel_ledger", "event_h1003"]
+description = "灯番宿が真名客へだけ掲げた宿名灯"

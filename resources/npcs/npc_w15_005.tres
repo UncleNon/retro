@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W15-005"
+scope_id = "W-015"
+name_jp = "カザネ"
+name_en = "Kazane"
+role = "風穴の番人"
+dark_role = "声伏せの風穴を管理する"
+x = 34
+y = 14
+facing = "down"
+npc_type = "minor"
+phase_count = 2
+clue_ids = ["CL-063"]
+shop_id = ""
+service_id = ""
+personality_note = "厳格だが心の中で泣いている"
+initial_dialogue_jp = "ここで素顔を晒した布は、二度と使えない。……捨てるのは、私の仕事だ。"
+notes = "黒布の巡礼路"

@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-287"
+slug = "keishou_no_noroi"
+name_jp = "けいしょうののろい"
+name_en = "Lineage Curse"
+category = "status"
+element = "dark"
+mp_cost = 8
+target_scope = "single"
+formula_key = "S1"
+base_power = 0
+base_rate = 55
+tags = ["single", "status", "curse", "breed"]
+battle_role = "STATUS_SETUP"
+effect_text = "血統に宿る呪い"

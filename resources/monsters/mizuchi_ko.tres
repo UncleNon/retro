@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-377"
+slug = "mizuchi_ko"
+name_jp = "ミズチコ"
+name_en = "Mizuchi Ko"
+family = "dragon"
+rank = "E"
+size_class = "S"
+motif_group = "animal"
+secondary_motif_group = "gatebound"
+motif_source = "蛟 + 仔 + 水辺"
+ontology_class = "gate_touched"
+silhouette_type = "serpentine"
+palette_id = "pal_baby_mizuchi"
+field_sprite_px = 16
+battle_sprite_px = 24
+base_level_cap = 68
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 22, "mp": 11, "atk": 12, "def": 10, "spd": 13, "int": 10, "res": 10}
+cap_stats = {"hp": 164, "mp": 78, "atk": 114, "def": 96, "spd": 126, "int": 84, "res": 90}
+base_recruit = 22
+scoutable = true
+personality_bias = "restless"
+battle_role = "striker"
+trait_1 = "水噛み"
+trait_2 = "水微耐性"
+loot_table_id = "loot_monster_mizuchi_ko"
+prompt_id = "PRM-MON-377"
+notes = "水辺に現れる蛟の幼体で門に近い場所を好む"
+resistances = {"fire": 0, "water": 1, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

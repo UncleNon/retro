@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="BreedRuleData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/breed_rule_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+rule_id = "BRD-1050"
+rule_type = "family"
+parent_a_key = "family:material"
+parent_b_key = "family:magic"
+child_monster_id = "MON-260"
+priority = 50
+special_recipe_bonus = 0
+lv_requirement = 10
+notes = "material×magic→magic: 魔性側が器物を取込"

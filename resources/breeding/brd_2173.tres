@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="BreedRuleData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/breed_rule_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+rule_id = "BRD-2173"
+rule_type = "special"
+parent_a_key = "MON-435"
+parent_b_key = "MON-429"
+child_monster_id = "MON-440"
+priority = 105
+special_recipe_bonus = 1
+lv_requirement = 14
+notes = "指名鶴+標識蛇→星座獣: 天文台の星図 Step2"

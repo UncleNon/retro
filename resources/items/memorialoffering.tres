@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/item_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+item_id = "item_key_memorialoffering"
+slug = "memorialoffering"
+name_jp = "供養品"
+name_en = "Memorial Offering"
+item_kind = "key"
+subtype = "key_item"
+price = 0
+sell_price = 0
+target_scope = "none"
+effect_key = "story_flag"
+effect_value = "GATE-005"
+tags = ["key", "gate", "lore_seven_ash", "event_h1002"]
+description = "七灰葬の不足分を埋める代用供物束"

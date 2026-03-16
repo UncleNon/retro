@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-423"
+slug = "shizuka_kame"
+name_jp = "シズカカメ"
+name_en = "Shizuka Kame"
+family = "divine"
+rank = "E"
+size_class = "S"
+motif_group = "myth"
+secondary_motif_group = "funerary"
+motif_source = "静亀 + 石碑 + 境内池"
+ontology_class = "wildborn"
+silhouette_type = "round"
+palette_id = "pal_still_tortoise"
+field_sprite_px = 16
+battle_sprite_px = 24
+base_level_cap = 68
+growth_curve_id = "EARLY"
+base_stats = {"hp": 24, "mp": 9, "atk": 8, "def": 14, "spd": 7, "int": 9, "res": 12}
+cap_stats = {"hp": 176, "mp": 66, "atk": 82, "def": 128, "spd": 72, "int": 76, "res": 104}
+base_recruit = 28
+scoutable = true
+personality_bias = "calm"
+battle_role = "tank"
+trait_1 = "静寂甲"
+trait_2 = "水微耐性"
+loot_table_id = "loot_monster_shizuka_kame"
+prompt_id = "PRM-MON-423"
+notes = "境内の池で石碑のように動かない亀"
+resistances = {"fire": 0, "water": 1, "wind": 0, "earth": 0, "thunder": 0, "light": 1, "dark": -1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": 0, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

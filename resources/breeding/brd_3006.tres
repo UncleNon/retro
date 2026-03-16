@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="BreedRuleData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/breed_rule_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+rule_id = "BRD-3006"
+rule_type = "mutation"
+parent_a_key = "family:undead"
+parent_b_key = "family:material"
+child_monster_id = "MON-346"
+priority = 65
+special_recipe_bonus = 0
+lv_requirement = 20
+notes = "不死×器物で残名鎧への palette_shift 変異: 回廊壁近接で確率上昇"

@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="ServiceData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/service_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+service_id = "service_w09_breeding"
+slug = "w09_breeding"
+registry_id = "SVC-W09-BREED"
+name_jp = "仮親の雪原 配合相談"
+name_en = "Foster Snowfield Breeding Assist"
+service_category = "fusion_assist"
+scope_id = "W-009"
+pricing_basis = "flat"
+base_price = 310
+effect_key = "open_breeding"
+effect_value = "standard"
+uses_per_reset = null
+story_gate_flag = ""
+status = "active"
+tags = ["breed", "facility"]
+notes = "keeper=NPC-W09-012 legacy_alias=SVC-W09-BREED"

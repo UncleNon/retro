@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W01-010"
+scope_id = "W-001"
+name_jp = "ヌイ"
+name_en = "Nui"
+role = "薬草売りの女"
+dark_role = "湿名の葦原の薬草を扱う"
+x = 35
+y = 22
+facing = "right"
+npc_type = "healer"
+phase_count = 2
+clue_ids = []
+shop_id = "shop_w01_clinic"
+service_id = "service_w01_restoration"
+personality_note = "物静かで薬の知識が深い"
+initial_dialogue_jp = "葦原の草は名を吸う。だから効くんだよ。"
+notes = "名伏せの野・回復"

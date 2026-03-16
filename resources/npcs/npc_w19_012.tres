@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W19-012"
+scope_id = "W-019"
+name_jp = "ハヤテ"
+name_en = "Hayate"
+role = "闘技場の管理人"
+dark_role = "塔都の闘技場を運営する"
+x = 42
+y = 14
+facing = "right"
+npc_type = "arena"
+phase_count = 2
+clue_ids = []
+shop_id = "shop_w19_arena"
+service_id = "service_w19_arena_entry"
+personality_note = "厳しいが育成者を尊重する"
+initial_dialogue_jp = "ここで試されるのはrankだけじゃない。……覚悟もだ。"
+notes = "閉鐘の塔都・闘技場"

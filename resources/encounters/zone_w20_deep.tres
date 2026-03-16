@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="EncounterZoneData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/encounter_zone_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+zone_id = "ZONE-W20-DEEP"
+world_id = "W-020"
+name_jp = "聖口門"
+encounter_min_steps = 10
+encounter_max_steps = 16
+terrain_rate = 1.35
+bgm_id = "BGM-W020-BOSS"
+is_dungeon = true
+time_band = "night"
+weather = "fog"
+notes = "審問と記録を抱え込む最深門"
+entries = [{"slot": 1, "monster_id": "MON-401", "weight": 20, "min_lv": 84, "max_lv": 87, "time_band": "night", "weather": "fog"}, {"slot": 2, "monster_id": "MON-354", "weight": 20, "min_lv": 84, "max_lv": 87, "time_band": "night", "weather": "fog"}, {"slot": 3, "monster_id": "MON-500", "weight": 15, "min_lv": 85, "max_lv": 87, "time_band": "night", "weather": "fog"}, {"slot": 4, "monster_id": "MON-452", "weight": 15, "min_lv": 84, "max_lv": 86, "time_band": "night", "weather": "fog"}, {"slot": 5, "monster_id": "MON-459", "weight": 15, "min_lv": 85, "max_lv": 87, "time_band": "night", "weather": "fog"}, {"slot": 6, "monster_id": "MON-010", "weight": 15, "min_lv": 86, "max_lv": 88, "time_band": "night", "weather": "fog"}]

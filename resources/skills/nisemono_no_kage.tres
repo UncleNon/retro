@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-292"
+slug = "nisemono_no_kage"
+name_jp = "にせもののかげ"
+name_en = "False Shadow"
+category = "status"
+element = "dark"
+mp_cost = 7
+target_scope = "single"
+formula_key = "S2"
+base_power = 0
+base_rate = 50
+tags = ["single", "status", "dark", "breed"]
+battle_role = "CONTROL"
+effect_text = "偽物の影を纏わせる"

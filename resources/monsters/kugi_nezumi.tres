@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-202"
+slug = "kugi_nezumi"
+name_jp = "クギネズミ"
+name_en = "Kugi Nezumi"
+family = "material"
+rank = "E"
+size_class = "S"
+motif_group = "tool"
+secondary_motif_group = "household"
+motif_source = "釘 + 鼠 + 板壁"
+ontology_class = "wildborn"
+silhouette_type = "round"
+palette_id = "pal_nail_mouse"
+field_sprite_px = 16
+battle_sprite_px = 24
+base_level_cap = 61
+growth_curve_id = "EARLY"
+base_stats = {"hp": 16, "mp": 6, "atk": 12, "def": 8, "spd": 16, "int": 8, "res": 7}
+cap_stats = {"hp": 128, "mp": 48, "atk": 118, "def": 86, "spd": 148, "int": 72, "res": 72}
+base_recruit = 32
+scoutable = true
+personality_bias = "cunning"
+battle_role = "striker"
+trait_1 = "釘かじり"
+trait_2 = "雷微耐性"
+loot_table_id = "loot_monster_kugi_nezumi"
+prompt_id = "PRM-MON-202"
+notes = "板壁の釘を引き抜いて走り回る金属の小鼠"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 1, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

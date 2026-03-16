@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="BreedRuleData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/breed_rule_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+rule_id = "BRD-2162"
+rule_type = "special"
+parent_a_key = "MON-408"
+parent_b_key = "MON-409"
+child_monster_id = "MON-411"
+priority = 130
+special_recipe_bonus = 1
+lv_requirement = 40
+notes = "脊椎竜+深淵竜→ほどけ竜(S): 境界崩壊の白泥鱗 ultimate→S"

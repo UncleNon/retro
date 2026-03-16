@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-334"
+slug = "sabi_yoroi_mushi"
+name_jp = "サビヨロイムシ"
+name_en = "Sabi Yoroi Mushi"
+family = "undead"
+rank = "D"
+size_class = "S"
+motif_group = "tool"
+secondary_motif_group = "household"
+motif_source = "甲虫 + 錆鎧 + 兵装箱"
+ontology_class = "remnant_bearing"
+silhouette_type = "wide"
+palette_id = "pal_rust_armor_bug"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 68
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 24, "mp": 10, "atk": 12, "def": 16, "spd": 8, "int": 9, "res": 11}
+cap_stats = {"hp": 180, "mp": 78, "atk": 118, "def": 142, "spd": 80, "int": 76, "res": 98}
+base_recruit = 20
+scoutable = true
+personality_bias = "still"
+battle_role = "tank"
+trait_1 = "錆鎧"
+trait_2 = "火微耐性"
+loot_table_id = "loot_monster_sabi_yoroi_mushi"
+prompt_id = "PRM-MON-334"
+notes = "古い兵装箱に棲みつき鎧ごと動く甲虫の残骸"
+resistances = {"fire": 1, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": -1, "dark": 1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 1, "instant_death": 0, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

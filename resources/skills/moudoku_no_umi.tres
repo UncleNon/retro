@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-189"
+slug = "moudoku_no_umi"
+name_jp = "もうどくのうみ"
+name_en = "Venom Sea"
+category = "status"
+element = "none"
+mp_cost = 9
+target_scope = "spread"
+formula_key = "S1"
+base_power = 0
+base_rate = 40
+tags = ["spread", "status", "poison", "breed"]
+battle_role = "STATUS_SETUP"
+effect_text = "猛毒の海が広がる"

@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-125"
+slug = "kaminari_otoshi"
+name_jp = "かみなりおとし"
+name_en = "Thunder Slam"
+category = "physical"
+element = "thunder"
+mp_cost = 9
+target_scope = "single"
+formula_key = "P5"
+base_power = 150
+base_rate = 30
+tags = ["single", "physical", "thunder"]
+battle_role = "BREAK_DEF"
+effect_text = "落雷のごとき打撃"

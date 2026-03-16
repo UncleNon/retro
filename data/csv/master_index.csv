@@ -1,0 +1,30 @@
+master_id,file_name,domain,primary_key,notes
+MST-001,monster_master.csv,monster,monster_id,モンスター基礎定義
+MST-002,monster_resistance.csv,monster,monster_id,モンスター耐性定義
+MST-003,monster_learnset.csv,monster,monster_id,モンスター習得技定義
+MST-004,skill_master.csv,skill,skill_id,スキル定義
+MST-005,item_master.csv,item,item_id,アイテム定義
+MST-006,world_master.csv,world,world_id,世界定義
+MST-007,zone_master.csv,world,zone_id,ゾーン定義
+MST-008,encounter_table.csv,encounter,zone_id,ゾーン遭遇定義
+MST-009,breed_rule.csv,breeding,rule_id,配合ルール定義
+MST-010,npc_master.csv,npc,npc_id,NPC定義
+MST-011,clue_master.csv,progress,clue_id,手がかり定義
+MST-012,progress_gate_master.csv,progress,gate_id,門進行条件定義
+MST-013,master_index.csv,registry,master_id,master一覧
+MST-014,asset_registry.csv,registry,asset_id,アセット台帳
+MST-015,localization_registry.csv,registry,entry_id,ローカライズ台帳
+MST-016,world_dependency_map.csv,registry,scope_id,世界依存マップ
+MST-017,shop_master.csv,economy,shop_id,ショップ定義
+MST-018,shop_inventory_master.csv,economy,shop_id,ショップ在庫定義
+MST-019,service_master.csv,economy,service_id,サービス定義
+MST-020,shop_service_master.csv,economy,shop_id,ショップサービス接続定義
+MST-021,loot_table_master.csv,economy,loot_table_id,戦利品テーブル定義
+MST-022,loot_entry_master.csv,economy,loot_table_id,戦利品エントリ定義
+MST-023,entity_alias_master.csv,registry,alias_value,エンティティ alias 定義
+MST-024,field_scene_master.csv,field,field_id,フィールドシーン定義
+MST-025,field_rect_master.csv,field,field_rect_id,フィールド矩形定義
+MST-026,field_point_master.csv,field,field_point_id,フィールド調査点定義
+MST-027,field_trigger_master.csv,field,field_trigger_id,フィールド移動トリガー定義
+MST-028,field_interaction_master.csv,field,field_interaction_id,フィールド相互作用定義
+MST-029,item_text_master.csv,content,item_text_id,item provenance strip / shop voice 定義

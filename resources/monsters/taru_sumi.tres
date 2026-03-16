@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-484"
+slug = "taru_sumi"
+name_jp = "タールスミ"
+name_en = "Taaru Sumi"
+family = "slime"
+rank = "D"
+size_class = "S"
+motif_group = "corporeal"
+secondary_motif_group = "gatebound"
+motif_source = "タール + 炭 + 門前道"
+ontology_class = "gate_touched"
+silhouette_type = "wide"
+palette_id = "pal_tar_coal"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 70
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 24, "mp": 12, "atk": 11, "def": 12, "spd": 10, "int": 12, "res": 12}
+cap_stats = {"hp": 180, "mp": 92, "atk": 104, "def": 108, "spd": 96, "int": 98, "res": 104}
+base_recruit = 18
+scoutable = true
+personality_bias = "patient"
+battle_role = "tank"
+trait_1 = "黒膜"
+trait_2 = "闇微耐性"
+loot_table_id = "loot_monster_taru_sumi"
+prompt_id = "PRM-MON-484"
+notes = "門前道に染み出したタールが炭を纏い動く黒い生き物"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": -1, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

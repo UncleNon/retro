@@ -15,5 +15,5 @@ sell_price = 40
 target_scope = "party"
 effect_key = "escape_dungeon"
 effect_value = "1"
-tags = ["field", "escape"]
-description = "危険地帯から脱出する"
+tags = ["field", "escape", "lore_salt_bone_trade", "event_h1008"]
+description = "骨樋搬送で使う結び癖のついた退避縄"

@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W02-006"
+scope_id = "W-002"
+name_jp = "ヨシ"
+name_en = "Yoshi"
+role = "乾酪売り"
+dark_role = "乳製品に灰印の色が残る"
+x = 30
+y = 22
+facing = "left"
+npc_type = "merchant"
+phase_count = 2
+clue_ids = []
+shop_id = "shop_w02_general"
+service_id = ""
+personality_note = "愛想がいい商売人"
+initial_dialogue_jp = "うちの酪は谷一番。……色が変わるのは塩のせいだよ、たぶん。"
+notes = "灰乳の谷・道具屋"

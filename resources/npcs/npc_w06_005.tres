@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W06-005"
+scope_id = "W-006"
+name_jp = "アシオ"
+name_en = "Ashio"
+role = "葦編み職人"
+dark_role = "結縄橋の補修をしつつ古い符号を見る"
+x = 24
+y = 22
+facing = "down"
+npc_type = "minor"
+phase_count = 2
+clue_ids = ["CL-059"]
+shop_id = ""
+service_id = ""
+personality_note = "職人気質で寡黙"
+initial_dialogue_jp = "橋桁の符号、何十年も前のだ。……誰のか分からないのが一番多い。"
+notes = "鈴結びの湿地"

@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W20-010"
+scope_id = "W-020"
+name_jp = "シオリ"
+name_en = "Shiori"
+role = "聖郭の医僧"
+dark_role = "最高位の医療を提供する"
+x = 44
+y = 24
+facing = "left"
+npc_type = "healer"
+phase_count = 2
+clue_ids = []
+shop_id = "shop_w20_clinic"
+service_id = "service_w20_restoration"
+personality_note = "温厚で知識が深い"
+initial_dialogue_jp = "体を治すのは技術。心を治すのは……ここでは、記録を正すことだと言われる。"
+notes = "継ぎ止めの聖郭・回復"

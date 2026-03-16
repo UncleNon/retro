@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W01-001"
+scope_id = "W-001"
+name_jp = "アヤ"
+name_en = "Aya"
+role = "継札番"
+dark_role = "所属を上書きする制度の入口"
+x = 29
+y = 21
+facing = "down"
+npc_type = "key"
+phase_count = 3
+clue_ids = ["CL-007", "CL-008"]
+shop_id = ""
+service_id = ""
+personality_note = "事務的だが根は優しい"
+initial_dialogue_jp = "借り名は三日で馴染む。……馴染まなかった人のことは、聞かないで。"
+notes = "名伏せの野"

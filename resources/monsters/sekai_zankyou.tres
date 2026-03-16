@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-310"
+slug = "sekai_zankyou"
+name_jp = "セカイザンキョウ"
+name_en = "Sekai Zankyou"
+family = "magic"
+rank = "S"
+size_class = "L"
+motif_group = "abstract"
+secondary_motif_group = "gatebound"
+motif_source = "世界残響 + 全記憶 + ほどけの縁"
+ontology_class = "remnant_bearing"
+silhouette_type = "floating"
+palette_id = "pal_world_echo"
+field_sprite_px = 16
+battle_sprite_px = 56
+base_level_cap = 84
+growth_curve_id = "LEGEND"
+base_stats = {"hp": 36, "mp": 24, "atk": 16, "def": 14, "spd": 16, "int": 24, "res": 22}
+cap_stats = {"hp": 272, "mp": 182, "atk": 150, "def": 128, "spd": 148, "int": 208, "res": 180}
+base_recruit = 0
+scoutable = false
+personality_bias = "watchful"
+battle_role = "controller"
+trait_1 = "世界残響"
+trait_2 = "光耐性"
+loot_table_id = "loot_monster_sekai_zankyou"
+prompt_id = "PRM-MON-310"
+notes = "ほどけの縁ですべての世界の記憶が一つに響く究極の残響"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 2, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 1, "fear": 0, "instant_death": 2, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 1}
+learnset = []

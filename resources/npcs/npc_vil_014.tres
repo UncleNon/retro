@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-VIL-014"
+scope_id = "VIL"
+name_jp = "タマキ"
+name_en = "Tamaki"
+role = "薬草婆"
+dark_role = "古い供養草の使い道を知る唯一の人"
+x = 62
+y = 44
+facing = "left"
+npc_type = "healer"
+phase_count = 2
+clue_ids = []
+shop_id = "shop_vil_clinic"
+service_id = "service_vil_restoration"
+personality_note = "穏やかで少し耳が遠い"
+initial_dialogue_jp = "痛いところがあるなら診てやるよ。……塔の傷は、診れないけどね。"
+notes = "開始村回復屋"

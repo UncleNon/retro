@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W19-003"
+scope_id = "W-019"
+name_jp = "ホナミ"
+name_en = "Honami"
+role = "bell cloth係"
+dark_role = "布の裏に古い鐘名をまだ残す"
+x = 38
+y = 22
+facing = "left"
+npc_type = "key"
+phase_count = 3
+clue_ids = ["CL-047"]
+shop_id = ""
+service_id = ""
+personality_note = "静かで布への愛着が深い"
+initial_dialogue_jp = "布に鐘名を残すのは禁じられた。……でも、裏なら見えない。"
+notes = "閉鐘の塔都"

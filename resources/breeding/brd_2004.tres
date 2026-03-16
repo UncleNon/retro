@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="BreedRuleData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/breed_rule_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+rule_id = "BRD-2004"
+rule_type = "special"
+parent_a_key = "MON-032"
+parent_b_key = "MON-044"
+child_monster_id = "MON-052"
+priority = 100
+special_recipe_bonus = 1
+lv_requirement = 10
+notes = "茅鼠+帯守宮→斑大狐: 小さき者の合成 Step1"

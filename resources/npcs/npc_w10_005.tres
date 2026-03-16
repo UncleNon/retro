@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W10-005"
+scope_id = "W-010"
+name_jp = "シンベエ"
+name_en = "Shinbee"
+role = "塩計り"
+dark_role = "塩の品質と帳面の品質を同じ秤で量る"
+x = 36
+y = 24
+facing = "down"
+npc_type = "minor"
+phase_count = 2
+clue_ids = []
+shop_id = ""
+service_id = ""
+personality_note = "実直な職人"
+initial_dialogue_jp = "塩も帳面も乾けば正しい。……湿ったものは信じるな。"
+notes = "群書の塩庫"

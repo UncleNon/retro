@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="BreedRuleData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/breed_rule_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+rule_id = "BRD-2119"
+rule_type = "special"
+parent_a_key = "MON-303"
+parent_b_key = "MON-305"
+child_monster_id = "MON-308"
+priority = 125
+special_recipe_bonus = 1
+lv_requirement = 35
+notes = "名重+残響主→数え主(S): 全てを数える化身 →S"

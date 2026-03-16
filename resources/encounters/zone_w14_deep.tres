@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="EncounterZoneData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/encounter_zone_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+zone_id = "ZONE-W14-DEEP"
+world_id = "W-014"
+name_jp = "鏡森深部"
+encounter_min_steps = 10
+encounter_max_steps = 16
+terrain_rate = 1.3
+bgm_id = "BGM-W014-BOSS"
+is_dungeon = true
+time_band = "night"
+weather = "fog"
+notes = "鏡像の所属が反転する最深部"
+entries = [{"slot": 1, "monster_id": "MON-293", "weight": 25, "min_lv": 56, "max_lv": 58, "time_band": "night", "weather": "fog"}, {"slot": 2, "monster_id": "MON-290", "weight": 20, "min_lv": 56, "max_lv": 58, "time_band": "night", "weather": "fog"}, {"slot": 3, "monster_id": "MON-287", "weight": 15, "min_lv": 56, "max_lv": 58, "time_band": "night", "weather": "fog"}, {"slot": 4, "monster_id": "MON-285", "weight": 15, "min_lv": 56, "max_lv": 58, "time_band": "night", "weather": "fog"}, {"slot": 5, "monster_id": "MON-077", "weight": 10, "min_lv": 56, "max_lv": 57, "time_band": "night", "weather": "fog"}, {"slot": 6, "monster_id": "MON-010", "weight": 15, "min_lv": 57, "max_lv": 59, "time_band": "night", "weather": "fog"}]

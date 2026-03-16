@@ -15,5 +15,5 @@ sell_price = 82
 target_scope = "ally_single"
 effect_key = "heal_hp"
 effect_value = "140"
-tags = ["heal", "rare"]
-description = "静かに搾った乳でHPを大回復"
+tags = ["heal", "rare", "lore_maternal_judgment", "event_h1004"]
+description = "判母衆が直系の夜だけ配る静乳"

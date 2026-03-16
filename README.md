@@ -31,7 +31,17 @@ Godot から誤って import しないよう、reference-only directories には
 - `python3 tools/qa/format.py --check`
 - `python3 tools/data/build_resources.py --check`
 - `python3 tools/qa/test.py`
+- `python3 tools/qa/local_baseline.py --allow-missing`
+- `python3 tools/qa/gdunit_smoke.py`
 - `python3 tools/qa/godot_smoke.py`
 - `python3 tools/qa/save_smoke.py`
+- `python3 tools/qa/resource_registry_smoke.py`
+- `python3 tools/qa/session04_repository_runtime_smoke.py`
 - `python3 tools/qa/field_smoke.py`
+- `python3 tools/qa/field_transition_smoke.py`
+- `python3 tools/qa/battle_smoke.py`
+- `python3 tools/qa/app_root_facility_interaction_smoke.py`
+- `python3 tools/qa/app_root_battle_transition_smoke.py`
+- `python3 tools/qa/session07_runtime_smoke.py`
+- `python3 tools/qa/session08_vertical_slice_smoke.py`
 - `python3 tools/qa/ios_export_smoke.py`

@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W08-008"
+scope_id = "W-008"
+name_jp = "チカラ"
+name_en = "Chikara"
+role = "放牧環の見張り"
+dark_role = "環の内外を監視する"
+x = 20
+y = 30
+facing = "down"
+npc_type = "mob"
+phase_count = 1
+clue_ids = []
+shop_id = ""
+service_id = ""
+personality_note = "真面目だが思考停止している"
+initial_dialogue_jp = "輪の外は知らない。中だけ守る。それが仕事だ。"
+notes = "獣印の放牧環"

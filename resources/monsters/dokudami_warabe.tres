@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-153"
+slug = "dokudami_warabe"
+name_jp = "ドクダミワラベ"
+name_en = "Dokudami Warabe"
+family = "plant"
+rank = "D"
+size_class = "S"
+motif_group = "plant"
+secondary_motif_group = "funerary"
+motif_source = "蕺草 + 童 + 墓裏庭"
+ontology_class = "wildborn"
+silhouette_type = "round"
+palette_id = "pal_houttuynia_child"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 70
+growth_curve_id = "LATE"
+base_stats = {"hp": 22, "mp": 16, "atk": 9, "def": 11, "spd": 10, "int": 15, "res": 15}
+cap_stats = {"hp": 170, "mp": 128, "atk": 90, "def": 106, "spd": 98, "int": 128, "res": 132}
+base_recruit = 20
+scoutable = true
+personality_bias = "patient"
+battle_role = "healer"
+trait_1 = "毒消し"
+trait_2 = "毒耐性"
+loot_table_id = "loot_monster_dokudami_warabe"
+prompt_id = "PRM-MON-153"
+notes = "墓の裏庭で毒を消す蕺草の童"
+resistances = {"fire": -1, "water": 1, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 2, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": -2, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-064"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-014"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-025"}]

@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-348"
+slug = "honoo_matoi"
+name_jp = "ほのおまとい"
+name_en = "Flame Clad"
+category = "setup"
+element = "fire"
+mp_cost = 4
+target_scope = "self"
+formula_key = "B1"
+base_power = 0
+base_rate = 0
+tags = ["setup", "self_buff", "fire_add"]
+battle_role = "PAYOFF"
+effect_text = "攻撃に炎を纏う"

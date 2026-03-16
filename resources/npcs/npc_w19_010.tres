@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W19-010"
+scope_id = "W-019"
+name_jp = "ミサキ"
+name_en = "Misaki"
+role = "前橋区の子ども"
+dark_role = "封鎖都市で育った世代"
+x = 24
+y = 18
+facing = "down"
+npc_type = "mob"
+phase_count = 1
+clue_ids = []
+shop_id = ""
+service_id = ""
+personality_note = "好奇心旺盛で怖いもの知らず"
+initial_dialogue_jp = "鐘の音、聞いたことないよ。……鳴ったらどうなるの？"
+notes = "閉鐘の塔都"

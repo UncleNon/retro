@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W10-002"
+scope_id = "W-010"
+name_jp = "ボソ"
+name_en = "Boso"
+role = "運河運び"
+dark_role = "濡れた台帳だけ裏の抄本屋へ流す"
+x = 20
+y = 28
+facing = "right"
+npc_type = "key"
+phase_count = 3
+clue_ids = ["CL-027"]
+shop_id = ""
+service_id = ""
+personality_note = "ずる賢いが小心者"
+initial_dialogue_jp = "濡れた帳面は捨てるのが決まりだ。……捨て先が二つあるだけさ。"
+notes = "群書の塩庫"

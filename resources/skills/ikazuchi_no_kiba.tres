@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-106"
+slug = "ikazuchi_no_kiba"
+name_jp = "いかずちのきば"
+name_en = "Thunder Fang"
+category = "physical"
+element = "thunder"
+mp_cost = 5
+target_scope = "single"
+formula_key = "P3"
+base_power = 125
+base_rate = 20
+tags = ["single", "physical", "thunder", "beast"]
+battle_role = "BREAK_DEF"
+effect_text = "雷をまとう牙"

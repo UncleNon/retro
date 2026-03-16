@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-204"
+slug = "hoki_usagi"
+name_jp = "ホキウサギ"
+name_en = "Hoki Usagi"
+family = "material"
+rank = "E"
+size_class = "S"
+motif_group = "tool"
+secondary_motif_group = "household"
+motif_source = "箒 + 兎 + 掃き溜め"
+ontology_class = "wildborn"
+silhouette_type = "tall"
+palette_id = "pal_broom_hare"
+field_sprite_px = 16
+battle_sprite_px = 24
+base_level_cap = 62
+growth_curve_id = "EARLY"
+base_stats = {"hp": 18, "mp": 7, "atk": 10, "def": 8, "spd": 16, "int": 9, "res": 8}
+cap_stats = {"hp": 138, "mp": 54, "atk": 106, "def": 88, "spd": 150, "int": 76, "res": 78}
+base_recruit = 30
+scoutable = true
+personality_bias = "swift"
+battle_role = "striker"
+trait_1 = "掃き逃げ"
+trait_2 = "風微耐性"
+loot_table_id = "loot_monster_hoki_usagi"
+prompt_id = "PRM-MON-204"
+notes = "掃き溜めで穂先を耳のように立てる箒兎"
+resistances = {"fire": 0, "water": 0, "wind": 1, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

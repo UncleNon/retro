@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-440"
+slug = "seiza_kemono"
+name_jp = "セイザケモノ"
+name_en = "Seiza Kemono"
+family = "divine"
+rank = "C"
+size_class = "M"
+motif_group = "myth"
+secondary_motif_group = "astral"
+motif_source = "星座獣 + 星図 + 天文台跡"
+ontology_class = "gate_touched"
+silhouette_type = "tall"
+palette_id = "pal_constellation_beast"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 76
+growth_curve_id = "LATE"
+base_stats = {"hp": 24, "mp": 15, "atk": 14, "def": 11, "spd": 16, "int": 16, "res": 14}
+cap_stats = {"hp": 184, "mp": 118, "atk": 134, "def": 104, "spd": 148, "int": 134, "res": 120}
+base_recruit = 10
+scoutable = true
+personality_bias = "watchful"
+battle_role = "controller"
+trait_1 = "星座読み"
+trait_2 = "光耐性"
+loot_table_id = "loot_monster_seiza_kemono"
+prompt_id = "PRM-MON-440"
+notes = "天文台跡で星図を体に映す星座の獣"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 1, "dark": -1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": 0, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

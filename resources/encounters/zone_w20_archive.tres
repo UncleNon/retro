@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="EncounterZoneData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/encounter_zone_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+zone_id = "ZONE-W20-ARCHIVE"
+world_id = "W-020"
+name_jp = "記録聖域"
+encounter_min_steps = 10
+encounter_max_steps = 17
+terrain_rate = 1.25
+bgm_id = "BGM-W020-DNG"
+is_dungeon = true
+time_band = "night"
+weather = "clear"
+notes = "記録が聖域として保管される部屋"
+entries = [{"slot": 1, "monster_id": "MON-459", "weight": 20, "min_lv": 83, "max_lv": 85, "time_band": "night", "weather": "clear"}, {"slot": 2, "monster_id": "MON-401", "weight": 20, "min_lv": 83, "max_lv": 85, "time_band": "night", "weather": "clear"}, {"slot": 3, "monster_id": "MON-353", "weight": 15, "min_lv": 83, "max_lv": 85, "time_band": "night", "weather": "clear"}, {"slot": 4, "monster_id": "MON-452", "weight": 15, "min_lv": 83, "max_lv": 85, "time_band": "night", "weather": "clear"}, {"slot": 5, "monster_id": "MON-354", "weight": 15, "min_lv": 84, "max_lv": 86, "time_band": "night", "weather": "clear"}, {"slot": 6, "monster_id": "MON-500", "weight": 15, "min_lv": 84, "max_lv": 86, "time_band": "night", "weather": "clear"}]

@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-281"
+slug = "keishou_no_waza"
+name_jp = "けいしょうのわざ"
+name_en = "Lineage Art"
+category = "physical"
+element = "none"
+mp_cost = 6
+target_scope = "single"
+formula_key = "P3"
+base_power = 130
+base_rate = 0
+tags = ["single", "physical", "breed", "plus_bonus"]
+battle_role = "PAYOFF"
+effect_text = "plus値に応じて威力上昇"

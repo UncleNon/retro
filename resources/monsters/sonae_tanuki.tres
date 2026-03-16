@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-422"
+slug = "sonae_tanuki"
+name_jp = "ソナエタヌキ"
+name_en = "Sonae Tanuki"
+family = "divine"
+rank = "E"
+size_class = "S"
+motif_group = "ritual"
+secondary_motif_group = "pastoral"
+motif_source = "供え狸 + 供物台 + 田神"
+ontology_class = "wildborn"
+silhouette_type = "round"
+palette_id = "pal_offering_tanuki"
+field_sprite_px = 16
+battle_sprite_px = 24
+base_level_cap = 66
+growth_curve_id = "EARLY"
+base_stats = {"hp": 22, "mp": 10, "atk": 9, "def": 11, "spd": 11, "int": 10, "res": 11}
+cap_stats = {"hp": 164, "mp": 72, "atk": 92, "def": 100, "spd": 106, "int": 82, "res": 94}
+base_recruit = 30
+scoutable = true
+personality_bias = "patient"
+battle_role = "tank"
+trait_1 = "供え守り"
+trait_2 = "地微耐性"
+loot_table_id = "loot_monster_sonae_tanuki"
+prompt_id = "PRM-MON-422"
+notes = "田神の供物台で供え物を守る太った狸"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 1, "thunder": 0, "light": 1, "dark": -1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": 0, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

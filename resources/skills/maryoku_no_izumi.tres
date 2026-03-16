@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-216"
+slug = "maryoku_no_izumi"
+name_jp = "まりょくのいずみ"
+name_en = "Mana Spring"
+category = "recover"
+element = "water"
+mp_cost = 0
+target_scope = "ally_single"
+formula_key = "H2"
+base_power = 30
+base_rate = 0
+tags = ["recover", "mp_recover", "divine"]
+battle_role = "ALLY_SUSTAIN"
+effect_text = "MPを大きく回復する"

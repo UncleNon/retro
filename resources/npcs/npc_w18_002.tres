@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W18-002"
+scope_id = "W-018"
+name_jp = "クズロ"
+name_en = "Kuzuro"
+role = "seal切り職人"
+dark_role = "偽印より本物の再発行で儲ける"
+x = 24
+y = 24
+facing = "right"
+npc_type = "key"
+phase_count = 3
+clue_ids = ["CL-046"]
+shop_id = ""
+service_id = ""
+personality_note = "職人気質で倫理観が独特"
+initial_dialogue_jp = "偽物を作るより本物をもう一枚出す方が儲かる。……そういう制度だ。"
+notes = "二署の法台"

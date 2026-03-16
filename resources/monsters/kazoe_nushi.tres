@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-308"
+slug = "kazoe_nushi"
+name_jp = "カゾエヌシ"
+name_en = "Kazoe Nushi"
+family = "magic"
+rank = "S"
+size_class = "L"
+motif_group = "abstract"
+secondary_motif_group = "bureaucratic"
+motif_source = "数え主 + 数の化身 + 聖郭中枢"
+ontology_class = "remnant_bearing"
+silhouette_type = "floating"
+palette_id = "pal_count_lord"
+field_sprite_px = 16
+battle_sprite_px = 56
+base_level_cap = 84
+growth_curve_id = "LEGEND"
+base_stats = {"hp": 32, "mp": 24, "atk": 13, "def": 14, "spd": 14, "int": 24, "res": 24}
+cap_stats = {"hp": 244, "mp": 182, "atk": 124, "def": 128, "spd": 132, "int": 208, "res": 196}
+base_recruit = 0
+scoutable = false
+personality_bias = "calculating"
+battle_role = "controller"
+trait_1 = "万数え"
+trait_2 = "封印耐性"
+loot_table_id = "loot_monster_kazoe_nushi"
+prompt_id = "PRM-MON-308"
+notes = "聖郭中枢ですべてを数え続ける数の化身"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 2, "fear": 0, "instant_death": 2, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 2, "hush": 0}
+learnset = []

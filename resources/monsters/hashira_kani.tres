@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-237"
+slug = "hashira_kani"
+name_jp = "ハシラガニ"
+name_en = "Hashira Gani"
+family = "material"
+rank = "B"
+size_class = "M"
+motif_group = "tool"
+secondary_motif_group = "gatebound"
+motif_source = "柱 + 蟹 + 回廊遺構"
+ontology_class = "gate_touched"
+silhouette_type = "wide"
+palette_id = "pal_pillar_crab"
+field_sprite_px = 16
+battle_sprite_px = 48
+base_level_cap = 78
+growth_curve_id = "LATE"
+base_stats = {"hp": 32, "mp": 12, "atk": 16, "def": 18, "spd": 9, "int": 10, "res": 15}
+cap_stats = {"hp": 240, "mp": 92, "atk": 150, "def": 164, "spd": 86, "int": 82, "res": 128}
+base_recruit = 0
+scoutable = false
+personality_bias = "sturdy"
+battle_role = "tank"
+trait_1 = "柱抱え"
+trait_2 = "地耐性"
+loot_table_id = "loot_monster_hashira_kani"
+prompt_id = "PRM-MON-237"
+notes = "回廊遺構で柱の残骸を甲羅にした蟹"
+resistances = {"fire": 0, "water": -1, "wind": 0, "earth": 2, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": 1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

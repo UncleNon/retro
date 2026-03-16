@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-113"
+slug = "senpuu_giri"
+name_jp = "せんぷうぎり"
+name_en = "Whirlwind Slash"
+category = "physical"
+element = "wind"
+mp_cost = 7
+target_scope = "spread"
+formula_key = "P3"
+base_power = 85
+base_rate = 0
+tags = ["spread", "physical", "wind"]
+battle_role = "RUSH_OPEN"
+effect_text = "旋風で全体を斬る"

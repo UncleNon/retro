@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-122"
+slug = "daichi_no_ikari"
+name_jp = "だいちのいかり"
+name_en = "Earth Wrath"
+category = "physical"
+element = "earth"
+mp_cost = 10
+target_scope = "spread"
+formula_key = "P5"
+base_power = 100
+base_rate = 20
+tags = ["spread", "physical", "earth"]
+battle_role = "BREAK_DEF"
+effect_text = "大地の怒りが走る"

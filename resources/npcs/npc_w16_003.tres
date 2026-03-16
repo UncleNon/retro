@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W16-003"
+scope_id = "W-016"
+name_jp = "ミヤラ"
+name_en = "Miyara"
+role = "寡婦guildの頭"
+dark_role = "客の家系図へわざと美しい継ぎ目を残す"
+x = 34
+y = 22
+facing = "left"
+npc_type = "key"
+phase_count = 3
+clue_ids = ["CL-040"]
+shop_id = ""
+service_id = ""
+personality_note = "逞しく計算高い"
+initial_dialogue_jp = "割れた器も割れた家も、継げばまた使える。……値段は上がるけどね。"
+notes = "焼継の鍛土"

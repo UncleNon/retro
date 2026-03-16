@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W15-001"
+scope_id = "W-015"
+name_jp = "ツグラ"
+name_en = "Tsugura"
+role = "巡礼先導"
+dark_role = "姉だけは死者扱いしたくない"
+x = 30
+y = 18
+facing = "down"
+npc_type = "key"
+phase_count = 4
+clue_ids = ["CL-037", "CL-063"]
+shop_id = ""
+service_id = ""
+personality_note = "責任感が強く苦悩している"
+initial_dialogue_jp = "布で顔を隠せば、grief は等しいと教わった。……嘘だ。"
+notes = "黒布の巡礼路"

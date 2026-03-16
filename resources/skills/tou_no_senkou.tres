@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-294"
+slug = "tou_no_senkou"
+name_jp = "とうのせんこう"
+name_en = "Tower Flash"
+category = "magic"
+element = "light"
+mp_cost = 10
+target_scope = "spread"
+formula_key = "M2"
+base_power = 38
+base_rate = 0
+tags = ["spread", "fixed_magic", "light", "gate_special", "tower_reactive"]
+battle_role = "RUSH_OPEN"
+effect_text = "塔の光が閃く"

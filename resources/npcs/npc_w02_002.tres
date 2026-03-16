@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W02-002"
+scope_id = "W-002"
+name_jp = "シキ"
+name_en = "Shiki"
+role = "乳母頭"
+dark_role = "借り乳布で判定を一度すり替えた"
+x = 22
+y = 24
+facing = "left"
+npc_type = "key"
+phase_count = 3
+clue_ids = ["CL-011", "CL-012"]
+shop_id = ""
+service_id = ""
+personality_note = "温かいが秘密を抱える"
+initial_dialogue_jp = "あの子を助けたのは間違いじゃなかった。……たぶん。"
+notes = "灰乳の谷"

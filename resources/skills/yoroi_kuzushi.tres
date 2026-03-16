@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-236"
+slug = "yoroi_kuzushi"
+name_jp = "よろいくずし"
+name_en = "Armor Break"
+category = "setup"
+element = "earth"
+mp_cost = 7
+target_scope = "spread"
+formula_key = "B2"
+base_power = 0
+base_rate = 70
+tags = ["setup", "debuff", "def", "spread", "earth"]
+battle_role = "BREAK_DEF"
+effect_text = "全体のDEFを下げる"

@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/item_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+item_id = "item_key_forgemark"
+slug = "forgemark"
+name_jp = "鍛印証拠"
+name_en = "Forge Mark Evidence"
+item_kind = "key"
+subtype = "key_item"
+price = 0
+sell_price = 0
+target_scope = "none"
+effect_key = "story_flag"
+effect_value = "GATE-016"
+tags = ["key", "gate", "lore_forged_lineage", "event_h1010"]
+description = "焼継印市場の真贋を割る鍛印証拠"

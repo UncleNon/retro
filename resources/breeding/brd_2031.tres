@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="BreedRuleData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/breed_rule_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+rule_id = "BRD-2031"
+rule_type = "special"
+parent_a_key = "MON-099"
+parent_b_key = "MON-100"
+child_monster_id = "MON-111"
+priority = 100
+special_recipe_bonus = 1
+lv_requirement = 10
+notes = "穀雀+文鳩→札鶺鴒: 鳥の情報系融合 Step1"

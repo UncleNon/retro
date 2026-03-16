@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-302"
+slug = "tou_no_me"
+name_jp = "とうのめ"
+name_en = "Tower Eye"
+category = "utility"
+element = "light"
+mp_cost = 6
+target_scope = "single"
+formula_key = "U1"
+base_power = 0
+base_rate = 100
+tags = ["utility", "gate_special", "tower_reactive", "mark"]
+battle_role = "SCOUT_SUPPORT"
+effect_text = "塔の目が全てを見通す"

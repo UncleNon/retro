@@ -1,16 +1,23 @@
 extends Node2D
 
-const Layout = preload("res://scripts/world/starting_village_layout.gd")
 const BODY_COLOR := Color("2f5aa8")
 const FACE_COLOR := Color("e9f1ff")
+
+var _layout = null
 
 
 func _ready() -> void:
 	queue_redraw()
 
 
+func configure(layout) -> void:
+	_layout = layout
+
+
 func set_tile_position(tile: Vector2i) -> void:
-	position = Layout.tile_to_world(tile)
+	if _layout == null:
+		return
+	position = _layout.tile_to_world(tile)
 
 
 func _draw() -> void:

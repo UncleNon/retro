@@ -15,5 +15,5 @@ sell_price = 60
 target_scope = "party"
 effect_key = "clue_hold"
 effect_value = "1"
-tags = ["record", "clue"]
-description = "借り名札や通行鋲と同寸の札を収められる筒"
+tags = ["record", "clue", "lore_border_pass", "event_h1003"]
+description = "借り名札と通行鋲を同寸で隠せる札筒"

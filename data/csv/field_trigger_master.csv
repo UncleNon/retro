@@ -1,0 +1,5 @@
+field_trigger_id,field_id,trigger_id,trigger_kind,rect_id,once_flag_key,required_flag_key,message_jp,message_fallback_jp,encounter_zone_id,encounter_source,notes
+FTRIG-001,FIELD-VIL-001,tower_approach_seen,message,rect_tower_approach,tower_approach_seen,,北道に入ると、家畜の気配が消えて塔だけが残る。,,,,塔前導線の初回メッセージ
+FTRIG-002,FIELD-VIL-001,tower_approach_encounter,encounter,rect_encounter,encounter_triggered,tag_trace,{monster_preview}が札をつつき、道をふさいだ。遭遇の気配。,タグツツキの群れが札をつつき、道をふさいだ。遭遇の気配。,ZONE-VIL-TOWER,field_tower_approach,tag_trace 後に遭遇導線を開始
+FTRIG-101,FIELD-W01-001,gate_entry_seen,message,rect_gate_entry,w01_gate_entry_seen,,借り名札が風に鳴る。ここでは戸口ごとに、誰かを数え直している。,,,,名伏せの野の到着メッセージ
+FTRIG-102,FIELD-W01-001,pasture_edge_encounter,encounter,rect_pasture_trigger,w01_pasture_encounter,borrowed_name_rack_seen,{monster_preview}が鈴に寄り、草を揺らして道を横切る。,門前の群れが鈴に寄り、草を揺らして道を横切る。,ZONE-W01-FIELD,w01_pasture_edge,借り名棚確認後の放牧地遭遇

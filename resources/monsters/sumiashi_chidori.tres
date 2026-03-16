@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-108"
+slug = "sumiashi_chidori"
+name_jp = "スミアシチドリ"
+name_en = "Sumiashi Chidori"
+family = "bird"
+rank = "E"
+size_class = "S"
+motif_group = "animal"
+secondary_motif_group = "bureaucratic"
+motif_source = "千鳥 + 墨足 + 干潟帳"
+ontology_class = "record_bent"
+silhouette_type = "round"
+palette_id = "pal_ink_plover"
+field_sprite_px = 16
+battle_sprite_px = 24
+base_level_cap = 62
+growth_curve_id = "EARLY"
+base_stats = {"hp": 18, "mp": 9, "atk": 11, "def": 8, "spd": 16, "int": 10, "res": 9}
+cap_stats = {"hp": 140, "mp": 68, "atk": 110, "def": 86, "spd": 148, "int": 82, "res": 84}
+base_recruit = 30
+scoutable = true
+personality_bias = "cunning"
+battle_role = "bait_specialist"
+trait_1 = "墨足跡"
+trait_2 = "水微耐性"
+loot_table_id = "loot_monster_sumiashi_chidori"
+prompt_id = "PRM-MON-108"
+notes = "干潟の帳面台に墨の足跡を残す千鳥"
+resistances = {"fire": 0, "water": 1, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 1, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-006"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-028"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-029"}]

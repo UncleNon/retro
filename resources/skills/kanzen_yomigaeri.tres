@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-214"
+slug = "kanzen_yomigaeri"
+name_jp = "かんぜんよみがえり"
+name_en = "Full Revive"
+category = "recover"
+element = "light"
+mp_cost = 18
+target_scope = "ally_single"
+formula_key = "H1"
+base_power = 80
+base_rate = 0
+tags = ["recover", "revive", "divine", "breed"]
+battle_role = "ALLY_SUSTAIN"
+effect_text = "完全な状態で蘇る"

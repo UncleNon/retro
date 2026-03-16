@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-320"
+slug = "mizu_no_utage"
+name_jp = "みずのうたげ"
+name_en = "Water Feast"
+category = "magic"
+element = "water"
+mp_cost = 7
+target_scope = "ally_all"
+formula_key = "H1"
+base_power = 16
+base_rate = 0
+tags = ["recover", "water", "spread"]
+battle_role = "ALLY_SUSTAIN"
+effect_text = "水の宴で癒す"

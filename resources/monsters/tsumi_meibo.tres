@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-351"
+slug = "tsumi_meibo"
+name_jp = "ツミメイボ"
+name_en = "Tsumi Meibo"
+family = "undead"
+rank = "B"
+size_class = "M"
+motif_group = "abstract"
+secondary_motif_group = "bureaucratic"
+motif_source = "積み名簿 + 判定残り + 回廊奥"
+ontology_class = "record_bent"
+silhouette_type = "tall"
+palette_id = "pal_pile_ledger"
+field_sprite_px = 16
+battle_sprite_px = 48
+base_level_cap = 78
+growth_curve_id = "LATE"
+base_stats = {"hp": 24, "mp": 20, "atk": 13, "def": 12, "spd": 14, "int": 19, "res": 18}
+cap_stats = {"hp": 188, "mp": 156, "atk": 126, "def": 110, "spd": 132, "int": 166, "res": 154}
+base_recruit = 0
+scoutable = false
+personality_bias = "calculating"
+battle_role = "controller"
+trait_1 = "名簿積み"
+trait_2 = "封印耐性"
+loot_table_id = "loot_monster_tsumi_meibo"
+prompt_id = "PRM-MON-351"
+notes = "判定が終わらぬ名簿を積み上げた回廊奥の記録霊"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": -1, "dark": 1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 2, "fear": 1, "instant_death": 0, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 2, "hush": 0}
+learnset = []

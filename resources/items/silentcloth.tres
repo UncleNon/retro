@@ -15,5 +15,5 @@ sell_price = 65
 target_scope = "party"
 effect_key = "reduce_reaction"
 effect_value = "1"
-tags = ["field", "explore"]
-description = "鐘や呼び返しの反応を軽減する"
+tags = ["field", "explore", "lore_closed_bell", "event_h1005"]
+description = "閉鐘楼の布をまねて反応を鈍らせる"

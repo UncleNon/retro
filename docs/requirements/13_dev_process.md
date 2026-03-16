@@ -122,10 +122,17 @@
 
 Session 04 以降のローカル最低確認:
 
+- `python tools/qa/local_baseline.py`
+  generated resource を同期してから `python test / runtime smoke / godot smoke` までまとめて回すローカル入口
 - `python tools/qa/lint.py`
 - `python tools/qa/format.py --check`
 - `python tools/data/build_resources.py --check`
 - `python tools/qa/test.py`
+- `python tools/qa/runtime_smokes.py`
+- `python tools/qa/session07_runtime_smoke.py`
+  メニュー runtime の初期 gold 表示、基本 party/inventory 状態、battle/recruit 行動ログを確認
+- `python tools/qa/app_root_facility_interaction_smoke.py`
+  施設 preview と confirm 実行で gold / inventory / party restore と facility 行動ログが変化することを確認
 - `python tools/qa/godot_smoke.py`
 - `python tools/qa/save_smoke.py`
 - `python tools/qa/field_smoke.py`

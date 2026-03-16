@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-247"
+slug = "kannuki_ou"
+name_jp = "カンヌキオウ"
+name_en = "Kannuki Ou"
+family = "material"
+rank = "A"
+size_class = "L"
+motif_group = "tool"
+secondary_motif_group = "gatebound"
+motif_source = "閂 + 王 + 深門"
+ontology_class = "gate_touched"
+silhouette_type = "massive"
+palette_id = "pal_bar_king"
+field_sprite_px = 16
+battle_sprite_px = 48
+base_level_cap = 82
+growth_curve_id = "LEGEND"
+base_stats = {"hp": 36, "mp": 14, "atk": 20, "def": 20, "spd": 10, "int": 12, "res": 17}
+cap_stats = {"hp": 268, "mp": 106, "atk": 186, "def": 182, "spd": 96, "int": 98, "res": 142}
+base_recruit = 0
+scoutable = false
+personality_bias = "bold"
+battle_role = "tank"
+trait_1 = "閂落とし"
+trait_2 = "地耐性"
+loot_table_id = "loot_monster_kannuki_ou"
+prompt_id = "PRM-MON-247"
+notes = "深門の閂そのものが意志を持ち門を閉ざし続ける王"
+resistances = {"fire": 0, "water": -1, "wind": 0, "earth": 2, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 1, "fear": 0, "instant_death": 2, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 1, "hush": 0}
+learnset = []

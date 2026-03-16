@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W12-009"
+scope_id = "W-012"
+name_jp = "サキ"
+name_en = "Saki"
+role = "港の医者"
+dark_role = "船乗りと港湾労働者を治す"
+x = 26
+y = 20
+facing = "right"
+npc_type = "healer"
+phase_count = 2
+clue_ids = []
+shop_id = "shop_w12_clinic"
+service_id = "service_w12_restoration"
+personality_note = "実務的で手際がいい"
+initial_dialogue_jp = "怪我は治す。病も治す。……心は、ちょっと専門外だ。"
+notes = "骨樋の港・回復"

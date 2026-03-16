@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-214"
+slug = "suki_ushi"
+name_jp = "スキウシ"
+name_en = "Suki Ushi"
+family = "material"
+rank = "D"
+size_class = "M"
+motif_group = "tool"
+secondary_motif_group = "pastoral"
+motif_source = "鋤 + 牛 + 耕地"
+ontology_class = "wildborn"
+silhouette_type = "wide"
+palette_id = "pal_plow_ox"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 68
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 28, "mp": 8, "atk": 14, "def": 14, "spd": 9, "int": 8, "res": 10}
+cap_stats = {"hp": 200, "mp": 62, "atk": 136, "def": 132, "spd": 88, "int": 72, "res": 94}
+base_recruit = 22
+scoutable = true
+personality_bias = "calm"
+battle_role = "tank"
+trait_1 = "深耕し"
+trait_2 = "地耐性"
+loot_table_id = "loot_monster_suki_ushi"
+prompt_id = "PRM-MON-214"
+notes = "鋤の刃を角に持つ耕作の牛型器物"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 1, "thunder": -1, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

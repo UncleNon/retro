@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-VIL-003"
+scope_id = "VIL"
+name_jp = "ドモン"
+name_en = "Domon"
+role = "畜舎主"
+dark_role = "梁の刻み傷と頭数が噛み合わない"
+x = 29
+y = 31
+facing = "right"
+npc_type = "key"
+phase_count = 4
+clue_ids = ["CL-003"]
+shop_id = ""
+service_id = ""
+personality_note = "寡黙で実直。数が合わないと黙る"
+initial_dialogue_jp = "朝の仕事だ。頭数を確かめてくれ。"
+notes = "開始村・チュートリアル"

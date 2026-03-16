@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W11-010"
+scope_id = "W-011"
+name_jp = "ドウカク"
+name_en = "Doukaku"
+role = "修院長付の老僧"
+dark_role = "秘密保持派の重鎮"
+x = 40
+y = 12
+facing = "up"
+npc_type = "minor"
+phase_count = 2
+clue_ids = ["CL-029"]
+shop_id = ""
+service_id = ""
+personality_note = "威厳があり頑固"
+initial_dialogue_jp = "逆唱は守るためにある。……何を守るかは、お前が知る必要はない。"
+notes = "逆誓の修院"

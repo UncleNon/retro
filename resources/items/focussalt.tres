@@ -15,5 +15,5 @@ sell_price = 30
 target_scope = "ally_single"
 effect_key = "cure_status"
 effect_value = "seal|hushed"
-tags = ["cure", "ritual"]
-description = "封印や沈黙をほどく塩"
+tags = ["cure", "ritual", "lore_reverse_oath", "event_h1009"]
+description = "逆誓と封札の痺れをほどく法塩"

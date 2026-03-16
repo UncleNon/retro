@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W14-010"
+scope_id = "W-014"
+name_jp = "テンマ"
+name_en = "Tenma"
+role = "飼育係"
+dark_role = "鏡森の獣を預かる"
+x = 32
+y = 30
+facing = "right"
+npc_type = "breeder"
+phase_count = 2
+clue_ids = []
+shop_id = "shop_w14_breeder"
+service_id = "service_w14_breeding"
+personality_note = "獣との対話に長ける"
+initial_dialogue_jp = "森の獣は鏡石を避ける。……賢いよ、人間より。"
+notes = "返らずの鏡森・牧場"

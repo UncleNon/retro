@@ -6,8 +6,8 @@
 script = ExtResource("1")
 rule_id = "BRD-0210"
 rule_type = "family"
-parent_a_key = "material"
-parent_b_key = "magic"
+parent_a_key = "family:material"
+parent_b_key = "family:magic"
 child_monster_id = "MON-027"
 priority = 60
 special_recipe_bonus = 0

@@ -1,0 +1,30 @@
+field_interaction_id,field_id,subject_kind,subject_id,priority,condition_key,message_jp,set_flag_key,clue_ids,facility_npc_id,facility_kind,facility_source,transition_field_id,transition_point_id,transition_facing,transition_message_jp,notes
+FINT-001,FIELD-VIL-001,point,tag_trace,20,always,削れた家畜札。牛の印の下に、人名の横画だけが薄く残っている。畜札と人札を同じ手で直した跡だ。,tag_trace,CL-003,,,,,,,,導入 clue
+FINT-002,FIELD-VIL-001,point,headcount_beam,10,always,梁の刻み傷。頭数の数えが一つ多い。,headcount_beam,,,,,,,,,畜舎 clue
+FINT-003,FIELD-VIL-001,point,blank_stone,20,always,空碑だ。刻みかけの一画だけが残り、埋められた溝に灰が詰まっている。死者とも不在者とも決めきれなかった名の置き場に見える。,blank_stone,CL-005,,,,,,,,墓地 clue
+FINT-004,FIELD-VIL-001,point,warning_stake,20,always,古い杭。最下層の刻みは『返るな』に近く、その上から『近づくな』が二度重ねて彫られている。,warning_stake,,,,,,,,,塔前 warning
+FINT-005,FIELD-VIL-001,point,tower_threshold,10,first_crossing_open,,tower_threshold_seen,,,,,FIELD-W01-001,gate_arrival,right,門が呼吸し、向こう側の風が返る。最初の越境がはじまる。,gate open transition
+FINT-006,FIELD-VIL-001,point,tower_threshold,20,first_gate_listening,溝の奥で何かが拍を打つ。門前に合う血筋なら、ここを開けそうだ。,tower_threshold_seen,,,,,,,,,gate listening reaction
+FINT-007,FIELD-VIL-001,point,tower_threshold,30,flag:tag_trace,塔の溝幅が家畜札と合う。生活道具と門が同じ寸法をしている。,tower_threshold_seen,,,,,,,,,札と門の対応
+FINT-008,FIELD-VIL-001,point,tower_threshold,40,always,扉脇の細い溝。何か札のようなものを差し込めそうだ。,tower_threshold_seen,,,,,,,,,default threshold reaction
+FINT-009,FIELD-VIL-001,point,elder,10,always,長老は失踪者の数を言い直してから目を伏せる。『上の方には、昔から行かん』。,tower_elder_count,CL-002,,,,,,,,長老の日常会話
+FINT-010,FIELD-VIL-001,point,record_keeper,10,always,記録番が帳面を閉じる。『札の削れは昔の整理です。人札と畜札が混じった時期がありましてね』。,,,,,,,,,,記録番の日常会話
+FINT-011,FIELD-VIL-001,point,barn_keeper,10,always,畜舎主は藁を払う。『数が合わん日は、数え直すしかねえ』。,,,,,,,,,,畜舎主の日常会話
+FINT-012,FIELD-VIL-001,point,well_woman,10,always,井戸端の女は声を落とす。『昔も何人か、上へ行って減ったよ』。,tower_warning_heard,CL-004,,,,,,,,warning NPC
+FINT-013,FIELD-VIL-001,point,child,10,always,子どもは塔を指ささない。『あっちの高いの、夜は見ないほうがいい』。,tower_warning_heard,CL-004,,,,,,,,warning NPC
+FINT-014,FIELD-VIL-001,point,merchant_counter,10,always,,,,NPC-VIL-013,merchant,starting_village_merchant,,,,,施設 preview/execute は AppRoot 側
+FINT-015,FIELD-VIL-001,point,healer_counter,10,always,,,,NPC-VIL-014,healer,starting_village_healer,,,,,施設 preview/execute は AppRoot 側
+FINT-016,FIELD-VIL-001,rect,rect_threshold_zone,50,encounter_triggered,扉が呼吸している。群れを越えれば、塔に触れられそうだ。,,,,,,,,,,遭遇後の area interaction
+FINT-017,FIELD-VIL-001,point,tag_trace,10,flag:tag_trace,札の縁に古い穴が二つある。今の家印より前、別の家へぶら下がっていた札だ。,,,,,,,,,,再読用
+FINT-018,FIELD-VIL-001,point,blank_stone,10,flag:blank_stone,碑の裏へ指を入れると、薄い塩だけが湿っていない。弔いが終わらぬまま、ここだけ手入れされ続けている。,,,,,,,,,,再読用
+FINT-019,FIELD-VIL-001,point,nameplate_trace,20,always,戸口の木肌だけ色が違う。表札を外した跡の下に、さらに古い削り跡が二層残っている。空き家は一度ではできていない。,nameplate_trace,CL-001,,,,,,,,表札跡 clue
+FINT-020,FIELD-VIL-001,point,nameplate_trace,10,flag:nameplate_trace,釘穴が一つ多い。今の家の前にも、ここで別の名が外されたことがある。,,,,,,,,,,表札跡再読
+FINT-021,FIELD-VIL-001,point,grave_keeper,20,always,墓守は箒を止めない。『まだ入れる名がないんだ。死んだとも、帰るとも決められない人の分は、ここを空けて待つ』。,grave_keeper_seen,CL-005,,,,,,,,墓守会話
+FINT-022,FIELD-VIL-001,point,grave_keeper,10,flag:blank_stone,墓守は空碑の縁を撫でる。『一つの碑に三つぶん待たせてる。そうしないと、村の嘘が増えすぎるからね』。,,,,,,,,,,墓守再読
+FINT-101,FIELD-W01-001,point,borrowed_name_rack,10,always,戸口ごとに札束が下がる。ここでは本名より、いま借りている呼び名の方が先に数えられる。,borrowed_name_rack_seen,CL-008,,,,,,,,借り名棚 clue
+FINT-102,FIELD-W01-001,point,nameboy,10,always,少年は胸札だけを撫でる。『トロって呼ばれてる。本当の名前は、まだ借りてないんだってさ』。,role_name_boy_heard,CL-007,,,,,,,,役名だけの少年
+FINT-103,FIELD-W01-001,point,clerk_aya,10,always,継札番のアヤが札束を揃える。『借り名は三日で馴染む。……馴染まなかった人のことは、聞かないで』。,,,,,,,,,,継札番の導入会話
+FINT-104,FIELD-W01-001,point,pasture_sign,10,always,放牧地への杭札。印を付けられた気配ほど、こちらを覚えやすいと書かれている。,pasture_mark_warning,CL-009,,,,,,,,marked 予告
+FINT-105,FIELD-W01-001,point,tower_gate,10,always,,tower_gate_seen,,,,,FIELD-VIL-001,first_crossing_return,down,塔前の冷たい風が戻ってくる。越境の記録だけを持ち帰った。,戻り門
+FINT-106,FIELD-W01-001,point,merchant_counter,10,always,,,,NPC-W01-009,merchant,w01_general_store,,,,,名伏せの野の雑貨屋
+FINT-107,FIELD-W01-001,point,healer_counter,10,always,,,,NPC-W01-010,healer,w01_field_healer,,,,,名伏せの野の手当て役

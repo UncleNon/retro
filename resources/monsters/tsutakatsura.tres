@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-155"
+slug = "tsutakatsura"
+name_jp = "ツタカツラ"
+name_en = "Tsutakatsura"
+family = "plant"
+rank = "D"
+size_class = "S"
+motif_group = "plant"
+secondary_motif_group = "gatebound"
+motif_source = "蔦 + 葛 + 門柱"
+ontology_class = "gate_touched"
+silhouette_type = "tall"
+palette_id = "pal_ivy_gate"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 68
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 24, "mp": 12, "atk": 12, "def": 12, "spd": 11, "int": 12, "res": 12}
+cap_stats = {"hp": 182, "mp": 94, "atk": 118, "def": 112, "spd": 106, "int": 100, "res": 104}
+base_recruit = 20
+scoutable = true
+personality_bias = "patient"
+battle_role = "controller"
+trait_1 = "門巻き"
+trait_2 = "地耐性"
+loot_table_id = "loot_monster_tsutakatsura"
+prompt_id = "PRM-MON-155"
+notes = "門柱に巻き付いて離れない蔦葛の精"
+resistances = {"fire": -1, "water": 0, "wind": 0, "earth": 1, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": -1, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-035"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-012"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-026"}]

@@ -1,7 +1,7 @@
 # 14. Item, Shop, Loot, And Service Contract
 
 > **ステータス**: Draft v1.0
-> **最終更新**: 2026-03-15
+> **最終更新**: 2026-03-16
 > **参照元**:
 > - `docs/specs/systems/01_numeric_rules_and_master_schema.md`
 > - `docs/specs/systems/04_economy_items_and_progression_rules.md`
@@ -58,6 +58,7 @@
 - `ITM-###` は **item の registry / alias** とする
 - `SHOP-001`, `SHOP-W01` など既存の shop コードは **legacy registry alias** とし、今後の join 先には使わない
 - `systems/05` の Item 行にある `ITM-###` は、「item が registry code を持つ」という意味で継続し、`item_id` の意味には使わない
+- Session 03 baseline では `shop_*`, `service_*`, `loot_*` を canonical runtime ID とし、`SHP-*`, `SVC-*`, `LUT-*`, `SHOP-*` は `registry_id` または `entity_alias_master` で吸収する
 
 ---
 
@@ -189,7 +190,7 @@
 | `name_jp` | string | 表示名 |
 | `name_en` | string | 表示名英語 |
 | `shop_type` | enum | `general / field_vendor / tournament_vendor / record_vendor / specialist` |
-| `world_id` | string | 所属世界 |
+| `scope_id` | string | 所属 scope。通常は `W-###`、開始村は `VIL` |
 | `zone_id` | string nullable | より細かい位置 |
 | `story_gate_flag` | string nullable | 解放条件 |
 | `rank_gate` | string nullable | ランク条件 |
@@ -233,6 +234,7 @@ service は **アイテムを介さない取引** を表す。宿泊、全体回
 | `name_jp` | string | 表示名 |
 | `name_en` | string | 表示名英語 |
 | `service_category` | enum | `inn_rest / party_restore / storage / record_decode / recipe_reveal / tournament_entry / fusion_assist / clue_exchange` |
+| `scope_id` | string | 提供元 scope。通常は `W-###`、開始村は `VIL` |
 | `pricing_basis` | enum | `flat / per_party / per_level_band / per_attempt / per_record_page` |
 | `base_price` | int | 基準価格 |
 | `effect_key` | string | 実効果キー |
@@ -439,6 +441,7 @@ resolved_service_price(service, shop) =
 - service は「UI上の買い物」に見えても item に偽装しない
 - 宿泊、解析、エントリー料、レシピ開示は `service_master` で管理する
 - service が item を副次的に付与する場合は `reward_bundle_id` を返すのではなく、service 効果側で bundle を参照してよい
+- breeder / arena のような facility service は `shop_service_master` に必ずしもぶら下げず、NPC が `service_id` を直接持つ standalone service として扱ってよい
 
 ### 7.4 reward
 
@@ -468,7 +471,9 @@ resolved_service_price(service, shop) =
 |----------|----------|----|
 | `ITM-###` | item の registry / alias | `ITM-004` |
 | `item_*` | item の canonical ID | `item_heal_dryherb` |
+| `SHP-*` | shop の runtime legacy alias | `SHP-W07-001` |
 | `SHOP-*` | shop の legacy registry alias | `SHOP-001`, `SHOP-W01` |
+| `SVC-*` | service の runtime legacy alias | `SVC-W18-ARENA` |
 | `LUT-###` | loot table の registry ID | `LUT-007` |
 
 ### 8.3 content doc との整合

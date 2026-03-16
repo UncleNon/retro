@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W15-004"
+scope_id = "W-015"
+name_jp = "ミト"
+name_en = "Mito"
+role = "route宿の女将"
+dark_role = "代理歩きを知りながら黙認する"
+x = 28
+y = 28
+facing = "up"
+npc_type = "key"
+phase_count = 3
+clue_ids = ["CL-038"]
+shop_id = ""
+service_id = ""
+personality_note = "世渡り上手で人情家"
+initial_dialogue_jp = "代理歩き？　知らないよ。……でも、宿銭を払えば誰でも泊める。"
+notes = "黒布の巡礼路"

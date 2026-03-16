@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-435"
+slug = "shimei_tsuru"
+name_jp = "シメイツル"
+name_en = "Shimei Tsuru"
+family = "divine"
+rank = "D"
+size_class = "M"
+motif_group = "animal"
+secondary_motif_group = "bureaucratic"
+motif_source = "指名鶴 + 名呼び + 式台"
+ontology_class = "record_bent"
+silhouette_type = "tall"
+palette_id = "pal_naming_crane"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 72
+growth_curve_id = "LATE"
+base_stats = {"hp": 24, "mp": 15, "atk": 12, "def": 10, "spd": 15, "int": 15, "res": 14}
+cap_stats = {"hp": 182, "mp": 114, "atk": 118, "def": 96, "spd": 140, "int": 124, "res": 118}
+base_recruit = 18
+scoutable = true
+personality_bias = "solemn"
+battle_role = "controller"
+trait_1 = "名呼び"
+trait_2 = "光耐性"
+loot_table_id = "loot_monster_shimei_tsuru"
+prompt_id = "PRM-MON-435"
+notes = "式台で名を呼び存在を確認する鶴"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 1, "dark": -1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": 0, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

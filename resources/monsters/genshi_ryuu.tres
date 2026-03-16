@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-406"
+slug = "genshi_ryuu"
+name_jp = "ゲンシリュウ"
+name_en = "Genshi Ryuu"
+family = "dragon"
+rank = "A"
+size_class = "L"
+motif_group = "myth"
+secondary_motif_group = "astral"
+motif_source = "原始竜 + 混沌鱗 + 始原"
+ontology_class = "remnant_bearing"
+silhouette_type = "wide"
+palette_id = "pal_primal_dragon"
+field_sprite_px = 16
+battle_sprite_px = 48
+base_level_cap = 80
+growth_curve_id = "LEGEND"
+base_stats = {"hp": 32, "mp": 19, "atk": 20, "def": 16, "spd": 16, "int": 19, "res": 18}
+cap_stats = {"hp": 246, "mp": 148, "atk": 186, "def": 148, "spd": 150, "int": 162, "res": 152}
+base_recruit = 0
+scoutable = false
+personality_bias = "bold"
+battle_role = "striker"
+trait_1 = "混沌鱗"
+trait_2 = "闇耐性"
+loot_table_id = "loot_monster_genshi_ryuu"
+prompt_id = "PRM-MON-406"
+notes = "始原の混沌を鱗に封じた原始の竜"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": 1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

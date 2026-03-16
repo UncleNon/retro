@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-158"
+slug = "meotosugi"
+name_jp = "メオトスギ"
+name_en = "Meotosugi"
+family = "plant"
+rank = "D"
+size_class = "M"
+motif_group = "plant"
+secondary_motif_group = "pastoral"
+motif_source = "杉 + 夫婦 + 婚礼林"
+ontology_class = "wildborn"
+silhouette_type = "tall"
+palette_id = "pal_paired_cedar"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 72
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 28, "mp": 10, "atk": 12, "def": 14, "spd": 9, "int": 10, "res": 12}
+cap_stats = {"hp": 208, "mp": 80, "atk": 116, "def": 130, "spd": 88, "int": 86, "res": 106}
+base_recruit = 18
+scoutable = true
+personality_bias = "calm"
+battle_role = "tank"
+trait_1 = "根結び"
+trait_2 = "地耐性"
+loot_table_id = "loot_monster_meotosugi"
+prompt_id = "PRM-MON-158"
+notes = "婚礼林で寄り添う夫婦杉の精"
+resistances = {"fire": -1, "water": 0, "wind": 0, "earth": 1, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": -1, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-043"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-024"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-023"}]

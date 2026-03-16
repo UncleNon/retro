@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W17-001"
+scope_id = "W-017"
+name_jp = "ナツホ"
+name_en = "Natsuho"
+role = "室番"
+dark_role = "失踪した夫の室だけ閉鎖できない"
+x = 32
+y = 20
+facing = "down"
+npc_type = "key"
+phase_count = 4
+clue_ids = ["CL-041", "CL-042"]
+shop_id = ""
+service_id = ""
+personality_note = "穏やかだが折れない強さ"
+initial_dialogue_jp = "部屋は閉めない。……まだ声が聞こえるから。"
+notes = "残名の回廊"

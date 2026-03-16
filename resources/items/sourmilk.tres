@@ -15,5 +15,5 @@ sell_price = 90
 target_scope = "enemy_single"
 effect_key = "recruit_bonus"
 effect_value = "22"
-tags = ["bait", "beast", "plant"]
-description = "獣と植物が好む酸乳"
+tags = ["bait", "beast", "plant", "lore_maternal_judgment", "event_h1004"]
+description = "判乳残りを酸ませ灰乳獣を寄せる餌"

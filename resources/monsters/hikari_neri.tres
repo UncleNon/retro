@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-487"
+slug = "hikari_neri"
+name_jp = "ヒカリネリ"
+name_en = "Hikari Neri"
+family = "slime"
+rank = "D"
+size_class = "S"
+motif_group = "weather"
+secondary_motif_group = "astral"
+motif_source = "光 + 練り + 星屑"
+ontology_class = "gate_touched"
+silhouette_type = "floating"
+palette_id = "pal_light_gel"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 68
+growth_curve_id = "LATE"
+base_stats = {"hp": 18, "mp": 16, "atk": 8, "def": 8, "spd": 14, "int": 16, "res": 14}
+cap_stats = {"hp": 138, "mp": 126, "atk": 80, "def": 82, "spd": 130, "int": 134, "res": 120}
+base_recruit = 18
+scoutable = true
+personality_bias = "gentle"
+battle_role = "healer"
+trait_1 = "光膜"
+trait_2 = "光微耐性"
+loot_table_id = "loot_monster_hikari_neri"
+prompt_id = "PRM-MON-487"
+notes = "星屑が練り上がり微かに光る液体の生き物"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 1, "dark": -1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": -1, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

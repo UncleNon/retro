@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W19-002"
+scope_id = "W-019"
+name_jp = "シデ"
+name_en = "Shide"
+role = "casualty clerk"
+dark_role = "想定喪失率を丸めて書いてきた"
+x = 26
+y = 24
+facing = "right"
+npc_type = "key"
+phase_count = 3
+clue_ids = ["CL-048"]
+shop_id = ""
+service_id = ""
+personality_note = "事務的で良心が擦り減った"
+initial_dialogue_jp = "数字を丸めれば報告が通る。……丸めた分だけ、人が消える。"
+notes = "閉鐘の塔都"

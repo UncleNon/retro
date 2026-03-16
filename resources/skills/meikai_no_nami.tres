@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-155"
+slug = "meikai_no_nami"
+name_jp = "めいかいのなみ"
+name_en = "Nether Wave"
+category = "magic"
+element = "dark"
+mp_cost = 12
+target_scope = "spread"
+formula_key = "M2"
+base_power = 46
+base_rate = 35
+tags = ["spread", "fixed_magic", "dark"]
+battle_role = "CONTROL"
+effect_text = "冥界の波が押し寄せる"

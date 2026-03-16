@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W04-005"
+scope_id = "W-004"
+name_jp = "リゼ"
+name_en = "Rize"
+role = "検潮書記"
+dark_role = "潮位記録と所属照合を兼務する"
+x = 38
+y = 18
+facing = "down"
+npc_type = "minor"
+phase_count = 2
+clue_ids = ["CL-016"]
+shop_id = ""
+service_id = ""
+personality_note = "真面目だが疑問を持ち始めている"
+initial_dialogue_jp = "潮位と人の記録が同じ棚にある。……変だと思わないか？"
+notes = "札差しの岬"

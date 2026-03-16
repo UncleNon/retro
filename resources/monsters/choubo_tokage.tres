@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-226"
+slug = "choubo_tokage"
+name_jp = "チョウボトカゲ"
+name_en = "Choubo Tokage"
+family = "material"
+rank = "C"
+size_class = "M"
+motif_group = "tool"
+secondary_motif_group = "bureaucratic"
+motif_source = "帳簿 + 蜥蜴 + 役所"
+ontology_class = "record_bent"
+silhouette_type = "wide"
+palette_id = "pal_ledger_lizard"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 74
+growth_curve_id = "LATE"
+base_stats = {"hp": 26, "mp": 14, "atk": 14, "def": 12, "spd": 14, "int": 14, "res": 13}
+cap_stats = {"hp": 196, "mp": 110, "atk": 134, "def": 112, "spd": 132, "int": 120, "res": 114}
+base_recruit = 16
+scoutable = true
+personality_bias = "calculating"
+battle_role = "controller"
+trait_1 = "帳食い"
+trait_2 = "封印微耐性"
+loot_table_id = "loot_monster_choubo_tokage"
+prompt_id = "PRM-MON-226"
+notes = "役所の帳簿を背に貼りつけて走る蜥蜴"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 1, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 2, "hush": 0}
+learnset = []

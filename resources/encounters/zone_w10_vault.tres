@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="EncounterZoneData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/encounter_zone_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+zone_id = "ZONE-W10-VAULT"
+world_id = "W-010"
+name_jp = "塩紙蔵"
+encounter_min_steps = 10
+encounter_max_steps = 18
+terrain_rate = 1.15
+bgm_id = "BGM-W010-FIELD"
+is_dungeon = false
+time_band = "dusk"
+weather = "clear"
+notes = "耐塩紙の帳簿が保管される蔵"
+entries = [{"slot": 1, "monster_id": "MON-228", "weight": 20, "min_lv": 38, "max_lv": 40, "time_band": "dusk", "weather": "clear"}, {"slot": 2, "monster_id": "MON-291", "weight": 20, "min_lv": 38, "max_lv": 40, "time_band": "dusk", "weather": "clear"}, {"slot": 3, "monster_id": "MON-282", "weight": 15, "min_lv": 38, "max_lv": 40, "time_band": "dusk", "weather": "clear"}, {"slot": 4, "monster_id": "MON-226", "weight": 15, "min_lv": 38, "max_lv": 39, "time_band": "dusk", "weather": "clear"}, {"slot": 5, "monster_id": "MON-480", "weight": 15, "min_lv": 39, "max_lv": 41, "time_band": "dusk", "weather": "clear"}, {"slot": 6, "monster_id": "MON-489", "weight": 15, "min_lv": 40, "max_lv": 41, "time_band": "dusk", "weather": "clear"}]

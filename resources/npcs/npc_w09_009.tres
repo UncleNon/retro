@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W09-009"
+scope_id = "W-009"
+name_jp = "コフユ"
+name_en = "Kofuyu"
+role = "仮親宿の子ども"
+dark_role = "冬名と夏名の違いを素直に疑問に思う"
+x = 26
+y = 26
+facing = "down"
+npc_type = "mob"
+phase_count = 1
+clue_ids = []
+shop_id = ""
+service_id = ""
+personality_note = "純真で核心を突く"
+initial_dialogue_jp = "おじさん、冬と夏で名前が変わるの、変だよね？"
+notes = "仮親の雪原"

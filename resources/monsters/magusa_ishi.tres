@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-238"
+slug = "magusa_ishi"
+name_jp = "マグサイシ"
+name_en = "Magusa Ishi"
+family = "material"
+rank = "B"
+size_class = "L"
+motif_group = "tool"
+secondary_motif_group = "gatebound"
+motif_source = "楣石 + 蟹 + 門上部"
+ontology_class = "gate_touched"
+silhouette_type = "wide"
+palette_id = "pal_lintel_stone"
+field_sprite_px = 16
+battle_sprite_px = 48
+base_level_cap = 76
+growth_curve_id = "LATE"
+base_stats = {"hp": 30, "mp": 12, "atk": 15, "def": 17, "spd": 10, "int": 11, "res": 15}
+cap_stats = {"hp": 226, "mp": 94, "atk": 142, "def": 158, "spd": 96, "int": 90, "res": 126}
+base_recruit = 0
+scoutable = false
+personality_bias = "solemn"
+battle_role = "tank"
+trait_1 = "楣落とし"
+trait_2 = "地耐性"
+loot_table_id = "loot_monster_magusa_ishi"
+prompt_id = "PRM-MON-238"
+notes = "門上部の楣石が分離して歩く重い石型"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 2, "thunder": -1, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": 1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 1, "hush": 0}
+learnset = []

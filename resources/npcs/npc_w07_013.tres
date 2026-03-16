@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W07-013"
+scope_id = "W-007"
+name_jp = "ブンゴ"
+name_en = "Bungo"
+role = "飼育係"
+dark_role = "闘技用モンスターの世話をする"
+x = 48
+y = 24
+facing = "right"
+npc_type = "breeder"
+phase_count = 2
+clue_ids = []
+shop_id = "shop_w07_breeder"
+service_id = "service_w07_breeding"
+personality_note = "モンスターに詳しく人間は苦手"
+initial_dialogue_jp = "badge のある獣と、ない獣。扱いが違うの、分かるだろ。"
+notes = "削名の階市・牧場"

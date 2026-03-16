@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-154"
+slug = "kinoko_boushi"
+name_jp = "キノコボウシ"
+name_en = "Kinoko Boushi"
+family = "plant"
+rank = "D"
+size_class = "M"
+motif_group = "plant"
+secondary_motif_group = "funerary"
+motif_source = "茸 + 帽子 + 墓守小屋"
+ontology_class = "wildborn"
+silhouette_type = "round"
+palette_id = "pal_cap_fungus"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 72
+growth_curve_id = "LATE"
+base_stats = {"hp": 26, "mp": 14, "atk": 10, "def": 14, "spd": 9, "int": 14, "res": 14}
+cap_stats = {"hp": 196, "mp": 112, "atk": 98, "def": 128, "spd": 88, "int": 118, "res": 124}
+base_recruit = 18
+scoutable = true
+personality_bias = "patient"
+battle_role = "tank"
+trait_1 = "胞子帽"
+trait_2 = "毒耐性"
+loot_table_id = "loot_monster_kinoko_boushi"
+prompt_id = "PRM-MON-154"
+notes = "墓守小屋の屋根に帽子のように生える大茸"
+resistances = {"fire": -1, "water": 0, "wind": 0, "earth": 1, "thunder": 0, "light": 0, "dark": 0, "poison": 1, "sleep": 1, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": -2, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-014"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-024"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-015"}]

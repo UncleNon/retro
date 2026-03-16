@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W03-010"
+scope_id = "W-003"
+name_jp = "ナミ"
+name_en = "Nami"
+role = "宿場の子ども"
+dark_role = "客の灯番号を覚えて遊ぶ"
+x = 26
+y = 22
+facing = "down"
+npc_type = "mob"
+phase_count = 1
+clue_ids = []
+shop_id = ""
+service_id = ""
+personality_note = "人懐っこい"
+initial_dialogue_jp = "おじさんの番号、覚えたよ！　名前は……知らないけど。"
+notes = "継灯の宿場"

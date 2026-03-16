@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-246"
+slug = "tetsu_no_kabe"
+name_jp = "てつのかべ"
+name_en = "Steel Curtain"
+category = "setup"
+element = "none"
+mp_cost = 6
+target_scope = "ally_all"
+formula_key = "B3"
+base_power = 0
+base_rate = 0
+tags = ["setup", "field", "material"]
+battle_role = "ALLY_SUSTAIN"
+effect_text = "鋼鉄の壁で守る"

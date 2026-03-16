@@ -15,5 +15,5 @@ sell_price = 65
 target_scope = "ally_single"
 effect_key = "heal_mp"
 effect_value = "36"
-tags = ["mp", "uncommon"]
-description = "音を吸う蝋でMPを回復"
+tags = ["mp", "uncommon", "lore_closed_bell", "event_h1005"]
+description = "閉鐘後の祈りで灯芯ごと噛む無音蝋"

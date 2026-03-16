@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="EncounterZoneData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/encounter_zone_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+zone_id = "ZONE-W08-RING"
+world_id = "W-008"
+name_jp = "放牧環道"
+encounter_min_steps = 12
+encounter_max_steps = 20
+terrain_rate = 1.05
+bgm_id = "BGM-W008-FIELD"
+is_dungeon = false
+time_band = "day"
+weather = "clear"
+notes = "印付き獣が巡る環状の牧道"
+entries = [{"slot": 1, "monster_id": "MON-042", "weight": 25, "min_lv": 29, "max_lv": 31, "time_band": "day", "weather": "clear"}, {"slot": 2, "monster_id": "MON-048", "weight": 20, "min_lv": 29, "max_lv": 31, "time_band": "day", "weather": "clear"}, {"slot": 3, "monster_id": "MON-034", "weight": 20, "min_lv": 29, "max_lv": 31, "time_band": "day", "weather": "clear"}, {"slot": 4, "monster_id": "MON-030", "weight": 15, "min_lv": 29, "max_lv": 30, "time_band": "day", "weather": "clear"}, {"slot": 5, "monster_id": "MON-047", "weight": 10, "min_lv": 30, "max_lv": 32, "time_band": "day", "weather": "clear"}, {"slot": 6, "monster_id": "MON-065", "weight": 10, "min_lv": 31, "max_lv": 33, "time_band": "day", "weather": "clear"}]

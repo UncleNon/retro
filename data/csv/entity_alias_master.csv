@@ -1,0 +1,551 @@
+entity_type,alias_value,canonical_id,alias_kind,source_doc,active,sunset_version,notes
+shop,SHP-VIL-001,shop_vil_general,legacy_runtime,data/csv/npc_master.csv,true,,NPC shop reference
+shop,SHP-VIL-002,shop_vil_clinic,legacy_runtime,data/csv/npc_master.csv,true,,NPC shop reference
+shop,SHP-VIL-003,shop_vil_peddler,legacy_runtime,data/csv/npc_master.csv,true,,NPC shop reference
+shop,SHP-W01-001,shop_w01_general,legacy_runtime,data/csv/npc_master.csv,true,,NPC shop reference
+shop,SHP-W01-002,shop_w01_clinic,legacy_runtime,data/csv/npc_master.csv,true,,NPC shop reference
+shop,SHP-W02-001,shop_w02_general,legacy_runtime,data/csv/npc_master.csv,true,,NPC shop reference
+shop,SHP-W02-002,shop_w02_clinic,legacy_runtime,data/csv/npc_master.csv,true,,NPC shop reference
+shop,SHP-W03-001,shop_w03_general,legacy_runtime,data/csv/npc_master.csv,true,,NPC shop reference
+shop,SHP-W03-002,shop_w03_clinic,legacy_runtime,data/csv/npc_master.csv,true,,NPC shop reference
+shop,SHP-W04-001,shop_w04_general,legacy_runtime,data/csv/npc_master.csv,true,,NPC shop reference
+shop,SHP-W04-002,shop_w04_clinic,legacy_runtime,data/csv/npc_master.csv,true,,NPC shop reference
+shop,SHP-W05-001,shop_w05_general,legacy_runtime,data/csv/npc_master.csv,true,,NPC shop reference
+shop,SHP-W05-002,shop_w05_clinic,legacy_runtime,data/csv/npc_master.csv,true,,NPC shop reference
+shop,SHP-W06-001,shop_w06_general,legacy_runtime,data/csv/npc_master.csv,true,,NPC shop reference
+shop,SHP-W06-002,shop_w06_clinic,legacy_runtime,data/csv/npc_master.csv,true,,NPC shop reference
+shop,SHP-W07-001,shop_w07_general,legacy_runtime,data/csv/npc_master.csv,true,,NPC shop reference
+shop,SHP-W07-002,shop_w07_clinic,legacy_runtime,data/csv/npc_master.csv,true,,NPC shop reference
+shop,SHP-W07-003,shop_w07_breeder,legacy_runtime,data/csv/npc_master.csv,true,,NPC shop reference
+shop,SHP-W08-001,shop_w08_general,legacy_runtime,data/csv/npc_master.csv,true,,NPC shop reference
+shop,SHP-W08-002,shop_w08_clinic,legacy_runtime,data/csv/npc_master.csv,true,,NPC shop reference
+shop,SHP-W09-001,shop_w09_general,legacy_runtime,data/csv/npc_master.csv,true,,NPC shop reference
+shop,SHP-W09-002,shop_w09_clinic,legacy_runtime,data/csv/npc_master.csv,true,,NPC shop reference
+shop,SHP-W09-003,shop_w09_breeder,legacy_runtime,data/csv/npc_master.csv,true,,NPC shop reference
+shop,SHP-W10-001,shop_w10_general,legacy_runtime,data/csv/npc_master.csv,true,,NPC shop reference
+shop,SHP-W10-002,shop_w10_clinic,legacy_runtime,data/csv/npc_master.csv,true,,NPC shop reference
+shop,SHP-W11-001,shop_w11_general,legacy_runtime,data/csv/npc_master.csv,true,,NPC shop reference
+shop,SHP-W11-002,shop_w11_clinic,legacy_runtime,data/csv/npc_master.csv,true,,NPC shop reference
+shop,SHP-W12-001,shop_w12_general,legacy_runtime,data/csv/npc_master.csv,true,,NPC shop reference
+shop,SHP-W12-002,shop_w12_clinic,legacy_runtime,data/csv/npc_master.csv,true,,NPC shop reference
+shop,SHP-W12-003,shop_w12_arena,legacy_runtime,data/csv/npc_master.csv,true,,NPC shop reference
+shop,SHP-W12-004,shop_w12_breeder,legacy_runtime,data/csv/npc_master.csv,true,,NPC shop reference
+shop,SHP-W13-001,shop_w13_general,legacy_runtime,data/csv/npc_master.csv,true,,NPC shop reference
+shop,SHP-W13-002,shop_w13_clinic,legacy_runtime,data/csv/npc_master.csv,true,,NPC shop reference
+shop,SHP-W14-001,shop_w14_general,legacy_runtime,data/csv/npc_master.csv,true,,NPC shop reference
+shop,SHP-W14-002,shop_w14_clinic,legacy_runtime,data/csv/npc_master.csv,true,,NPC shop reference
+shop,SHP-W14-003,shop_w14_breeder,legacy_runtime,data/csv/npc_master.csv,true,,NPC shop reference
+shop,SHP-W15-001,shop_w15_general,legacy_runtime,data/csv/npc_master.csv,true,,NPC shop reference
+shop,SHP-W15-002,shop_w15_clinic,legacy_runtime,data/csv/npc_master.csv,true,,NPC shop reference
+shop,SHP-W16-001,shop_w16_general,legacy_runtime,data/csv/npc_master.csv,true,,NPC shop reference
+shop,SHP-W16-002,shop_w16_clinic,legacy_runtime,data/csv/npc_master.csv,true,,NPC shop reference
+shop,SHP-W17-001,shop_w17_general,legacy_runtime,data/csv/npc_master.csv,true,,NPC shop reference
+shop,SHP-W17-002,shop_w17_clinic,legacy_runtime,data/csv/npc_master.csv,true,,NPC shop reference
+shop,SHP-W17-003,shop_w17_breeder,legacy_runtime,data/csv/npc_master.csv,true,,NPC shop reference
+shop,SHP-W18-001,shop_w18_general,legacy_runtime,data/csv/npc_master.csv,true,,NPC shop reference
+shop,SHP-W18-002,shop_w18_clinic,legacy_runtime,data/csv/npc_master.csv,true,,NPC shop reference
+shop,SHP-W18-003,shop_w18_arena,legacy_runtime,data/csv/npc_master.csv,true,,NPC shop reference
+shop,SHP-W18-004,shop_w18_breeder,legacy_runtime,data/csv/npc_master.csv,true,,NPC shop reference
+shop,SHP-W19-001,shop_w19_general,legacy_runtime,data/csv/npc_master.csv,true,,NPC shop reference
+shop,SHP-W19-002,shop_w19_clinic,legacy_runtime,data/csv/npc_master.csv,true,,NPC shop reference
+shop,SHP-W19-003,shop_w19_arena,legacy_runtime,data/csv/npc_master.csv,true,,NPC shop reference
+shop,SHP-W19-004,shop_w19_breeder,legacy_runtime,data/csv/npc_master.csv,true,,NPC shop reference
+shop,SHP-W20-001,shop_w20_general,legacy_runtime,data/csv/npc_master.csv,true,,NPC shop reference
+shop,SHP-W20-002,shop_w20_clinic,legacy_runtime,data/csv/npc_master.csv,true,,NPC shop reference
+shop,SHP-W20-003,shop_w20_arena,legacy_runtime,data/csv/npc_master.csv,true,,NPC shop reference
+shop,SHP-W20-004,shop_w20_breeder,legacy_runtime,data/csv/npc_master.csv,true,,NPC shop reference
+shop,SHP-W21-001,shop_w21_general,legacy_runtime,data/csv/npc_master.csv,true,,NPC shop reference
+shop,SHP-W21-002,shop_w21_clinic,legacy_runtime,data/csv/npc_master.csv,true,,NPC shop reference
+shop,SHOP-001,shop_vil_general,legacy_doc,docs/specs/content/04_initial_items_and_shops.md,true,,Content doc legacy alias
+shop,SHOP-002,shop_vil_peddler,legacy_doc,docs/specs/content/04_initial_items_and_shops.md,true,,Content doc legacy alias
+shop,SHOP-W01,shop_w01_general,legacy_doc,docs/specs/content/04_initial_items_and_shops.md,true,,Content doc legacy alias
+shop,SHOP-W02,shop_w02_general,legacy_doc,docs/specs/content/04_initial_items_and_shops.md,true,,Content doc legacy alias
+shop,SHOP-W03,shop_w03_general,legacy_doc,docs/specs/content/04_initial_items_and_shops.md,true,,Content doc legacy alias
+shop,SHOP-W04,shop_w04_general,legacy_doc,docs/specs/content/04_initial_items_and_shops.md,true,,Content doc legacy alias
+service,SVC-VIL-HEAL,service_vil_restoration,legacy_runtime,data/csv/npc_master.csv,true,,NPC service reference
+service,SVC-W01-HEAL,service_w01_restoration,legacy_runtime,data/csv/npc_master.csv,true,,NPC service reference
+service,SVC-W02-HEAL,service_w02_restoration,legacy_runtime,data/csv/npc_master.csv,true,,NPC service reference
+service,SVC-W03-HEAL,service_w03_restoration,legacy_runtime,data/csv/npc_master.csv,true,,NPC service reference
+service,SVC-W04-HEAL,service_w04_restoration,legacy_runtime,data/csv/npc_master.csv,true,,NPC service reference
+service,SVC-W05-HEAL,service_w05_restoration,legacy_runtime,data/csv/npc_master.csv,true,,NPC service reference
+service,SVC-W06-HEAL,service_w06_restoration,legacy_runtime,data/csv/npc_master.csv,true,,NPC service reference
+service,SVC-W07-BREED,service_w07_breeding,legacy_runtime,data/csv/npc_master.csv,true,,NPC service reference
+service,SVC-W07-HEAL,service_w07_restoration,legacy_runtime,data/csv/npc_master.csv,true,,NPC service reference
+service,SVC-W08-HEAL,service_w08_restoration,legacy_runtime,data/csv/npc_master.csv,true,,NPC service reference
+service,SVC-W09-BREED,service_w09_breeding,legacy_runtime,data/csv/npc_master.csv,true,,NPC service reference
+service,SVC-W09-HEAL,service_w09_restoration,legacy_runtime,data/csv/npc_master.csv,true,,NPC service reference
+service,SVC-W10-HEAL,service_w10_restoration,legacy_runtime,data/csv/npc_master.csv,true,,NPC service reference
+service,SVC-W11-HEAL,service_w11_restoration,legacy_runtime,data/csv/npc_master.csv,true,,NPC service reference
+service,SVC-W12-ARENA,service_w12_arena_entry,legacy_runtime,data/csv/npc_master.csv,true,,NPC service reference
+service,SVC-W12-BREED,service_w12_breeding,legacy_runtime,data/csv/npc_master.csv,true,,NPC service reference
+service,SVC-W12-HEAL,service_w12_restoration,legacy_runtime,data/csv/npc_master.csv,true,,NPC service reference
+service,SVC-W13-HEAL,service_w13_restoration,legacy_runtime,data/csv/npc_master.csv,true,,NPC service reference
+service,SVC-W14-BREED,service_w14_breeding,legacy_runtime,data/csv/npc_master.csv,true,,NPC service reference
+service,SVC-W14-HEAL,service_w14_restoration,legacy_runtime,data/csv/npc_master.csv,true,,NPC service reference
+service,SVC-W15-HEAL,service_w15_restoration,legacy_runtime,data/csv/npc_master.csv,true,,NPC service reference
+service,SVC-W16-HEAL,service_w16_restoration,legacy_runtime,data/csv/npc_master.csv,true,,NPC service reference
+service,SVC-W17-BREED,service_w17_breeding,legacy_runtime,data/csv/npc_master.csv,true,,NPC service reference
+service,SVC-W17-HEAL,service_w17_restoration,legacy_runtime,data/csv/npc_master.csv,true,,NPC service reference
+service,SVC-W18-ARENA,service_w18_arena_entry,legacy_runtime,data/csv/npc_master.csv,true,,NPC service reference
+service,SVC-W18-BREED,service_w18_breeding,legacy_runtime,data/csv/npc_master.csv,true,,NPC service reference
+service,SVC-W18-HEAL,service_w18_restoration,legacy_runtime,data/csv/npc_master.csv,true,,NPC service reference
+service,SVC-W19-ARENA,service_w19_arena_entry,legacy_runtime,data/csv/npc_master.csv,true,,NPC service reference
+service,SVC-W19-BREED,service_w19_breeding,legacy_runtime,data/csv/npc_master.csv,true,,NPC service reference
+service,SVC-W19-HEAL,service_w19_restoration,legacy_runtime,data/csv/npc_master.csv,true,,NPC service reference
+service,SVC-W20-ARENA,service_w20_arena_entry,legacy_runtime,data/csv/npc_master.csv,true,,NPC service reference
+service,SVC-W20-BREED,service_w20_breeding,legacy_runtime,data/csv/npc_master.csv,true,,NPC service reference
+service,SVC-W20-HEAL,service_w20_restoration,legacy_runtime,data/csv/npc_master.csv,true,,NPC service reference
+service,SVC-W21-HEAL,service_w21_restoration,legacy_runtime,data/csv/npc_master.csv,true,,NPC service reference
+loot,LUT-001,loot_monster_mokkeda,registry,data/csv/monster_master.csv,true,,monster_id=MON-001
+loot,LUT-002,loot_monster_tagtsutsuki,registry,data/csv/monster_master.csv,true,,monster_id=MON-002
+loot,LUT-003,loot_monster_yomoginame,registry,data/csv/monster_master.csv,true,,monster_id=MON-003
+loot,LUT-004,loot_monster_kagohonezumi,registry,data/csv/monster_master.csv,true,,monster_id=MON-004
+loot,LUT-005,loot_monster_mayoikakashi,registry,data/csv/monster_master.csv,true,,monster_id=MON-005
+loot,LUT-006,loot_monster_iwamimi,registry,data/csv/monster_master.csv,true,,monster_id=MON-006
+loot,LUT-007,loot_monster_shimerigasa,registry,data/csv/monster_master.csv,true,,monster_id=MON-007
+loot,LUT-008,loot_monster_yubigarasu,registry,data/csv/monster_master.csv,true,,monster_id=MON-008
+loot,LUT-009,loot_monster_shirushikui,registry,data/csv/monster_master.csv,true,,monster_id=MON-009
+loot,LUT-010,loot_monster_toumorinoko,registry,data/csv/monster_master.csv,true,,monster_id=MON-010
+loot,LUT-011,loot_monster_chichisusuri,registry,data/csv/monster_master.csv,true,,monster_id=MON-011
+loot,LUT-012,loot_monster_konahizume,registry,data/csv/monster_master.csv,true,,monster_id=MON-012
+loot,LUT-013,loot_monster_haitosaka,registry,data/csv/monster_master.csv,true,,monster_id=MON-013
+loot,LUT-014,loot_monster_tomoshiga,registry,data/csv/monster_master.csv,true,,monster_id=MON-014
+loot,LUT-015,loot_monster_kagiashiten,registry,data/csv/monster_master.csv,true,,monster_id=MON-015
+loot,LUT-016,loot_monster_nemuinku,registry,data/csv/monster_master.csv,true,,monster_id=MON-016
+loot,LUT-017,loot_monster_fudagani,registry,data/csv/monster_master.csv,true,,monster_id=MON-017
+loot,LUT-018,loot_monster_sashimisago,registry,data/csv/monster_master.csv,true,,monster_id=MON-018
+loot,LUT-019,loot_monster_ushioagito,registry,data/csv/monster_master.csv,true,,monster_id=MON-019
+loot,LUT-020,loot_monster_mumeibotaru,registry,data/csv/monster_master.csv,true,,monster_id=MON-020
+loot,LUT-021,loot_monster_kaorinashi,registry,data/csv/monster_master.csv,true,,monster_id=MON-021
+loot,LUT-022,loot_monster_koegaeshi,registry,data/csv/monster_master.csv,true,,monster_id=MON-022
+loot,LUT-023,loot_monster_kaerazujika,registry,data/csv/monster_master.csv,true,,monster_id=MON-023
+loot,LUT-024,loot_monster_amarisuzu,registry,data/csv/monster_master.csv,true,,monster_id=MON-024
+loot,LUT-025,loot_monster_kuguriyoshi,registry,data/csv/monster_master.csv,true,,monster_id=MON-025
+loot,LUT-026,loot_monster_suzuwatari,registry,data/csv/monster_master.csv,true,,monster_id=MON-026
+loot,LUT-027,loot_monster_shirushiari,registry,data/csv/monster_master.csv,true,,monster_id=MON-027
+loot,LUT-028,loot_monster_yakunashi,registry,data/csv/monster_master.csv,true,,monster_id=MON-028
+loot,LUT-029,loot_monster_tanasuberi,registry,data/csv/monster_master.csv,true,,monster_id=MON-029
+loot,LUT-030,loot_monster_suzu_hitsuji,registry,data/csv/monster_master.csv,true,,monster_id=MON-030
+loot,LUT-031,loot_monster_yagitsume,registry,data/csv/monster_master.csv,true,,monster_id=MON-031
+loot,LUT-032,loot_monster_kayanezumi,registry,data/csv/monster_master.csv,true,,monster_id=MON-032
+loot,LUT-033,loot_monster_fudagitsune,registry,data/csv/monster_master.csv,true,,monster_id=MON-033
+loot,LUT-034,loot_monster_wakakoma,registry,data/csv/monster_master.csv,true,,monster_id=MON-034
+loot,LUT-035,loot_monster_tsuchimogura,registry,data/csv/monster_master.csv,true,,monster_id=MON-035
+loot,LUT-036,loot_monster_kubiwadanuki,registry,data/csv/monster_master.csv,true,,monster_id=MON-036
+loot,LUT-037,loot_monster_honegumo,registry,data/csv/monster_master.csv,true,,monster_id=MON-037
+loot,LUT-038,loot_monster_kawausobe,registry,data/csv/monster_master.csv,true,,monster_id=MON-038
+loot,LUT-039,loot_monster_sumitsuki_usagi,registry,data/csv/monster_master.csv,true,,monster_id=MON-039
+loot,LUT-040,loot_monster_ibokojika,registry,data/csv/monster_master.csv,true,,monster_id=MON-040
+loot,LUT-041,loot_monster_hagane_harinezumi,registry,data/csv/monster_master.csv,true,,monster_id=MON-041
+loot,LUT-042,loot_monster_chichiushi_ko,registry,data/csv/monster_master.csv,true,,monster_id=MON-042
+loot,LUT-043,loot_monster_akaeri_itachi,registry,data/csv/monster_master.csv,true,,monster_id=MON-043
+loot,LUT-044,loot_monster_obi_yamori,registry,data/csv/monster_master.csv,true,,monster_id=MON-044
+loot,LUT-045,loot_monster_tsuno_inoshishi,registry,data/csv/monster_master.csv,true,,monster_id=MON-045
+loot,LUT-046,loot_monster_shiraha_mujina,registry,data/csv/monster_master.csv,true,,monster_id=MON-046
+loot,LUT-047,loot_monster_niku_ookami,registry,data/csv/monster_master.csv,true,,monster_id=MON-047
+loot,LUT-048,loot_monster_kurogane_ushi,registry,data/csv/monster_master.csv,true,,monster_id=MON-048
+loot,LUT-049,loot_monster_yama_inoshishi,registry,data/csv/monster_master.csv,true,,monster_id=MON-049
+loot,LUT-050,loot_monster_kumo_shika,registry,data/csv/monster_master.csv,true,,monster_id=MON-050
+loot,LUT-051,loot_monster_suji_hyou,registry,data/csv/monster_master.csv,true,,monster_id=MON-051
+loot,LUT-052,loot_monster_oobuchi_kitsune,registry,data/csv/monster_master.csv,true,,monster_id=MON-052
+loot,LUT-053,loot_monster_hai_yamainu,registry,data/csv/monster_master.csv,true,,monster_id=MON-053
+loot,LUT-054,loot_monster_numa_wani,registry,data/csv/monster_master.csv,true,,monster_id=MON-054
+loot,LUT-055,loot_monster_tsume_anaguma,registry,data/csv/monster_master.csv,true,,monster_id=MON-055
+loot,LUT-056,loot_monster_kagebashiri,registry,data/csv/monster_master.csv,true,,monster_id=MON-056
+loot,LUT-057,loot_monster_ibuki_uma,registry,data/csv/monster_master.csv,true,,monster_id=MON-057
+loot,LUT-058,loot_monster_shioji_ookami,registry,data/csv/monster_master.csv,true,,monster_id=MON-058
+loot,LUT-059,loot_monster_kago_saru,registry,data/csv/monster_master.csv,true,,monster_id=MON-059
+loot,LUT-060,loot_monster_neri_itachi,registry,data/csv/monster_master.csv,true,,monster_id=MON-060
+loot,LUT-061,loot_monster_tsuchi_mogura_ou,registry,data/csv/monster_master.csv,true,,monster_id=MON-061
+loot,LUT-062,loot_monster_shimo_yamainu,registry,data/csv/monster_master.csv,true,,monster_id=MON-062
+loot,LUT-063,loot_monster_sabi_uma,registry,data/csv/monster_master.csv,true,,monster_id=MON-063
+loot,LUT-064,loot_monster_iwa_yamane,registry,data/csv/monster_master.csv,true,,monster_id=MON-064
+loot,LUT-065,loot_monster_iwa_guma,registry,data/csv/monster_master.csv,true,,monster_id=MON-065
+loot,LUT-066,loot_monster_mon_hyou,registry,data/csv/monster_master.csv,true,,monster_id=MON-066
+loot,LUT-067,loot_monster_tsuki_ookami,registry,data/csv/monster_master.csv,true,,monster_id=MON-067
+loot,LUT-068,loot_monster_kaze_shika,registry,data/csv/monster_master.csv,true,,monster_id=MON-068
+loot,LUT-069,loot_monster_doro_wani,registry,data/csv/monster_master.csv,true,,monster_id=MON-069
+loot,LUT-070,loot_monster_inochi_uma,registry,data/csv/monster_master.csv,true,,monster_id=MON-070
+loot,LUT-071,loot_monster_yami_gitsune,registry,data/csv/monster_master.csv,true,,monster_id=MON-071
+loot,LUT-072,loot_monster_tetsu_inoshishi,registry,data/csv/monster_master.csv,true,,monster_id=MON-072
+loot,LUT-073,loot_monster_yuki_guma,registry,data/csv/monster_master.csv,true,,monster_id=MON-073
+loot,LUT-074,loot_monster_rai_saru,registry,data/csv/monster_master.csv,true,,monster_id=MON-074
+loot,LUT-075,loot_monster_fuinshishi,registry,data/csv/monster_master.csv,true,,monster_id=MON-075
+loot,LUT-076,loot_monster_kawa_tatsu,registry,data/csv/monster_master.csv,true,,monster_id=MON-076
+loot,LUT-077,loot_monster_kagami_shika,registry,data/csv/monster_master.csv,true,,monster_id=MON-077
+loot,LUT-078,loot_monster_chimera_ke,registry,data/csv/monster_master.csv,true,,monster_id=MON-078
+loot,LUT-079,loot_monster_kakei_ookami,registry,data/csv/monster_master.csv,true,,monster_id=MON-079
+loot,LUT-080,loot_monster_mon_guma,registry,data/csv/monster_master.csv,true,,monster_id=MON-080
+loot,LUT-081,loot_monster_soumei_uma,registry,data/csv/monster_master.csv,true,,monster_id=MON-081
+loot,LUT-082,loot_monster_raikou_byou,registry,data/csv/monster_master.csv,true,,monster_id=MON-082
+loot,LUT-083,loot_monster_koseki_shishi,registry,data/csv/monster_master.csv,true,,monster_id=MON-083
+loot,LUT-084,loot_monster_zanmei_gitsune,registry,data/csv/monster_master.csv,true,,monster_id=MON-084
+loot,LUT-085,loot_monster_katami_ushi,registry,data/csv/monster_master.csv,true,,monster_id=MON-085
+loot,LUT-086,loot_monster_honoo_inoshishi,registry,data/csv/monster_master.csv,true,,monster_id=MON-086
+loot,LUT-087,loot_monster_hoshi_okami,registry,data/csv/monster_master.csv,true,,monster_id=MON-087
+loot,LUT-088,loot_monster_kekkai_juu,registry,data/csv/monster_master.csv,true,,monster_id=MON-088
+loot,LUT-089,loot_monster_shiro_kirin,registry,data/csv/monster_master.csv,true,,monster_id=MON-089
+loot,LUT-090,loot_monster_yuigon_guma,registry,data/csv/monster_master.csv,true,,monster_id=MON-090
+loot,LUT-091,loot_monster_zankyou_shika,registry,data/csv/monster_master.csv,true,,monster_id=MON-091
+loot,LUT-092,loot_monster_homura_shishi,registry,data/csv/monster_master.csv,true,,monster_id=MON-092
+loot,LUT-093,loot_monster_kotetsu_byou,registry,data/csv/monster_master.csv,true,,monster_id=MON-093
+loot,LUT-094,loot_monster_shinboku_juu,registry,data/csv/monster_master.csv,true,,monster_id=MON-094
+loot,LUT-095,loot_monster_seirei_okami,registry,data/csv/monster_master.csv,true,,monster_id=MON-095
+loot,LUT-096,loot_monster_bannou_gyuuou,registry,data/csv/monster_master.csv,true,,monster_id=MON-096
+loot,LUT-097,loot_monster_tsugime_juu,registry,data/csv/monster_master.csv,true,,monster_id=MON-097
+loot,LUT-098,loot_monster_gen_you_shishi,registry,data/csv/monster_master.csv,true,,monster_id=MON-098
+loot,LUT-200,loot_monster_warekabin,registry,data/csv/monster_master.csv,true,,monster_id=MON-200
+loot,LUT-201,loot_monster_sara_warabe,registry,data/csv/monster_master.csv,true,,monster_id=MON-201
+loot,LUT-202,loot_monster_kugi_nezumi,registry,data/csv/monster_master.csv,true,,monster_id=MON-202
+loot,LUT-203,loot_monster_tsubo_gumo,registry,data/csv/monster_master.csv,true,,monster_id=MON-203
+loot,LUT-204,loot_monster_hoki_usagi,registry,data/csv/monster_master.csv,true,,monster_id=MON-204
+loot,LUT-205,loot_monster_surikogi_mushi,registry,data/csv/monster_master.csv,true,,monster_id=MON-205
+loot,LUT-206,loot_monster_kago_mushi,registry,data/csv/monster_master.csv,true,,monster_id=MON-206
+loot,LUT-207,loot_monster_rin_suzume,registry,data/csv/monster_master.csv,true,,monster_id=MON-207
+loot,LUT-208,loot_monster_tou_katatsumuri,registry,data/csv/monster_master.csv,true,,monster_id=MON-208
+loot,LUT-209,loot_monster_chawan_gaeru,registry,data/csv/monster_master.csv,true,,monster_id=MON-209
+loot,LUT-210,loot_monster_tetsu_mogura,registry,data/csv/monster_master.csv,true,,monster_id=MON-210
+loot,LUT-211,loot_monster_kama_tonbo,registry,data/csv/monster_master.csv,true,,monster_id=MON-211
+loot,LUT-212,loot_monster_kagi_tokage,registry,data/csv/monster_master.csv,true,,monster_id=MON-212
+loot,LUT-213,loot_monster_kane_semi,registry,data/csv/monster_master.csv,true,,monster_id=MON-213
+loot,LUT-214,loot_monster_suki_ushi,registry,data/csv/monster_master.csv,true,,monster_id=MON-214
+loot,LUT-215,loot_monster_kanatsuchi_mushi,registry,data/csv/monster_master.csv,true,,monster_id=MON-215
+loot,LUT-216,loot_monster_hata_gumo,registry,data/csv/monster_master.csv,true,,monster_id=MON-216
+loot,LUT-217,loot_monster_usu_gaeru,registry,data/csv/monster_master.csv,true,,monster_id=MON-217
+loot,LUT-218,loot_monster_kinuta_yamori,registry,data/csv/monster_master.csv,true,,monster_id=MON-218
+loot,LUT-219,loot_monster_ishi_usu_hebi,registry,data/csv/monster_master.csv,true,,monster_id=MON-219
+loot,LUT-220,loot_monster_tobira_kani,registry,data/csv/monster_master.csv,true,,monster_id=MON-220
+loot,LUT-221,loot_monster_fue_hebi,registry,data/csv/monster_master.csv,true,,monster_id=MON-221
+loot,LUT-222,loot_monster_kusari_imomushi,registry,data/csv/monster_master.csv,true,,monster_id=MON-222
+loot,LUT-223,loot_monster_makimono_mushi,registry,data/csv/monster_master.csv,true,,monster_id=MON-223
+loot,LUT-224,loot_monster_nabekaburi,registry,data/csv/monster_master.csv,true,,monster_id=MON-224
+loot,LUT-225,loot_monster_jou_mushi,registry,data/csv/monster_master.csv,true,,monster_id=MON-225
+loot,LUT-226,loot_monster_choubo_tokage,registry,data/csv/monster_master.csv,true,,monster_id=MON-226
+loot,LUT-227,loot_monster_in_kame,registry,data/csv/monster_master.csv,true,,monster_id=MON-227
+loot,LUT-228,loot_monster_sumi_ishi_hebi,registry,data/csv/monster_master.csv,true,,monster_id=MON-228
+loot,LUT-229,loot_monster_fuin_suzu,registry,data/csv/monster_master.csv,true,,monster_id=MON-229
+loot,LUT-230,loot_monster_shirushi_gani,registry,data/csv/monster_master.csv,true,,monster_id=MON-230
+loot,LUT-231,loot_monster_hanko_mushi,registry,data/csv/monster_master.csv,true,,monster_id=MON-231
+loot,LUT-232,loot_monster_kane_garasu,registry,data/csv/monster_master.csv,true,,monster_id=MON-232
+loot,LUT-233,loot_monster_tobira_yamori,registry,data/csv/monster_master.csv,true,,monster_id=MON-233
+loot,LUT-234,loot_monster_tsunagi_ishi,registry,data/csv/monster_master.csv,true,,monster_id=MON-234
+loot,LUT-235,loot_monster_kagura_suzu,registry,data/csv/monster_master.csv,true,,monster_id=MON-235
+loot,LUT-236,loot_monster_kamachi_tokage,registry,data/csv/monster_master.csv,true,,monster_id=MON-236
+loot,LUT-237,loot_monster_hashira_kani,registry,data/csv/monster_master.csv,true,,monster_id=MON-237
+loot,LUT-238,loot_monster_magusa_ishi,registry,data/csv/monster_master.csv,true,,monster_id=MON-238
+loot,LUT-239,loot_monster_kabe_warabe,registry,data/csv/monster_master.csv,true,,monster_id=MON-239
+loot,LUT-240,loot_monster_jou_hebi,registry,data/csv/monster_master.csv,true,,monster_id=MON-240
+loot,LUT-241,loot_monster_shikii_same,registry,data/csv/monster_master.csv,true,,monster_id=MON-241
+loot,LUT-242,loot_monster_tobira_kabe_ou,registry,data/csv/monster_master.csv,true,,monster_id=MON-242
+loot,LUT-243,loot_monster_fuin_kama,registry,data/csv/monster_master.csv,true,,monster_id=MON-243
+loot,LUT-244,loot_monster_kagi_daimyoujin,registry,data/csv/monster_master.csv,true,,monster_id=MON-244
+loot,LUT-245,loot_monster_fuin_jin,registry,data/csv/monster_master.csv,true,,monster_id=MON-245
+loot,LUT-246,loot_monster_kyoukai_bou,registry,data/csv/monster_master.csv,true,,monster_id=MON-246
+loot,LUT-247,loot_monster_kannuki_ou,registry,data/csv/monster_master.csv,true,,monster_id=MON-247
+loot,LUT-248,loot_monster_tobira_kagami,registry,data/csv/monster_master.csv,true,,monster_id=MON-248
+loot,LUT-249,loot_monster_fuin_wa,registry,data/csv/monster_master.csv,true,,monster_id=MON-249
+loot,LUT-250,loot_monster_mon_kabe_shin,registry,data/csv/monster_master.csv,true,,monster_id=MON-250
+loot,LUT-251,loot_monster_tou_ishi_jin,registry,data/csv/monster_master.csv,true,,monster_id=MON-251
+loot,LUT-252,loot_monster_mon_gata,registry,data/csv/monster_master.csv,true,,monster_id=MON-252
+loot,LUT-253,loot_monster_fuin_tou,registry,data/csv/monster_master.csv,true,,monster_id=MON-253
+loot,LUT-254,loot_monster_keiji_ban,registry,data/csv/monster_master.csv,true,,monster_id=MON-254
+loot,LUT-255,loot_monster_sekai_tobira,registry,data/csv/monster_master.csv,true,,monster_id=MON-255
+loot,LUT-099,loot_monster_kosuzume,registry,data/csv/monster_master.csv,true,,monster_id=MON-099
+loot,LUT-100,loot_monster_fumibato,registry,data/csv/monster_master.csv,true,,monster_id=MON-100
+loot,LUT-101,loot_monster_kaketsugumi,registry,data/csv/monster_master.csv,true,,monster_id=MON-101
+loot,LUT-102,loot_monster_yogarasaki,registry,data/csv/monster_master.csv,true,,monster_id=MON-102
+loot,LUT-103,loot_monster_yane_tsubame,registry,data/csv/monster_master.csv,true,,monster_id=MON-103
+loot,LUT-104,loot_monster_ashibuefukuro,registry,data/csv/monster_master.csv,true,,monster_id=MON-104
+loot,LUT-105,loot_monster_kushisagi,registry,data/csv/monster_master.csv,true,,monster_id=MON-105
+loot,LUT-106,loot_monster_suribachi_hibari,registry,data/csv/monster_master.csv,true,,monster_id=MON-106
+loot,LUT-107,loot_monster_kakine_mozuya,registry,data/csv/monster_master.csv,true,,monster_id=MON-107
+loot,LUT-108,loot_monster_sumiashi_chidori,registry,data/csv/monster_master.csv,true,,monster_id=MON-108
+loot,LUT-109,loot_monster_kainagidori,registry,data/csv/monster_master.csv,true,,monster_id=MON-109
+loot,LUT-110,loot_monster_kakeraboshi,registry,data/csv/monster_master.csv,true,,monster_id=MON-110
+loot,LUT-111,loot_monster_fudasashi,registry,data/csv/monster_master.csv,true,,monster_id=MON-111
+loot,LUT-112,loot_monster_kaze_hayabusa,registry,data/csv/monster_master.csv,true,,monster_id=MON-112
+loot,LUT-113,loot_monster_tsugenagadori,registry,data/csv/monster_master.csv,true,,monster_id=MON-113
+loot,LUT-114,loot_monster_sakaime_tobi,registry,data/csv/monster_master.csv,true,,monster_id=MON-114
+loot,LUT-115,loot_monster_kumorisagi,registry,data/csv/monster_master.csv,true,,monster_id=MON-115
+loot,LUT-116,loot_monster_yomifukuro,registry,data/csv/monster_master.csv,true,,monster_id=MON-116
+loot,LUT-117,loot_monster_tsukaimabato,registry,data/csv/monster_master.csv,true,,monster_id=MON-117
+loot,LUT-118,loot_monster_amagoi_tsubame,registry,data/csv/monster_master.csv,true,,monster_id=MON-118
+loot,LUT-119,loot_monster_kaimon_u,registry,data/csv/monster_master.csv,true,,monster_id=MON-119
+loot,LUT-120,loot_monster_kasumi_suzume,registry,data/csv/monster_master.csv,true,,monster_id=MON-120
+loot,LUT-121,loot_monster_otorikizutsuki,registry,data/csv/monster_master.csv,true,,monster_id=MON-121
+loot,LUT-122,loot_monster_shimesagi,registry,data/csv/monster_master.csv,true,,monster_id=MON-122
+loot,LUT-123,loot_monster_fujinwashi,registry,data/csv/monster_master.csv,true,,monster_id=MON-123
+loot,LUT-124,loot_monster_keiyakufukuro,registry,data/csv/monster_master.csv,true,,monster_id=MON-124
+loot,LUT-125,loot_monster_chigiritaka,registry,data/csv/monster_master.csv,true,,monster_id=MON-125
+loot,LUT-126,loot_monster_kazamakidori,registry,data/csv/monster_master.csv,true,,monster_id=MON-126
+loot,LUT-127,loot_monster_fusetsubame,registry,data/csv/monster_master.csv,true,,monster_id=MON-127
+loot,LUT-128,loot_monster_meikakkou,registry,data/csv/monster_master.csv,true,,monster_id=MON-128
+loot,LUT-129,loot_monster_arashi_hayabusa,registry,data/csv/monster_master.csv,true,,monster_id=MON-129
+loot,LUT-130,loot_monster_ushinawashi,registry,data/csv/monster_master.csv,true,,monster_id=MON-130
+loot,LUT-131,loot_monster_hakken_tobi,registry,data/csv/monster_master.csv,true,,monster_id=MON-131
+loot,LUT-132,loot_monster_reishougarasu,registry,data/csv/monster_master.csv,true,,monster_id=MON-132
+loot,LUT-133,loot_monster_fuusetsufukuro,registry,data/csv/monster_master.csv,true,,monster_id=MON-133
+loot,LUT-134,loot_monster_keiyakuwashi,registry,data/csv/monster_master.csv,true,,monster_id=MON-134
+loot,LUT-135,loot_monster_zanmei_taka,registry,data/csv/monster_master.csv,true,,monster_id=MON-135
+loot,LUT-136,loot_monster_shinpan_washi,registry,data/csv/monster_master.csv,true,,monster_id=MON-136
+loot,LUT-137,loot_monster_genshifukuro,registry,data/csv/monster_master.csv,true,,monster_id=MON-137
+loot,LUT-138,loot_monster_amatsusagi,registry,data/csv/monster_master.csv,true,,monster_id=MON-138
+loot,LUT-139,loot_monster_tendou_karasu,registry,data/csv/monster_master.csv,true,,monster_id=MON-139
+loot,LUT-140,loot_monster_seikai_houou,registry,data/csv/monster_master.csv,true,,monster_id=MON-140
+loot,LUT-141,loot_monster_tsuyu_konuka,registry,data/csv/monster_master.csv,true,,monster_id=MON-141
+loot,LUT-142,loot_monster_hishigusa,registry,data/csv/monster_master.csv,true,,monster_id=MON-142
+loot,LUT-143,loot_monster_mugikobushi,registry,data/csv/monster_master.csv,true,,monster_id=MON-143
+loot,LUT-144,loot_monster_hotokezeri,registry,data/csv/monster_master.csv,true,,monster_id=MON-144
+loot,LUT-145,loot_monster_kabi_warashi,registry,data/csv/monster_master.csv,true,,monster_id=MON-145
+loot,LUT-146,loot_monster_dotenohana,registry,data/csv/monster_master.csv,true,,monster_id=MON-146
+loot,LUT-147,loot_monster_kinokowata,registry,data/csv/monster_master.csv,true,,monster_id=MON-147
+loot,LUT-148,loot_monster_karukaya,registry,data/csv/monster_master.csv,true,,monster_id=MON-148
+loot,LUT-149,loot_monster_hakasugi,registry,data/csv/monster_master.csv,true,,monster_id=MON-149
+loot,LUT-150,loot_monster_azenuna,registry,data/csv/monster_master.csv,true,,monster_id=MON-150
+loot,LUT-151,loot_monster_tsurukoboshi,registry,data/csv/monster_master.csv,true,,monster_id=MON-151
+loot,LUT-152,loot_monster_nukasuzume,registry,data/csv/monster_master.csv,true,,monster_id=MON-152
+loot,LUT-153,loot_monster_dokudami_warabe,registry,data/csv/monster_master.csv,true,,monster_id=MON-153
+loot,LUT-154,loot_monster_kinoko_boushi,registry,data/csv/monster_master.csv,true,,monster_id=MON-154
+loot,LUT-155,loot_monster_tsutakatsura,registry,data/csv/monster_master.csv,true,,monster_id=MON-155
+loot,LUT-156,loot_monster_hanatabane,registry,data/csv/monster_master.csv,true,,monster_id=MON-156
+loot,LUT-157,loot_monster_ashikabi,registry,data/csv/monster_master.csv,true,,monster_id=MON-157
+loot,LUT-158,loot_monster_meotosugi,registry,data/csv/monster_master.csv,true,,monster_id=MON-158
+loot,LUT-159,loot_monster_kuchinahana,registry,data/csv/monster_master.csv,true,,monster_id=MON-159
+loot,LUT-160,loot_monster_yadorigi_warashi,registry,data/csv/monster_master.csv,true,,monster_id=MON-160
+loot,LUT-161,loot_monster_tsunomigusa,registry,data/csv/monster_master.csv,true,,monster_id=MON-161
+loot,LUT-162,loot_monster_shimekusa,registry,data/csv/monster_master.csv,true,,monster_id=MON-162
+loot,LUT-163,loot_monster_hokora_koke,registry,data/csv/monster_master.csv,true,,monster_id=MON-163
+loot,LUT-164,loot_monster_nemurinone,registry,data/csv/monster_master.csv,true,,monster_id=MON-164
+loot,LUT-165,loot_monster_shirushigusa,registry,data/csv/monster_master.csv,true,,monster_id=MON-165
+loot,LUT-166,loot_monster_tsurukuguri,registry,data/csv/monster_master.csv,true,,monster_id=MON-166
+loot,LUT-167,loot_monster_oroshikusa,registry,data/csv/monster_master.csv,true,,monster_id=MON-167
+loot,LUT-168,loot_monster_furukimori,registry,data/csv/monster_master.csv,true,,monster_id=MON-168
+loot,LUT-169,loot_monster_hanagui,registry,data/csv/monster_master.csv,true,,monster_id=MON-169
+loot,LUT-170,loot_monster_yukashida,registry,data/csv/monster_master.csv,true,,monster_id=MON-170
+loot,LUT-171,loot_monster_kiseikikusa,registry,data/csv/monster_master.csv,true,,monster_id=MON-171
+loot,LUT-172,loot_monster_naki_hanazono,registry,data/csv/monster_master.csv,true,,monster_id=MON-172
+loot,LUT-173,loot_monster_tetsu_matsu,registry,data/csv/monster_master.csv,true,,monster_id=MON-173
+loot,LUT-174,loot_monster_myakukon,registry,data/csv/monster_master.csv,true,,monster_id=MON-174
+loot,LUT-175,loot_monster_kusanagi_tsuru,registry,data/csv/monster_master.csv,true,,monster_id=MON-175
+loot,LUT-176,loot_monster_kinshi_bashira,registry,data/csv/monster_master.csv,true,,monster_id=MON-176
+loot,LUT-177,loot_monster_shinboku_sugi,registry,data/csv/monster_master.csv,true,,monster_id=MON-177
+loot,LUT-178,loot_monster_kioku_no_hana,registry,data/csv/monster_master.csv,true,,monster_id=MON-178
+loot,LUT-179,loot_monster_kokuin_no_ki,registry,data/csv/monster_master.csv,true,,monster_id=MON-179
+loot,LUT-180,loot_monster_taiju_kon,registry,data/csv/monster_master.csv,true,,monster_id=MON-180
+loot,LUT-181,loot_monster_zankyou_bana,registry,data/csv/monster_master.csv,true,,monster_id=MON-181
+loot,LUT-182,loot_monster_taikonboku,registry,data/csv/monster_master.csv,true,,monster_id=MON-182
+loot,LUT-183,loot_monster_seirei_no_hana,registry,data/csv/monster_master.csv,true,,monster_id=MON-183
+loot,LUT-184,loot_monster_genshi_kinoko,registry,data/csv/monster_master.csv,true,,monster_id=MON-184
+loot,LUT-260,loot_monster_hitodama_ko,registry,data/csv/monster_master.csv,true,,monster_id=MON-260
+loot,LUT-261,loot_monster_hokori_maki,registry,data/csv/monster_master.csv,true,,monster_id=MON-261
+loot,LUT-262,loot_monster_sumi_dama,registry,data/csv/monster_master.csv,true,,monster_id=MON-262
+loot,LUT-263,loot_monster_kagami_hibi,registry,data/csv/monster_master.csv,true,,monster_id=MON-263
+loot,LUT-264,loot_monster_kage_nezumi,registry,data/csv/monster_master.csv,true,,monster_id=MON-264
+loot,LUT-265,loot_monster_utsurou_hi,registry,data/csv/monster_master.csv,true,,monster_id=MON-265
+loot,LUT-266,loot_monster_hibiki_mushi,registry,data/csv/monster_master.csv,true,,monster_id=MON-266
+loot,LUT-267,loot_monster_yuge_dama,registry,data/csv/monster_master.csv,true,,monster_id=MON-267
+loot,LUT-268,loot_monster_kage_chou,registry,data/csv/monster_master.csv,true,,monster_id=MON-268
+loot,LUT-269,loot_monster_shiratama,registry,data/csv/monster_master.csv,true,,monster_id=MON-269
+loot,LUT-270,loot_monster_suna_kemuri,registry,data/csv/monster_master.csv,true,,monster_id=MON-270
+loot,LUT-271,loot_monster_nijimi_bo,registry,data/csv/monster_master.csv,true,,monster_id=MON-271
+loot,LUT-272,loot_monster_in_kage,registry,data/csv/monster_master.csv,true,,monster_id=MON-272
+loot,LUT-273,loot_monster_fushi_men,registry,data/csv/monster_master.csv,true,,monster_id=MON-273
+loot,LUT-274,loot_monster_kikai_mon,registry,data/csv/monster_master.csv,true,,monster_id=MON-274
+loot,LUT-275,loot_monster_kage_tori,registry,data/csv/monster_master.csv,true,,monster_id=MON-275
+loot,LUT-276,loot_monster_en_mushi,registry,data/csv/monster_master.csv,true,,monster_id=MON-276
+loot,LUT-277,loot_monster_hi_suzume,registry,data/csv/monster_master.csv,true,,monster_id=MON-277
+loot,LUT-278,loot_monster_tsuki_kage,registry,data/csv/monster_master.csv,true,,monster_id=MON-278
+loot,LUT-279,loot_monster_kodama_bo,registry,data/csv/monster_master.csv,true,,monster_id=MON-279
+loot,LUT-280,loot_monster_kakimon_hebi,registry,data/csv/monster_master.csv,true,,monster_id=MON-280
+loot,LUT-281,loot_monster_hibana_chou,registry,data/csv/monster_master.csv,true,,monster_id=MON-281
+loot,LUT-282,loot_monster_na_utsushi,registry,data/csv/monster_master.csv,true,,monster_id=MON-282
+loot,LUT-283,loot_monster_daichou_kage,registry,data/csv/monster_master.csv,true,,monster_id=MON-283
+loot,LUT-284,loot_monster_mei_dama,registry,data/csv/monster_master.csv,true,,monster_id=MON-284
+loot,LUT-285,loot_monster_kage_ayatsuri,registry,data/csv/monster_master.csv,true,,monster_id=MON-285
+loot,LUT-286,loot_monster_shirushi_hi,registry,data/csv/monster_master.csv,true,,monster_id=MON-286
+loot,LUT-287,loot_monster_utsushi_kagami,registry,data/csv/monster_master.csv,true,,monster_id=MON-287
+loot,LUT-288,loot_monster_koe_dama,registry,data/csv/monster_master.csv,true,,monster_id=MON-288
+loot,LUT-289,loot_monster_mon_hari,registry,data/csv/monster_master.csv,true,,monster_id=MON-289
+loot,LUT-290,loot_monster_kiri_kage,registry,data/csv/monster_master.csv,true,,monster_id=MON-290
+loot,LUT-291,loot_monster_roku_dama,registry,data/csv/monster_master.csv,true,,monster_id=MON-291
+loot,LUT-292,loot_monster_kodama_koe,registry,data/csv/monster_master.csv,true,,monster_id=MON-292
+loot,LUT-293,loot_monster_utsushi_mi,registry,data/csv/monster_master.csv,true,,monster_id=MON-293
+loot,LUT-294,loot_monster_kage_mi,registry,data/csv/monster_master.csv,true,,monster_id=MON-294
+loot,LUT-295,loot_monster_zanmei_hi,registry,data/csv/monster_master.csv,true,,monster_id=MON-295
+loot,LUT-296,loot_monster_hibiki_kabe,registry,data/csv/monster_master.csv,true,,monster_id=MON-296
+loot,LUT-297,loot_monster_fuin_mon,registry,data/csv/monster_master.csv,true,,monster_id=MON-297
+loot,LUT-298,loot_monster_zankyou_me,registry,data/csv/monster_master.csv,true,,monster_id=MON-298
+loot,LUT-299,loot_monster_kakikaeshi,registry,data/csv/monster_master.csv,true,,monster_id=MON-299
+loot,LUT-300,loot_monster_mon_hikari,registry,data/csv/monster_master.csv,true,,monster_id=MON-300
+loot,LUT-301,loot_monster_sekai_hibi,registry,data/csv/monster_master.csv,true,,monster_id=MON-301
+loot,LUT-302,loot_monster_tsugi_hikari,registry,data/csv/monster_master.csv,true,,monster_id=MON-302
+loot,LUT-303,loot_monster_na_omomi,registry,data/csv/monster_master.csv,true,,monster_id=MON-303
+loot,LUT-304,loot_monster_kyoukai_me,registry,data/csv/monster_master.csv,true,,monster_id=MON-304
+loot,LUT-305,loot_monster_zankyou_nushi,registry,data/csv/monster_master.csv,true,,monster_id=MON-305
+loot,LUT-306,loot_monster_mon_koe,registry,data/csv/monster_master.csv,true,,monster_id=MON-306
+loot,LUT-307,loot_monster_shijima,registry,data/csv/monster_master.csv,true,,monster_id=MON-307
+loot,LUT-308,loot_monster_kazoe_nushi,registry,data/csv/monster_master.csv,true,,monster_id=MON-308
+loot,LUT-309,loot_monster_na_no_omosa,registry,data/csv/monster_master.csv,true,,monster_id=MON-309
+loot,LUT-310,loot_monster_sekai_zankyou,registry,data/csv/monster_master.csv,true,,monster_id=MON-310
+loot,LUT-320,loot_monster_karabune_nezumi,registry,data/csv/monster_master.csv,true,,monster_id=MON-320
+loot,LUT-321,loot_monster_hoshibi_kakashi,registry,data/csv/monster_master.csv,true,,monster_id=MON-321
+loot,LUT-322,loot_monster_karaga_mushi,registry,data/csv/monster_master.csv,true,,monster_id=MON-322
+loot,LUT-323,loot_monster_kawaki_kaeru,registry,data/csv/monster_master.csv,true,,monster_id=MON-323
+loot,LUT-324,loot_monster_useiro_suzume,registry,data/csv/monster_master.csv,true,,monster_id=MON-324
+loot,LUT-325,loot_monster_honekago,registry,data/csv/monster_master.csv,true,,monster_id=MON-325
+loot,LUT-326,loot_monster_kuchita_hebi,registry,data/csv/monster_master.csv,true,,monster_id=MON-326
+loot,LUT-327,loot_monster_sabiha_chou,registry,data/csv/monster_master.csv,true,,monster_id=MON-327
+loot,LUT-328,loot_monster_karakubi_niwatori,registry,data/csv/monster_master.csv,true,,monster_id=MON-328
+loot,LUT-329,loot_monster_kareha_mogura,registry,data/csv/monster_master.csv,true,,monster_id=MON-329
+loot,LUT-330,loot_monster_hone_atsumeya,registry,data/csv/monster_master.csv,true,,monster_id=MON-330
+loot,LUT-331,loot_monster_bochi_inu,registry,data/csv/monster_master.csv,true,,monster_id=MON-331
+loot,LUT-332,loot_monster_kaigarami,registry,data/csv/monster_master.csv,true,,monster_id=MON-332
+loot,LUT-333,loot_monster_wasure_ushi,registry,data/csv/monster_master.csv,true,,monster_id=MON-333
+loot,LUT-334,loot_monster_sabi_yoroi_mushi,registry,data/csv/monster_master.csv,true,,monster_id=MON-334
+loot,LUT-335,loot_monster_yuurei_neko,registry,data/csv/monster_master.csv,true,,monster_id=MON-335
+loot,LUT-336,loot_monster_kuchiha_uma,registry,data/csv/monster_master.csv,true,,monster_id=MON-336
+loot,LUT-337,loot_monster_kairou_gani,registry,data/csv/monster_master.csv,true,,monster_id=MON-337
+loot,LUT-338,loot_monster_meibo_aruki,registry,data/csv/monster_master.csv,true,,monster_id=MON-338
+loot,LUT-339,loot_monster_keshimoji,registry,data/csv/monster_master.csv,true,,monster_id=MON-339
+loot,LUT-340,loot_monster_koseki_yuurei,registry,data/csv/monster_master.csv,true,,monster_id=MON-340
+loot,LUT-341,loot_monster_insatsu_no_kage,registry,data/csv/monster_master.csv,true,,monster_id=MON-341
+loot,LUT-342,loot_monster_shirube_gaikotsu,registry,data/csv/monster_master.csv,true,,monster_id=MON-342
+loot,LUT-343,loot_monster_sougi_ningyou,registry,data/csv/monster_master.csv,true,,monster_id=MON-343
+loot,LUT-344,loot_monster_oborozuki_garasu,registry,data/csv/monster_master.csv,true,,monster_id=MON-344
+loot,LUT-345,loot_monster_kiroku_hakaai,registry,data/csv/monster_master.csv,true,,monster_id=MON-345
+loot,LUT-346,loot_monster_zanmei_yoroi,registry,data/csv/monster_master.csv,true,,monster_id=MON-346
+loot,LUT-347,loot_monster_kioku_hakobune,registry,data/csv/monster_master.csv,true,,monster_id=MON-347
+loot,LUT-348,loot_monster_fumei_enma,registry,data/csv/monster_master.csv,true,,monster_id=MON-348
+loot,LUT-349,loot_monster_ruiseki_gashadokuro,registry,data/csv/monster_master.csv,true,,monster_id=MON-349
+loot,LUT-350,loot_monster_kasane_hitsugi,registry,data/csv/monster_master.csv,true,,monster_id=MON-350
+loot,LUT-351,loot_monster_tsumi_meibo,registry,data/csv/monster_master.csv,true,,monster_id=MON-351
+loot,LUT-352,loot_monster_wasureji_no_mure,registry,data/csv/monster_master.csv,true,,monster_id=MON-352
+loot,LUT-353,loot_monster_shoumei_naki_ou,registry,data/csv/monster_master.csv,true,,monster_id=MON-353
+loot,LUT-354,loot_monster_sourei_hashira,registry,data/csv/monster_master.csv,true,,monster_id=MON-354
+loot,LUT-355,loot_monster_mumei_gunsei,registry,data/csv/monster_master.csv,true,,monster_id=MON-355
+loot,LUT-356,loot_monster_bochi_no_kioku,registry,data/csv/monster_master.csv,true,,monster_id=MON-356
+loot,LUT-357,loot_monster_fumeiroku,registry,data/csv/monster_master.csv,true,,monster_id=MON-357
+loot,LUT-358,loot_monster_muen_butsu,registry,data/csv/monster_master.csv,true,,monster_id=MON-358
+loot,LUT-359,loot_monster_kesu_mono,registry,data/csv/monster_master.csv,true,,monster_id=MON-359
+loot,LUT-370,loot_monster_koishitokage,registry,data/csv/monster_master.csv,true,,monster_id=MON-370
+loot,LUT-371,loot_monster_fude_imori,registry,data/csv/monster_master.csv,true,,monster_id=MON-371
+loot,LUT-372,loot_monster_suzumi_hebi,registry,data/csv/monster_master.csv,true,,monster_id=MON-372
+loot,LUT-373,loot_monster_iwa_yamori,registry,data/csv/monster_master.csv,true,,monster_id=MON-373
+loot,LUT-374,loot_monster_kawarakuchi,registry,data/csv/monster_master.csv,true,,monster_id=MON-374
+loot,LUT-375,loot_monster_uroko_sanagi,registry,data/csv/monster_master.csv,true,,monster_id=MON-375
+loot,LUT-376,loot_monster_tsuiseki_tokage,registry,data/csv/monster_master.csv,true,,monster_id=MON-376
+loot,LUT-377,loot_monster_mizuchi_ko,registry,data/csv/monster_master.csv,true,,monster_id=MON-377
+loot,LUT-378,loot_monster_nawabari_drake,registry,data/csv/monster_master.csv,true,,monster_id=MON-378
+loot,LUT-379,loot_monster_shirushi_wyvern,registry,data/csv/monster_master.csv,true,,monster_id=MON-379
+loot,LUT-380,loot_monster_ganseki_ryuu,registry,data/csv/monster_master.csv,true,,monster_id=MON-380
+loot,LUT-381,loot_monster_doku_naga,registry,data/csv/monster_master.csv,true,,monster_id=MON-381
+loot,LUT-382,loot_monster_himon_drake,registry,data/csv/monster_master.csv,true,,monster_id=MON-382
+loot,LUT-383,loot_monster_kawa_tatsu_ryu,registry,data/csv/monster_master.csv,true,,monster_id=MON-383
+loot,LUT-384,loot_monster_kemuri_ryuu,registry,data/csv/monster_master.csv,true,,monster_id=MON-384
+loot,LUT-385,loot_monster_mon_tatsu,registry,data/csv/monster_master.csv,true,,monster_id=MON-385
+loot,LUT-386,loot_monster_uroko_mon,registry,data/csv/monster_master.csv,true,,monster_id=MON-386
+loot,LUT-387,loot_monster_chi_no_ryuu,registry,data/csv/monster_master.csv,true,,monster_id=MON-387
+loot,LUT-388,loot_monster_fuuin_ja,registry,data/csv/monster_master.csv,true,,monster_id=MON-388
+loot,LUT-389,loot_monster_kiri_wyvern,registry,data/csv/monster_master.csv,true,,monster_id=MON-389
+loot,LUT-390,loot_monster_gyoku_ryuu,registry,data/csv/monster_master.csv,true,,monster_id=MON-390
+loot,LUT-391,loot_monster_toki_no_ja,registry,data/csv/monster_master.csv,true,,monster_id=MON-391
+loot,LUT-392,loot_monster_rekishi_drake,registry,data/csv/monster_master.csv,true,,monster_id=MON-392
+loot,LUT-393,loot_monster_tetsu_ryuu,registry,data/csv/monster_master.csv,true,,monster_id=MON-393
+loot,LUT-394,loot_monster_chourou_ryuu,registry,data/csv/monster_master.csv,true,,monster_id=MON-394
+loot,LUT-395,loot_monster_higyoku_ryuu,registry,data/csv/monster_master.csv,true,,monster_id=MON-395
+loot,LUT-396,loot_monster_kairo_ryuu,registry,data/csv/monster_master.csv,true,,monster_id=MON-396
+loot,LUT-397,loot_monster_inochi_ryuu,registry,data/csv/monster_master.csv,true,,monster_id=MON-397
+loot,LUT-398,loot_monster_meikoku_ryuu,registry,data/csv/monster_master.csv,true,,monster_id=MON-398
+loot,LUT-399,loot_monster_sennen_naga,registry,data/csv/monster_master.csv,true,,monster_id=MON-399
+loot,LUT-400,loot_monster_genwaku_ryuu,registry,data/csv/monster_master.csv,true,,monster_id=MON-400
+loot,LUT-401,loot_monster_shinwa_ryuuou,registry,data/csv/monster_master.csv,true,,monster_id=MON-401
+loot,LUT-402,loot_monster_kodai_ouja,registry,data/csv/monster_master.csv,true,,monster_id=MON-402
+loot,LUT-403,loot_monster_mugen_naga,registry,data/csv/monster_master.csv,true,,monster_id=MON-403
+loot,LUT-404,loot_monster_metsubou_ryuu,registry,data/csv/monster_master.csv,true,,monster_id=MON-404
+loot,LUT-405,loot_monster_sekai_ryuu,registry,data/csv/monster_master.csv,true,,monster_id=MON-405
+loot,LUT-406,loot_monster_genshi_ryuu,registry,data/csv/monster_master.csv,true,,monster_id=MON-406
+loot,LUT-407,loot_monster_tsukiyo_ryuu,registry,data/csv/monster_master.csv,true,,monster_id=MON-407
+loot,LUT-408,loot_monster_sekitsui_ryuu,registry,data/csv/monster_master.csv,true,,monster_id=MON-408
+loot,LUT-409,loot_monster_shin_en_ryuu,registry,data/csv/monster_master.csv,true,,monster_id=MON-409
+loot,LUT-410,loot_monster_genshi_ouryuu,registry,data/csv/monster_master.csv,true,,monster_id=MON-410
+loot,LUT-411,loot_monster_hodoke_ryuu,registry,data/csv/monster_master.csv,true,,monster_id=MON-411
+loot,LUT-420,loot_monster_hokora_usagi,registry,data/csv/monster_master.csv,true,,monster_id=MON-420
+loot,LUT-421,loot_monster_inori_suzume,registry,data/csv/monster_master.csv,true,,monster_id=MON-421
+loot,LUT-422,loot_monster_sonae_tanuki,registry,data/csv/monster_master.csv,true,,monster_id=MON-422
+loot,LUT-423,loot_monster_shizuka_kame,registry,data/csv/monster_master.csv,true,,monster_id=MON-423
+loot,LUT-424,loot_monster_chouchin_hotaru,registry,data/csv/monster_master.csv,true,,monster_id=MON-424
+loot,LUT-425,loot_monster_iwaza_kitsune,registry,data/csv/monster_master.csv,true,,monster_id=MON-425
+loot,LUT-426,loot_monster_sakaki_mushi,registry,data/csv/monster_master.csv,true,,monster_id=MON-426
+loot,LUT-427,loot_monster_ishi_fukurou,registry,data/csv/monster_master.csv,true,,monster_id=MON-427
+loot,LUT-428,loot_monster_kaimon_gaeru,registry,data/csv/monster_master.csv,true,,monster_id=MON-428
+loot,LUT-429,loot_monster_hyoushiki_hebi,registry,data/csv/monster_master.csv,true,,monster_id=MON-429
+loot,LUT-430,loot_monster_shumon_tori,registry,data/csv/monster_master.csv,true,,monster_id=MON-430
+loot,LUT-431,loot_monster_junrei_katatsuburi,registry,data/csv/monster_master.csv,true,,monster_id=MON-431
+loot,LUT-432,loot_monster_kagura_nezumi,registry,data/csv/monster_master.csv,true,,monster_id=MON-432
+loot,LUT-433,loot_monster_torii_yamori,registry,data/csv/monster_master.csv,true,,monster_id=MON-433
+loot,LUT-434,loot_monster_saisen_mushi,registry,data/csv/monster_master.csv,true,,monster_id=MON-434
+loot,LUT-435,loot_monster_shimei_tsuru,registry,data/csv/monster_master.csv,true,,monster_id=MON-435
+loot,LUT-436,loot_monster_gishiki_same,registry,data/csv/monster_master.csv,true,,monster_id=MON-436
+loot,LUT-437,loot_monster_na_mamori,registry,data/csv/monster_master.csv,true,,monster_id=MON-437
+loot,LUT-438,loot_monster_shiki_ou,registry,data/csv/monster_master.csv,true,,monster_id=MON-438
+loot,LUT-439,loot_monster_mon_hashira_juu,registry,data/csv/monster_master.csv,true,,monster_id=MON-439
+loot,LUT-440,loot_monster_seiza_kemono,registry,data/csv/monster_master.csv,true,,monster_id=MON-440
+loot,LUT-441,loot_monster_kekkai_chou,registry,data/csv/monster_master.csv,true,,monster_id=MON-441
+loot,LUT-442,loot_monster_saidan_ishi,registry,data/csv/monster_master.csv,true,,monster_id=MON-442
+loot,LUT-443,loot_monster_meikan_toride,registry,data/csv/monster_master.csv,true,,monster_id=MON-443
+loot,LUT-444,loot_monster_mon_waku_juu,registry,data/csv/monster_master.csv,true,,monster_id=MON-444
+loot,LUT-445,loot_monster_sakai_no_me,registry,data/csv/monster_master.csv,true,,monster_id=MON-445
+loot,LUT-446,loot_monster_saiban_juu,registry,data/csv/monster_master.csv,true,,monster_id=MON-446
+loot,LUT-447,loot_monster_tou_no_shimobe,registry,data/csv/monster_master.csv,true,,monster_id=MON-447
+loot,LUT-448,loot_monster_hoshinami,registry,data/csv/monster_master.csv,true,,monster_id=MON-448
+loot,LUT-449,loot_monster_kengen_shishi,registry,data/csv/monster_master.csv,true,,monster_id=MON-449
+loot,LUT-450,loot_monster_fuuin_mon_juu,registry,data/csv/monster_master.csv,true,,monster_id=MON-450
+loot,LUT-451,loot_monster_shinmon_juu,registry,data/csv/monster_master.csv,true,,monster_id=MON-451
+loot,LUT-452,loot_monster_kodai_sabakinushi,registry,data/csv/monster_master.csv,true,,monster_id=MON-452
+loot,LUT-453,loot_monster_kiroku_sabaki,registry,data/csv/monster_master.csv,true,,monster_id=MON-453
+loot,LUT-454,loot_monster_na_no_hakari,registry,data/csv/monster_master.csv,true,,monster_id=MON-454
+loot,LUT-455,loot_monster_ten_no_monjuu,registry,data/csv/monster_master.csv,true,,monster_id=MON-455
+loot,LUT-456,loot_monster_seimei_kanshi,registry,data/csv/monster_master.csv,true,,monster_id=MON-456
+loot,LUT-457,loot_monster_mon_no_tsukurite,registry,data/csv/monster_master.csv,true,,monster_id=MON-457
+loot,LUT-458,loot_monster_saigo_no_kanshu,registry,data/csv/monster_master.csv,true,,monster_id=MON-458
+loot,LUT-459,loot_monster_kiroku_seido,registry,data/csv/monster_master.csv,true,,monster_id=MON-459
+loot,LUT-460,loot_monster_tou_no_ishi,registry,data/csv/monster_master.csv,true,,monster_id=MON-460
+loot,LUT-461,loot_monster_sekai_no_nui,registry,data/csv/monster_master.csv,true,,monster_id=MON-461
+loot,LUT-462,loot_monster_mon_no_shinzou,registry,data/csv/monster_master.csv,true,,monster_id=MON-462
+loot,LUT-463,loot_monster_shuuroku_no_kami,registry,data/csv/monster_master.csv,true,,monster_id=MON-463
+loot,LUT-464,loot_monster_saigo_no_mon,registry,data/csv/monster_master.csv,true,,monster_id=MON-464
+loot,LUT-470,loot_monster_mizutamari,registry,data/csv/monster_master.csv,true,,monster_id=MON-470
+loot,LUT-471,loot_monster_doro_damari,registry,data/csv/monster_master.csv,true,,monster_id=MON-471
+loot,LUT-472,loot_monster_jueki_shizuku,registry,data/csv/monster_master.csv,true,,monster_id=MON-472
+loot,LUT-473,loot_monster_ame_neri,registry,data/csv/monster_master.csv,true,,monster_id=MON-473
+loot,LUT-474,loot_monster_shiokaze_neri,registry,data/csv/monster_master.csv,true,,monster_id=MON-474
+loot,LUT-475,loot_monster_kokeawa,registry,data/csv/monster_master.csv,true,,monster_id=MON-475
+loot,LUT-476,loot_monster_hai_nendo,registry,data/csv/monster_master.csv,true,,monster_id=MON-476
+loot,LUT-477,loot_monster_yudamari,registry,data/csv/monster_master.csv,true,,monster_id=MON-477
+loot,LUT-478,loot_monster_tsuyu_damari,registry,data/csv/monster_master.csv,true,,monster_id=MON-478
+loot,LUT-479,loot_monster_ami_neri,registry,data/csv/monster_master.csv,true,,monster_id=MON-479
+loot,LUT-480,loot_monster_sumi_damari,registry,data/csv/monster_master.csv,true,,monster_id=MON-480
+loot,LUT-481,loot_monster_rou_nagare,registry,data/csv/monster_master.csv,true,,monster_id=MON-481
+loot,LUT-482,loot_monster_taru_neri,registry,data/csv/monster_master.csv,true,,monster_id=MON-482
+loot,LUT-483,loot_monster_nori_damari,registry,data/csv/monster_master.csv,true,,monster_id=MON-483
+loot,LUT-484,loot_monster_taru_sumi,registry,data/csv/monster_master.csv,true,,monster_id=MON-484
+loot,LUT-485,loot_monster_tsuchi_nendo,registry,data/csv/monster_master.csv,true,,monster_id=MON-485
+loot,LUT-486,loot_monster_senmen_sui,registry,data/csv/monster_master.csv,true,,monster_id=MON-486
+loot,LUT-487,loot_monster_hikari_neri,registry,data/csv/monster_master.csv,true,,monster_id=MON-487
+loot,LUT-488,loot_monster_kioku_tsubo,registry,data/csv/monster_master.csv,true,,monster_id=MON-488
+loot,LUT-489,loot_monster_na_tokashi,registry,data/csv/monster_master.csv,true,,monster_id=MON-489
+loot,LUT-490,loot_monster_mibun_neri,registry,data/csv/monster_master.csv,true,,monster_id=MON-490
+loot,LUT-491,loot_monster_mon_shizuku,registry,data/csv/monster_master.csv,true,,monster_id=MON-491
+loot,LUT-492,loot_monster_kyoukai_neri,registry,data/csv/monster_master.csv,true,,monster_id=MON-492
+loot,LUT-493,loot_monster_ushinawareta_na,registry,data/csv/monster_master.csv,true,,monster_id=MON-493
+loot,LUT-494,loot_monster_mon_ekitai,registry,data/csv/monster_master.csv,true,,monster_id=MON-494
+loot,LUT-495,loot_monster_sekai_no_ase,registry,data/csv/monster_master.csv,true,,monster_id=MON-495
+loot,LUT-496,loot_monster_kioku_no_umi,registry,data/csv/monster_master.csv,true,,monster_id=MON-496
+loot,LUT-497,loot_monster_tsugime_neri,registry,data/csv/monster_master.csv,true,,monster_id=MON-497
+loot,LUT-498,loot_monster_motoumi_jel,registry,data/csv/monster_master.csv,true,,monster_id=MON-498
+loot,LUT-499,loot_monster_kodai_chosuichi,registry,data/csv/monster_master.csv,true,,monster_id=MON-499
+loot,LUT-500,loot_monster_mumei_no_umi,registry,data/csv/monster_master.csv,true,,monster_id=MON-500
+loot,LUT-501,loot_monster_kioku_no_taki,registry,data/csv/monster_master.csv,true,,monster_id=MON-501
+loot,LUT-502,loot_monster_genshi_ekitai,registry,data/csv/monster_master.csv,true,,monster_id=MON-502
+loot,LUT-503,loot_monster_genshi_neri,registry,data/csv/monster_master.csv,true,,monster_id=MON-503
+loot,LUT-504,loot_monster_sekai_no_namida,registry,data/csv/monster_master.csv,true,,monster_id=MON-504

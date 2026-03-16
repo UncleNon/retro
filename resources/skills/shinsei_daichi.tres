@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-144"
+slug = "shinsei_daichi"
+name_jp = "しんせいだいち"
+name_en = "Primal Quake"
+category = "magic"
+element = "earth"
+mp_cost = 16
+target_scope = "spread"
+formula_key = "M2"
+base_power = 62
+base_rate = 100
+tags = ["spread", "fixed_magic", "earth", "s_rank"]
+battle_role = "RUSH_OPEN"
+effect_text = "原初の大地が揺れる"

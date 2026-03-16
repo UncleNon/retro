@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-325"
+slug = "honekago"
+name_jp = "ホネカゴ"
+name_en = "Honekago"
+family = "undead"
+rank = "E"
+size_class = "S"
+motif_group = "corporeal"
+secondary_motif_group = "household"
+motif_source = "骨籠 + 空洞 + 納屋"
+ontology_class = "remnant_bearing"
+silhouette_type = "round"
+palette_id = "pal_bone_cage"
+field_sprite_px = 16
+battle_sprite_px = 24
+base_level_cap = 63
+growth_curve_id = "EARLY"
+base_stats = {"hp": 19, "mp": 7, "atk": 9, "def": 12, "spd": 10, "int": 8, "res": 10}
+cap_stats = {"hp": 142, "mp": 54, "atk": 88, "def": 108, "spd": 96, "int": 72, "res": 90}
+base_recruit = 24
+scoutable = true
+personality_bias = "still"
+battle_role = "tank"
+trait_1 = "骨組み"
+trait_2 = "地微耐性"
+loot_table_id = "loot_monster_honekago"
+prompt_id = "PRM-MON-325"
+notes = "骨だけで編まれた籠が歩き出した納屋の残骸"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 1, "thunder": 0, "light": -1, "dark": 1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 1, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

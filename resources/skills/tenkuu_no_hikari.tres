@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-151"
+slug = "tenkuu_no_hikari"
+name_jp = "てんくうのひかり"
+name_en = "Sky Radiance"
+category = "magic"
+element = "light"
+mp_cost = 12
+target_scope = "spread"
+formula_key = "M2"
+base_power = 44
+base_rate = 100
+tags = ["spread", "fixed_magic", "light", "divine"]
+battle_role = "RUSH_OPEN"
+effect_text = "天空の光が降る"

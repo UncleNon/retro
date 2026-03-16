@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W09-004"
+scope_id = "W-009"
+name_jp = "エト"
+name_en = "Eto"
+role = "墓歌い"
+dark_role = "依頼で片方の家の旋律をわざと弱める"
+x = 30
+y = 16
+facing = "up"
+npc_type = "key"
+phase_count = 3
+clue_ids = ["CL-025"]
+shop_id = ""
+service_id = ""
+personality_note = "芸術家肌で良心がある"
+initial_dialogue_jp = "歌は正直に歌いたい。……でも、頼まれたら、片方だけ小さくする。"
+notes = "仮親の雪原"

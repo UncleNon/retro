@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-207"
+slug = "rin_suzume"
+name_jp = "リンスズメ"
+name_en = "Rin Suzume"
+family = "material"
+rank = "E"
+size_class = "S"
+motif_group = "tool"
+secondary_motif_group = "pastoral"
+motif_source = "鈴 + 雀 + 牧柵"
+ontology_class = "wildborn"
+silhouette_type = "round"
+palette_id = "pal_bell_sparrow"
+field_sprite_px = 16
+battle_sprite_px = 24
+base_level_cap = 61
+growth_curve_id = "EARLY"
+base_stats = {"hp": 18, "mp": 8, "atk": 10, "def": 8, "spd": 15, "int": 10, "res": 9}
+cap_stats = {"hp": 136, "mp": 60, "atk": 104, "def": 86, "spd": 140, "int": 82, "res": 86}
+base_recruit = 30
+scoutable = true
+personality_bias = "restless"
+battle_role = "bait_specialist"
+trait_1 = "鈴鳴らし"
+trait_2 = "風微耐性"
+loot_table_id = "loot_monster_rin_suzume"
+prompt_id = "PRM-MON-207"
+notes = "牧柵の鈴に巣食い体ごと鳴る金属雀"
+resistances = {"fire": 0, "water": 0, "wind": 1, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

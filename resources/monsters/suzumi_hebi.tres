@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-372"
+slug = "suzumi_hebi"
+name_jp = "スズミヘビ"
+name_en = "Suzumi Hebi"
+family = "dragon"
+rank = "E"
+size_class = "S"
+motif_group = "animal"
+secondary_motif_group = "pastoral"
+motif_source = "蛇 + 涼み + 石垣"
+ontology_class = "wildborn"
+silhouette_type = "serpentine"
+palette_id = "pal_cool_snake"
+field_sprite_px = 16
+battle_sprite_px = 24
+base_level_cap = 63
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 17, "mp": 9, "atk": 11, "def": 9, "spd": 15, "int": 9, "res": 9}
+cap_stats = {"hp": 132, "mp": 66, "atk": 108, "def": 88, "spd": 138, "int": 76, "res": 82}
+base_recruit = 26
+scoutable = true
+personality_bias = "calculating"
+battle_role = "striker"
+trait_1 = "涼み巻き"
+trait_2 = "地微耐性"
+loot_table_id = "loot_monster_suzumi_hebi"
+prompt_id = "PRM-MON-372"
+notes = "石垣の隙間で涼む古い鱗紋の蛇"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 1, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

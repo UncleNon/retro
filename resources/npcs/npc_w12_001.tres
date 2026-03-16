@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W12-001"
+scope_id = "W-012"
+name_jp = "ハクヤ"
+name_en = "Hakuya"
+role = "商長補佐"
+dark_role = "遺留品と骨荷を同じ航路へ乗せる"
+x = 36
+y = 20
+facing = "down"
+npc_type = "key"
+phase_count = 4
+clue_ids = ["CL-031", "CL-032"]
+shop_id = ""
+service_id = ""
+personality_note = "有能で冷徹。利益が最優先"
+initial_dialogue_jp = "届け先があれば荷は動く。……中身が骨でも干魚でも同じだ。"
+notes = "骨樋の港"

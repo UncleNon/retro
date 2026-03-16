@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W09-010"
+scope_id = "W-009"
+name_jp = "タケヒコ"
+name_en = "Takehiko"
+role = "本家の若当主"
+dark_role = "正統を守りたいが現実を知っている"
+x = 42
+y = 14
+facing = "up"
+npc_type = "minor"
+phase_count = 2
+clue_ids = ["CL-025"]
+shop_id = ""
+service_id = ""
+personality_note = "威厳があるが迷いがある"
+initial_dialogue_jp = "本家の名は重い。……重すぎて、借りた名で歩く奴の気持ちも分かる。"
+notes = "仮親の雪原"

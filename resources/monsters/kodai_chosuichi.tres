@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-499"
+slug = "kodai_chosuichi"
+name_jp = "コダイチョスイチ"
+name_en = "Kodai Chosuichi"
+family = "slime"
+rank = "A"
+size_class = "L"
+motif_group = "abstract"
+secondary_motif_group = "funerary"
+motif_source = "古代貯水池 + 名の残滓 + 集合溶解"
+ontology_class = "remnant_bearing"
+silhouette_type = "massive"
+palette_id = "pal_ancient_reservoir"
+field_sprite_px = 16
+battle_sprite_px = 48
+base_level_cap = 80
+growth_curve_id = "LEGEND"
+base_stats = {"hp": 36, "mp": 20, "atk": 14, "def": 16, "spd": 10, "int": 18, "res": 20}
+cap_stats = {"hp": 274, "mp": 156, "atk": 134, "def": 148, "spd": 98, "int": 152, "res": 168}
+base_recruit = 0
+scoutable = false
+personality_bias = "mournful"
+battle_role = "tank"
+trait_1 = "名の沈殿"
+trait_2 = "封印耐性"
+loot_table_id = "loot_monster_kodai_chosuichi"
+prompt_id = "PRM-MON-499"
+notes = "古代の名が沈殿した巨大な貯水池のような液体集合体"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 2, "fear": 0, "instant_death": 0, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 1, "hush": 0}
+learnset = []

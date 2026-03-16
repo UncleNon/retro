@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W18-009"
+scope_id = "W-018"
+name_jp = "カオリ"
+name_en = "Kaori"
+role = "照会窓の係員"
+dark_role = "どちらの印で通すかを日常的に判断する"
+x = 32
+y = 14
+facing = "up"
+npc_type = "minor"
+phase_count = 2
+clue_ids = ["CL-045"]
+shop_id = ""
+service_id = ""
+personality_note = "丁寧だが麻痺している"
+initial_dialogue_jp = "どちらの印をお使いですか？　……毎日聞くけど、正解はない。"
+notes = "二署の法台"

@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W17-005"
+scope_id = "W-017"
+name_jp = "キヨミ"
+name_en = "Kiyomi"
+role = "聞き役の祈祷僧"
+dark_role = "遺族の話を聞く役目"
+x = 36
+y = 22
+facing = "down"
+npc_type = "minor"
+phase_count = 2
+clue_ids = ["CL-043"]
+shop_id = ""
+service_id = ""
+personality_note = "穏やかで疲れている"
+initial_dialogue_jp = "聞くのが仕事だ。……自分の声は、もう聞こえなくなった。"
+notes = "残名の回廊"

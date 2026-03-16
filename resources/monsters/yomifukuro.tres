@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-116"
+slug = "yomifukuro"
+name_jp = "ヨミフクロ"
+name_en = "Yomifukuro"
+family = "bird"
+rank = "D"
+size_class = "S"
+motif_group = "animal"
+secondary_motif_group = "bureaucratic"
+motif_source = "梟 + 読み + 夜番小屋"
+ontology_class = "record_bent"
+silhouette_type = "round"
+palette_id = "pal_ledger_owl"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 72
+growth_curve_id = "LATE"
+base_stats = {"hp": 22, "mp": 16, "atk": 10, "def": 10, "spd": 12, "int": 15, "res": 14}
+cap_stats = {"hp": 168, "mp": 126, "atk": 98, "def": 96, "spd": 116, "int": 128, "res": 122}
+base_recruit = 18
+scoutable = true
+personality_bias = "calculating"
+battle_role = "controller"
+trait_1 = "帳読み"
+trait_2 = "闇耐性"
+loot_table_id = "loot_monster_yomifukuro"
+prompt_id = "PRM-MON-116"
+notes = "夜番小屋で台帳を読むように首を傾げる梟"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 1, "seal": 0, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 1, "charm": 0, "mark": 1, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-017"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-019"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-028"}]

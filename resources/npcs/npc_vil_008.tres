@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-VIL-008"
+scope_id = "VIL"
+name_jp = "カジ"
+name_en = "Kaji"
+role = "失踪者の家の嫁"
+dark_role = "表札だけ外された家を維持する"
+x = 68
+y = 35
+facing = "down"
+npc_type = "key"
+phase_count = 4
+clue_ids = ["CL-001"]
+shop_id = ""
+service_id = ""
+personality_note = "穏やかだが目を合わせない瞬間がある"
+initial_dialogue_jp = "前のものを外しただけ。……下？　知らない。"
+notes = "開始村"

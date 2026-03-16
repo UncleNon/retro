@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W03-005"
+scope_id = "W-003"
+name_jp = "リキマル"
+name_en = "Rikimaru"
+role = "灯番"
+dark_role = "灯油の残量で客の滞在を管理する"
+x = 36
+y = 22
+facing = "down"
+npc_type = "minor"
+phase_count = 2
+clue_ids = ["CL-056"]
+shop_id = ""
+service_id = ""
+personality_note = "几帳面で融通が利かない"
+initial_dialogue_jp = "灯が消えたら出立。それが決まりだ。"
+notes = "継灯の宿場"

@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="BreedRuleData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/breed_rule_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+rule_id = "BRD-2075"
+rule_type = "special"
+parent_a_key = "MON-201"
+parent_b_key = "MON-204"
+child_monster_id = "MON-216"
+priority = 100
+special_recipe_bonus = 1
+lv_requirement = 10
+notes = "皿童+箒兎→機織蜘蛛: 帳場の器物系 Step1"

@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-217"
+slug = "usu_gaeru"
+name_jp = "ウスガエル"
+name_en = "Usu Gaeru"
+family = "material"
+rank = "D"
+size_class = "M"
+motif_group = "tool"
+secondary_motif_group = "pastoral"
+motif_source = "臼 + 蛙 + 脱穀場"
+ontology_class = "wildborn"
+silhouette_type = "wide"
+palette_id = "pal_mortar_frog"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 69
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 30, "mp": 8, "atk": 12, "def": 16, "spd": 8, "int": 7, "res": 10}
+cap_stats = {"hp": 212, "mp": 64, "atk": 116, "def": 148, "spd": 82, "int": 68, "res": 94}
+base_recruit = 20
+scoutable = true
+personality_bias = "sturdy"
+battle_role = "tank"
+trait_1 = "臼潰し"
+trait_2 = "地耐性"
+loot_table_id = "loot_monster_usu_gaeru"
+prompt_id = "PRM-MON-217"
+notes = "脱穀場で臼を背負い跳ねる重い蛙"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 1, "thunder": -1, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

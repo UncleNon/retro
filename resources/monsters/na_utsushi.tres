@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-282"
+slug = "na_utsushi"
+name_jp = "ナウツシ"
+name_en = "Na Utsushi"
+family = "magic"
+rank = "C"
+size_class = "M"
+motif_group = "abstract"
+secondary_motif_group = "bureaucratic"
+motif_source = "名写し + 浮文字 + 台帳"
+ontology_class = "record_bent"
+silhouette_type = "floating"
+palette_id = "pal_name_copy"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 76
+growth_curve_id = "LATE"
+base_stats = {"hp": 24, "mp": 18, "atk": 11, "def": 11, "spd": 14, "int": 18, "res": 16}
+cap_stats = {"hp": 184, "mp": 142, "atk": 104, "def": 104, "spd": 132, "int": 162, "res": 146}
+base_recruit = 14
+scoutable = true
+personality_bias = "calculating"
+battle_role = "controller"
+trait_1 = "名写し"
+trait_2 = "封印微耐性"
+loot_table_id = "loot_monster_na_utsushi"
+prompt_id = "PRM-MON-282"
+notes = "台帳から写し取られた名前が浮遊し動き出す"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 1, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 2, "hush": 1}
+learnset = []

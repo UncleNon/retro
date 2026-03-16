@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-200"
+slug = "warekabin"
+name_jp = "ワレカビン"
+name_en = "Warekabin"
+family = "material"
+rank = "E"
+size_class = "S"
+motif_group = "tool"
+secondary_motif_group = "household"
+motif_source = "割れ瓶 + 蛙目 + 土間"
+ontology_class = "wildborn"
+silhouette_type = "round"
+palette_id = "pal_crack_jar"
+field_sprite_px = 16
+battle_sprite_px = 24
+base_level_cap = 62
+growth_curve_id = "EARLY"
+base_stats = {"hp": 19, "mp": 7, "atk": 10, "def": 10, "spd": 12, "int": 8, "res": 8}
+cap_stats = {"hp": 142, "mp": 54, "atk": 104, "def": 100, "spd": 116, "int": 76, "res": 80}
+base_recruit = 28
+scoutable = true
+personality_bias = "patient"
+battle_role = "tank"
+trait_1 = "ひび殻"
+trait_2 = "水微耐性"
+loot_table_id = "loot_monster_warekabin"
+prompt_id = "PRM-MON-200"
+notes = "土間に放置された割れ瓶が湿気で目を開いた器物"
+resistances = {"fire": 0, "water": 1, "wind": 0, "earth": 1, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

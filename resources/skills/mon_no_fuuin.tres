@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-298"
+slug = "mon_no_fuuin"
+name_jp = "もんのふういん"
+name_en = "Gate Seal"
+category = "status"
+element = "light"
+mp_cost = 12
+target_scope = "single"
+formula_key = "S1"
+base_power = 0
+base_rate = 55
+tags = ["single", "status", "gate_special", "tower_reactive", "seal"]
+battle_role = "CONTROL"
+effect_text = "門の封印を施す"

@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-124"
+slug = "keiyakufukuro"
+name_jp = "ケイヤクフクロ"
+name_en = "Keiyakufukuro"
+family = "bird"
+rank = "C"
+size_class = "M"
+motif_group = "animal"
+secondary_motif_group = "bureaucratic"
+motif_source = "梟 + 契約 + 法台夜番"
+ontology_class = "record_bent"
+silhouette_type = "round"
+palette_id = "pal_pact_owl"
+field_sprite_px = 16
+battle_sprite_px = 32
+base_level_cap = 78
+growth_curve_id = "LATE"
+base_stats = {"hp": 26, "mp": 18, "atk": 12, "def": 12, "spd": 12, "int": 17, "res": 16}
+cap_stats = {"hp": 198, "mp": 140, "atk": 112, "def": 110, "spd": 116, "int": 150, "res": 140}
+base_recruit = 12
+scoutable = true
+personality_bias = "calculating"
+battle_role = "controller"
+trait_1 = "契約読み"
+trait_2 = "闇耐性"
+loot_table_id = "loot_monster_keiyakufukuro"
+prompt_id = "PRM-MON-124"
+notes = "法台の夜番で契約書を見張る大梟"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 1, "seal": 1, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 1, "charm": 0, "mark": 1, "hush": 0}
+learnset = [{"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-017"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-072"}, {"learn_type": "innate", "learn_value": 1, "skill_id": "SKL-019"}]

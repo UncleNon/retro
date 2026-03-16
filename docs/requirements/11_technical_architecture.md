@@ -1,7 +1,7 @@
 # 11. 技術アーキテクチャ
 
 > **ステータス**: Draft v1.0
-> **最終更新**: 2026-03-15
+> **最終更新**: 2026-03-16
 > **ADR**: Unity 6 LTS → Godot 4.4 に変更（2026-03-15）
 
 ---
@@ -67,7 +67,11 @@ repo-root/
 │   ├── items/             # 生成済み ItemData .tres
 │   ├── worlds/            # 生成済み WorldData .tres
 │   ├── encounters/        # 生成済み EncounterZoneData .tres
-│   └── breeding/          # 生成済み BreedRuleData .tres
+│   ├── breeding/          # 生成済み BreedRuleData .tres
+│   ├── npcs/              # 生成済み NpcData .tres
+│   ├── shops/             # 生成済み ShopData .tres
+│   ├── services/          # 生成済み ServiceData .tres
+│   └── loot_tables/       # 生成済み LootTableData .tres
 ├── assets/
 │   ├── sprites/
 │   │   ├── monsters/
@@ -177,16 +181,24 @@ data/csv/*.csv
     ↓
 tools/data/build_resources.py
     ↓
-resources/{monsters,skills,items,worlds,encounters,breeding}/*.tres
+resources/{monsters,skills,items,worlds,encounters,breeding,npcs,shops,services,loot_tables}/*.tres
     ↓
 data/generated/resource_manifest.json
     ↓
-ランタイム読み込み
+ResourceRegistry の content repository bootstrap
+    ↓
+GameManager / SaveSystem / AppRoot のランタイム読み込み
 ```
 
 - Session 03 の canonical build entrypoint は `tools/data/build_resources.py`
 - `addons/csv_importer/` は editor plugin 化の受け皿として残すが、現時点の正は build script
-- build は `monster_master.csv`, `monster_resistance.csv`, `monster_learnset.csv`, `skill_master.csv`, `item_master.csv`, `world_master.csv`, `zone_master.csv`, `encounter_table.csv`, `breed_rule.csv` を読む
+- build は `monster_master.csv`, `monster_resistance.csv`, `monster_learnset.csv`, `skill_master.csv`, `item_master.csv`, `npc_master.csv`, `world_master.csv`, `zone_master.csv`, `encounter_table.csv`, `breed_rule.csv`, `clue_master.csv`, `progress_gate_master.csv`, `master_index.csv`, `asset_registry.csv`, `localization_registry.csv`, `world_dependency_map.csv`, `shop_master.csv`, `shop_inventory_master.csv`, `service_master.csv`, `shop_service_master.csv`, `loot_table_master.csv`, `loot_entry_master.csv`, `entity_alias_master.csv`, `field_scene_master.csv`, `field_rect_master.csv`, `field_point_master.csv`, `field_trigger_master.csv`, `field_interaction_master.csv`, `item_text_master.csv` を読む
+- `data/localization/*.csv` は Session 02 以降 validator の入力であり、Session 02 時点では registry/bootstrap key の整合確認までを担う
+- Session 03 では `npc / shop / service / loot_table` も generated resource の対象に加える。`gate / clue / registry` は引き続き validation authority として保持する
+- Session 04 では `ResourceRegistry` が `manifest + gate / clue / registry CSV` を fail-fast で同時 bootstrap し、`GameManager` はその thin wrapper として振る舞う
+- Session 05 では `field_scene_master.csv`, `field_rect_master.csv`, `field_point_master.csv`, `field_trigger_master.csv`, `field_interaction_master.csv` を canonical field contract として追加し、`ResourceRegistry` はそれらを `field_scenes / field_rects / field_points / field_triggers / field_interactions` として bootstrap する
+- post Session 08 の menu / facility text hook は `item_text_master.csv` を canonical source とし、`ResourceRegistry` は `item_texts` table と `get_item_text(item_id, text_kind, scope_id, shop_id)` lookup を提供する
+- Session 05 以降の runtime 参照は `GameManager` 経由を基本とし、`StartingVillageLayout` / `FieldSceneModel` も含めて直接 `res://resources/...` や ad-hoc CSV path を散発参照しない
 
 ### マスターデータ一覧
 | データ | 形式 | 初期状態 |
@@ -197,8 +209,9 @@ data/generated/resource_manifest.json
 | 世界定義 | CSV → Resource | Session 03 で 4世界 seed |
 | エンカウント | CSV → Resource | Session 03 で 5ゾーン seed |
 | 配合ルール | CSV → Resource | Session 03 で 12ルール seed |
-| NPC | CSV → Resource | 今後追加 |
-| テキスト | CSV/JSON | 今後追加 |
+| NPC | CSV → Resource | Session 03 で alias 正規化込み baseline 導入 |
+| shop / service / loot | CSV → Resource | Session 03 で canonical/legacy 分離を導入 |
+| item provenance strip / shop bark | CSV table | `item_text_master.csv` を runtime lookup authority にする |
 
 ### Godot Resource 定義例（MonsterData）
 ```gdscript
@@ -238,10 +251,10 @@ Session 04 時点では、セーブは `Resource` 直列化ではなく **versio
 
 ```gdscript
 {
-  "schema_version": "0.2.0",
+  "schema_version": "0.3.0",
   "player": {
     "name": "",
-    "gold": 0,
+    "gold": 80,
     "play_time_seconds": 0,
     "current_scene": "res://scenes/main/app_root.tscn",
     "current_position": {"x": 0, "y": 0}
@@ -250,6 +263,7 @@ Session 04 時点では、セーブは `Resource` 直列化ではなく **versio
   "ranch": [],
   "inventory": [],
   "vault": [],
+  "adventure_log": [],
   "progress": {
     "main": {
       "act": 1,
@@ -261,15 +275,39 @@ Session 04 時点では、セーブは `Resource` 直列化ではなく **versio
     }
   },
   "worlds": {},
-  "gates": {},
-  "npcs": {},
-  "clues": {},
+  "gates": {
+    "GATE-001": {
+      "revealed": false,
+      "listening": false,
+      "awakened": false,
+      "stable": false,
+      "ruptured": false,
+      "first_cross_complete": false
+    }
+  },
+  "npcs": {
+    "NPC-VIL-001": {"phase": 0}
+  },
+  "npc_phases": {
+    "NPC-VIL-001": 0
+  },
+  "clues": {
+    "CL-003": {
+      "seen": true,
+      "logged": true,
+      "resolved": false
+    }
+  },
   "codex": {
     "monster_count_seen": 0,
     "monster_count_recruited": 0,
     "recipe_count_known": 0,
     "recipe_count_resolved": 0,
-    "mutation_count_seen": 0
+    "mutation_count_seen": 0,
+    "seen_ids": [],
+    "recruited_ids": [],
+    "known_recipe_ids": [],
+    "resolved_recipe_ids": []
   },
   "stats": {
     "total_battles": 0,
@@ -285,6 +323,7 @@ Session 04 時点では、セーブは `Resource` 直列化ではなく **versio
 ```
 
 - キー構造の正は `docs/specs/systems/07_progress_flags_and_save_state_model.md`
+- `npc_phases` は Session 04 の runtime / smoke compatibility mirror であり、canonical state は `npcs.{npc_id}.phase`
 - 将来的に `Resource` ラッパーや binary save へ移る場合も、この payload shape を先に守る
 
 ---
@@ -321,7 +360,7 @@ user://saves/
 #### Envelope 構造
 ```json
 {
-  "schema_version": "0.2.0",
+  "schema_version": "0.3.0",
   "saved_at_utc": "2026-03-15T12:00:00Z",
   "save_kind": "manual | autosave",
   "slot_id": 1,
@@ -362,18 +401,18 @@ iCloudへアップロード（バックグラウンド、GDExtension経由）
 - オープンソースのGodot iOSプラグインを活用 or 自作
 - Phase 0で「ローカルのみ出荷」と「iCloud対応」の両方を比較し、実装コストに対して価値が見合うか判断する
 
-### Session 04 iOSスパイク結果
+### Session 08 iOS smoke baseline
 - ローカル検証環境:
   - Godot editor: `4.6.1.stable`
   - Xcode: `26.3`
-- 2026-03-15 時点の blockers:
+- 2026-03-16 時点の blockers:
   - Godot export templates が未導入
-  - `export_presets.cfg` が未作成
   - codesigning identity が未設定
 - canonical report:
   - `export/ios/ios_export_smoke_report.json`
   - `export/ios/ios_export_smoke_report.md`
-- したがって、**iOS export は「前提条件未充足のため blocked」** と判断する
+- `export_presets.cfg` は repo に存在し、`iOS Dev` preset まで追加済み
+- したがって、**iOS export は「preset 不在」ではなく `export templates / codesigning` が未充足のため blocked** と判断する
 
 ---
 

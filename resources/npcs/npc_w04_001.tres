@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W04-001"
+scope_id = "W-004"
+name_jp = "サジリ"
+name_en = "Sajiri"
+role = "若い検札副官"
+dark_role = "clean判定を金で早めた記録を消している"
+x = 36
+y = 16
+facing = "down"
+npc_type = "key"
+phase_count = 4
+clue_ids = ["CL-015", "CL-016"]
+shop_id = ""
+service_id = ""
+personality_note = "野心的で要領がいい"
+initial_dialogue_jp = "札を見せろ。……色が合ってれば通す。理由は聞くな。"
+notes = "札差しの岬"

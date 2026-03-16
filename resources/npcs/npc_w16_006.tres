@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W16-006"
+scope_id = "W-016"
+name_jp = "ヨリコ"
+name_en = "Yoriko"
+role = "炉雪の薬師"
+dark_role = "火傷と職人の怪我を治す"
+x = 26
+y = 26
+facing = "right"
+npc_type = "healer"
+phase_count = 2
+clue_ids = []
+shop_id = "shop_w16_clinic"
+service_id = "service_w16_restoration"
+personality_note = "穏やかで手際がいい"
+initial_dialogue_jp = "火傷は治る。……継ぎ目は残るけど、それも生きた証だ。"
+notes = "焼継の鍛土・回復"

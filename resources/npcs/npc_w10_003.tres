@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W10-003"
+scope_id = "W-010"
+name_jp = "エシナ"
+name_en = "Eshina"
+role = "写本見習い"
+dark_role = "後補記欄へ未登録者を一人忍ばせる"
+x = 38
+y = 18
+facing = "left"
+npc_type = "key"
+phase_count = 3
+clue_ids = ["CL-028"]
+shop_id = ""
+service_id = ""
+personality_note = "真面目で罪悪感を持つ"
+initial_dialogue_jp = "一人だけ。……一人だけ、書き足した。存在しないことにされた人を。"
+notes = "群書の塩庫"

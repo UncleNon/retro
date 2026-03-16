@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-313"
+slug = "meikai_no_tobira"
+name_jp = "めいかいのとびら"
+name_en = "Nether Door"
+category = "magic"
+element = "dark"
+mp_cost = 18
+target_scope = "single"
+formula_key = "M1"
+base_power = 70
+base_rate = 35
+tags = ["single", "fixed_magic", "dark", "s_rank", "instant_death"]
+battle_role = "CONTROL"
+effect_text = "冥界の扉を開く"

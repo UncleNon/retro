@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-VIL-009"
+scope_id = "VIL"
+name_jp = "ガロ"
+name_en = "Garo"
+role = "北道の柵直し"
+dark_role = "柵が村人を行かせない向きに立つ"
+x = 45
+y = 18
+facing = "up"
+npc_type = "minor"
+phase_count = 4
+clue_ids = ["CL-005"]
+shop_id = ""
+service_id = ""
+personality_note = "実直な職人。言葉少な"
+initial_dialogue_jp = "柵は向こうのためじゃない。こっちのためだ。"
+notes = "開始村"

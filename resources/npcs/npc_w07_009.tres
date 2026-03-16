@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W07-009"
+scope_id = "W-007"
+name_jp = "セツナ"
+name_en = "Setsuna"
+role = "下層の薬師"
+dark_role = "badge なしでも治療する"
+x = 26
+y = 42
+facing = "right"
+npc_type = "healer"
+phase_count = 2
+clue_ids = []
+shop_id = "shop_w07_clinic"
+service_id = "service_w07_restoration"
+personality_note = "温かく差別を嫌う"
+initial_dialogue_jp = "痛みに badge は関係ない。誰でも診るよ。"
+notes = "削名の階市・回復"

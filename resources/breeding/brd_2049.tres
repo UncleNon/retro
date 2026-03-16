@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="BreedRuleData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/breed_rule_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+rule_id = "BRD-2049"
+rule_type = "special"
+parent_a_key = "MON-127"
+parent_b_key = "MON-109"
+child_monster_id = "MON-138"
+priority = 115
+special_recipe_bonus = 1
+lv_requirement = 22
+notes = "伏燕+凪海鳥→天津鷺(A): 聖水路の鷺 Step3→A"

@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-322"
+slug = "tsuchi_no_ikari"
+name_jp = "つちのいかり"
+name_en = "Earth Anger"
+category = "magic"
+element = "earth"
+mp_cost = 7
+target_scope = "single"
+formula_key = "M1"
+base_power = 28
+base_rate = 20
+tags = ["single", "fixed_magic", "earth", "status"]
+battle_role = "BREAK_DEF"
+effect_text = "大地の怒りで縛る"

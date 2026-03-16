@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-398"
+slug = "meikoku_ryuu"
+name_jp = "メイコクリュウ"
+name_en = "Meikoku Ryuu"
+family = "dragon"
+rank = "B"
+size_class = "M"
+motif_group = "myth"
+secondary_motif_group = "bureaucratic"
+motif_source = "銘刻竜 + 判決鱗 + 法碑"
+ontology_class = "record_bent"
+silhouette_type = "tall"
+palette_id = "pal_decree_dragon"
+field_sprite_px = 16
+battle_sprite_px = 48
+base_level_cap = 76
+growth_curve_id = "LATE"
+base_stats = {"hp": 26, "mp": 18, "atk": 16, "def": 14, "spd": 15, "int": 18, "res": 16}
+cap_stats = {"hp": 200, "mp": 140, "atk": 152, "def": 126, "spd": 140, "int": 152, "res": 138}
+base_recruit = 0
+scoutable = false
+personality_bias = "calculating"
+battle_role = "controller"
+trait_1 = "判決鱗"
+trait_2 = "封印耐性"
+loot_table_id = "loot_monster_meikoku_ryuu"
+prompt_id = "PRM-MON-398"
+notes = "法碑に巻きつき判決を鱗に刻む裁きの竜"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 1, "fear": 0, "instant_death": 0, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 0, "hush": 0}
+learnset = []

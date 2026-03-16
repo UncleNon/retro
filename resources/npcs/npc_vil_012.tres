@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-VIL-012"
+scope_id = "VIL"
+name_jp = "マグサ"
+name_en = "Magusa"
+role = "猟師"
+dark_role = "失踪を「数え直された」と表現する"
+x = 52
+y = 12
+facing = "down"
+npc_type = "key"
+phase_count = 4
+clue_ids = ["CL-002"]
+shop_id = ""
+service_id = ""
+personality_note = "臆病だが事情通"
+initial_dialogue_jp = "消えた、じゃない。減った。……数え直されたんだ。"
+notes = "開始村"

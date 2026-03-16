@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W09-005"
+scope_id = "W-009"
+name_jp = "ユキノ"
+name_en = "Yukino"
+role = "雪路案内"
+dark_role = "冬道と夏道で案内先が変わる"
+x = 28
+y = 32
+facing = "down"
+npc_type = "minor"
+phase_count = 2
+clue_ids = []
+shop_id = ""
+service_id = ""
+personality_note = "慎重で土地勘がある"
+initial_dialogue_jp = "冬の道と夏の道は別だ。人の名前みたいにな。"
+notes = "仮親の雪原"

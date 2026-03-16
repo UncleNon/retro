@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-VIL-010"
+scope_id = "VIL"
+name_jp = "レン"
+name_en = "Ren"
+role = "荷運び"
+dark_role = "外の町では塔を別名で呼ぶ"
+x = 46
+y = 57
+facing = "up"
+npc_type = "minor"
+phase_count = 4
+clue_ids = []
+shop_id = ""
+service_id = ""
+personality_note = "外の世界を少し知っている"
+initial_dialogue_jp = "町ではあの建物を別の名で呼ぶんだ。ここだけだよ、あんなに嫌うのは。"
+notes = "開始村"

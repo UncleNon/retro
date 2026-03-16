@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="NpcData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/npc_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+npc_id = "NPC-W17-002"
+scope_id = "W-017"
+name_jp = "エダン"
+name_en = "Edan"
+role = "遺留品broker"
+dark_role = "遺族ごとに都合のよい遺留品を選ぶ"
+x = 24
+y = 28
+facing = "right"
+npc_type = "key"
+phase_count = 3
+clue_ids = ["CL-042"]
+shop_id = ""
+service_id = ""
+personality_note = "口が達者で倫理観が薄い"
+initial_dialogue_jp = "遺留品は真実じゃない。……遺族が欲しい真実だ。"
+notes = "残名の回廊"

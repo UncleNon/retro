@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/skill_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+skill_id = "SKL-221"
+slug = "shinsoku_no_uta"
+name_jp = "しんそくのうた"
+name_en = "Speed Chant"
+category = "setup"
+element = "wind"
+mp_cost = 4
+target_scope = "ally_single"
+formula_key = "B1"
+base_power = 0
+base_rate = 0
+tags = ["setup", "buff", "spd", "wind"]
+battle_role = "ALLY_SUSTAIN"
+effect_text = "SPDを1段階上げる"

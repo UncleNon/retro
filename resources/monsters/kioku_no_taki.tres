@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-501"
+slug = "kioku_no_taki"
+name_jp = "キオクノタキ"
+name_en = "Kioku no Taki"
+family = "slime"
+rank = "A"
+size_class = "L"
+motif_group = "abstract"
+secondary_motif_group = "funerary"
+motif_source = "記憶の滝 + 落下 + 名の瀑布"
+ontology_class = "remnant_bearing"
+silhouette_type = "massive"
+palette_id = "pal_memory_falls"
+field_sprite_px = 16
+battle_sprite_px = 48
+base_level_cap = 80
+growth_curve_id = "LEGEND"
+base_stats = {"hp": 30, "mp": 22, "atk": 15, "def": 13, "spd": 16, "int": 22, "res": 20}
+cap_stats = {"hp": 232, "mp": 172, "atk": 142, "def": 118, "spd": 148, "int": 186, "res": 168}
+base_recruit = 0
+scoutable = false
+personality_bias = "haunted"
+battle_role = "controller"
+trait_1 = "記憶落下"
+trait_2 = "闇微耐性"
+loot_table_id = "loot_monster_kioku_no_taki"
+prompt_id = "PRM-MON-501"
+notes = "記憶が滝のように落下し続ける名の瀑布"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 1, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 0, "fear": 0, "instant_death": 0, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 1, "hush": 0}
+learnset = []

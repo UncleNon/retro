@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+monster_id = "MON-271"
+slug = "nijimi_bo"
+name_jp = "ニジミボウ"
+name_en = "Nijimi Bou"
+family = "magic"
+rank = "E"
+size_class = "S"
+motif_group = "abstract"
+secondary_motif_group = "bureaucratic"
+motif_source = "滲み棒 + 筆跡 + 帳場"
+ontology_class = "record_bent"
+silhouette_type = "tall"
+palette_id = "pal_blot_stick"
+field_sprite_px = 16
+battle_sprite_px = 24
+base_level_cap = 63
+growth_curve_id = "STANDARD"
+base_stats = {"hp": 18, "mp": 11, "atk": 9, "def": 8, "spd": 13, "int": 12, "res": 11}
+cap_stats = {"hp": 138, "mp": 86, "atk": 92, "def": 84, "spd": 126, "int": 98, "res": 96}
+base_recruit = 26
+scoutable = true
+personality_bias = "still"
+battle_role = "controller"
+trait_1 = "にじみ"
+trait_2 = "封印微耐性"
+loot_table_id = "loot_monster_nijimi_bo"
+prompt_id = "PRM-MON-271"
+notes = "帳場で筆跡が棒のように立ち上がる"
+resistances = {"fire": 0, "water": 0, "wind": 0, "earth": 0, "thunder": 0, "light": 0, "dark": 0, "poison": 0, "sleep": 0, "paralysis": 0, "confusion": 0, "seal": 1, "fear": 0, "instant_death": -1, "burn": 0, "freeze": 0, "curse": 0, "blind": 0, "charm": 0, "mark": 1, "hush": 0}
+learnset = []
